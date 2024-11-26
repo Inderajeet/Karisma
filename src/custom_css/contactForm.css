@@ -1,0 +1,57 @@
+.elementor-73311 .elementor-element.elementor-element-6859ace0 .section-title-wrapper .section-title {
+    margin-bottom: 20px;
+    font-size: 39px;
+    color: #405D53;
+}
+
+.elementor-73311 .elementor-element.elementor-element-6859ace0 .section-description .section-content {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #577065;
+  font-size: 16px; 
+  font-style: italic; 
+  font-weight: bold; 
+}
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color:  #8C9990;
+  font-style: normal; 
+}
+
+.contact-us-form input.wpcf7-form-control.wpcf7-submit {
+    color: whitesmoke;
+    background-color: #405D53;
+}
+
+.contact-form-wrapper input.wpcf7-form-control.wpcf7-submit:hover{
+    color: #ffffff;
+    background-color: #577065;
+}
+
+input.wpcf7-form-control, textarea.wpcf7-form-control{
+    border-bottom: #405D53 solid 1px;
+    color: #405D53;
+}
+input.wpcf7-form-control:focus, textarea.wpcf7-form-control:focus{
+    border-bottom: 1px solid #8C9990;
+    color: #405D53;
+}
+
+/* Hide default radio button */
+input[type="radio"] {
+    width: 17px;
+    position: static;
+  }
+
+  .elementor-73311 .elementor-element.elementor-element-302573ab:not(.elementor-motion-effects-element-type-background){
+    /* background-color: white; */
+    /* background-color: transparent; */
+  }
+
+  #site-content {
+    /* background: #e5c29c; */
+}
