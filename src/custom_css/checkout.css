@@ -65,3 +65,38 @@
     margin-top: 1rem;
   }
   
+
+  @media (max-width: 768px) {
+    .offer-title {
+        font-size: 25px;
+        /* font-weight: bold; */
+        margin-top: 1rem;
+    }
+    .summary-details{
+      text-align: center;
+    }
+    .price-title{
+      text-align: center;
+    }
+    
+    .summary-img {
+        width: 100%;
+    }
+    
+    .checkout-summary-card {
+        display: block;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .checkout-flex {
+        display: block;
+        gap: 2rem;
+        padding: 2rem;
+        margin: 0rem;
+        
+    }
+    .checkout-summary-container{
+      margin-top: 1rem;
+    }
+}

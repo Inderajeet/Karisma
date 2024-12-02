@@ -1,5 +1,6 @@
 import AppointmentButton from "../components/AppointmentButton";
 import ContactDetail from "../components/ContactDetail";
+import ContactForm from "../components/ContactForm";
 import Footer from "../components/footer";
 import HeaderContact from "../components/headercontact";
 
@@ -243,7 +244,7 @@ export default function ContactPage() {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div
+                                                        {/* <div
                                                             className="elementor-element elementor-element-302573ab e-flex e-con-boxed e-con e-child"
                                                             data-id="302573ab"
                                                             data-element_type="container"
@@ -410,13 +411,12 @@ export default function ContactPage() {
                                                                                     </form>
                                                                                 </div>
                                                                             </div>
-                                                                            {/* .contact-form */}
                                                                         </div>
-                                                                        {/* .contact-form-wrapper */}
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </div> */}
+                                                        <ContactForm></ContactForm>
                                                     </div>
                                                 </div>
                                                 <ContactDetail></ContactDetail>

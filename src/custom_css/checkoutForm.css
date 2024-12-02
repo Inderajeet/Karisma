@@ -61,7 +61,7 @@ textarea:focus::placeholder{
 .error-text {
     color: red;
     font-size: 14px;
-    font-weight: bold;
+    /* font-weight: bold; */
     /* margin-top: 5px; */
 }
 

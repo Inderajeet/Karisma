@@ -11,6 +11,7 @@ import Offers from './pages/offers';
 import Cart from './pages/cart';
 import PageLoader from "./components/PageLoader";
 import Checkout from './components/Checkout';
+import OfferDetails from './components/OfferDetails';
 
 Modal.setAppElement('#root'); // For accessibility
 
@@ -18,54 +19,54 @@ function App() {
   return (
     <Router>
       <CartProvider>
-        {/* <NavigationWithLoader> */}
+        <NavigationWithLoader>
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/contact_us" element={<ContactPage />} />
+            <Route path="/contact_us" element={<ContactPage />} /> 
             <Route path="/about" element={<About />} />
             <Route path="/doctor" element={<Doctors />} />
             <Route path="/offers" element={<Offers />} />
+            <Route path="/service/:slug" element={<OfferDetails />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/checkout" element={<Checkout />} />
           </Routes>
-        {/* </NavigationWithLoader> */}
+        </NavigationWithLoader>
       </CartProvider>
     </Router>
   );
 }
 
-// function NavigationWithLoader({ children }) {
-//   const [loading, setLoading] = useState(false);
-//   const location = useLocation();
+function NavigationWithLoader({ children }) {
+  const [loading, setLoading] = useState(true); // Start with loading
+  const location = useLocation();
 
-//   useEffect(() => {
-//     // Start loader on route change
-//     setLoading(true);
+  useEffect(() => {
+    const handlePageLoad = () => setLoading(false); // Hide loader when everything is loaded
 
-//     // Stop loader only after new page finishes rendering
-//     const stopLoading = () => setLoading(false);
-//     const timeoutId = setTimeout(stopLoading, 2000); // Safety timeout in case of very fast renders
+    // Add an event listener for the window load event
+    window.addEventListener('load', handlePageLoad);
 
-//     return () => clearTimeout(timeoutId); // Cleanup timeout
-//   }, [location]);
+    return () => {
+      window.removeEventListener('load', handlePageLoad); // Cleanup on unmount
+    };
+  }, []);
 
-//   useEffect(() => {
-//     const handlePageLoad = () => setLoading(false); // Hide loader when the page finishes rendering
+  useEffect(() => {
+    setLoading(true); // Show loader on route change
 
-//     // Wait for the browser's rendering cycle to complete
-//     requestAnimationFrame(() => {
-//       setTimeout(handlePageLoad, 2000); // Add delay to smoothen the loader
-//     });
+    // Simulate a smoother transition while React renders
+    const stopLoading = () => setLoading(false);
+    const timeoutId = setTimeout(stopLoading, 2000); // Safety timeout in case resources load too fast
 
-//     return () => {}; // No cleanup needed here
-//   }, [loading]);
+    return () => clearTimeout(timeoutId); // Cleanup timeout on unmount
+  }, [location]);
 
-//   return (
-//     <>
-//       {loading && <PageLoader />} {/* Show loader while loading */}
-//       {!loading && children} {/* Render children after loading */}
-//     </>
-//   );
-// }
+  return (
+    <>
+      {loading && <PageLoader />} {/* Show loader until everything is loaded */}
+      {!loading && children} {/* Render children when loading is complete */}
+    </>
+  );
+}
 
 export default App;

@@ -4,63 +4,150 @@ import { useNavigate } from 'react-router-dom';
 import { useCart } from '../components/CartContext';
 import Footer from '../components/footer';
 import HeaderContact from '../components/headercontact';
-import PageLoader from '../components/PageLoader';
+import { useState } from 'react';
+import ServiceForm from '../components/ServiceForm';
+import { Modal, Button } from 'react-bootstrap';
 
 export default function Offers() {
- 
+
     const { addToCart } = useCart();
     const navigate = useNavigate();
+
+    const [selectedOffer, setSelectedOffer] = useState(null);
+    const [showModal, setShowModal] = useState(false);
+
+    const handleBookNow = (offer) => {
+        setSelectedOffer(offer);
+        setShowModal(true);
+    };
+
+    const closeModal = () => {
+        setShowModal(false);
+        setSelectedOffer(null);
+    };
 
     const offersData = [
         {
             id: 1,
-            name: 'Scaling and Root Planing',
-            description: 'We Create Beautiful Smiles Lorem ipsum dolor sit amet consectetur. Eget..',
-            image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-1.webp',
-            link: "https://wordpress.zozothemes.com/happysmile/service/scaling-and-root-planing/",
+            name: 'Basic MO Premium Smile',
+            description: 'Premium (Basic MO), where Simplicity Meets Affordability',
+            image: 'https://damasmc.com/uploads/products/product8960d340958866b82d4e3761e1bb3a81aa081b83.jpg',
+            slug: 'basic-mo-premium-smile',
             price: 1799,
-            btn_text: 'Read More',
+            btn_text: 'Book An Appointment',
             vat: 0,
         }, {
             id: 2,
-            name: 'Teeth Whitening',
-            description: 'We Create Beautiful Smiles Lorem ipsum dolor sit amet consectetur. Eget..',
+            name: 'G-Glass',
+            description: 'We offering our patients the most advanced and exceptional dental solutions.',
             image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-9.webp',
-            link: "https://wordpress.zozothemes.com/happysmile/service/teeth-whitening/",
-            price: 1799,
-            btn_text: 'Read More',
+            slug: 'gc-snow-white-hollywood-smile',
+            price: 4500,
+            btn_text: 'Book An Appointment',
         }, {
             id: 3,
-            name: 'Invisalign & ClearCorrect',
-            description: 'We Create Beautiful Smiles Lorem ipsum dolor sit amet consectetur. Eget..',
+            name: 'Zircon Smile',
+            description: 'Embrace Unmatched Strength with Stunning Clarity',
             image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-6.webp',
-            link: "https://wordpress.zozothemes.com/happysmile/service/invisalign-clearcorrect/",
-            price: 1799,
-            btn_text: 'Read More',
+            slug: 'zircon-hollywood-smile',
+            price: 6999,
+            btn_text: 'Book An Appointment',
         }, {
             id: 4,
-            name: 'Zirconium Crowns',
-            description: 'We Create Beautiful Smiles Lorem ipsum dolor sit amet consectetur. Eget..',
+            name: 'Ortho',
+            description: 'We understand the transformative power of a smile.',
             image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-2.webp',
             link: "https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/",
-            price: 1799,
-            btn_text: 'Read More',
+            price: 499,
+            btn_text: 'Book An Appointment',
         }, {
             id: 5,
-            name: 'Partials & Dentures',
-            description: 'We Create Beautiful Smiles Lorem ipsum dolor sit amet consectetur. Eget..',
+            name: 'SP',
+            description: 'Looking for a permanent solution to missing or damaged teeth?',
             image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-4.webp',
             link: "https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/",
-            price: 1799,
-            btn_text: 'Read More',
+            price: 99,
+            btn_text: 'Book An Appointment',
         }, {
             id: 6,
-            name: 'Wisdom Tooth Extraction',
-            description: 'We Create Beautiful Smiles Lorem ipsum dolor sit amet consectetur. Eget..',
+            name: 'Botox',
+            description: 'Beyond Wrinkles at Damas Medical Center',
             image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-7.webp',
             link: "https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/",
-            price: 1799,
-            btn_text: 'Read More',
+            price: 349,
+            btn_text: 'Book An Appointment',
+        }, {
+            id: 7,
+            name: 'Filler',
+            description: 'Explore the World of Dermal Fillers at Damas Medical Center',
+            image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-7.webp',
+            link: "https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/",
+            price: 349,
+            btn_text: 'Book An Appointment',
+        }, {
+            id: 8,
+            name: 'Botox + Filler',
+            description: 'Versatility of Botox: Beyond Wrinkles at Damas Medical Center',
+            image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-7.webp',
+            link: "https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/",
+            price: 653,
+            btn_text: 'Book An Appointment',
+        }, {
+            id: 9,
+            name: 'Candela',
+            description: 'Delivers comfortable treatment with integrated cooling technology.',
+            image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-7.webp',
+            link: "https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/",
+            price: 180,
+            btn_text: 'Book An Appointment',
+        },{
+            id: 10,
+            name: 'Cynosure',
+            description: 'The Cynosure Elite+ is a powerful laser system featuring a long-pulse',
+            image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-7.webp',
+            link: "https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/",
+            price: 180,
+            btn_text: 'Book An Appointment',
+        },{
+            id: 11,
+            name: 'Beard Laser',
+            description: 'Revolutionary Approach to Hair Removal',
+            image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-7.webp',
+            link: "https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/",
+            price: 180,
+            btn_text: 'Book An Appointment',
+        },{
+            id: 12,
+            name: 'HydraFacial',
+            description: 'Discover the Power of Facials and HydraFacial',
+            image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-7.webp',
+            slug:'basic-hydrafacial',
+            price: 180,
+            btn_text: 'Book An Appointment',
+        },{
+            id: 13,
+            name: 'Carbon Laser or Lip Pinking Or Magic Facial',
+            description: 'Unveiling the Power of Our Facials',
+            image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-7.webp',
+            link: "https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/",
+            price: 180,
+            btn_text: 'Book An Appointment',
+        },{
+            id: 14,
+            name: 'Meso Fat Tummy',
+            description: 'Stubborn fat deposits can be a roadblock on the path to achieving your aesthetic goals.',
+            image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-7.webp',
+            slug: 'meso-fat-injections',
+            price: 180,
+            btn_text: 'Book An Appointment',
+        },{
+            id: 15,
+            name: 'V. Filler',
+            description: 'Enhance Your Intimacy with Vaginal Fillers',
+            image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-7.webp',
+            link: "https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/",
+            price: 180,
+            btn_text: 'Book An Appointment',
         },
     ];
 
@@ -68,6 +155,10 @@ export default function Offers() {
         addToCart(offer);
         navigate('/cart');
     }
+    
+    const handleOfferClick = (slug) => {
+        navigate(`/service/${slug}`);  // Programmatically navigate to the offer details page
+      };
 
     return (
         <>
@@ -104,10 +195,13 @@ export default function Offers() {
                                                         <div className="col-lg-4 col-md-4" key={offer.id}>
                                                             <div className="service-inner">
                                                                 <div className="post-thumb">
+
                                                                     <a
-                                                                        href={offer.link}
+                                                                        
+                                                                        onClick={() => handleOfferClick(offer.slug)}
                                                                         className="post-image-link"
                                                                     >
+                                                                    {/* <Link to={`/offers/${offer.slug}`}> */}
                                                                         <img
                                                                             decoding="async"
                                                                             src={offer.image}
@@ -115,6 +209,7 @@ export default function Offers() {
                                                                             alt={offer.name}
                                                                             className="img-fluid squared"
                                                                         />
+                                                                        {/* </Link> */}
                                                                     </a>
                                                                 </div>
                                                                 {/* .post-thumb */}
@@ -123,29 +218,39 @@ export default function Offers() {
                                                                     <div className="entry-title">
                                                                         <h4 className="post-title-head">
                                                                             <a
-                                                                                href="https://wordpress.zozothemes.com/happysmile/service/scaling-and-root-planing/"
+                                                                                onClick={() => handleOfferClick(offer.slug)}
                                                                                 className="post-title"
                                                                             >
-                                                                                {offer.name}
+                                                                             {/* <Link to={`/offers/${offer.slug}`} className="post-title"> */}
+                                                                            {offer.name}
                                                                             </a>
+                                                                            {/* </Link> */}
                                                                         </h4>
+                                                                        
                                                                     </div>
                                                                     {/* .entry-title */}
                                                                     <div className="post-excerpt">
                                                                         {offer.description}
                                                                     </div>
+                                                                    <div className='offer-price-title'>{offer.price} AED</div>
                                                                     {/* .post-excerpt */}
                                                                     <div className="bottom-meta clearfix">
                                                                         <ul className="nav bottom-meta-list meta-left">
                                                                             <li>
-                                                                                <div className="post-more">
+
+                                                                                <div className="post-more" key={offer.id}>
                                                                                     <a
-                                                                                        href="https://wordpress.zozothemes.com/happysmile/service/scaling-and-root-planing/"
+                                                                                        onClick={() => handleBookNow(offer)}
+                                                                                        // href="https://wordpress.zozothemes.com/happysmile/service/scaling-and-root-planing/"
                                                                                         className="read-more elementor-button"
                                                                                     >
                                                                                         {offer.btn_text}
                                                                                     </a>
                                                                                 </div>
+
+                                                                                {/* {selectedOffer && (
+                                                                                    <ServiceForm offer={selectedOffer} onClose={closePopup} />
+                                                                                )} */}
                                                                             </li>
                                                                         </ul>
                                                                         <div className='payNowbtn' onClick={() => handleAddToCart(offer)}>
@@ -165,6 +270,22 @@ export default function Offers() {
                                                 </div>
                                             </div>
                                         </div>
+                                        {selectedOffer && (
+                                            <Modal
+                                                show={showModal}
+                                                onHide={closeModal}
+                                                dialogClassName="my-modal"
+                                                centered
+                                                aria-labelledby="example-custom-modal-styling-title"
+                                            >
+                                                <Modal.Header closeButton>
+                                                    <div style={{ fontSize: '30px', margin: '8px 0' }}>Book {selectedOffer.name}</div>
+                                                </Modal.Header>
+                                                <Modal.Body>
+                                                    <ServiceForm offer={selectedOffer} onClose={closeModal} />
+                                                </Modal.Body>
+                                            </Modal>
+                                        )}
                                     </div>
                                 </div>
                             </div>
@@ -177,6 +298,7 @@ export default function Offers() {
                 {/* .container */}
                 {/* </main> */}
             </div>
+
             <Footer></Footer>
         </>
 

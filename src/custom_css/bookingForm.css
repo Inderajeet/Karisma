@@ -2,10 +2,9 @@
     border: var(--bs-border-width) solid #8FB9A9 !important;
 }
 .modal {
-    z-index: 19999055 !important; /* Force modal to render above other elements */
+    z-index: 10000 !important; /* Force modal to render above other elements */
     position: fixed !important; /* Ensure it detaches from any parent stacking */
 }
-
 
 .form-control:focus {
     border-color: #405D53 !important;
