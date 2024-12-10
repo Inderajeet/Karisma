@@ -4,6 +4,7 @@ import "../custom_css/checkout.css";
 import Footer from "../components/footer";
 import HeaderContact from "../components/headercontact";
 import CheckoutForm from "./CheckoutForm";
+import HeaderCheckout from "./headerCheckout";
 
 
 export default function Checkout() {
@@ -63,7 +64,7 @@ export default function Checkout() {
 
   return (
     <>
-      <HeaderContact />
+      <HeaderCheckout />
       <div className="checkout">
         <div className="checkout-flex container">
           {/* left side form */}

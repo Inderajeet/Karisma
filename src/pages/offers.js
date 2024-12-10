@@ -7,6 +7,7 @@ import HeaderContact from '../components/headercontact';
 import { useState } from 'react';
 import ServiceForm from '../components/ServiceForm';
 import { Modal, Button } from 'react-bootstrap';
+import HeaderOffers from '../components/headerOffer';
 
 export default function Offers() {
 
@@ -31,7 +32,7 @@ export default function Offers() {
             id: 1,
             name: 'Basic MO Premium Smile',
             description: 'Premium (Basic MO), where Simplicity Meets Affordability',
-            image: 'https://damasmc.com/uploads/products/product8960d340958866b82d4e3761e1bb3a81aa081b83.jpg',
+            image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-1.webp',
             slug: 'basic-mo-premium-smile',
             price: 1799,
             btn_text: 'Book An Appointment',
@@ -162,7 +163,7 @@ export default function Offers() {
 
     return (
         <>
-            <HeaderContact></HeaderContact>
+            <HeaderOffers></HeaderOffers>
             {/* <main id="site-content"> */}
             <div className='offerPage'>
                 <div className="happysmile-content-wrap container page ">

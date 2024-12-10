@@ -3,8 +3,8 @@ import { useCart } from "../components/CartContext";
 import "../custom_css/cart.css";
 import { useNavigate } from "react-router-dom";
 import Footer from "../components/footer";
-import HeaderContact from "../components/headercontact";
 import { useEffect } from "react";
+import HeaderCart from "../components/headerCart";
 
 export default function Cart() {
   const { cartItems, removeFromCart } = useCart();
@@ -17,7 +17,7 @@ export default function Cart() {
 
   return (
     <>
-    <HeaderContact></HeaderContact>
+    <HeaderCart></HeaderCart>
       <div className="cart">
         <div className="happysmile-content-wrap container page">
         {cartItems.length === 0 ? (
