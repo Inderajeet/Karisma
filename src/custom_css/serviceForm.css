@@ -45,3 +45,13 @@
     color: #dc3545;
 }
 
+.serviceDisplay{
+    display: flex;
+}
+
+@media (max-width: 565px) {
+    .serviceDisplay{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -44,12 +44,12 @@ export default function HeaderContact() {
         href="https://wordpress.zozothemes.com/happysmile/wp-content/plugins/classic-elementor-addons-pro/assets/css/themify-icons.css?ver=1.0"
         media="all"
       />
-      <link
+      {/* <link
         rel="stylesheet"
         id="bootstrap-icons-css"
         href="https://wordpress.zozothemes.com/happysmile/wp-content/plugins/classic-elementor-addons-pro/assets/css/bootstrap-icons.css?ver=1.0"
         media="all"
-      />
+      /> */}
       <link
         rel="stylesheet"
         id="cea-style-css"
@@ -164,12 +164,12 @@ export default function HeaderContact() {
         href="https://wordpress.zozothemes.com/happysmile/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.32.0"
         media="all"
       />
-      <link
+      {/* <link
         rel="stylesheet"
         id="elementor-frontend-css"
         href="https://wordpress.zozothemes.com/happysmile/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.25.8"
         media="all"
-      />
+      /> */}
       <link
         rel="stylesheet"
         id="swiper-css"

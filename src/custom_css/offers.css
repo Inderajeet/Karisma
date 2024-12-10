@@ -100,3 +100,11 @@ a, a:focus, a:hover, a:active{
     /* width: 90vw !important;     */
     max-width: 75vw !important;
 }
+
+@media (max-width: 420px) {
+    .payNowbtn{
+        display: block;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+}

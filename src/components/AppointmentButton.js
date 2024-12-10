@@ -25,7 +25,7 @@ export default function AppointmentButton() {
                         <div className="cea-button-wrapper">
                             <button
                                 onClick={handleOpen}
-                                className="cea-button-link elementor-button cea-button elementor-size-sm"
+                                className="cea-button-link cust-elementor-button cea-button elementor-size-sm"
                             >
                                 <span className="cea-button-content-wrapper">
                                     <span className="cea-button-icon cea-align-icon-right">

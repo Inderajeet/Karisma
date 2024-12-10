@@ -1,4 +1,4 @@
-export default function HeaderDoctor() {
+export default function HeaderOffers() {
     return (
       <>
   
@@ -844,7 +844,7 @@ export default function HeaderDoctor() {
                             >
                               <a href="/doctor" style={{ fontFamily: 'Tajawal variant2' }}>
   
-                                Our Doctors
+                                Offers
                               </a>
                             </li>
                             <li
@@ -868,7 +868,7 @@ export default function HeaderDoctor() {
                               className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73582"
                             >
                               <a href="/contact_us" style={{ fontFamily: 'Tajawal variant2' }}>
-                                Our Doctors
+                                Offers
                               </a>
                             </li>
                           </ul>
@@ -919,7 +919,7 @@ export default function HeaderDoctor() {
                   <div className="col-12">
                     <div className="page-title-wrap">
                       <ul className="page-title-elements page-title-center pull-center">
-                        <h1 className="page-title">Our Doctors</h1>
+                        <h1 className="page-title">Offers</h1>
                         <div className="breadcrumbs-wrap">
                           <li className="breadcrumb-wrap">
                             <ul id="breadcrumb" className="breadcrumb nav">
@@ -929,7 +929,7 @@ export default function HeaderDoctor() {
                                 </a>
                                 <i className="breadcrumb-delimiter" />
                               </li>{" "}
-                              <li>Our Doctors</li>
+                              <li>Offers</li>
                             </ul>
                           </li>
                         </div>

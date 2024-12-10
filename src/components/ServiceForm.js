@@ -91,7 +91,7 @@ export default function ServiceForm({ offer, show, onClose }) {
     };
 
     return (
-        <div className="d-flex">
+        <div className="serviceDisplay">
             {/* Image */}
             <div style={{ flex: 1, alignSelf:'center' }}>
                 <img

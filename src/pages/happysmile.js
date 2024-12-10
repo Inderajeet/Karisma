@@ -10516,9 +10516,6 @@ export default function HappySmile() {
     <i className="bi bi-caret-up-fill" />
   </a>
 </div>
-
  </>
-
-
   );
 }

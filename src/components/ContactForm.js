@@ -55,8 +55,8 @@ export default function ContactForm() {
         if (Object.keys(newErrors).length === 0) {
             setIsSubmitting(true);
             try {
-                const response = await fetch('', {
-                // const response = await fetch('https://dental.dmaksolutions.com/api/contact', {
+                // const response = await fetch('', {
+                const response = await fetch('https://dental.dmaksolutions.com/api/contact', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',

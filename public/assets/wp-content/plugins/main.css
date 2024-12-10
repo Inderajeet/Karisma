@@ -1,5 +1,10 @@
 /* <style id="happysmile-style-inline-css"> */
 
+:root {
+    --e-global-color-primary: #405D53;
+    --e-global-color-secondary: #2ecc71;
+  }
+  
 @media (min-width:1400px) {
 
     .container,

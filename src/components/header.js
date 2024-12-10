@@ -1,25 +1,17 @@
-
 import React, { useState } from "react";
 import Booking from "../components/BookingForm";
 
 export default function Header() {
   const [showBooking, setShowBooking] = useState(false);
-    const [successMessage, setSuccessMessage] = useState(null);
 
-    const handleOpen = (e) => {
-      console.log('working');
-        setShowBooking(true);
-    };
-
-    const handleClose = () => {
-        setShowBooking(false);
-    };
+  const handleOpen = () => setShowBooking(true);
+  const handleClose = () => setShowBooking(false);
   return (
     <>
+
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="profile" href="https://gmpg.org/xfn/11" />
-      <title>Medical &amp; Dentist WordPress Theme</title>
       <meta name="robots" content="max-image-preview:large" />
       <link
         rel="alternate"
@@ -463,11 +455,11 @@ export default function Header() {
                     <div className="header-titles">
                       <a
                         className="site-link"
-                        href="https://wordpress.zozothemes.com/happysmile/"
+                        href=""
                       >
                         <img
                           className="img-fluid mobile-logo"
-                          src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/HappySmile-logo.png"
+                          src="assets/Images/logo_main-3.png"
                           alt="Medical & Dentist WordPress Theme"
                         />
                       </a>
@@ -497,10 +489,10 @@ export default function Header() {
             <div className="container-fluid">
               <ul className="nav topbar-ul element-left right-element-exist">
                 <li>
-                  <div className="Topbar-line" style={{ fontFamily: 'Tajawal variant2' }}>
+                  <div className="Topbar-line" style={{ fontFamily: 'Visby, sans-serif' }}>
                     A healthier{" "}
                     <a
-                      href="https://wordpress.zozothemes.com/colf/courses/"
+                      href="/"
                       className="theme-color"
                     >
                       <strong> smile</strong>{" "}
@@ -509,7 +501,7 @@ export default function Header() {
                   </div>
                 </li>
               </ul>
-              <ul className="nav topbar-ul pull-center justify-content-center right-element-exist" style={{ fontFamily: 'Tajawal variant2' }}>
+              <ul className="nav topbar-ul pull-center justify-content-center right-element-exist" style={{ fontFamily: 'Visby, sans-serif' }}>
                 <li>
                   <i className="bi bi-clock theme-color mr-2" />
                   Mon – Sun: 9.00 am – 6.00 pm
@@ -561,7 +553,7 @@ export default function Header() {
                     >
                       <img
                         className="img-fluid site-logo"
-                        src="https://dental.dmaksolutions.com/assets/Images/logo_main-3.png"
+                        src="assets/Images/logo_main-3.png"
                         alt="Medical & Dentist WordPress Theme"
                       />
                     </a>
@@ -571,7 +563,7 @@ export default function Header() {
                     >
                       <img
                         className="img-fluid sticky-logo"
-                        src="https://dental.dmaksolutions.com/assets/Images/logo_main-3.png"
+                        src="assets/Images/logo_main-3.png"
                         alt="Medical & Dentist WordPress Theme"
                       />
                     </a>
@@ -580,7 +572,7 @@ export default function Header() {
                 </li>
                 {/* .header-titles-wrapper */}
                 <li>
-                  <h5 style={{ fontFamily: 'Tajawal variant2', color: 'white' }}>
+                  <h5 style={{ fontFamily: 'Visby, sans-serif', color: 'white' }}>
                     The Best Way To Maintain A Healthy
                     <br />
                     Smile Is To Be Proactive!
@@ -589,7 +581,7 @@ export default function Header() {
               </ul>
               <ul className="nav logobar-ul pull-right justify-content-end right-element-exist">
                 <li>
-                  <a style={{ color: '#D9C5AD', fontFamily: ' "Tajawal variant2", Tofu' }}
+                  <a style={{ color: '#D9C5AD', fontFamily: 'Visby, sans-serif' }}
                     href="mailto:info@karisma.com"
                     className="email-link"
                     target="_self"
@@ -605,7 +597,7 @@ export default function Header() {
                         href="https://wordpress.zozothemes.com/happysmile/doctors-directory/"
                         target="_blank"
                         className="find-link"
-                        style={{ color: '#D9C5AD', fontFamily: ' "Tajawal variant2", Tofu' }}
+                        style={{ color: '#D9C5AD', fontFamily: ' "Visby, sans-serif", Tofu' }}
                       >
                         <span className="bi bi-geo-alt theme-color me-2" style={{ color: 'white' }}> </span>
                         Find Doctor
@@ -616,7 +608,7 @@ export default function Header() {
                         href="https://wordpress.zozothemes.com/happysmile/appointment/"
                         target="_blank"
                         className="btn btn-primary"
-                        style={{ color: '#577065', fontFamily: ' "Tajawal variant2", Tofu' }}
+                        style={{ color: '#577065', fontFamily: ' "Visby, sans-serif", Tofu' }}
                       >
                         <span className="btn-text">
                           APPOINTMENT
@@ -634,10 +626,8 @@ export default function Header() {
                         <div className="icon">
                           <img src="./assets/Images/lan/lang1.png" alt="Arabic" />
                         </div>
-
                       </a>
                     </li>
-
                   </ul>
                 </li>
               </ul>{" "}
@@ -647,33 +637,199 @@ export default function Header() {
           </div>
           {/* .header-logobar */}
 
-          <div className="al_home">
-            <ul class="OnlineBookingfixed floating">
-              <a onClick={handleOpen}>
-                <li style={{ color: 'white', fontFamily: ' "Tajawal variant2", Tofu' }}>APPOINTMENT</li>
+          <div className="fixedRit">
+            <ul >
+              <li >
+                <a
+                  onClick={handleOpen}
+                  // href="#appointment"
+                  className="bookNow hoveranim"
+                  // data-bs-toggle="modal"
+                  // data-bs-target="#bookingModal" 
+                  style={{ backgroundColor: 'rgb(64, 93, 83)', color: 'white', border: '2px solid gray', cursor: 'pointer' }}
+                >
+                  <div className="" style={{ paddingBottom: '10px' }}>
+
+                    <img src="assets/Images/logo_main-3.png" alt="" style={{ height: '30px', width: '30.494px' }} />
+                  </div>
+                  <span>APPOINTMENT</span>
+                  
                 </a>
+              </li>
+              <li>
+                <a
+                  href="https://api.whatsapp.com/send?phone=+971564223807&text=Help Me ?"
+                  target="_blank"
+                  id="whatsapp"
+                  className="socialLink"
+                  style={{ cursor: 'pointer' }}
+                >
+                  <div className="align">
+                    <svg
+                      id="Layer_2"
+                      data-name="Layer 2"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={68}
+                      height={68}
+                      viewBox="0 0 68 68"
+                    >
+                      <g id="_08.whatsapp" data-name="08.whatsapp">
+                        <circle id="background" cx={34} cy={34} r={34} fill="#2aa81a" />
+                        <g id="icon" transform="translate(15 15)">
+                          <path
+                            id="Path_10023"
+                            data-name="Path 10023"
+                            d="M67.914,43.135A17.307,17.307,0,0,0,40.186,63.159L38.35,72.074a.652.652,0,0,0,.106.519.666.666,0,0,0,.707.275l8.722-2.07A17.307,17.307,0,0,0,67.9,43.135ZM65.187,64.881a13.57,13.57,0,0,1-15.608,2.557l-1.221-.606L43,68.1V68.03l1.129-5.4-.6-1.175A13.55,13.55,0,0,1,65.187,45.72l.06.083a13.551,13.551,0,0,1-.069,19.088Z"
+                            transform="translate(-36.592 -37.276)"
+                            fill="#fff"
+                          />
+                          <path
+                            id="Path_10024"
+                            data-name="Path 10024"
+                            d="M71.257,68.753a4.527,4.527,0,0,1-2.4,2.09c-1.836.441-4.632,0-8.132-3.236l-.044-.04c-3.045-2.843-3.853-5.212-3.673-7.089a4.493,4.493,0,0,1,1.745-2.663,1,1,0,0,1,1.561.367l1.128,2.549a.992.992,0,0,1-.121,1.014l-.573.735a.973.973,0,0,0-.077,1.084,10.652,10.652,0,0,0,1.936,2.152,11.449,11.449,0,0,0,2.681,1.921.973.973,0,0,0,1.062-.224l.657-.668a1,1,0,0,1,1-.279l2.681.768a1.006,1.006,0,0,1,.566,1.521Z"
+                            transform="translate(-44.897 -46.194)"
+                            fill="#fff"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="tel:+97564223807"
+                  target="_blank"
+                  id="call"
+                  className="socialLink"
+                  style={{ cursor: 'pointer' }}
+                >
+                  <div className="align">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={68}
+                      height={68}
+                      viewBox="0 0 68 68"
+                    >
+                      <g id="chat" transform="translate(0.327 0.071)">
+                        <g
+                          id="Ellipse_89"
+                          data-name="Ellipse 89"
+                          transform="translate(-0.327 -0.071)"
+                          fill="#d5ae69"
+                          stroke="#e5bb70"
+                          strokeWidth={1}
+                        >
+                          <circle cx={34} cy={34} r={34} stroke="none" />
+                          <circle cx={34} cy={34} r="33.5" fill="none" />
+                        </g>
+                        <path
+                          id="Path_10022"
+                          data-name="Path 10022"
+                          d="M166.512,150.708c-.28-.158-.6-.336-.979-.566-.213-.129-.481-.305-.766-.492-1.459-.958-2.564-1.636-3.5-1.636a1.711,1.711,0,0,0-.619.111,5.983,5.983,0,0,0-2.156,1.987,10.536,10.536,0,0,1-.791.924,15.567,15.567,0,0,1-7.562-7.57,10.458,10.458,0,0,1,.928-.8,5.993,5.993,0,0,0,1.981-2.15c.407-1.057-.339-2.32-1.524-4.127-.187-.284-.363-.553-.491-.765-.231-.384-.409-.7-.567-.981-.646-1.149-1.073-1.909-2.677-1.909-1.041,0-2.513.985-3.511,1.961a6.667,6.667,0,0,0-2.247,4.618c0,4.236,2.365,9.09,6.48,13.323.007.007.014.009.021.016,4.23,4.119,9.084,6.475,13.316,6.475h0a6.646,6.646,0,0,0,4.613-2.239c.977-1,1.962-2.46,1.962-3.5C168.419,151.782,167.66,151.355,166.512,150.708Z"
+                          transform="translate(-121.351 -111.806)"
+                          fill="#fff"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/damasmedicalcenter/"
+                  target="_blank"
+                  id="insta"
+                  className="socialLink"
+                  style={{ cursor: 'pointer' }}
+                >
+                  <div className="align">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlnsXlink="http://www.w3.org/1999/xlink"
+                      width={68}
+                      height={68}
+                      viewBox="0 0 68 68"
+                    >
+                      <defs>
+                        <linearGradient
+                          id="linear-gradient"
+                          x1="0.146"
+                          y1="0.146"
+                          x2="0.854"
+                          y2="0.854"
+                          gradientUnits="objectBoundingBox"
+                        >
+                          <stop offset={0} stopColor="#fae100" />
+                          <stop offset="0.15" stopColor="#fcb720" />
+                          <stop offset="0.3" stopColor="#ff7950" />
+                          <stop offset="0.5" stopColor="#ff1c74" />
+                          <stop offset={1} stopColor="#6c1cd1" />
+                        </linearGradient>
+                      </defs>
+                      <g
+                        id="Layer_2"
+                        data-name="Layer 2"
+                        transform="translate(0.03 0.029)"
+                      >
+                        <g id="Circle" transform="translate(0.007 0)">
+                          <g
+                            id="_03.Instagram"
+                            data-name="03.Instagram"
+                            transform="translate(0 0)"
+                          >
+                            <rect
+                              id="Background"
+                              width={68}
+                              height={68}
+                              rx={34}
+                              transform="translate(-0.038 -0.029)"
+                              fill="url(#linear-gradient)"
+                            />
+                            <g id="Group_21885" data-name="Group 21885">
+                              <path
+                                id="Shade"
+                                d="M59.86,11.683A121.751,121.751,0,0,1,39.042,39.047a121.913,121.913,0,0,1-27.351,20.8q-.858-.746-1.667-1.555A34.147,34.147,0,1,1,58.308,10q.8.814,1.551,1.684Z"
+                                transform="translate(-0.016 0)"
+                                fill="#fff"
+                                opacity="0.1"
+                              />
+                              <g id="Icon" transform="translate(16.169 16.176)">
+                                <path
+                                  id="Path_11177"
+                                  data-name="Path 11177"
+                                  d="M62.061,36H45.885A9.885,9.885,0,0,0,36,45.885V62.061a9.885,9.885,0,0,0,9.885,9.885H62.061a9.885,9.885,0,0,0,9.885-9.885V45.885A9.885,9.885,0,0,0,62.061,36ZM68.8,60.641a8.16,8.16,0,0,1-8.16,8.16H47.305a8.16,8.16,0,0,1-8.16-8.16V47.305a8.16,8.16,0,0,1,8.16-8.16H60.641a8.16,8.16,0,0,1,8.16,8.16Z"
+                                  transform="translate(-36 -36)"
+                                  fill="#fff"
+                                />
+                                <path
+                                  id="Path_11178"
+                                  data-name="Path 11178"
+                                  d="M71.333,58.129l-.085-.085-.072-.072a9.058,9.058,0,0,0-6.4-2.642,9.22,9.22,0,0,0-9.157,9.288,9.324,9.324,0,0,0,2.7,6.565,9.072,9.072,0,0,0,6.479,2.7,9.315,9.315,0,0,0,6.538-15.749ZM64.777,70.711a6.093,6.093,0,1,1,6.008-6.093A6.093,6.093,0,0,1,64.777,70.711Z"
+                                  transform="translate(-46.804 -46.644)"
+                                  fill="#fff"
+                                />
+                                <path
+                                  id="Path_11179"
+                                  data-name="Path 11179"
+                                  d="M97.095,51.682a2.193,2.193,0,0,1-2.179,2.211,2.161,2.161,0,0,1-1.537-.643,2.215,2.215,0,0,1,1.541-3.77,2.166,2.166,0,0,1,1.389.5l.045.045a1.371,1.371,0,0,1,.2.2l.049.054a2.211,2.211,0,0,1,.494,1.4Z"
+                                  transform="translate(-67.246 -43.423)"
+                                  fill="#fff"
+                                />
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                </a>
+              </li>
             </ul>
           </div>
-          <Booking showModal={showBooking} handleClose={handleClose} setSuccessMessage={setSuccessMessage} />
 
-          <a
-            href="https://wa.me/+971564083772"
-            target="_blank"
-            className="float"
-            title="WhatsApp"
-          >
-            <img
-              alt=""
-              loading="lazy"
-              width={225}
-              height={225}
-              decoding="async"
-              data-nimg={1}
-              style={{ color: "transparent" }}
-              srcSet="https://altairchauffeur.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FwhatsAppIcon.ff701e71.jpg&w=256&q=75"
-              src="https://altairchauffeur.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FwhatsAppIcon.ff701e71.jpg&w=256&q=75"
-            />
-          </a>
+
+
           <div
             className="sticky-outer"
             data-stickyup={0}
@@ -692,7 +848,7 @@ export default function Header() {
                         >
                           <img
                             className="img-fluid site-logo"
-                            src="https://dental.dmaksolutions.com/assets/Images/logo_main-3.png"
+                            src="assets/Images/logo_main-3.png"
                             alt="Medical & Dentist WordPress Theme"
                           />
                         </a>
@@ -702,7 +858,7 @@ export default function Header() {
                         >
                           <img
                             className="img-fluid sticky-logo"
-                            src="https://dental.dmaksolutions.com/assets/Images/logo_main-3.png"
+                            src="assets/Images/logo_main-3.png"
                             alt="Medical & Dentist WordPress Theme"
                           />
                         </a>
@@ -714,13 +870,13 @@ export default function Header() {
                       <nav className="primary-menu-wrapper" aria-label="Horizontal">
                         <ul className="nav wp-menu primary-menu">
                           <li id="menu-item-73582" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73582">
-                            <a href="/about">About Us</a></li>
+                            <a href="/about" style={{ fontFamily: 'Visby, sans-serif' }}>About Us</a></li>
 
                           <li
                             id="menu-item-73581"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-73581"
                           >
-                            <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                            <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                               Department
                             </a>
                             <ul className="sub-menu">
@@ -729,13 +885,13 @@ export default function Header() {
                                 id="menu-item-72611"
                                 className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-72611"
                               >
-                                <a href="#" style={{ fontFamily: 'Tajawal variant2' }}>Dental</a>
+                                <a href="#" style={{ fontFamily: 'Visby, sans-serif' }}>Dental</a>
                                 <ul className="sub-menu">
                                   <li
                                     id="menu-item-73631"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73631"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Hollywood Smile (Veneers)
                                     </a>
                                   </li>
@@ -743,7 +899,7 @@ export default function Header() {
                                     id="menu-item-73632"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73632"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Implant
                                     </a>
                                   </li>
@@ -751,7 +907,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Orthodontics
                                     </a>
                                   </li>
@@ -759,7 +915,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Teeth Whitening
                                     </a>
                                   </li>
@@ -767,7 +923,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Mouth Rehabilitation
                                     </a>
                                   </li>
@@ -775,7 +931,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Root Canal Treatment
                                     </a>
                                   </li>
@@ -794,13 +950,13 @@ export default function Header() {
                                 id="menu-item-72611"
                                 className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-72611"
                               >
-                                <a href="#" style={{ fontFamily: 'Tajawal variant2' }}>Derma                                                                                        </a>
+                                <a href="#" style={{ fontFamily: 'Visby, sans-serif' }}>Derma                                                                                        </a>
                                 <ul className="sub-menu">
                                   <li
                                     id="menu-item-73631"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73631"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Dermal Fillers
                                     </a>
                                   </li>
@@ -808,7 +964,7 @@ export default function Header() {
                                     id="menu-item-73632"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73632"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Botox
                                     </a>
                                   </li>
@@ -816,7 +972,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Cosmetic Threads
                                     </a>
                                   </li>
@@ -824,7 +980,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Rejuvenation injection
                                     </a>
                                   </li>
@@ -836,14 +992,14 @@ export default function Header() {
                                 id="menu-item-72611"
                                 className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-72611"
                               >
-                                <a href="#" style={{ fontFamily: 'Tajawal variant2' }}>
+                                <a href="#" style={{ fontFamily: 'Visby, sans-serif' }}>
                                   Laser Hair Removal                                                                                                                                                                                 </a>
                                 <ul className="sub-menu">
                                   <li
                                     id="menu-item-73631"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73631"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Candela GentleMax Pro
                                     </a>
                                   </li>
@@ -851,7 +1007,7 @@ export default function Header() {
                                     id="menu-item-73632"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73632"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Cynosure Elite+
                                     </a>
                                   </li>
@@ -859,7 +1015,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       RevLite SI
                                     </a>
                                   </li>
@@ -870,13 +1026,13 @@ export default function Header() {
                                 id="menu-item-72611"
                                 className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-72611"
                               >
-                                <a href="#" style={{ fontFamily: 'Tajawal variant2' }}>Skincare</a>
+                                <a href="#" style={{ fontFamily: 'Visby, sans-serif' }}>Skincare</a>
                                 <ul className="sub-menu">
                                   <li
                                     id="menu-item-73631"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73631"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Facials
                                     </a>
                                   </li>
@@ -884,7 +1040,7 @@ export default function Header() {
                                     id="menu-item-73632"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73632"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Peeling
                                     </a>
                                   </li>
@@ -892,7 +1048,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Mesotherapy
                                     </a>
                                   </li>
@@ -900,7 +1056,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Plasma face
                                     </a>
                                   </li>
@@ -908,7 +1064,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Dermapen + Botox
                                     </a>
                                   </li>
@@ -916,7 +1072,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       IV DRIP Glowing
                                     </a>
                                   </li>
@@ -924,7 +1080,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                                       Collagen Threads
                                     </a>
                                   </li>
@@ -937,7 +1093,7 @@ export default function Header() {
                             id="menu-item-73582"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73582"
                           >
-                            <a href="/doctor" style={{ fontFamily: 'Tajawal variant2' }}>
+                            <a href="/doctor" style={{ fontFamily: 'Visby, sans-serif' }}>
 
                               Our Doctors
                             </a>
@@ -946,7 +1102,7 @@ export default function Header() {
                             id="menu-item-73582"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73582"
                           >
-                            <a href="/offers" style={{ fontFamily: 'Tajawal variant2' }}>
+                            <a href="/offers" style={{ fontFamily: 'Visby, sans-serif' }}>
                               Offers
                             </a>
                           </li>
@@ -954,7 +1110,7 @@ export default function Header() {
                             id="menu-item-73582"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73582"
                           >
-                            <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                            <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
                               Careers
                             </a>
                           </li>
@@ -962,7 +1118,7 @@ export default function Header() {
                             id="menu-item-73582"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73582"
                           >
-                            <a href="/contact_us" style={{ fontFamily: 'Tajawal variant2' }}>
+                            <a href="/contact_us" style={{ fontFamily: 'Visby, sans-serif' }}>
                               Contact Us
                             </a>
                           </li>
@@ -974,9 +1130,8 @@ export default function Header() {
                   </ul>
                   <ul className="nav navbar-ul pull-right justify-content-end right-element-exist">
                     <li>
-                      <a href="tel:5284567592" className="h-phone">
-                        <i className="bi bi-telephone-forward-fill mr-2" /> (528)
-                        456-7592
+                      <a href="tel:+971564223807" className="h-phone">
+                        <i className="bi bi-telephone-forward-fill mr-2" /> +971 56422 3807
                       </a>
                     </li>
 
@@ -1010,11 +1165,11 @@ export default function Header() {
         {/* #site-header */}
         <div className="happysmile-slider-wrapper">
           {/* START happysmile Home Main REVOLUTION SLIDER 6.7.20 */}
-          <rs-fullwidth-wrap
+          <div
             id="rev_slider_2_1_forcefullwidth"
             style={{ marginTop: 0, marginBottom: 0 }}
           >
-            <rs-module-wrap
+            <div
               id="rev_slider_2_1_wrapper"
               data-source="gallery"
               style={{
@@ -1030,7 +1185,7 @@ export default function Header() {
                 left: 0
               }}
             >
-              <rs-module
+              <div
                 id="rev_slider_2_1"
                 style={{
                   height: 980,
@@ -1045,10 +1200,13 @@ export default function Header() {
                 className="revslider-initialised rev_redraw_on_blurfocus"
                 data-slideactive="rs-4"
               >
-                <div data-key="staticlayers" style={{ touchAction: "manipulation" }}>
+                <div
+                  data-key="staticlayers"
+                  style={{ touchAction: "manipulation" }}
+                >
                   {/*
 
-						*/}
+							*/}
                   <div
                     className="rs-parallax-wrap"
                     style={{
@@ -1063,9 +1221,9 @@ export default function Header() {
                       perspective: 601
                     }}
                   >
-                    <rs-layer
+                    <div
                       id="slider-2-slide-2-layer-17"
-                      className="rs-layer-static rs-layer"
+                      className="div-static div"
                       data-type="object"
                       data-rsp_ch="on"
                       data-xy="xo:50px,41px,31px,19px;yo:312px,257px,195px,120px;"
@@ -1086,7 +1244,6 @@ export default function Header() {
                         maxHeight: "none",
                         maxWidth: "none",
                         textAlign: "left",
-                        lineHeight: 0,
                         letterSpacing: 0,
                         fontWeight: 400,
                         fontSize: 20,
@@ -1102,7 +1259,7 @@ export default function Header() {
                       data-idcheck="true"
                       data-stylerecorder="true"
                       data-initialised="true"
-                    ></rs-layer>
+                    ></div>
                   </div>
                   {/*
            */}
@@ -1124,12 +1281,12 @@ export default function Header() {
                       className="tp-arr-imgholder"
                       style={{
                         backgroundImage:
-                          'url("https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/slider-rev-4.webp")'
+                          'url(https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/slider-2.webp)'
                       }}
                     />
                   </div>
                 </div>
-                <rs-arrow
+                <div
                   style={{
                     opacity: 1,
                     transform: "translate(-120px, -120px)",
@@ -1141,15 +1298,16 @@ export default function Header() {
                   className="tp-rightarrow tparrows hades noSwipe"
                 >
                   <div className="tp-arr-allwrapper">
+                    {" "}
                     <div
                       className="tp-arr-imgholder"
                       style={{
                         backgroundImage:
-                          'url("https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/slider-rev-4.webp")'
+                          'url(assets/Images/home/slider_1_1.png)'
                       }}
                     />
                   </div>
-                </rs-arrow>
+                </div>
                 <rs-progress
                   style={{ visibility: "hidden", touchAction: "manipulation" }}
                 >
@@ -1162,7 +1320,7 @@ export default function Header() {
                     }}
                   />
                 </rs-progress>
-                <rs-slides
+                <divs
                   style={{
                     overflow: "hidden",
                     position: "absolute",
@@ -1207,15 +1365,16 @@ export default function Header() {
                         data-oheight={1280}
                         style={{ touchAction: "manipulation" }}
                       >
-                        {/*Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img loading="lazy" src="//wordpress.zozothemes.com/happysmile/wp-content/plugins/revslider/sr6/assets/assets/dummy.png" alt="" title="slider-1" width="1920" height="1280" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="assets/Images/wp-content/uploads/sites/slider-1.png" data-bg="p:center top;" data-no-retina="">*/}
+                        {/*Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img loading="lazy" src="//wordpress.zozothemes.com/happysmile/wp-content/plugins/revslider/sr6/assets/assets/dummy.png" alt="" title="slider-1" width="1920" height="1280" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/slider-1.webp" data-bg="p:center top;" data-no-retina="">*/}
                         <div
-                          style={{
-                            backgroundImage:
-                              'url("https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/slider-1.webp")'
-                          }}
+                          //data-lazyload="//wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/slider-1.webp"
                           className=""
                           data-bgcolor="transparent"
-                          data-src-rs-ref="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/slider-1.webp"
+                          style={{
+                            backgroundImage:
+                              'url(assets/Images/home/slider-1.webp)', backgroundRepeat: 'no-repeat', backgroundSize: '100%'
+                          }}
+                          data-src-rs-ref="assets/Images/home/slider-1.webp"
                         >
                           <canvas
                             width={1600}
@@ -1234,63 +1393,1329 @@ export default function Header() {
                     </rs-sbg-px>
                     {/*
              */}
-
-                    {/*		
-
-						*/}
-
+                    <div
+                      className="rs-parallax-wrap"
+                      style={{
+                        position: "absolute",
+                        display: "block",
+                        pointerEvents: "auto",
+                        touchAction: "manipulation",
+                        left: "-988.5px",
+                        top: 50,
+                        zIndex: 12,
+                        visibility: "visible",
+                        perspective: 601
+                      }}
+                    >
+                      <div
+                        id="slider-2-slide-4-layer-0"
+                        data-type="text"
+                        data-rsp_ch="on"
+                        data-xy="x:l,r,r,r;xo:-1128px,36px,30px,30px;y:t,b,b,b;yo:50px,53px,56px,19px;"
+                        data-text="w:normal;s:20,16,15,15;l:25,20,22,24;ls:0,1px,1px,1px;fw:400,500,500,500;"
+                        data-actions="o:click;a:jumptoslide;slide:next;"
+                        data-frame_999="o:0;st:w;sR:8700;"
+                        data-frame_hover="c:#38bde0;"
+                        style={{
+                          zIndex: 12,
+                          fontFamily: '"DM Sans"',
+                          touchAction: "manipulation",
+                          height: "auto",
+                          width: "auto",
+                          color: "rgb(255, 255, 255)",
+                          textDecoration: "none",
+                          whiteSpace: "nowrap",
+                          minHeight: 0,
+                          minWidth: 0,
+                          maxHeight: "none",
+                          maxWidth: "none",
+                          letterSpacing: 0,
+                          fontWeight: 400,
+                          fontSize: 20,
+                          backdropFilter: "none",
+                          filter: "none",
+                          transformOrigin: "50% 50%",
+                          opacity: 1,
+                          transform: "translate(0px, 0px)",
+                          visibility: "visible"
+                        }}
+                        className="div rs-waction rs-wclickaction"
+                        data-idcheck="true"
+                        data-stylerecorder="true"
+                        data-initialised="true"
+                      >
+                        NEXT
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-
+							*/}
+                    <div
+                      className="rs-parallax-wrap"
+                      style={{
+                        position: "absolute",
+                        display: "block",
+                        pointerEvents: "auto",
+                        touchAction: "manipulation",
+                        left: "2179.5px",
+                        top: 94,
+                        zIndex: 11,
+                        visibility: "visible",
+                        perspective: 601
+                      }}
+                    >
+                      <div
+                        id="slider-2-slide-4-layer-1"
+                        data-type="text"
+                        data-rsp_ch="on"
+                        data-xy="xo:2040px,36px,30px,30px;y:t,b,b,b;yo:94px,53px,56px,19px;"
+                        data-text="w:normal;s:20,16,15,15;l:25,20,22,24;ls:0,1px,1px,1px;fw:400,500,500,500;"
+                        data-actions="o:click;a:jumptoslide;slide:previous;"
+                        data-frame_999="o:0;st:w;sR:8700;"
+                        data-frame_hover="c:#38bde0;"
+                        style={{
+                          zIndex: 11,
+                          fontFamily: '"DM Sans"',
+                          touchAction: "manipulation",
+                          height: "auto",
+                          width: "auto",
+                          color: "rgb(255, 255, 255)",
+                          textDecoration: "none",
+                          whiteSpace: "nowrap",
+                          minHeight: 0,
+                          minWidth: 0,
+                          maxHeight: "none",
+                          maxWidth: "none",
+                          textAlign: "left",
+                          letterSpacing: 0,
+                          fontWeight: 400,
+                          fontSize: 20,
+                          backdropFilter: "none",
+                          filter: "none",
+                          transformOrigin: "50% 50%",
+                          opacity: 1,
+                          transform: "translate(0px, 0px)",
+                          visibility: "visible"
+                        }}
+                        className="div rs-waction rs-wclickaction"
+                        data-idcheck="true"
+                        data-stylerecorder="true"
+                        data-initialised="true"
+                      >
+                        PREV
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-
+							*/}
+                    <div
+                      className="rs-parallax-wrap"
+                      style={{
+                        position: "absolute",
+                        display: "block",
+                        pointerEvents: "auto",
+                        touchAction: "manipulation",
+                        left: "173.5px",
+                        top: 402,
+                        zIndex: 9,
+                        visibility: "visible"
+                      }}
+                    >
+                      <h1
+                        id="slider-2-slide-4-layer-2"
+                        className="div Concept-Title"
+                        data-type="text"
+                        data-rsp_ch="on"
+                        data-xy="x:l,c,c,c;xo:34px,0,0,-2px;y:m;yo:15px,-15px,-8px,22px;"
+                        data-text="w:normal;s:80,58,47,38;l:95,66,56,48;fw:600;a:left,center,center,center;"
+                        data-dim="w:991px,501px,618px,445px;h:205px,208px,120px,110px;"
+                        data-padding="b:10,10,11,11;"
+                        data-frame_0="o:1;"
+                        data-frame_0_chars="d:5;o:0;rX:-90deg;oZ:-50;"
+                        data-frame_1="st:960;sp:1750;sR:960;"
+                        data-frame_1_chars="e:power4.inOut;d:10;oZ:-50;"
+                        data-frame_999="x:left;e:power3.in;st:w;sp:1000;sR:2890;"
+                        data-frame_999_reverse="x:true;"
+                        style={{
+                          zIndex: 9,
+                          fontFamily: 'Visby, sans-serif',
+                          touchAction: "manipulation",
+                          color: "rgb(255, 255, 255)",
+                          textDecoration: "none",
+                          whiteSpace: "normal",
+                          width: 991,
+                          height: 205,
+                          minHeight: 0,
+                          minWidth: 0,
+                          maxHeight: "none",
+                          maxWidth: "none",
+                          textAlign: "left",
+                          letterSpacing: "-1px",
+                          fontWeight: 600,
+                          fontSize: 80,
+                          paddingBottom: 10,
+                          transformStyle: "preserve-3d",
+                          backdropFilter: "none",
+                          filter: "none",
+                          transformOrigin: "50% 50%",
+                          transform: "perspective(600px)",
+                          opacity: 1,
+                          visibility: "visible"
+                        }}
+                        data-idcheck="true"
+                        data-stylerecorder="true"
+                        data-initialised="true"
+                      >
+                        <div
+                          className="rs_splitted_lines"
+                          style={{
+                            display: "block",
+                            textAlign: "left",
+                            position: "relative"
+                          }}
+                        >
+                          <div
+                            style={{ position: "relative", display: "inline-block" }}
+                            className="rs_splitted_words"
+                          >
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              P
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              r
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              o
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              f
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              e
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              s
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              s
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              i
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              o
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              n
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              a
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              l
+                            </div>
+                          </div>{" "}
+                          <div
+                            style={{ position: "relative", display: "inline-block" }}
+                            className="rs_splitted_words"
+                          >
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              D
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              e
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              n
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              t
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              i
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              s
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              t
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              ,
+                            </div>
+                          </div>{" "}
+                        </div>
+                        <div
+                          className="rs_splitted_lines"
+                          style={{
+                            display: "block",
+                            textAlign: "left",
+                            position: "relative"
+                          }}
+                        >
+                          <div
+                            style={{ position: "relative", display: "inline-block" }}
+                            className="rs_splitted_words"
+                          >
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              H
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              i
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              g
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              h
+                            </div>
+                          </div>{" "}
+                          <div
+                            style={{ position: "relative", display: "inline-block" }}
+                            className="rs_splitted_words"
+                          >
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              I
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              n
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              n
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              o
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              v
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              a
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              t
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              i
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              o
+                            </div>
+                            <div
+                              style={{
+                                position: "relative",
+                                display: "inline-block",
+                                backdropFilter: "none",
+                                filter: "none",
+                                transformOrigin: "50% 50%",
+                                transform: "translate(0px, 0px)",
+                                opacity: 1,
+                                color: "rgb(255, 255, 255)"
+                              }}
+                              className="rs_splitted_chars"
+                            >
+                              n
+                            </div>
+                          </div>{" "}
+                        </div>
+                      </h1>
+                    </div>
                     {/*
 
-						*/}
-
+							*/}
+                    <div
+                      className="rs-parallax-wrap"
+                      style={{
+                        position: "absolute",
+                        display: "block",
+                        pointerEvents: "auto",
+                        touchAction: "manipulation",
+                        left: "177.5px",
+                        top: 350,
+                        zIndex: 10,
+                        visibility: "visible",
+                        perspective: 601
+                      }}
+                    >
+                      <div
+                        style={{
+                          position: "absolute",
+                          display: "block",
+                          touchAction: "manipulation",
+                          overflow: "visible"
+                        }}
+                      >
+                        <div
+                          id="slider-2-slide-4-layer-12"
+                          className="slide div"
+                          data-type="text"
+                          data-rsp_ch="on"
+                          data-xy="x:l,c,c,c;xo:38px,0,0,0;yo:350px,209px,153px,203px;"
+                          data-text="w:normal;s:15,16,15,15;l:28,30,22,31;ls:1px;a:left,center,center,center;"
+                          data-dim="w:221px,282px,281px,auto;h:auto,auto,23px,auto;minh:0px,none,none,none;"
+                          data-frame_1="e:power4.inOut;st:1620;sp:1200;sR:1620;"
+                          data-frame_1_sfx="se:blocktoright;"
+                          data-frame_999="o:0;st:w;sR:6180;"
+                          style={{
+                            zIndex: 10,
+                            fontFamily: 'Visby, sans-serif',
+                            touchAction: "manipulation",
+                            height: "auto",
+                            color: "rgb(255, 255, 255)",
+                            textDecoration: "none",
+                            whiteSpace: "normal",
+                            width: 221,
+                            minHeight: 0,
+                            minWidth: 0,
+                            maxHeight: "none",
+                            maxWidth: "none",
+                            textAlign: "left",
+                            letterSpacing: 1,
+                            fontWeight: 400,
+                            fontSize: 15,
+                            backdropFilter: "none",
+                            filter: "none",
+                            transformOrigin: "50% 50%",
+                            opacity: 1,
+                            transform: "translate(0px, 0px)",
+                            visibility: "visible"
+                          }}
+                          data-idcheck="true"
+                          data-stylerecorder="true"
+                          data-initialised="true"
+                        >
+                          Welcome to Karisma
+                        </div>
+                        <div
+                          className="tp-blockmask_in"
+                          style={{
+                            visibility: "visible",
+                            background: "rgb(255, 255, 255)",
+                            transformOrigin: "100% 50%",
+                            transform: "scale(0, 1)"
+                          }}
+                        />
+                        <div className="tp-blockmask_out" />
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-
+							*/}
+                    <div
+                      className="rs-parallax-wrap"
+                      style={{
+                        position: "absolute",
+                        display: "block",
+                        pointerEvents: "auto",
+                        touchAction: "manipulation",
+                        left: "184.5px",
+                        top: 650,
+                        zIndex: 13,
+                        visibility: "visible",
+                        perspective: 601
+                      }}
+                    >
+                      <a
+                        id="slider-2-slide-4-layer-13"
+                        className="div btn-slider rev-btn"
+                        href="https://wordpress.zozothemes.com/happysmile/contact-us/"
+                        target="_self"
+                        data-type="button"
+                        data-color="#38bde0"
+                        data-rsp_ch="on"
+                        data-xy="x:l,c,c,c;xo:45px,0,0,0;y:t,t,t,m;yo:650px,506px,357px,100px;"
+                        data-text="w:normal;s:16,13,10,11;l:28,23,20,24;fw:600;a:left,center,center,center;"
+                        data-dim="minh:0px,none,none,none;"
+                        data-padding="t:15,12,9,11;r:30,25,20,24;b:15,12,9,11;l:30,25,20,24;"
+                        data-border="bor:10px,10px,0px,10px;"
+                        data-frame_0="x:-50,-41,-31,-24px;y:0,0,0,0px;"
+                        data-frame_1="x:0,0,0,0px;y:0,0,0,0px;st:4420;sp:1000;sR:4420;"
+                        data-frame_999="o:0;st:w;sR:3580;"
+                        data-frame_hover="c:#fff;bgc:#38bde0;bor:10px,10px,0px,10px;sp:100;e:power1.inOut;bri:120%;"
+                        style={{
+                          zIndex: 13,
+                          backgroundColor: "rgb(255, 255, 255)",
+                          fontFamily: 'Visby, sans-serif',
+                          textTransform: "uppercase",
+                          touchAction: "manipulation",
+                          height: "auto",
+                          width: "auto",
+                          color: "#916F4D",
+                          textDecoration: "none",
+                          whiteSpace: "nowrap",
+                          minHeight: 0,
+                          minWidth: 0,
+                          maxHeight: "none",
+                          maxWidth: "none",
+                          textAlign: "left",
+                          letterSpacing: 0,
+                          fontWeight: 600,
+                          fontSize: 16,
+                          padding: "15px 30px",
+                          borderRadius: "10px 10px 0px",
+                          backdropFilter: "none",
+                          filter: "brightness(100%)",
+                          transformOrigin: "50% 50%",
+                          opacity: 1,
+                          transform: "translate(0px, 0px)",
+                          visibility: "visible",
+                          borderWidth: 0
+                        }}
+                        data-idcheck="true"
+                        data-stylerecorder="true"
+                        data-initialised="true"
+                      >
+                        <span
+                          className="btn-text"
+                          data-stylerecorder="true"
+                          style={{
+                            touchAction: "manipulation",
+                            textAlign: "left",
+                            letterSpacing: 0,
+                            fontWeight: 600,
+                            fontSize: 16
+                          }}
+                        >
+                          Contact Us{" "}
+                          <i
+                            className=" bi-arrow-up-right"
+                            data-stylerecorder="true"
+                            style={{
+                              touchAction: "manipulation",
+                              textAlign: "left",
+                              letterSpacing: 0,
+                              fontWeight: 600,
+                              fontSize: 16
+                            }}
+                          />{" "}
+                        </span>
+                      </a>
+                    </div>
                     {/*
 
-						*/}
-
+							*/}
+                    <div
+                      className="rs-parallax-wrap"
+                      style={{
+                        position: "absolute",
+                        display: "block",
+                        pointerEvents: "auto",
+                        touchAction: "manipulation",
+                        left: 100,
+                        top: 406,
+                        zIndex: 26,
+                        visibility: "visible",
+                        perspective: 601
+                      }}
+                    >
+                      <div
+                        style={{
+                          position: "absolute",
+                          display: "block",
+                          touchAction: "manipulation",
+                          opacity: 1,
+                          transformOrigin: "50% 50%",
+                          transform: "rotate(90deg)",
+                          overflow: "hidden"
+                        }}
+                      >
+                        <div
+                          id="slider-2-slide-4-layer-16"
+                          data-type="text"
+                          data-color="#fff"
+                          data-rsp_ch="on"
+                          data-xy="xo:100px,82px,62px,38px;yo:406px,335px,254px,156px;"
+                          data-text="w:normal;s:18,14,10,6;l:28,23,17,10;fw:500;a:center;"
+                          data-dim="minh:0px,none,none,none;"
+                          data-vbility="t,f,f,f"
+                          data-basealign="slide"
+                          data-btrans="rZ:90;"
+                          data-frame_0="o:1;"
+                          data-frame_0_chars="d:5;x:-105%;o:0;rZ:-90deg;"
+                          data-frame_0_mask="u:t;"
+                          data-frame_1="st:840;sp:1200;sR:840;"
+                          data-frame_1_chars="e:power4.inOut;dir:backward;d:10;rZ:0deg;"
+                          data-frame_1_mask="u:t;"
+                          data-frame_999="o:0;st:w;sR:6360;"
+                          style={{
+                            zIndex: 26,
+                            fontFamily: 'Visby, sans-serif',
+                            touchAction: "manipulation",
+                            height: "auto",
+                            width: "auto",
+                            color: "rgb(255, 255, 255)",
+                            textDecoration: "none",
+                            whiteSpace: "nowrap",
+                            minHeight: 0,
+                            minWidth: 0,
+                            maxHeight: "none",
+                            maxWidth: "none",
+                            textAlign: "center",
+                            letterSpacing: 0,
+                            fontWeight: 500,
+                            fontSize: 18,
+                            backdropFilter: "none",
+                            filter: "none",
+                            transformOrigin: "50% 50%",
+                            transform: "translate(0px, 0px)",
+                            opacity: 1,
+                            visibility: "visible"
+                          }}
+                          className="div"
+                          data-idcheck="true"
+                          data-stylerecorder="true"
+                          data-initialised="true"
+                        >
+                          <div
+                            className="rs_splitted_lines"
+                            style={{
+                              display: "block",
+                              textAlign: "center",
+                              position: "relative"
+                            }}
+                          >
+                            <div
+                              style={{ position: "relative", display: "inline-block" }}
+                              className="rs_splitted_words"
+                            >
+                              <div
+                                style={{
+                                  position: "relative",
+                                  display: "inline-block",
+                                  backdropFilter: "none",
+                                  filter: "none",
+                                  transformOrigin: "50% 50%",
+                                  opacity: 1,
+                                  transform: "translate(0px, 0px)",
+                                  color: "rgb(255, 255, 255)"
+                                }}
+                                className="rs_splitted_chars"
+                              >
+                                S
+                              </div>
+                              <div
+                                style={{
+                                  position: "relative",
+                                  display: "inline-block",
+                                  backdropFilter: "none",
+                                  filter: "none",
+                                  transformOrigin: "50% 50%",
+                                  opacity: 1,
+                                  transform: "translate(0px, 0px)",
+                                  color: "rgb(255, 255, 255)"
+                                }}
+                                className="rs_splitted_chars"
+                              >
+                                o
+                              </div>
+                              <div
+                                style={{
+                                  position: "relative",
+                                  display: "inline-block",
+                                  backdropFilter: "none",
+                                  filter: "none",
+                                  transformOrigin: "50% 50%",
+                                  opacity: 1,
+                                  transform: "translate(0px, 0px)",
+                                  color: "rgb(255, 255, 255)"
+                                }}
+                                className="rs_splitted_chars"
+                              >
+                                c
+                              </div>
+                              <div
+                                style={{
+                                  position: "relative",
+                                  display: "inline-block",
+                                  backdropFilter: "none",
+                                  filter: "none",
+                                  transformOrigin: "50% 50%",
+                                  opacity: 1,
+                                  transform: "translate(0px, 0px)",
+                                  color: "rgb(255, 255, 255)"
+                                }}
+                                className="rs_splitted_chars"
+                              >
+                                i
+                              </div>
+                              <div
+                                style={{
+                                  position: "relative",
+                                  display: "inline-block",
+                                  backdropFilter: "none",
+                                  filter: "none",
+                                  transformOrigin: "50% 50%",
+                                  opacity: 1,
+                                  transform: "translate(0px, 0px)",
+                                  color: "rgb(255, 255, 255)"
+                                }}
+                                className="rs_splitted_chars"
+                              >
+                                a
+                              </div>
+                              <div
+                                style={{
+                                  position: "relative",
+                                  display: "inline-block",
+                                  backdropFilter: "none",
+                                  filter: "none",
+                                  transformOrigin: "50% 50%",
+                                  opacity: 1,
+                                  transform: "translate(0px, 0px)",
+                                  color: "rgb(255, 255, 255)"
+                                }}
+                                className="rs_splitted_chars"
+                              >
+                                l
+                              </div>
+                            </div>{" "}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-
+							*/}
+                    <div
+                      className="rs-parallax-wrap"
+                      style={{
+                        position: "absolute",
+                        display: "block",
+                        pointerEvents: "auto",
+                        touchAction: "manipulation",
+                        left: 125,
+                        top: 469,
+                        zIndex: 27,
+                        visibility: "visible"
+                      }}
+                    >
+                      <div
+                        id="slider-2-slide-4-layer-19"
+                        data-type="shape"
+                        data-rsp_ch="on"
+                        data-xy="xo:125px,103px,78px,48px;y:m;yo:39px,32px,24px,14px;"
+                        data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                        data-dim="w:3px,2px,1px,1px;h:120px,99px,75px,46px;"
+                        data-vbility="t,f,f,f"
+                        data-basealign="slide"
+                        data-border="bor:5px,5px,5px,5px;"
+                        data-frame_0="rX:70deg;oZ:-50;"
+                        data-frame_1="oZ:-50;e:power4.inOut;st:700;sp:1750;sR:700;"
+                        data-frame_999="o:0;st:w;sR:6550;"
+                        style={{
+                          zIndex: 27,
+                          backgroundColor: "rgba(255, 255, 255, 0.6)",
+                          touchAction: "manipulation",
+                          color: "rgb(255, 255, 255)",
+                          width: 3,
+                          height: 120,
+                          minHeight: 0,
+                          minWidth: 0,
+                          maxHeight: "none",
+                          maxWidth: "none",
+                          overflow: "hidden",
+                          borderRadius: 5,
+                          backdropFilter: "none",
+                          filter: "none",
+                          transformOrigin: "50% 50%",
+                          opacity: 1,
+                          transform: "perspective(600px)",
+                          visibility: "visible"
+                        }}
+                        className="div"
+                        data-idcheck="true"
+                        data-stylerecorder="true"
+                        data-initialised="true"
+                      ></div>
+                    </div>
                     {/*
 
-						*/}
-
+							*/}
+                    <div
+                      className="rs-parallax-wrap"
+                      style={{
+                        position: "absolute",
+                        display: "block",
+                        pointerEvents: "auto",
+                        touchAction: "manipulation",
+                        left: 118,
+                        top: 612,
+                        zIndex: 30,
+                        visibility: "visible",
+                        perspective: 601
+                      }}
+                    >
+                      <a
+                        id="slider-2-slide-4-layer-24"
+                        className="div"
+                        href="#"
+                        target="_self"
+                        data-type="text"
+                        data-rsp_ch="on"
+                        data-xy="xo:118px,91px,69px,42px;yo:612px,489px,371px,228px;"
+                        data-text="w:normal;s:15,12,9,5;l:22,18,13,8;"
+                        data-vbility="t,f,f,f"
+                        data-basealign="slide"
+                        data-frame_0="y:bottom;sX:2;sY:2;rZ:70deg;"
+                        data-frame_1="st:430;sp:1000;sR:430;"
+                        data-frame_999="o:0;st:w;sR:7570;"
+                        data-frame_hover="c:#38bde0;"
+                        style={{
+                          zIndex: 30,
+                          fontFamily: 'Visby, sans-serif',
+                          touchAction: "manipulation",
+                          height: "auto",
+                          width: "auto",
+                          color: "rgb(255, 255, 255)",
+                          textDecoration: "none",
+                          whiteSpace: "nowrap",
+                          minHeight: 0,
+                          minWidth: 0,
+                          maxHeight: "none",
+                          maxWidth: "none",
+                          textAlign: "left",
+                          letterSpacing: 0,
+                          fontWeight: 400,
+                          fontSize: 15,
+                          backdropFilter: "none",
+                          filter: "none",
+                          transformOrigin: "50% 50%",
+                          opacity: 1,
+                          transform: "translate(0px, 0px)",
+                          visibility: "visible"
+                        }}
+                        data-idcheck="true"
+                        data-stylerecorder="true"
+                        data-initialised="true"
+                      >
+                        Fb
+                      </a>
+                    </div>
                     {/*
 
-						*/}
-
+							*/}
+                    <div
+                      className="rs-parallax-wrap"
+                      style={{
+                        position: "absolute",
+                        display: "block",
+                        pointerEvents: "auto",
+                        touchAction: "manipulation",
+                        left: 35,
+                        top: 869,
+                        zIndex: 20,
+                        visibility: "visible"
+                      }}
+                    >
+                      <div
+                        id="slider-2-slide-4-layer-27"
+                        data-type="text"
+                        data-color="#fff"
+                        data-rsp_ch="on"
+                        data-xy="xo:35px,39px,29px,7px;y:b;yo:71px,54px,41px,25px;"
+                        data-text="w:normal;s:25,20,15,13;l:40,33,25,18;fw:500;"
+                        data-dim="minh:0px,none,none,none;"
+                        data-vbility="t,f,f,f"
+                        data-basealign="slide"
+                        data-frame_0="rX:70deg;oZ:-50;"
+                        data-frame_1="oZ:-50;e:power4.inOut;st:3220;sp:1750;sR:3220;"
+                        data-frame_999="o:0;st:w;sR:4030;"
+                        data-frame_hover="c:#fff;bor:0px,0px,0px,0px;"
+                        style={{
+                          zIndex: 20,
+                          touchAction: "manipulation",
+                          height: "auto",
+                          width: "auto",
+                          color: "rgb(255, 255, 255)",
+                          textDecoration: "none",
+                          whiteSpace: "nowrap",
+                          minHeight: 0,
+                          minWidth: 0,
+                          maxHeight: "none",
+                          maxWidth: "none",
+                          textAlign: "left",
+                          letterSpacing: 0,
+                          fontWeight: 500,
+                          fontSize: 25,
+                          backdropFilter: "none",
+                          filter: "none",
+                          transformOrigin: "50% 50%",
+                          opacity: 1,
+                          transform: "perspective(600px)",
+                          visibility: "visible",
+                          fontFamily: 'Visby, sans-serif'
+                        }}
+                        className="div"
+                        data-idcheck="true"
+                        data-stylerecorder="true"
+                        data-initialised="true"
+                      >
+                        Working Hours
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-
+							*/}
+                    <div
+                      className="rs-parallax-wrap"
+                      style={{
+                        position: "absolute",
+                        display: "block",
+                        pointerEvents: "auto",
+                        touchAction: "manipulation",
+                        left: 118,
+                        top: 646,
+                        zIndex: 29,
+                        visibility: "visible",
+                        perspective: 601
+                      }}
+                    >
+                      <a
+                        id="slider-2-slide-4-layer-28"
+                        className="div"
+                        href=""
+                        target="_self"
+                        data-type="text"
+                        data-rsp_ch="on"
+                        data-xy="xo:118px,97px,73px,45px;y:m;yo:167px,137px,104px,64px;"
+                        data-text="w:normal;s:15,12,9,5;l:22,18,13,8;"
+                        data-vbility="t,f,f,f"
+                        data-basealign="slide"
+                        data-frame_0="y:bottom;sX:2;sY:2;rZ:70deg;"
+                        data-frame_1="st:560;sp:1000;sR:560;"
+                        data-frame_999="o:0;st:w;sR:7440;"
+                        data-frame_hover="c:#38bde0;"
+                        style={{
+                          zIndex: 29,
+                          fontFamily: 'Visby, sans-serif',
+                          touchAction: "manipulation",
+                          height: "auto",
+                          width: "auto",
+                          color: "rgb(255, 255, 255)",
+                          textDecoration: "none",
+                          whiteSpace: "nowrap",
+                          minHeight: 0,
+                          minWidth: 0,
+                          maxHeight: "none",
+                          maxWidth: "none",
+                          textAlign: "left",
+                          letterSpacing: 0,
+                          fontWeight: 400,
+                          fontSize: 15,
+                          backdropFilter: "none",
+                          filter: "none",
+                          transformOrigin: "50% 50%",
+                          opacity: 1,
+                          transform: "translate(0px, 0px)",
+                          visibility: "visible"
+                        }}
+                        data-idcheck="true"
+                        data-stylerecorder="true"
+                        data-initialised="true"
+                      >
+                        In
+                      </a>
+                    </div>
                     {/*
 
-						*/}
-
-                    {/*
-
-						*/}
-
-                    {/*
-
-						*/}
-
-                    {/*
-
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap"
                       style={{
                         position: "absolute",
@@ -1303,7 +2728,7 @@ export default function Header() {
                         visibility: "visible"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-4-layer-29"
                         data-type="shape"
                         data-rsp_ch="on"
@@ -1318,7 +2743,8 @@ export default function Header() {
                         data-frame_999="o:0;st:w;sR:4330;"
                         style={{
                           zIndex: 21,
-                          backgroundColor: "#B18A6A",
+                          //backgroundColor: "rgb(56, 189, 224)",
+                          backgroundColor: '#916F4D',
                           touchAction: "manipulation",
                           color: "rgb(255, 255, 255)",
                           width: 300,
@@ -1336,17 +2762,271 @@ export default function Header() {
                           transform: "perspective(600px)",
                           visibility: "visible"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                         data-stylerecorder="true"
                         data-initialised="true"
-                      ></rs-layer>
-                    </rs-layer-wrap>
-
+                      ></div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
+                      className="rs-parallax-wrap"
+                      style={{
+                        position: "absolute",
+                        display: "block",
+                        pointerEvents: "auto",
+                        touchAction: "manipulation",
+                        left: 1426,
+                        top: 463,
+                        zIndex: 22,
+                        visibility: "visible"
+                      }}
+                    >
+                      <div
+                        id="slider-2-slide-4-layer-30"
+                        data-type="text"
+                        data-rsp_ch="on"
+                        data-xy="x:r;xo:57px,47px,35px,21px;y:m;yo:-5px,-4px,-3px,-1px;"
+                        data-text="w:nowrap;s:32,26,19,11;l:44,36,27,16;fw:600;"
+                        data-dim="w:36px,29px,22px,13px;"
+                        data-vbility="t,f,f,f"
+                        data-basealign="slide"
+                        data-frame_0="rX:-70deg;oZ:-50;"
+                        data-frame_1="oZ:-50;e:power4.inOut;st:2660;sp:1750;sR:2660;"
+                        data-frame_999="o:0;st:w;sR:4590;"
+                        style={{
+                          zIndex: 22,
+                          fontFamily: 'Visby, sans-serif',
+                          touchAction: "manipulation",
+                          height: "auto",
+                          color: "rgb(255, 255, 255)",
+                          textDecoration: "none",
+                          whiteSpace: "nowrap",
+                          width: 36,
+                          minHeight: 0,
+                          minWidth: 0,
+                          maxHeight: "none",
+                          maxWidth: "none",
+                          textAlign: "left",
+                          letterSpacing: 0,
+                          fontWeight: 600,
+                          fontSize: 32,
+                          backdropFilter: "none",
+                          filter: "none",
+                          transformOrigin: "50% 50%",
+                          opacity: 1,
+                          transform: "perspective(600px)",
+                          visibility: "visible"
+                        }}
+                        className="div"
+                        data-idcheck="true"
+                        data-stylerecorder="true"
+                        data-initialised="true"
+                      >
+                        01
+                      </div>
+                    </div>
+                    {/*
+
+							*/}
+                    <div
+                      className="rs-parallax-wrap"
+                      style={{
+                        position: "absolute",
+                        display: "block",
+                        pointerEvents: "auto",
+                        touchAction: "manipulation",
+                        left: 1479,
+                        top: 483,
+                        zIndex: 25,
+                        visibility: "visible",
+                        perspective: 601
+                      }}
+                    >
+                      <div
+                        style={{
+                          position: "absolute",
+                          display: "block",
+                          touchAction: "manipulation",
+                          transformOrigin: "50% 50%",
+                          transform: "translate(0px, 0px)",
+                          overflow: "hidden"
+                        }}
+                      >
+                        <div
+                          id="slider-2-slide-4-layer-31"
+                          data-type="shape"
+                          data-rsp_ch="on"
+                          data-xy="x:r;y:m;yo:-5px,-4px,-3px,-1px;"
+                          data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                          data-dim="w:40px,33px,25px,15px;h:3px,2px,1px,1px;"
+                          data-vbility="t,f,f,f"
+                          data-actions="o:click;a:jumptoslide;slide:rs-4;"
+                          data-basealign="slide"
+                          data-border="bor:25%,0,0,25%;"
+                          data-frame_0="x:100%;"
+                          data-frame_0_mask="u:t;"
+                          data-frame_1="st:1680;sp:1000;sR:1680;"
+                          data-frame_1_mask="u:t;"
+                          data-frame_999="o:0;st:w;sR:6320;"
+                          style={{
+                            zIndex: 25,
+                            backgroundColor: "rgb(255, 255, 255)",
+                            touchAction: "manipulation",
+                            color: "rgb(255, 255, 255)",
+                            width: 40,
+                            height: 3,
+                            minHeight: 0,
+                            minWidth: 0,
+                            maxHeight: "none",
+                            maxWidth: "none",
+                            overflow: "hidden",
+                            borderBottomLeftRadius: "25%",
+                            borderTopLeftRadius: "25%",
+                            backdropFilter: "none",
+                            filter: "none",
+                            transformOrigin: "50% 50%",
+                            opacity: 1,
+                            transform: "translate(0px, 0px)",
+                            visibility: "visible"
+                          }}
+                          className="div rs-waction rs-wclickaction"
+                          data-idcheck="true"
+                          data-stylerecorder="true"
+                          data-initialised="true"
+                        ></div>
+                      </div>
+                    </div>
+                    {/*
+
+							*/}
+                    <div
+                      className="rs-parallax-wrap"
+                      style={{
+                        position: "absolute",
+                        display: "block",
+                        pointerEvents: "auto",
+                        touchAction: "manipulation",
+                        left: 116,
+                        top: 686,
+                        zIndex: 28,
+                        visibility: "visible",
+                        perspective: 601
+                      }}
+                    >
+                      <div
+                        id="slider-2-slide-4-layer-32"
+                        data-type="text"
+                        data-rsp_ch="on"
+                        data-xy="xo:116px,95px,72px,44px;y:m;yo:207px,170px,129px,79px;"
+                        data-text="w:normal;s:15,12,9,5;l:22,18,13,8;"
+                        data-vbility="t,f,f,f"
+                        data-basealign="slide"
+                        data-frame_0="y:bottom;sX:2;sY:2;rZ:70deg;"
+                        data-frame_1="st:600;sp:1000;sR:600;"
+                        data-frame_999="o:0;st:w;sR:7400;"
+                        data-frame_hover="c:#38bde0;"
+                        style={{
+                          zIndex: 28,
+                          fontFamily: 'Visby, sans-serif',
+                          touchAction: "manipulation",
+                          height: "auto",
+                          width: "auto",
+                          color: "rgb(255, 255, 255)",
+                          textDecoration: "none",
+                          whiteSpace: "nowrap",
+                          minHeight: 0,
+                          minWidth: 0,
+                          maxHeight: "none",
+                          maxWidth: "none",
+                          textAlign: "left",
+                          letterSpacing: 0,
+                          fontWeight: 400,
+                          fontSize: 15,
+                          backdropFilter: "none",
+                          filter: "none",
+                          transformOrigin: "50% 50%",
+                          opacity: 1,
+                          transform: "translate(0px, 0px)",
+                          visibility: "visible"
+                        }}
+                        className="div"
+                        data-idcheck="true"
+                        data-stylerecorder="true"
+                        data-initialised="true"
+                      >
+                        Tw
+                      </div>
+                    </div>
+                    {/*
+
+							*/}
+                    <div
+                      className="rs-parallax-wrap"
+                      style={{
+                        position: "absolute",
+                        display: "block",
+                        pointerEvents: "auto",
+                        touchAction: "manipulation",
+                        left: 39,
+                        top: 915,
+                        zIndex: 15,
+                        visibility: "visible",
+                        perspective: 601
+                      }}
+                    >
+                      <div
+                        id="slider-2-slide-4-layer-33"
+                        data-type="text"
+                        data-color="#fff"
+                        data-rsp_ch="on"
+                        data-xy="xo:39px,43px,32px,9px;y:b;yo:38px,27px,20px,12px;"
+                        data-text="w:normal;s:18,14,10,10;l:27,22,16,15;fw:500;"
+                        data-dim="minh:0px,none,none,none;"
+                        data-vbility="t,f,f,f"
+                        data-basealign="slide"
+                        data-frame_0="x:-50,-41,-31,-19;"
+                        data-frame_1="st:4090;sp:1000;sR:4090;"
+                        data-frame_999="o:0;st:w;sR:3910;"
+                        data-frame_hover="c:#fff;bor:0px,0px,0px,0px;"
+                        style={{
+                          zIndex: 15,
+                          fontFamily: 'Visby, sans-serif',
+                          touchAction: "manipulation",
+                          height: "auto",
+                          width: "auto",
+                          color: "rgb(255, 255, 255)",
+                          textDecoration: "none",
+                          whiteSpace: "nowrap",
+                          minHeight: 0,
+                          minWidth: 0,
+                          maxHeight: "none",
+                          maxWidth: "none",
+                          textAlign: "left",
+                          letterSpacing: 0,
+                          fontWeight: 500,
+                          fontSize: 18,
+                          backdropFilter: "none",
+                          filter: "none",
+                          transformOrigin: "50% 50%",
+                          opacity: 1,
+                          transform: "translate(0px, 0px)",
+                          visibility: "visible"
+                        }}
+                        className="div"
+                        data-idcheck="true"
+                        data-stylerecorder="true"
+                        data-initialised="true"
+                      >
+                        Mon - Sun :
+                      </div>
+                    </div>
+                    {/*
+
+							*/}
+                    <div
                       className="rs-parallax-wrap"
                       style={{
                         position: "absolute",
@@ -1360,8 +3040,7 @@ export default function Header() {
                         perspective: 601
                       }}
                     >
-
-                      <rs-layer
+                      <div
                         id="slider-2-slide-4-layer-34"
                         data-type="text"
                         data-color="#fff"
@@ -1377,7 +3056,7 @@ export default function Header() {
                         data-frame_hover="c:#fff;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 14,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation",
                           height: "auto",
                           width: "auto",
@@ -1389,7 +3068,6 @@ export default function Header() {
                           maxHeight: "none",
                           maxWidth: "none",
                           textAlign: "left",
-                          lineHeight: 27,
                           letterSpacing: 0,
                           fontWeight: 500,
                           fontSize: 18,
@@ -1400,18 +3078,18 @@ export default function Header() {
                           transform: "translate(0px, 0px)",
                           visibility: "visible"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                         data-stylerecorder="true"
                         data-initialised="true"
                       >
                         9Am - 8Pm
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap"
                       style={{
                         position: "absolute",
@@ -1425,7 +3103,7 @@ export default function Header() {
                         perspective: 601
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
@@ -1435,7 +3113,7 @@ export default function Header() {
                           overflow: "hidden"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-4-layer-36"
                           data-type="shape"
                           data-rsp_ch="on"
@@ -1472,17 +3150,17 @@ export default function Header() {
                             transform: "translate(0px, 0px)",
                             visibility: "visible"
                           }}
-                          className="rs-layer rs-waction rs-wclickaction"
+                          className="div rs-waction rs-wclickaction"
                           data-idcheck="true"
                           data-stylerecorder="true"
                           data-initialised="true"
-                        ></rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        ></div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap"
                       style={{
                         position: "absolute",
@@ -1496,7 +3174,7 @@ export default function Header() {
                         perspective: 601
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
@@ -1506,7 +3184,7 @@ export default function Header() {
                           overflow: "hidden"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-4-layer-37"
                           data-type="shape"
                           data-rsp_ch="on"
@@ -1543,17 +3221,17 @@ export default function Header() {
                             transform: "translate(0px, 0px)",
                             visibility: "visible"
                           }}
-                          className="rs-layer rs-waction rs-wclickaction"
+                          className="div rs-waction rs-wclickaction"
                           data-idcheck="true"
                           data-stylerecorder="true"
                           data-initialised="true"
-                        ></rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        ></div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap"
                       style={{
                         position: "absolute",
@@ -1566,7 +3244,7 @@ export default function Header() {
                         visibility: "visible"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-4-layer-40"
                         data-type="text"
                         data-color="#fff"
@@ -1582,7 +3260,7 @@ export default function Header() {
                         data-frame_hover="c:#fff;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 19,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation",
                           height: "auto",
                           width: "auto",
@@ -1594,7 +3272,6 @@ export default function Header() {
                           maxHeight: "none",
                           maxWidth: "none",
                           textAlign: "left",
-                          // lineHeight: 40,
                           letterSpacing: 0,
                           fontWeight: 500,
                           fontSize: 25,
@@ -1605,18 +3282,18 @@ export default function Header() {
                           transform: "perspective(600px)",
                           visibility: "visible"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                         data-stylerecorder="true"
                         data-initialised="true"
                       >
                         Phone Number
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap"
                       style={{
                         position: "absolute",
@@ -1632,8 +3309,8 @@ export default function Header() {
                     >
                       <a
                         id="slider-2-slide-4-layer-41"
-                        className="rs-layer"
-                        href="tel:5284567592"
+                        className="div"
+                        href="tel:+971564223807"
                         target="_self"
                         data-type="text"
                         data-color="#fff"
@@ -1649,7 +3326,7 @@ export default function Header() {
                         data-frame_hover="c:#38bde0;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 17,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation",
                           height: "auto",
                           width: "auto",
@@ -1661,7 +3338,6 @@ export default function Header() {
                           maxHeight: "none",
                           maxWidth: "none",
                           textAlign: "left",
-                          //lineHeight: 27,
                           letterSpacing: 0,
                           fontWeight: 500,
                           fontSize: 18,
@@ -1676,13 +3352,13 @@ export default function Header() {
                         data-stylerecorder="true"
                         data-initialised="true"
                       >
-                        +(528) 456-7592
+                        +971 56422 3807
                       </a>
-                    </rs-layer-wrap>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap"
                       style={{
                         position: "absolute",
@@ -1698,7 +3374,7 @@ export default function Header() {
                     >
                       <a
                         id="slider-2-slide-4-layer-42"
-                        className="rs-layer"
+                        className="div"
                         href="mailto:info@karisma.com"
                         target="_self"
                         data-type="text"
@@ -1715,7 +3391,7 @@ export default function Header() {
                         data-frame_hover="c:#38bde0;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 16,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation",
                           height: "auto",
                           width: "auto",
@@ -1727,7 +3403,6 @@ export default function Header() {
                           maxHeight: "none",
                           maxWidth: "none",
                           textAlign: "left",
-                          //lineHeight: 27,
                           letterSpacing: 0,
                           fontWeight: 500,
                           fontSize: 18,
@@ -1744,11 +3419,11 @@ export default function Header() {
                       >
                         info@karisma.com
                       </a>
-                    </rs-layer-wrap>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap"
                       style={{
                         position: "absolute",
@@ -1761,7 +3436,7 @@ export default function Header() {
                         visibility: "visible"
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
@@ -1772,7 +3447,7 @@ export default function Header() {
                           transform: "perspective(600px) rotateY(180deg)"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-4-layer-51"
                           data-type="image"
                           data-rsp_ch="on"
@@ -1802,21 +3477,21 @@ export default function Header() {
                             transform: "perspective(600px)",
                             visibility: "visible"
                           }}
-                          className="rs-layer"
+                          className="div"
                           data-idcheck="true"
                           data-stylerecorder="true"
                           data-initialised="true"
                         >
                           <img
                             loading="lazy"
-                            src="assets/Images/wp-content/uploads/sites/shap-2.png"
+                            src="//wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-2.webp"
                             alt=""
                             className="tp-rs-img rs-lazyload"
                             width={350}
                             height={194}
-                            data-lazyload="assets/Images/wp-content/uploads/sites/shap-2.png"
+                            data-lazyload="//wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-2.webp"
                             data-no-retina=""
-                            data-src-rs-ref="assets/Images/wp-content/uploads/sites/shap-2.png"
+                            data-src-rs-ref="//wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-2.webp"
                             style={{
                               touchAction: "manipulation",
                               position: "relative",
@@ -1824,13 +3499,13 @@ export default function Header() {
                               width: "100%"
                             }}
                           />
-                        </rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        </div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap"
                       style={{
                         position: "absolute",
@@ -1843,9 +3518,9 @@ export default function Header() {
                         visibility: "visible"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-4-layer-52"
-                        className="horizontal-teeth rs-layer"
+                        className="horizontal-teeth div"
                         data-type="image"
                         data-rsp_ch="on"
                         data-xy="x:r,c,c,c;xo:70px,1px,0,1px;y:t,m,m,m;yo:635px,-241px,-183px,-120px;"
@@ -1877,14 +3552,14 @@ export default function Header() {
                       >
                         <img
                           loading="lazy"
-                          src="assets/Images/wp-content/uploads/sites/shap-3.png"
+                          src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-3.webp"
                           alt=""
                           className="tp-rs-img rs-lazyload"
                           width={269}
                           height={328}
-                          data-lazyload="assets/Images/wp-content/uploads/sites/shap-3.png"
+                          data-lazyload="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-3.webp"
                           data-no-retina=""
-                          data-src-rs-ref="assets/Images/wp-content/uploads/sites/shap-3.png"
+                          data-src-rs-ref="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-3.webp"
                           style={{
                             touchAction: "manipulation",
                             position: "relative",
@@ -1892,12 +3567,12 @@ export default function Header() {
                             width: "100%"
                           }}
                         />
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap"
                       style={{
                         position: "absolute",
@@ -1911,7 +3586,7 @@ export default function Header() {
                         perspective: 601
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-4-layer-54"
                         data-type="shape"
                         data-rsp_ch="on"
@@ -1925,8 +3600,8 @@ export default function Header() {
                         data-frame_999="o:0;st:w;sR:7300;"
                         style={{
                           zIndex: 7,
-                          display: 'block',
-                          backgroundColor: "#916F4D",
+                          //backgroundColor: "rgb(56, 189, 224)",
+                          backgroundColor: '#916F4D',
                           touchAction: "manipulation",
                           color: "rgb(255, 255, 255)",
                           width: 300,
@@ -1942,31 +3617,16 @@ export default function Header() {
                           transform: "translate(0px, 0px)",
                           visibility: "visible"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                         data-stylerecorder="true"
                         data-initialised="true"
-                      >
-
-                        <span style={{
-                          display: 'none',
-                          color: "rgb(255, 255, 255)",
-                          fontSize: '25px',
-                          paddingLeft: '50px',
-                          textAlign: 'center',
-
-                        }}>
-                          Working Hours
-                        </span>
-                      </rs-layer>
-
-                    </rs-layer-wrap>
-
-
+                      ></div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap"
                       style={{
                         position: "absolute",
@@ -1980,7 +3640,7 @@ export default function Header() {
                         perspective: 601
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-4-layer-55"
                         data-type="shape"
                         data-rsp_ch="on"
@@ -2010,16 +3670,16 @@ export default function Header() {
                           transform: "translate(0px, 0px)",
                           visibility: "visible"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                         data-stylerecorder="true"
                         data-initialised="true"
-                      ></rs-layer>
-                    </rs-layer-wrap>
+                      ></div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap"
                       style={{
                         position: "absolute",
@@ -2032,7 +3692,7 @@ export default function Header() {
                         visibility: "visible"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-4-layer-57"
                         data-type="text"
                         data-color="#fff"
@@ -2048,7 +3708,7 @@ export default function Header() {
                         data-frame_hover="c:#fff;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 18,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation",
                           height: "auto",
                           width: "auto",
@@ -2060,7 +3720,6 @@ export default function Header() {
                           maxHeight: "none",
                           maxWidth: "none",
                           textAlign: "left",
-                          //lineHeight: 40,
                           letterSpacing: 0,
                           fontWeight: 500,
                           fontSize: 25,
@@ -2071,18 +3730,18 @@ export default function Header() {
                           transform: "perspective(600px)",
                           visibility: "visible"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                         data-stylerecorder="true"
                         data-initialised="true"
                       >
                         Email Address
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap"
                       style={{
                         position: "absolute",
@@ -2096,7 +3755,7 @@ export default function Header() {
                         perspective: 601
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
@@ -2106,7 +3765,7 @@ export default function Header() {
                           overflow: "hidden"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-4-layer-58"
                           data-type="shape"
                           data-rsp_ch="on"
@@ -2138,17 +3797,17 @@ export default function Header() {
                             transform: "translate(0px, 0px)",
                             visibility: "visible"
                           }}
-                          className="rs-layer"
+                          className="div"
                           data-idcheck="true"
                           data-stylerecorder="true"
                           data-initialised="true"
-                        ></rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        ></div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap"
                       style={{
                         position: "absolute",
@@ -2161,7 +3820,7 @@ export default function Header() {
                         visibility: "visible"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-4-layer-59"
                         data-type="shape"
                         data-rsp_ch="on"
@@ -2194,16 +3853,16 @@ export default function Header() {
                           transform: "perspective(600px)",
                           visibility: "visible"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                         data-stylerecorder="true"
                         data-initialised="true"
-                      ></rs-layer>
-                    </rs-layer-wrap>
+                      ></div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap"
                       style={{
                         position: "absolute",
@@ -2220,7 +3879,7 @@ export default function Header() {
                         perspective: 601
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-4-layer-60"
                         data-type="shape"
                         data-rsp_ch="on"
@@ -2248,16 +3907,16 @@ export default function Header() {
                           transform: "translate(0px, 0px)",
                           visibility: "visible"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                         data-stylerecorder="true"
                         data-initialised="true"
-                      ></rs-layer>
-                    </rs-layer-wrap>
+                      ></div>
+                    </div>
                     {/*
              */}{" "}
                   </div>
-                  <rs-slide
+                  <div
                     style={{
                       position: "absolute",
                       display: "none",
@@ -2286,9 +3945,9 @@ export default function Header() {
                         data-oheight={1280}
                         style={{ touchAction: "manipulation" }}
                       >
-                        {/*Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img loading="lazy" src="//wordpress.zozothemes.com/happysmile/wp-content/plugins/revslider/sr6/assets/assets/dummy.png" alt="" title="slider-2" width="1920" height="1280" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="assets/Images/wp-content/uploads/sites/slider-2.png" data-bg="p:center top;" data-no-retina="">*/}
+                        {/*Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img loading="lazy" src="//wordpress.zozothemes.com/happysmile/wp-content/plugins/revslider/sr6/assets/assets/dummy.png" alt="" title="slider-2" width="1920" height="1280" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/slider-2.webp" data-bg="p:center top;" data-no-retina="">*/}
                         <rs-sbg
-                          data-lazyload="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/slider-2.webp"
+                          data-lazyload="//wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/slider-2.webp"
                           className=""
                           data-bgcolor="transparent"
                           style={{
@@ -2296,7 +3955,7 @@ export default function Header() {
                             height: "100%",
                             touchAction: "manipulation"
                           }}
-                          data-src-rs-ref="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/slider-2.webp"
+                          data-src-rs-ref="//wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/slider-2.webp"
                         >
                           <canvas
                             style={{
@@ -2310,7 +3969,7 @@ export default function Header() {
                     </rs-sbg-px>
                     {/*
              */}
-                    <rs-layer-wrap
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2319,7 +3978,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-10-layer-0"
                         data-type="text"
                         data-rsp_ch="on"
@@ -2330,19 +3989,19 @@ export default function Header() {
                         data-frame_hover="c:#38bde0;"
                         style={{
                           zIndex: 12,
-                          fontFamily: "DM Sans",
+                          fontFamily: '"DM Sans"',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer rs-waction rs-wclickaction"
+                        className="div rs-waction rs-wclickaction"
                         data-idcheck="true"
                       >
                         NEXT
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2351,7 +4010,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-10-layer-1"
                         data-type="text"
                         data-rsp_ch="on"
@@ -2362,19 +4021,19 @@ export default function Header() {
                         data-frame_hover="c:#38bde0;"
                         style={{
                           zIndex: 11,
-                          fontFamily: "DM Sans",
+                          fontFamily: '"DM Sans"',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer rs-waction rs-wclickaction"
+                        className="div rs-waction rs-wclickaction"
                         data-idcheck="true"
                       >
                         PREV
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2385,7 +4044,7 @@ export default function Header() {
                     >
                       <h1
                         id="slider-2-slide-10-layer-2"
-                        className="rs-layer Concept-Title"
+                        className="div Concept-Title"
                         data-type="text"
                         data-rsp_ch="on"
                         data-xy="x:l,c,c,c;xo:34px,0,0,-2px;y:m;yo:15px,-2px,-8px,22px;"
@@ -2400,18 +4059,18 @@ export default function Header() {
                         data-frame_999_reverse="x:true;"
                         style={{
                           zIndex: 9,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
                         data-idcheck="true"
                       >
                         Innovative Therapy &amp; Qualified Dentists
                       </h1>
-                    </rs-layer-wrap>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2420,16 +4079,16 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
                           touchAction: "manipulation"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-10-layer-12"
-                          className="slide rs-layer"
+                          className="slide div"
                           data-type="text"
                           data-rsp_ch="on"
                           data-xy="x:l,c,c,c;xo:38px,0,0,0;yo:350px,257px,153px,203px;"
@@ -2440,19 +4099,19 @@ export default function Header() {
                           data-frame_999="o:0;st:w;sR:6180;"
                           style={{
                             zIndex: 10,
-                            fontFamily: "Sora",
+                            fontFamily: 'Visby, sans-serif',
                             touchAction: "manipulation"
                           }}
                           data-idcheck="true"
                         >
                           Welcome to Karisma
-                        </rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        </div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2463,7 +4122,7 @@ export default function Header() {
                     >
                       <a
                         id="slider-2-slide-10-layer-13"
-                        className="rs-layer btn-slider rev-btn"
+                        className="div btn-slider rev-btn"
                         href="https://wordpress.zozothemes.com/happysmile/contact-us/"
                         target="_self"
                         data-type="button"
@@ -2481,7 +4140,7 @@ export default function Header() {
                         style={{
                           zIndex: 13,
                           backgroundColor: "rgb(255, 255, 255)",
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           textTransform: "uppercase",
                           touchAction: "manipulation"
                         }}
@@ -2498,11 +4157,11 @@ export default function Header() {
                           />{" "}
                         </span>
                       </a>
-                    </rs-layer-wrap>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2511,14 +4170,14 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
                           touchAction: "manipulation"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-10-layer-16"
                           data-type="text"
                           data-color="#fff"
@@ -2538,20 +4197,20 @@ export default function Header() {
                           data-frame_999="o:0;st:w;sR:6360;"
                           style={{
                             zIndex: 26,
-                            fontFamily: "Sora",
+                            fontFamily: 'Visby, sans-serif',
                             touchAction: "manipulation"
                           }}
-                          className="rs-layer"
+                          className="div"
                           data-idcheck="true"
                         >
                           Social
-                        </rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        </div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2560,7 +4219,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-10-layer-19"
                         data-type="shape"
                         data-rsp_ch="on"
@@ -2578,14 +4237,14 @@ export default function Header() {
                           backgroundColor: "rgba(255, 255, 255, 0.6)",
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
-                      ></rs-layer>
-                    </rs-layer-wrap>
+                      ></div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2596,7 +4255,7 @@ export default function Header() {
                     >
                       <a
                         id="slider-2-slide-10-layer-24"
-                        className="rs-layer"
+                        className="div"
                         href="#"
                         target="_self"
                         data-type="text"
@@ -2611,18 +4270,18 @@ export default function Header() {
                         data-frame_hover="c:#38bde0;"
                         style={{
                           zIndex: 30,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
                         data-idcheck="true"
                       >
                         Fb
                       </a>
-                    </rs-layer-wrap>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2631,7 +4290,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-10-layer-27"
                         data-type="text"
                         data-color="#fff"
@@ -2647,19 +4306,19 @@ export default function Header() {
                         data-frame_hover="c:#fff;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 20,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                       >
                         Working Hours
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2670,7 +4329,7 @@ export default function Header() {
                     >
                       <a
                         id="slider-2-slide-10-layer-28"
-                        className="rs-layer"
+                        className="div"
                         href=""
                         target="_self"
                         data-type="text"
@@ -2685,18 +4344,18 @@ export default function Header() {
                         data-frame_hover="c:#38bde0;"
                         style={{
                           zIndex: 29,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
                         data-idcheck="true"
                       >
                         In
                       </a>
-                    </rs-layer-wrap>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2705,7 +4364,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-10-layer-29"
                         data-type="shape"
                         data-rsp_ch="on"
@@ -2723,14 +4382,14 @@ export default function Header() {
                           backgroundColor: "rgb(56, 189, 224)",
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
-                      ></rs-layer>
-                    </rs-layer-wrap>
+                      ></div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2739,7 +4398,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-10-layer-30"
                         data-type="text"
                         data-rsp_ch="on"
@@ -2753,21 +4412,21 @@ export default function Header() {
                         data-frame_999="o:0;st:w;sR:4590;"
                         style={{
                           zIndex: 22,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                       >
                         0{"{"}
                         {"{"}current_slide_index{"}"}
                         {"}"}
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2776,14 +4435,14 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
                           touchAction: "manipulation"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-10-layer-31"
                           data-type="shape"
                           data-rsp_ch="on"
@@ -2804,15 +4463,15 @@ export default function Header() {
                             backgroundColor: "rgb(255, 255, 255)",
                             touchAction: "manipulation"
                           }}
-                          className="rs-layer rs-waction rs-wclickaction"
+                          className="div rs-waction rs-wclickaction"
                           data-idcheck="true"
-                        ></rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        ></div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2821,7 +4480,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-10-layer-32"
                         data-type="text"
                         data-rsp_ch="on"
@@ -2835,19 +4494,19 @@ export default function Header() {
                         data-frame_hover="c:#38bde0;"
                         style={{
                           zIndex: 28,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                       >
                         Tw
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2856,7 +4515,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-10-layer-33"
                         data-type="text"
                         data-color="#fff"
@@ -2872,19 +4531,19 @@ export default function Header() {
                         data-frame_hover="c:#fff;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 15,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                       >
                         Mon - Sun :
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2893,7 +4552,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-10-layer-34"
                         data-type="text"
                         data-color="#fff"
@@ -2909,19 +4568,19 @@ export default function Header() {
                         data-frame_hover="c:#fff;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 14,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                       >
                         9Am - 8Pm
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2930,14 +4589,14 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
                           touchAction: "manipulation"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-10-layer-36"
                           data-type="shape"
                           data-rsp_ch="on"
@@ -2958,15 +4617,15 @@ export default function Header() {
                             backgroundColor: "rgb(255, 255, 255)",
                             touchAction: "manipulation"
                           }}
-                          className="rs-layer rs-waction rs-wclickaction"
+                          className="div rs-waction rs-wclickaction"
                           data-idcheck="true"
-                        ></rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        ></div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -2975,14 +4634,14 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
                           touchAction: "manipulation"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-10-layer-37"
                           data-type="shape"
                           data-rsp_ch="on"
@@ -3003,15 +4662,15 @@ export default function Header() {
                             backgroundColor: "rgb(255, 255, 255)",
                             touchAction: "manipulation"
                           }}
-                          className="rs-layer rs-waction rs-wclickaction"
+                          className="div rs-waction rs-wclickaction"
                           data-idcheck="true"
-                        ></rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        ></div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3020,7 +4679,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-10-layer-40"
                         data-type="text"
                         data-color="#fff"
@@ -3036,19 +4695,19 @@ export default function Header() {
                         data-frame_hover="c:#fff;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 19,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                       >
                         Phone Number
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3059,8 +4718,8 @@ export default function Header() {
                     >
                       <a
                         id="slider-2-slide-10-layer-41"
-                        className="rs-layer"
-                        href="tel:5284567592"
+                        className="div"
+                        href="tel:+971564223807"
                         target="_self"
                         data-type="text"
                         data-color="#fff"
@@ -3076,18 +4735,18 @@ export default function Header() {
                         data-frame_hover="c:#38bde0;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 17,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
                         data-idcheck="true"
                       >
-                        (528) 456-7592
+                        +971 56422 3807
                       </a>
-                    </rs-layer-wrap>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3098,7 +4757,7 @@ export default function Header() {
                     >
                       <a
                         id="slider-2-slide-10-layer-42"
-                        className="rs-layer"
+                        className="div"
                         href="mailto:info@karisma.com"
                         target="_self"
                         data-type="text"
@@ -3115,19 +4774,18 @@ export default function Header() {
                         data-frame_hover="c:#38bde0;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 16,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
-
                         }}
                         data-idcheck="true"
                       >
                         info@karisma.com
                       </a>
-                    </rs-layer-wrap>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3136,14 +4794,14 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
                           touchAction: "manipulation"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-10-layer-51"
                           data-type="image"
                           data-rsp_ch="on"
@@ -3157,25 +4815,28 @@ export default function Header() {
                           data-frame_1="oZ:-50;e:power4.inOut;st:260;sp:1750;sR:260;"
                           data-frame_999="o:0;st:w;sR:6990;"
                           style={{ zIndex: 31, touchAction: "manipulation" }}
-                          className="rs-layer"
+                          className="div"
                           data-idcheck="true"
                         >
                           <img
                             loading="lazy"
-                            src="assets/Images/wp-content/uploads/sites/shap-2.png"
+                            src="//wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-2.webp"
                             alt=""
                             className="tp-rs-img rs-lazyload"
                             width={350}
                             height={194}
-                            data-lazyload="assets/Images/wp-content/uploads/sites/shap-2.png"
+                            data-lazyload="//wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-2.webp"
+                            data-no-retina=""
+                            style={{ touchAction: "manipulation" }}
+                            data-src-rs-ref="//wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-2.webp"
                           />
-                        </rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        </div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3184,9 +4845,9 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-10-layer-52"
-                        className="horizontal-teeth rs-layer"
+                        className="horizontal-teeth div"
                         data-type="image"
                         data-rsp_ch="on"
                         data-xy="x:r,c,c,c;xo:70px,0,0,1px;y:t,m,m,m;yo:635px,-223px,-169px,-120px;"
@@ -3200,22 +4861,22 @@ export default function Header() {
                       >
                         <img
                           loading="lazy"
-                          src="assets/Images/wp-content/uploads/sites/shap-3.png"
+                          src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-3.webp"
                           alt=""
                           className="tp-rs-img rs-lazyload"
                           width={269}
                           height={328}
-                          data-lazyload="assets/Images/wp-content/uploads/sites/shap-3.png"
+                          data-lazyload="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-3.webp"
                           data-no-retina=""
                           style={{ touchAction: "manipulation" }}
-                          data-src-rs-ref="assets/Images/wp-content/uploads/sites/shap-3.png"
+                          data-src-rs-ref="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-3.webp"
                         />
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3224,7 +4885,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-10-layer-54"
                         data-type="shape"
                         data-rsp_ch="on"
@@ -3241,14 +4902,14 @@ export default function Header() {
                           backgroundColor: "rgb(56, 189, 224)",
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
-                      ></rs-layer>
-                    </rs-layer-wrap>
+                      ></div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3257,7 +4918,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-10-layer-55"
                         data-type="shape"
                         data-rsp_ch="on"
@@ -3274,14 +4935,14 @@ export default function Header() {
                           backgroundColor: "rgba(0, 0, 0, 0.25)",
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
-                      ></rs-layer>
-                    </rs-layer-wrap>
+                      ></div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3290,7 +4951,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-10-layer-57"
                         data-type="text"
                         data-color="#fff"
@@ -3306,19 +4967,19 @@ export default function Header() {
                         data-frame_hover="c:#fff;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 18,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                       >
                         Email Address
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3327,14 +4988,14 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
                           touchAction: "manipulation"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-10-layer-58"
                           data-type="shape"
                           data-rsp_ch="on"
@@ -3353,15 +5014,15 @@ export default function Header() {
                             backgroundColor: "rgba(0, 0, 0, 0.5)",
                             touchAction: "manipulation"
                           }}
-                          className="rs-layer"
+                          className="div"
                           data-idcheck="true"
-                        ></rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        ></div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3370,7 +5031,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-10-layer-59"
                         data-type="shape"
                         data-rsp_ch="on"
@@ -3388,14 +5049,14 @@ export default function Header() {
                           backgroundColor: "rgba(255, 255, 255, 0.5)",
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
-                      ></rs-layer>
-                    </rs-layer-wrap>
+                      ></div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3404,7 +5065,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-10-layer-60"
                         data-type="shape"
                         data-rsp_ch="on"
@@ -3418,14 +5079,14 @@ export default function Header() {
                           backgroundColor: "rgba(0, 0, 0, 0.57)",
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
-                      ></rs-layer>
-                    </rs-layer-wrap>
+                      ></div>
+                    </div>
                     {/*
              */}{" "}
-                  </rs-slide>
-                  <rs-slide
+                  </div>
+                  <div
                     style={{
                       position: "absolute",
                       display: "none",
@@ -3456,7 +5117,7 @@ export default function Header() {
                       >
                         {/*Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img loading="lazy" src="//wordpress.zozothemes.com/happysmile/wp-content/plugins/revslider/sr6/assets/assets/dummy.png" alt="" title="slider-rev-4" width="1920" height="1280" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/slider-rev-4.webp" data-bg="p:center top;" data-no-retina="">*/}
                         <rs-sbg
-                          data-lazyload="assets/Images/wp-content/uploads/sites/slider-rev-4.png"
+                          data-lazyload="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/slider-rev-4.webp"
                           className=""
                           data-bgcolor="transparent"
                           style={{
@@ -3464,7 +5125,7 @@ export default function Header() {
                             height: "100%",
                             touchAction: "manipulation"
                           }}
-                          data-src-rs-ref="assets/Images/wp-content/uploads/sites/slider-rev-4.png"
+                          data-src-rs-ref="assets/Images/logo_main-3.png"
                         >
                           <canvas
                             style={{
@@ -3478,7 +5139,7 @@ export default function Header() {
                     </rs-sbg-px>
                     {/*
              */}
-                    <rs-layer-wrap
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3487,7 +5148,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-11-layer-0"
                         data-type="text"
                         data-rsp_ch="on"
@@ -3498,19 +5159,19 @@ export default function Header() {
                         data-frame_hover="c:#38bde0;"
                         style={{
                           zIndex: 12,
-                          fontFamily: "DM Sans",
+                          fontFamily: '"DM Sans"',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer rs-waction rs-wclickaction"
+                        className="div rs-waction rs-wclickaction"
                         data-idcheck="true"
                       >
                         NEXT
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3519,7 +5180,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-11-layer-1"
                         data-type="text"
                         data-rsp_ch="on"
@@ -3530,19 +5191,19 @@ export default function Header() {
                         data-frame_hover="c:#38bde0;"
                         style={{
                           zIndex: 11,
-                          fontFamily: "DM Sans",
+                          fontFamily: '"DM Sans"',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer rs-waction rs-wclickaction"
+                        className="div rs-waction rs-wclickaction"
                         data-idcheck="true"
                       >
                         PREV
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3553,7 +5214,7 @@ export default function Header() {
                     >
                       <h1
                         id="slider-2-slide-11-layer-2"
-                        className="rs-layer Concept-Title"
+                        className="div Concept-Title"
                         data-type="text"
                         data-rsp_ch="on"
                         data-xy="x:l,c,c,c;xo:34px,0,0,-2px;y:m;yo:15px,-15px,0,22px;"
@@ -3568,18 +5229,18 @@ export default function Header() {
                         data-frame_999_reverse="x:true;"
                         style={{
                           zIndex: 9,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
                         data-idcheck="true"
                       >
                         Keep Your Teeth and Gums Healthy
                       </h1>
-                    </rs-layer-wrap>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3588,16 +5249,16 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
                           touchAction: "manipulation"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-11-layer-12"
-                          className="slide rs-layer"
+                          className="slide div"
                           data-type="text"
                           data-rsp_ch="on"
                           data-xy="x:l,c,c,c;xo:38px,0,0,0;yo:350px,209px,153px,203px;"
@@ -3608,19 +5269,19 @@ export default function Header() {
                           data-frame_999="o:0;st:w;sR:6180;"
                           style={{
                             zIndex: 10,
-                            fontFamily: "Sora",
+                            fontFamily: 'Visby, sans-serif',
                             touchAction: "manipulation"
                           }}
                           data-idcheck="true"
                         >
                           Welcome to Karisma
-                        </rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        </div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3631,7 +5292,7 @@ export default function Header() {
                     >
                       <a
                         id="slider-2-slide-11-layer-13"
-                        className="rs-layer btn-slider rev-btn"
+                        className="div btn-slider rev-btn"
                         href="https://wordpress.zozothemes.com/happysmile/contact-us/"
                         target="_self"
                         data-type="button"
@@ -3649,7 +5310,7 @@ export default function Header() {
                         style={{
                           zIndex: 13,
                           backgroundColor: "rgb(255, 255, 255)",
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           textTransform: "uppercase",
                           touchAction: "manipulation"
                         }}
@@ -3666,11 +5327,11 @@ export default function Header() {
                           />{" "}
                         </span>
                       </a>
-                    </rs-layer-wrap>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3679,14 +5340,14 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
                           touchAction: "manipulation"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-11-layer-16"
                           data-type="text"
                           data-color="#fff"
@@ -3706,20 +5367,20 @@ export default function Header() {
                           data-frame_999="o:0;st:w;sR:6360;"
                           style={{
                             zIndex: 26,
-                            fontFamily: "Sora",
+                            fontFamily: 'Visby, sans-serif',
                             touchAction: "manipulation"
                           }}
-                          className="rs-layer"
+                          className="div"
                           data-idcheck="true"
                         >
                           Social
-                        </rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        </div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3728,7 +5389,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-11-layer-19"
                         data-type="shape"
                         data-rsp_ch="on"
@@ -3746,14 +5407,14 @@ export default function Header() {
                           backgroundColor: "rgba(255, 255, 255, 0.6)",
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
-                      ></rs-layer>
-                    </rs-layer-wrap>
+                      ></div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3764,7 +5425,7 @@ export default function Header() {
                     >
                       <a
                         id="slider-2-slide-11-layer-24"
-                        className="rs-layer"
+                        className="div"
                         href="#"
                         target="_self"
                         data-type="text"
@@ -3779,18 +5440,18 @@ export default function Header() {
                         data-frame_hover="c:#38bde0;"
                         style={{
                           zIndex: 30,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
                         data-idcheck="true"
                       >
                         Fb
                       </a>
-                    </rs-layer-wrap>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3799,7 +5460,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-11-layer-27"
                         data-type="text"
                         data-color="#fff"
@@ -3815,19 +5476,19 @@ export default function Header() {
                         data-frame_hover="c:#fff;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 20,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                       >
                         Working Hours
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3838,7 +5499,7 @@ export default function Header() {
                     >
                       <a
                         id="slider-2-slide-11-layer-28"
-                        className="rs-layer"
+                        className="div"
                         href=""
                         target="_self"
                         data-type="text"
@@ -3853,18 +5514,18 @@ export default function Header() {
                         data-frame_hover="c:#38bde0;"
                         style={{
                           zIndex: 29,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
                         data-idcheck="true"
                       >
                         In
                       </a>
-                    </rs-layer-wrap>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3873,7 +5534,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-11-layer-29"
                         data-type="shape"
                         data-rsp_ch="on"
@@ -3891,14 +5552,14 @@ export default function Header() {
                           backgroundColor: "rgb(56, 189, 224)",
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
-                      ></rs-layer>
-                    </rs-layer-wrap>
+                      ></div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3907,7 +5568,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-11-layer-30"
                         data-type="text"
                         data-rsp_ch="on"
@@ -3921,21 +5582,21 @@ export default function Header() {
                         data-frame_999="o:0;st:w;sR:4590;"
                         style={{
                           zIndex: 22,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                       >
                         0{"{"}
                         {"{"}current_slide_index{"}"}
                         {"}"}
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3944,14 +5605,14 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
                           touchAction: "manipulation"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-11-layer-31"
                           data-type="shape"
                           data-rsp_ch="on"
@@ -3972,15 +5633,15 @@ export default function Header() {
                             backgroundColor: "rgb(255, 255, 255)",
                             touchAction: "manipulation"
                           }}
-                          className="rs-layer rs-waction rs-wclickaction"
+                          className="div rs-waction rs-wclickaction"
                           data-idcheck="true"
-                        ></rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        ></div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -3989,7 +5650,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-11-layer-32"
                         data-type="text"
                         data-rsp_ch="on"
@@ -4003,19 +5664,19 @@ export default function Header() {
                         data-frame_hover="c:#38bde0;"
                         style={{
                           zIndex: 28,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                       >
                         Tw
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -4024,7 +5685,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-11-layer-33"
                         data-type="text"
                         data-color="#fff"
@@ -4040,19 +5701,19 @@ export default function Header() {
                         data-frame_hover="c:#fff;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 15,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                       >
                         Mon - Sun :
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -4061,7 +5722,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-11-layer-34"
                         data-type="text"
                         data-color="#fff"
@@ -4077,19 +5738,19 @@ export default function Header() {
                         data-frame_hover="c:#fff;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 14,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                       >
                         9Am - 8Pm
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -4098,14 +5759,14 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
                           touchAction: "manipulation"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-11-layer-36"
                           data-type="shape"
                           data-rsp_ch="on"
@@ -4126,15 +5787,15 @@ export default function Header() {
                             backgroundColor: "rgb(255, 255, 255)",
                             touchAction: "manipulation"
                           }}
-                          className="rs-layer rs-waction rs-wclickaction"
+                          className="div rs-waction rs-wclickaction"
                           data-idcheck="true"
-                        ></rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        ></div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -4143,14 +5804,14 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
                           touchAction: "manipulation"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-11-layer-37"
                           data-type="shape"
                           data-rsp_ch="on"
@@ -4171,15 +5832,15 @@ export default function Header() {
                             backgroundColor: "rgb(255, 255, 255)",
                             touchAction: "manipulation"
                           }}
-                          className="rs-layer rs-waction rs-wclickaction"
+                          className="div rs-waction rs-wclickaction"
                           data-idcheck="true"
-                        ></rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        ></div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -4188,7 +5849,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-11-layer-40"
                         data-type="text"
                         data-color="#fff"
@@ -4204,19 +5865,19 @@ export default function Header() {
                         data-frame_hover="c:#fff;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 19,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                       >
                         Phone Number
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -4227,8 +5888,8 @@ export default function Header() {
                     >
                       <a
                         id="slider-2-slide-11-layer-41"
-                        className="rs-layer"
-                        href="tel:5284567592"
+                        className="div"
+                        href="tel:+971564223807"
                         target="_self"
                         data-type="text"
                         data-color="#fff"
@@ -4244,18 +5905,18 @@ export default function Header() {
                         data-frame_hover="c:#38bde0;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 17,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
                         data-idcheck="true"
                       >
-                        (971) 542455385
+                        +971 56422 3807
                       </a>
-                    </rs-layer-wrap>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -4266,7 +5927,7 @@ export default function Header() {
                     >
                       <a
                         id="slider-2-slide-11-layer-42"
-                        className="rs-layer"
+                        className="div"
                         href="mailto:info@karisma.com"
                         target="_self"
                         data-type="text"
@@ -4283,18 +5944,18 @@ export default function Header() {
                         data-frame_hover="c:#38bde0;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 16,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
                         data-idcheck="true"
                       >
                         info@karisma.com
                       </a>
-                    </rs-layer-wrap>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -4303,14 +5964,14 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
                           touchAction: "manipulation"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-11-layer-51"
                           data-type="image"
                           data-rsp_ch="on"
@@ -4324,25 +5985,28 @@ export default function Header() {
                           data-frame_1="oZ:-50;e:power4.inOut;st:260;sp:1750;sR:260;"
                           data-frame_999="o:0;st:w;sR:6990;"
                           style={{ zIndex: 31, touchAction: "manipulation" }}
-                          className="rs-layer"
+                          className="div"
                           data-idcheck="true"
                         >
                           <img
                             loading="lazy"
-                            src="assets/Images/wp-content/uploads/sites/shap-2.png"
+                            src="//wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-2.webp"
                             alt=""
                             className="tp-rs-img rs-lazyload"
                             width={350}
                             height={194}
-                            data-lazyload="assets/Images/wp-content/uploads/sites/shap-2.png"
+                            data-lazyload="//wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-2.webp"
+                            data-no-retina=""
+                            style={{ touchAction: "manipulation" }}
+                            data-src-rs-ref="//wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-2.webp"
                           />
-                        </rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        </div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -4351,9 +6015,9 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-11-layer-52"
-                        className="horizontal-teeth rs-layer"
+                        className="horizontal-teeth div"
                         data-type="image"
                         data-rsp_ch="on"
                         data-xy="x:r,c,c,c;xo:70px,1px,0,1px;y:t,m,m,m;yo:635px,-241px,-183px,-120px;"
@@ -4367,22 +6031,22 @@ export default function Header() {
                       >
                         <img
                           loading="lazy"
-                          src="assets/Images/wp-content/uploads/sites/shap-3.png"
+                          src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-3.webp"
                           alt=""
                           className="tp-rs-img rs-lazyload"
                           width={269}
                           height={328}
-                          data-lazyload="assets/Images/wp-content/uploads/sites/shap-3.png"
+                          data-lazyload="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-3.webp"
                           data-no-retina=""
                           style={{ touchAction: "manipulation" }}
-                          data-src-rs-ref="assets/Images/wp-content/uploads/sites/shap-3.png"
+                          data-src-rs-ref="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/05/shap-3.webp"
                         />
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -4391,7 +6055,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-11-layer-54"
                         data-type="shape"
                         data-rsp_ch="on"
@@ -4408,14 +6072,14 @@ export default function Header() {
                           backgroundColor: "rgb(56, 189, 224)",
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
-                      ></rs-layer>
-                    </rs-layer-wrap>
+                      ></div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -4424,7 +6088,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-11-layer-55"
                         data-type="shape"
                         data-rsp_ch="on"
@@ -4441,14 +6105,14 @@ export default function Header() {
                           backgroundColor: "rgba(0, 0, 0, 0.25)",
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
-                      ></rs-layer>
-                    </rs-layer-wrap>
+                      ></div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -4457,7 +6121,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-11-layer-57"
                         data-type="text"
                         data-color="#fff"
@@ -4473,19 +6137,19 @@ export default function Header() {
                         data-frame_hover="c:#fff;bor:0px,0px,0px,0px;"
                         style={{
                           zIndex: 18,
-                          fontFamily: "Sora",
+                          fontFamily: 'Visby, sans-serif',
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
                       >
                         Email Address
-                      </rs-layer>
-                    </rs-layer-wrap>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -4494,14 +6158,14 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-mask-wrap
+                      <div
                         style={{
                           position: "absolute",
                           display: "block",
                           touchAction: "manipulation"
                         }}
                       >
-                        <rs-layer
+                        <div
                           id="slider-2-slide-11-layer-58"
                           data-type="shape"
                           data-rsp_ch="on"
@@ -4520,15 +6184,15 @@ export default function Header() {
                             backgroundColor: "rgba(0, 0, 0, 0.5)",
                             touchAction: "manipulation"
                           }}
-                          className="rs-layer"
+                          className="div"
                           data-idcheck="true"
-                        ></rs-layer>
-                      </rs-mask-wrap>
-                    </rs-layer-wrap>
+                        ></div>
+                      </div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -4537,7 +6201,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-11-layer-59"
                         data-type="shape"
                         data-rsp_ch="on"
@@ -4555,14 +6219,14 @@ export default function Header() {
                           backgroundColor: "rgba(255, 255, 255, 0.5)",
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
-                      ></rs-layer>
-                    </rs-layer-wrap>
+                      ></div>
+                    </div>
                     {/*
 
-						*/}
-                    <rs-layer-wrap
+							*/}
+                    <div
                       className="rs-parallax-wrap "
                       style={{
                         position: "absolute",
@@ -4571,7 +6235,7 @@ export default function Header() {
                         touchAction: "manipulation"
                       }}
                     >
-                      <rs-layer
+                      <div
                         id="slider-2-slide-11-layer-60"
                         data-type="shape"
                         data-rsp_ch="on"
@@ -4585,20 +6249,21 @@ export default function Header() {
                           backgroundColor: "rgba(0, 0, 0, 0.5)",
                           touchAction: "manipulation"
                         }}
-                        className="rs-layer"
+                        className="div"
                         data-idcheck="true"
-                      ></rs-layer>
-                    </rs-layer-wrap>
+                      ></div>
+                    </div>
                     {/*
              */}{" "}
-                  </rs-slide>
-                </rs-slides>
-              </rs-module>
-            </rs-module-wrap>
-            <rs-fw-forcer style={{ height: 980 }} />
-          </rs-fullwidth-wrap>
+                  </div>
+                </divs>
+              </div>
+            </div>
+            <div style={{ height: 980 }} />
+          </div>
           {/* END REVOLUTION SLIDER */}
         </div>
+
 
         {/* .happysmile-slider-wrapper */}{" "}
 
@@ -4827,14 +6492,14 @@ export default function Header() {
                       <p className="contact-phone">
                         <span className="bi bi-headset" />
                         <span>
-                          <a href="tel:(528)456-7592">(528) 456-7592</a>
+                          <a href="tel:+971564223807">+971 56422 3807</a>
                         </span>
                       </p>
                       <p className="contact-email">
                         <span className="bi bi-envelope" />
                         <span>
-                          <a href="mailto:info@happysmile.com">
-                            info@happysmile.com
+                          <a href="mailto:info@karisma.com">
+                            info@karisma.com
                           </a>
                         </span>
                       </p>
@@ -5043,8 +6708,8 @@ export default function Header() {
                     id="menu-item-73676"
                     className="menu-item menu-item-type-post_type menu-item-object-cea-service menu-item-73676"
                   >
-                    <a href="https://wordpress.zozothemes.com/happysmile/service/scaling-and-root-planing/">
-                      Scaling and Root Planing
+                    <a href="/">
+                      Dental
                     </a>
                   </li>
                   <li
@@ -5236,9 +6901,9 @@ export default function Header() {
               id="bookingModal"
               tabIndex={-1}
               aria-labelledby="bookingModalLabel"
-              style={{ display: "none", paddingLeft: 0 }}
               aria-modal="true"
               role="dialog"
+              style={{ display: "none", paddingLeft: 0 }}
             >
               <div className="modal-dialog">
                 <div className="modal-content">
@@ -5292,7 +6957,7 @@ export default function Header() {
                       <div className="rtSec">
                         <div className="appointMentBox ">
                           <div className="imgBox">
-                            <img src="https://damasmc.com/images/logIcon.svg" alt="Logo Icon" />
+                            <img src="/images/logIcon.svg" alt="Logo Icon" />
                           </div>
                           <div className="title"> Book An Appointment</div>
                           <form
@@ -5303,13 +6968,13 @@ export default function Header() {
                             <input
                               type="hidden"
                               name="_csrf-frontend"
-                              defaultValue="wf30fGHj9CJeyFuKc8AnNjmoUOIf6jVavYwiQsPD-QObqoMVU5aNWmfwdvJHpGsBCtkXlUunejPv4mkwq_Oreg=="
+                              defaultValue="BFlxJ4MmG-qX03gqI7HpCrLVKOUjVE621R2XGHnLg81bIRAX0BBEocW6DEJ1hthd8LlejhE7AOGgc-5zKv_ooA=="
                             />{" "}
                             <div className="row">
                               <input
                                 type="hidden"
                                 name="AppointmentEnquiry[page_url]"
-                                defaultValue="https://damasmc.com/en/contact-us"
+                                defaultValue="https://damasmc.com/en/departments"
                               />
                               <div className="col-lg-12">
                                 <div className="form-group field-appointmentenquiry-name required">
@@ -5338,19 +7003,18 @@ export default function Header() {
                                 </div>{" "}
                               </div>
                               <div className="col-lg-6">
-                                <div className="form-group field-appointmentenquiry-gender required has-error">
+                                <div className="form-group field-appointmentenquiry-gender required">
                                   <select
                                     id="appointmentenquiry-gender"
                                     className="select2 select"
                                     name="AppointmentEnquiry[gender]"
                                     aria-required="true"
-                                    aria-invalid="true"
                                   >
                                     <option value="">Gender *</option>
                                     <option value={1}>Male</option>
                                     <option value={2}>Female</option>
                                   </select>
-                                  <div className="help-block">Gender cannot be blank.</div>
+                                  <div className="help-block" />
                                 </div>{" "}
                               </div>
                               <div className="col-lg-12">
@@ -5554,6 +7218,7 @@ export default function Header() {
                 </div>
               </div>
             </div>
+
           </form>
         </div>
         {/* .mobile-menu-floating */}{" "}
@@ -5612,7 +7277,7 @@ export default function Header() {
         id="rs-plugin-settings-inline-css"
         dangerouslySetInnerHTML={{
           __html:
-            "\n\t\t.borders.sl-border-top-left{position:absolute;  left:0;  top:0;  display:flex}div.sl-border1{width:57px;  height:219px;  border:solid 1px #cda274;  transform:rotate(-45deg);  margin-top:92px !important}div.sl-border2{width:57px;  height:253px;  border:solid 1px #cda274;  transform:rotate(-45deg)}.borders.sl-border-top-right{position:absolute;  right:0}.slide-text-transparent{color:rgba(255,255,255,1) !important;  text-shadow:-1px -1px 0 #e8eaed,1px -1px 0 #e8eaed,-1px 1px 0 #e8eaed,1px 1px 0 #e8eaed}.slide-fbox-title:hover,.slide-fbox-number:hover{color:#d4d4d4 !important}.rotate-text-wrap img{animation-name:floating-animate-model-2;  animation-duration:400s;  animation-iteration-count:infinite;  animation-timing-function:linear;  -webkit-animation-name:floating-animate-model-2;  -webkit-animation-duration:400s;  -webkit-animation-iteration-count:infinite;  -webkit-animation-timing-function:linear;  -moz-animation-name:floating-animate-model-2;  -moz-animation-duration:400s;  -moz-animation-iteration-count:infinite;  -moz-animation-timing-function:linear;  -ms-animation-name:floating-animate-model-2;  -ms-animation-duration:400s;  -ms-animation-iteration-count:infinite;  -ms-animation-timing-function:linear;  -o-animation-name:floating-animate-model-2;  -o-animation-duration:400s;  -o-animation-iteration-count:infinite;  -o-animation-timing-function:linear}.img-shake img{-webkit-animation:skew3dance 5s linear 1s infinite;  animation:skew3dance 5s linear 1s infinite}.slide.sub-title:before{content:\"\\f5d4\";  font-family:'bootstrap-icons';  border-radius:80px;  position:absolute;  top:50%;  transform:translateY(-50%);  right:0;  font-size:19px}.rs-parallax-wrap .horizontal-teeth img{-webkit-animation:horizontal-teeth 3s linear;  animation:horizontal-teeth 3s linear infinite}@-webkit-keyframes horizontal-teeth{0%{-webkit-transform:perspective(1000px) rotateY(0deg); transform:perspective(1000px) rotateY(0deg)}100%{-webkit-transform:perspective(1000px) rotateY(360deg); transform:perspective(1000px) rotateY(360deg)}}@keyframes horizontal-teeth{0%{-webkit-transform:perspective(1000px) rotateY(0deg); transform:perspective(1000px) rotateY(0deg)}100%{-webkit-transform:perspective(1000px) rotateY(360deg); transform:perspective(1000px) rotateY(360deg)}}.rs-parallax-wrap .btn-slider:after{content:\"\";  width:100%;  height:100%;  position:absolute;  top:-7px;  left:-7px;  background-color:#38BDE0;  border-radius:10px 10px 0px 10px;  z-index:0;  transition:400ms ease-in-out}.rs-parallax-wrap .btn-slider:before{content:\"\";  width:100%;  height:100%;  position:absolute;  top:0px;  left:0px;  background-color:#fff;  border-radius:10px 10px 0px 10px;  z-index:2;  transition:400ms ease-in-out;  border:solid 1px}.rs-parallax-wrap .btn-slider:hover:before{opacity:0;  border-radius:10px 10px 0px 10px}.rs-parallax-wrap .btn-slider:hover:after{top:0;  left:0;  z-index:1;  border-radius:10px 10px 0px 10px}.rs-parallax-wrap .btn-text{position:relative;  z-index:2}.res-slide-btn.rev-sl-btn{overflow:hidden}.cus-hide1{display:none !important}.cus-hide2{display:block !important}rs-mask-wrap .rs-layer span.cus-stroke{-webkit-text-stroke:1px #fff;  color:transparent}rs-slide{overflow:visible !important}@-webkit-keyframes zoomInslide{0%{-webkit-transform:scale(0); transform:scale(0)}50%{-webkit-transform:scale(1); transform:scale(1)}100%{-webkit-transform:scale(0); transform:scale(0)}}@keyframes zoomInslide{0%{-webkit-transform:scale(0); transform:scale(0)}50%{-webkit-transform:scale(1); transform:scale(1)}100%{-webkit-transform:scale(0); transform:scale(0)}}rs-layer-wrap .cus-left-arrow-txt,rs-layer-wrap .cus-left-arrow,rs-layer-wrap .cus-right-arrow-txt,rs-layer-wrap .cus-right-arrow{opacity:0 !important;  transition:all .3s}.igual-slider-wrapper:hover rs-layer-wrap .cus-left-arrow-txt,.igual-slider-wrapper:hover rs-layer-wrap .cus-left-arrow,.igual-slider-wrapper:hover rs-layer-wrap .cus-right-arrow-txt,.igual-slider-wrapper:hover rs-layer-wrap .cus-right-arrow{opacity:1 !important;  transition:all .3s}@-webkit-keyframes skew3dance{0%{transform:skewX(0deg)}25%{transform:skewX(-3deg)}50%{transform:skewX(0deg)}75%{transform:skewX(3deg)}to{transform:skewX(0deg)}}@keyframes skew3dance{0%{transform:skewX(0deg)}25%{transform:skewX(-3deg)}50%{transform:skewX(0deg)}75%{transform:skewX(3deg)}to{transform:skewX(0deg)}}.res-d-none{display:none !important}.slide-fbox-title:hover,.slide-fbox-title,.slide-fbox-number:hover,.slide-fbox-number{transition:all .3s}.rs-layer.Concept-Content a,.rs-layer.Concept-Content a:visited{color:#fff !important; border-bottom:1px solid #fff !important; font-weight:700 !important}span.spl-slash{padding-left:19px; padding-right:19px}span.spl-slash{position:relative}.sl-link{transition:all .3s}.sl-link:hover{opacity:.8 !important;  transition:all .3s}span.spl-slash:before{content:\"\";  width:3px;  height:23px;  background:#ff3e55;  position:absolute;  top:6px;  left:5px;  transform:rotate(-20deg)}span.spl-slash:after{content:\"\";  width:3px;  height:23px;  background:#ff3e55;  position:absolute;  top:6px;  right:5px;  transform:rotate(-20deg)}.rs-layer.Concept-Content a:hover{border-bottom:1px solid transparent !important}.rs-layer.Concept-Content-Dark a,.rs-layer.Concept-Content-Dark a:visited{color:#000 !important; border-bottom:1px solid #000 !important; font-weight:700 !important}.rs-layer.Concept-Content-Dark a:hover{border-bottom:1px solid transparent !important}.res-slide-btn i{font-size:14px !important;  font-weight:600 !important;  margin-left:5px !important;  vertical-align:-1px !important}.tp-leftarrow.tparrows{border-top-left-radius:10px;  border-bottom-left-radius:10px}.tp-rightarrow.tparrows{border-top-right-radius:10px;  border-bottom-right-radius:10px}rs-layer.slide-fbox.rs-layer{background:rgb(255 255 255 / 10%) !important;  box-shadow:0 8px 32px 0 rgb(31 38 135 / 37%) !important;  backdrop-filter:blur( 6px );  -webkit-backdrop-filter:blur( 6px );   transition:all .3s ease-in-out 0s;  -webkit-transition:all .3s ease-in-out 0s;  -moz-transition:all .3s ease-in-out 0s;  -ms-transition:all .3s ease-in-out 0s;  -o-transition:all .3s ease-in-out 0s}rs-layer.slide-fbox.rs-layer:hover{background:rgb(255 255 255 / 4%) !important;   transition:all .3s ease-in-out 0s;  -webkit-transition:all .3s ease-in-out 0s;  -moz-transition:all .3s ease-in-out 0s;  -ms-transition:all .3s ease-in-out 0s;  -o-transition:all .3s ease-in-out 0s}@media only screen and (max-width:1024px){.dot-buffer:before,.dot-buffer:after{content:unset !important}span.spl-slash{padding-left:0 !important; padding-right:0 !important}span.spl-slash:before{content:unset}span.spl-slash:after{content:unset}.res-d-none{display:block !important}.res-slide-btn.rev-sl-btn i{display:none}.slide.sub-title:before{content:unset}.cus-hide1{display:block !important}.cus-hide2{display:none !important}.igual-slide-txt{padding-left:0 !important;   border-left:none !important}.dot-buffer{top:10px;  left:5px;  transform:translateY(-50%)}}@media only screen and (max-width:730px){.interiar-slide-txt{font-size:16px !important;  line-height:30px !important}rs-mask-wrap .res-slide-btn{margin-top:0px}}@media only screen and (max-width:668px){rs-mask-wrap .res-slide-btn{margin-top:61px}}@media only screen and (max-width:640px){.igual-slide-txt{font-size:16px !important;  line-height:30px !important}rs-mask-wrap .res-slide-btn{margin-top:20px !important;   padding:9px 25px !important;   font-size:13px !important}}@media only screen and (max-width:603px){rs-mask-wrap .res-slide-btn{margin-top:35px !important}}@media only screen and (max-width:575px){rs-mask-wrap .res-slide-btn{padding:9px 16px !important}}@media only screen and (max-width:565px){rs-mask-wrap .res-slide-btn{margin-top:35px !important}}@media only screen and (max-width:525px){.igual-slide-txt{line-height:30px !important}rs-mask-wrap .res-slide-btn{margin-top:47px !important}}@media only screen and (max-width:506px){.igual-slide-txt{line-height:28px !important;   font-size:15px !important}}@media only screen and (max-width:481px){rs-mask-wrap .res-slide-btn{margin-top:48px !important}}@media only screen and (max-width:480px){rs-mask-wrap .res-slide-btn{margin-top:15px !important}}@media only screen and (max-width:479px){rs-mask-wrap .res-slide-btn{margin-top:5px !important}}@media only screen and (max-width:472px){.igual-slide-txt{font-size:15px !important;  line-height:28px !important}}@media only screen and (max-width:426px){.igual-slide-txt{font-size:15px !important;  line-height:28px !important}rs-mask-wrap .res-slide-btn{margin-top:15px !important}}@media only screen and (max-width:412px){rs-mask-wrap .res-slide-btn{margin-top:15px !important}}@media only screen and (max-width:388px){rs-mask-wrap .res-slide-btn{margin-top:15px !important}.igual-slide-txt{font-size:15px !important;  line-height:27px !important}}@media only screen and (max-width:359px){.igual-slide-txt{font-size:15px !important;  line-height:24px !important}rs-mask-wrap .res-slide-btn{margin-top:35px !important}}@media only screen and (max-width:332px){.igual-slide-txt{font-size:14px !important;  line-height:24px !important}rs-mask-wrap .res-slide-btn{margin-top:69px !important}}\n\t\t#rev_slider_2_1_wrapper .hades.tparrows{cursor:pointer;background:rgba(0,0,0,0.25);width:100px;height:100px;position:absolute;display:block;z-index:1000}#rev_slider_2_1_wrapper .hades.tparrows:before{font-family:'revicons';font-size:30px;color:#ffffff;display:block;line-height:100px;text-align:center; transition:background 0.3s,color 0.3s}#rev_slider_2_1_wrapper .hades.tparrows.tp-leftarrow:before{content:'\\e824'}#rev_slider_2_1_wrapper .hades.tparrows.tp-rightarrow:before{content:'\\e825'}#rev_slider_2_1_wrapper .hades.tparrows.rs-touchhover:before{color:rgba(0,0,0,0.5);  background:#ffffff}#rev_slider_2_1_wrapper .hades .tp-arr-allwrapper{position:absolute; left:100%; top:0px; background:#888;  width:100px;height:100px; -webkit-transition:all 0.3s; transition:all 0.3s; -ms-filter:'progid:dximagetransform.microsoft.alpha(opacity=0)'; filter:alpha(opacity=0); -moz-opacity:0.0; -khtml-opacity:0.0; opacity:0.0; -webkit-transform:rotatey(-90deg); transform:rotatey(-90deg); -webkit-transform-origin:0% 50%; transform-origin:0% 50%}#rev_slider_2_1_wrapper .hades.tp-rightarrow .tp-arr-allwrapper{left:auto;  right:100%;  -webkit-transform-origin:100% 50%; transform-origin:100% 50%;  -webkit-transform:rotatey(90deg); transform:rotatey(90deg)}#rev_slider_2_1_wrapper .hades:hover .tp-arr-allwrapper{-ms-filter:'progid:dximagetransform.microsoft.alpha(opacity=100)'; filter:alpha(opacity=100); -moz-opacity:1; -khtml-opacity:1; opacity:1;   -webkit-transform:rotatey(0deg); transform:rotatey(0deg)}#rev_slider_2_1_wrapper .hades .tp-arr-iwrapper{}#rev_slider_2_1_wrapper .hades .tp-arr-imgholder{background-size:cover; position:absolute; top:0px;left:0px; width:100%;height:100%}#rev_slider_2_1_wrapper .hades .tp-arr-titleholder{}#rev_slider_2_1_wrapper .hades .tp-arr-subtitleholder{}\n"
+            "\n\t\t.borders.sl-border-top-left{position:absolute;  left:0;  top:0;  display:flex}div.sl-border1{width:57px;  height:219px;  border:solid 1px #cda274;  transform:rotate(-45deg);  margin-top:92px !important}div.sl-border2{width:57px;  height:253px;  border:solid 1px #cda274;  transform:rotate(-45deg)}.borders.sl-border-top-right{position:absolute;  right:0}.slide-text-transparent{color:rgba(255,255,255,1) !important;  text-shadow:-1px -1px 0 #e8eaed,1px -1px 0 #e8eaed,-1px 1px 0 #e8eaed,1px 1px 0 #e8eaed}.slide-fbox-title:hover,.slide-fbox-number:hover{color:#d4d4d4 !important}.rotate-text-wrap img{animation-name:floating-animate-model-2;  animation-duration:400s;  animation-iteration-count:infinite;  animation-timing-function:linear;  -webkit-animation-name:floating-animate-model-2;  -webkit-animation-duration:400s;  -webkit-animation-iteration-count:infinite;  -webkit-animation-timing-function:linear;  -moz-animation-name:floating-animate-model-2;  -moz-animation-duration:400s;  -moz-animation-iteration-count:infinite;  -moz-animation-timing-function:linear;  -ms-animation-name:floating-animate-model-2;  -ms-animation-duration:400s;  -ms-animation-iteration-count:infinite;  -ms-animation-timing-function:linear;  -o-animation-name:floating-animate-model-2;  -o-animation-duration:400s;  -o-animation-iteration-count:infinite;  -o-animation-timing-function:linear}.img-shake img{-webkit-animation:skew3dance 5s linear 1s infinite;  animation:skew3dance 5s linear 1s infinite}.slide.sub-title:before{content:\"\\f5d4\";  font-family:'bootstrap-icons';  border-radius:80px;  position:absolute;  top:50%;  transform:translateY(-50%);  right:0;  font-size:19px}.rs-parallax-wrap .horizontal-teeth img{-webkit-animation:horizontal-teeth 3s linear;  animation:horizontal-teeth 3s linear infinite}@-webkit-keyframes horizontal-teeth{0%{-webkit-transform:perspective(1000px) rotateY(0deg); transform:perspective(1000px) rotateY(0deg)}100%{-webkit-transform:perspective(1000px) rotateY(360deg); transform:perspective(1000px) rotateY(360deg)}}@keyframes horizontal-teeth{0%{-webkit-transform:perspective(1000px) rotateY(0deg); transform:perspective(1000px) rotateY(0deg)}100%{-webkit-transform:perspective(1000px) rotateY(360deg); transform:perspective(1000px) rotateY(360deg)}}.rs-parallax-wrap .btn-slider:after{content:\"\";  width:100%;  height:100%;  position:absolute;  top:-7px;  left:-7px;  background-color:#38BDE0;  border-radius:10px 10px 0px 10px;  z-index:0;  transition:400ms ease-in-out}.rs-parallax-wrap .btn-slider:before{content:\"\";  width:100%;  height:100%;  position:absolute;  top:0px;  left:0px;  background-color:#fff;  border-radius:10px 10px 0px 10px;  z-index:2;  transition:400ms ease-in-out;  border:solid 1px}.rs-parallax-wrap .btn-slider:hover:before{opacity:0;  border-radius:10px 10px 0px 10px}.rs-parallax-wrap .btn-slider:hover:after{top:0;  left:0;  z-index:1;  border-radius:10px 10px 0px 10px}.rs-parallax-wrap .btn-text{position:relative;  z-index:2}.res-slide-btn.rev-sl-btn{overflow:hidden}.cus-hide1{display:none !important}.cus-hide2{display:block !important}div .div span.cus-stroke{-webkit-text-stroke:1px #fff;  color:transparent}div{overflow:visible !important}@-webkit-keyframes zoomInslide{0%{-webkit-transform:scale(0); transform:scale(0)}50%{-webkit-transform:scale(1); transform:scale(1)}100%{-webkit-transform:scale(0); transform:scale(0)}}@keyframes zoomInslide{0%{-webkit-transform:scale(0); transform:scale(0)}50%{-webkit-transform:scale(1); transform:scale(1)}100%{-webkit-transform:scale(0); transform:scale(0)}}div .cus-left-arrow-txt,div .cus-left-arrow,div .cus-right-arrow-txt,div .cus-right-arrow{opacity:0 !important;  transition:all .3s}.igual-slider-wrapper:hover div .cus-left-arrow-txt,.igual-slider-wrapper:hover div .cus-left-arrow,.igual-slider-wrapper:hover div .cus-right-arrow-txt,.igual-slider-wrapper:hover div .cus-right-arrow{opacity:1 !important;  transition:all .3s}@-webkit-keyframes skew3dance{0%{transform:skewX(0deg)}25%{transform:skewX(-3deg)}50%{transform:skewX(0deg)}75%{transform:skewX(3deg)}to{transform:skewX(0deg)}}@keyframes skew3dance{0%{transform:skewX(0deg)}25%{transform:skewX(-3deg)}50%{transform:skewX(0deg)}75%{transform:skewX(3deg)}to{transform:skewX(0deg)}}.res-d-none{display:none !important}.slide-fbox-title:hover,.slide-fbox-title,.slide-fbox-number:hover,.slide-fbox-number{transition:all .3s}.div.Concept-Content a,.div.Concept-Content a:visited{color:#fff !important; border-bottom:1px solid #fff !important; font-weight:700 !important}span.spl-slash{padding-left:19px; padding-right:19px}span.spl-slash{position:relative}.sl-link{transition:all .3s}.sl-link:hover{opacity:.8 !important;  transition:all .3s}span.spl-slash:before{content:\"\";  width:3px;  height:23px;  background:#ff3e55;  position:absolute;  top:6px;  left:5px;  transform:rotate(-20deg)}span.spl-slash:after{content:\"\";  width:3px;  height:23px;  background:#ff3e55;  position:absolute;  top:6px;  right:5px;  transform:rotate(-20deg)}.div.Concept-Content a:hover{border-bottom:1px solid transparent !important}.div.Concept-Content-Dark a,.div.Concept-Content-Dark a:visited{color:#000 !important; border-bottom:1px solid #000 !important; font-weight:700 !important}.div.Concept-Content-Dark a:hover{border-bottom:1px solid transparent !important}.res-slide-btn i{font-size:14px !important;  font-weight:600 !important;  margin-left:5px !important;  vertical-align:-1px !important}.tp-leftarrow.tparrows{border-top-left-radius:10px;  border-bottom-left-radius:10px}.tp-rightarrow.tparrows{border-top-right-radius:10px;  border-bottom-right-radius:10px}div.slide-fbox.div{background:rgb(255 255 255 / 10%) !important;  box-shadow:0 8px 32px 0 rgb(31 38 135 / 37%) !important;  backdrop-filter:blur( 6px );  -webkit-backdrop-filter:blur( 6px );   transition:all .3s ease-in-out 0s;  -webkit-transition:all .3s ease-in-out 0s;  -moz-transition:all .3s ease-in-out 0s;  -ms-transition:all .3s ease-in-out 0s;  -o-transition:all .3s ease-in-out 0s}div.slide-fbox.div:hover{background:rgb(255 255 255 / 4%) !important;   transition:all .3s ease-in-out 0s;  -webkit-transition:all .3s ease-in-out 0s;  -moz-transition:all .3s ease-in-out 0s;  -ms-transition:all .3s ease-in-out 0s;  -o-transition:all .3s ease-in-out 0s}@media only screen and (max-width:1024px){.dot-buffer:before,.dot-buffer:after{content:unset !important}span.spl-slash{padding-left:0 !important; padding-right:0 !important}span.spl-slash:before{content:unset}span.spl-slash:after{content:unset}.res-d-none{display:block !important}.res-slide-btn.rev-sl-btn i{display:none}.slide.sub-title:before{content:unset}.cus-hide1{display:block !important}.cus-hide2{display:none !important}.igual-slide-txt{padding-left:0 !important;   border-left:none !important}.dot-buffer{top:10px;  left:5px;  transform:translateY(-50%)}}@media only screen and (max-width:730px){.interiar-slide-txt{font-size:16px !important;  line-height:30px !important}div .res-slide-btn{margin-top:0px}}@media only screen and (max-width:668px){div .res-slide-btn{margin-top:61px}}@media only screen and (max-width:640px){.igual-slide-txt{font-size:16px !important;  line-height:30px !important}div .res-slide-btn{margin-top:20px !important;   padding:9px 25px !important;   font-size:13px !important}}@media only screen and (max-width:603px){div .res-slide-btn{margin-top:35px !important}}@media only screen and (max-width:575px){div .res-slide-btn{padding:9px 16px !important}}@media only screen and (max-width:565px){div .res-slide-btn{margin-top:35px !important}}@media only screen and (max-width:525px){.igual-slide-txt{line-height:30px !important}div .res-slide-btn{margin-top:47px !important}}@media only screen and (max-width:506px){.igual-slide-txt{line-height:28px !important;   font-size:15px !important}}@media only screen and (max-width:481px){div .res-slide-btn{margin-top:48px !important}}@media only screen and (max-width:480px){div .res-slide-btn{margin-top:15px !important}}@media only screen and (max-width:479px){div .res-slide-btn{margin-top:5px !important}}@media only screen and (max-width:472px){.igual-slide-txt{font-size:15px !important;  line-height:28px !important}}@media only screen and (max-width:426px){.igual-slide-txt{font-size:15px !important;  line-height:28px !important}div .res-slide-btn{margin-top:15px !important}}@media only screen and (max-width:412px){div .res-slide-btn{margin-top:15px !important}}@media only screen and (max-width:388px){div .res-slide-btn{margin-top:15px !important}.igual-slide-txt{font-size:15px !important;  line-height:27px !important}}@media only screen and (max-width:359px){.igual-slide-txt{font-size:15px !important;  line-height:24px !important}div .res-slide-btn{margin-top:35px !important}}@media only screen and (max-width:332px){.igual-slide-txt{font-size:14px !important;  line-height:24px !important}div .res-slide-btn{margin-top:69px !important}}\n\t\t#rev_slider_2_1_wrapper .hades.tparrows{cursor:pointer;background:rgba(0,0,0,0.25);width:100px;height:100px;position:absolute;display:block;z-index:1000}#rev_slider_2_1_wrapper .hades.tparrows:before{font-family:'revicons';font-size:30px;color:#ffffff;display:block;line-height:100px;text-align:center; transition:background 0.3s,color 0.3s}#rev_slider_2_1_wrapper .hades.tparrows.tp-leftarrow:before{content:'\\e824'}#rev_slider_2_1_wrapper .hades.tparrows.tp-rightarrow:before{content:'\\e825'}#rev_slider_2_1_wrapper .hades.tparrows.rs-touchhover:before{color:rgba(0,0,0,0.5);  background:#ffffff}#rev_slider_2_1_wrapper .hades .tp-arr-allwrapper{position:absolute; left:100%; top:0px; background:#888;  width:100px;height:100px; -webkit-transition:all 0.3s; transition:all 0.3s; -ms-filter:'progid:dximagetransform.microsoft.alpha(opacity=0)'; filter:alpha(opacity=0); -moz-opacity:0.0; -khtml-opacity:0.0; opacity:0.0; -webkit-transform:rotatey(-90deg); transform:rotatey(-90deg); -webkit-transform-origin:0% 50%; transform-origin:0% 50%}#rev_slider_2_1_wrapper .hades.tp-rightarrow .tp-arr-allwrapper{left:auto;  right:100%;  -webkit-transform-origin:100% 50%; transform-origin:100% 50%;  -webkit-transform:rotatey(90deg); transform:rotatey(90deg)}#rev_slider_2_1_wrapper .hades:hover .tp-arr-allwrapper{-ms-filter:'progid:dximagetransform.microsoft.alpha(opacity=100)'; filter:alpha(opacity=100); -moz-opacity:1; -khtml-opacity:1; opacity:1;   -webkit-transform:rotatey(0deg); transform:rotatey(0deg)}#rev_slider_2_1_wrapper .hades .tp-arr-iwrapper{}#rev_slider_2_1_wrapper .hades .tp-arr-imgholder{background-size:cover; position:absolute; top:0px;left:0px; width:100%;height:100%}#rev_slider_2_1_wrapper .hades .tp-arr-titleholder{}#rev_slider_2_1_wrapper .hades .tp-arr-subtitleholder{}\n"
         }}
       />
       <span id="elementor-device-mode" className="elementor-screen-only" />
@@ -5621,13 +7286,7 @@ export default function Header() {
         role="status"
       />
       <grammarly-desktop-integration data-grammarly-shadow-root="true" />
-
-
-
-
+      <Booking showModal={showBooking} handleClose={handleClose} />
     </>
-
-
-
   );
 }

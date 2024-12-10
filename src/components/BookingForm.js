@@ -109,8 +109,8 @@ function Booking({ showModal, handleClose }) {
         e.preventDefault();
         setFormLoading(true); // Start loader for submission
         try {
-            // const response = await axios.post('https://dental.dmaksolutions.com/api/book-appointment', {
-            const response = await axios.post('http://localhost:5000/api/book-appointment', {
+            const response = await axios.post('https://dental.dmaksolutions.com/api/book-appointment', {
+            // const response = await axios.post('http://localhost:5000/api/book-appointment', {
                 ...formData,
             });
 
@@ -180,7 +180,7 @@ function Booking({ showModal, handleClose }) {
                 // size="lg"
                 dialogClassName='my-modal'
                 centered
-                backdrop="static" // Prevent closing modal by clicking outside
+                // backdrop="static" // Prevent closing modal by clicking outside
                 keyboard={false} // Prevent closing modal using the ESC key
                 classname="modal"
             >

@@ -56,7 +56,18 @@ textarea.cust-form-control {
   border-bottom: #405D53 solid 1px;
   color: #405D53;
 }
-
+.cea-button-wrapper .cea-button-link:after{
+  background-color: #405D53 !important;
+}
+.cust-elementor-button span{
+  color: #405D53;
+}
+.cust-elementor-button span:hover{
+  color: #fff !important;
+}
+.cea-button-wrapper .cea-button-link:before{
+  border: 1px solid #405D53 !important;
+}
 input.cust-form-control:focus,
 textarea.cust-form-control:focus {
   border-bottom: 1px solid #8C9990;

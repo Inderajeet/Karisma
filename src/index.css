@@ -9,7 +9,7 @@ body {
 }
 
 div, p, h1, h2, h3, h4, h5, h6,a, nav{
-  font-family: 'Visby CF', sans-serif !important;
+  font-family: 'Visby CF', sans-serif ;
 }
 
 /* code {
