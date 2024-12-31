@@ -13,6 +13,8 @@ import PageLoader from "./components/PageLoader";
 import Checkout from './components/Checkout';
 import OfferDetails from './components/OfferDetails';
 import Doctor1 from './pages/doctors/doctor_1';
+import HydraFacial from './departments/skincare/facial/hydrafacial';
+import Skincare from './departments/skincare/SkinCare';
 
 Modal.setAppElement('#root'); // For accessibility
 
@@ -31,6 +33,9 @@ function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/checkout" element={<Checkout />} />
             <Route path="/doctor-1" element={<Doctor1 />} />
+            <Route path="/skincare" element={<Skincare />} />
+            <Route path="/service/hydra-facial" element={<HydraFacial />} />
+
           </Routes>
         </NavigationWithLoader>
       </CartProvider>

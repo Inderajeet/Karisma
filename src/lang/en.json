@@ -3,5 +3,79 @@
     "TOPBARLINE_1":"A healthier",
     "TOPBARLINE_2":"without the hassle...",
     "TOPBARUL":"Mon – Sun: 9.00 am – 6.00 pm"
+  },
+  "about_us":{
+    "background-color": "#405D53",
+    "heading-font-color": "#916F4D",
+    "heading-font-size": "22px",
+    "font-color": "#fff",
+    "font-size": "18px",
+    "CustomerBg-color": "#916F4D",
+    "Customer-font-color": "#fff",
+    "Customer-font-size": "42px",
+    "Customer-subfont-size": "16px",
+    "Button-color": "#916F4D",
+    "Button-border": "#916F4D",
+    "Button-text-color": "white"
+    
+  },
+  "about2":{
+    "background-color": "#916F4D",
+    "heading1-size": "18px",
+    "heading1-color": "white",
+    "heading2-size": "22px",
+    "heading2-color": "#ACB9D0",
+    "right-heading-color": "#ACB9D0",
+    "right-heading-size": "30px",
+    "desc-size": "16px",
+    "desc-color": "white",
+    "list-color": "white",
+    "list-size": "16px",
+    "button-bg-color": "#405D53",
+    "button-border-color":"#405D53",
+    "button-text-color": "white"
+  },
+  "department":{
+    "background-color": "#577065",
+    "heading1-size": "24px",
+    "heading1-color": "white",
+    "heading2-size": "44px",
+    "heading2-color": "#EDDAC5",
+    "dental":{
+      "background-color": "#fff",
+      "heading-color": "#916F4D",
+      "heading-size": "24px",
+      "desc-color": "#797979",
+      "desc-size": "16px",
+      "button-text-color": "#465F7E",
+      "button-text-size": "16px"
+    }
+  },
+  "videoTopSection":{
+    "background-color": "#916F4D",
+    "couter-color":"white",
+    "couter-size":"42px",
+    "heading-color": "white",
+    "heading-size": "21px",
+    "desc-color": "#000",
+    "desc-size": "13px"
+  },
+  "doctors":{
+    "background-color": "#577065",
+    "heading1-color": "white",
+    "heading1-size": "24px",
+    "heading2-color": "#EDDAC5",
+    "heading2-size": "44px",
+    "doc_cards":{
+      "background-color": "#916F4D",
+      "heading-color": "white",
+      "heading-size": "24px",
+      "desc-color": "white",
+      "desc-size": "16px",
+      "button-text-color": "white",
+      "button-text-size": "16px"
+    }
   }
+
+  
 }

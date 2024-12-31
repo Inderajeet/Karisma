@@ -20,7 +20,7 @@ export default function Footer() {
                                   decoding="async"
                                   width={200}
                                   height={68}
-                                  src="./https://dental.dmaksolutions.com/assets/Images/logo_main-3.png"
+                                  src="./assets/Images/logo_main-3.png"
                                   alt=""
                                   className="wp-image-71634"
                                   style={{ width: 158 }}
@@ -160,7 +160,7 @@ individuals embrace their natural allure and shine in their own way.
                                       id="menu-item-73639"
                                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73639"
                                     >
-                                      <a href="/" style={{fontFamily: 'Tajawal variant2'}}>
+                                      <a href="/offers" style={{fontFamily: 'Tajawal variant2'}}>
                                         Offers
                                       </a>
                                     </li>
@@ -201,7 +201,7 @@ individuals embrace their natural allure and shine in their own way.
                                   Schedule An Appointment Today
                                 </h3>
                                 <a
-                                  href="https://wordpress.zozothemes.com/happysmile/contact-us/"
+                                  href="/contact_us"
                                   className="btn btn-primary"
                                 >
                                   <span>
@@ -234,15 +234,12 @@ individuals embrace their natural allure and shine in their own way.
                           <p className="footer-copyright" style={{color:'white'}}>
                             © Copyright 2024. All rights reserved {" "}
                             <a
-                              href="https://wordpress.zozothemes.com/happysmile/"
+                              href="/"
                               target="_blank" style={{color:'#465F7E'}}
                             >
                               Karisma
                             </a>
-                            , Designed by 
-                             <a href="https://dmaksolutions.com/" target="_blank" style={{color:'#465F7E'}}>
-                             <span style={{paddingLeft:'5px'}}> Dmak Solutions</span>
-                            </a>
+                            
                           </p>
                         </li>
                       </ul>

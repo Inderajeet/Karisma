@@ -847,14 +847,14 @@ export default function HeaderAbout() {
                               Our Doctors                                                        
                               </a>
                             </li>
-                            <li
+                            {/* <li
                               id="menu-item-73582"
                               className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73582"
                             >
                               <a href="/"  style={{fontFamily: 'Tajawal variant2'}}>
                               Offers                                                                                                               
                               </a>
-                            </li>
+                            </li> */}
                             <li
                               id="menu-item-73582"
                               className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73582"

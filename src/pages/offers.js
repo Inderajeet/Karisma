@@ -3,7 +3,6 @@ import '../components/CartContext';
 import { useNavigate } from 'react-router-dom';
 import { useCart } from '../components/CartContext';
 import Footer from '../components/footer';
-import HeaderContact from '../components/headercontact';
 import { useState } from 'react';
 import ServiceForm from '../components/ServiceForm';
 import { Modal, Button } from 'react-bootstrap';
@@ -196,9 +195,7 @@ export default function Offers() {
                                                         <div className="col-lg-4 col-md-4" key={offer.id}>
                                                             <div className="service-inner">
                                                                 <div className="post-thumb">
-
                                                                     <a
-                                                                        
                                                                         onClick={() => handleOfferClick(offer.slug)}
                                                                         className="post-image-link"
                                                                     >
@@ -259,15 +256,11 @@ export default function Offers() {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-
-
                                                                 {/* .post-details-outer */}
                                                             </div>
-
                                                             {/* .service-inner */}
                                                         </div>
                                                     ))}
-
                                                 </div>
                                             </div>
                                         </div>

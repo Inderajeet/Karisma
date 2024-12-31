@@ -76,7 +76,7 @@ function Doctor1() {
             <div className="happysmile-content-wrap container cea-team-template-default 
             single single-cea-team postid-73184 theme-happysmile woocommerce-js 
             elementor-default elementor-kit-5 elementor-page elementor-page-73184 
-            e--ua-blink e--ua-chrome e--ua-webkit page-load-end" style={{ margin: "5rem" }}>
+            e--ua-blink e--ua-chrome e--ua-webkit page-load-end" style={{ padding: "5rem 0" }}>
                 <div className="row">
                     <div className="col-md-12 order-md-2">
                         <div className="wrap cea-content">

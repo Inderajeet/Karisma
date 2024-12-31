@@ -3,11 +3,17 @@ import ContactDetail from "../components/ContactDetail";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import { useEffect } from 'react';
+import content from '../lang/en.json';
 import $ from "jquery";
+
 export default function Index() {
   const locale = 'en'
   const lng = locale === "en" ? "ar" : "en";
   const dir = locale === "en" ? "ltr" : "rtl";
+
+  const { en, about_us, about2, department, videoTopSection, doctors } = content;
+  const {dental} = department;
+  const {doc_cards} = doctors;
 
   useEffect(() => {
 
@@ -46,7 +52,10 @@ export default function Index() {
       <div
         data-elementor-type="wp-page"
         data-elementor-id={73397}
-        className="elementor elementor-73397 homebg"
+        className="elementor elementor-73397"
+        style={{
+          backgroundColor: about_us["background-color"],
+        }}
       >
         <div
           className="elementor-element elementor-element-23578682 e-flex e-con-boxed e-con e-parent e-lazyloaded"
@@ -65,7 +74,7 @@ export default function Index() {
                   data-id="1cf86a22"
                   data-element_type="container"
                 >
-                  <div className="e-con-inner">
+                  <div className="e-con-inner" style={{gap: "1"}}>
                     <div
                       className="elementor-element elementor-element-587964da e-flex e-con-boxed e-con e-child"
                       data-id="587964da"
@@ -82,7 +91,7 @@ export default function Index() {
                           <div className="elementor-widget-container">
                             <img
                               decoding="async"
-                              src="assets/Images/home/kari_2.PNG"
+                              src="assets/Images/home/about-us2.png"
                               title="about-3"
                               alt="about-3"
                               loading="lazy"
@@ -95,6 +104,7 @@ export default function Index() {
                       className="elementor-element elementor-element-44fc78d9 elementor-hidden-tablet elementor-hidden-mobile e-flex e-con-boxed e-con e-child"
                       data-id="44fc78d9"
                       data-element_type="container"
+                      style={{marginLeft: "0"}}
                     >
                       <div className="e-con-inner">
                         <div
@@ -107,7 +117,7 @@ export default function Index() {
                           <div className="elementor-widget-container">
                             <img
                               decoding="async"
-                              src="assets/Images/home/kari_1.PNG"
+                              src="assets/Images/home/about-us1.png"
                               title="about-2"
                               alt="about-2"
                               loading="lazy"
@@ -120,8 +130,9 @@ export default function Index() {
                           data-element_type="widget"
                           data-settings='{"_position":"absolute","_animation":"fadeIn"}'
                           data-widget_type="ceafeaturebox.default"
+                          style={{bottom: "-20px"}}
                         >
-                          <div className="elementor-widget-container feature-box-wrapper feature-box-default" style={{ backgroundColor: '#916F4D' }}>
+                          <div className="elementor-widget-container feature-box-wrapper feature-box-default" style={{ backgroundColor: about_us["CustomerBg-color"] }}>
                             <a href="/about">
                               <div className="feature-box-inner">
                                 <div className="cea-featured-icon">
@@ -131,11 +142,11 @@ export default function Index() {
                                   />
                                 </div>
                                 <h3 className="feature-box-title" style={{
-                                  color: 'white', fontSize: '42px',
+                                  color: about_us["Customer-font-color"], fontSize: about_us["Customer-font-size"],
                                   fontFamily: 'Visby, sans-serif'
                                 }}>6.5Million</h3>
                                 <div className="fbox-content" style={{
-                                  color: 'white', fontSize: '16px',
+                                  color: about_us["Customer-font-color"], fontSize: about_us["Customer-subfont-size"],
                                   fontFamily: 'Visby, sans-serif'
                                 }}>Customers Benefits</div>
                               </div>
@@ -165,7 +176,7 @@ export default function Index() {
                           <div className="title-wrap">
                             <h6 className="sub-title">
                               <span className="subtitle-dots" style={{
-                                color: '#EDDAC5', fontSize: '22px',
+                                color: about_us["heading-font-color"], fontSize: about_us["heading-font-size"],
                                 fontFamily: 'Visby, sans-serif'
                               }}>Brand Story</span>
                             </h6>
@@ -173,7 +184,7 @@ export default function Index() {
                           {/* .title-wrap */}
                           <div className="section-description">
                             <p className="" style={{
-                              color: 'white', fontSize: '18px', textAlign: 'justify',
+                              color: about_us["font-color"], fontSize: about_us["font-size"], textAlign: 'justify',
                               fontFamily: 'Visby, sans-serif'
                             }}>
                               Karisma stands for empowerment and self-expression. It is a
@@ -182,7 +193,7 @@ export default function Index() {
                               tailored to unique needs.
                             </p>
                             <p className="" style={{
-                              color: 'white', fontSize: '18px', textAlign: 'justify',
+                              color: about_us["font-color"], fontSize: about_us["font-size"], textAlign: 'justify',
                               fontFamily: 'Visby, sans-serif'
                             }}>
                               With a focus on innovation,
@@ -220,12 +231,12 @@ export default function Index() {
                                 <a
                                   href="/about"
                                   className="cea-button-link elementor-button cea-button elementor-size-sm"
-                                  style={{ backgroundColor: '#916F4D', border: '1px solid #916F4D', float: 'left' }}
+                                  style={{ backgroundColor: about_us["Button-color"], border: '1px solid', border: about_us["Button-border"], float: 'left' }}
                                 >
                                   <span className="cea-button-content-wrapper" >
                                     <span className="cea-button-icon cea-align-icon-right">
                                     </span>
-                                    <span className="cea-button-text" style={{ color: 'white' }}>ABOUT US </span>
+                                    <span className="cea-button-text" style={{ color: about_us["Button-text-color"] }}>ABOUT US </span>
                                   </span>
                                 </a>
                               </div>
@@ -242,7 +253,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div style={{ backgroundColor: '#916F4D' }}
+        <div style={{ backgroundColor: about2["background-color"] }}
           data-cea-float='[{"float_title":"Floating Image","float_img":"https:\/\/wordpress.zozothemes.com\/happysmile\/wp-content\/uploads\/sites\/20\/2024\/06\/home-about-bg.webp","float_left":"85","float_top":"40","float_distance":"100","float_animation":"0","float_mouse":"0","float_width":"190px"}]'
           className="elementor-element elementor-element-5814061e e-flex e-con-boxed e-con e-parent e-lazyloaded"
           data-id="5814061e"
@@ -253,7 +264,7 @@ export default function Index() {
             id="float-parallax-5814061e"
             className="float-parallax"
             data-mouse={0}
-            data-left={85}
+            data-left={85} 
             data-top={40}
             data-distance={100}
             style={{ width: 190, top: "40%", left: "85%" }}
@@ -282,19 +293,19 @@ export default function Index() {
                       <div className="">
                         <h6 className="">
                           <span className="" style={{
-                            color: 'white', fontSize: '18px',
+                            color: about2['heading1-color'], fontSize: about2["heading1-size"],
                             fontFamily: 'Visby, sans-serif'
                           }}>Why Choose Us</span>
                         </h6>
                         <h2 className="" style={{
-                          color: '#ACB9D0', fontSize: '22px',
+                          color: about2["heading2-color"], fontSize: about2["heading2-size"],
                           fontFamily: 'Visby, sans-serif'
                         }}>State of the Art Dentistry</h2>
                       </div>
                       {/* .title-wrap */}
                       <div className="section-description">
                         <p className="section-content" style={{
-                          color: 'white', fontSize: '16px', textAlign: 'justify',
+                          color: about2["desc-color"], fontSize: about2["desc-size"], textAlign: 'justify',
                           fontFamily: 'Visby, sans-serif'
                         }}>
                           We are proud to the serve our community and are committed to
@@ -324,13 +335,12 @@ export default function Index() {
                           <a
                             href="https://wordpress.zozothemes.com/happysmile/about-us/"
                             className="cea-button-link elementor-button cea-button elementor-size-sm"
-                            style={{ backgroundColor: '#405D53', border: '1px solid #916F4D', float: 'left', color: 'white' }}
+                            style={{ backgroundColor: about2["button-bg-color"], border: '1px solid', border: about2['button-border-color'], float: 'left', color: about2["button-text-color"] }}
                           >
                             <span className="cea-button-content-wrapper">
                               <span className="cea-button-icon cea-align-icon-right">
-
                               </span>
-                              <span className="cea-button-text" color="white">MORE DETAILS</span>
+                              <span className="cea-button-text" >MORE DETAILS</span>
                             </span>
                           </a>
                         </div>
@@ -388,14 +398,14 @@ export default function Index() {
                         <div className="section-title-wrapper">
                           <div className="title-wrap">
                             <h4 className="section-title" style={{
-                              color: '#ACB9D0', textAlign: 'justify',
+                              color: about2['right-heading-color'], textAlign: 'justify', fontSize: about2['right-heading-size'],
                               fontFamily: 'Visby, sans-serif'
                             }}>Dental Checkup</h4>
                           </div>
                           {/* .title-wrap */}
                           <div className="section-description">
                             <p className="section-content" style={{
-                              color: 'white', fontSize: '16px',
+                              color: about2['desc-color'], fontSize: about2['desc-size'],
                               fontFamily: 'Visby, sans-serif'
                             }}>
                               Tooth care is essential for maintaining good oral
@@ -421,7 +431,7 @@ export default function Index() {
                               <i aria-hidden="true" className=" bi-arrow-up-right" />{" "}
                             </span>
                             <span className="" style={{
-                              color: 'white', fontSize: '16px', textAlign: 'justify',
+                              color: about2['list-color'], fontSize: about2['list-size'], textAlign: 'justify',
                               fontFamily: 'Visby, sans-serif'
                             }}>
                               Wisdom tooth extraction
@@ -433,7 +443,7 @@ export default function Index() {
                               <i aria-hidden="true" className=" bi-arrow-up-right" />{" "}
                             </span>
                             <span className="" style={{
-                              color: 'white', fontSize: '16px', textAlign: 'justify',
+                              color: about2['list-color'], fontSize: about2['list-size'], textAlign: 'justify',
                               fontFamily: 'Visby, sans-serif'
                             }}>
                               Root Canal Treatment
@@ -445,7 +455,7 @@ export default function Index() {
                               <i aria-hidden="true" className=" bi-arrow-up-right" />{" "}
                             </span>
                             <span className="" style={{
-                              color: 'white', fontSize: '16px',
+                              color: about2['list-color'], fontSize: about2['list-size'], textAlign: 'justify',
                               fontFamily: 'Visby, sans-serif'
                             }}>
                               {" "}
@@ -473,14 +483,14 @@ export default function Index() {
                         <div className="section-title-wrapper">
                           <div className="title-wrap">
                             <h4 className="" style={{
-                              color: '#ACB9D0', fontSize: '22px',
+                              color: about2['heading2-color'], fontSize: about2['heading2-size'],
                               fontFamily: 'Visby, sans-serif'
                             }}>Brushing</h4>
                           </div>
                           {/* .title-wrap */}
                           <div className="section-description">
                             <p className="section-content" style={{
-                              color: 'white', fontSize: '16px',
+                              color: about2['desc-color'], fontSize: about2['desc-size'],
                               fontFamily: 'Visby, sans-serif'
                             }}>
                               Tooth care is essential for maintaining good oral
@@ -506,7 +516,7 @@ export default function Index() {
                               <i aria-hidden="true" className=" bi-arrow-up-right" />{" "}
                             </span>
                             <span className="" style={{
-                              color: 'white', fontSize: '16px',
+                              color: about2['list-color'], fontSize: about2['list-size'], textAlign: 'justify',
                               fontFamily: 'Visby, sans-serif'
                             }}>
                               Temporomandibular joint dysfunction
@@ -518,7 +528,7 @@ export default function Index() {
                               <i aria-hidden="true" className=" bi-arrow-up-right" />{" "}
                             </span>
                             <span className="" style={{
-                              color: 'white', fontSize: '16px',
+                              ccolor: about2['list-color'], fontSize: about2['list-size'], textAlign: 'justify',
                               fontFamily: 'Visby, sans-serif'
                             }}>
                               Dentin hypersensitivity
@@ -530,7 +540,7 @@ export default function Index() {
                               <i aria-hidden="true" className=" bi-arrow-up-right" />{" "}
                             </span>
                             <span className="" style={{
-                              color: 'white', fontSize: '16px',
+                              color: about2['list-color'], fontSize: about2['list-size'], textAlign: 'justify',
                               fontFamily: 'Visby, sans-serif'
                             }}>Cavities</span>
                           </li>{" "}
@@ -547,7 +557,7 @@ export default function Index() {
         <div
           className=""
           data-id="5c6a904c"
-          data-element_type="container" style={{ backgroundColor: '#577065', paddingTop: '80px', paddingBottom: '80px' }}
+          data-element_type="container" style={{ backgroundColor: department['background-color'], paddingTop: '80px', paddingBottom: '80px' }}
         >
           <div className="e-con-inner">
             <div
@@ -584,11 +594,11 @@ export default function Index() {
                             <div className="title-wrap">
                               <h6 className="sub-title">
                                 <span className="subtitle-dots homefont" style={{
-                                  color: 'white', fontSize: '24px',
+                                  color: department['heading1-color'], fontSize: department['heading1-size'],
                                   fontFamily: 'Visby, sans-serif', display: 'block'
                                 }}>Department</span>
                               </h6>
-                              <h2 className="section-title homefont" style={{ color: '#EDDAC5', fontSize: '44px' }}>
+                              <h2 className="section-title homefont" style={{ color: department['heading2-color'], fontSize: department['heading2-size'] }}>
                                 Comprehensive Care Across Our Specialized Departments
                               </h2>
                             </div>
@@ -631,33 +641,28 @@ export default function Index() {
                           <div className="elementor-widget-container service-wrapper service-style-default service-light service-normal-model">
                             <div className="row">
                               <div className="col-lg-4 col-md-4">
-                                <div className="service-inner" style={{ backgroundColor: '#916F4D' }}>
+                                <div className="service-inner" style={{ backgroundColor: dental["background-color"] }}>
                                   <div className="service-icon-img-wrap">
-                                    <img
+                                    {/* <img
                                       decoding="async"
                                       src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/root-canal-1.png"
                                       className="img-fluid service-icon-img"
                                       alt="Scaling and Root Planing"
-                                    />
-                                  </div>
-                                  <div className="post-category" style={{ display: 'none' }}>
-                                    <span className="before-icon ti-folder" />
-                                    <a href="https://wordpress.zozothemes.com/happysmile/service-categories/root-canal/" style={{ border: '1px solid #40E0D0' }}>
-                                      Root Canal
-                                    </a>
+                                    /> */}
                                   </div>
                                   <div className="entry-title">
                                     <h3 className="post-title-head">
                                       <a
                                         href="/"
-                                        className="post-title homefont" style={{ color: '#8FB9A9' }}
+                                        className="post-title " style={{ color: dental["heading-color"], fontSize: dental["heading-size"] }}
                                       >
                                         Dental
                                       </a>
                                     </h3>
                                   </div>
                                   {/* .entry-title */}
-                                  <div className="post-excerpt homefont" style={{ color: 'white' }}>
+                                  <div className="post-excerpt " style={{ color: dental["desc-color"], fontSize: dental["desc-size"] }}>
+                                    Transform Your Smile and Confidence with Damas Medical Center's..
                                     Transform Your Smile and Confidence with Damas Medical Center's..
                                   </div>
                                   {/* .post-excerpt */}
@@ -668,7 +673,7 @@ export default function Index() {
                                     >
                                       <img
                                         decoding="async"
-                                        src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-1.webp"
+                                        src="assets/Images/home/Dental.png"
                                         title="services-1"
                                         alt=""
                                         className="img-fluid squared"
@@ -682,7 +687,7 @@ export default function Index() {
                                         <div className="">
                                           <a
                                             href="https://wordpress.zozothemes.com/happysmile/service/scaling-and-root-planing/"
-                                            className=" homefont" style={{ color: '#465F7E', fontWeight: "600"}}
+                                            className=" homefont" style={{ color: dental['button-text-color'], fontWeight: "600", fontSize: dental['button-text-size']}}
                                           >
                                             VIEW DETAILS
                                           </a>
@@ -695,33 +700,28 @@ export default function Index() {
                               </div>
                               {/* .col / .owl-carousel-item / .isotope */}
                               <div className="col-lg-4 col-md-4">
-                                <div className="service-inner" style={{ backgroundColor: '#8FB9A9' }}>
+                                <div className="service-inner" style={{ backgroundColor: dental['background-color'] }}>
                                   <div className="service-icon-img-wrap">
-                                    <img
+                                    {/* <img
                                       decoding="async"
                                       src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/teeth-cleaning.png"
                                       className="img-fluid service-icon-img"
                                       alt="Teeth Whitening"
-                                    />
-                                  </div>
-                                  <div className="post-category" style={{ display: 'none' }}>
-                                    <span className="before-icon ti-folder" />
-                                    <a href="https://wordpress.zozothemes.com/happysmile/service-categories/root-canal/">
-                                      Root Canal
-                                    </a>
+                                    /> */}
                                   </div>
                                   <div className="entry-title">
                                     <h3 className="post-title-head">
                                       <a
                                         href="https://wordpress.zozothemes.com/happysmile/service/teeth-whitening/"
-                                        className="post-title homefont" style={{ color: '#916F4D' }}
+                                        className="post-title homefont" style={{ color: dental['heading-color'], fontSize: dental['heading-size'] }}
                                       >
                                         Derma
                                       </a>
                                     </h3>
                                   </div>
                                   {/* .entry-title */}
-                                  <div className="post-excerpt homefont" style={{ color: '#916F4D' }}>
+                                  <div className="post-excerpt homefont" style={{ color: dental['desc-color'], fontSize: dental['desc-size'] }}>
+                                    Discover Your Inner Radiance Through Personalized Aesthetics...
                                     Discover Your Inner Radiance Through Personalized Aesthetics...
                                   </div>
                                   {/* .post-excerpt */}
@@ -732,7 +732,7 @@ export default function Index() {
                                     >
                                       <img
                                         decoding="async"
-                                        src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-9.webp"
+                                        src="assets/Images/home/derma.png"
                                         title="services-9"
                                         alt=""
                                         className="img-fluid squared img-fluid squared"
@@ -746,7 +746,7 @@ export default function Index() {
                                         <div className="">
                                           <a
                                             href="https://wordpress.zozothemes.com/happysmile/service/teeth-whitening/"
-                                            className=" homefont" style={{ color: '#465F7E', fontWeight: "600"}}
+                                            className=" homefont" style={{ color: dental['button-text-color'], fontWeight: "600", fontSize: dental['button-text-size']}}
                                           >
                                             VIEW DETAILS
                                           </a>
@@ -759,33 +759,29 @@ export default function Index() {
                               </div>
                               {/* .col / .owl-carousel-item / .isotope */}
                               <div className="col-lg-4 col-md-4">
-                                <div className="service-inner">
+                                <div className="service-inner" style={{ backgroundColor: dental['background-color'] }}>
                                   <div className="service-icon-img-wrap">
-                                    <img
+                                    {/* <img
                                       decoding="async"
                                       src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/braces-2.png"
                                       className="img-fluid service-icon-img"
                                       alt="Invisalign & ClearCorrect"
-                                    />
-                                  </div>
-                                  <div className="post-category" style={{ display: 'none' }}>
-                                    <span className="before-icon ti-folder" />
-                                    <a href="https://wordpress.zozothemes.com/happysmile/service-categories/specialized-care/">
-                                      Specialized Care
-                                    </a>
+                                    /> */}
                                   </div>
                                   <div className="entry-title">
                                     <h3 className="post-title-head">
                                       <a
                                         href="https://wordpress.zozothemes.com/happysmile/service/invisalign-clearcorrect/"
-                                        className="post-title homefont"
+                                        className="post-title homefont" style={{ color: dental['heading-color'], fontSize: dental['heading-size'] }}
                                       >
                                         Laser Hair Removal
                                       </a>
                                     </h3>
                                   </div>
                                   {/* .entry-title */}
-                                  <div className="post-excerpt homefont">
+                                  <div className="post-excerpt homefont" style={{ color: dental['desc-color'], fontSize: dental['desc-size'] }}>
+                                    Laser Hair Removal at Damas Medical Center...
+                                    Laser Hair Removal at Damas Medical Center...
                                     Laser Hair Removal at Damas Medical Center...
                                   </div>
                                   {/* .post-excerpt */}
@@ -796,7 +792,7 @@ export default function Index() {
                                     >
                                       <img
                                         decoding="async"
-                                        src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-6.webp"
+                                        src="assets/Images/home/laser.png"
                                         title="services-6"
                                         alt=""
                                         className="img-fluid squared img-fluid squared img-fluid squared"
@@ -810,7 +806,7 @@ export default function Index() {
                                         <div className="">
                                           <a
                                             href="https://wordpress.zozothemes.com/happysmile/service/invisalign-clearcorrect/"
-                                            className=" homefont" style={{ color: '#465F7E', fontWeight: "600"}}
+                                            className=" homefont" style={{ color: dental['button-text-color'], fontWeight: "600", fontSize: dental['button-text-size']}}
                                           >
                                             VIEW DETAILS
                                           </a>
@@ -826,33 +822,34 @@ export default function Index() {
                             {/* .row */}
                             <div className="row">
                               <div className="col-lg-4 col-md-4">
-                                <div className="service-inner">
+                                <div className="service-inner" style={{ backgroundColor: dental['background-color'] }}>
                                   <div className="service-icon-img-wrap">
-                                    <img
+                                    {/* <img
                                       decoding="async"
                                       src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/dental-crown.png"
                                       className="img-fluid service-icon-img"
                                       alt="Zirconium Crowns"
-                                    />
+                                    /> */}
                                   </div>
-                                  <div className="post-category" style={{ display: 'none' }}>
+                                  {/* <div className="post-category" style={{ display: 'none' }}>
                                     <span className="before-icon ti-folder" />
                                     <a href="https://wordpress.zozothemes.com/happysmile/service-categories/specialized-care/">
                                       Specialized Care
                                     </a>
-                                  </div>
+                                  </div> */}
                                   <div className="entry-title">
                                     <h3 className="post-title-head">
                                       <a
                                         href="https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/"
-                                        className="post-title homefont"
+                                        className="post-title homefont" style={{ color: dental['heading-color'], fontSize: dental['heading-size'] }}
                                       >
                                         Skincare
                                       </a>
                                     </h3>
                                   </div>
                                   {/* .entry-title */}
-                                  <div className="post-excerpt homefont">
+                                  <div className="post-excerpt homefont" style={{ color: dental['desc-color'], fontSize: dental['desc-size'] }}>
+                                    We understand the importance of healthy, beautiful skin...
                                     We understand the importance of healthy, beautiful skin...
                                   </div>
                                   {/* .post-excerpt */}
@@ -863,7 +860,7 @@ export default function Index() {
                                     >
                                       <img
                                         decoding="async"
-                                        src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-2.webp"
+                                        src="assets/Images/home/skincare.png"
                                         title="services-2"
                                         alt=""
                                         className="img-fluid squared img-fluid squared img-fluid squared img-fluid squared"
@@ -877,7 +874,7 @@ export default function Index() {
                                         <div className="" >
                                           <a
                                             href="https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/"
-                                            className=" homefont" style={{ color: '#465F7E', fontWeight: "600"}}
+                                            className=" homefont" style={{ color: dental['button-text-color'], fontWeight: "600", fontSize: dental['button-text-size']}}
                                           >
                                             VIEW DETAILS
                                           </a>
@@ -890,33 +887,34 @@ export default function Index() {
                               </div>
                               {/* .col / .owl-carousel-item / .isotope */}
                               <div className="col-lg-4 col-md-4">
-                                <div className="service-inner">
+                                <div className="service-inner" style={{ backgroundColor: dental['background-color'] }}>
                                   <div className="service-icon-img-wrap">
-                                    <img
+                                    {/* <img
                                       decoding="async"
                                       src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/tooth.png"
                                       className="img-fluid service-icon-img"
                                       alt="Partials & Dentures"
-                                    />
+                                    /> */}
                                   </div>
-                                  <div className="post-category" style={{ display: 'none' }}>
+                                  {/* <div className="post-category" style={{ display: 'none' }}>
                                     <span className="before-icon ti-folder" />
                                     <a href="https://wordpress.zozothemes.com/happysmile/service-categories/preventive-dentistry/">
                                       Preventive Dentistry
                                     </a>
-                                  </div>
+                                  </div> */}
                                   <div className="entry-title">
                                     <h3 className="post-title-head">
                                       <a
                                         href="https://wordpress.zozothemes.com/happysmile/service/partials-dentures/"
-                                        className="post-title homefont"
+                                        className="post-title homefont" style={{ color: dental['heading-color'], fontSize: dental['heading-size'] }}
                                       >
                                         Gynecology
                                       </a>
                                     </h3>
                                   </div>
                                   {/* .entry-title */}
-                                  <div className="post-excerpt homefont">
+                                  <div className="post-excerpt homefont" style={{ color: dental['desc-color'], fontSize: dental['desc-size'] }}>
+                                    we celebrate women's health and well-being in all its aspects...
                                     we celebrate women's health and well-being in all its aspects...
                                   </div>
                                   {/* .post-excerpt */}
@@ -927,7 +925,7 @@ export default function Index() {
                                     >
                                       <img
                                         decoding="async"
-                                        src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-4.webp"
+                                        src="assets/Images/home/gyne.png"
                                         title="services-4"
                                         alt=""
                                         className="img-fluid squared img-fluid squared img-fluid squared img-fluid squared img-fluid squared"
@@ -941,7 +939,7 @@ export default function Index() {
                                         <div className="">
                                           <a
                                             href="https://wordpress.zozothemes.com/happysmile/service/partials-dentures/"
-                                            className=" homefont" style={{ color: '#465F7E', fontWeight: "600"}}
+                                            className=" homefont" style={{ color: dental['button-text-color'], fontWeight: "600", fontSize: dental['button-text-size']}}
                                           >
                                             VIEW DETAILS
                                           </a>
@@ -954,33 +952,34 @@ export default function Index() {
                               </div>
                               {/* .col / .owl-carousel-item / .isotope */}
                               <div className="col-lg-4 col-md-4">
-                                <div className="service-inner">
+                                <div className="service-inner"style={{ backgroundColor: dental['background-color'] }}>
                                   <div className="service-icon-img-wrap">
-                                    <img
+                                    {/* <img
                                       decoding="async"
                                       src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/tooth-extraction-2.png"
                                       className="img-fluid service-icon-img"
                                       alt="Wisdom Tooth Extraction"
-                                    />
+                                    /> */}
                                   </div>
-                                  <div className="post-category" style={{ display: 'none' }}>
+                                  {/* <div className="post-category" style={{ display: 'none' }}>
                                     <span className="before-icon ti-folder" />
                                     <a href="https://wordpress.zozothemes.com/happysmile/service-categories/preventive-dentistry/">
                                       Preventive Dentistry
                                     </a>
-                                  </div>
+                                  </div> */}
                                   <div className="entry-title">
                                     <h3 className="post-title-head">
                                       <a
                                         href="https://wordpress.zozothemes.com/happysmile/service/wisdom-tooth-extraction/"
-                                        className="post-title homefont"
+                                        className="post-title homefont" style={{ color: dental['heading-color'], fontSize: dental['heading-size'] }}
                                       >
                                         Slimming
                                       </a>
                                     </h3>
                                   </div>
                                   {/* .entry-title */}
-                                  <div className="post-excerpt homefont">
+                                  <div className="post-excerpt homefont" style={{ color: dental['desc-color'], fontSize: dental['desc-size'] }}>
+                                    A Journey to Transformation at Damas Medical Center's Slimming...
                                     A Journey to Transformation at Damas Medical Center's Slimming...
                                   </div>
                                   {/* .post-excerpt */}
@@ -991,7 +990,7 @@ export default function Index() {
                                     >
                                       <img
                                         decoding="async"
-                                        src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-7.webp"
+                                        src="assets/Images/home/slimming.png"
                                         title="services-7"
                                         alt=""
                                         className="img-fluid squared img-fluid squared img-fluid squared img-fluid squared img-fluid squared img-fluid squared"
@@ -1005,7 +1004,7 @@ export default function Index() {
                                         <div className="">
                                           <a
                                             href="https://wordpress.zozothemes.com/happysmile/service/wisdom-tooth-extraction/"
-                                            className=" homefont" style={{ color: '#465F7E', fontWeight: "600"}}
+                                            className=" homefont" style={{ color: dental['button-text-color'], fontWeight: "600", fontSize: dental['button-text-size']}}
                                           >
                                             VIEW DETAILS
                                           </a>
@@ -1052,7 +1051,7 @@ export default function Index() {
                   className="elementor-element elementor-element-6bd88a95 e-flex e-con-boxed e-con e-child animated slideInRight"
                   data-id="6bd88a95"
                   data-element_type="container"
-                  data-settings='{"background_background":"classic","animation":"slideInRight"}' style={{ backgroundColor: '#916F4D' }}
+                  data-settings='{"background_background":"classic","animation":"slideInRight"}' style={{ backgroundColor: videoTopSection['background-color'] }}
                 >
                   <div className="e-con-inner">
                     <div
@@ -1078,7 +1077,7 @@ export default function Index() {
                               <div className="counter-value">
                                 <h3>
                                   <span
-                                    className="counter-up homefont"
+                                    className="counter-up homefont" style={{fontSize: videoTopSection['couter-size'], color: videoTopSection['couter-color']}}
                                     data-count={840}
                                     data-duration={2000}
                                   >
@@ -1088,10 +1087,11 @@ export default function Index() {
                               </div>
                               {/* .counter-value */}
                               <div className="counter-title">
-                                <h5 className="counter-title-head homefont">Happy Patients</h5>
+                                <h5 className="counter-title-head homefont" style={{fontSize: videoTopSection['heading-size'], color: videoTopSection['heading-color']}}>
+                                  Happy Patients</h5>
                               </div>
                               {/* .counter-title */}
-                              <div className="counter-content homefont">
+                              <div className="counter-content homefont" style={{fontSize: videoTopSection['desc-size'], color: videoTopSection['desc-color']}}>
                                 <p>Client assets under advisement.</p>
                               </div>
                               {/* .counter-read-more */}
@@ -1130,7 +1130,7 @@ export default function Index() {
                                 <div className="counter-value">
                                   <h3>
                                     <span
-                                      className="counter-up homefont"
+                                      className="counter-up homefont" style={{fontSize: videoTopSection['couter-size'], color: videoTopSection['couter-color']}}
                                       data-count={93}
                                       data-duration={2000}
                                     >
@@ -1140,10 +1140,11 @@ export default function Index() {
                                 </div>
                                 {/* .counter-value */}
                                 <div className="counter-title">
-                                  <h5 className="counter-title-head homefont">Locations</h5>
+                                  <h5 className="counter-title-head homefont" style={{fontSize: videoTopSection['heading-size'], color: videoTopSection['heading-color']}}>
+                                    Locations</h5>
                                 </div>
                                 {/* .counter-title */}
-                                <div className="counter-content homefont">
+                                <div className="counter-content homefont" style={{fontSize: videoTopSection['desc-size'], color: videoTopSection['desc-color']}}>
                                   <p>Client assets under advisement.</p>
                                 </div>
                                 {/* .counter-read-more */}
@@ -1251,7 +1252,7 @@ export default function Index() {
         <div
           className=""
           data-id="5c6a904c"
-          data-element_type="container" style={{ backgroundColor: '#577065', paddingTop: '80px', paddingBottom: '80px' }}
+          data-element_type="container" style={{ backgroundColor: doctors['background-color'], paddingTop: '80px', paddingBottom: '80px' }}
         >
           <div className="e-con-inner">
             <div
@@ -1288,11 +1289,11 @@ export default function Index() {
                             <div className="title-wrap">
                               <h6 className="sub-title">
                                 <span className="subtitle-dots homefont" style={{
-                                  color: 'white', fontSize: '24px',
+                                  color: doctors['heading1-color'], fontSize: doctors['heading1-size'],
                                   fontFamily: 'Visby, sans-serif', display: 'block'
                                 }}>Our Doctors</span>
                               </h6>
-                              <h2 className="section-title homefont" style={{ color: '#EDDAC5', fontSize: '44px' }}>
+                              <h2 className="section-title homefont" style={{ color: doctors['heading2-color'], fontSize: doctors['heading2-size'] }}>
                                 Friendly Faces, Personalized Care for Your Smile
                               </h2>
                             </div>
@@ -1337,26 +1338,26 @@ export default function Index() {
                             {/* .row */}
                             <div className="row">
                               <div className="col-lg-4 col-md-4" >
-                                <div className="service-inner" style={{ backgroundColor: '#916F4D' }}>
+                                <div className="service-inner" style={{ backgroundColor: doc_cards['background-color'] }}>
 
-                                  <div className="post-category" style={{ display: 'none' }}>
+                                  {/* <div className="post-category" style={{ display: 'none' }}>
                                     <span className="before-icon ti-folder" />
                                     <a href="https://wordpress.zozothemes.com/happysmile/service-categories/specialized-care/">
                                       Specialized Care
                                     </a>
-                                  </div>
+                                  </div> */}
                                   <div className="entry-title">
                                     <h3 className="post-title-head">
                                       <a
                                         href="https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/"
-                                        className="post-title homefont" style={{ color: 'white' }}
+                                        className="post-title homefont" style={{ color: doc_cards['heading-color'], fontSize: doc_cards['heading-size']}}
                                       >
                                         Brian Wilson
                                       </a>
                                     </h3>
                                   </div>
                                   {/* .entry-title */}
-                                  <div className="post-excerpt homefont" style={{ color: 'white' }}>
+                                  <div className="post-excerpt homefont" style={{ color: doc_cards['desc-color'], fontSize: doc_cards['desc-size']}}>
                                     Working Experience Lorem ipsum dolor sit amet, consectetur adipiscing elit,..
                                   </div>
                                   {/* .post-excerpt */}
@@ -1367,7 +1368,7 @@ export default function Index() {
                                     >
                                       <img
                                         decoding="async"
-                                        src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2019/04/team-7.webp"
+                                        src="assets/Images/home/Doctors.png"
                                         title="services-2"
                                         alt=""
                                         style={{ width: '306px', height: '204px' }}
@@ -1382,7 +1383,7 @@ export default function Index() {
                                         <div className="" >
                                           <a
                                             href="https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/"
-                                            className="homefont" style={{ color: 'white', fontWeight: "600" }}
+                                            className="homefont" style={{ color: doc_cards['button-text-color'], fontSize: doc_cards['button-text-size'], fontWeight: "600" }}
                                           >
                                             READ MORE
                                           </a>
@@ -1395,26 +1396,26 @@ export default function Index() {
                               </div>
                               {/* .col / .owl-carousel-item / .isotope */}
                               <div className="col-lg-4 col-md-4">
-                                <div className="service-inner" style={{ backgroundColor: '#916F4D' }}>
+                                <div className="service-inner" style={{ backgroundColor: doc_cards['background-color']  }}>
 
-                                  <div className="post-category" style={{ display: 'none' }}>
+                                  {/* <div className="post-category" style={{ display: 'none' }}>
                                     <span className="before-icon ti-folder" />
                                     <a href="https://wordpress.zozothemes.com/happysmile/service-categories/specialized-care/">
                                       Specialized Care
                                     </a>
-                                  </div>
+                                  </div> */}
                                   <div className="entry-title">
                                     <h3 className="post-title-head">
                                       <a
                                         href="https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/"
-                                        className="post-title homefont" style={{ color: 'white' }}
+                                        className="post-title homefont" style={{ color: doc_cards['heading-color'], fontSize: doc_cards['heading-size']}}
                                       >
                                         Mary Vels
                                       </a>
                                     </h3>
                                   </div>
                                   {/* .entry-title */}
-                                  <div className="post-excerpt homefont" style={{ color: 'white' }}>
+                                  <div className="post-excerpt homefont" style={{ color: doc_cards['desc-color'], fontSize: doc_cards['desc-size']}}>
                                     Working Experience Lorem ipsum dolor sit amet, consectetur adipiscing elit,..
                                   </div>
                                   {/* .post-excerpt */}
@@ -1440,7 +1441,7 @@ export default function Index() {
                                         <div className="" >
                                           <a
                                             href="https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/"
-                                            className="homefont" style={{ color: 'white', fontWeight: "600" }}
+                                            className="homefont" style={{ color: doc_cards['button-text-color'], fontSize: doc_cards['button-text-size'], fontWeight: "600" }}
                                           >
                                             READ MORE
                                           </a>
@@ -1453,7 +1454,7 @@ export default function Index() {
                               </div>
                               {/* .col / .owl-carousel-item / .isotope */}
                               <div className="col-lg-4 col-md-4">
-                                <div className="service-inner" style={{ backgroundColor: '#916F4D' }}>
+                                <div className="service-inner" style={{ backgroundColor: doc_cards['background-color']  }}>
 
                                   <div className="post-category" style={{ display: 'none' }}>
                                     <span className="before-icon ti-folder" />
@@ -1465,14 +1466,14 @@ export default function Index() {
                                     <h3 className="post-title-head">
                                       <a
                                         href="https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/"
-                                        className="post-title homefont" style={{ color: 'white' }}
+                                        className="post-title homefont" style={{ color: doc_cards['heading-color'], fontSize: doc_cards['heading-size']}}
                                       >
                                         Emi Akezawa
                                       </a>
                                     </h3>
                                   </div>
                                   {/* .entry-title */}
-                                  <div className="post-excerpt homefont" style={{ color: 'white' }}>
+                                  <div className="post-excerpt homefont" style={{ color: doc_cards['desc-color'], fontSize: doc_cards['desc-size']}}>
                                     Working Experience Lorem ipsum dolor sit amet, consectetur adipiscing elit,..
                                   </div>
                                   {/* .post-excerpt */}
@@ -1499,7 +1500,7 @@ export default function Index() {
                                         <div className="" >
                                           <a
                                             href="https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/"
-                                            className="homefont" style={{ color: 'white', fontWeight: "600" }}
+                                            className="homefont" style={{ color: doc_cards['button-text-color'], fontSize: doc_cards['button-text-size'], fontWeight: "600" }}
                                           >
                                             READ MORE
                                           </a>

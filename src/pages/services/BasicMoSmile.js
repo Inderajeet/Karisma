@@ -2,6 +2,7 @@ import React from "react";
 import "../../custom_css/basicSmile.css";
 import HeaderContact from "../../components/headercontact";
 import Footer from "../../components/footer";
+import HeaderDoctor from "../../components/headerDoctor";
 
 // Dynamic data for Basic Mo Smile
 const basicMoData = {
@@ -49,12 +50,12 @@ const basicMoData = {
 const BasicMoSmile = () => {
     return (
         <>
-            <HeaderContact />
+            <HeaderDoctor />
 
             <div className="container">
                 {/* Main Heading */}
-                <div className="mainHead">
-                    <h1 className="head">{basicMoData.title}</h1>
+                <div className="cust-mainHead">
+                    <h1 className="cust-head">{basicMoData.title}</h1>
                 </div>
 
                 {/* Main Description */}
@@ -71,7 +72,7 @@ const BasicMoSmile = () => {
                 </div>
 
                 {/* Subheading and Features */}
-                <Section
+                <CustSection
                     title={basicMoData.section.title}
                     description={basicMoData.section.description}
                     features={basicMoData.section.features}
@@ -90,8 +91,8 @@ const BasicMoSmile = () => {
 };
 
 // Reusable Section Component
-const Section = ({ title, description, features }) => (
-    <div className="sectionStyle">
+const CustSection = ({ title, description, features }) => (
+    <div className="custsectionStyle">
         <div className="cmnTitle">{title}</div>
         <div>{description}</div>
         {features && (
@@ -109,7 +110,7 @@ const Section = ({ title, description, features }) => (
 
 // Reusable Card Component
 const Card = ({ title, description, features }) => (
-    <div className="item">
+    <div className="custitem">
         <div className="cmnBox">
             <div className="cmnTitle">{title}</div>
             {description && <div>{description}</div>}

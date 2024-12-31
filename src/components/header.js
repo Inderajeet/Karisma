@@ -441,7 +441,7 @@ export default function Header() {
                   {" "}
                   <li className="header-mobile-toggle-wrapper">
                     <a
-                      href="https://wordpress.zozothemes.com/happysmile"
+                      href="/"
                       className="mobile-menu-toggle"
                     >
                       <i className="bi bi-list" />
@@ -594,8 +594,8 @@ export default function Header() {
                   <ul className="happysmile-header-custom-info d-flex align-items-center">
                     <li className="happysmile-header-find">
                       <a
-                        href="https://wordpress.zozothemes.com/happysmile/doctors-directory/"
-                        target="_blank"
+                        href="/doctor"
+                        // target="_blank"
                         className="find-link"
                         style={{ color: '#D9C5AD', fontFamily: ' "Visby, sans-serif", Tofu' }}
                       >
@@ -605,7 +605,7 @@ export default function Header() {
                     </li>
                     <li className="happysmile-header-btn" style={{ display: 'none' }}>
                       <a
-                        href="https://wordpress.zozothemes.com/happysmile/appointment/"
+                        href="/"
                         target="_blank"
                         className="btn btn-primary"
                         style={{ color: '#577065', fontFamily: ' "Visby, sans-serif", Tofu' }}
@@ -870,13 +870,13 @@ export default function Header() {
                       <nav className="primary-menu-wrapper" aria-label="Horizontal">
                         <ul className="nav wp-menu primary-menu">
                           <li id="menu-item-73582" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73582">
-                            <a href="/about" style={{ fontFamily: 'Visby, sans-serif' }}>About Us</a></li>
+                            <a href="/about" style={{ fontFamily: 'Tajawal variant2' }}>About Us</a></li>
 
                           <li
                             id="menu-item-73581"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-73581"
                           >
-                            <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                            <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                               Department
                             </a>
                             <ul className="sub-menu">
@@ -885,13 +885,13 @@ export default function Header() {
                                 id="menu-item-72611"
                                 className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-72611"
                               >
-                                <a href="#" style={{ fontFamily: 'Visby, sans-serif' }}>Dental</a>
+                                <a href="#" style={{ fontFamily: 'Tajawal variant2' }}>Dental</a>
                                 <ul className="sub-menu">
                                   <li
                                     id="menu-item-73631"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73631"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       Hollywood Smile (Veneers)
                                     </a>
                                   </li>
@@ -899,7 +899,7 @@ export default function Header() {
                                     id="menu-item-73632"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73632"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       Implant
                                     </a>
                                   </li>
@@ -907,7 +907,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       Orthodontics
                                     </a>
                                   </li>
@@ -915,7 +915,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       Teeth Whitening
                                     </a>
                                   </li>
@@ -923,7 +923,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       Mouth Rehabilitation
                                     </a>
                                   </li>
@@ -931,7 +931,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       Root Canal Treatment
                                     </a>
                                   </li>
@@ -943,6 +943,30 @@ export default function Header() {
                                       Pediatric
                                     </a>
                                   </li>
+                                  <li
+                                    id="menu-item-73634"
+                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
+                                  >
+                                    <a href="/">
+                                      Dental Surgical Treatment
+                                    </a>
+                                  </li>
+                                  <li
+                                    id="menu-item-73634"
+                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
+                                  >
+                                    <a href="/">
+                                      Oral Health (Gum Treatment)
+                                    </a>
+                                  </li>
+                                  <li
+                                    id="menu-item-73634"
+                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
+                                  >
+                                    <a href="/">
+                                      Restorative Dentistry
+                                    </a>
+                                  </li>
 
                                 </ul>
                               </li>
@@ -950,13 +974,13 @@ export default function Header() {
                                 id="menu-item-72611"
                                 className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-72611"
                               >
-                                <a href="#" style={{ fontFamily: 'Visby, sans-serif' }}>Derma                                                                                        </a>
+                                <a href="#" style={{ fontFamily: 'Tajawal variant2' }}>Derma                                                                                        </a>
                                 <ul className="sub-menu">
                                   <li
                                     id="menu-item-73631"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73631"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       Dermal Fillers
                                     </a>
                                   </li>
@@ -964,7 +988,7 @@ export default function Header() {
                                     id="menu-item-73632"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73632"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       Botox
                                     </a>
                                   </li>
@@ -972,7 +996,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       Cosmetic Threads
                                     </a>
                                   </li>
@@ -980,7 +1004,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       Rejuvenation injection
                                     </a>
                                   </li>
@@ -992,14 +1016,14 @@ export default function Header() {
                                 id="menu-item-72611"
                                 className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-72611"
                               >
-                                <a href="#" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                <a href="#" style={{ fontFamily: 'Tajawal variant2' }}>
                                   Laser Hair Removal                                                                                                                                                                                 </a>
                                 <ul className="sub-menu">
                                   <li
                                     id="menu-item-73631"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73631"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       Candela GentleMax Pro
                                     </a>
                                   </li>
@@ -1007,7 +1031,7 @@ export default function Header() {
                                     id="menu-item-73632"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73632"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       Cynosure Elite+
                                     </a>
                                   </li>
@@ -1015,7 +1039,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       RevLite SI
                                     </a>
                                   </li>
@@ -1026,13 +1050,13 @@ export default function Header() {
                                 id="menu-item-72611"
                                 className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-72611"
                               >
-                                <a href="#" style={{ fontFamily: 'Visby, sans-serif' }}>Skincare</a>
+                                <a href="/skincare" style={{ fontFamily: 'Tajawal variant2' }}>Skincare</a>
                                 <ul className="sub-menu">
                                   <li
                                     id="menu-item-73631"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73631"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       Facials
                                     </a>
                                   </li>
@@ -1040,7 +1064,7 @@ export default function Header() {
                                     id="menu-item-73632"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73632"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       Peeling
                                     </a>
                                   </li>
@@ -1048,7 +1072,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       Mesotherapy
                                     </a>
                                   </li>
@@ -1056,7 +1080,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       Plasma face
                                     </a>
                                   </li>
@@ -1064,15 +1088,7 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="" style={{ fontFamily: 'Visby, sans-serif' }}>
-                                      Dermapen + Botox
-                                    </a>
-                                  </li>
-                                  <li
-                                    id="menu-item-73634"
-                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
-                                  >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       IV DRIP Glowing
                                     </a>
                                   </li>
@@ -1080,11 +1096,140 @@ export default function Header() {
                                     id="menu-item-73634"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
                                   >
-                                    <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                                       Collagen Threads
                                     </a>
                                   </li>
+                                  <li
+                                    id="menu-item-73634"
+                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
+                                  >
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                      Piercing
+                                    </a>
+                                  </li>
+                                  <li
+                                    id="menu-item-73634"
+                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
+                                  >
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                      Facial machines
+                                    </a>
+                                  </li>
+                                  <li
+                                    id="menu-item-73634"
+                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
+                                  >
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                      Hair Treatment
+                                    </a>
+                                  </li>
 
+                                </ul>
+                              </li>
+                              <li
+                                id="menu-item-72611"
+                                className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-72611"
+                              >
+                                <a href="#" style={{ fontFamily: 'Tajawal variant2' }}>Gynecology</a>
+                                <ul className="sub-menu">
+                                  <li
+                                    id="menu-item-73631"
+                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73631"
+                                  >
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                      Bikini Whitening & Rejuvenation
+                                    </a>
+                                  </li>
+                                  <li
+                                    id="menu-item-73632"
+                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73632"
+                                  >
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                      Bikini Tightening - Belladona
+                                    </a>
+                                  </li>
+                                  <li
+                                    id="menu-item-73634"
+                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
+                                  >
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                      Plasma Injection
+                                    </a>
+                                  </li>
+                                  <li
+                                    id="menu-item-73634"
+                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
+                                  >
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                      Gynecological filler
+                                    </a>
+                                  </li>
+                                  <li
+                                    id="menu-item-73634"
+                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
+                                  >
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                      Vaginal Botox
+                                    </a>
+                                  </li>
+                                  <li
+                                    id="menu-item-73634"
+                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
+                                  >
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                      Cosmetic Minor Surgeries
+                                    </a>
+                                  </li>
+                                  <li
+                                    id="menu-item-73634"
+                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
+                                  >
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                      Gynecology aesthetic
+                                    </a>
+                                  </li>
+                                  <li
+                                    id="menu-item-73634"
+                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
+                                  >
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                      Medical Gynecology / Obstetric
+                                    </a>
+                                  </li>
+
+                                </ul>
+                              </li>
+                              <li
+                                id="menu-item-72611"
+                                className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-72611"
+                              >
+                                <a href="#" style={{ fontFamily: 'Tajawal variant2' }}>Slimming</a>
+                                <ul className="sub-menu">
+                                  <li
+                                    id="menu-item-73631"
+                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73631"
+                                  >
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                      Machines
+                                    </a>
+                                  </li>
+                                  <li
+                                    id="menu-item-73632"
+                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73632"
+                                  >
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                      Injections
+                                    </a>
+                                  </li>
+                                  <li
+                                    id="menu-item-73634"
+                                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73634"
+                                  >
+                                    <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
+                                      Other Services
+                                    </a>
+                                  </li>
                                 </ul>
                               </li>
                             </ul>
@@ -1093,24 +1238,24 @@ export default function Header() {
                             id="menu-item-73582"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73582"
                           >
-                            <a href="/doctor" style={{ fontFamily: 'Visby, sans-serif' }}>
+                            <a href="/doctor" style={{ fontFamily: 'Tajawal variant2' }}>
 
                               Our Doctors
                             </a>
                           </li>
-                          <li
+                          {/* <li
                             id="menu-item-73582"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73582"
                           >
-                            <a href="/offers" style={{ fontFamily: 'Visby, sans-serif' }}>
+                            <a href="/offers" style={{ fontFamily: 'Tajawal variant2' }}>
                               Offers
                             </a>
-                          </li>
+                          </li> */}
                           <li
                             id="menu-item-73582"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73582"
                           >
-                            <a href="/" style={{ fontFamily: 'Visby, sans-serif' }}>
+                            <a href="/" style={{ fontFamily: 'Tajawal variant2' }}>
                               Careers
                             </a>
                           </li>
@@ -1118,7 +1263,7 @@ export default function Header() {
                             id="menu-item-73582"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73582"
                           >
-                            <a href="/contact_us" style={{ fontFamily: 'Visby, sans-serif' }}>
+                            <a href="/contact_us" style={{ fontFamily: 'Tajawal variant2' }}>
                               Contact Us
                             </a>
                           </li>
@@ -1137,7 +1282,7 @@ export default function Header() {
 
                     <li className="secondary-toggle-wrapper">
                       <a style={{ display: 'block' }}
-                        href="https://wordpress.zozothemes.com/happysmile"
+                        href="/"
                         className="secondary-menu-toggle happysmile-toggle"
                       >
                         <span />
@@ -1179,7 +1324,8 @@ export default function Header() {
                 margin: "0px auto",
                 height: 980,
                 display: "block",
-                width: 1519,
+                // width: 1519,
+                width: '100%',
                 position: "absolute",
                 overflow: "visible",
                 left: 0
@@ -1372,9 +1518,10 @@ export default function Header() {
                           data-bgcolor="transparent"
                           style={{
                             backgroundImage:
-                              'url(assets/Images/home/slider-1.webp)', backgroundRepeat: 'no-repeat', backgroundSize: '100%'
+                              'url(assets/Images/home/slider1.png)', backgroundRepeat: 'no-repeat', backgroundSize: '100%', backgroundPosition: 'top',
+                              backgroundOrigin:'border-box'
                           }}
-                          data-src-rs-ref="assets/Images/home/slider-1.webp"
+                          data-src-rs-ref="assets/Images/home/Slider-1920-x-1280.png"
                         >
                           <canvas
                             width={1600}
@@ -1560,7 +1707,9 @@ export default function Header() {
                           transformOrigin: "50% 50%",
                           transform: "perspective(600px)",
                           opacity: 1,
-                          visibility: "visible"
+                          visibility: "visible",
+                          display: 'none'
+    
                         }}
                         data-idcheck="true"
                         data-stylerecorder="true"
@@ -2214,7 +2363,7 @@ export default function Header() {
                       <a
                         id="slider-2-slide-4-layer-13"
                         className="div btn-slider rev-btn"
-                        href="https://wordpress.zozothemes.com/happysmile/contact-us/"
+                        href="/contact_us"
                         target="_self"
                         data-type="button"
                         data-color="#38bde0"
@@ -4123,7 +4272,7 @@ export default function Header() {
                       <a
                         id="slider-2-slide-10-layer-13"
                         className="div btn-slider rev-btn"
-                        href="https://wordpress.zozothemes.com/happysmile/contact-us/"
+                        href="/contact_us"
                         target="_self"
                         data-type="button"
                         data-color="#38bde0"
@@ -5293,7 +5442,7 @@ export default function Header() {
                       <a
                         id="slider-2-slide-11-layer-13"
                         className="div btn-slider rev-btn"
-                        href="https://wordpress.zozothemes.com/happysmile/contact-us/"
+                        href="/contact_us"
                         target="_self"
                         data-type="button"
                         data-color="#38bde0"
@@ -6274,7 +6423,7 @@ export default function Header() {
           <form
             role="search"
             className="form-inline search-form"
-            action="https://wordpress.zozothemes.com/happysmile/"
+            action="/"
           >
             <div className="input-group">
               <input
@@ -6295,7 +6444,7 @@ export default function Header() {
         <div className="secondary-bar-wrapper from-right">
           <div className="secondary-bar-inner">
             <a
-              href="https://wordpress.zozothemes.com/happysmile"
+              href="/"
               className="secondary-menu-toggle happysmile-toggle"
             >
               <span />
@@ -6546,7 +6695,7 @@ export default function Header() {
         </div>
         <div className="mobile-menu-floating">
           <a
-            href="https://wordpress.zozothemes.com/happysmile"
+            href="/"
             className="mobile-menu-toggle"
           >
             <i className="close-icon" />
@@ -6554,7 +6703,7 @@ export default function Header() {
           <div className="header-titles">
             <a
               className="site-link"
-              href="https://wordpress.zozothemes.com/happysmile/"
+              href="/"
             >
               <img
                 className="img-fluid mobile-logo"
@@ -6571,7 +6720,7 @@ export default function Header() {
                 className="cus-img-menu menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-73659"
               >
                 <a
-                  href="https://wordpress.zozothemes.com/happysmile/"
+                  href="/"
                   aria-current="page"
                 >
                   Home
@@ -6582,7 +6731,7 @@ export default function Header() {
                     className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-73661"
                   >
                     <a
-                      href="https://wordpress.zozothemes.com/happysmile/"
+                      href="/"
                       aria-current="page"
                     >
                       Home 1
@@ -6592,7 +6741,7 @@ export default function Header() {
                     id="menu-item-73662"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73662"
                   >
-                    <a href="https://wordpress.zozothemes.com/happysmile/home-2/">
+                    <a href="/">
                       Home 2
                     </a>
                   </li>
@@ -6600,7 +6749,7 @@ export default function Header() {
                     id="menu-item-73663"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73663"
                   >
-                    <a href="https://wordpress.zozothemes.com/happysmile/home-3/">
+                    <a href="/">
                       Home 3
                     </a>
                   </li>
@@ -6608,7 +6757,7 @@ export default function Header() {
                     id="menu-item-73664"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73664"
                   >
-                    <a href="https://wordpress.zozothemes.com/happysmile/home-4/">
+                    <a href="/">
                       Home 4
                     </a>
                   </li>
@@ -6616,7 +6765,7 @@ export default function Header() {
                     id="menu-item-73665"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73665"
                   >
-                    <a href="https://wordpress.zozothemes.com/happysmile/home-5/">
+                    <a href="/">
                       Home 5
                     </a>
                   </li>
@@ -6624,7 +6773,7 @@ export default function Header() {
                     id="menu-item-73794"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73794"
                   >
-                    <a href="https://wordpress.zozothemes.com/happysmile/home-landing-page/">
+                    <a href="/">
                       Home Landing Page
                     </a>
                   </li>
@@ -6641,7 +6790,7 @@ export default function Header() {
                     id="menu-item-73668"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73668"
                   >
-                    <a href="https://wordpress.zozothemes.com/happysmile/about-us/">
+                    <a href="/about">
                       About Us
                     </a>
                   </li>
@@ -6879,7 +7028,7 @@ export default function Header() {
           <form
             role="search"
             className="form-inline search-form"
-            action="https://wordpress.zozothemes.com/happysmile/"
+            action="/"
           >
             <div className="input-group">
               <input
@@ -7223,7 +7372,7 @@ export default function Header() {
         </div>
         {/* .mobile-menu-floating */}{" "}
         <a
-          href="https://wordpress.zozothemes.com/happysmile"
+          href="/"
           className="back-to-top"
           id="back-to-top"
           style={{ display: "none" }}

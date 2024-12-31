@@ -3,8 +3,8 @@ import { useParams } from 'react-router-dom';
 import BasicMoSmile from '../pages/services/BasicMoSmile';
 import SnowWhiteSmile from '../pages/services/SnowWhiteSmile';
 import ZirconSmile from '../pages/services/ZirconSmile';
-import HydraFacial from '../pages/services/HydraFacial';
 import MesoFatInjections from '../pages/services/MesoFatInjections';
+import HydraFacial from '../departments/skincare/facial/hydrafacial';
 
 const OfferDetails = () => {
   const { slug } = useParams();
