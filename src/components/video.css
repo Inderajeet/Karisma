@@ -1,0 +1,128 @@
+/* Fullscreen Section */
+.section {
+    position: relative;
+    height: 80vh;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  /* Play Button */
+  .play-button {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 2rem;
+    border: none;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .play-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Modal */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s forwards; /* Modal fade-in animation */
+}
+
+.modal.hide {
+    animation: fadeOut 0.3s forwards; /* Modal fade-out animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+  
+.modal-content {
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    transform: scale(0.7);
+    animation: scaleIn 0.3s forwards; /* Content scale-in animation */
+}
+
+.modal-content.hide {
+    animation: scaleOut 0.3s forwards; /* Content scale-out animation */
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.7);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes scaleOut {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.7);
+    }
+}
+  
+  
+  iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+  }
+  
+  /* Close Button */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    color: #000;
+    background-color: #fff;
+  }
+  

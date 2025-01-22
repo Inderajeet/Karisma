@@ -1,0 +1,901 @@
+/*/* * Doctor Directory Plugin Styles */ /* Row Column Styles */
+.dd-container {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.dd-container.dd-container-fluid {
+    max-width: 100%;
+    opacity: 0;
+}
+body.half-map-activated .dd-container.dd-container-fluid {
+    opacity: 1;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+body.half-map-activated:not(.full-map-activated) .half-map-filtered-list-wrap {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    overflow-y: auto;
+    padding-left: 15px;
+    padding-right: 30px;
+    min-height: 400px;
+    position: fixed;
+    width: 50%;
+    right: 0;
+}
+.half-map-activated .zoacresgmap.zoacres-property-map {
+    height: 100vh !important;
+}
+body.single .dd-container,
+body.archive .dd-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.dd-row {
+    display: block;
+    margin-right: -15px;
+    margin-left: -15px;
+    clear: both;
+    float: none;
+    height: auto;
+    overflow: hidden;
+}
+div[class^="dd-col-"],
+div[class*=" dd-col-"] {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 0;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+div[class^="dd-col-"] > .dd-inner,
+div[class*=" dd-col-"] > .dd-inner {
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+.doctor-address > p > span {
+    display: table-cell;
+    vertical-align: top;
+}
+.dd-container p {
+    margin: 0;
+}
+.dd-container .img-fluid {
+    max-width: 100%;
+}
+body.half-map-activated .half-map-doctors-list:not(.full-map-doctors-list) {
+    min-height: 300px;
+    position: fixed;
+    height: calc(100% - 130px);
+    width: 50%;
+    left: 0;
+}
+.half-map-doctors-list:not(.full-map-doctors-list) .property-map-items.map-items-bottom {
+    bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+    .dd-row .dd-col-3 {
+        width: 25%;
+    }
+    .dd-row .dd-col-4 {
+        width: 33.333333%;
+    }
+    .dd-row .dd-col-6 {
+        width: 50%;
+    }
+    .dd-row .dd-col-8 {
+        width: 66.66666667%;
+    }
+} /* Doctor Directory Styles */
+.aditional-filters-wrap {
+    display: none;
+}
+.dd-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.dd-container ul li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+} /* Doctor design */
+.gmap-info-wrap {
+    background: #fff none repeat scroll 0 0;
+    height: auto;
+    max-width: 220px;
+    position: relative;
+    transform: translateY(-100%);
+    margin-top: -60px;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+span.infobox-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+}
+.gmap-info-inner > .info-content-wrap {
+    padding: 10px;
+}
+.doctor-info-wrap {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+.doctor-info-wrap .media > .media-left > img {
+    max-width: none;
+}
+.doctor-info-wrap .media > .media-body {
+    padding-left: 30px;
+}
+.doctor-info h5 {
+    margin-bottom: 0;
+}
+.doctor-info > * {
+    margin-bottom: 5px;
+}
+.info-img-wrap > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100% !important;
+}
+.info-wrap-title > h6 {
+    margin-bottom: 5px;
+}
+.info-content-wrap .doctor-rating {
+    margin-bottom: 10px;
+}
+span.before-icon > i {
+    width: 30px;
+}
+.dd-container .dd-input-group,
+.dd-container input,
+.dd-container select,
+.dd-container textarea {
+    width: 100%;
+}
+.dd-container input,
+.dd-container select,
+.dd-container textarea {
+    border: solid 1px #e1e1e1;
+    padding-left: 8px;
+}
+.dd-container textarea {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+form#doctors-filter-form .dd-row {
+    margin-bottom: 35px;
+}
+.pointer-nav-wrap {
+    position: absolute;
+    height: 0;
+}
+.pointer-nav-wrap {
+    position: absolute;
+    height: auto;
+    width: 20px;
+    right: 10px;
+    top: 10px;
+}
+.pointer-nav-wrap .pointer-nav-trigger {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    font-size: 34px;
+    padding-left: 5px;
+}
+.pointer-nav-wrap ul.pointer-nav {
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease 0.35s;
+    position: absolute;
+    width: 200px;
+    right: 25px;
+    text-align: left;
+}
+.doctor-info-cols.dd-col-4 .pointer-nav-wrap ul.pointer-nav {
+    width: 300px;
+}
+.pointer-nav-wrap:hover ul.pointer-nav {
+    visibility: visible;
+    opacity: 1;
+    padding-left: 0;
+    margin-bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+a.doctor-point-marker {
+    display: table;
+    color: #333;
+    text-decoration: none;
+}
+a.doctor-point-marker:hover,
+a.doctor-point-marker:active,
+a.doctor-point-marker:focus {
+    color: #666;
+}
+a.doctor-point-marker > span {
+    display: table-cell;
+}
+a.doctor-point-marker > span:last-child {
+    padding-left: 12px;
+}
+.pointer-nav span:last-child {
+    font-size: 13px;
+    font-weight: 600;
+} /* Half Map Styles */
+.half-map-doctors-list:not(.full-map-doctors-list) {
+    position: relative;
+    min-height: 540px;
+}
+.property-map-items {
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+}
+.property-map-items.map-items-left {
+    left: 10px;
+}
+.property-map-items.map-items-right {
+    right: 10px;
+}
+.property-map-items.map-items-bottom {
+    top: auto;
+    bottom: 10px;
+}
+.property-map-items > ul > li {
+    margin-right: 10px;
+    display: inline-block;
+    float: left;
+}
+.property-map-items ul {
+    clear: both;
+    float: none;
+}
+.property-map-items ul li:last-child {
+    margin-right: 0;
+}
+.dd-row .btn {
+    height: 46px;
+    background: #333;
+    border-color: transparent;
+    color: #fff;
+    min-width: 50px;
+    display: inline-block;
+    padding: 0 30px;
+    line-height: 46px;
+    vertical-align: middle;
+    cursor: pointer;
+    text-align: center;
+}
+.dd-container #doctors-filter-form .dd-inner span.dd-input-group-btn {
+    right: 15px;
+    top: 0;
+}
+#doctors-filter-form .dd-row .dd-inner span.dd-input-group-btn button {
+    border-radius: 4px !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+}
+.dd-inner span.dd-input-group-btn {
+    position: absolute;
+    top: 1px;
+    right: -2px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.dd-row .dd-inner span.dd-input-group-btn button {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+span.map-style-icon > i {
+    padding-right: 5px;
+}
+.dd-dropdown-menu {
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease 0.35s;
+    position: absolute;
+    z-index: 9;
+    width: 200px;
+}
+.dd-dropdown-menu > a {
+    display: block;
+    background: #fff;
+    padding: 10px;
+}
+.dd-dropdown-parent:hover .dd-dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.dd-container input,
+.dd-container select {
+    height: 46px;
+}
+.info-content-wrap .doctor-rating i {
+    font-size: 12px;
+}
+.doctor-rating i.fa {
+    font-size: 14px;
+}
+.map-list-notfound {
+    background: #f3f3f3;
+    padding: 150px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.property-radius-search {
+    max-width: 100%;
+    width: 240px;
+    padding: 10px 0;
+} /* support: IE8 - See #6727 */
+.ui-slider.ui-state-disabled .ui-slider-handle,
+.ui-slider.ui-state-disabled .ui-slider-range {
+    filter: inherit;
+}
+.ui-slider-horizontal {
+    height: 5px;
+    position: relative;
+    margin: 0 5px;
+    background: #eaeaea;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    top: -0.5em;
+    margin-left: -0.6em;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.3);
+}
+.ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+.ui-slider-vertical {
+    width: 0.8em;
+    height: 100px;
+}
+.ui-slider-vertical .ui-slider-handle {
+    left: -0.3em;
+    margin-left: 0;
+    margin-bottom: -0.6em;
+}
+.ui-slider-vertical .ui-slider-range {
+    left: 0;
+    width: 100%;
+}
+.ui-slider-vertical .ui-slider-range-min {
+    bottom: 0;
+}
+.ui-slider-vertical .ui-slider-range-max {
+    top: 0;
+} /* Range Slider */
+.slider-range a {
+    transition: none 0s ease 0s;
+}
+.ui-draggable,
+.ui-droppable {
+    background-position: top;
+}
+.ui-corner-all {
+    border-radius: 10px;
+}
+.ui-widget-header {
+    border: 1px solid #dddddd;
+    background: #e9e9e9;
+    color: #333333;
+    font-weight: bold;
+}
+.ui-widget-content {
+    background: #333;
+    color: #888;
+}
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+    background: #f6f6f6;
+    font-weight: normal;
+    color: #454545;
+}
+.ui-slider {
+    position: relative;
+    text-align: left;
+}
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: default;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+.ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: 0.7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+}
+.dd-row .filter-full-col:first-child {
+    margin-bottom: 60px;
+}
+.doctor-thumbnail img {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0;
+}
+.dd-input-group {
+    display: inline;
+}
+.doctor-single-info > *:last-child {
+    margin-bottom: 0;
+}
+.doctor-single-info > * {
+    margin-bottom: 10px;
+}
+.doctor-single-info > * h5 {
+    margin-bottom: 18px;
+}
+.doctor-single-info .doctor-head-info {
+    margin-bottom: 10px;
+}
+.doctor-single-info .doctor-address h5,
+.doctor-single-info .doctor-address .doctor-opening-hours h6,
+.doctor-single-sidebar .doctor-address h5,
+.doctor-single-sidebar .doctor-address .doctor-opening-hours h6 {
+    margin-bottom: 20px;
+}
+.doctor-head-info > .doctor-name {
+    margin-bottom: 5px;
+}
+.doctor-head-info > .doctor-rating {
+    margin-bottom: 20px;
+}
+.doctor-single-info .doctor-address > p,
+.doctor-single-info .doctor-address > .doctor-phone,
+.doctor-single-sidebar .doctor-address > p,
+.doctor-single-sidebar .doctor-address > .doctor-phone {
+    margin-bottom: 10px;
+}
+ul.opening-hours > li {
+    display: block;
+}
+ul.opening-hours > li:not(:last-child) {
+    margin-bottom: 8px;
+}
+.doctor-opening-hours > h6 {
+    margin-bottom: 10px;
+}
+.doctor-opening-hours {
+    margin-top: 10px;
+}
+.doctor-practice {
+    margin-bottom: 20px;
+}
+.doctor-info-wrap .doctor-thumbnail {
+    margin-bottom: 25px;
+}
+.doctor-info-wrap .doctor-info-inner .doctor-specialities {
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.doctor-info-wrap .doctor-info-inner .doctor-specialities a {
+    font-weight: 600;
+    font-size: 14px;
+}
+.doctor-info-wrap .doctor-info-inner .doctor-rating {
+    margin-bottom: 20px;
+}
+.doctor-mail-wrap .dd-inner {
+    margin-bottom: 20px;
+}
+.doctor-mail-wrap h5 {
+    margin-bottom: 25px;
+}
+.doctors-directory-submit-wrap {
+    margin-top: 10px;
+}
+span.doctors-directory-mail-status {
+    margin-left: 10px;
+}
+.doctor-mail-wrap .dd-input-group input {
+    margin-bottom: 18px;
+}
+.doctor-mail-wrap .dd-input-group input,
+.doctor-mail-wrap .dd-input-group textarea {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+} /* .dd-row .dd-inner .doctor-content {    padding-right: 15px;    padding-left: 15px;} */
+.dd-row .btn:hover {
+    background: #072465 !important;
+}
+p.aditional-filters-trigger-wrap {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.aditional-filters-trigger-wrap .aditional-filters-trigger {
+    position: relative;
+    font-weight: 600;
+    padding-right: 28px;
+    display: inline-block;
+    line-height: 21px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+.aditional-filters-trigger-wrap .aditional-filters-trigger::after {
+    content: "+";
+    border: 2px solid;
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+    line-height: 17px;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+    display: inline-block;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    position: absolute;
+    right: 0px;
+}
+.doctor-info-wrap {
+    position: relative;
+}
+.doctor-info-wrap::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+.doctor-info-wrap:hover::after {
+    width: 100%;
+}
+.owl-carousel.doctors-directory-carousel button.owl-dot,
+.owl-carousel.doctors-directory-carousel .owl-nav button.owl-next,
+.owl-carousel.doctors-directory-carousel .owl-nav button.owl-prev {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    border: solid 1px #333;
+    margin: 2px;
+}
+.owl-carousel.doctors-directory-carousel button.owl-dot.active {
+    background-color: #333;
+}
+.owl-carousel.doctors-directory-carousel .owl-nav button.owl-next,
+.owl-carousel.doctors-directory-carousel .owl-nav button.owl-prev {
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+    color: #333;
+}
+.owl-carousel.doctors-directory-carousel .owl-dots,
+.owl-carousel.doctors-directory-carousel .owl-nav {
+    text-align: center;
+}
+@media screen and (max-width: 1024px) {
+    .half-map-doctors-list:not(.full-map-doctors-list) .property-map-items.map-items-bottom {
+        bottom: 10px !important;
+    }
+    .single-doctors-directory .dd-row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .single-doctors-directory .dd-row div[class^="dd-col-"] .dd-inner {
+        padding-left: 0;
+    }
+    .single-doctors-directory .medcure-content-wrapper > .dd-container > .dd-row > div[class^="dd-col-"] > .dd-inner {
+        padding-left: 15px;
+    }
+}
+@media screen and (max-width: 767px) {
+    form#doctors-filter-form .dd-row {
+        margin-bottom: 0;
+    }
+    form#doctors-filter-form div[class^="dd-col-"],
+    form#doctors-filter-form div[class^=" dd-col-"] {
+        margin-bottom: 20px;
+    }
+    .single-doctors-directory .doctor-single-info {
+        margin-bottom: 30px;
+    }
+    .single-doctors-directory .doctor-single-sidebar {
+        margin-top: 30px;
+    }
+    body.single .dd-container .dd-row:not(:last-child) {
+        padding-bottom: 25px;
+    }
+} /*Doctor Single*/
+body.single .dd-container .dd-row:not(:last-child) {
+    padding-bottom: 50px;
+}
+.doctor-single-info .doctor-image img {
+    border: 10px solid #eee;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    margin-left: 0;
+    width: 400px;
+    height: auto;
+}
+.doctor-single-info .doctor-head-info > .doctor-name {
+    font-size: 30px;
+    line-height: 45px;
+}
+.doctor-single-info > .doctor-name {
+    margin-bottom: 4px;
+}
+.doctor-single-info > .doctor-degree {
+    margin-bottom: 7px;
+}
+.doctor-single-info .doctor-rating,
+.doctor-single-info .doctor-designation,
+.doctor-single-info .doctor-id {
+    display: inline-block;
+    line-height: initial;
+    font-weight: bold;
+}
+.doctor-single-info .doctor-rating,
+.doctor-single-info .doctor-designation {
+    border-right: 1px solid #383838;
+    margin-right: 10px;
+    padding-right: 15px;
+} /* .doctor-single-info .doctor-spcialities, .doctor-single-info .doctor-gender,  .doctor-single-info .doctor-website, */
+.doctor-single-info .doctor-address,
+.doctor-single-sidebar .doctor-address {
+    padding: 30px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    box-shadow: 0 0px 15px 3px rgba(236, 236, 236, 0.6);
+    -webkit-box-shadow: 0 0px 15px 3px rgba(236, 236, 236, 0.6);
+    -moz-box-shadow: 0 0px 15px 3px rgba(236, 236, 236, 0.6);
+}
+.doctor-spcialities,
+.doctor-single-info .doctor-phone {
+    border-top: 1px dashed #ccc;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.s-title {
+    padding-right: 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+.doctor-single-info .doctor-spcialities h5,
+.doctor-single-info .doctor-gender h5,
+.doctor-single-info .doctor-website h5,
+.doctor-single-info .doctor-address h5,
+.doctor-single-sidebar .doctor-address h5 {
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+.doctor-single-info .doctor-spcialities h5::after,
+.doctor-single-info .doctor-gender h5::after,
+.doctor-single-info .doctor-website h5::after,
+.doctor-single-info .doctor-address h5::after,
+.doctor-single-sidebar .doctor-address h5::after {
+    content: "";
+    height: 3px;
+    width: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.single-map-doctos-page {
+    position: relative;
+    min-height: 200px;
+}
+.doctor-single-info .doctor-address span.before-icon > i,
+.doctor-single-sidebar span.before-icon > i {
+    width: 20px;
+}
+.doctor-single-info .doctor-address .doctor-opening-hours,
+.doctor-single-sidebar .doctor-opening-hours {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px dashed #bbb;
+}
+.doctor-single-sidebar > *:not(:last-child) {
+    margin-bottom: 40px;
+}
+.doctor-single-sidebar > .doctor-mail-wrap h4 {
+    margin-bottom: 30px;
+}
+.doctor-single-sidebar > .doctor-mail-wrap .single-map-doctos-page {
+    margin-top: 40px;
+}
+.doctors-directory-list-shortcode .owl-carousel .owl-stage-outer {
+    overflow: visible;
+}
+.doctors-directory-list-shortcode .doctor-info-wrap {
+    transform: translateY(0);
+    transition: all 0.3s ease;
+}
+.doctors-directory-list-shortcode .doctor-info-wrap:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+.doctors-directory-list-shortcode .doctor-info-wrap::before {
+    content: "";
+    width: 0;
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s ease;
+}
+.doctors-directory-list-shortcode .doctor-info-wrap:hover::before {
+    width: 100%;
+    transition: all 0.3s ease;
+}
+#doctors-filter-form .dd-row .dd-inner select {
+    background: #000;
+    position: relative;
+    display: inline-block;
+    line-height: 24px;
+    padding: 8px 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+}
+#doctors-filter-form .dd-row .dd-inner select {
+    background-image: url(./../images/icon-select-light.png);
+}
+span.distance-from-location {
+    padding-left: 24px;
+    display: table-cell;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 1024px) {
+    body.half-map-activated:not(.full-map-activated) .half-map-doctors-list {
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 767px) {
+    body.half-map-activated:not(.full-map-activated) .half-map-filtered-list-wrap {
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+    .half-map-doctors-list > .property-map-items {
+        display: none;
+    }
+    .half-map-doctors-list > .property-map-items:first-child {
+        display: block;
+    }
+} /* pagination */
+.pagination li.nav-item {
+    display: inherit;
+    margin-right: 10px;
+}
+.nav.pagination > li.nav-item.active a,
+.nav.pagination > li.nav-item.active span,
+.page-links > .page-number,
+.post-comments .page-numbers.current,
+.post-page-numbers.current span.page-number,
+.page-links .post-page-numbers.current {
+    background: #294481;
+}
+.nav.pagination > li.nav-item.active a,
+.nav.pagination > li.nav-item.active span {
+    color: #fff;
+}
+.nav.pagination > li.nav-item a,
+.nav.pagination > li.nav-item span {
+    padding: 0;
+    font-size: 18px;
+    display: inline-block;
+    line-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    text-align: center;
+    color: #333;
+}
+.justify-content-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+} /* archive style */
+.doctor-name h5 {
+    font-size: 18px;
+    margin: 0 0 0.5rem 0;
+    font-weight: 700;
+} /* Page title bar */
+.single-doctors-directory .page-title-bar {
+    background: #030303;
+    padding: 80px 0;
+    overflow: hidden;
+}
+.single-doctors-directory .page-title-bar * {
+    color: #fff;
+}
+.single-doctors-directory .page-title-bar .breadcrumb {
+    background: transparent;
+    display: inline-block;
+}
+.single-doctors-directory .page-title-bar nav.breadcrumb > * {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.single-doctors-directory .page-title-bar nav.breadcrumb > *:first-child {
+    padding-left: 0;
+}
+.single-doctors-directory .page-title-bar nav.breadcrumb > *:last-child {
+    padding-right: 0;
+}
+.single-doctors-directory .page-title-bar .container {
+    margin: 0 auto !important;
+    display: block;
+}
+@media (min-width: 1400px) {
+    .single-doctors-directory .page-title-bar .container {
+        max-width: 1200px !important;
+        width: auto !important;
+    }
+}
+.property-map-items.map-items-left .btn.zoacres-map-zoomout {
+	margin-left: 10px;
+}
+
+.dd-col-12 .filter-full-col{
+    top: 250px;
+}
+
+.half-map-doctors-list.full-map-doctors-list{
+	position: relative;
+}

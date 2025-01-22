@@ -1,0 +1,57 @@
+/* .loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    background-color: #577065;
+  }
+  
+  .loader-container p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .lottie-animation{
+    width: 200px;  
+    height: 200px;
+  } */
+
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #577065; /* Muted green background */
+  }
+  
+  .logo-wrapper {
+    position: relative;
+    width: 200px; /* Adjust based on your logo size */
+    height: 200px;
+  }
+  
+  .logo {
+    width: 100%;
+    height: auto;
+    animation: bounce 1.5s infinite ease-in-out;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0); /* Original position */
+    }
+    50% {
+      transform: translateY(-10px); /* Move up */
+    }
+  }
+  
+  
+  
+  

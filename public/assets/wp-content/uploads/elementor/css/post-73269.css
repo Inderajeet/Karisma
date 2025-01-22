@@ -1,0 +1,32 @@
+.elementor-73269 .elementor-element.elementor-element-214618a4{--display:flex;--gap:10px 10px;--background-transition:0.3s;--margin-top:0px;--margin-bottom:-30px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:15px;--padding-right:15px;}.elementor-73269 .elementor-element.elementor-element-5442e165{--display:flex;--background-transition:0.3s;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .blog-wrapper .blog-inner{text-align:left;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .blog-inner{color:#FFFFFF;background-color:#FFFFFF;padding:30px 30px 15px 30px;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .post-title-head .post-title{text-transform:none;color:var( --e-global-color-secondary );}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .post-title-head{transform:scale(1);margin-bottom:25px;font-size:23px;line-height:33px;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .blog-inner:hover .post-title-head .post-title{color:var( --e-global-color-primary );}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .blog-inner:hover .post-title-head{transform:scale(1);}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .post-thumb{margin-bottom:25px;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .read-more{text-transform:uppercase;fill:var( --e-global-color-primary );color:var( --e-global-color-primary );background-color:#6D00E700;border-radius:0px 0px 0px 0px;letter-spacing:1.5px;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .read-more:hover, .elementor-73269 .elementor-element.elementor-element-596e8cf1 .read-more:focus{color:#FFFFFF;background-color:#FFFFFF00;border-color:#FFFFFF;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .read-more:hover svg, .elementor-73269 .elementor-element.elementor-element-596e8cf1 .read-more:focus svg{fill:#FFFFFF;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .top-meta{margin-bottom:0px;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .bottom-meta{margin-bottom:8px;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .post-excerpt{margin-bottom:0px;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .post-overlay-items{padding:0px 30px 0px 30px;position:absolute;top:67%;left:0%;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .post-thumb.post-overlay-active:before{background-color:#28282826;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .post-thumb.post-overlay-active:hover:before{background-color:#74986a63;}@media(max-width:1024px){.elementor-73269 .elementor-element.elementor-element-596e8cf1 > .elementor-widget-container{padding:0px 0px 0px 0px;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .post-title-head{font-size:18px;line-height:24px;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .read-more{font-size:13px;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .post-overlay-items{padding:29px 15px 0px 15px;position:absolute;top:44%;}.elementor-73269 .elementor-element.elementor-element-214618a4{--margin-top:0px;--margin-bottom:-40px;--margin-left:0px;--margin-right:0px;}}@media(max-width:767px){.elementor-73269 .elementor-element.elementor-element-596e8cf1 .post-title-head{margin-bottom:5px;font-size:20px;line-height:30px;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .top-meta{margin-bottom:0px;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .bottom-meta{margin-bottom:8px;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .post-excerpt{margin-bottom:0px;}.elementor-73269 .elementor-element.elementor-element-596e8cf1 .post-overlay-items{padding:0px 15px 0px 15px;position:absolute;top:63%;}.elementor-73269 .elementor-element.elementor-element-214618a4{--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}}/* Start custom CSS for ceaposts, class: .elementor-element-596e8cf1 */@media only screen and (max-width: 1024px) {
+    .elementor-widget-ceaposts .blog-style-default .blog-inner > *.post-thumb.post-overlay-active a.post-image-link:before {
+            opacity: 1;
+        background: linear-gradient(to top, #00261f, rgb(15 12 30 / 0%));
+        transition: all .3s;
+        display: block;
+    }
+}/* End custom CSS */
+/* Start custom CSS for ceaposts, class: .elementor-element-596e8cf1 */@media only screen and (max-width: 1024px) {
+    .elementor-widget-ceaposts .blog-style-default .blog-inner > *.post-thumb.post-overlay-active a.post-image-link:before {
+            opacity: 1;
+        background: linear-gradient(to top, #00261f, rgb(15 12 30 / 0%));
+        transition: all .3s;
+        display: block;
+    }
+}/* End custom CSS */
+/* Start custom CSS for ceaposts, class: .elementor-element-596e8cf1 */@media only screen and (max-width: 1024px) {
+    .elementor-widget-ceaposts .blog-style-default .blog-inner > *.post-thumb.post-overlay-active a.post-image-link:before {
+            opacity: 1;
+        background: linear-gradient(to top, #00261f, rgb(15 12 30 / 0%));
+        transition: all .3s;
+        display: block;
+    }
+}/* End custom CSS */
+/* Start custom CSS for ceaposts, class: .elementor-element-596e8cf1 */@media only screen and (max-width: 1024px) {
+    .elementor-widget-ceaposts .blog-style-default .blog-inner > *.post-thumb.post-overlay-active a.post-image-link:before {
+            opacity: 1;
+        background: linear-gradient(to top, #00261f, rgb(15 12 30 / 0%));
+        transition: all .3s;
+        display: block;
+    }
+}/* End custom CSS */

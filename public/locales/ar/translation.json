@@ -1,0 +1,104 @@
+{
+    "about1": {
+        "about1Heading": "مرحبا",
+        "about1Desc1": "لأن الكاريزما هبة إلهية تعني الثقة والتمكين والتعبير عن الذات. صممنا علامتنا التجارية الفاخرة للعناية بالجمال، لنساعدك في إبراز كاريزما جمالك الداخلي من خلال تقديم علاجات استثنائية مصممة خصيصًا لتناسب احتياجاتك الفريدة باستخدام أحدث التقنيات.",
+        "about1Desc2": "في كاريزما، نرتقي بثقتك بنفسك وجاذبيتك من خلال تقديم علاجات جمالية فاخرة وشخصية تعزز الجمال الطبيعي والثقة بالنفس. نحن نجمع بين التكنولوجيا المتقدمة وفن الاهتمام  بالتفاصيل لخلق تجارب تجميلية تعكس الكاريزما الداخلية لكل عميل من عملائنا.",
+        "about1Btn": "معلومات عنا"
+    },
+    "about2": {
+        "about2Heading1": "لماذا تختارنا؟",
+        "about2Heading2": " حالة من الفن طب الأسنان",
+        "about2Desc": "نحن فخورون بخدمة مجتمعنا وملتزمون بالابتسامة لإحداث تأثير إيجابي على الصحة العالمية لمرضانا.",
+        "about2Btn": "اقرأ المزيد"
+    },
+    "departments": [
+        {
+            "title": "طب الأسنان",
+            "description": "غير ابتسامتك وثقتك مع مركز داماس الطبي.. غير ابتسامتك وثقتك مع مركز داماس الطبي..",
+            "link": "/"
+        },
+        {
+            "title": "ديرما",
+            "description": "اكتشف تألقك الداخلي من خلال جماليات مخصصة... اكتشف تألقك الداخلي من خلال جماليات مخصصة...",
+            "link": "/"
+        },
+        {
+            "title": "إزالة الشعر بالليزر",
+            "description": "إزالة الشعر بالليزر في مركز داماس الطبي... إزالة الشعر بالليزر في مركز داماس الطبي... إزالة الشعر بالليزر في مركز داماس الطبي...",
+            "link": "/"
+        },
+        {
+            "title": "السلخ",
+            "description": "نحن نفهم أهمية البشرة الصحية والجميلة... نحن نفهم أهمية البشرة الصحية والجميلة... نحن نفهم أهمية",
+            "link": "/"
+        },
+        {
+            "title": "أمراض النساء",
+            "description": "نحتفل بصحة المرأة ورفاهيتها بجميع جوانبها... نحتفل بصحة المرأة ورفاهيتها بجميع جوانبها...",
+            "link": "/"
+        },
+        {
+            "title": "Slimming",
+            "description": "A Journey to Transformation at Damas Medical Center's Slimming... A Journey to Transformation at Damas Medical Center's Slimming...",
+            "link": "/"
+        }
+    ],
+    
+    "menuItems" :[
+        {
+          "label": "About Us",
+          "link": "/"
+        },
+        {
+          "label": "Department",
+          "link": "/${lng}/",
+          "subMenu": [
+            {
+              "label": "Dental",
+              "subMenu": [
+                { "label": "Hollywood Smile (Veneers)", "link": "/" },
+                { "label": "Implant", "link": "/" },
+                { "label": "Orthodontics", "link": "/" },
+                { "label": "Teeth Whitening", "link": "/" },
+                { "label": "Mouth Rehabilitation", "link": "/" },
+                { "label": "Root Canal Treatment", "link": "/" },
+                { "label": "Pediatric", "link": "/" },
+                { "label": "Dental Surgical Treatment", "link": "/" },
+                { "label": "Oral Health (Gum Treatment)", "link": "/" },
+                { "label": "Restorative Dentistry", "link": "/" }
+              ]
+            },
+            {
+              "label": "Derma",
+              "subMenu": [
+                { "label": "Dermal Fillers", "link": "/" },
+                { "label": "Botox", "link": "/" },
+                { "label": "Cosmetic Threads", "link": "/" },
+                { "label": "Rejuvenation Injection", "link": "/" }
+              ]
+            },
+            {
+              "label": "Laser Hair Removal",
+              "subMenu": [
+                { "label": "Candela GentleMax Pro", "link": "/" },
+                { "label": "Cynosure Elite+", "link": "/" },
+                { "label": "RevLite SI", "link": "/" }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Our Doctors",
+          "link": "/${lng}/doctors"
+        },
+        {
+          "label": "Careers",
+          "link": "/"
+        },
+        {
+          "label": "Contact Us",
+          "link": "/${lng}/contact_us"
+        }
+      ],
+    "contact_us":{}
+}

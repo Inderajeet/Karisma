@@ -1,0 +1,97 @@
+.cust-doctor-info-wrap {
+    /* margin-bottom: 40px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 0;
+    position: relative;
+    text-align: start; */
+    margin-bottom: 40px;
+    padding-bottom: 0;
+    position: relative;
+    text-align: start;
+    box-shadow: 0px 0px 13px 0px rgb(6 6 6 / 35%);
+    border-radius: 10px;
+}
+
+.doctor-departments{
+    font-size: 16px;
+    color: #5C4033;
+}
+
+.doctor-name{
+    font-size: 29px;
+    color: #405D53;
+    margin-top: 10px;
+}
+
+.doctor-specialities-name{
+    font-size: 20px;
+    color: #405D53;
+}
+
+.cust-team-details-icon{
+    color: #405D53;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 15px;
+    border: 1px solid #e8eefc;
+    /* border-radius: 50%; */
+    background: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+.cust-team-details-icon:hover{
+    background-color: #405D53;
+    color: #ffff;
+}
+
+.single-cea-team .team-social-wrap ul.cust-social-icons > li > a{
+    border-radius: 10px 10px 0px 10px;
+    box-shadow: 6px 5px 16px 0px rgb(0 0 0 / 15%);
+    margin-right: 10px;
+    background: #fff;
+}
+
+.single-cea-team .team-social-wrap ul.cust-social-icons > li > a:hover{
+    background-color: #405D53;
+}
+
+ul.nav.cust-social-icons > li > a {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+    line-height: 40px;
+}
+
+ul.nav.cust-social-icons.team-social a.social-facebook {
+    color: #3b5999;
+}
+
+.single-cea-team .team-social-wrap ul.cust-social-icons > li > a:hover{
+    background-color: #405D53;
+    color: #fff;
+}
+ul.nav.cust-social-icons.team-social a.social-twitter {
+    color: #55acee;
+}
+ul.nav.cust-social-icons.team-social a.social-instagram {
+    color: #e4405f;
+}
+ul.nav.cust-social-icons.team-social a.social-youtube {
+    color: #cd201f;
+}
+
+.elementor-cust-icon-list-text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'CabinetGrotesk';
+}
+
+.doctor-info-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

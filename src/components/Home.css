@@ -1,0 +1,40 @@
+@media screen and (min-width: 1025px) {
+  .image-container {
+    perspective: 1000px;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width:767px){
+  .image-container {
+    perspective: 1000px;
+    width: 60%;
+  }
+}
+
+.rotating-image {
+  /* width: 300px;  */
+  height: auto;
+  animation: rotateY 3s linear infinite;
+  /* Rotate along the Y-axis */
+  transform-origin: center;
+  /* Rotate from the center */
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .image-container {
+    width: 40%;
+  }
+}
+
+@media(max-width:767px) {
+  .about-2 {
+    display: flex;
+    align-content: end !important;
+  }
+
+  .mobile-img-container {
+    display: flex;
+    justify-content: center;
+  }
+}

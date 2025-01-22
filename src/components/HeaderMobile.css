@@ -1,0 +1,148 @@
+/* Mobile Menu */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    height: 100%;
+    background: #d9c5ad;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 70;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    transition: left 0.3s ease-in-out;
+}
+
+.mobile-menu.open {
+    left: 0;
+    display: block;
+}
+
+.mobile-menu-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.mobile-menu-list li {
+    padding: 10px 0;
+    /* border-bottom: 1px solid #ddd; */
+}
+
+.mobile-sub-menu {
+    list-style: none;
+    padding-left: 20px;
+    display: none;
+}
+
+.mobile-sub-menu.open {
+    display: block;
+}
+
+.submenu-toggle {
+    background: none;
+    border: none;
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.menu-item {
+    position: relative;
+    padding-left: 40px;
+    /* Space for submenu icons */
+}
+
+.menu-item-has-children .menu-icon {
+    position: relative;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+}
+
+.mobile-sub-menu {
+    padding-left: 20px;
+}
+
+span.menu-icon {
+    margin-left: 10px;
+}
+
+.mobile-logo {
+    width: 30%;
+}
+
+.mobile-menu-logo {
+    width: 50%;
+}
+
+.mobile-menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.menu-font{
+    color: rgb(87, 112, 101);
+    font-size: 16px;
+
+}
+
+.close-menu {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+
+.mobile-align {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.hamburger {
+    color: wheat;
+}
+
+/* When the menu is hidden during scroll */
+.mobile-align.hidden {
+    transform: translateY(-100%);
+    /* Move the menu out of view */
+}
+
+/* When the menu is visible */
+.mobile-align.visible {
+    transform: translateY(0);
+    /* Reset to original position */
+    transition: transform 2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* When the menu is sticky */
+.mobile-align.scrolling {
+    /* background-color: rgba(255, 255, 255, 0.8);  */
+    border-radius: 0;
+    /* background-color: #577065bd; */
+    background-color: #d9c5adb8;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px) saturate(150%);
+}
+
+@media (max-width: 768px) {
+    .mobile-align {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 50;
+    }
+}

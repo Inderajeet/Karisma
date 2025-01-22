@@ -1,0 +1,2023 @@
+.elementor-73183 .elementor-element.elementor-element-2ce220da {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: calc((1 - var(--container-widget-flex-grow)) * 100%);
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --align-items: stretch;
+    --gap: 10px 10px;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 70px;
+    --padding-bottom: 120px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-6a088048 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-widget-ceasectiontitle {
+    --separator-border-color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-ceasectiontitle .title-separator>* {
+    color: var(--e-global-color-secondary);
+}
+
+.elementor-73183 .elementor-element.elementor-element-46edf880 {
+    text-align: left;
+}
+
+.elementor-73183 .elementor-element.elementor-element-46edf880.cea-align-center .section-description {
+    margin: 0 auto;
+}
+
+.elementor-73183 .elementor-element.elementor-element-46edf880>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-46edf880 .section-title-wrapper .section-title {
+    margin-bottom: 10px;
+    font-size: 38px;
+    line-height: 44px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-46edf880 .section-title-wrapper .sub-title {
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-46edf880 .section-description .lead {
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-46edf880 .section-description .section-content {
+    color: #777777;
+    margin-bottom: 5px;
+}
+
+.elementor-widget-text-editor {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap,
+.elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap {
+    color: var(--e-global-color-primary);
+    border-color: var(--e-global-color-primary);
+}
+
+.elementor-73183 .elementor-element.elementor-element-1aea2ad7>.elementor-widget-container {
+    padding: 0px 0px 10px 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-1aea2ad7 {
+    color: var(--e-global-color-text);
+}
+
+.elementor-73183 .elementor-element.elementor-element-6b60bf63 {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-2b718853 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-2ef812fa {
+    text-align: left;
+}
+
+.elementor-73183 .elementor-element.elementor-element-2ef812fa.cea-align-center .section-description {
+    margin: 0 auto;
+}
+
+.elementor-73183 .elementor-element.elementor-element-2ef812fa>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-2ef812fa .section-title-wrapper .section-title {
+    margin-bottom: 0px;
+    font-size: 38px;
+    line-height: 44px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-2ef812fa .section-title-wrapper .sub-title {
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-2ef812fa .section-description .lead {
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-2ef812fa .section-description .section-content {
+    color: #777777;
+    margin-bottom: 5px;
+}
+
+.elementor-widget-icon-list .elementor-icon-list-item:not(:last-child):after {
+    border-color: var(--e-global-color-text);
+}
+
+.elementor-widget-icon-list .elementor-icon-list-icon i {
+    color: var(--e-global-color-primary);
+}
+
+.elementor-widget-icon-list .elementor-icon-list-icon svg {
+    fill: var(--e-global-color-primary);
+}
+
+.elementor-widget-icon-list .elementor-icon-list-item>.elementor-icon-list-text,
+.elementor-widget-icon-list .elementor-icon-list-item>a {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-widget-icon-list .elementor-icon-list-text {
+    color: var(--e-global-color-secondary);
+}
+
+.elementor-73183 .elementor-element.elementor-element-653e731 {
+    width: var(--container-widget-width, 109.497%);
+    max-width: 100%;
+    --container-widget-width: 109.497%;
+    --container-widget-flex-grow: 0;
+    --e-icon-list-icon-size: 18px;
+    --icon-vertical-offset: 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-653e731.elementor-element {
+    --flex-grow: 0;
+    --flex-shrink: 0;
+}
+
+.elementor-73183 .elementor-element.elementor-element-653e731 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+    padding-bottom: calc(6px/2);
+}
+
+.elementor-73183 .elementor-element.elementor-element-653e731 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+    margin-top: calc(6px/2);
+}
+
+.elementor-73183 .elementor-element.elementor-element-653e731 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+    margin-right: calc(6px/2);
+    margin-left: calc(6px/2);
+}
+
+.elementor-73183 .elementor-element.elementor-element-653e731 .elementor-icon-list-items.elementor-inline-items {
+    margin-right: calc(-6px/2);
+    margin-left: calc(-6px/2);
+}
+
+body.rtl .elementor-73183 .elementor-element.elementor-element-653e731 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    left: calc(-6px/2);
+}
+
+body:not(.rtl) .elementor-73183 .elementor-element.elementor-element-653e731 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+    right: calc(-6px/2);
+}
+
+.elementor-73183 .elementor-element.elementor-element-653e731 .elementor-icon-list-icon i {
+    color: #577065;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.elementor-73183 .elementor-element.elementor-element-653e731 .elementor-icon-list-icon svg {
+    fill: var(--e-global-color-primary);
+    transition: fill 0.3s;
+}
+
+.elementor-73183 .elementor-element.elementor-element-653e731 .elementor-icon-list-icon {
+    padding-right: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-653e731 .elementor-icon-list-item>.elementor-icon-list-text,
+.elementor-73183 .elementor-element.elementor-element-653e731 .elementor-icon-list-item>a {
+    font-weight: 600;
+}
+
+.elementor-73183 .elementor-element.elementor-element-653e731 .elementor-icon-list-text {
+    color: var(--e-global-color-secondary);
+    transition: color 0.3s;
+}
+
+.elementor-73183 .elementor-element.elementor-element-87e3501 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-74ff4f40 {
+    text-align: left;
+}
+
+.elementor-73183 .elementor-element.elementor-element-74ff4f40.cea-align-center .section-description {
+    margin: 0 auto;
+}
+
+.elementor-73183 .elementor-element.elementor-element-74ff4f40>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-74ff4f40 .section-title-wrapper .section-title {
+    margin-bottom: 0px;
+    font-size: 38px;
+    line-height: 44px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-74ff4f40 .section-title-wrapper .sub-title {
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-74ff4f40 .section-description .lead {
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-74ff4f40 .section-description .section-content {
+    color: #777777;
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-8945cc9 {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-47d1d167 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-widget-ceaflipbox:not(.cea-primary-icon-view-default) .flip-front .flip-box-icon {
+    background-color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-ceaflipbox .flip-front .flip-box-icon {
+    color: var(--e-global-color-primary);
+}
+
+.elementor-widget-ceaflipbox .flip-front .flip-box-icon svg {
+    fill: var(--e-global-color-primary);
+}
+
+.elementor-widget-ceaflipbox.cea-primary-icon-view-framed .flip-front .flip-box-icon {
+    border-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-ceaflipbox:not(.cea-secondary-icon-view-default) .flip-back .flip-box-icon {
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-ceaflipbox .flip-back .flip-box-icon {
+    color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-ceaflipbox .flip-back .flip-box-icon svg {
+    fill: var(--e-global-color-secondary);
+}
+
+.elementor-73183 .elementor-element.elementor-element-794b42c6>.elementor-widget-container {
+    border-radius: 20px 20px 0px 20px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-794b42c6 .flip-box-wrapper {
+    height: 165px !important;
+    text-align: center;
+}
+
+.elementor-73183 .elementor-element.elementor-element-794b42c6 .flip-box-wrapper .flip-front,
+.elementor-73183 .elementor-element.elementor-element-794b42c6 .flip-box-wrapper .flip-back {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-794b42c6 .flip-box-inner .flip-front {
+    background-color: #577065 ;
+}
+
+.elementor-73183 .elementor-element.elementor-element-794b42c6 .flip-box-inner .flip-back {
+    background-color: #F8F9FB;
+}
+
+.elementor-73183 .elementor-element.elementor-element-794b42c6 .flip-front .flip-box-title {
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-794b42c6 .flip-back .flip-box-title {
+    color: var(--e-global-color-secondary);
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-794b42c6 .flip-front .flip-box-icon {
+    color: #FFFFFF;
+    font-size: 20px;
+    transform: rotate(0deg);
+}
+
+.elementor-73183 .elementor-element.elementor-element-794b42c6 .flip-front .flip-box-icon svg {
+    fill: #FFFFFF;
+}
+
+.elementor-73183 .elementor-element.elementor-element-794b42c6.cea-primary-icon-view-framed .flip-front .flip-box-icon {
+    border-color: #FFFFFF;
+}
+
+.elementor-73183 .elementor-element.elementor-element-794b42c6 .flip-back .flip-box-icon {
+    font-size: 20px;
+    transform: rotate(0deg);
+}
+
+.elementor-73183 .elementor-element.elementor-element-794b42c6 .flip-box-wrapper .flip-front .flip-box-image {
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-794b42c6 .flip-box-wrapper .flip-back .flip-box-image {
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-794b42c6 .flip-front .cea-button {
+    background-color: #333333;
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-794b42c6 .flip-back .cea-button {
+    background-color: #333333;
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-794b42c6 .flip-box-wrapper .flip-front .flip-content {
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-794b42c6 .flip-box-wrapper .flip-back .flip-content {
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-3b89196a {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-37615ce2>.elementor-widget-container {
+    border-radius: 20px 20px 0px 20px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-37615ce2 .flip-box-wrapper {
+    height: 165px !important;
+    text-align: center;
+}
+
+.elementor-73183 .elementor-element.elementor-element-37615ce2 .flip-box-wrapper .flip-front,
+.elementor-73183 .elementor-element.elementor-element-37615ce2 .flip-box-wrapper .flip-back {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-37615ce2 .flip-box-inner .flip-front {
+    background-color: #577065;
+}
+
+.elementor-73183 .elementor-element.elementor-element-37615ce2 .flip-box-inner .flip-back {
+    background-color: #F8F9FB;
+}
+
+.elementor-73183 .elementor-element.elementor-element-37615ce2 .flip-front .flip-box-title {
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-37615ce2 .flip-back .flip-box-title {
+    color: var(--e-global-color-secondary);
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-37615ce2 .flip-front .flip-box-icon {
+    color: #FFFFFF;
+    font-size: 20px;
+    transform: rotate(0deg);
+}
+
+.elementor-73183 .elementor-element.elementor-element-37615ce2 .flip-front .flip-box-icon svg {
+    fill: #FFFFFF;
+}
+
+.elementor-73183 .elementor-element.elementor-element-37615ce2.cea-primary-icon-view-framed .flip-front .flip-box-icon {
+    border-color: #FFFFFF;
+}
+
+.elementor-73183 .elementor-element.elementor-element-37615ce2 .flip-back .flip-box-icon {
+    font-size: 20px;
+    transform: rotate(0deg);
+}
+
+.elementor-73183 .elementor-element.elementor-element-37615ce2 .flip-box-wrapper .flip-front .flip-box-image {
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-37615ce2 .flip-box-wrapper .flip-back .flip-box-image {
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-37615ce2 .flip-front .cea-button {
+    background-color: #333333;
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-37615ce2 .flip-back .cea-button {
+    background-color: #333333;
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-37615ce2 .flip-box-wrapper .flip-front .flip-content {
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-37615ce2 .flip-box-wrapper .flip-back .flip-content {
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-6e079b74 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 110px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-550a23e1 {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-7cd7f81c {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-eb8b069 {
+    text-align: left;
+}
+
+.elementor-73183 .elementor-element.elementor-element-eb8b069.cea-align-center .section-description {
+    margin: 0 auto;
+}
+
+.elementor-73183 .elementor-element.elementor-element-eb8b069>.elementor-widget-container {
+    padding: 0px 30px 20px 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-eb8b069 .section-title-wrapper .section-title {
+    margin-bottom: 25px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-eb8b069 .section-title-wrapper .sub-title {
+    margin-bottom: 20px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-eb8b069 .section-description .lead {
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-eb8b069 .section-description .section-content {
+    margin-bottom: 0px;
+}
+
+.elementor-widget-image .widget-image-caption {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-73183 .elementor-element.elementor-element-47dbfc31 img {
+    border-radius: 20px 20px 0px 20px;
+}
+
+.elementor-widget-ceapopupanything .popup-trigger-icon {
+    color: var(--e-global-color-primary);
+}
+
+.elementor-widget-ceapopupanything .popup-trigger-icon svg {
+    fill: var(--e-global-color-primary);
+}
+
+.elementor-widget-ceapopupanything.cea-view-framed .popup-trigger-icon {
+    background-color: var(--e-global-color-secondary);
+    border-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-ceapopupanything.cea-view-stacked .popup-trigger-icon {
+    background-color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-ceapopupanything:hover .popup-trigger-icon {
+    color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-ceapopupanything:hover .popup-trigger-icon svg {
+    fill: var(--e-global-color-secondary);
+}
+
+.elementor-widget-ceapopupanything.cea-view-framed:hover .popup-trigger-icon {
+    background-color: var(--e-global-color-primary);
+    border-color: var(--e-global-color-secondary);
+}
+
+.elementor-widget-ceapopupanything.cea-view-stacked:hover .popup-trigger-icon {
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-73183 .elementor-element.elementor-element-75ca996b {
+    width: auto;
+    max-width: auto;
+    z-index: 2;
+}
+
+.elementor-73183 .elementor-element.elementor-element-75ca996b>.elementor-widget-container {
+    margin: -300px 0px 0px 35px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-75ca996b.elementor-element {
+    --align-self: flex-start;
+}
+
+.elementor-73183 .elementor-element.elementor-element-75ca996b .popup-anything-wrapper {
+    color: #FFFFFF;
+}
+
+.elementor-73183 .elementor-element.elementor-element-75ca996b .popup-trigger-icon {
+    color: #FFFFFF;
+    font-size: 26px;
+    margin-bottom: 5px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-75ca996b .popup-trigger-icon svg {
+    fill: #FFFFFF;
+}
+
+.elementor-73183 .elementor-element.elementor-element-75ca996b.cea-view-framed .popup-trigger-icon {
+    background-color: var(--e-global-color-primary);
+    border-color: var(--e-global-color-primary);
+}
+
+.elementor-73183 .elementor-element.elementor-element-75ca996b.cea-view-stacked .popup-trigger-icon {
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-73183 .elementor-element.elementor-element-75ca996b:hover .popup-trigger-icon {
+    color: #FFFFFF;
+}
+
+.elementor-73183 .elementor-element.elementor-element-75ca996b:hover .popup-trigger-icon svg {
+    fill: #FFFFFF;
+}
+
+.elementor-73183 .elementor-element.elementor-element-75ca996b.cea-view-framed:hover .popup-trigger-icon {
+    background-color: var(--e-global-color-secondary);
+}
+
+.elementor-73183 .elementor-element.elementor-element-75ca996b.cea-view-stacked:hover .popup-trigger-icon {
+    background-color: var(--e-global-color-secondary);
+}
+
+.elementor-73183 .elementor-element.elementor-element-75ca996b .popup-trigger-icon i,
+.elementor-73183 .elementor-element.elementor-element-75ca996b .popup-trigger-icon svg {
+    transform: rotate(0deg);
+}
+
+.elementor-73183 .elementor-element.elementor-element-7cd7f81c.e-con {
+    --flex-grow: 0;
+    --flex-shrink: 0;
+}
+
+.elementor-73183 .elementor-element.elementor-element-78b94bc1 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 30px;
+    --padding-right: 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-1f204e1f>.elementor-widget-container {
+    padding: 0px 0px 30px 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-1f204e1f img {
+    border-radius: 20px 20px 0px 20px;
+}
+
+.elementor-widget-progress .elementor-progress-wrapper .elementor-progress-bar {
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-progress .elementor-title {
+    color: var(--e-global-color-primary);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.elementor-73183 .elementor-element.elementor-element-4d993e8a>.elementor-widget-container {
+    margin: 0px 0px 15px 0px;
+    padding: 0px 0px 0px 65px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-4d993e8a .elementor-progress-wrapper .elementor-progress-bar {
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-73183 .elementor-element.elementor-element-4d993e8a .elementor-progress-bar {
+    height: 4px;
+    line-height: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.elementor-73183 .elementor-element.elementor-element-4d993e8a .elementor-title {
+    color: var(--e-global-color-secondary);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-654b7363>.elementor-widget-container {
+    margin: 0px 0px 15px 0px;
+    padding: 0px 0px 0px 65px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-654b7363 .elementor-progress-wrapper .elementor-progress-bar {
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-73183 .elementor-element.elementor-element-654b7363 .elementor-progress-bar {
+    height: 4px;
+    line-height: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.elementor-73183 .elementor-element.elementor-element-654b7363 .elementor-title {
+    color: var(--e-global-color-secondary);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-f742194>.elementor-widget-container {
+    margin: 0px 0px 15px 0px;
+    padding: 0px 0px 0px 65px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-f742194 .elementor-progress-wrapper .elementor-progress-bar {
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-73183 .elementor-element.elementor-element-f742194 .elementor-progress-bar {
+    height: 4px;
+    line-height: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.elementor-73183 .elementor-element.elementor-element-f742194 .elementor-title {
+    color: var(--e-global-color-secondary);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-7a37c236>.elementor-widget-container {
+    margin: 0px 0px 15px 0px;
+    padding: 0px 0px 0px 65px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-7a37c236 .elementor-progress-wrapper .elementor-progress-bar {
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-73183 .elementor-element.elementor-element-7a37c236 .elementor-progress-bar {
+    height: 4px;
+    line-height: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.elementor-73183 .elementor-element.elementor-element-7a37c236 .elementor-title {
+    color: var(--e-global-color-secondary);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-2bb02f5>.elementor-widget-container {
+    margin: 0px 0px 15px 0px;
+    padding: 0px 0px 0px 65px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-2bb02f5 .elementor-progress-wrapper .elementor-progress-bar {
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-73183 .elementor-element.elementor-element-2bb02f5 .elementor-progress-bar {
+    height: 4px;
+    line-height: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.elementor-73183 .elementor-element.elementor-element-2bb02f5 .elementor-title {
+    color: var(--e-global-color-secondary);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-78b94bc1.e-con {
+    --flex-grow: 0;
+    --flex-shrink: 0;
+}
+
+.elementor-73183 .elementor-element.elementor-element-52df8086 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-16883c1e {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: calc((1 - var(--container-widget-flex-grow)) * 100%);
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --align-items: stretch;
+    --gap: 10px 10px;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-74d4254a {
+    --display: flex;
+    --background-transition: 0.3s;
+    --border-radius: 20px 20px 0px 20px;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 50px;
+    --padding-bottom: 50px;
+    --padding-left: 50px;
+    --padding-right: 50px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-74d4254a:not(.elementor-motion-effects-element-type-background),
+.elementor-73183 .elementor-element.elementor-element-74d4254a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F8F9FB;
+}
+
+.elementor-73183 .elementor-element.elementor-element-44cf182a {
+    text-align: left;
+}
+
+.elementor-73183 .elementor-element.elementor-element-44cf182a.cea-align-center .section-description {
+    margin: 0 auto;
+}
+
+.elementor-73183 .elementor-element.elementor-element-44cf182a>.elementor-widget-container {
+    padding: 0px 30px 20px 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-44cf182a .section-title-wrapper .section-title {
+    margin-bottom: 25px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-44cf182a .section-title-wrapper .sub-title {
+    margin-bottom: 20px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-44cf182a .section-description .lead {
+    margin-bottom: 5px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-44cf182a .section-description .section-content {
+    margin-bottom: 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-537c4cc8>.elementor-widget-container {
+    margin: -10px 0px 0px 0px;
+}
+
+.elementor-73183 .elementor-element.elementor-element-537c4cc8 .contact-form-wrapper {
+    text-align: left;
+}
+
+.elementor-73183 .elementor-element.elementor-element-74d4254a,
+.elementor-73183 .elementor-element.elementor-element-74d4254a::before {
+    --border-transition: 0.3s;
+}
+
+@media(max-width:1024px) {
+    .elementor-73183 .elementor-element.elementor-element-46edf880 .section-title-wrapper .section-title {
+        margin-bottom: 10px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-2ef812fa .section-title-wrapper .section-title {
+        margin-bottom: 10px;
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-74ff4f40 .section-title-wrapper .section-title {
+        margin-bottom: 10px;
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-6b60bf63 {
+        --flex-direction: column;
+        --container-widget-width: 100%;
+        --container-widget-height: initial;
+        --container-widget-flex-grow: 0;
+        --container-widget-align-self: initial;
+        --flex-wrap-mobile: wrap;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-6a088048 {
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-2ce220da {
+        --margin-top: 0px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+        --padding-top: 40px;
+        --padding-bottom: 40px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-eb8b069 .section-title-wrapper .section-title {
+        margin-bottom: 20px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-eb8b069 .section-title-wrapper .sub-title {
+        margin-bottom: 15px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-eb8b069 .section-description .section-content {
+        margin-bottom: 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-47dbfc31 {
+        text-align: left;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-75ca996b>.elementor-widget-container {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-75ca996b {
+        z-index: 2;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-75ca996b .popup-anything-wrapper {
+        text-align: center;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-1f204e1f {
+        text-align: left;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-78b94bc1 {
+        --padding-top: 25px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-550a23e1 {
+        --flex-direction: column;
+        --container-widget-width: 100%;
+        --container-widget-height: initial;
+        --container-widget-flex-grow: 0;
+        --container-widget-align-self: initial;
+        --flex-wrap-mobile: wrap;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-6e079b74 {
+        --padding-top: 30px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-44cf182a .section-title-wrapper .section-title {
+        margin-bottom: 20px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-44cf182a .section-title-wrapper .sub-title {
+        margin-bottom: 15px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-44cf182a .section-description .section-content {
+        margin-bottom: 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-537c4cc8>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-74d4254a {
+        --margin-top: 0px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+        --padding-top: 40px;
+        --padding-bottom: 40px;
+        --padding-left: 40px;
+        --padding-right: 40px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-16883c1e {
+        --margin-top: 0px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+        --padding-top: 50px;
+        --padding-bottom: 0px;
+        --padding-left: 15px;
+        --padding-right: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-73183 .elementor-element.elementor-element-46edf880>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-46edf880 .section-title-wrapper .section-title {
+        margin-bottom: 5px;
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-46edf880 .section-title-wrapper .sub-title {
+        margin-bottom: 5px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-46edf880 .section-description .lead {
+        margin-bottom: 5px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-46edf880 .section-description .section-content {
+        margin-bottom: 5px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-1aea2ad7>.elementor-widget-container {
+        padding: 0px 0px 10px 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-2ef812fa>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-2ef812fa .section-title-wrapper .section-title {
+        margin-bottom: 5px;
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-2ef812fa .section-title-wrapper .sub-title {
+        margin-bottom: 5px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-2ef812fa .section-description .lead {
+        margin-bottom: 5px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-2ef812fa .section-description .section-content {
+        margin-bottom: 5px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-653e731>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-2b718853 {
+        --gap: 0px 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-74ff4f40>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-74ff4f40 .section-title-wrapper .section-title {
+        margin-bottom: 5px;
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-74ff4f40 .section-title-wrapper .sub-title {
+        margin-bottom: 5px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-74ff4f40 .section-description .lead {
+        margin-bottom: 5px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-74ff4f40 .section-description .section-content {
+        margin-bottom: 5px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-47d1d167 {
+        --gap: 0px 0px;
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-3b89196a {
+        --padding-top: 15px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-87e3501 {
+        --gap: 0px 0px;
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-2ce220da {
+        --padding-top: 40px;
+        --padding-bottom: 40px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-eb8b069>.elementor-widget-container {
+        padding: 0px 0px 15px 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-eb8b069 .section-title-wrapper .section-title {
+        margin-bottom: 15px;
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-eb8b069 .section-title-wrapper .sub-title {
+        margin-bottom: 10px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-eb8b069 .section-description .lead {
+        margin-bottom: 5px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-eb8b069 .section-description .section-content {
+        margin-bottom: 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-75ca996b>.elementor-widget-container {
+        margin: 0px 0px 15px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-75ca996b .popup-trigger-icon {
+        margin-bottom: 5px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-1f204e1f>.elementor-widget-container {
+        padding: 0px 0px 15px 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-78b94bc1 {
+        --padding-top: 15px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-6e079b74 {
+        --padding-top: 20px;
+        --padding-bottom: 30px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-44cf182a>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-44cf182a .section-title-wrapper .section-title {
+        margin-bottom: 15px;
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-44cf182a .section-title-wrapper .sub-title {
+        margin-bottom: 10px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-44cf182a .section-description .lead {
+        margin-bottom: 5px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-44cf182a .section-description .section-content {
+        margin-bottom: 0px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-74d4254a {
+        --padding-top: 35px;
+        --padding-bottom: 40px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-16883c1e {
+        --margin-top: 0px;
+        --margin-bottom: -50px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+        --padding-top: 0px;
+        --padding-bottom: 50px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+}
+
+@media(min-width:768px) {
+    .elementor-73183 .elementor-element.elementor-element-7cd7f81c {
+        --width: 44.414%;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-78b94bc1 {
+        --width: 40.543%;
+    }
+}
+
+@media(max-width:1024px) and (min-width:768px) {
+    .elementor-73183 .elementor-element.elementor-element-7cd7f81c {
+        --width: 100%;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-78b94bc1 {
+        --width: 100%;
+    }
+
+    .elementor-73183 .elementor-element.elementor-element-74d4254a {
+        --width: 100%;
+    }
+}
+
+/* Start custom CSS for ceapopupanything, class: .elementor-element-75ca996b */
+.cea-view-framed .cea-popup-anything.popup-trigger-icon:after,
+.cea-view-framed .cea-popup-anything.popup-trigger-icon:before {
+    background: rgb(1 186 221 / 65%)  !important;
+    border: 1px solid #38BDE0;
+}
+
+/* End custom CSS */
+/* Start custom CSS for ceapopupanything, class: .elementor-element-75ca996b */
+.cea-view-framed .cea-popup-anything.popup-trigger-icon:after,
+.cea-view-framed .cea-popup-anything.popup-trigger-icon:before {
+    background: rgb(1 186 221 / 65%) !important;
+    border: 1px solid #38BDE0;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-4d993e8a */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-654b7363 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-f742194 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-7a37c236 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-2bb02f5 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-4d993e8a */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-654b7363 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-f742194 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-7a37c236 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-2bb02f5 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for ceapopupanything, class: .elementor-element-75ca996b */
+.cea-view-framed .cea-popup-anything.popup-trigger-icon:after,
+.cea-view-framed .cea-popup-anything.popup-trigger-icon:before {
+    background: rgb(1 186 221 / 65%)  !important;
+    border: 1px solid #38BDE0;
+}
+
+/* End custom CSS */
+/* Start custom CSS for ceapopupanything, class: .elementor-element-75ca996b */
+.cea-view-framed .cea-popup-anything.popup-trigger-icon:after,
+.cea-view-framed .cea-popup-anything.popup-trigger-icon:before {
+    background: rgb(1 186 221 / 65%)  !important;
+    border: 1px solid #38BDE0;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-4d993e8a */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-654b7363 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-f742194 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-7a37c236 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-2bb02f5 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-4d993e8a */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-654b7363 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-f742194 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-7a37c236 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-2bb02f5 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for ceapopupanything, class: .elementor-element-75ca996b */
+.cea-view-framed .cea-popup-anything.popup-trigger-icon:after,
+.cea-view-framed .cea-popup-anything.popup-trigger-icon:before {
+    background: rgb(1 186 221 / 65%)  !important;
+    border: 1px solid #38BDE0;
+}
+
+/* End custom CSS */
+/* Start custom CSS for ceapopupanything, class: .elementor-element-75ca996b */
+.cea-view-framed .cea-popup-anything.popup-trigger-icon:after,
+.cea-view-framed .cea-popup-anything.popup-trigger-icon:before {
+    background: rgb(1 186 221 / 65%)  !important;
+    border: 1px solid #38BDE0;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-4d993e8a */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-654b7363 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-f742194 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-7a37c236 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-2bb02f5 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-4d993e8a */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-654b7363 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-f742194 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-7a37c236 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-2bb02f5 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for ceapopupanything, class: .elementor-element-75ca996b */
+.cea-view-framed .cea-popup-anything.popup-trigger-icon:after,
+.cea-view-framed .cea-popup-anything.popup-trigger-icon:before {
+    background: rgb(1 186 221 / 65%)   !important;
+    border: 1px solid #38BDE0;
+}
+
+/* End custom CSS */
+/* Start custom CSS for ceapopupanything, class: .elementor-element-75ca996b */
+.cea-view-framed .cea-popup-anything.popup-trigger-icon:after,
+.cea-view-framed .cea-popup-anything.popup-trigger-icon:before {
+    background: rgb(1 186 221 / 65%)   !important;
+    border: 1px solid #38BDE0;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-4d993e8a */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-654b7363 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-f742194 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-7a37c236 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-2bb02f5 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-4d993e8a */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-654b7363 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-f742194 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-7a37c236 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */
+/* Start custom CSS for progress, class: .elementor-element-2bb02f5 */
+.elementor-progress-percentage {
+    padding-right: 0 !important;
+    position: absolute;
+    left: -65px;
+    width: 50px;
+    height: 43px;
+    top: -15px;
+    padding-right: 0;
+    line-height: 43px;
+    text-align: center;
+    background: #38BDE0;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+}
+
+/* End custom CSS */

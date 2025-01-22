@@ -1,0 +1,57 @@
+.modal-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+    gap: 20px;
+}
+
+.modal-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.modal-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.modal-form {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.my-modal{
+    width: 90vw;    
+    max-width: 90vw;
+}
+
+.cust-invalid-feedback{
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: .875em;
+    color: #dc3545;
+}
+
+.serviceDisplay{
+    display: flex;
+}
+
+@media (max-width: 565px) {
+    .serviceDisplay{
+        display: flex;
+        flex-direction: column;
+    }
+}
