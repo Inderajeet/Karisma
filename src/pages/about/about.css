@@ -1,0 +1,201 @@
+.about-us-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  
+  .about-us-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 30px;
+  }
+  
+  .about-us-section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .about-us-heading {
+    font-size: 42px;
+    font-weight: bold;
+    color: #333;
+    flex: 1;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .section-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .about-us-paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    flex: 1;
+    text-align: justify;
+  }
+  .about-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: "#D9C5AD";
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .about-card {
+    background-color: #c1a079;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 calc(50% - 20px); /* Two cards per row */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    display: flex;
+    flex-direction: column
+  }
+  
+  .about-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .about-card-content {
+    font-size: 16px;
+    color: #5a5757;
+    line-height: 1.6;
+    flex-grow: 1; /* Makes content fill the card and ensures alignment */
+    display: flex;
+    flex-direction: column; /* Ensures content stacks vertically */
+    justify-content: space-between; /* Ensures consistent spacing inside cards */
+  }
+
+  .about-card-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    list-style: disc;
+    margin-top: 10px;
+  }
+  
+  .about-card-content li {
+    margin: 5px 0;
+  }
+  
+  .about-card-content p {
+    margin: 10px 0;
+  }
+  @media (max-width: 768px) {
+    .about-card-container {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+  
+  .ceo-message-container {
+    max-width: 1200px; /* Center the content with a limited width */
+    margin: 100px auto; /* Center the container on the page */
+    padding: 60px;
+    background-color: #D9C5AD; /* Light background for contrast */
+    /* border: 1px solid #ddd; Subtle border for separation */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center; /* Center-align the text */
+  }
+
+  .ceo-message-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333; /* Dark text color for contrast */
+    margin-bottom: 10px;
+  }
+  
+  .ceo-message-tagline {
+    font-size: 18px;
+    font-style: italic;
+    color: #666; /* Muted color for tagline */
+    margin-bottom: 20px;
+  }
+  
+  .ceo-message-container img {
+    max-width: 120px; /* Restrict the image size */
+    height: auto;
+    border-radius: 50%; /* Make the image circular */
+    margin: 20px 0; /* Add spacing around the image */
+    border: 2px solid #ddd; /* Subtle border for focus */
+  }
+  
+  .ceo-message-content {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #444; /* Slightly muted text for readability */
+    margin-bottom: 20px;
+    text-align: justify; /* Justify content for clean alignment */
+  }
+  
+  .ceo-message-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align the name and designation */
+  }
+  
+  .ceo-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222; /* Strong color for emphasis */
+    margin-bottom: 5px;
+  }
+  
+  .ceo-designation {
+    font-size: 16px;
+    font-style: italic;
+    color: #555; /* Muted color for designation */
+  }
+  
+  .background-container {
+    position: relative;
+    width: 100%;
+    height: 800px; /* Adjust height as needed */
+    background-image: url(https://damasmc.com/uploads/about/bottom_banner_imagea4555bc6a94f6bce2a522e193fa21121e2e2fbdf.jpg); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+  }
+
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* White text for contrast */
+    text-align: center;
+    z-index: 2; /* Ensure it appears over the background */
+  }
+  
+  .overlay-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .overlay-text p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .main-content-container {
+    position: relative;
+    z-index: 1; /* Content appears above the background */
+    padding: 20px;
+  }
+  
+  

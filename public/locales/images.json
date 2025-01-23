@@ -26,6 +26,14 @@
   },
   "contact":{
     "bannerImg": "https://damasmc.com/uploads/banners/bannerimage68e2318425ebbe7d65777d85eb6a11ecbabc116c.jpg"
+  },
+  "about":{
+    "bannerImg": "/assets/images/about/bottom_banner_image.jpg",
+    "visionImg": "/assets/Images/about/vision_about.jpg",
+    "missionImg": "/assets/Images/about/mission_about.jpg",
+    "foundationImg": "/assets/Images/about/vision_about.jpg",
+    "essenceImg":"/assets/Images/about/mission_about.jpg",
+    "ceoImg": "/assets/Images/about/mission_about.jpg"
   }
 
 }
