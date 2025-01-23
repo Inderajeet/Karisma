@@ -1,0 +1,247 @@
+/* General styles */
+html {
+  scroll-behavior: smooth;
+  overscroll-behavior: none;
+}
+
+body {
+  overflow: hidden;
+  overflow-y: scroll;
+  /* -webkit-overflow-scrolling: touch; */
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: 10;
+}
+
+/* Menu bar */
+.menu-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  padding: 0px 50px;
+  /* background: rgba(255, 255, 255, 0.9); */
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  /* border-radius: 0 0 57px 57px; */
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.3s ease;
+  z-index: 10;
+
+}
+
+/* When the menu is hidden during scroll */
+.menu-bar.hidden {
+  transform: translateY(-100%);
+  /* Move the menu out of view */
+}
+
+/* When the menu is visible */
+.menu-bar.visible {
+  transform: translateY(0);
+  /* Reset to original position */
+  transition: transform 2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Add smooth scrolling effect */
+/* .scrolling-active {
+  transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1); 
+} */
+
+/* When the menu is sticky */
+.menu-bar.scrolling {
+  /* background-color: rgba(255, 255, 255, 0.8);  */
+  border-radius: 0;
+  /* background-color: #577065bd; */
+  background-color: #d9c5adb8;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px) saturate(150%);
+}
+
+.header_menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.header_menu li {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Submenu styles */
+.submenu {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background: #fff;
+  list-style: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  z-index: 15;
+}
+
+.header_menu li:hover .submenu {
+  display: block;
+}
+
+.submenu li {
+  padding: 5px 15px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.submenu li:hover {
+  background-color: #f2f2f2;
+}
+
+.header_menu li > span {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+/* Nested submenus */
+.submenu li .submenu {
+  top: 0;
+  left: 100%;
+}
+
+
+.logoImg {
+  height: auto;
+  width: 9vw;
+  /* border-radius: 50%; */
+}
+
+.language-icon {
+  /* height: 30px; */
+  /* margin-left: 10px; */
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.language-icon:hover {
+  transform: scale(1.1);
+  /* Slight zoom effect */
+}
+
+
+
+@media (max-width: 768px) {
+  .menu-bar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .logoImg {
+    width: 115px;
+  }
+}
+
+
+
+@keyframes rotateY {
+  0% {
+    transform: rotateY(0deg);
+    /* Start at 0 degrees */
+  }
+
+  100% {
+    transform: rotateY(360deg);
+    /* Complete one full rotation */
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.header.sticky .mobile-menu {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.mobile-menu {
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: top 0.3s ease-in-out;
+}
+
+.mobile-menu.hidden {
+  top: -100px;
+}
+
+@media screen and (max-width: 1123px) {
+  .menu-bar {
+    display: none;
+  }
+}
+
+.tab-menu-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: none;
+  padding: 0px 35px;
+  /* background: rgba(255, 255, 255, 0.9); */
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  /* border-radius: 0 0 57px 57px; */
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.3s ease;
+  z-index: 10;
+}
+
+/* When the menu is hidden during scroll */
+.tab-menu-bar.hidden {
+  transform: translateY(-100%);
+  /* Move the menu out of view */
+}
+
+/* When the menu is visible */
+.tab-menu-bar.visible {
+  transform: translateY(0);
+  /* Reset to original position */
+  transition: transform 2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+
+/* When the menu is sticky */
+.tab-menu-bar.scrolling {
+  /* background-color: rgba(255, 255, 255, 0.8);  */
+  border-radius: 0;
+  /* background-color: #577065bd; */
+  background-color: #d9c5adb8;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px) saturate(150%);
+}
+
+
+
+@media screen and (max-width: 1123px) and (min-width: 769px) {
+  .tab-menu-bar {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1183px) and (min-width: 1124px) {
+  .menu-bar {
+    padding: 0 20px;
+  }
+}

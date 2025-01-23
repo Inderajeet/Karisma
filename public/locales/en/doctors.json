@@ -1,0 +1,453 @@
+{
+    "doctors": [
+        {
+            "id": 1,
+            "name": "Dr. Yuri Macrino",
+            "image": "/assets/Images/home/Doctors.png",
+            "link": "dr-yuri-macrino",
+            "designation": "Aesthetic plastic surgeon & consultant",
+            "email": "jamesgarcia@happysmile.com",
+            "phone": "+(528) 456-7598",
+            "website": "https://zozothemes.com/",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook": "https://www.facebook.com/zozothemes.official/",
+                "twitter": "https://twitter.com/zozothemes",
+                "instagram": "https://www.instagram.com/zozotheme/",
+                "youtube": "https://www.youtube.com/channel/UCAOkwuYxJuOqiYAj1Vy5JIg"
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "Speciality",
+                        "items": [
+                            "Plastic surgeon with over 3,300 aesthetic and reconstructive surgeries."
+                        ]
+                    },
+                    {
+                        "subtitle": "Procedures",
+                        "items": [
+                            "Uses advanced techniques such as Vaser and Renuvion"
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "Currently practicing as a freelance consultant across top clinics in Rome, Milan, Turin, and San Marino",
+                    "Contributed to humanitarian work with Operation Smile and Aicpe-onlus.",
+                    "Active member of prestigious scientific societies like ISAPS, IPRAS, AICPE, and SICPRE,",
+                    "Focus on body contouring, facial rejuvenation, and breast surgery"
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "Holds degrees in Aesthetic Plastic Surgery and Medicine from the University of Catania and \"La Sapienza”, Rome."
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Mon - Sun",
+                "flipFrontDesc1": "09.00am - 08.00pm",
+                "flipBack1": "Mon - Sun",
+                "flipBackDesc1": "09.00am - 08.00pm",
+                "flipFront2": "Hospital",
+                "flipFrontDesc2": "4b, Walse Street, USA",
+                "flipBack2": "Hospital",
+                "flipBackDesc2": "4b, Walse Street, USA",
+                "items": [
+                    "Monday to Friday: 9 AM - 6 PM",
+                    "Saturday: 10 AM - 4 PM",
+                    "Sunday: Off"
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "image": "/assets/Images/home/Doctors.png",
+            "name": "Dr. Mehdi Shidvash",
+            "link": "dr-mehdi-shidvash",
+            "designation": "Aesthetic Physician",
+            "email": "jamesgarcia@happysmile.com",
+            "phone": "+(528) 456-7598",
+            "website": "https://zozothemes.com/",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook": "https://www.facebook.com/zozothemes.official/",
+                "twitter": "https://twitter.com/zozothemes",
+                "instagram": "https://www.instagram.com/zozotheme/",
+                "youtube": "https://www.youtube.com/channel/UCAOkwuYxJuOqiYAj1Vy5JIg"
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "Speciality",
+                        "items": [
+                            "Highly skilled and dedicated aesthetic physician"
+                        ]
+                    },
+                    {
+                        "subtitle": "Procedures",
+                        "items": [
+                            "Uses advanced techniques such as Vaser and Renuvion"
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "Over 27 years of experience in cosmetic medicine.",
+                    "Authoring a skincare and anti-aging reference book in Iran",
+                    "Spoken at prestigious conferences such as IMCAS (Paris) and AMWC (Monaco)."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "Graduated from Shahid Beheshti Faculty of Medicine in 1997"
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Mon - Sun",
+                "flipFrontDesc1": "09.00am - 08.00pm",
+                "flipBack1": "Mon - Sun",
+                "flipBackDesc1": "09.00am - 08.00pm",
+                "flipFront2": "Hospital",
+                "flipFrontDesc2": "4b, Walse Street, USA",
+                "flipBack2": "Hospital",
+                "flipBackDesc2": "4b, Walse Street, USA",
+                "items": [
+                    "Monday to Friday: 9 AM - 6 PM",
+                    "Saturday: 10 AM - 4 PM",
+                    "Sunday: Off"
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "image": "/assets/Images/home/Doctors.png",
+            "name": "Dr. Mehdi Shidvash",
+            "link": "dr-mehdi-shidvash",
+            "designation": "Aesthetic Physician",
+            "email": "jamesgarcia@happysmile.com",
+            "phone": "+(528) 456-7598",
+            "website": "https://zozothemes.com/",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook": "https://www.facebook.com/zozothemes.official/",
+                "twitter": "https://twitter.com/zozothemes",
+                "instagram": "https://www.instagram.com/zozotheme/",
+                "youtube": "https://www.youtube.com/channel/UCAOkwuYxJuOqiYAj1Vy5JIg"
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "Speciality",
+                        "items": [
+                            "Highly skilled and dedicated aesthetic physician"
+                        ]
+                    },
+                    {
+                        "subtitle": "Procedures",
+                        "items": [
+                            "Uses advanced techniques such as Vaser and Renuvion"
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "Over 27 years of experience in cosmetic medicine.",
+                    "Authoring a skincare and anti-aging reference book in Iran",
+                    "Spoken at prestigious conferences such as IMCAS (Paris) and AMWC (Monaco)."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "Graduated from Shahid Beheshti Faculty of Medicine in 1997"
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Mon - Sun",
+                "flipFrontDesc1": "09.00am - 08.00pm",
+                "flipBack1": "Mon - Sun",
+                "flipBackDesc1": "09.00am - 08.00pm",
+                "flipFront2": "Hospital",
+                "flipFrontDesc2": "4b, Walse Street, USA",
+                "flipBack2": "Hospital",
+                "flipBackDesc2": "4b, Walse Street, USA",
+                "items": [
+                    "Monday to Friday: 9 AM - 6 PM",
+                    "Saturday: 10 AM - 4 PM",
+                    "Sunday: Off"
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "image": "/assets/Images/home/Doctors.png",
+            "name": "Dr. Mehdi Shidvash",
+            "link": "dr-mehdi-shidvash",
+            "designation": "Aesthetic Physician",
+            "email": "jamesgarcia@happysmile.com",
+            "phone": "+(528) 456-7598",
+            "website": "https://zozothemes.com/",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook": "https://www.facebook.com/zozothemes.official/",
+                "twitter": "https://twitter.com/zozothemes",
+                "instagram": "https://www.instagram.com/zozotheme/",
+                "youtube": "https://www.youtube.com/channel/UCAOkwuYxJuOqiYAj1Vy5JIg"
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "Speciality",
+                        "items": [
+                            "Highly skilled and dedicated aesthetic physician"
+                        ]
+                    },
+                    {
+                        "subtitle": "Procedures",
+                        "items": [
+                            "Uses advanced techniques such as Vaser and Renuvion"
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "Over 27 years of experience in cosmetic medicine.",
+                    "Authoring a skincare and anti-aging reference book in Iran",
+                    "Spoken at prestigious conferences such as IMCAS (Paris) and AMWC (Monaco)."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "Graduated from Shahid Beheshti Faculty of Medicine in 1997"
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Mon - Sun",
+                "flipFrontDesc1": "09.00am - 08.00pm",
+                "flipBack1": "Mon - Sun",
+                "flipBackDesc1": "09.00am - 08.00pm",
+                "flipFront2": "Hospital",
+                "flipFrontDesc2": "4b, Walse Street, USA",
+                "flipBack2": "Hospital",
+                "flipBackDesc2": "4b, Walse Street, USA",
+                "items": [
+                    "Monday to Friday: 9 AM - 6 PM",
+                    "Saturday: 10 AM - 4 PM",
+                    "Sunday: Off"
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "image": "/assets/Images/home/Doctors.png",
+            "name": "Dr. Mehdi Shidvash",
+            "link": "dr-mehdi-shidvash",
+            "designation": "Aesthetic Physician",
+            "email": "jamesgarcia@happysmile.com",
+            "phone": "+(528) 456-7598",
+            "website": "https://zozothemes.com/",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook": "https://www.facebook.com/zozothemes.official/",
+                "twitter": "https://twitter.com/zozothemes",
+                "instagram": "https://www.instagram.com/zozotheme/",
+                "youtube": "https://www.youtube.com/channel/UCAOkwuYxJuOqiYAj1Vy5JIg"
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "Speciality",
+                        "items": [
+                            "Highly skilled and dedicated aesthetic physician"
+                        ]
+                    },
+                    {
+                        "subtitle": "Procedures",
+                        "items": [
+                            "Uses advanced techniques such as Vaser and Renuvion"
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "Over 27 years of experience in cosmetic medicine.",
+                    "Authoring a skincare and anti-aging reference book in Iran",
+                    "Spoken at prestigious conferences such as IMCAS (Paris) and AMWC (Monaco)."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "Graduated from Shahid Beheshti Faculty of Medicine in 1997"
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Mon - Sun",
+                "flipFrontDesc1": "09.00am - 08.00pm",
+                "flipBack1": "Mon - Sun",
+                "flipBackDesc1": "09.00am - 08.00pm",
+                "flipFront2": "Hospital",
+                "flipFrontDesc2": "4b, Walse Street, USA",
+                "flipBack2": "Hospital",
+                "flipBackDesc2": "4b, Walse Street, USA",
+                "items": [
+                    "Monday to Friday: 9 AM - 6 PM",
+                    "Saturday: 10 AM - 4 PM",
+                    "Sunday: Off"
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "image": "/assets/Images/home/Doctors.png",
+            "name": "Dr. Mehdi Shidvash",
+            "link": "dr-mehdi-shidvash",
+            "designation": "Aesthetic Physician",
+            "email": "jamesgarcia@happysmile.com",
+            "phone": "+(528) 456-7598",
+            "website": "https://zozothemes.com/",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook": "https://www.facebook.com/zozothemes.official/",
+                "twitter": "https://twitter.com/zozothemes",
+                "instagram": "https://www.instagram.com/zozotheme/",
+                "youtube": "https://www.youtube.com/channel/UCAOkwuYxJuOqiYAj1Vy5JIg"
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "Speciality",
+                        "items": [
+                            "Highly skilled and dedicated aesthetic physician"
+                        ]
+                    },
+                    {
+                        "subtitle": "Procedures",
+                        "items": [
+                            "Uses advanced techniques such as Vaser and Renuvion"
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "Over 27 years of experience in cosmetic medicine.",
+                    "Authoring a skincare and anti-aging reference book in Iran",
+                    "Spoken at prestigious conferences such as IMCAS (Paris) and AMWC (Monaco)."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "Graduated from Shahid Beheshti Faculty of Medicine in 1997"
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Mon - Sun",
+                "flipFrontDesc1": "09.00am - 08.00pm",
+                "flipBack1": "Mon - Sun",
+                "flipBackDesc1": "09.00am - 08.00pm",
+                "flipFront2": "Hospital",
+                "flipFrontDesc2": "4b, Walse Street, USA",
+                "flipBack2": "Hospital",
+                "flipBackDesc2": "4b, Walse Street, USA",
+                "items": [
+                    "Monday to Friday: 9 AM - 6 PM",
+                    "Saturday: 10 AM - 4 PM",
+                    "Sunday: Off"
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "image": "/assets/Images/home/Doctors.png",
+            "name": "Dr. Mehdi Shidvash",
+            "link": "dr-mehdi-shidvash",
+            "designation": "Aesthetic Physician",
+            "email": "jamesgarcia@happysmile.com",
+            "phone": "+(528) 456-7598",
+            "website": "https://zozothemes.com/",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook": "https://www.facebook.com/zozothemes.official/",
+                "twitter": "https://twitter.com/zozothemes",
+                "instagram": "https://www.instagram.com/zozotheme/",
+                "youtube": "https://www.youtube.com/channel/UCAOkwuYxJuOqiYAj1Vy5JIg"
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "Speciality",
+                        "items": [
+                            "Highly skilled and dedicated aesthetic physician"
+                        ]
+                    },
+                    {
+                        "subtitle": "Procedures",
+                        "items": [
+                            "Uses advanced techniques such as Vaser and Renuvion"
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "Over 27 years of experience in cosmetic medicine.",
+                    "Authoring a skincare and anti-aging reference book in Iran",
+                    "Spoken at prestigious conferences such as IMCAS (Paris) and AMWC (Monaco)."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "Graduated from Shahid Beheshti Faculty of Medicine in 1997"
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Mon - Sun",
+                "flipFrontDesc1": "09.00am - 08.00pm",
+                "flipBack1": "Mon - Sun",
+                "flipBackDesc1": "09.00am - 08.00pm",
+                "flipFront2": "Hospital",
+                "flipFrontDesc2": "4b, Walse Street, USA",
+                "flipBack2": "Hospital",
+                "flipBackDesc2": "4b, Walse Street, USA",
+                "items": [
+                    "Monday to Friday: 9 AM - 6 PM",
+                    "Saturday: 10 AM - 4 PM",
+                    "Sunday: Off"
+                ]
+            }
+        }
+    ]
+}

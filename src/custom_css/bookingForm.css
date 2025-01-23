@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .form-control {
     border: var(--bs-border-width) solid #8FB9A9 !important;
 }
@@ -35,4 +36,42 @@
 }
 .modal-title{
     font-family: 'The Seasons';
+=======
+.form-control {
+    border: var(--bs-border-width) solid #8FB9A9 !important;
+}
+.modal {
+    z-index: 10000 !important; /* Force modal to render above other elements */
+    position: fixed !important; /* Ensure it detaches from any parent stacking */
+}
+
+.form-control:focus {
+    border-color: #405D53 !important;
+    box-shadow: none;
+}
+
+.custStyle {
+    color: whitesmoke;
+    padding:  0.375rem 0.75rem;
+    border-radius: 0.375rem;
+}
+
+.custStyle{
+    background-color: #405D53 !important;
+    border:none !important
+}
+.custStyle:focus, .custStyle:hover, .custStyle:active{
+    border: none;
+    background-color: #577065 !important;
+    color: white;
+}
+
+.btn-close:focus, .btn-close:hover, .btn-close:active{
+    border: none;
+    background-color: whitesmoke;
+    box-shadow: none;
+}
+.modal-title{
+    font-family: 'The Seasons';
+>>>>>>> 5c22f39 (Made updates in home page, doctors)
 }

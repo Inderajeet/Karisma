@@ -451,6 +451,10 @@ html .ui-button.ui-state-disabled:active {
     max-width: 100%;
     width: 100%;
     height: auto;
+<<<<<<< HEAD
+=======
+    border-radius: 10px 10px 0px 0;
+>>>>>>> 5c22f39 (Made updates in home page, doctors)
 }
 .dd-input-group {
     display: inline;

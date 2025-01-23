@@ -988,6 +988,7 @@ figure.cea-feature-box-img > img {
 .feature-box-wrapper:hover .feature-box-icon > span.icon-icon-hdark {
     color: #000;
 }
+<<<<<<< HEAD
 .elementor-widget-container.feature-box-wrapper.feature-box-classic:before {
     content: "";
     position: absolute;
@@ -1011,6 +1012,10 @@ figure.cea-feature-box-img > img {
 	transition:all .3s ease;
 	border-radius:  50%;
 }
+=======
+
+
+>>>>>>> 5c22f39 (Made updates in home page, doctors)
 .elementor-widget-container.feature-box-wrapper.feature-box-classic:hover:after {    
     top: 101px;
 	-webkit-transition:all .3s ease;
@@ -4768,7 +4773,11 @@ figure.counter-image > img {
     height: 100px;
     top: 50%;
     left: 50%;
+<<<<<<< HEAD
     right: 0px;
+=======
+    right: auto;
+>>>>>>> 5c22f39 (Made updates in home page, doctors)
     transform: translateX(-50%) translateY(-50%);
 }	
 .cea-view-framed .cea-popup-anything.popup-trigger-icon:after { 
@@ -4782,7 +4791,11 @@ figure.counter-image > img {
     left: 50%;
     margin: 0 auto;
     top: 50%;
+<<<<<<< HEAD
     right: 0px;
+=======
+    right: auto;
+>>>>>>> 5c22f39 (Made updates in home page, doctors)
     transform: translateX(-50%) translateY(-50%);
 }
 @keyframes video-toggle-animate {

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .elementor-73311 .elementor-element.elementor-element-6859ace0 .section-title-wrapper .section-title {
     margin-bottom: 20px;
     font-size: 39px;
@@ -54,4 +55,97 @@ input[type="radio"] {
 
   #site-content {
     /* background: #e5c29c; */
+=======
+.elementor-73311 .elementor-element.elementor-element-6859ace0 .section-title-wrapper .section-title {
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: #577065;
+}
+
+.elementor-73311 .elementor-element.elementor-element-6859ace0 .section-description .section-content {
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #577065;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: #8C9990;
+  font-style: normal;
+}
+
+
+.contact-us-form input.cust-form-control.cust-submit {
+  color: whitesmoke;
+  background-color: #405D53;
+}
+
+.contact-form-wrapper input.cust-form-control.cust-submit:hover {
+  color: #ffffff;
+  background-color: #577065;
+}
+
+.radio-label{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  color: #577065;
+  font-weight: bold;
+}
+
+input.cust-form-control,
+textarea.cust-form-control {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 0;
+  border-radius: 0;
+  padding-bottom: 10px;
+  padding-top: 17px;
+  width: 100%;
+  border-bottom: #405D53 solid 1px;
+  color: #405D53;
+}
+.cea-button-wrapper .cea-button-link:after{
+  background-color: #405D53 !important;
+}
+.cust-elementor-button span{
+  color: #405D53;
+}
+.cust-elementor-button span:hover{
+  color: #fff !important;
+}
+.cea-button-wrapper .cea-button-link:before{
+  border: 1px solid #405D53 !important;
+}
+input.cust-form-control:focus,
+textarea.cust-form-control:focus {
+  border-bottom: 1px solid #8C9990;
+  border-bottom-color: #405D53 !important;
+  color: #405D53;
+}
+
+/* Hide default radio button */
+input[type="radio"] {
+  width: 17px;
+  position: static !important;
+  cursor: pointer;
+}
+
+.elementor-73311 .elementor-element.elementor-element-302573ab:not(.elementor-motion-effects-element-type-background) {
+  /* background-color: white; */
+  /* background-color: transparent; */
+}
+
+#site-content {
+  /* background: #e5c29c; */
+>>>>>>> 5c22f39 (Made updates in home page, doctors)
 }

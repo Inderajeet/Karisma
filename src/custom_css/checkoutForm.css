@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .checkout-form {
     max-width: 600px;
     margin: 0 auto;
@@ -88,3 +89,96 @@ textarea:focus::placeholder{
     /* height: 42px; */
     border: none;
 }
+=======
+.checkout-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.custom-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cust-form-group {
+    position: relative;
+}
+
+.cust-form-row .cust-form-group {
+    flex: 1;
+}
+
+.checkout-title {
+    font-size: 30px;
+    /* font-weight: bold; */
+    color: #B18A6A;
+    margin-bottom: 15px;
+}
+
+input::placeholder,
+textarea::placeholder, select,  input[type=date] {
+    color: #577065;
+    font-size: 16px;
+    /* font-style: italic; */
+    font-weight: bold;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder{
+    color: #8C9990;
+    font-style: normal;
+}
+
+.input {
+    width: 100%;
+    padding: 0;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #8C9990;
+    border-radius: 0;   outline: none;
+    transition: border-color 0.3s;
+}
+
+.input:focus {
+    /* border-bottom: 2px solid #8C9990; */
+    border-bottom: 2px solid #577065;
+}
+
+.error-input {
+    /* border-bottom: 2px solid red; */
+}
+
+.error-text {
+    color: red;
+    font-size: 14px;
+    /* font-weight: bold; */
+    /* margin-top: 5px; */
+}
+
+.cust-form-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.submit-btn {
+    padding: 12px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #333;
+}
+
+#gender{
+    /* height: 42px; */
+    border: none;
+    padding: 0;
+}
+
+>>>>>>> 5c22f39 (Made updates in home page, doctors)

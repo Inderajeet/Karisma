@@ -11,7 +11,11 @@ url('./../fonts/bootstrap-icons.woff?8d200481aa7f02a2d63a331fc782cfaf') format("
   display: inline-block;
   font-family: bootstrap-icons !important;
   font-style: normal;
+<<<<<<< HEAD
   font-weight: normal !important;
+=======
+  font-weight: bold !important;
+>>>>>>> 5c22f39 (Made updates in home page, doctors)
   font-variant: normal;
   text-transform: none;
   line-height: 1;
@@ -389,7 +393,11 @@ url('./../fonts/bootstrap-icons.woff?8d200481aa7f02a2d63a331fc782cfaf') format("
 .bi-check::before { content: "\f26e"; }
 .bi-check2-all::before { content: "\f26f"; }
 .bi-check2-circle::before { content: "\f270"; }
+<<<<<<< HEAD
 .bi-check2-square::before { content: "\f271"; }
+=======
+.bi-check2-square::before { content: "\f271"; } 
+>>>>>>> 5c22f39 (Made updates in home page, doctors)
 .bi-check2::before { content: "\f272"; }
 .bi-chevron-bar-contract::before { content: "\f273"; }
 .bi-chevron-bar-down::before { content: "\f274"; }

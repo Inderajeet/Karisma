@@ -1,0 +1,92 @@
+{
+  "greeting": "Hello",
+  "welcome": "Welcome to our website!",
+  "en": {
+    "TOPBARLINE_1": "A healthier",
+    "TOPBARLINE_2": "without the hassle...",
+    "TOPBARUL": "Mon – Sun: 9.00 am – 6.00 pm"
+  },
+  "header": {
+    "images": [
+      "/assets/Images/home/slider1.png",
+      "/assets/Images/home/slider2.png",
+      "/assets/Images/home/slider3.png"
+    ],
+    "logo": "/assets/Images/logo_main_3.png",
+    "languageIcon": "/assets/Images/lan/lang1.png"
+  },
+  "about_us": {
+    "background-color": "#D9C5AD",
+    "heading-font-color": "#577065",
+    "heading-font-size": "35px",
+    "font-color": "#5C4033",
+    "font-size": "18px",
+    "CustomerBg-color": "#916F4D",
+    "Customer-font-color": "#fff",
+    "Customer-font-size": "42px",
+    "Customer-subfont-size": "16px",
+    "Button-color": "#405D53",
+    "Button-border": "#405D53",
+    "Button-text-color": "white"
+  },
+  "about2": {
+    "background-color": "#D9C5AD",
+    "heading1-size": "21px",
+    "heading1-color": "#577065",
+    "heading2-size": "35px",
+    "heading2-color": "#577065",
+    "right-heading-color": "#ACB9D0",
+    "right-heading-size": "30px",
+    "desc-size": "18px",
+    "desc-color": "#5C4033",
+    "list-color": "white",
+    "list-size": "16px",
+    "button-bg-color": "#405D53",
+    "button-border-color": "#405D53",
+    "button-text-color": "white"
+  },
+  "department": {
+    "background-color": "#D9C5AD",
+    "heading1-size": "21px",
+    "heading1-color": "#577065",
+    "heading2-size": "35px",
+    "heading2-color": "#577065",
+    "cards": {
+      "background-color": "#fff",
+      "heading-color": "#577065",
+      "heading-size": "24px",
+      "desc-color": "#5C4033",
+      "desc-size": "16px",
+      "button-text-color": "#577065",
+      "button-text-size": "16px"
+    }
+  },
+  "videoTopSection": {
+    "background-color": "#916F4D",
+    "couter-color": "white",
+    "couter-size": "42px",
+    "heading-color": "white",
+    "heading-size": "21px",
+    "desc-color": "white",
+    "desc-size": "13px",
+    "video-heading-size": "54px",
+    "video-heading-color": "white"
+  },
+  "doctors": {
+    "background-color": "#D9C5AD",
+    "heading1-color": "#577065",
+    "heading1-size": "21px",
+    "heading2-color": "#577065",
+    "heading2-size": "35px"
+  },
+  "footer":{
+    "background-color": "#D9C5AD",
+    "about-size": "16px",
+    "about-color": "#5C4033",
+    "heading-color": "#577065",
+    "heading-size": "30px",
+    "desc-color": "#5C4033",
+    "desc-size": "16px",
+    "logo": "/assets/Images/logo_main_3.png"
+  }
+}

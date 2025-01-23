@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* cartDetails.css */
 
 .cart{
@@ -167,3 +168,182 @@
         width: 100%;
     }
 }
+=======
+/* cartDetails.css */
+
+.cart{
+    background-color: #EDDAC5;
+}
+
+.empty-cart {
+    width: 26%;
+    text-align: center;
+    padding: 20px 0;
+    justify-self: center;
+}
+
+.empty-cart-image {
+    width: 100%; /* Adjust the size of the cart image */
+    margin-bottom: 20px;
+}
+
+.go-to-offers-btn {
+    background-color: #405D53;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.go-to-offers-btn:hover {
+    background-color: #577065;
+}
+
+.cart-details-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.cart-info, .price-summary {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.dynamic-cart{
+    display: flex;
+    flex-direction: column;
+    flex: 2 1;
+    
+}
+
+/* Adjust the left column to be larger */
+.cart-info {
+    position: relative;
+    margin-top: 10px;
+    flex-direction: row;
+    display: flex;
+}
+
+/* Right column smaller */
+.price-summary {
+    flex: 1; /* Right column takes the remaining space */
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px; /* Change this from left to right */
+    background: #577065;
+    color: white;
+    border: none;
+    padding: 2px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-btn:hover{
+    background-color: #405D53;
+}
+
+.cart-image {
+    width: 34%;
+    height: auto;
+    margin-right: 20px;
+    flex: 1
+}
+
+.cart-content{
+    flex: 2;
+}
+.cart-image img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Title and price container */
+.cart-title {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: 29px;
+    font-weight: 500;
+    color: #B18A6A;
+    line-height: 38px;
+    /* letter-spacing: 0.1px; */
+}
+
+.cart-description{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+
+}
+
+.cart-price {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.price-summary h3 {
+    font-size: 27px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #B18A6A;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 19px;
+    border-top: 2px solid #eee;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .cart-details-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart-info, .price-summary {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cart-image {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 567px) {
+    .cart-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .cart-image {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+    .cart-content {
+        width: 100%;
+    }
+}
+>>>>>>> 5c22f39 (Made updates in home page, doctors)

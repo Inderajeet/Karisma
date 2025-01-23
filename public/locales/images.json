@@ -1,0 +1,31 @@
+{
+  "header": {
+      "logo": "/assets/Images/logo_main_3.png",
+      "appointmentBtn": "/assets/Images/logo_main_3.png",
+      "arabIcon": "/assets/Images/lan/arabIcon.png",
+      "engIcon": "/assets/Images/lan/engIcon.png"
+  },
+  "home":{
+    "sliderImages": [
+      "/assets/Images/home/1.jpeg",
+      "/assets/Images/home/2.jpeg",
+      "/assets/Images/home/3.jpeg"
+    ],
+    "about1":"/assets/Images/home/about-us2.png",
+    "about2":"/assets/Images/home/about-us1.png",
+    "logoAnim":"/assets/Images/logo_main_2.png",
+    "video":"/assets/Images/home/Main-Services.png"
+  },
+  "departmentImg":{
+    "dental": "/assets/Images/home/Dental.png",
+    "derma": "/assets/Images/home/derma.png",
+    "laser": "/assets/Images/home/laser.png",
+    "skinning": "/assets/Images/home/skincare.png",
+    "gynecology": "/assets/Images/home/gyne.png",
+    "slimming": "/assets/Images/home/slimming.png"
+  },
+  "contact":{
+    "bannerImg": "https://damasmc.com/uploads/banners/bannerimage68e2318425ebbe7d65777d85eb6a11ecbabc116c.jpg"
+  }
+
+}
