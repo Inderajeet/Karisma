@@ -30,6 +30,7 @@ import Footer from './components/footer';
 import SampleHeader2 from './components/SampleHead';
 import TopBar from './components/TopBar';
 import DoctorPage from './pages/doctors/doctor_1';
+import Dept from './pages/departments';
 
 Modal.setAppElement('#root'); // For accessibility
 
@@ -64,6 +65,7 @@ function LanguageWrapper() {
           {/* <Route path="doctor-1" element={<Doctor1 />} /> */}
           <Route path="skincare" element={<Skincare />} />
           <Route path="service/hydra-facial" element={<HydraFacial />} />
+          <Route path="dept/dental" element={<Dept />} />
         </Routes>
       </CartProvider>
       <Footer />

@@ -1,0 +1,87 @@
+.blog-body{
+    background-color: #333;
+    padding: 100px;
+    /* margin: 10px auto; */
+    background-color: #c4a988;
+}
+.blog-container {
+  display: flex; /* Create a horizontal layout */
+  flex-direction: row; /* Ensure image is on the left and content on the right */
+  gap: 20px; /* Add space between the image and content */
+
+  /* background-color: #D9C5AD; */
+  padding: 20px;
+  /* border: 1px solid #ddd; */
+  /* border-radius: 10px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  margin: 20px auto;
+  max-width: 90%;
+  align-items: flex-start; /* Align content to the top */
+}
+
+.blog-image-container {
+  flex: 1 1 40%; /* Image takes up 40% of the container */
+}
+
+.blog-image {
+  width: 100%; /* Ensure the image fills its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  object-fit: cover; /* Prevent image distortion */
+}
+
+.blog-content {
+  flex: 1 1 60%; /* Content takes up 60% of the container */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+.blog-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.blog-description {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.blog-additional-content {
+  margin-top: 10px;
+}
+
+.blog-paragraph {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.blog-bullet-points {
+  margin-top: 15px;
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #555;
+}
+
+.bullet-point {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .blog-container {
+    flex-direction: column; /* Stack image and content vertically on smaller screens */
+    align-items: center;
+  }
+
+  .blog-image-container,
+  .blog-content {
+    flex: 1 1 100%; /* Ensure full width for both sections */
+  }
+}
