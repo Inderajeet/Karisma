@@ -1,0 +1,53 @@
+.para-body{
+    padding: 30px;
+    /* margin: 10px auto; */
+    background-color: #c4a988;
+}
+.para-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    /* background-color: #f9f9f9;/ */
+    /* border: 1px solid #ddd; */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .para-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .para-content {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  .para-paragraph {
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  .para-paragraph:last-child {
+    margin-bottom: 0; /* Remove margin for the last paragraph */
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .para-container {
+      padding: 15px;
+    }
+  
+    .para-heading {
+      font-size: 24px;
+    }
+  
+    .para-content {
+      font-size: 14px;
+    }
+  }
+  

@@ -7,7 +7,7 @@ import { fetchAboutContent, fetchAllJson } from "../../utils/fetchAllJson";
 const About = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const { t, ready } = useTranslation();
+  const { t, ready } = useTranslation('about');
   const [aboutData, setAboutData] = useState(null);
   const [imageData, setImageData] = useState(null);
 
@@ -18,7 +18,7 @@ const About = () => {
         const imageData = await fetchAllJson(); 
         setAboutData(data);
         setImageData(imageData);
-        console.log(data, imageData);
+        // console.log(data, imageData);
       } catch (err) {
         setError(err.message);
       } finally {
@@ -37,11 +37,14 @@ const About = () => {
     return <div>Error: {error}</div>;
   }
 
+  // const about = t('about', { returnObjects: true });
   const { about } = aboutData;
   const {images} = imageData;
   if (!about) {
     return <div>Error: About content is not available.</div>;
   }
+
+  console.log(about);
   
 //   const { section1, section2, section3, section4 } = about;
   const audience = aboutData?.about?.audience; // Replace with the actual path to audience
@@ -70,12 +73,12 @@ const About = () => {
               className={`about-us-section ${index % 2 === 0 ? "" : "reverse-layout"}`}
             >
               <div>
-                <img src={sectionImages[index]} alt={section.title} className="section-image" />
+                <img src={sectionImages[index]} alt={t(section.title)} className="section-image" />
               </div>
               <div>
-                <span className="about-us-heading">{section.title}</span>
+                <span className="about-us-heading">{t(section.title)}</span>
                 <br />
-                <span className="about-us-paragraph">{section.description}</span>
+                <span className="about-us-paragraph">{t(section.description)}</span>
               </div>
             </div>
           ))}

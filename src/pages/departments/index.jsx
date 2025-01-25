@@ -4,12 +4,19 @@ import { useTranslation } from 'react-i18next';
 import { fetchAllJson } from '../../utils/fetchAllJson';
 import Blog from './blog';
 import PointBlog from './point_blog';
+import ParaSection from './para_section';
 
 const dept = () => {
      const [loading, setLoading] = useState(true);
       const [error, setError] = useState(null);
      const { t, ready } = useTranslation();
      const [imageData, setImageData] = useState(null);
+     const { addToCart } = useCart();
+     const navigate = useNavigate();
+ 
+     const [selectedOffer, setSelectedOffer] = useState(null);
+     const [showModal, setShowModal] = useState(false);
+ 
      useEffect(() => {
          const fetchData = async () => {
            try {
@@ -47,6 +54,27 @@ const dept = () => {
     { title: "Improved Oral Health", description: "Implants prevent neighboring teeth from shifting, promoting overall oral health." },
   ];
 
+  const handleAddToCart = (offer) => {
+    addToCart(offer);
+    navigate('/cart');
+}
+
+const handleOfferClick = (slug) => {
+    navigate(`/service/${slug}`);  // Programmatically navigate to the offer details page
+  };
+
+ 
+      const handleBookNow = (offer) => {
+          setSelectedOffer(offer);
+          setShowModal(true);
+      };
+  
+      const closeModal = () => {
+          setShowModal(false);
+          setSelectedOffer(null);
+      };
+  
+
   return (
     <div>
       <DeptBanner pageName = "Dental" bannerImg = {images.about.visionImg}></DeptBanner>
@@ -67,7 +95,75 @@ const dept = () => {
         ]}
       />
      <PointBlog title={title} description={description} benefits={benefits} />
+     <ParaSection title={title} desc={[description]} />;
+     <div className="col-lg-4 col-md-4">
+                                                            <div className="service-inner">
+                                                                <div className="post-thumb">
+                                                                    <a
+                                                                        onClick={() => handleOfferClick(offer.slug)}
+                                                                        className="post-image-link"
+                                                                    >
+                                                                    {/* <Link to={`/offers/${offer.slug}`}> */}
+                                                                        <img
+                                                                            decoding="async"
+                                                                            src={offer.image}
+                                                                            title={offer.name}
+                                                                            alt={offer.name}
+                                                                            className="img-fluid squared"
+                                                                        />
+                                                                        {/* </Link> */}
+                                                                    </a>
+                                                                </div>
+                                                                {/* .post-thumb */}
 
+                                                                <div className="post-details-outer">
+                                                                    <div className="entry-title">
+                                                                        <h4 className="post-title-head">
+                                                                            <a
+                                                                                onClick={() => handleOfferClick(offer.slug)}
+                                                                                className="post-title"
+                                                                            >
+                                                                             {/* <Link to={`/offers/${offer.slug}`} className="post-title"> */}
+                                                                            {offer.name}
+                                                                            </a>
+                                                                            {/* </Link> */}
+                                                                        </h4>
+                                                                        
+                                                                    </div>
+                                                                    {/* .entry-title */}
+                                                                    <div className="post-excerpt">
+                                                                        {offer.description}
+                                                                    </div>
+                                                                    <div className='offer-price-title'>{offer.price} AED</div>
+                                                                    {/* .post-excerpt */}
+                                                                    <div className="bottom-meta clearfix">
+                                                                        <ul className="nav bottom-meta-list meta-left">
+                                                                            <li>
+
+                                                                                <div className="post-more" key={offer.id}>
+                                                                                    <a
+                                                                                        onClick={() => handleBookNow(offer)}
+                                                                                        // href="https://wordpress.zozothemes.com/happysmile/service/scaling-and-root-planing/"
+                                                                                        className="read-more elementor-button"
+                                                                                    >
+                                                                                        {offer.btn_text}
+                                                                                    </a>
+                                                                                </div>
+
+                                                                                {/* {selectedOffer && (
+                                                                                    <ServiceForm offer={selectedOffer} onClose={closePopup} />
+                                                                                )} */}
+                                                                            </li>
+                                                                        </ul>
+                                                                        <div className='payNowbtn' onClick={() => handleAddToCart(offer)}>
+                                                                            Pay Now
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                {/* .post-details-outer */}
+                                                            </div>
+                                                            {/* .service-inner */}
+                                                        </div>
     </div>
   )
 }
