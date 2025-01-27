@@ -1,5 +1,5 @@
 import React from "react";
-import "../../custom_css/basicSmile.css";
+import "../../../custom_css/basicSmile.css";
 import HeaderContact from "../../components/headercontact";
 import Footer from "../../components/footer";
 import HeaderDoctor from "../../components/headerDoctor";
@@ -74,7 +74,6 @@ const basicMoData = {
 const BubbleFacial = () => {
     return (
         <>
-            <HeaderDoctor />
 
             <div className="container">
                 {/* Main Heading */}
@@ -123,7 +122,6 @@ const BubbleFacial = () => {
                     description={basicMoData.section4.description}
                 />
             </div>
-            <Footer></Footer>
         </>
     );
 };

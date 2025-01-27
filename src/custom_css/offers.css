@@ -1,7 +1,8 @@
 
 .offerPage{
-	background-color: #EDDAC5;
+	/* background-color: #EDDAC5; */
 }
+
 
 .service-style-classic-pro .service-inner .post-thumb img {
 	-webkit-transform: scale(1);
@@ -45,7 +46,7 @@
 
 .post-title {
 	font-size: 24px;
-    color: #916F4D;
+    color: #405d53;
     font-weight: 500;
 }
 .offer-price-title{

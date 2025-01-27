@@ -41,6 +41,15 @@ const VideoSection = () => {
         const {home} = images;
 
     return (
+        <>
+        <div
+        data-elementor-type="wp-page"
+        data-elementor-id={73397}
+        className="elementor elementor-73397"
+        // style={{
+        //   backgroundColor: about_us["background-color"],
+        // }}
+      >
         <div className="section" style={{ backgroundImage: `url(${home['video']})` }}>
             {/* <button className="play-button" onClick={toggleModal}>
         ▶
@@ -81,6 +90,8 @@ const VideoSection = () => {
                 </div>
             )}
         </div>
+        </div>
+        </>
     );
 };
 

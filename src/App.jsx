@@ -15,6 +15,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ContactPage from './pages/contact_us';
 import Index from './pages/index';
 import About from './pages/about/index';
+import About from './pages/about/index';
 import Doctors from './pages/doctor';
 import { CartProvider } from './components/CartContext';
 import Offers from './pages/offers';
@@ -36,6 +37,10 @@ import Veneers from './pages/departments/veneers';
 import Implant from './pages/departments/implant';
 import Orthodontics from './pages/departments/orthodontics';
 import Gynecology from './pages/departments/gynecology';
+import Services from './departments/Services';
+import ServiceTemplate from './departments/service templates/ServiceTemplate';
+import ServiceList from './departments/service templates/ServiceList';
+import GynecologyServices from './departments/gyne/GynecologyServices';
 
 Modal.setAppElement('#root'); // For accessibility
 
@@ -60,10 +65,17 @@ function LanguageWrapper() {
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="contact_us" element={<ContactPage />} />
-          <Route path="about" element={<About />} />
+          <Route path="about_us" element={<About />} />
           <Route path="doctors" element={<Doctors />} />
           <Route path="offers" element={<Offers />} />
           <Route path="service/:slug" element={<OfferDetails />} />
+          {/* <Route path="services" element={<ServiceTemplate/>} /> */}
+          <Route path="service" element={<Services/>} />
+          <Route path="/services" element={<ServiceList />} />
+        <Route path="/services/:serviceName" element={<ServiceTemplate />} />
+        <Route path="/gyne-services/:serviceName" element={<GynecologyServices />} />
+        
+          {/* <Route path="skincare" element={<Skincare/>} /> */}
           <Route path="cart" element={<Cart />} />
           <Route path="checkout" element={<Checkout />} />
           <Route path="/doctor/:doctorName" element={<DoctorPage/>} />
@@ -73,7 +85,8 @@ function LanguageWrapper() {
           <Route path="dept/dental" element={<Dept />} />
           <Route path="/dental" element={<Dental />} />
           <Route path="/veneers" element={<Veneers />} />
-          <Route path="/implant" element={<Implant />} />    
+          <Route path="/implant" element={<Implant />} /> 
+          <Route path="/orthodontics" element={<Orthodontics />} />    
           <Route path="/gynecology" element={<Gynecology />} />
         </Routes>
       </CartProvider>

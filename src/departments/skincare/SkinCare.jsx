@@ -1,18 +1,11 @@
 import React from "react";
 import "../../custom_css/basicSmile.css";
-import HeaderContact from "../../components/headercontact";
-import Footer from "../../components/footer";
-import HeaderDoctor from "../../components/headerDoctor";
 import Services from "../Services";
 import Banner from "../../components/Banner";
+import ImageContent from "../../pages/services/ImageContent";
 
 // Dynamic data for Basic Mo Smile
 const basicMoData = {
-    title: " Skincare",
-    description:
-        "At Damas Medical Center, we understand the importance of healthy, beautiful skin. Our dedicated team of dermatologists and skincare professionals offer a comprehensive range of services designed to address your unique needs and reveal your most radiant self.",
-    imageUrl:
-        "https://damasmc.com/uploads/sub-services/bannerf4de479c04c629da2da7089d093f1edd9374d1c5.jpg",
     section: {
         title: "Empowering Transformation: Discovering the Magic of Effective Skin Care Solutions",
         description:
@@ -46,50 +39,12 @@ const basicMoData = {
 };
 
 const Skincare = () => {
-    const skincareOffers = [
-        {
-            id: 1,
-            name: 'Basic MO Premium Smile',
-            description: 'Premium (Basic MO), where Simplicity Meets Affordability',
-            image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-1.webp',
-            slug: 'basic-mo-premium-smile',
-            price: 1799,
-            btn_text: 'Book An Appointment',
-            vat: 0,
-        },
-        {
-            id: 2,
-            name: 'Carbon Laser or Lip Pinking Or Magic Facial',
-            description: 'Unveiling the Power of Our Facials',
-            image: 'https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-7.webp',
-            price: 180,
-            btn_text: 'Book An Appointment',
-        },
-    ];
-
     return (
         <>
             <Banner></Banner>
-
             <div className="happysmile-content-wrap container page">
                 {/* Main Heading */}
                 <div style={{marginLeft:"20px", marginRight:"20px"}}>
-                    <div className="cust-mainHead">
-                        <h1 className="cust-head">{basicMoData.title}</h1>
-                    </div>
-
-                    {/* Main Description */}
-                    <div>{basicMoData.description}</div>
-
-                    {/* Image Section */}
-                    <div className="imgBx">
-                        <img
-                            src={basicMoData.imageUrl}
-                            alt={basicMoData.title}
-                            loading="lazy"
-                            className="lazy"
-                        />
-                    </div>
 
                     {/* Subheading and Features */}
                     <CustSection
@@ -97,27 +52,8 @@ const Skincare = () => {
                         description={basicMoData.section.description}
                         features={basicMoData.section.features}
                     />
-
-                    {/* Two-Column Section */}
-                    {/* <div className="flxBx">
-                    {basicMoData.cards.map((card, index) => (
-                        <Card key={index} title={card.title} description={card.description} features={card.features} />
-                    ))}
-                </div> */}
-                    <CustSection
-                        title={basicMoData.section2.title}
-                        description={basicMoData.section2.description}
-                        features={basicMoData.section2.features}
-                    />
-                    <CustSection
-                        title={basicMoData.section3.title}
-                        description={basicMoData.section3.description}
-                        features={basicMoData.section3.features}
-                    />
                 </div>
-                <Services offersData={skincareOffers} />
             </div>
-            <Footer></Footer>
         </>
     );
 };

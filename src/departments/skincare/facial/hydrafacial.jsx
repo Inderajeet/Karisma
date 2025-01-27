@@ -3,6 +3,7 @@ import "../../../custom_css/basicSmile.css";
 import HeaderContact from "../../../components/headercontact";
 import Footer from "../../../components/footer";
 import HeaderDoctor from "../../../components/headerDoctor";
+import Banner from "../../../components/Banner";
 
 // Dynamic data for Basic Mo Smile
 const basicMoData = {
@@ -76,7 +77,8 @@ const basicMoData = {
 const HydraFacial = () => {
     return (
         <>
-            <HeaderDoctor />
+            {/* <HeaderDoctor /> */}
+            <Banner></Banner>
 
             <div className="container">
                 {/* Main Heading */}
@@ -125,7 +127,6 @@ const HydraFacial = () => {
                     description={basicMoData.section4.description}
                 />
             </div>
-            <Footer></Footer>
         </>
     );
 };

@@ -1,0 +1,232 @@
+{
+  "gyneServices": [
+    {
+      "id": "1",
+      "link": "aesthetic-gynecology",
+      "name": "Aesthetic Gynecology",
+      "sections": [
+        
+        {
+          "type": "image-content",
+          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageAlt": "Facials",
+          "title": "Gynecological Filler",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Enhancing Intimate Wellness and Confidence"
+            },
+            {
+              "type": "paragraph",
+              "text": "At Karisma Specialist Medical Center, we celebrate and support women’s health in all its facets. Our expert team of female gynecologists offers a range of cosmetic gynecology services designed to enhance your intimate well-being, boost confidence, and promote a renewed sense of self." 
+            },
+            {
+              "type": "heading",
+              "text": "Discover the Power of Cosmetic Gynecology"
+            },
+            {
+              "type": "paragraph",
+              "text": "Cosmetic gynecology focuses on non-surgical and minimally invasive treatments that address aesthetic and functional concerns, helping you feel your best."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Vaginal Tightening: Restore firmness and elasticity with advanced treatments such as laser therapy and radiofrequency, enhancing both comfort and intimacy.",
+                "Whitening Treatments: Achieve a brighter, more even skin tone in the vulvar area, addressing hyperpigmentation for a rejuvenated appearance.",
+                "Plasma Therapy: Harness the healing power of plasma technology to promote tissue rejuvenation, improving laxity and minor pigmentation concerns.", 
+                "Fillers: Add volume and definition to the labia majora, creating a more balanced, aesthetically pleasing look and enhancing comfort.",
+                "Botox for Intimate Care: Botox may be used to address muscle hyperactivity and minimize certain aesthetic concerns. A personalized consultation ensures this option aligns with your needs and safety."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "A Personalized Approach to Intimate Wellness",
+          "features": [
+            "Discreet Consultations: Our caring, all-female team offers a private, supportive space to discuss your concerns openly and confidently.",
+            "Tailored Treatment Plans: Each plan is customized to meet your individual goals, ensuring treatments are effective and aligned with your desired outcomes.",
+            "Cutting-edge Technology: We utilize the latest advancements to deliver optimal results while prioritizing your comfort and well-being."
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Begin Your Confidence Journey at Karisma Specialist Medical Center",
+          "description:": "Empower yourself with expert care designed for your unique needs. Contact Karisma Specialist Medical Center today to schedule a private consultation and explore how cosmetic gynecology can help you embrace your intimate health and confidence."
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description:": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Dr. Huda Ebrahim Shaheen",
+              "designation": "Obstetrics and Gynecology Specialist",
+              "image": "/assets/Images/home/Doctors.png",
+              "link": "dr-huda-ebrahim-shaheen"
+            }
+          ]
+        },
+        {
+          "type": "offers",
+          "offers": [
+            {
+              "id": 1,
+              "name": "Basic MO Premium Smile",
+              "description": "Premium (Basic MO), where Simplicity Meets Affordability",
+              "image": "https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-1.webp",
+              "slug": "basic-mo-premium-smile",
+              "price": 1799,
+              "btn_text": "Book An Appointment",
+              "vat": 0
+            },
+            {
+              "id": 2,
+              "name": "G-Glass",
+              "description": "We offering our patients the most advanced and exceptional dental solutions.",
+              "image": "https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-9.webp",
+              "slug": "gc-snow-white-hollywood-smile",
+              "price": 4500,
+              "btn_text": "Book An Appointment"
+            }
+          ]
+        }
+      ]
+    }, {
+      "id": "2",
+      "link": "aesthetic-gynecology",
+      "name": "Gynecological Filler",
+      "sections": [
+        
+        {
+          "type": "image-content",
+          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageAlt": "Facials",
+          "title": "Aesthetic Gynecology",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Enhancing Intimate Wellness and Confidence"
+            },
+            {
+              "type": "paragraph",
+              "text": "At Karisma Specialist Medical Center, we celebrate and support women’s health in all its facets. Our expert team of female gynecologists offers a range of cosmetic gynecology services designed to enhance your intimate well-being, boost confidence, and promote a renewed sense of self." 
+            },
+            {
+              "type": "heading",
+              "text": "Discover the Power of Cosmetic Gynecology"
+            },
+            {
+              "type": "paragraph",
+              "text": "Cosmetic gynecology focuses on non-surgical and minimally invasive treatments that address aesthetic and functional concerns, helping you feel your best."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Vaginal Tightening: Restore firmness and elasticity with advanced treatments such as laser therapy and radiofrequency, enhancing both comfort and intimacy.",
+                "Whitening Treatments: Achieve a brighter, more even skin tone in the vulvar area, addressing hyperpigmentation for a rejuvenated appearance.",
+                "Plasma Therapy: Harness the healing power of plasma technology to promote tissue rejuvenation, improving laxity and minor pigmentation concerns.", 
+                "Fillers: Add volume and definition to the labia majora, creating a more balanced, aesthetically pleasing look and enhancing comfort.",
+                "Botox for Intimate Care: Botox may be used to address muscle hyperactivity and minimize certain aesthetic concerns. A personalized consultation ensures this option aligns with your needs and safety."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "A Personalized Approach to Intimate Wellness",
+          "features": [
+            "Discreet Consultations: Our caring, all-female team offers a private, supportive space to discuss your concerns openly and confidently.",
+            "Tailored Treatment Plans: Each plan is customized to meet your individual goals, ensuring treatments are effective and aligned with your desired outcomes.",
+            "Cutting-edge Technology: We utilize the latest advancements to deliver optimal results while prioritizing your comfort and well-being."
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Begin Your Confidence Journey at Karisma Specialist Medical Center",
+          "description:": "Empower yourself with expert care designed for your unique needs. Contact Karisma Specialist Medical Center today to schedule a private consultation and explore how cosmetic gynecology can help you embrace your intimate health and confidence."
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description:": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Dr. Huda Ebrahim Shaheen",
+              "designation": "Obstetrics and Gynecology Specialist",
+              "image": "/assets/Images/home/Doctors.png",
+              "link": "dr-huda-ebrahim-shaheen"
+            }
+          ]
+        },
+        {
+          "type": "offers",
+          "offers": [
+            {
+              "id": 1,
+              "name": "Basic MO Premium Smile",
+              "description": "Premium (Basic MO), where Simplicity Meets Affordability",
+              "image": "https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-1.webp",
+              "slug": "basic-mo-premium-smile",
+              "price": 1799,
+              "btn_text": "Book An Appointment",
+              "vat": 0
+            },
+            {
+              "id": 2,
+              "name": "G-Glass",
+              "description": "We offering our patients the most advanced and exceptional dental solutions.",
+              "image": "https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-9.webp",
+              "slug": "gc-snow-white-hollywood-smile",
+              "price": 4500,
+              "btn_text": "Book An Appointment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Dental Care",
+      "sections": [
+        {
+          "type": "content",
+          "title": "Smile Bright with Advanced Dental Care",
+          "description": "Discover how we bring out your best smile with state-of-the-art dental treatments and personalized care.",
+          "features": [
+            "Teeth Whitening: Brighten your smile with our safe and effective teeth-whitening treatments.",
+            "Dental Implants: Achieve a complete, natural-looking smile with our high-quality dental implants."
+          ]
+        }
+      ]
+    }
+  ]
+}

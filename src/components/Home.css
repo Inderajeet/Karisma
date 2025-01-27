@@ -5,10 +5,17 @@
   }
 }
 
-@media screen and (max-width:767px){
+@media  (max-width:767px){
   .image-container {
     perspective: 1000px;
-    width: 60%;
+    width: 50%;
+  }
+  .home-desc-font{
+    font-size: 17px !important;
+    line-height: 26px;
+  }
+  .home-head-font{
+    font-size: 30px !important;
   }
 }
 
@@ -32,7 +39,9 @@
     display: flex;
     align-content: end !important;
   }
+}
 
+@media(max-width:1024px){
   .mobile-img-container {
     display: flex;
     justify-content: center;

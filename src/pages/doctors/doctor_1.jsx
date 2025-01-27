@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import Banner from '../../components/Banner';
 import { fetchAllJson } from "../../utils/fetchAllJson"; // Import the utility function
 import { useTranslation } from "react-i18next";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
+import BannerDoctor from "../../components/Bannerdoctor";
 
 
 
@@ -13,12 +14,14 @@ function DoctorPage() {
     const [data, setData] = useState({ styles: {}, images: {} });
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    const [doctors, setDoctors] = useState([]);
     const [doctor, setDoctor] = useState(null);
 
+    // Fetch external assets (styles, images)
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const allData = await fetchAllJson(); // Fetch styles and images
+                const allData = await fetchAllJson();
                 setData(allData);
             } catch (err) {
                 setError(err.message);
@@ -30,95 +33,39 @@ function DoctorPage() {
         fetchData();
     }, []);
 
-    
-
-
+    // Load doctors from translations
     useEffect(() => {
-        // Find the doctor by name in the JSON file
-        const doctorsData = t('doctors:doctors', { returnObjects: true }); // Fetch the array of doctors
-        const foundDoctor = doctorsData.find(
-            (doc) => doc.link === decodeURIComponent(doctorName)
-        );
-        setDoctor(foundDoctor);
-    }, [loading, error, doctorName, t]);
+        const doctorsData = t('doctors:doctors', { returnObjects: true });
+        setDoctors(doctorsData);
+    }, [t]);
 
-    if (loading) return;
-    if (error) return;
+    // Find the current doctor
+    useEffect(() => {
+        if (doctors.length > 0) {
+            const foundDoctor = doctors.find((doc) => doc.link === decodeURIComponent(doctorName));
+            setDoctor(foundDoctor);
+        }
+    }, [doctors, doctorName]);
 
-    if (!doctor) {
-        return <p>Doctor not found!</p>;
-    }
+    if (loading) return <p>Loading...</p>;
+    if (error) return <p>Error: {error}</p>;
+    if (!doctor) return <p>Doctor not found!</p>;
+
+    // Find current doctor index
+    const currentIndex = doctors.findIndex((doc) => doc.id === doctor.id);
+
+    // Calculate previous and next indices with wrapping
+    const prevIndex = (currentIndex - 1 + doctors.length) % doctors.length;
+    const nextIndex = (currentIndex + 1) % doctors.length;
+
+    const prevDoctor = doctors[prevIndex];
+    const nextDoctor = doctors[nextIndex];
+
     console.log("Doctor Name:", decodeURIComponent(doctorName));
 
-    // const doctor = {
-    //     image: "/assets/wp-content/uploads/2019/04/team-5.webp",
-    //     name: "Dr. AHMED AMIN AHMED ELFAR",
-    //     designation: "Cosmetic Dentistry",
-    //     email: "jamesgarcia@happysmile.com",
-    //     phone: "+(528) 456-7598",
-    //     website: "https://zozothemes.com/",
-    //     experience: "More Than 5+ Years",
-    //     socialLinks: {
-    //         facebook: "https://www.facebook.com/zozothemes.official/",
-    //         twitter: "https://twitter.com/zozothemes",
-    //         instagram: "https://www.instagram.com/zozotheme/",
-    //         youtube: "https://www.youtube.com/channel/UCAOkwuYxJuOqiYAj1Vy5JIg",
-    //     },
-    //     overview: {
-    //         title: "Overview",
-    //         sections: [
-    //             {
-    //                 subtitle: "Speciality",
-    //                 items: ["General Practitioner Dentist", "General Dentistry"],
-    //             },
-    //             {
-    //                 subtitle: "Procedures",
-    //                 items: [
-    //                     "Oral and Dental Treatments, Veneers, Cosmetic Procedures, Minor Oral Surgeries, RCT.",
-    //                 ],
-    //             },
-    //         ],
-    //     },
-    //     workExperience: {
-    //         title: "Work Experience",
-    //         items: [
-    //             "Over 12 years of experience.",
-    //             "Highly experienced in Restorative and Cosmetic Dentistry.",
-    //             "Oral Diagnosis and Treatment planning.",
-    //             "Dental Treatments and Minor Oral Surgeons.",
-    //             "Pediatric Dentistry.",
-    //         ],
-    //     },
-    //     qualifications: {
-    //         title: "Qualifications",
-    //         items: [
-    //             "Dr. MO is a graduate of University of British",
-    //             "B.A. degree in Biology",
-    //             "D.M.D. Degree",
-    //             "Advanced Dental education in Diagnostic Science",
-    //             "Doctor of Dental Surgery degree",
-    //         ],
-    //     },
-    //     workingShifts: {
-    //         title: "Working Shifts",
-    //         flipFront1: "Mon - Sun",
-    //         flipFrontDesc1: "09.00am - 08.00pm",
-    //         flipBack1: "Mon - Sun",
-    //         flipBackDesc1: "09.00am - 08.00pm",
-    //         flipFront2: "Hospital",
-    //         flipFrontDesc2: "4b, Walse Street, USA",
-    //         flipBack2: "Hospital",
-    //         flipBackDesc2: "4b, Walse Street, USA",
-    //         items: [
-    //             "Monday to Friday: 9 AM - 6 PM",
-    //             "Saturday: 10 AM - 4 PM",
-    //             "Sunday: Off",
-    //         ],
-    //     },
-    // };
     return (
         <>
-            <Banner></Banner>
+            <BannerDoctor />
             <div className="happysmile-content-wrap container cea-team-template-default 
             single single-cea-team postid-73184 theme-happysmile woocommerce-js 
             elementor-default elementor-kit-5 elementor-page elementor-page-73184 
@@ -602,506 +549,27 @@ function DoctorPage() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div
-                                                    data-cea-float='[{"float_title":"Floating Image","float_img":"https:\/\/wordpress.zozothemes.com\/happysmile\/wp-content\/uploads\/sites\/20\/2024\/05\/about-5-scaled.webp","float_left":"95","float_top":"28","float_distance":"100","float_animation":"0","float_mouse":"0","float_width":"400px"}]'
-                                                    className="elementor-element elementor-element-6e079b74 e-flex e-con-boxed e-con e-parent e-lazyloaded"
-                                                    data-id="6e079b74"
-                                                    data-element_type="container"
-                                                    style={{ display: "none" }}
-                                                >
-                                                    <div
-                                                        id="float-parallax-6e079b74"
-                                                        className="float-parallax"
-                                                        data-mouse={0}
-                                                        data-left={95}
-                                                        data-top={28}
-                                                        data-distance={100}
-                                                        style={{ width: 400, top: "28%", left: "95%" }}
-                                                    >
-                                                        <img
-                                                            alt="Floating Image"
-                                                            src="/assets/wp-content/uploads/sites/20/2024/05/about-5-scaled.webp"
-                                                        />
-                                                    </div>
-                                                    <div className="e-con-inner">
-                                                        <div
-                                                            className="elementor-element elementor-element-550a23e1 e-flex e-con-boxed e-con e-child"
-                                                            data-id="550a23e1"
-                                                            data-element_type="container"
-                                                        >
-                                                            <div className="e-con-inner">
-                                                                <div
-                                                                    className="elementor-element elementor-element-7cd7f81c e-con-full e-flex e-con e-child"
-                                                                    data-id="7cd7f81c"
-                                                                    data-element_type="container"
-                                                                >
-                                                                    <div
-                                                                        className="elementor-element elementor-element-eb8b069 cea-align-left elementor-widget elementor-widget-ceasectiontitle"
-                                                                        data-id="eb8b069"
-                                                                        data-element_type="widget"
-                                                                        data-widget_type="ceasectiontitle.default"
-                                                                    >
-                                                                        <div className="elementor-widget-container">
-                                                                            <div className="section-title-wrapper">
-                                                                                <div className="title-wrap">
-                                                                                    <h6 className="sub-title">
-                                                                                        <span className="subtitle-dots">
-                                                                                            We Are Skilled Dentist{" "}
-                                                                                        </span>
-                                                                                    </h6>
-                                                                                    <h2 className="section-title">
-                                                                                        Perfect Smile, Excellence Defined
-                                                                                    </h2>
-                                                                                </div>
-                                                                                {/* .title-wrap */}
-                                                                                <div className="section-description">
-                                                                                    <p className="section-content">
-                                                                                        Excellence is a quality of being good or
-                                                                                        outstanding in a particular context. It's
-                                                                                        the relentless pursuit of high standards,
-                                                                                        continuous improvement, willingness beyond
-                                                                                        what is expected.
-                                                                                    </p>
-                                                                                </div>
-                                                                                {/* .section-description */}
-                                                                            </div>
-                                                                            {/* .section-title-wrapper */}{" "}
-                                                                        </div>
-                                                                    </div>
-                                                                    <div
-                                                                        className="elementor-element elementor-element-47dbfc31 elementor-widget elementor-widget-image"
-                                                                        data-id="47dbfc31"
-                                                                        data-element_type="widget"
-                                                                        data-widget_type="image.default"
-                                                                    >
-                                                                        <div className="elementor-widget-container">
-                                                                            <img
-                                                                                decoding="async"
-                                                                                width={683}
-                                                                                height={456}
-                                                                                src="/assets/wp-content/uploads/2024/05/how-work-2.webp"
-                                                                                className="attachment-medium size-medium wp-image-66950"
-                                                                                alt=""
-                                                                            />{" "}
-                                                                        </div>
-                                                                    </div>
-                                                                    <div
-                                                                        className="elementor-element elementor-element-75ca996b cea-view-framed anim cus-light elementor-widget__width-auto elementor-hidden-mobile elementor-hidden-tablet cea-shape-circle elementor-widget elementor-widget-ceapopupanything animated zoomIn"
-                                                                        data-id="75ca996b"
-                                                                        data-element_type="widget"
-                                                                        data-settings='{"_animation":"zoomIn","_animation_delay":3}'
-                                                                        data-widget_type="ceapopupanything.default"
-                                                                    >
-                                                                        <div className="elementor-widget-container popup-anything-wrapper">
-                                                                            <a
-                                                                                className="cea-popup-anything popup-trigger-icon"
-                                                                                href="https://www.youtube.com/watch?v=lw7xIB0kPCo"
-                                                                            >
-                                                                                <i aria-hidden="true" className=" bi-play" />
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div
-                                                                    className="elementor-element elementor-element-78b94bc1 e-con-full e-flex e-con e-child"
-                                                                    data-id="78b94bc1"
-                                                                    data-element_type="container"
-                                                                >
-                                                                    <div
-                                                                        className="elementor-element elementor-element-1f204e1f elementor-widget elementor-widget-image"
-                                                                        data-id="1f204e1f"
-                                                                        data-element_type="widget"
-                                                                        data-widget_type="image.default"
-                                                                    >
-                                                                        <div className="elementor-widget-container">
-                                                                            <img
-                                                                                decoding="async"
-                                                                                width={684}
-                                                                                height={456}
-                                                                                src="/assets/wp-content/uploads/2024/05/skilled-1.jpg"
-                                                                                className="attachment-medium size-medium wp-image-67206"
-                                                                                alt=""
-                                                                            />{" "}
-                                                                        </div>
-                                                                    </div>
-                                                                    <div
-                                                                        className="elementor-element elementor-element-4d993e8a elementor-widget elementor-widget-progress"
-                                                                        data-id="4d993e8a"
-                                                                        data-element_type="widget"
-                                                                        data-widget_type="progress.default"
-                                                                    >
-                                                                        <div className="elementor-widget-container">
-                                                                            <span
-                                                                                className="elementor-title"
-                                                                                id="elementor-progress-bar-4d993e8a"
-                                                                            >
-                                                                                Scaling and root planing{" "}
-                                                                            </span>
-                                                                            <div
-                                                                                aria-labelledby="elementor-progress-bar-4d993e8a"
-                                                                                className="elementor-progress-wrapper"
-                                                                                role="progressbar"
-                                                                                aria-valuemin={0}
-                                                                                aria-valuemax={100}
-                                                                                aria-valuenow={90}
-                                                                            >
-                                                                                <div
-                                                                                    className="elementor-progress-bar"
-                                                                                    data-max={90}
-                                                                                >
-                                                                                    <span className="elementor-progress-text" />
-                                                                                    <span className="elementor-progress-percentage">
-                                                                                        90%
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div
-                                                                        className="elementor-element elementor-element-654b7363 elementor-widget elementor-widget-progress"
-                                                                        data-id="654b7363"
-                                                                        data-element_type="widget"
-                                                                        data-widget_type="progress.default"
-                                                                    >
-                                                                        <div className="elementor-widget-container">
-                                                                            <span
-                                                                                className="elementor-title"
-                                                                                id="elementor-progress-bar-654b7363"
-                                                                            >
-                                                                                Teeth whitening{" "}
-                                                                            </span>
-                                                                            <div
-                                                                                aria-labelledby="elementor-progress-bar-654b7363"
-                                                                                className="elementor-progress-wrapper"
-                                                                                role="progressbar"
-                                                                                aria-valuemin={0}
-                                                                                aria-valuemax={100}
-                                                                                aria-valuenow={82}
-                                                                            >
-                                                                                <div
-                                                                                    className="elementor-progress-bar"
-                                                                                    data-max={82}
-                                                                                >
-                                                                                    <span className="elementor-progress-text" />
-                                                                                    <span className="elementor-progress-percentage">
-                                                                                        82%
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div
-                                                                        className="elementor-element elementor-element-f742194 elementor-widget elementor-widget-progress"
-                                                                        data-id="f742194"
-                                                                        data-element_type="widget"
-                                                                        data-widget_type="progress.default"
-                                                                    >
-                                                                        <div className="elementor-widget-container">
-                                                                            <span
-                                                                                className="elementor-title"
-                                                                                id="elementor-progress-bar-f742194"
-                                                                            >
-                                                                                Invisalign &amp; ClearCorrect{" "}
-                                                                            </span>
-                                                                            <div
-                                                                                aria-labelledby="elementor-progress-bar-f742194"
-                                                                                className="elementor-progress-wrapper"
-                                                                                role="progressbar"
-                                                                                aria-valuemin={0}
-                                                                                aria-valuemax={100}
-                                                                                aria-valuenow={65}
-                                                                            >
-                                                                                <div
-                                                                                    className="elementor-progress-bar"
-                                                                                    data-max={65}
-                                                                                >
-                                                                                    <span className="elementor-progress-text" />
-                                                                                    <span className="elementor-progress-percentage">
-                                                                                        65%
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div
-                                                                        className="elementor-element elementor-element-7a37c236 elementor-widget elementor-widget-progress"
-                                                                        data-id="7a37c236"
-                                                                        data-element_type="widget"
-                                                                        data-widget_type="progress.default"
-                                                                    >
-                                                                        <div className="elementor-widget-container">
-                                                                            <span
-                                                                                className="elementor-title"
-                                                                                id="elementor-progress-bar-7a37c236"
-                                                                            >
-                                                                                Zirconium crowns{" "}
-                                                                            </span>
-                                                                            <div
-                                                                                aria-labelledby="elementor-progress-bar-7a37c236"
-                                                                                className="elementor-progress-wrapper"
-                                                                                role="progressbar"
-                                                                                aria-valuemin={0}
-                                                                                aria-valuemax={100}
-                                                                                aria-valuenow={75}
-                                                                            >
-                                                                                <div
-                                                                                    className="elementor-progress-bar"
-                                                                                    data-max={75}
-                                                                                >
-                                                                                    <span className="elementor-progress-text" />
-                                                                                    <span className="elementor-progress-percentage">
-                                                                                        75%
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div
-                                                                        className="elementor-element elementor-element-2bb02f5 elementor-widget elementor-widget-progress"
-                                                                        data-id="2bb02f5"
-                                                                        data-element_type="widget"
-                                                                        data-widget_type="progress.default"
-                                                                    >
-                                                                        <div className="elementor-widget-container">
-                                                                            <span
-                                                                                className="elementor-title"
-                                                                                id="elementor-progress-bar-2bb02f5"
-                                                                            >
-                                                                                Root Canal Treatment{" "}
-                                                                            </span>
-                                                                            <div
-                                                                                aria-labelledby="elementor-progress-bar-2bb02f5"
-                                                                                className="elementor-progress-wrapper"
-                                                                                role="progressbar"
-                                                                                aria-valuemin={0}
-                                                                                aria-valuemax={100}
-                                                                                aria-valuenow={95}
-                                                                            >
-                                                                                <div
-                                                                                    className="elementor-progress-bar"
-                                                                                    data-max={95}
-                                                                                >
-                                                                                    <span className="elementor-progress-text" />
-                                                                                    <span className="elementor-progress-percentage">
-                                                                                        95%
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div
-                                                                    className="elementor-element elementor-element-52df8086 e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child"
-                                                                    data-id="52df8086"
-                                                                    data-element_type="container"
-                                                                ></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                {/* Contact Form */}
-                                                <div
-                                                    className="elementor-element elementor-element-16883c1e e-flex e-con-boxed e-con e-parent e-lazyloaded"
-                                                    data-id="16883c1e"
-                                                    data-element_type="container"
-                                                    style={{ display: "none" }}
-                                                >
-                                                    <div className="e-con-inner">
-                                                        <div
-                                                            className="elementor-element elementor-element-74d4254a e-con-full e-flex e-con e-child"
-                                                            data-id="74d4254a"
-                                                            data-element_type="container"
-                                                            data-settings='{"background_background":"classic"}'
-                                                        >
-                                                            <div
-                                                                className="elementor-element elementor-element-44cf182a cea-align-left elementor-widget elementor-widget-ceasectiontitle"
-                                                                data-id="44cf182a"
-                                                                data-element_type="widget"
-                                                                data-widget_type="ceasectiontitle.default"
-                                                            >
-                                                                <div className="elementor-widget-container">
-                                                                    <div className="section-title-wrapper">
-                                                                        <div className="title-wrap">
-                                                                            <p className="sub-title">
-                                                                                <span className="subtitle-dots">
-                                                                                    Contact Information
-                                                                                </span>
-                                                                            </p>
-                                                                            <h2 className="section-title">
-                                                                                Let’s Discuss With Us
-                                                                            </h2>
-                                                                        </div>
-                                                                        {/* .title-wrap */}
-                                                                        <div className="section-description">
-                                                                            <p className="section-content"></p>
-                                                                        </div>
-                                                                        {/* .section-description */}
-                                                                    </div>
-                                                                    {/* .section-title-wrapper */}{" "}
-                                                                </div>
-                                                            </div>
-                                                            <div
-                                                                className="elementor-element elementor-element-537c4cc8 team-form elementor-widget elementor-widget-contactform"
-                                                                data-id="537c4cc8"
-                                                                data-element_type="widget"
-                                                                data-widget_type="contactform.default"
-                                                            >
-                                                                <div className="elementor-widget-container">
-                                                                    <div className="contact-form-wrapper cf-style-default">
-                                                                        <div className="contact-form">
-                                                                            <div
-                                                                                className="wpcf7 js"
-                                                                                id="wpcf7-f15411-p73183-o1"
-                                                                                lang="en-US"
-                                                                                dir="ltr"
-                                                                                data-wpcf7-id={15411}
-                                                                            >
-                                                                                <div className="screen-reader-response">
-                                                                                    <p
-                                                                                        role="status"
-                                                                                        aria-live="polite"
-                                                                                        aria-atomic="true"
-                                                                                    />{" "}
-                                                                                    <ul />
-                                                                                </div>
-                                                                                <form
-                                                                                    action="/wordpress/team/angelina-jolie/?simply_static_page=5467#wpcf7-f15411-p73183-o1"
-                                                                                    method="post"
-                                                                                    className="wpcf7-form init"
-                                                                                    aria-label="Contact form"
-                                                                                    noValidate="novalidate"
-                                                                                    data-status="init"
-                                                                                >
-                                                                                    <div style={{ display: "none" }}>
-                                                                                        <input
-                                                                                            type="hidden"
-                                                                                            name="_wpcf7"
-                                                                                            defaultValue={15411}
-                                                                                        />
-                                                                                        <input
-                                                                                            type="hidden"
-                                                                                            name="_wpcf7_version"
-                                                                                            defaultValue={6.0}
-                                                                                        />
-                                                                                        <input
-                                                                                            type="hidden"
-                                                                                            name="_wpcf7_locale"
-                                                                                            defaultValue="en_US"
-                                                                                        />
-                                                                                        <input
-                                                                                            type="hidden"
-                                                                                            name="_wpcf7_unit_tag"
-                                                                                            defaultValue="wpcf7-f15411-p73183-o1"
-                                                                                        />
-                                                                                        <input
-                                                                                            type="hidden"
-                                                                                            name="_wpcf7_container_post"
-                                                                                            defaultValue={73183}
-                                                                                        />
-                                                                                        <input
-                                                                                            type="hidden"
-                                                                                            name="_wpcf7_posted_data_hash"
-                                                                                            defaultValue=""
-                                                                                        />
-                                                                                    </div>
-                                                                                    <div className="row">
-                                                                                        <div className="col-md-6">
-                                                                                            <p>
-                                                                                                <span
-                                                                                                    className="wpcf7-form-control-wrap"
-                                                                                                    data-name="your-name"
-                                                                                                >
-                                                                                                    <input
-                                                                                                        size={40}
-                                                                                                        maxLength={400}
-                                                                                                        className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                                        aria-required="true"
-                                                                                                        aria-invalid="false"
-                                                                                                        placeholder="Name *"
-                                                                                                        defaultValue=""
-                                                                                                        type="text"
-                                                                                                        name="your-name"
-                                                                                                    />
-                                                                                                </span>
-                                                                                            </p>
-                                                                                        </div>
-                                                                                        <div className="col-md-6">
-                                                                                            <p>
-                                                                                                <span
-                                                                                                    className="wpcf7-form-control-wrap"
-                                                                                                    data-name="your-email"
-                                                                                                >
-                                                                                                    <input
-                                                                                                        size={40}
-                                                                                                        maxLength={400}
-                                                                                                        className="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
-                                                                                                        aria-required="true"
-                                                                                                        aria-invalid="false"
-                                                                                                        placeholder="Email *"
-                                                                                                        defaultValue=""
-                                                                                                        type="email"
-                                                                                                        name="your-email"
-                                                                                                    />
-                                                                                                </span>
-                                                                                            </p>
-                                                                                        </div>
-                                                                                        <div className="col-md-12">
-                                                                                            <p>
-                                                                                                <span
-                                                                                                    className="wpcf7-form-control-wrap"
-                                                                                                    data-name="your-message"
-                                                                                                >
-                                                                                                    <textarea
-                                                                                                        cols={40}
-                                                                                                        rows={10}
-                                                                                                        maxLength={2000}
-                                                                                                        className="wpcf7-form-control wpcf7-textarea"
-                                                                                                        aria-invalid="false"
-                                                                                                        placeholder="Message"
-                                                                                                        name="your-message"
-                                                                                                        defaultValue={""}
-                                                                                                    />
-                                                                                                </span>
-                                                                                                <input
-                                                                                                    className="wpcf7-form-control wpcf7-submit has-spinner"
-                                                                                                    type="submit"
-                                                                                                    defaultValue="Send Message"
-                                                                                                />
-                                                                                                <span className="wpcf7-spinner" />
-                                                                                            </p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div
-                                                                                        className="wpcf7-response-output"
-                                                                                        aria-hidden="true"
-                                                                                    />
-                                                                                </form>
-                                                                            </div>
-                                                                        </div>
-                                                                        {/* .contact-form */}
-                                                                    </div>
-                                                                    {/* .contact-form-wrapper */}{" "}
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+
                                             </div>
                                         </div>
                                         {/* .team-content-wrap */}
+                                        {/* Navigation Links */}
                                         <div className="custom-post-nav">
                                             <div className="prev-nav-link">
-                                                <a href="./../nico-robin/index.html">
+                                                <Link
+                                                    to={`/${i18n.language}/doctor/${encodeURIComponent(prevDoctor.link)}`} >
                                                     <i className="ti-arrow-left" />
-                                                    <h5>Nico Robin</h5>
-                                                </a>
+                                                    <h5>{prevDoctor.name}</h5>
+                                                </Link>
                                             </div>
                                             <div className="next-nav-link">
-                                                <a href="./../emi-akezawa/index.html">
-                                                    <h5>Emi Akezawa</h5>
+                                                <Link
+                                                    to={`/${i18n.language}/doctor/${encodeURIComponent(nextDoctor.link)}`} >
+                                                    <h5>{nextDoctor.name}</h5>
                                                     <i className="ti-arrow-right" />
-                                                </a>
+                                                </Link>
                                             </div>
+                                            {/* </div> */}
                                         </div>
                                     </div>
                                     {/* .col */}
