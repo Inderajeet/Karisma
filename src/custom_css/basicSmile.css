@@ -3,6 +3,22 @@
     margin: 0 auto;
   } */
   
+  /* Flex container for cards */
+.flxBx {
+  display: flex;
+  flex-wrap: wrap;  /* Allow cards to wrap to the next line */
+  gap: 20px;        /* Space between cards */
+  justify-content: space-between; /* Distribute cards evenly */
+}
+
+/* Individual card styling */
+.custitem {
+  flex: 1 1 calc(33.33% - 20px);  /* Cards will take up 33% of the width, minus space between them */
+  min-width: 250px;   /* Optional: Prevents cards from getting too small */
+}
+
+/* You can adjust calc() value if you want 2 cards per row or more */
+
   .cust-mainHead {
     /* text-align: center; */
     margin-top: 20px;

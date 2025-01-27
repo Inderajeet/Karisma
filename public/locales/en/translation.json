@@ -1,137 +1,258 @@
 {
-    "about1": {
-        "about1Heading": "Brand Story",
-        "about1Desc1": "Karisma stands for empowerment and self-expression. It is a luxury aesthetic brand that enhances and brings out an individual’s inner charisma by offering transformative treatments tailored to unique needs.",
-        "about1Desc2": "With a focus on innovation, sophistication, and elegance, Karisma helps clients radiate confidence, not just through external beauty but by igniting their inner glow. By blending advanced technology with personalized care, Karisma is a destination where beauty and empowerment meet, offering a unique journey of self-discovery and confidence.",
-        "about1Btn": "ABOUT US"
+  "about1": {
+    "about1Heading": "About us",
+    "about1Desc1": "Karisma Stands for empowerment and self-expression, it is a luxury aesthetic brand that enhances and brings out your inner charisma by offering transformative treatments tailored to unique needs using latest technologies.",
+    "about1Desc2": "",
+    "about1Btn": "READ MORE"
+  },
+  "about2": {
+    "about2Heading1": "",
+    "about2Heading2": "Why choose us?",
+    "about2Desc": "At Karisma, we empower individuals by providing luxurious, personalized aesthetic treatments that enhance natural beauty and confidence. We blend advanced technology with the art of beauty to create transformative experiences that unlock the inner charisma within each of our client.",
+    "about2Btn": "READ MORE"
+  },
+  "services":{
+    "servicesHeading": "Our Services",
+    "servicesDesc": "We are elevating your confidence and attractiveness by combining advanced medical science with artistry by offering services in below departments"
+  },
+  "departments": [
+    {
+      "title": "Dental Department",
+      "description": "",
+      "link": "/"
     },
-    "about2": {
-        "about2Heading1": "Why Choose Us",
-        "about2Heading2": "State of the Art Dentistry",
-        "about2Desc": "We are proud to the serve our community and are committed to smile making a positive impact on the world health of our patients.",
-        "about2Btn": "READ MORE"
+    {
+      "title": "Dermatology Department",
+      "description": "",
+      "link": "/"
     },
-    "departments":[
+    {
+      "title": "Skin Care Department",
+      "description": "",
+      "link": "/"
+    },
+    {
+      "title": "Gynecology Department",
+      "description": "",
+      "link": "/"
+    },
+    {
+      "title": "Nutrition and Slimming Department",
+      "description": "",
+      "link": "/"
+    },
+    {
+      "title": "Laser Department",
+      "description": "",
+      "link": "/"
+    },
+    {
+      "title": "Plastic Surgery Department",
+      "description": "",
+      "link": "/"
+    }
+  ],
+  "menuItems": [
+    {
+      "label": "About Us",
+      "link": "/about_us"
+    },
+    {
+      "label": "Department",
+      "link": "/",
+      "subMenu": [
         {
-            "title": "Dental",
-            "description": "Transform Your Smile and Confidence with Damas Medical Center's.. Transform Your Smile and Confidence with Damas Medical Center's..",
-            "link": "/"
-        },
-        {
-            "title": "Derma",
-            "description": "Discover Your Inner Radiance Through Personalized Aesthetics... Discover Your Inner Radiance Through Personalized Aesthetics...",
-            "link": "/"
-        },
-        {
-            "title": "Laser Hair Removal",
-            "description": "Laser Hair Removal at Damas Medical Center... Laser Hair Removal at Damas Medical Center... Laser Hair Removal at Damas Medical Center...",
-            "link": "/"
-        },        
-        {
-            "title": "Skin Care",
-            "description": "We understand the importance of healthy, beautiful skin... We understand the importance of healthy, beautiful skin... We understand the importance of",
-            "link": "/"
-        },        
-        {
-            "title": "Gynecology",
-            "description": "we celebrate women's health and well-being in all its aspects... we celebrate women's health and well-being in all its aspects...",
-            "link": "/"
-        },        
-        {
-            "title": "Slimming",
-            "description": "A Journey to Transformation at Damas Medical Center's Slimming... A Journey to Transformation at Damas Medical Center's Slimming...",
-            "link": "/"
-        }
-    ],
-   
-    "menuItems" :[
-        {
-          "label": "About Us",
-          "link": "/"
-        },
-        {
-          "label": "Department",
-          "link": "/",
+          "label": "Dental",
           "subMenu": [
             {
-              "label": "Dental",
-              "subMenu": [
-                { "label": "Hollywood Smile (Veneers)", "link": "/" },
-                { "label": "Implant", "link": "/" },
-                { "label": "Orthodontics", "link": "/" },
-                { "label": "Teeth Whitening", "link": "/" },
-                { "label": "Mouth Rehabilitation", "link": "/" },
-                { "label": "Root Canal Treatment", "link": "/" },
-                { "label": "Pediatric", "link": "/" },
-                { "label": "Dental Surgical Treatment", "link": "/" },
-                { "label": "Oral Health (Gum Treatment)", "link": "/" },
-                { "label": "Restorative Dentistry", "link": "/" }
-              ]
+              "label": "Hollywood Smile (Veneers)",
+              "link": "/"
             },
             {
-              "label": "Derma",
-              "subMenu": [
-                { "label": "Dermal Fillers", "link": "/" },
-                { "label": "Botox", "link": "/" },
-                { "label": "Cosmetic Threads", "link": "/" },
-                { "label": "Rejuvenation Injection", "link": "/" }
-              ]
+              "label": "Implant",
+              "link": "/"
             },
             {
-              "label": "Laser Hair Removal",
-              "subMenu": [
-                { "label": "Candela GentleMax Pro", "link": "/" },
-                { "label": "Cynosure Elite+", "link": "/" },
-                { "label": "RevLite SI", "link": "/" }
-              ]
+              "label": "Orthodontics",
+              "link": "/"
             },
             {
-              "label": "Skin Care",
-              "subMenu": [
-                { "label": "Facials", "link": "/" },
-                { "label": "Peeling", "link": "/" },
-                { "label": "Mesotherapy", "link": "/" },
-                { "label": "Plasma face", "link": "/" },
-                { "label": "IV DRIP Glowing", "link": "/" },
-                { "label": "Collagen Threads", "link": "/" },
-                { "label": "Piercing", "link": "/" },
-                { "label": "Facial machines", "link": "/" },
-                { "label": "Hair Treatment", "link": "/" }
-              ]
-            }, {
-              "label": "Gynecology",
-              "subMenu": [
-                { "label": "Bikini Whitening & Rejuvenation", "link": "/" },
-                { "label": "Bikini Tightening - Belladona", "link": "/" },
-                { "label": "Plasma Injection", "link": "/" },
-                { "label": "Gynecological filler", "link": "/" },
-                { "label": "Vaginal Botox", "link": "/" },
-                { "label": "Cosmetic Minor Surgeries", "link": "/" },
-                { "label": "Gynecology aesthetic", "link": "/" },
-                { "label": "Medical Gynecology / Obstetric", "link": "/" }
-              ]
-            },{
-              "label": "Slimming",
-              "subMenu": [
-                { "label": "Machines", "link": "/" },
-                { "label": "Injections", "link": "/" },
-                { "label": "Other Services", "link": "/" }
-              ]
+              "label": "Teeth Whitening",
+              "link": "/"
+            },
+            {
+              "label": "Mouth Rehabilitation",
+              "link": "/"
+            },
+            {
+              "label": "Root Canal Treatment",
+              "link": "/"
+            },
+            {
+              "label": "Pediatric",
+              "link": "/"
+            },
+            {
+              "label": "Dental Surgical Treatment",
+              "link": "/"
+            },
+            {
+              "label": "Oral Health (Gum Treatment)",
+              "link": "/"
+            },
+            {
+              "label": "Restorative Dentistry",
+              "link": "/"
             }
           ]
         },
         {
-          "label": "Our Doctors",
-          "link": "/doctors"
+          "label": "Derma",
+          "subMenu": [
+            {
+              "label": "Dermal Fillers",
+              "link": "/"
+            },
+            {
+              "label": "Botox",
+              "link": "/"
+            },
+            {
+              "label": "Cosmetic Threads",
+              "link": "/"
+            },
+            {
+              "label": "Rejuvenation Injection",
+              "link": "/"
+            }
+          ]
         },
         {
-          "label": "Careers",
-          "link": "/"
+          "label": "Laser Hair Removal",
+          "subMenu": [
+            {
+              "label": "Candela GentleMax Pro",
+              "link": "/"
+            },
+            {
+              "label": "Cynosure Elite+",
+              "link": "/"
+            },
+            {
+              "label": "RevLite SI",
+              "link": "/"
+            }
+          ]
         },
         {
-          "label": "Contact Us",
-          "link": "/contact_us"
+          "label": "Skin Care",
+          "subMenu": [
+            {
+              "label": "Facials",
+              "link": "/"
+            },
+            {
+              "label": "Peeling",
+              "link": "/"
+            },
+            {
+              "label": "Mesotherapy",
+              "link": "/"
+            },
+            {
+              "label": "Plasma face",
+              "link": "/"
+            },
+            {
+              "label": "IV DRIP Glowing",
+              "link": "/"
+            },
+            {
+              "label": "Collagen Threads",
+              "link": "/"
+            },
+            {
+              "label": "Piercing",
+              "link": "/"
+            },
+            {
+              "label": "Facial machines",
+              "link": "/"
+            },
+            {
+              "label": "Hair Treatment",
+              "link": "/"
+            }
+          ]
+        },
+        {
+          "label": "Gynecology",
+          "subMenu": [
+            {
+              "label": "Bikini Whitening & Rejuvenation",
+              "link": "/"
+            },
+            {
+              "label": "Bikini Tightening - Belladona",
+              "link": "/"
+            },
+            {
+              "label": "Plasma Injection",
+              "link": "/"
+            },
+            {
+              "label": "Gynecological filler",
+              "link": "/"
+            },
+            {
+              "label": "Vaginal Botox",
+              "link": "/"
+            },
+            {
+              "label": "Cosmetic Minor Surgeries",
+              "link": "/"
+            },
+            {
+              "label": "Gynecology aesthetic",
+              "link": "/"
+            },
+            {
+              "label": "Medical Gynecology / Obstetric",
+              "link": "/"
+            }
+          ]
+        },
+        {
+          "label": "Slimming",
+          "subMenu": [
+            {
+              "label": "Machines",
+              "link": "/"
+            },
+            {
+              "label": "Injections",
+              "link": "/"
+            },
+            {
+              "label": "Other Services",
+              "link": "/"
+            }
+          ]
         }
-      ],
-    "contact_us":{}
+      ]
+    },
+    {
+      "label": "Our Doctors",
+      "link": "/doctors"
+    },
+    {
+      "label": "Careers",
+      "link": "/"
+    },
+    {
+      "label": "Contact Us",
+      "link": "/contact_us"
+    }
+  ],
+  "contact_us": {}
 }

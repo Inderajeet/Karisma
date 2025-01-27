@@ -18,7 +18,7 @@
 }
 
 .doctor-name{
-    font-size: 29px;
+    font-size: 24px;
     color: #405D53;
     margin-top: 10px;
 }
@@ -88,10 +88,56 @@ ul.nav.cust-social-icons.team-social a.social-youtube {
     font-size: 16px;
     font-weight: 400;
     font-family: 'CabinetGrotesk';
+    color: #5C4033;
 }
+
+
 
 .doctor-info-body{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.dd-row {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items into the next row if they don't fit */
+    gap: 20px; /* Add consistent spacing between items */
+    margin: 0 10px;
+    justify-content: space-evenly;
+  }
+  
+  .doctor-info-cols {
+    flex: 1 1 100%; /* Default: 1 doctor per row for mobile */
+    max-width: 100%; /* Prevent overflow */
+  }
+  
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .doctor-info-cols {
+      flex: 1 1 48%; /* 2 doctors per row for tablets */
+      max-width: 48%;
+    }
+    .doctor-name {
+        font-size: 24px;
+        color: #405D53;
+        margin-top: 10px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .doctor-info-cols {
+      flex: 1 1 30%; /* 3 doctors per row for desktops */
+      max-width: 30%;
+    }
+    .doctor-name {
+        font-size: 28px;
+        color: #405D53;
+        margin-top: 10px;
+    }
+  }
+  
+  @media (max-width:768px){
+    .elementor-cust-icon-list-text {
+        font-size: 15px;
+    }
+  }

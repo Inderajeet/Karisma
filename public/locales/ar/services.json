@@ -1,0 +1,49 @@
+{
+    "services": [
+      {
+        "id": "1",
+        "name": "skin-care",
+        "sections": [
+          {
+            "type": "content",
+            "title": "Empowering Transformation: Discovering the Magic of Effective Skin Care Solutions",
+            "description": "Whether you're seeking a rejuvenating facial, targeting specific concerns, or enhancing your natural beauty, Damas Medical Center has the perfect treatment option for you:",
+            "features": [
+              "Facials and HydraFacial: Experience the revitalizing power of customized facials or the advanced cleansing and hydration of HydraFacial technology for a refreshed and radiant complexion.",
+              "Peeling: Gently remove dead skin cells and promote cellular turnover with a variety of peeling solutions, addressing concerns like uneven texture, hyperpigmentation, and fine lines."
+            ]
+          },
+          {
+            "type": "card",
+            "cards": [
+              {
+                "title": "How the Bubble Facial Works",
+                "subtitle": "Gentle Cleansing",
+                "description": "The treatment begins with a thorough yet gentle cleanse, removing makeup, dirt, and surface impurities without stripping essential moisture.",
+                "features": [
+                  "Exfoliation: Bubbles gently break down and lift away dead skin cells, revealing a fresh, radiant layer of skin.",
+                  "Deep Pore Cleansing: The bubbles penetrate deep into pores, dissolving dirt and oil to minimize their appearance and prevent future breakouts."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Dental Care",
+        "sections": [
+          {
+            "type": "content",
+            "title": "Smile Bright with Advanced Dental Care",
+            "description": "Discover how we bring out your best smile with state-of-the-art dental treatments and personalized care.",
+            "features": [
+              "Teeth Whitening: Brighten your smile with our safe and effective teeth-whitening treatments.",
+              "Dental Implants: Achieve a complete, natural-looking smile with our high-quality dental implants."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

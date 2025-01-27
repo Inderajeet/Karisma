@@ -30,11 +30,11 @@ const Index = () => {
   }, []);
 
   if (!ready || loading) {
-    return ;
+    return;
   }
 
   if (error) {
-    return ;
+    return;
   }
 
   const { styles, images } = jsonData;
@@ -52,7 +52,7 @@ const Index = () => {
         style={{
           backgroundColor: about_us["background-color"],
         }}
-      > 
+      >
         <div
           className="elementor-element elementor-element-23578682 e-flex e-con-boxed e-con e-parent e-lazyloaded"
           data-id={23578682}
@@ -171,16 +171,14 @@ const Index = () => {
                       <div className="elementor-widget-container">
                         <div className="section-title-wrapper">
                           <div className="title-wrap">
-                            <h6 className="sub-title">
-                              <span className="subtitle-dots" style={{
-                                color: about_us["heading-font-color"], fontSize: about_us["heading-font-size"],
-                                fontWeight: 'bold',
-                              }}>{t('about1.about1Heading')}</span>
-                            </h6>
+                            <h2 className="subtitle-dots sub-title home-head-font" style={{
+                              color: about_us["heading-font-color"], fontSize: about_us["heading-font-size"],
+                              fontWeight: 'bold',
+                            }}>{t('about1.about1Heading')}</h2>
                           </div>
                           {/* .title-wrap */}
                           <div className="section-description">
-                            <p className="" style={{
+                            <p className="home-desc-font" style={{
                               color: about_us["font-color"], fontSize: about_us["font-size"], textAlign: 'justify',
                             }}>
                               {t('about1.about1Desc1')}
@@ -201,7 +199,7 @@ const Index = () => {
                       data-id="93a2172"
                       data-element_type="container"
                     >
-                      <div className="e-con-inner" style={{justifyContent: "flex-end"}}>
+                      <div className="e-con-inner" style={{ justifyContent: "flex-end" }}>
                         <div
                           className="elementor-element elementor-element-3484564e e-con-full e-flex e-con e-child"
                           data-id="3484564e"
@@ -291,7 +289,7 @@ const Index = () => {
                       </div>
                       {/* .title-wrap */}
                       <div className="section-description">
-                        <p className="section-content" style={{
+                        <p className="section-content home-desc-font" style={{
                           color: about2["desc-color"], fontSize: about2["desc-size"], textAlign: 'justify',
                         }}>
                           {t('about2.about2Desc')}
@@ -313,7 +311,7 @@ const Index = () => {
                       data-id="66a8144"
                       data-element_type="widget"
                       data-widget_type="ceabutton.default"
-                      >
+                    >
                       {/* <AppointmentButton></AppointmentButton> */}
                       <div className="" >
                         <div className="">
@@ -369,70 +367,8 @@ const Index = () => {
                         <div className="image-container">
                           <img src={home['logoAnim']} alt="Rotating Image" className="rotating-image" />
                         </div>
-
-                        {/* <div className="section-title-wrapper">
-                          <div className="title-wrap">
-                            <h4 className="section-title" style={{
-                              color: about2['right-heading-color'], textAlign: 'justify', fontSize: about2['right-heading-size'],
-                            }}>Dental Checkup</h4>
-                          </div>
-                          <div className="section-description">
-                            <p className="section-content" style={{
-                              color: about2['desc-color'], fontSize: about2['desc-size'],
-                            }}>
-                              Tooth care is essential for maintaining good oral
-                              health, preventing dental problems.{" "}
-                            </p>
-                          </div>
-                        </div> */}
-
                       </div>
                     </div>
-                    {/* <div
-                      className="elementor-element elementor-element-7072a6a9 elementor-widget__width-initial elementor-widget elementor-widget-ceaiconlist"
-                      data-id="7072a6a9"
-                      data-element_type="widget"
-                      data-widget_type="ceaiconlist.default"
-                    >
-                      <div className="elementor-widget-container">
-                        <ul className="nav flex-column cea-icon-list">
-                          <li className="cea-icon-list-item">
-                            {" "}
-                            <span className="cea-icon-list-icon">
-                              <i aria-hidden="true" className=" bi-arrow-up-right" />{" "}
-                            </span>
-                            <span className="" style={{
-                              color: about2['list-color'], fontSize: about2['list-size'], textAlign: 'justify',
-                            }}>
-                              Wisdom tooth extraction
-                            </span>
-                          </li>
-                          <li className="cea-icon-list-item">
-                            {" "}
-                            <span className="cea-icon-list-icon">
-                              <i aria-hidden="true" className=" bi-arrow-up-right" />{" "}
-                            </span>
-                            <span className="" style={{
-                              color: about2['list-color'], fontSize: about2['list-size'], textAlign: 'justify',
-                            }}>
-                              Root Canal Treatment
-                            </span>
-                          </li>
-                          <li className="cea-icon-list-item">
-                            {" "}
-                            <span className="cea-icon-list-icon">
-                              <i aria-hidden="true" className=" bi-arrow-up-right" />{" "}
-                            </span>
-                            <span className="" style={{
-                              color: about2['list-color'], fontSize: about2['list-size'], textAlign: 'justify',
-                            }}>
-                              {" "}
-                              Invisalign &amp; ClearCorrect
-                            </span>
-                          </li>{" "}
-                        </ul>
-                      </div>
-                    </div> */}
                   </div>
 
                 </div>
@@ -480,16 +416,14 @@ const Index = () => {
                         <div className="elementor-widget-container">
                           <div className="section-title-wrapper">
                             <div className="title-wrap">
-                              <h6 className="sub-title">
-                                <span className="subtitle-dots" style={{
-                                  color: department['heading1-color'], fontSize: department['heading1-size'],
-                                  fontWeight: 'bold',
-                                  display: 'block'
-                                }}>Department</span>
-                              </h6>
-                              <h2 className="section-title" style={{ color: department['heading2-color'], fontSize: department['heading2-size'], fontWeight: 'bold' }}>
-                                Comprehensive Care Across Our Specialized Departments
-                              </h2>
+                              <h2 className="subtitle-dots sub-title home-head-font" style={{
+                                color: department['heading1-color'], fontSize: department['heading1-size'],
+                                fontWeight: 'bold',
+                                display: 'block'
+                              }}>{t('services.servicesHeading')}</h2>
+                              <div className="section-title home-desc-font" style={{ color: department['heading2-color'], fontSize: department['heading2-size'], fontWeight: 'normal' }}>
+                                {t('services.servicesDesc')}
+                              </div>
                             </div>
                             {/* .title-wrap */}
                             <div className="section-description" />
@@ -806,13 +740,11 @@ const Index = () => {
                         <div className="elementor-widget-container">
                           <div className="section-title-wrapper">
                             <div className="title-wrap">
-                              <h6 className="sub-title">
-                                <span className="subtitle-dots" style={{
-                                  color: doctors['heading1-color'], fontSize: doctors['heading1-size'],
-                                  fontWeight: 'bold',
-                                  display: 'block'
-                                }}>Our Doctors</span>
-                              </h6>
+                              <h2 className="subtitle-dots sub-title home-head-font" style={{
+                                color: doctors['heading1-color'], fontSize: doctors['heading1-size'],
+                                fontWeight: 'bold',
+                                display: 'block'
+                              }}>Our Doctors</h2>
                               <h2 className="section-title" style={{ color: doctors['heading2-color'], fontSize: doctors['heading2-size'], fontWeight: 'bold' }}>
                                 Friendly Faces, Personalized Care for Your Smile
                               </h2>

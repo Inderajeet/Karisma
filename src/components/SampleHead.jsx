@@ -15,11 +15,10 @@ const SampleHeader2 = () => {
   const [error, setError] = useState(null);
 
   const [currentLang, setCurrentLang] = useState(i18n.language || "en");
-  const [isSticky, setIsSticky] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [lastScrollY, setLastScrollY] = useState(0); // Track last scroll position
   const [isMenuVisible, setIsMenuVisible] = useState(true); // Track menu visibility
   const [isScrolling, setIsScrolling] = useState(false); // Track scrolling state
+  const [isSticky, setIsSticky] = useState(false);
+  const [lastScrollY, setLastScrollY] = useState(0); // Track last scroll position
 
 
   useEffect(() => {
@@ -39,44 +38,53 @@ const SampleHeader2 = () => {
     };
     fetchData();
   }, []);
+
+    // scroll
+    useEffect(() => {
+      const handleScroll = () => {
+        setIsScrolling(true);
+        if (window.scrollY > lastScrollY) {
+          setIsMenuVisible(false);
+        } else {
+          setIsMenuVisible(true);
+        }
+        setLastScrollY(window.scrollY);
+        setIsSticky(window.scrollY > 50);
+  
+        clearTimeout(window.scrollTimeout);
+        window.scrollTimeout = setTimeout(() => {
+          setIsMenuVisible(true);
+          setIsScrolling(false);
+        }, 200);
+      };
+  
+      window.addEventListener("scroll", handleScroll);
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, [lastScrollY]);
+    
   const { images } = data;
   const { header } = images;
   const menuItems = t("menuItems", { returnObjects: true }) || []; // Ensure it's an array
 
-  // scroll
+  // styling arabic classes
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolling(true);
-      if (window.scrollY > lastScrollY) {
-        setIsMenuVisible(false);
-      } else {
-        setIsMenuVisible(true);
-      }
-      setLastScrollY(window.scrollY);
-      setIsSticky(window.scrollY > 50);
-
-      clearTimeout(window.scrollTimeout);
-      window.scrollTimeout = setTimeout(() => {
-        setIsMenuVisible(true);
-        setIsScrolling(false);
-      }, 200);
+    const handleLanguageChange = () => {
+      const { language } = i18n;
+      document.body.dir = i18n.dir();
+      document.documentElement.classList.toggle('arabic', language === 'ar'); // Apply/remove 'arabic' class
     };
-
-    window.addEventListener("scroll", handleScroll);
+  
+    handleLanguageChange(); // Initial check
+    i18n.on('languageChanged', handleLanguageChange);
+  
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      i18n.off('languageChanged', handleLanguageChange);
     };
-  }, [lastScrollY]);
+  }, [i18n]);
 
-  // const toggleMenu = () => setMenuOpen(!menuOpen);
-  // const [openSubmenus, setOpenSubmenus] = useState({});
 
-  // const toggleSubmenu = (index) => {
-  //   setOpenSubmenus((prev) => ({
-  //     ...prev,
-  //     [index]: !prev[index], 
-  //   }));
-  // };
   const changeLanguage = () => {
     const newLang = lng === "en" ? "ar" : "en";
     const newPath = location.pathname.replace(`/${lng}`, `/${newLang}`);
@@ -102,7 +110,7 @@ const SampleHeader2 = () => {
   );
 
   return (
-    <header className={`header ${isSticky ? "sticky" : ""}`}>
+    <header className={`header`}>
       {/* Social Icons */}
       <SocialIcons />
 

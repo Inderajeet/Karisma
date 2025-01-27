@@ -1,0 +1,55 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "link": "skin-care",
+      "name": "Basic HydraFacial",
+      "sections": [
+        {
+          "type": "content",
+          "title": "A Refreshing Foundation for Radiant Skin",
+          "description": "At Karisma, our Basic HydraFacial is designed to cleanse, hydrate, and rejuvenate your skin, making it the perfect introduction to advanced skincare." 
+        },
+        {
+          "type": "card",
+          "cards": [
+            {
+              "title": "Benefits of a Basic HydraFacial",
+              "subtitle": " This foundational treatment delivers multiple benefits, catering to all skin types:",
+              "features": [
+                "Deep Cleansing & Exfoliation: The HydraFacial machines gently removes impurities, including blackheads, whiteheads, excess oil, and dead skin cells, leaving your complexion refreshed and renewed.",
+                "Enhanced Absorption: By clearing away surface debris, the treatment primes your skin for maximum absorption of nourishing serums and skincare products.",
+                "Hydration Boost: A soothing application of hydrating products restores moisture, leaving your skin plump and healthy-looking.",
+                "Versatility: Gentle yet effective, this treatment suits all skin types, offering a revitalizing cleanse for everyone."
+              ]
+            },{
+               "title": "Benefits of a Basic HydraFacial",
+              "subtitle": " This foundational treatment delivers multiple benefits, catering to all skin types:",
+              "features": [
+                "Deep Cleansing & Exfoliation: The HydraFacial machines gently removes impurities, including blackheads, whiteheads, excess oil, and dead skin cells, leaving your complexion refreshed and renewed.",
+                "Enhanced Absorption: By clearing away surface debris, the treatment primes your skin for maximum absorption of nourishing serums and skincare products.",
+                "Hydration Boost: A soothing application of hydrating products restores moisture, leaving your skin plump and healthy-looking.",
+                "Versatility: Gentle yet effective, this treatment suits all skin types, offering a revitalizing cleanse for everyone."
+                ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Dental Care",
+      "sections": [
+        {
+          "type": "content",
+          "title": "Smile Bright with Advanced Dental Care",
+          "description": "Discover how we bring out your best smile with state-of-the-art dental treatments and personalized care.",
+          "features": [
+            "Teeth Whitening: Brighten your smile with our safe and effective teeth-whitening treatments.",
+            "Dental Implants: Achieve a complete, natural-looking smile with our high-quality dental implants."
+          ]
+        }
+      ]
+    }
+  ]
+}

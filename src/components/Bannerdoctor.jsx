@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { fetchAllJson } from "../../utils/fetchAllJson";
-import "../../components/Header.css";
-import "../../components/Banner.css";
-const AboutBanner = () => {
+import { fetchAllJson } from "../utils/fetchAllJson";
+import "./Header.css";
+import "./Banner.css";
+
+const BannerDoctor = () => {
   const [jsonData, setJsonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -17,23 +19,28 @@ const AboutBanner = () => {
         setLoading(false);
       }
     };
+
     fetchData();
   }, []);
+
   if (loading) {
     return ;
   }
+
   if (error) {
     return ;
   }
+
   const { images } = jsonData;
   const { contact } = images;
+
   return (
     <>
       <div
         className="background-img"
         style={{ backgroundImage: `url(${contact?.bannerImg})` }}
       >
-        <div className="img-overlay"></div> 
+        <div className="img-overlay"></div>
       </div>
       <div className="container" style={{ position: "relative", zIndex: "100" }}>
         <div className="mainBanner">
@@ -42,7 +49,7 @@ const AboutBanner = () => {
               <div className="col-12">
                 <div className="page-title-wrap">
                   <ul className="page-title-elements page-title-center pull-center">
-                    <h1 className="page-title">About Us</h1>
+                    <h1 className="page-title">Our Doctors</h1>
                     <div className="breadcrumbs-wrap">
                       <li className="breadcrumb-wrap">
                         <ul id="breadcrumb" className="breadcrumb nav">
@@ -52,7 +59,7 @@ const AboutBanner = () => {
                             </a>
                           </li>
                           <li style={{ fontSize: "17px", marginLeft: "4px" }}>
-                            &gt; About Us
+                            &gt; Our Doctors
                           </li>
                         </ul>
                       </li>
@@ -67,4 +74,5 @@ const AboutBanner = () => {
     </>
   );
 };
-export default AboutBanner;
+
+export default BannerDoctor;

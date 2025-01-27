@@ -75,6 +75,22 @@ span.menu-icon {
 .mobile-logo {
     width: 30%;
 }
+.header.sticky .mobile-menu {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .mobile-menu {
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: top 0.3s ease-in-out;
+  }
+  
+  .mobile-menu.hidden {
+    top: -100px;
+  }
+  
 
 .mobile-menu-logo {
     width: 50%;

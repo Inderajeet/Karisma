@@ -1,0 +1,47 @@
+.tab-menu-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: none;
+    padding: 0px 35px;
+    /* background: rgba(255, 255, 255, 0.9); */
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    /* border-radius: 0 0 57px 57px; */
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.3s ease;
+    z-index: 10;
+  }
+  
+  /* When the menu is hidden during scroll */
+  .tab-menu-bar.hidden {
+    transform: translateY(-100%);
+    /* Move the menu out of view */
+  }
+  
+  /* When the menu is visible */
+  .tab-menu-bar.visible {
+    transform: translateY(0);
+    /* Reset to original position */
+    transition: transform 2s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  
+  
+  /* When the menu is sticky */
+  .tab-menu-bar.scrolling {
+    /* background-color: rgba(255, 255, 255, 0.8);  */
+    border-radius: 0;
+    /* background-color: #577065bd; */
+    background-color: #d9c5adb8;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px) saturate(150%);
+  }
+  
+  
+  
+  @media screen and (max-width: 1123px) and (min-width: 769px) {
+    .tab-menu-bar {
+      display: block;
+    }
+  }
+  
