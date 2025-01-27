@@ -31,6 +31,12 @@ import Footer from './components/footer';
 import SampleHeader2 from './components/SampleHead';
 import TopBar from './components/TopBar';
 import DoctorPage from './pages/doctors/doctor_1';
+import Dept from './pages/departments';
+import Dental from './pages/departments/dental';
+import Veneers from './pages/departments/veneers';
+import Implant from './pages/departments/implant';
+import Orthodontics from './pages/departments/orthodontics';
+import Gynecology from './pages/departments/gynecology';
 import Services from './departments/Services';
 import ServiceTemplate from './departments/service templates/ServiceTemplate';
 import ServiceList from './departments/service templates/ServiceList';
@@ -77,6 +83,11 @@ function LanguageWrapper() {
           <Route path="skincare" element={<Skincare />} />
           <Route path="service/hydra-facial" element={<HydraFacial />} />
           <Route path="dept/dental" element={<Dept />} />
+          <Route path="/dental" element={<Dental />} />
+          <Route path="/veneers" element={<Veneers />} />
+          <Route path="/implant" element={<Implant />} /> 
+          <Route path="/orthodontics" element={<Orthodontics />} />    
+          <Route path="/gynecology" element={<Gynecology />} />
         </Routes>
       </CartProvider>
       <Footer />

@@ -29,7 +29,7 @@ const DeptBanner = (props) => {
                           </li>
                           <li>
                             <a href="/">
-                            &gt; <span style={{ fontSize: "17px" }}>Dental</span>
+                            &gt; <span style={{ fontSize: "17px" }}>Department</span>
                             </a>
                           </li>
                           <li style={{ fontSize: "17px", marginLeft: "4px" }}>

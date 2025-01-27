@@ -1,5 +1,5 @@
 {
-    "about": {
+    "about":{
         "section1": {
             "title": "Vision",
             "description": "To be a leader in luxury aesthetics by offering innovative and personalized treatments that empower individuals to embrace their inner charisma and redefine their beauty on their own terms."
@@ -18,47 +18,47 @@
         },
         "audience": {
             "overview": "Karisma caters to a diverse clientele, including local Emiratis and Arab expats spanning Gen Z, Gen X, Millennials, and Boomers. Our audience is characterized by the following traits:",
-            "demographics": {
-                "age": "Primarily ranging from 18 to 55 years old",
-                "gender": "Predominantly female, with services tailored for all genders",
-                "incomeLevel": "Middle to high-income brackets, valuing luxury and exclusivity"
-            },
-            "psychographics": {
-                "lifestyle": "Health-conscious, career-driven, and socially active",
-                "values": [
-                    "Confidence",
-                    "Self-expression",
-                    "Empowerment",
-                    "Luxury"
-                ],
-                "aspirations": [
-                    "Enhance natural beauty",
-                    "Express unique charisma",
-                    "Enjoy exclusive aesthetic services"
-                ]
-            },
-            "behavioralTraits": {
-                "luxurySeekers": "Appreciate high-quality products and services",
-                "informedDecisionMakers": "Knowledgeable consumers who seek expert advice",
-                "communityOriented": "Value recommendations and belonging"
-            },
+           "demographics": {
+          "age": "Primarily ranging from 18 to 55 years old",
+          "gender": "Predominantly female, with services tailored for all genders",
+          "incomeLevel": "Middle to high-income brackets, valuing luxury and exclusivity"
+        },
+        "psychographics": {
+          "lifestyle": "Health-conscious, career-driven, and socially active",
+          "values": [
+            "Confidence",
+            "Self-expression",
+            "Empowerment",
+            "Luxury"
+          ],
+          "aspirations": [
+            "Enhance natural beauty",
+            "Express unique charisma",
+            "Enjoy exclusive aesthetic services"
+          ]
+        },
+        "behavioralTraits": {
+          "luxurySeekers": "Appreciate high-quality products and services",
+          "informedDecisionMakers": "Knowledgeable consumers who seek expert advice",
+          "communityOriented": "Value recommendations and belonging"
+        },
             "conclusion": "In conclusion, Karisma is deeply committed to understanding our discerning audience and their unique needs. We recognize that our clients seek more than just cosmetic enhancements; they desire a transformative experience that boosts their confidence and self-esteem. Through personalized consultations and bespoke treatments, we emphasize the discovery of inherent charisma, ensuring our services align with their aspirations for self-improvement and empowerment. By fostering and amplifying their internal charisma, we enable our clients to feel beautiful both inside and out. At Karisma, we celebrate the distinctive qualities that make each individual remarkable, ensuring they shine with renewed self-assurance while embracing their authentic selves"
         },
         "brandPersona": {
             "overview": "Karisma embodies a confident, elegant, and sophisticated persona. It is a brand that is modern, luxurious, and empowering. It communicates with a tone of voice that is positive, uplifting, and refined, offering not just aesthetic services but a luxurious, transformative experience. Karisma is the friend that inspires you to be your best self, to shine confidently, and to embrace your unique beauty with pride.",
             "coreCharacteristics": {
-                "luxuriousEmpowering": "Karisma is dedicated to providing elite services that enhance each client’s unique beauty. We aim not just to change appearances but to empower individuals, helping them realize and embrace their inner charisma.",
-                "consultativeSupportive": "We prioritize personalized consultations that go beyond standard beauty treatments. Our approach is consultative, focusing on understanding each client’s individual needs and aspirations, ensuring tailored guidance and support throughout their journey.",
-                "authenticTrustworthy": "Karisma builds trust through transparent communication and expert advice. Our clients can rely on us for honest assessments and recommendations, as we are committed to their well-being and confidence.",
-                "sophisticatedAesthetic": "The brand's visual identity reflects elegance and refinement, using a luxurious color palette and intricate design elements. This sophistication extends to every aspect of our service, creating an environment that feels exclusive yet welcoming."
-            },
-            "emotionalConnection": {
-                "experience": "Karisma offers more than just a service—it delivers an experience, a feeling.",
-                "empowerment": "It's not simply about aesthetic treatments; it's about evoking a sense of empowerment, confidence, and inner radiance. With every personalized treatment, Karisma enhances your natural beauty while igniting the charisma within, leaving you feeling transformed, both inside and out.",
-                "beyondAppearance": "It's not just about looking good—it's about feeling extraordinary.",
-                "uniqueCharisma": "Our goal is to help clients realize their unique, inherent charisma, revealing their hidden potential. By honing these qualities, we empower individuals to become more charismatic, which in turn boosts their confidence and attractiveness.",
-                "journey": "Ultimately, we guide clients on a journey of inner and outer beauty, ensuring they feel empowered, radiant, and ready to embrace their best selves."
-            }
+          "luxuriousEmpowering": "Karisma is dedicated to providing elite services that enhance each client’s unique beauty. We aim not just to change appearances but to empower individuals, helping them realize and embrace their inner charisma.",
+          "consultativeSupportive": "We prioritize personalized consultations that go beyond standard beauty treatments. Our approach is consultative, focusing on understanding each client’s individual needs and aspirations, ensuring tailored guidance and support throughout their journey.",
+          "authenticTrustworthy": "Karisma builds trust through transparent communication and expert advice. Our clients can rely on us for honest assessments and recommendations, as we are committed to their well-being and confidence.",
+          "sophisticatedAesthetic": "The brand's visual identity reflects elegance and refinement, using a luxurious color palette and intricate design elements. This sophistication extends to every aspect of our service, creating an environment that feels exclusive yet welcoming."
+        },
+        "emotionalConnection": {
+          "experience": "Karisma offers more than just a service—it delivers an experience, a feeling.",
+          "empowerment": "It's not simply about aesthetic treatments; it's about evoking a sense of empowerment, confidence, and inner radiance. With every personalized treatment, Karisma enhances your natural beauty while igniting the charisma within, leaving you feeling transformed, both inside and out.",
+          "beyondAppearance": "It's not just about looking good—it's about feeling extraordinary.",
+          "uniqueCharisma": "Our goal is to help clients realize their unique, inherent charisma, revealing their hidden potential. By honing these qualities, we empower individuals to become more charismatic, which in turn boosts their confidence and attractiveness.",
+          "journey": "Ultimately, we guide clients on a journey of inner and outer beauty, ensuring they feel empowered, radiant, and ready to embrace their best selves."
+        }
         },
         "toneOfVoice": {
             "overview": "Karisma's tone of voice embodies sophistication, trustworthiness, and luxury. It should convey:",
@@ -103,11 +103,11 @@
             ],
             "summary": "The Karisma brand prism emphasizes the luxurious and empowering nature of its services, focusing on enhancing clients' internal charisma to elevate their confidence and attractiveness. By combining advanced medical science with artistry, Karisma positions itself as a trusted partner in the personal transformation journey, fostering long-term relationships built on trust, expertise, and personalized care. The brand’s identity resonates with discerning individuals who seek to redefine their radiance through tailored experiences, ensuring they feel and look their best."
         },
-        "ceoMessage": {
+        "ceoMessage":{
             "ceoMessageTagline": "Experience a Transformational Journey through Our Wide Spectrum of Services",
-            "ceoMessageContent": "Damas Medical Center is more than just a clinic; it is a vision that we have proudly cultivated over the years through wisdom and numerous shared triumphs. Today, Damas Medical Centre stands as a cornerstone of Sharjah's healthcare landscape, seamlessly blending science and artistry while reflecting the emirate's rich heritage.Since our establishment in 2007, Damas has experienced continuous growth and innovation. What initially began as a dedicated dental clinic with a small team driven by unwavering determination has evolved into one of the region's leading derma-backed medical care facilities, supported by our 14 clinics and over 100,000 Google reviews. Our comprehensive offerings encompass a wide range of medical aesthetic services, each renowned for its own accolades. In dentistry, we have created over 40,000 dazzling Hollywood smiles and dental implants. Our aesthetic services, such as laser hair removal, have positioned us as one of the largest centers in the UAE with over 20 state-of-the-art machines. Additionally, we offer cosmetic gynecology, bariatric surgery, and plastic surgery -all conveniently located under one roof. Our commitment to excellence has fueled our expansion, establishing us as a holistic, single-stop solution for all your medical needs. At Damas Medical Centre, we are dedicated to providing the highest quality care with the most advanced treatments available. Our continued success is a result of our unwavering commitment to innovation, excellence, and, most importantly, the well-being of our patients.",
+            "ceoMessageContent":"Damas Medical Center is more than just a clinic; it is a vision that we have proudly cultivated over the years through wisdom and numerous shared triumphs. Today, Damas Medical Centre stands as a cornerstone of Sharjah's healthcare landscape, seamlessly blending science and artistry while reflecting the emirate's rich heritage.Since our establishment in 2007, Damas has experienced continuous growth and innovation. What initially began as a dedicated dental clinic with a small team driven by unwavering determination has evolved into one of the region's leading derma-backed medical care facilities, supported by our 14 clinics and over 100,000 Google reviews. Our comprehensive offerings encompass a wide range of medical aesthetic services, each renowned for its own accolades. In dentistry, we have created over 40,000 dazzling Hollywood smiles and dental implants. Our aesthetic services, such as laser hair removal, have positioned us as one of the largest centers in the UAE with over 20 state-of-the-art machines. Additionally, we offer cosmetic gynecology, bariatric surgery, and plastic surgery -all conveniently located under one roof. Our commitment to excellence has fueled our expansion, establishing us as a holistic, single-stop solution for all your medical needs. At Damas Medical Centre, we are dedicated to providing the highest quality care with the most advanced treatments available. Our continued success is a result of our unwavering commitment to innovation, excellence, and, most importantly, the well-being of our patients.",
             "ceoName": "Dr Hesham Nafie",
-            "ceoDesignation": "CEO, Karisma"
+            "ceoDesignation":"CEO, Karisma"
         }
     }
 }

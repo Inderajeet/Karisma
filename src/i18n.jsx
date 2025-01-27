@@ -10,7 +10,7 @@ i18n
   .init({
     fallbackLng: 'en', // Fallback language
     debug: true,
-    ns: ['translation','doctors', 'contact', 'about', 'services', 'gyneServices'], 
+    ns: ['translation','doctors','about','veneers','implant','gynecology','contact', 'services', 'gyneServices'], 
     defaultNS: 'translation', 
     backend: {
       loadPath: '/locales/{{lng}}/{{ns}}.json',
