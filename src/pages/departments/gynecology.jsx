@@ -6,10 +6,10 @@ import Blog from './blog';
 import PointBlog from './point_blog';
 import ParaSection from './para_section';
 
-const Dental = () => {
+const Gynecology = () => {
     const [loading, setLoading] = useState(true);
           const [error, setError] = useState(null);
-         const { t, ready } = useTranslation('dental');
+         const { t, ready } = useTranslation('gynecology');
          const [imageData, setImageData] = useState(null);
         
          useEffect(() => {
@@ -38,26 +38,33 @@ const Dental = () => {
           }
           const {images} = imageData;
           
-          const dental = t('dental', { returnObjects: true });
+          const gynecology = t('gynecology', { returnObjects: true });
   return (
     <div>
-      <DeptBanner pageName = "Dental" bannerImg = {images.about.visionImg}></DeptBanner>
+      <DeptBanner pageName = "Gynecology" bannerImg = {images.about.visionImg}></DeptBanner>
       <Blog
         blogImg={images.about.visionImg}
-        blogTitle={dental.blog1?.title}
-        blogDesc={dental.blog1?.description}
+        blogTitle={gynecology.blog1?.title}
+       
         additionalParagraphs={[
-            dental.blog1?.content
+            gynecology.blog1?.content
         ]}
       />
-      <PointBlog title={dental?.point_blog1?.title} description={dental?.point_blog1?.description} benefits={dental?.point_blog1?.benefits} />
-      <PointBlog title={dental?.point_blog3?.title} description={dental?.point_blog2?.description} benefits={dental?.point_blog2?.benefits} />
-      {/* <PointBlog title={dental?.point_blog3?.title} description={dental?.point_blog3?.description} benefits={dental?.point_blog3?.benefits} /> */}
-      <ParaSection title={dental?.para_sec1?.title} desc={dental?.para_sec1?.description} />;
-      <PointBlog title={dental?.point_blog4?.title} description={dental?.point_blog4?.description} benefits={dental?.point_blog4?.benefits} />
-      <ParaSection title={dental?.para_sec2?.title} desc={dental?.para_sec2?.description} />;
+      <PointBlog title={gynecology?.point_blog1?.title} description={gynecology?.point_blog1?.description} benefits={gynecology?.point_blog1?.benefits} />
+      <PointBlog title={gynecology?.point_blog2?.title} description={gynecology?.point_blog2?.description} benefits={gynecology?.point_blog2?.benefits} />
+      <Blog
+        blogImg={images.about.visionImg}
+        blogTitle={gynecology.blog2?.title}
+       blogDesc={gynecology.blog2?.description}
+        additionalParagraphs={[ 
+            gynecology.blog2_para1?.title,gynecology.blog2_para1?.description,gynecology.blog2_para2?.title,gynecology.blog2_para2?.description
+        ]}
+      />
+      <PointBlog title={gynecology?.point_blog3?.title} description={gynecology?.point_blog3?.description} benefits={gynecology?.point_blog3?.benefits} />
+      <ParaSection title={gynecology?.para_sec1?.title} desc={gynecology?.para_sec1?.description} />;
+      
     </div>
   )
 }
 
-export default Dental
+export default Gynecology
