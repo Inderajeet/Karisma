@@ -72,7 +72,7 @@ const VideoSection = () => {
                 </div>
             </div>{isOpen && (
                 <div className="modal" onClick={toggleModal}>
-                    <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                    <div className="vid-modal-content" onClick={(e) => e.stopPropagation()}>
                         <iframe
                             width="560"
                             height="315"

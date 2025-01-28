@@ -31,10 +31,10 @@
   },
   "about2": {
     "background-color": "#D9C5AD",
-    "heading1-size": "21px",
-    "heading1-color": "#577065",
     "heading2-size": "35px",
     "heading2-color": "#577065",
+    "heading1-size": "21px",
+    "heading1-color": "#577065",
     "right-heading-color": "#ACB9D0",
     "right-heading-size": "30px",
     "desc-size": "18px",
@@ -47,10 +47,10 @@
   },
   "department": {
     "background-color": "#D9C5AD",
-    "heading1-size": "21px",
+    "heading2-size": "20px",
+    "heading2-color": "#5C4033",
+    "heading1-size": "35px",
     "heading1-color": "#577065",
-    "heading2-size": "35px",
-    "heading2-color": "#577065",
     "cards": {
       "background-color": "#fff",
       "heading-color": "#577065",
@@ -74,10 +74,10 @@
   },
   "doctors": {
     "background-color": "#D9C5AD",
-    "heading1-color": "#577065",
-    "heading1-size": "21px",
     "heading2-color": "#577065",
-    "heading2-size": "35px"
+    "heading2-size": "21px",
+    "heading1-color": "#577065",
+    "heading1-size": "35px"
   },
   "footer":{
     "background-color": "#D9C5AD",

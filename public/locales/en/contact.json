@@ -1,0 +1,42 @@
+{
+    "contact": {
+        "heading": "Talk To One of Our Experts Today",
+        "workingHours": "Working Hours",
+        "workingHoursDesc1": "Sunday- Thursday 10:00 AM to 8:00 PM",
+        "workingHoursDesc2": "Saturday from 10:00 AM to 9:00 PM",
+        "contactInfo": [
+            {
+                "title": "Phone",
+                "content": "06 506 8777",
+                "content2": "0504525189",
+                "link": "tel:06 506 8777",
+                "link2": "tel:0504525189",
+                "imgSrc": "/assets/wp-content/uploads/2024/05/dental-call.webp",
+                "imgAlt": "Phone Icon"
+            },
+            {
+                "title": "Email",
+                "content": "info@karismamc.com",
+                "link": "mailto:info@karismamc.com",
+                "imgSrc": "/assets/wp-content/uploads/2024/05/dental-msg.webp",
+                "imgAlt": "Email Icon"
+            },
+            {
+                "title": "Address",
+                "content": "Al Raha Walk, Al Muntazah Street, Sharjah",
+                "link": null,
+                "imgSrc": "/assets/wp-content/uploads/2024/05/dental-location.webp",
+                "imgAlt": "Location Icon"
+            }
+        ],
+        "form": {
+            "enquiry": "Enquiry",
+            "feedback": "Feedback",
+            "name": "Name",
+            "email": "Email",
+            "phone": "Phone",
+            "message": "Message",
+            "submit": "Send Now"
+        }
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Blog.css'; // Import CSS for styling
+import './blog.css'; // Import CSS for styling
 
 const Blog = (props) => {
   return (

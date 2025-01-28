@@ -63,6 +63,7 @@
       "subMenu": [
         {
           "label": "Dental",
+          "link": "/dental",
           "subMenu": [
             {
               "label": "Hollywood Smile (Veneers)",
@@ -187,6 +188,7 @@
         },
         {
           "label": "Gynecology",
+          "link": "/gynecology",
           "subMenu": [
             {
               "label": "Bikini Whitening & Rejuvenation",

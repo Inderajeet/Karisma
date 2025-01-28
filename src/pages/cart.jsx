@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import Footer from "../components/footer";
 import { useEffect } from "react";
 import HeaderCart from "../components/headerCart";
+import Banner from "../components/Banner";
 
 export default function Cart() {
   const { cartItems, removeFromCart } = useCart();
@@ -17,7 +18,8 @@ export default function Cart() {
 
   return (
     <>
-    <HeaderCart></HeaderCart>
+    {/* <HeaderCart></HeaderCart> */}
+    <Banner />
       <div className="cart">
         <div className="happysmile-content-wrap container page">
         {cartItems.length === 0 ? (

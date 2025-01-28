@@ -15,7 +15,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ContactPage from './pages/contact_us';
 import Index from './pages/index';
 import About from './pages/about/index';
-import About from './pages/about/index';
 import Doctors from './pages/doctor';
 import { CartProvider } from './components/CartContext';
 import Offers from './pages/offers';

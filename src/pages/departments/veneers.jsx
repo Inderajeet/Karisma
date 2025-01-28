@@ -7,45 +7,45 @@ import PointBlog from './point_blog';
 import ParaSection from './para_section';
 
 const Veneers = () => {
-    const [loading, setLoading] = useState(true);
-              const [error, setError] = useState(null);
-             const { t, ready } = useTranslation('veneers');
-             const [imageData, setImageData] = useState(null);
-            useEffect(() => {
-                        const fetchData = async () => {
-                          try {
-                            
-                            const imageData = await fetchAllJson(); 
-                           
-                            setImageData(imageData);
-                          console.log(imageData);
-                          } catch (err) {
-                            setError(err.message);
-                          } finally {
-                            setLoading(false);
-                          }
-                        };
-                    
-                        fetchData();
-                      }, []);
-                      if (!ready || loading) {
-                       return <div>Loading...</div>;
-                     }
-                   
-                     if (error) {
-                       return <div>Error: {error}</div>;
-                     }
-                     const {images} = imageData;
-                     const veneers = t('veneers', { returnObjects: true });
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const { t, ready } = useTranslation('veneers');
+  const [imageData, setImageData] = useState(null);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+
+        const imageData = await fetchAllJson();
+
+        setImageData(imageData);
+        console.log(imageData);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+  if (!ready || loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
+  const { images } = imageData;
+  const veneers = t('veneers', { returnObjects: true });
   return (
     <div>
-      <DeptBanner pageName = "Hollywood Smile  (Veneers)" bannerImg = {images.about.visionImg}></DeptBanner>
+      <DeptBanner pageName="Hollywood Smile  (Veneers)" bannerImg={images.about.visionImg}></DeptBanner>
       <Blog
         blogImg={images.about.visionImg}
         blogTitle={veneers.blog1?.title}
         blogDesc={veneers.blog1?.description}
         additionalParagraphs={[
-            veneers.blog1?.content
+          veneers.blog1?.content
         ]}
       />
       <PointBlog title={veneers?.point_blog1?.title} description={veneers?.point_blog1?.description} benefits={veneers?.point_blog1?.benefits} />

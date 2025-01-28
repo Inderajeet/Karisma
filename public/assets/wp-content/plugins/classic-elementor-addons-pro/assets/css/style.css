@@ -2616,11 +2616,11 @@ body .row>* {
     margin: 0;
 }
 .team-image-wrap img {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    height: 400px;
-    width: 400px;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    /* height: 400px;
+    width: 400px; */
     object-fit: cover;
 }
 .team-info .team-title h2 {
