@@ -3,6 +3,7 @@ import "../../components/Header.css";
 import "../../components/Banner.css";
 
 const DeptBanner = (props) => {
+  const main =["Dental"]
   return (
     <>
       <div
@@ -29,7 +30,7 @@ const DeptBanner = (props) => {
                           </li>
                           <li>
                             <a href="/">
-                            &gt; <span style={{ fontSize: "17px" }}>Department</span>
+                            &gt; <span style={{ fontSize: "17px" }}>{props.pageName in main ? props.pageName : "Department" }</span>
                             </a>
                           </li>
                           <li style={{ fontSize: "17px", marginLeft: "4px" }}>
