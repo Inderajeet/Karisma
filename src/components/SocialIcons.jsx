@@ -40,8 +40,7 @@ const SocialIcons = () => {
     return (
         <>
             <a
-                // onClick={handleOpen}
-                href="/"
+                onClick={handleOpen}
                 className="mobile-book-now hoveranim"
                 // data-bs-toggle="modal"
                 // data-bs-target="#bookingModal" 
@@ -61,8 +60,8 @@ const SocialIcons = () => {
                 <ul >
                     <li >
                         <a
-                            // onClick={handleOpen}
-                            href="/"
+                            onClick={handleOpen}
+                            // href="/"
                             className="bookNow hoveranim"
                             // data-bs-toggle="modal"
                             // data-bs-target="#bookingModal" 

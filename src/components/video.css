@@ -68,7 +68,7 @@
     }
 }
   
-.modal-content {
+.vid-modal-content {
     position: relative;
     width: 90%;
     max-width: 800px;
@@ -80,7 +80,7 @@
     animation: scaleIn 0.3s forwards; /* Content scale-in animation */
 }
 
-.modal-content.hide {
+.vid-modal-content.hide {
     animation: scaleOut 0.3s forwards; /* Content scale-out animation */
 }
 

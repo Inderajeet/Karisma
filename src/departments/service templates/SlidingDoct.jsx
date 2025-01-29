@@ -25,7 +25,7 @@ const SlidingDoct = ({ doctors, cards, isRTL }) => {
       data-id="7017c942"
       data-element_type="container"
     >
-      <div className="e-con-inner">
+      <div className="e-con-inner" style={{margin:"0px"}}>
         <div
           className="elementor-element elementor-element-24da0674 e-flex e-con-boxed e-con e-child"
           data-id="24da0674"

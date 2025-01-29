@@ -746,7 +746,6 @@ const Index = () => {
                                 display: 'block'
                               }}>Our Doctors</h2>
                               <h2 className="section-title" style={{ color: doctors['heading2-color'], fontSize: doctors['heading2-size'], fontWeight: 'bold' }}>
-                                Friendly Faces, Personalized Care for Your Smile
                               </h2>
                             </div>
                             {/* .title-wrap */}

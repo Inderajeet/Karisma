@@ -6,50 +6,8 @@ import Banner from "../components/Banner";
 import BannerDoctor from '../components/Bannerdoctor';
 
 export default function Doctors() {
-  const { t, i18n } = useTranslation(['translation', 'doctors']);
+  const { t, i18n } = useTranslation('doctors');
 
-  // const doctors = [
-  //   {
-  //     id: 1,
-  //     name: "Michelle Bachelet",
-  //     specialties: "Clinical Nutrition",
-  //     deparmnents: "Dental",
-  //     page: "/doctor-1",
-  //     imageUrl: "https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2019/02/doctor-16-500x456.jpg",
-  //   },
-  //   {
-  //     id: 2,
-  //     name: "Ben Carson",
-  //     specialties: "Orthopedics",
-  //     deparmnents: "Slimming",
-  //     page: "/ben-carson",
-  //     imageUrl: "https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2019/02/doctor-15-500x456.jpg",
-  //   },
-  //   {
-  //     id: 3,
-  //     name: "Mae Jemison",
-  //     specialties: "Pediatrics",
-  //     deparmnents: "Dental",
-  //     page: "/mae-jemison",
-  //     imageUrl: "https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2019/02/doctor-14-500x456.jpg",
-  //   },
-  //   {
-  //     id: 4,
-  //     name: "Alexis Carrel",
-  //     specialties: "Cardiology",
-  //     deparmnents: "Dental",
-  //     page: "/alexis-carrel",
-  //     imageUrl: "https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2019/02/doctor-13-500x456.jpg",
-  //   },
-  //   {
-  //     id: 5,
-  //     name: "Elizabeth Blackwell",
-  //     specialties: "Internal Medicine",
-  //     deparmnents: "Derma",
-  //     page: "/elizabeth-blackwell",
-  //     imageUrl: "https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2019/02/doctor-12-500x456.jpg",
-  //   },
-  // ];
   const doctors = t('doctors:doctors', { returnObjects: true }); // Fetch the array of doctors
 
   return (

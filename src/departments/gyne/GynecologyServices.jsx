@@ -8,14 +8,16 @@ import ImageContent from "../service templates/ImageContent"
 import SlidingDoct from "../service templates/SlidingDoct";
 import VideoSection from "../../components/VideoSection";
 import OffersTemplate from "../service templates/OffersTemplate";
+import Doctors from "../../pages/doctor";
+import RelatedServices from "../service templates/RelatedServices";
 
 const GynecologyServices = () => {
     const { t, i18n } = useTranslation('gyneServices');
     // const services = t('services', { returnObjects: true });
 
-        const { serviceName } = useParams();
-        const [services, setServices] = useState([]);
-        const [service, setService] = useState(null);
+    const { serviceName } = useParams();
+    const [services, setServices] = useState([]);
+    const [service, setService] = useState(null);
     // Load services from translations
     useEffect(() => {
         const servicesData = t('gyneServices:gyneServices', { returnObjects: true });
@@ -41,8 +43,7 @@ const GynecologyServices = () => {
             <Banner />
             <div className="happysmile-content-wrap container page">
                 {service.sections.map((section, index) => {
-                    console.log('Section:', section);  // Debugging: log section
-
+                    console.log('Section-services:', section.relatedservices);  // Debugging: log section
                     if (section.type === "content") {
                         return (
                             <ContentSection
@@ -54,7 +55,7 @@ const GynecologyServices = () => {
                         );
                     } else if (section.type === "image-content") {
                         console.log('ImageContent Data:', section);  // Debugging: log image-content
-                
+
                         return (
                             <ImageContent
                                 key={index}
@@ -67,7 +68,7 @@ const GynecologyServices = () => {
                     } else if (section.type === "slider-doctors") {
                         console.log('inside doctors')
                         return (
-                            
+
                             <SlidingDoct
                                 key={index}
                                 doctors={section.doctors} // Pass doctors array
@@ -75,17 +76,23 @@ const GynecologyServices = () => {
                                 isRTL={i18n.dir() === "rtl"} // Pass direction info
                             />
                         );
-                    }else if (section.type === "video") {
+                    } else if (section.type === "video") {
                         console.log('inside video')
                         return (
-                            
+
                             <VideoSection />
                         );
-                    }else if (section.type === "offers") {
+                    }
+                    else if (section.type === "offers") {
                         return <OffersTemplate key={index} offers={section.offers} />;
-                      }
+                    }
+                    else if (section.type === "related-services") {
+                        console.log('Related services:', section.relatedservices);  // Debugging: log related services
+                        return <RelatedServices key={index} services={section.relatedservices} />;
+                    }
                     return null;  // If no valid section type found
                 })}
+                {/* <Doctors /> */}
             </div>
         </>
     );
