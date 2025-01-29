@@ -16,9 +16,9 @@
   .para-heading {
     font-size: 28px;
     font-weight: bold;
-    color: #333;
+    /* color: #333; */
     margin-bottom: 30px;
-    text-align: center;
+    /* text-align: center; */
   }
   
   .para-content {

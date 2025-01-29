@@ -40,6 +40,14 @@ import Services from './departments/Services';
 import ServiceTemplate from './departments/service templates/ServiceTemplate';
 import ServiceList from './departments/service templates/ServiceList';
 import GynecologyServices from './departments/gyne/GynecologyServices';
+import TeethWhitening from './pages/departments/teethWhitening';
+import MouthRehabilitation from './pages/departments/mouthRehab';
+import RootCanal from './pages/departments/rootCanal';
+import Pediatric from './pages/departments/pediatric';
+import DentalSurgery from './pages/departments/dentalSurgery';
+import OralHealth from './pages/departments/oralHealth';
+import RestorativeDentistry from './pages/departments/restorativeDentistry';
+
 
 Modal.setAppElement('#root'); // For accessibility
 
@@ -86,6 +94,13 @@ function LanguageWrapper() {
           <Route path="/veneers" element={<Veneers />} />
           <Route path="/implant" element={<Implant />} /> 
           <Route path="/orthodontics" element={<Orthodontics />} />    
+          <Route path="/teeth-whitening" element={<TeethWhitening />} />  
+          <Route path="/mouth-rehabilitation" element={<MouthRehabilitation />} /> 
+          <Route path="/root-canal" element={<RootCanal />} />
+          <Route path="/pediatric" element={<Pediatric />} />
+          <Route path="/dental-surgery" element={<DentalSurgery />} />
+          <Route path="/oral-health" element={<OralHealth />} />
+          <Route path="/restorative-dentistry" element={<RestorativeDentistry />} />
           <Route path="/gynecology" element={<Gynecology />} />
         </Routes>
       </CartProvider>
