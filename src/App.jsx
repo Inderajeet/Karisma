@@ -47,6 +47,10 @@ import Pediatric from './pages/departments/pediatric';
 import DentalSurgery from './pages/departments/dentalSurgery';
 import OralHealth from './pages/departments/oralHealth';
 import RestorativeDentistry from './pages/departments/restorativeDentistry';
+import Slimming from './pages/departments/slimming';
+import Machines from './pages/departments/machines';
+import Injections from './pages/departments/injections';
+import SlimmingOtherServices from './pages/departments/slimming_other_service';
 
 
 Modal.setAppElement('#root'); // For accessibility
@@ -102,6 +106,10 @@ function LanguageWrapper() {
           <Route path="/oral-health" element={<OralHealth />} />
           <Route path="/restorative-dentistry" element={<RestorativeDentistry />} />
           <Route path="/gynecology" element={<Gynecology />} />
+          <Route path="/slimming" element={<Slimming />} />
+          <Route path="/machines" element={<Machines />} />
+          <Route path="/injections" element={<Injections />} />
+          <Route path="/slimming/other-services" element={<SlimmingOtherServices />} />
         </Routes>
       </CartProvider>
       <Footer />

@@ -3,7 +3,8 @@
         "general_page": {
             "blog1": {
                 "title": "A Journey to Transformation at Karisma Specialist Medical Center",
-                "description": "At Karisma Specialist Medical Center, we believe true beauty and confidence begin with a healthy body. Our Slimming Department offers a comprehensive weight managementandbodycontouring, approach tailored to your unique needs. With a teamof experienced professionals, we’re here to guide and empower you to achieve your ideal physique."
+                "description": "At Karisma Specialist Medical Center, we believe true beauty and confidence begin with a healthy body. Our Slimming Department offers a comprehensive weight managementandbodycontouring, approach tailored to your unique needs. With a teamof experienced professionals, we’re here to guide and empower you to achieve your ideal physique.",
+                "blogImg": "https://damasmc.com/uploads/departments/department_image36e270012a97d8be04159303610a5d7ef84e0a86.jpg"
             },
             "para_sec1": {
                 "title": "Embrace a Healthier, More Confident You",
@@ -73,6 +74,269 @@
                 "title": "Schedule a Consultation Today",
                 "description": [
                     "At Karisma Specialist Medical Center, we’re dedicated to helping you achieve a healthier, more confident version of yourself. Book a consultation with our Slimming Department to start your personalized journey toward lasting transformation."
+                ]
+            },
+            "related_services": [
+                {
+                    "title": "Machines",
+                    "link": "/",
+                    "image": "https://damasmc.com/uploads/services/service_image9e83179c92b6cae4ddf3fdc1abd8998a8fb3aa4e.jpg"
+                },
+                {
+                    "title": "Injections",
+                    "link": "/",
+                    "image": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
+                },
+                {
+                    "title": " Other Services",
+                    "link": "/",
+                    "image": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
+                }
+            ]
+        },
+        "machines": {
+            "blog1": {
+                "title": "Achieve Your Dream Body with Advanced Technologies at Karisma Specialist Medical Center",
+                "description": "Karisma Specialist Medical Center offers a comprehensive suite of cutting-edge body sculpting and fat reduction solutions to help you achieve your ideal physique. Whether you're looking to melt stubborn fat, tone muscles, or improve lymphatic circulation, our advanced machines and treatments provide non-invasive, effective options tailored to your needs.",
+                "blogImg": "https://damasmc.com/uploads/services/service_image9e83179c92b6cae4ddf3fdc1abd8998a8fb3aa4e.jpg"
+            },
+            "paras": [
+                {
+                    "title": "Explore Our Innovative Body Contouring Solutions",
+                    "subcategories": [
+                        {
+                            "name": "Fat Melting and Breakdown– ABASFit & ReFit (RF Technology)",
+                            "description": " Harnesses radio frequency energy to target fat cells, boost collagen production, and tighten skin for a more sculpted appearance."
+                        },
+                        {
+                            "name": "Fat Melting and Breakdown– Power Shape 2(RFTechnology)",
+                            "description": "Combines RF and vacuum therapy to breakdown fat deposits, improve skin elasticity, and contour your body."
+                        },
+                        {
+                            "name": "Fat Burning– Heater",
+                            "description": "It Uses advanced heating technology to target and reduce fat layers while promoting skin tightening and muscle definition."
+                        },
+                        {
+                            "name": "Muscle Stimulation– EMS (Electro Muscle Stimulation)",
+                            "description": "Activates and tones muscles through electrical impulses, enhancing strength and definition without intense workouts."
+                        },
+                        {
+                            "name": "Lymphatic Drainage– Presso Therapy",
+                            "description": "Stimulates the lymphatic system, reducing fluid retention, improving circulation, and promoting detoxification."
+                        },
+                        {
+                            "name": "Wooden Massage – MaderoTherapy",
+                            "description": "It is a natural, non-invasive technique that uses specially designed wooden tools to stimulate fat breakdown, enhance circulation, and sculpt the body."
+                        }
+                    ]
+                }
+            ],
+            "para_sec1": {
+                "title": "Take the first step toward a healthier, more confident you.",
+                "description": [
+                    " Book a consultation at Karisma Specialist Medical Center today and discover the power of our advanced body contouring technologies."
+                ],
+                "content": [
+                    {
+                        "title": "ABASFit & ReFit",
+                        "description": [
+                            "The innovative ABAS Fit & ReFit technology at Karisma Specialist Medical Center achieves a sculpted, toned physique."
+                        ]
+                    },
+                    {
+                        "title": "Power Shape 2",
+                        "description": [
+                            "Discover the next level of body contouring with Power Shape 2, an advanced, multi-technology treatment designed to melt fat, reduce cellulite, and rejuvenate your skin for a youthful, sculpted appearance."
+                        ]
+                    },
+                    {
+                        "title": "Fat Burning- Heater",
+                        "description": [
+                            "Achieve your body transformation goals faster with Heater Machines, a cutting-edge solution to amplify fat burning and boost metabolism."
+                        ]
+                    },
+                    {
+                        "title": "Stimulate muscles- EMS",
+                        "description": [
+                            "Achieve peak muscle definition and enhanced fat burning with Electrical Muscle Stimulation (EMS), a cutting-edge technology that mimics natural exercise through targeted electrical impulses."
+                        ]
+                    },
+                    {
+                        "title": "lymphatic drainage- Presso",
+                        "description": [
+                            "Pressotherapy is a non-invasive treatment that stimulates lymphatic drainage, helps reduce bloating, enhances recovery, and promotes a streamlined silhouette."
+                        ]
+                    },
+                    {
+                        "title": "Wooden Massage–MaderoTherapy",
+                        "description": [
+                            "Experience the fusion of ancient Colombian techniques with modern wellness at Karisma Specialist Medical Center through Madero Therapy, a unique, all-natural treatment designed to sculpt, tone, and rejuvenate your body."
+                        ]
+                    }
+                ]
+            },
+            "para_sec2": {
+                "title": "Our Doctors",
+                "description": [
+                    "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+                ],
+                "content": [
+                    {
+                        "id": 1,
+                        "title": "DT. Elissa Nabil El Ahmadieh",
+                        "description": "Dietician & Nutritionist Specialist",
+                        "image": "https://th.bing.com/th?q=Royalty+Free+Doctor&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
+                    }
+                ]
+            }
+        },
+        "injections": {
+            "blog1": {
+                "title": "Targeted Fat Reduction at Karisma Specialist Medical Center",
+                "description": " At Karisma Specialist Medical Center achieve your weight management goals with precision and care. Our range of targeted fat reduction injections offers a non-surgical solution to help you sculpt and define your body.",
+                "blogImg": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
+            },
+            "paras": [
+                {
+                    "title": "Why Choose Fat Reduction Injections?",
+                    "subcategories": [
+                        {
+                            "title": "Targeted Fat Loss",
+                            "description": "Focus on stubborn areas like the abdomen, thighs, arms, or chin."
+                        },
+                        {
+                            "title": "Non-Invasive Solution",
+                            "description": "Achieve noticeable results without surgery or downtime."
+                        },
+                        {
+                            "title": "Customized Plans",
+                            "description": " Our medical experts tailor treatments to your specific needs and goals."
+                        },
+                        {
+                            "title": "Safe and Effective",
+                            "description": " Administered by experienced professionals, ensuring safety and optimal results."
+                        }
+                    ]
+                },
+                {
+                    "title": "Your Personalized Weight Management Journey",
+                    "description": " Weunderstand that achieving a healthier weight can be challenging. Our dedicated teamwill work with you to develop a comprehensive, personalized plan, combining injections with:",
+                    "subcategories": [
+                        {
+                            "title": "Nutritional Guidance"
+                        },
+                        {
+                            "title": "Lifestyle Modifications"
+                        },
+                        {
+                            "title": "Other Complementary Treatments"
+                        }
+                    ]
+                }
+            ],
+            "para_sec1": {
+                "title": "Take the next step towards a more sculpted, confident you.",
+                "description": [
+                    "Schedule a consultation at Karisma Specialist Medical Center today and discover how targeted fat reduction injections can enhance your journey to wellness."
+                ],
+                "content": [
+                    {
+                        "title": "Meso Fat Injections",
+                        "description": [
+                            " Our Meso Fat injections offer a minimally invasive solution to target localized fat deposits, helping you achieve a more sculpted and confident silhouette."
+                        ]
+                    },
+                    {
+                        "title": "Ozempic Injections",
+                        "description": [
+                            " Our experienced team of doctors is here to help you achieve a healthier weight and sculpted physique. Through our expert-led programs, including Ozempic injections, we offer a safe and effective approach to weight loss and overall health improvement."
+                        ]
+                    },
+                    {
+                        "title": "IV Drip Solutions",
+                        "description": [
+                            "Our IV Drip Therapy offers a fast and effective way to deliver essential nutrients directly into your bloodstream, enhancing your health, beauty, and overall well-being."
+                        ]
+                    }
+                ]
+            },
+            "para_sec2": {
+                "title": "Our Doctors",
+                "description": [
+                    "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+                ],
+                "content": [
+                    {
+                        "id": 1,
+                        "title": "Dr. Mehdi Shidvash",
+                        "description": "Dietician & Nutritionist Specialist",
+                        "image": "https://th.bing.com/th?q=Royalty+Free+Doctor&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
+                    }
+                ]
+            }
+        },
+        "other_services":{
+            "blog1": {
+                "description": "At Karisma Specialist Medical Center, we understand that achieving optimal health and wellness requires a holistic approach. Our team of experienced professionals is committed to providing a wide range of services tailored to meet your individual needs, ensuring you feel and look your best.",
+                "blogImg": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
+            },
+            "para_sec1":{
+                "title" : "Our Comprehensive Services Include:",
+                "paras": [
+                    {
+                        "title": "Slimming Solutions",
+                        "description":"From Meso Fat injections to advanced body sculpting treatments, we offer a variety of options designed to target stubborn fat, improve skin tone, and help you achieve your desired physique"
+                    },
+                    {
+                        "title": "Skin and Beauty Treatments",
+                        "description":"Whether it's rejuvenating facials, anti-aging therapies, or IV drip therapy, our beauty services aim to enhance your natural beauty and leave you feeling refreshed."
+                    },
+                    {
+                        "title": "Weight ManagementPrograms",
+                        "description":" Our weight management services include personalized nutrition plans, Ozempic injections, and lifestyle counseling to support sustainable weight loss and long-term health."
+                    },
+                    {
+                        "title": "Holistic Wellnesss",
+                        "description":" We offer personalized wellness plans that incorporate fitness guidance, stress management techniques, and other therapeutic services designed to enhance your overall well-being."
+                    }
+                ]
+            },
+            "para_sec2":{
+                "title":" Dedicated to Your Health and Beauty",
+                "description":[" At Karisma Specialist Medical Center, our goal is to provide a comprehensive range of services to support your journey to better health and a more confident you. Our medical team will work closely with you to develop a tailored plan that addresses all your wellness needs, ensuring you achieve the results you're looking for."]
+            },
+            "para_sec3": {
+                "title": "Schedule a Consultation Today!",
+                "description": [
+                    "Discover how our variety of services can support your health, beauty, and wellness goals. Our team is ready to assist you every step of the way."
+                ],
+                "content": [
+                    {
+                        "title": "Food Print Testing",
+                        "description": [
+                            "At Karisma Specialist Medical Center, we are proud to offer Food Print Testing, a simple and effective blood test that helps identify potential food sensitivities and support your digestive health."
+                        ]
+                    },
+                    {
+                        "title": "Diet Plans",
+                        "description": [
+                            " Single needle threads provide a non-surgical solution for lifting and rejuvenating various areas of the face, offering a comprehensive approach to facial rejuvenation."
+                        ]
+                    }
+                ]
+            },
+            "para_sec4": {
+                "title": "Our Doctors",
+                "description": [
+                    "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+                ],
+                "content": [
+                    {
+                        "id": 1,
+                        "title": "Dr. Mehdi Shidvash",
+                        "description": "Dietician & Nutritionist Specialist",
+                        "image": "https://th.bing.com/th?q=Royalty+Free+Doctor&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
+                    }
                 ]
             }
         }

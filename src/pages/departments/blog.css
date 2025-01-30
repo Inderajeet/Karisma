@@ -24,7 +24,7 @@
 
 .blog-image {
   width: 100%; /* Ensure the image fills its container */
-  height: auto; /* Maintain aspect ratio */
+  height: auto;
   border-radius: 10px;
   object-fit: cover; /* Prevent image distortion */
 }
