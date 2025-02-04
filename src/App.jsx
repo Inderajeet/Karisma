@@ -55,6 +55,8 @@ import LaserHair from './pages/departments/laserHair';
 import Candela from './pages/departments/candela';
 import Revlite from './pages/departments/revlite';
 import Elite from './pages/departments/elite';
+import DermaFiller from './pages/departments/dermaFiller';
+import BodyFiller from './pages/departments/bodyFiller';
 
 
 Modal.setAppElement('#root'); // For accessibility
@@ -118,7 +120,8 @@ function LanguageWrapper() {
           <Route path="/laser-hair/candela" element={<Candela />} />
           <Route path="/laser-hair/revlite" element={<Revlite />} />
           <Route path="/laser-hair/elite" element={<Elite />} />
-
+          <Route path="/derma/derma-filler" element={<DermaFiller />} />
+          <Route path="/derma/body-filler" element={<BodyFiller />} />
         </Routes>
       </CartProvider>
       <Footer />
