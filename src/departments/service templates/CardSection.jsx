@@ -38,4 +38,3 @@ const CardSection = ({ title, subtitle, description, subtitle2, description2, fe
 export default CardSection;
 
 
-// export default CardSection;

@@ -95,7 +95,38 @@ function DoctorPage() {
                                                 <span className="team-designation">{doctor.designation}</span>
                                             </div>
                                         </div>
-                                        <div className="team-other-details">
+                                        <div
+                                            className="elementor-element elementor-element-2b718853 e-flex e-con-boxed e-con e-child"
+                                            data-id="2b718853"
+                                            data-element_type="container"
+                                        >
+                                            {/* Overview */}
+                                            <div className="e-con-inner">
+                                                {/* Overview sections*/}
+                                                {doctor.overview.sections.map((section, sectionIndex) => (
+                                                    <div className="section-description" key={sectionIndex} style={{ fontWeight: "600" }}>
+                                                        {section.subtitle}
+                                                        <div
+                                                            className="elementor-element elementor-element-653e731 elementor-widget__width-initial elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                                            data-id="653e731"
+                                                            data-element_type="widget"
+                                                            data-widget_type="icon-list.default"
+                                                        >
+                                                            <div className="elementor-widget-container">
+                                                                    {section.items.map((detail, index) => (
+                                                                        <div className="elementor-icon-list-item" key={index}>
+                                                                            <span className="elementor-cust-icon-list-text">
+                                                                                {detail}
+                                                                            </span>
+                                                                        </div>
+                                                                    ))}
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        </div>
+                                        <div className="team-other-details" style={{ display: 'none' }}>
                                             <div className="row">
                                                 <div className="col-md-6 team-email-wrap">
                                                     <div className="team-media media">
@@ -149,7 +180,7 @@ function DoctorPage() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="team-social-wrap">
+                                        <div className="team-social-wrap" style={{ display: 'none' }}>
                                             <ul className="nav cust-social-icons team-social">
                                                 <li>
                                                     <a
@@ -222,12 +253,14 @@ function DoctorPage() {
                                                                 data-element_type="container"
                                                             >
                                                                 <div className="e-con-inner">
+                                                                     {/* Overview */}
                                                                     <div
                                                                         className="elementor-element elementor-element-2b718853 e-flex e-con-boxed e-con e-child"
                                                                         data-id="2b718853"
                                                                         data-element_type="container"
+                                                                        style={{display:'none'}}
                                                                     >
-                                                                        {/* Overview */}
+                                                                       
                                                                         <div className="e-con-inner">
                                                                             <div
                                                                                 className="elementor-element elementor-element-2ef812fa cea-align-left elementor-widget elementor-widget-ceasectiontitle"
@@ -277,11 +310,63 @@ function DoctorPage() {
                                                                             ))}
                                                                         </div>
                                                                     </div>
+                                                                    <div
+                                                                        className="elementor-element elementor-element-2b718853 e-flex e-con-boxed e-con e-child"
+                                                                        data-id="2b718853"
+                                                                        data-element_type="container"
+                                                                    >
+                                                                        <div className="e-con-inner">
+                                                                            <div
+                                                                                className="elementor-element elementor-element-2ef812fa cea-align-left elementor-widget elementor-widget-ceasectiontitle"
+                                                                                data-id="2ef812fa"
+                                                                                data-element_type="widget"
+                                                                                data-widget_type="ceasectiontitle.default"
+                                                                            >
+                                                                                <div className="elementor-widget-container">
+                                                                                    <div className="section-title-wrapper">
+                                                                                        <div className="title-wrap">
+                                                                                            <h4 className="section-title">
+                                                                                                {doctor.workExperience.title}
+                                                                                            </h4>
+                                                                                        </div>
+                                                                                        {/* .title-wrap */}
+                                                                                        <div className="section-description" />
+                                                                                        {/* .section-description */}
+                                                                                    </div>
+                                                                                    {/* .section-title-wrapper */}{" "}
+                                                                                </div>
+                                                                            </div>
+                                                                            <div
+                                                                                className="elementor-element elementor-element-653e731 elementor-widget__width-initial elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                                                                data-id="653e731"
+                                                                                data-element_type="widget"
+                                                                                data-widget_type="icon-list.default"
+                                                                            >
+                                                                                <div className="elementor-widget-container">
+                                                                                    <ul className="elementor-icon-list-items">
+                                                                                        {doctor.workExperience.items.map((detail, index) => (
+                                                                                            <li className="elementor-icon-list-item">
+                                                                                                <span className="elementor-icon-list-icon">
+                                                                                                    <i
+                                                                                                        aria-hidden="true"
+                                                                                                        className=" bi-check2-circle"
+                                                                                                    />
+                                                                                                </span>
+                                                                                                <span className="elementor-cust-icon-list-text">{detail}
+                                                                                                </span>
+                                                                                            </li>
+                                                                                        ))}
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
                                                                     {/* Qualifications */}
                                                                     <div
                                                                         className="elementor-element elementor-element-87e3501 e-flex e-con-boxed e-con e-child"
                                                                         data-id="87e3501"
                                                                         data-element_type="container"
+                                                                        style={{display: 'none'}}
                                                                     >
                                                                         <div className="e-con-inner">
                                                                             <div
@@ -332,6 +417,7 @@ function DoctorPage() {
                                                                         className="elementor-element elementor-element-2b718853 e-flex e-con-boxed e-con e-child"
                                                                         data-id="2b718853"
                                                                         data-element_type="container"
+                                                                        style={{display: 'none'}}
                                                                     >
                                                                         <div className="e-con-inner">
                                                                             <div
@@ -372,6 +458,46 @@ function DoctorPage() {
                                                                                                 </span>
                                                                                                 <span className="elementor-cust-icon-list-text">{detail}
                                                                                                 </span>
+                                                                                            </li>
+                                                                                        ))}
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        className="elementor-element elementor-element-87e3501 e-flex e-con-boxed e-con e-child"
+                                                                        data-id="87e3501"
+                                                                        data-element_type="container"
+                                                                    >
+                                                                        <div className="e-con-inner">
+                                                                            <div
+                                                                                className="elementor-element elementor-element-74ff4f40 cea-align-left elementor-widget elementor-widget-ceasectiontitle"
+                                                                                data-id="74ff4f40"
+                                                                                data-element_type="widget"
+                                                                                data-widget_type="ceasectiontitle.default"
+                                                                            >
+                                                                                <div className="elementor-widget-container">
+                                                                                    <div className="section-title-wrapper">
+                                                                                        <div className="title-wrap">
+                                                                                            <h4 className="section-title">
+                                                                                                {doctor.qualifications.title}
+                                                                                            </h4>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div className="elementor-element elementor-element-653e731 elementor-widget__width-initial elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="653e731" data-element_type="widget" data-widget_type="icon-list.default">
+                                                                                <div className="elementor-widget-container">
+                                                                                    <ul className="elementor-icon-list-items">
+                                                                                        {doctor.qualifications.items.map((detail, index) => (
+                                                                                            <li className="elementor-icon-list-item">
+                                                                                                <span className="elementor-icon-list-icon">
+                                                                                                    <i aria-hidden="true" className=" bi-check2-circle">
+                                                                                                    </i>
+                                                                                                </span>
+                                                                                                <span className="elementor-cust-icon-list-text">{detail}</span
+                                                                                                >
                                                                                             </li>
                                                                                         ))}
                                                                                     </ul>
@@ -559,13 +685,13 @@ function DoctorPage() {
                                                 <Link
                                                     to={`/${i18n.language}/doctor/${encodeURIComponent(prevDoctor.link)}`} >
                                                     <i className="ti-arrow-left" />
-                                                    <h5>{prevDoctor.name}</h5>
+                                                    <div>{prevDoctor.name}</div>
                                                 </Link>
                                             </div>
                                             <div className="next-nav-link">
                                                 <Link
                                                     to={`/${i18n.language}/doctor/${encodeURIComponent(nextDoctor.link)}`} >
-                                                    <h5>{nextDoctor.name}</h5>
+                                                    <div>{nextDoctor.name}</div>
                                                     <i className="ti-arrow-right" />
                                                 </Link>
                                             </div>

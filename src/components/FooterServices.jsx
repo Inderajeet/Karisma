@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from "react";
-import ContentSection from "../service templates/ContentSection";
-import CardSection from "../service templates/CardSection";
+import ContentSection from "../departments/service templates/ContentSection";
+import CardSection from "../departments/service templates/CardSection";
 import { useTranslation } from "react-i18next";
 import { useParams, Link } from "react-router-dom";
-import ImageContent from "../service templates/ImageContent"
-import SlidingDoct from "../service templates/SlidingDoct";
-import VideoSection from "../../components/VideoSection";
-import OffersTemplate from "../service templates/OffersTemplate";
-import Doctors from "../../pages/doctor";
-import ListServices from "../service templates/ListServices";
-import GyneBanner from "../../components/GyneBanner";
+import Banner from "./Banner";
+import ImageContent from "../departments/service templates/ImageContent"
+import SlidingDoct from "../departments/service templates/SlidingDoct";
+import VideoSection from "./VideoSection";
+import OffersTemplate from "../departments/service templates/OffersTemplate";
+import Doctors from "../pages/doctor";
+import ListServices from "../departments/service templates/ListServices";
 
-const GynecologyServices = () => {
-    const { t, i18n } = useTranslation('gyneServices');
+const FooterServices = () => {
+    const { t, i18n } = useTranslation('footerServices');
     // const services = t('services', { returnObjects: true });
 
     const { serviceName } = useParams();
@@ -20,7 +20,7 @@ const GynecologyServices = () => {
     const [service, setService] = useState(null);
     // Load services from translations
     useEffect(() => {
-        const servicesData = t('gyneServices:gyneServices', { returnObjects: true });
+        const servicesData = t('footerServices:footerServices', { returnObjects: true });
         setServices(servicesData);
     }, [t]);
 
@@ -40,7 +40,7 @@ const GynecologyServices = () => {
 
     return (
         <>
-            <GyneBanner />
+            <Banner />
             <div className="happysmile-content-wrap container page">
                 {service.sections.map((section, index) => {
                     console.log('Section-services:', section.listServices);  // Debugging: log section
@@ -98,4 +98,4 @@ const GynecologyServices = () => {
     );
 };
 
-export default GynecologyServices;
+export default FooterServices;

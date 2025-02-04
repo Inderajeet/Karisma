@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Dr. Yuri Macrino",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/Dr Yuri.png",
             "link": "dr-yuri-macrino",
             "designation": "Aesthetic plastic surgeon & consultant",
             "email":"",
@@ -54,7 +54,7 @@
         {
             "id": 2,
             "name": "Dr. Mehdi Shidvash",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/mahdi.png",
             "link": "dr-mehdi-shidvash",
             "designation": "Aesthetic Physician",
             "email":"",
@@ -105,7 +105,7 @@
         {
             "id": 3,
             "name": "Dr. Sandro Ceci",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/Dr Sandro.png",
             "link": "dr-sandro-ceci",
             "designation": "Dermatologist Specialist",
             "email":"",
@@ -156,7 +156,7 @@
         {
             "id": 4,
             "name": "Dr. Manar Magdy",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/Dr Manar.png",
             "link": "dr-manar-magdy",
             "designation": "Dermatologist Specialist",
             "email":"",
@@ -207,7 +207,7 @@
         {
             "id": 5,
             "name": "Dr. Ramilia Anarkulova",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/Dr Ramila.png",
             "link": "dr-ramilia-anarkulova",
             "designation": "Beauty consultant",
             "email":"",
@@ -258,7 +258,7 @@
         {
             "id": 6,
             "name": "Dr. Yara Khaled",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/",
             "link": "dr-yara-khaled",
             "designation": "General Practitioner",
             "email":"",
@@ -309,7 +309,7 @@
         {
             "id": 7,
             "name": "DT. Elissa Al- Ahmadieh",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/Dr Elissa.png",
             "link": "dt-elissa-a-ahmadieh",
             "designation": "Dietician & Nutritionist Specialist",
             "email":"",
@@ -361,7 +361,7 @@
         {
             "id": 8,
             "name": "Dr. Adel Al- Aswad",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/Adel.png",
             "link": "dr-adel-al-aswad",
             "designation": "Specialist Oral Surgeon",
             "email":"",
@@ -415,7 +415,7 @@
         {
             "id": 9,
             "name": "Dr. Amir Magdy",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/Amir.png",
             "link": "dr-amir-magdy",
             "designation": "GP Dentist",
             "email":"",
@@ -468,7 +468,7 @@
         {
             "id": 10,
             "name": "Dr. Rania Ghanem",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/Rania.png",
             "link": "dr-rania-ghanem",
             "designation": "Prosthodontics Specialist",
             "email":"",
@@ -519,9 +519,9 @@
         },
         {
             "id": 11,
-            "name": "Dr. Huda Shaheen",
-            "image": "/assets/Images/home/Doctors.png",
-            "link": "dr-huda-shaheen",
+            "name": "Dr. Huda Ebrahim Shaheen",
+            "image": "/assets/Images/doctors/huda.png",
+            "link": "dr-huda-ebrahim-shaheen",
             "designation": "Obstetrics and Gynecology Specialist",
             "email":"",
             "phone":"",
@@ -571,7 +571,7 @@
         {
             "id": 12,
             "name": "Naziha Al Tabaa",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/Naziha.png",
             "link": "naziha-al-tabaa",
             "designation": "Skin Expert & Beauty Therapist",
             "email":"",

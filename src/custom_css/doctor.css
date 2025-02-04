@@ -97,6 +97,7 @@ ul.nav.cust-social-icons.team-social a.social-youtube {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .dd-row {
@@ -130,9 +131,9 @@ ul.nav.cust-social-icons.team-social a.social-youtube {
       max-width: 30%;
     }
     .doctor-name {
-        font-size: 28px;
+        font-size: 25px;
         color: #405D53;
-        margin-top: 10px;
+        margin: 10px 13px 0 13px;
     }
   }
   

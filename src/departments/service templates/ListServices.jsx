@@ -3,14 +3,14 @@ import React from "react";
 import { Link } from "react-router-dom"; // For navigation
 import { useTranslation } from "react-i18next";
 
-export default function RelatedServices({ services }) {
+export default function ListServices({ services }) {
 
   console.log('inside services:', services);  // Debugging: log services
   const { t, i18n } = useTranslation();
 
   return (
     <>
-      <div className="happysmile-content-wrap container page" style={{ marginTop: "50px" }}>
+      <div className="happysmile-content-wrap container page" style={{ marginTop: "10px" }}>
         <div className="col-md-12 order-md-2">
           <div className="post-inner">
             <div className="entry-content">

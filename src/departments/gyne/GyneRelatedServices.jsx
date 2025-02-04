@@ -3,15 +3,15 @@ import ContentSection from "../service templates/ContentSection";
 import CardSection from "../service templates/CardSection";
 import { useTranslation } from "react-i18next";
 import { useParams, Link } from "react-router-dom";
+import Banner from "../../components/Banner";
 import ImageContent from "../service templates/ImageContent"
 import SlidingDoct from "../service templates/SlidingDoct";
 import VideoSection from "../../components/VideoSection";
 import OffersTemplate from "../service templates/OffersTemplate";
 import Doctors from "../../pages/doctor";
 import ListServices from "../service templates/ListServices";
-import GyneBanner from "../../components/GyneBanner";
 
-const GynecologyServices = () => {
+const GyneRelatedServices = () => {
     const { t, i18n } = useTranslation('gyneServices');
     // const services = t('services', { returnObjects: true });
 
@@ -40,7 +40,7 @@ const GynecologyServices = () => {
 
     return (
         <>
-            <GyneBanner />
+            <Banner />
             <div className="happysmile-content-wrap container page">
                 {service.sections.map((section, index) => {
                     console.log('Section-services:', section.listServices);  // Debugging: log section
@@ -90,6 +90,25 @@ const GynecologyServices = () => {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
                         return <ListServices key={index} services={section.listServices} />;
                     }
+                    else if (section.type === "card") {
+                        if (Array.isArray(section.cards)) {
+                            return (
+                                <div className="flxBx" key={index}>
+                                    {section.cards.map((card, cardIndex) => (
+                                        <CardSection
+                                            key={cardIndex}
+                                            title={card.title}
+                                            subtitle={card.subtitle}
+                                            description={card.description}
+                                            subtitle2={card.subtitle2}
+                                            description2={card.description2}
+                                            features={card.features}
+                                        />
+                                    ))}
+                                </div>
+                            );
+                        }
+                    }
                     return null;  // If no valid section type found
                 })}
                 {/* <Doctors /> */}
@@ -98,4 +117,4 @@ const GynecologyServices = () => {
     );
 };
 
-export default GynecologyServices;
+export default GyneRelatedServices;
