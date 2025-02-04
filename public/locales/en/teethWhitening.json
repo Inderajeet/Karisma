@@ -1,13 +1,13 @@
 {
-    "teethWhitening":{
+    "teethWhitening": {
         "blog1": {
             "title": "Karisma Specialist Medical Center Provides Professional Teeth Whitening Services in the UAE",
             "description": "Achieve a Radiant Smile That Exudes Confidence and Sophistication",
             "content": " At Karisma Specialist Medical Center, located in the heart of the UAE, we understand that a dazzling smile is a hallmark of confidence and elegance, especially for our discerning clientele. Over time, indulgences like coffee, tea, and wine, combined with the natural aging process, can dull the brilliance of your teeth. Our luxurious professional teeth whitening services in the UAE offer a safe, effective, and lasting solution to help you regain the radiant smile you deserve."
         },
-        "para_sec1":{
-            "title":" What Is Teeth Whitening ?",
-            "description":[
+        "para_sec1": {
+            "title": " What Is Teeth Whitening ?",
+            "description": [
                 "Teeth whitening is a cutting-edge cosmetic dental procedure designed to lighten the color of your teeth by removing deep stains and discoloration. Over the years, external factors and lifestyle habits can tarnish your smile, but our advanced whitening treatments in the UAE break down staining molecules to restore the natural brilliance of your teeth."
             ]
         },
@@ -19,7 +19,7 @@
                     "title": "Superior Results",
                     "description": "Our advanced whitening agents deliver faster and more noticeable results than over-the-counter alternatives."
                 },
-                { 
+                {
                     "title": "Safety & Comfort",
                     "description": "Procedures are performed by seasoned dentists, ensuring minimal gum sensitivity and protection of enamel integrity."
                 },
@@ -33,9 +33,9 @@
                 }
             ]
         },
-        "para_sec2":{
-            "title":"Discover the Best Whitening Solution for You in the UAE",
-            "description":[
+        "para_sec2": {
+            "title": "Discover the Best Whitening Solution for You in the UAE",
+            "description": [
                 "During your Session at Karisma Specialist Medical Center, conveniently located in the UAE, our cosmetic dental experts will thoroughly evaluate your teeth and discuss your goals to recommend the most suitable whitening solution."
             ]
         },
@@ -66,9 +66,9 @@
                 }
             ]
         },
-        "para_sec3":{
-            "title":"The Karisma Specialist Medical Center Difference in the UAE",
-            "description":[
+        "para_sec3": {
+            "title": "The Karisma Specialist Medical Center Difference in the UAE",
+            "description": [
                 "At Karisma Specialist Medical Center, we are committed to helping clients across the UAE achieve their dream smiles. Our experienced team combines expertise with compassionate care to ensure your teeth whitening journey is seamless and comfortable and delivers outstanding results."
             ]
         }

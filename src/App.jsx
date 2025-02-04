@@ -51,6 +51,10 @@ import Slimming from './pages/departments/slimming';
 import Machines from './pages/departments/machines';
 import Injections from './pages/departments/injections';
 import SlimmingOtherServices from './pages/departments/slimming_other_service';
+import LaserHair from './pages/departments/laserHair';
+import Candela from './pages/departments/candela';
+import Revlite from './pages/departments/revlite';
+import Elite from './pages/departments/elite';
 
 
 Modal.setAppElement('#root'); // For accessibility
@@ -110,6 +114,11 @@ function LanguageWrapper() {
           <Route path="/machines" element={<Machines />} />
           <Route path="/injections" element={<Injections />} />
           <Route path="/slimming/other-services" element={<SlimmingOtherServices />} />
+          <Route path="/laser-hair" element={<LaserHair />} />
+          <Route path="/laser-hair/candela" element={<Candela />} />
+          <Route path="/laser-hair/revlite" element={<Revlite />} />
+          <Route path="/laser-hair/elite" element={<Elite />} />
+
         </Routes>
       </CartProvider>
       <Footer />

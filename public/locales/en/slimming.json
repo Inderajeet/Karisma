@@ -339,6 +339,121 @@
                     }
                 ]
             }
+        },
+        "food_print":{
+            "blog1": {
+                "title": "Targeted Fat Reduction at Karisma Specialist Medical Center",
+                "description": "Digestive discomfort such as bloating, gas, and abdominal pain can be frustrating and disruptive to daily life. Food sensitivities may be a hidden cause. At Karisma Specialist Medical Center, we are proud to offer Food Print Testing, a simple and effective blood test that helps identify potential food sensitivities and support your digestive health.",
+                "additional_description": ["Uncover Potential Food Sensitivities"," Unlike food allergies, which trigger severe immune responses, food sensitivities cause more subtle symptoms like bloating, abdominal discomfort, headaches, and fatigue. Identifying these sensitivities can help you make more informed choices about your diet and improve your overall well-being."],
+                "blogImg": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
+            },
+            "para_sec1":{
+                "title" : "Uncover Potential Food Sensitivities",
+                "description":["Unlike food allergies, which trigger severe immune responses, food sensitivities cause more subtle symptoms like bloating, abdominal discomfort, headaches, and fatigue. Identifying these sensitivities can help you make more informed choices about your diet and improve your overall well-being."]
+            },
+            "point_blog1":{
+                "title" : "How Food Print Testing Works",
+                "description" : " Our FoodPrint Testing process is straightforward and non-invasive, offering a fast and reliable way to understand your body's immune response to various foods:",
+                "benefits" : [
+                    {
+                        "title": "Convenient Blood Draw",
+                        "description": "A simple blood sample is collected at our clinic."
+                    },
+                    {
+                        "title": "Advanced Analysis",
+                        "description": "The blood sample is tested for IgG antibodies against a wide range of common food antigens."
+                    },
+                    {
+                        "title": "Personalized Results",
+                        "description": " You will receive a comprehensive report within a week, detailing any food sensitivities identified."
+                    }
+                ]
+            },
+            "point_blog2":{
+                "title" : "Benefits of Identifying Food Sensitivities",
+                "description" : "Identifying potential food sensitivities can lead to several health benefits :",
+                "benefits" : [
+                    {
+                        "title": "Improved Digestive Health",
+                        "description": "Avoiding foods that trigger sensitivities may help reduce bloating, gas, and other digestive discomfort."
+                    },
+                    {
+                        "title": "Enhanced Overall Well-being",
+                        "description": "Managing food sensitivities may alleviate other health concerns, contributing to a better quality of life."
+                    },
+                    {
+                        "title": "Informed Dietary Choices",
+                        "description": "Your test results will guide you in making better dietary choices, supporting long-term gut health and overall wellness."
+                    }
+                ]
+            },
+            "point_blog3":{
+                "title" : "Important Considerations",
+                "description" : " While Food Print Testing can be an invaluable tool in identifying food sensitivities, please keep the following in mind: ",
+                "benefits" : [
+                    {
+                        "title": "Confirmation with a Doctor",
+                        "description": "It’s essential to discuss your results with a healthcare professional to receive personalized advice and ensure the best approach for your health."
+                    },
+                    {
+                        "title": "Not a Diagnostic Tool",
+                        "description": "This test is not a diagnostic tool for food allergies, but it can offer valuable insight into potential food sensitivities."
+                    }
+                ]
+            },
+            "para_sec2":{
+                "title":"Schedule Your Food Print Test Today!",
+                "description":[
+                    "If you're ready to uncover food sensitivities that may be affecting your digestive health and overall well-being, schedule your Food Print Test at Karisma Specialist Medical Center today. Our expert team is here to guide you through every step of the process!"
+                ]
+            }
+        },
+        "diet_plans":{
+            "blog1": {
+                "title": "Diet Plans",
+                "description": " At Karisma Specialist Medical Center, we recognize that nutrition is not one-size-fits-all. Your unique health journey deserves a diet plan tailored specifically to your needs, goals, and preferences. That's why we offer a range of comprehensive, personalized diet plans created by our team of expert nutritionists, designed to help you achieve your optimal health.",
+                "blogImg": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
+            },
+            "point_blog1":{
+                "title" : "Unveiling a World of Dietary Options",
+                "description" : "Whether you're looking to lose weight, gain weight, or manage a chronic condition, we can design a diet plan that fits your lifestyle. Some examples of our customized plans include:",
+                "benefits" : [
+                    {
+                        "title": "Healthy Weight Loss Without Deprivation",
+                        "description": "Our registered dietitians focus on sustainable, balanced eating habits and portion control, helping you lose weight without the feeling of deprivation."
+                    },
+                    {
+                        "title": "Weight Gain for Optimal Health",
+                        "description": "If your goal is to gain weight in a controlled and healthy way, we’ll create a plan rich in essential nutrients to support steady and effective weight gain."
+                    },
+                    {
+                        "title": "Dietary Management for Chronic Conditions",
+                        "description": " For those managing conditions like diabetes, high cholesterol, or malabsorption, our nutritionists craft specialized plans that complement your treatment and improve overall well-being."
+                    }
+                ]
+            },
+            "point_blog2":{
+                "title" : "Benefits of Working with a Nutritionist",
+                "description" : "When you work with our nutrition experts, you gain several advantages that can help you achieve long-term success: ",
+                "benefits" : [
+                    {
+                        "title": "Personalized Guidance",
+                        "description": "We take the time to understand your individual needs, preferences, and lifestyle to create a diet plan that's both realistic and effective for you."
+                    },
+                    {
+                        "title": "Ongoing Support",
+                        "description": "With four visits per month, you’ll receive continuous support from your nutritionist to stay motivated, track progress, and make adjustments as needed."
+                    },
+                    {
+                        "title": "Education and Empowerment",
+                        "description": "We believe in empowering you with the knowledge and tools to make informed dietary choices, enabling you to build a lasting healthy relationship with food."
+                    }
+                ]
+            },
+            "para_sec1":{
+                "title" : "Taking the First Step Towards a Healthier You",
+                "description":[" Are you ready to take the next step in your health journey? Schedule a consultation with our expert nutritionists today. We will discuss your goals, answer your questions, and create a personalized diet plan that helps you become the healthiest version of yourself.","Let’s create a diet plan that nourishes your body and empowers your well-being !"]
+            }
         }
     }
 }

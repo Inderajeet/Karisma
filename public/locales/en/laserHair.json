@@ -1,0 +1,232 @@
+{
+    "laserHair": {
+        "general_page": {
+            "blog1": {
+                "title": "Laser Hair Removal at Karisma Specialist Medical Center",
+                "description": "Discover the freedom of smooth, hair-free skin with our advanced laser hair removal treatments. Designed to deliver long-lasting results, our state-of-the-art technology offers a safe, effective, and comfortable solution tailored to your unique needs.",
+                "additional_description": [
+                    "What is Laser Hair Removal ? ",
+                    "Laser hair removal is a cutting-edge, non-invasive procedure that targets hair follicles using  focused light energy. By concentrating on the melanin in hair, the laser disables the follicle,  reducing future growth while leaving the surrounding skin untouched."
+                ],
+                "blogImg": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
+            },
+            "point_blog1": {
+                "title": "Benefits of Laser Hair Removal: ",
+                "benefits": [
+                    {
+                        "title": "Long-Lasting Results",
+                        "description": "Achieve significantly reduced hair growth for months or years."
+                    },
+                    {
+                        "title": "Smooth Skin",
+                        "description": "Minimize ingrown hairs, razor bumps, and irritation caused by shaving or waxing."
+                    },
+                    {
+                        "title": "Precision Targeting",
+                        "description": "Treat specific areas with minimal skin impact."
+                    },
+                    {
+                        "title": "Boosted Confidence",
+                        "description": "Feel confident with silky, hair-free skin."
+                    }
+                ]
+            },
+            "para_sec1":{
+            "title":"Who Can Benefit from Laser Hair Removal ?",
+            "description":[
+                "Thanks to advancements in laser technology, this treatment is effective for a broad range of skin tones and hair types. Our experts will assess your suitability during your consultation and develop a personalized treatment plan."
+            ]
+        },
+        "point_blog2": {
+                "title": "The Karisma Laser Hair Removal Experience",
+                "description": "At Karisma Specialist Medical Center, patient comfort and satisfaction are our priorities. Here's what to expect: ",
+                "benefits": [
+                    {
+                        "title": "Consultation",
+                        "description": "Discuss your goals and determine the best approach for your skin and hair type."
+                    },
+                    {
+                        "title": "Treatment",
+                        "description": "Advanced lasers are used to target unwanted hair efficiently. Multiple sessions may be required based on your hair growth cycle."
+                    },
+                    {
+                        "title": "Post-Treatment Care",
+                        "description": "Receive expert guidance to optimize results and care for your skin."
+                    }
+                ]
+            },
+            "point_blog3": {
+                "title": "Advanced Laser Technology for Optimal Results",
+                "description": "Our premium laser systems are designed for precision, safety, and effectiveness. During your consultation, our skilled technicians will recommend the ideal technology to meet your needs.",
+                "description2":"Full Body Laser Hair Removal: Discover the ultimate solution for hair removal, delivering an extraordinary level of smoothness:",
+                "benefits": [
+                    {
+                        "title": "Arms",
+                        "description": "Feel the comfort of smooth arms."
+                    },
+                    {
+                        "title": "Legs",
+                        "description": "Enjoy flawless, hair-free legs."
+                    },
+                    {
+                        "title": "Face",
+                        "description": "A rejuvenated, hair-free complexion."
+                    },
+                    {
+                        "title": "Underarms & Bikini Area",
+                        "description": "Confidence in every aspect."
+                    },
+                    {
+                        "title": "Back & Chest",
+                        "description": "Sleek and refined results."
+                    }
+                ]
+            },
+            "point_blog4": {
+                "title": "Why Choose Karisma Specialist Medical Center ?",
+                "benefits": [
+                    {
+                        "title": "Expertise You Can Trust",
+                        "description": "Certified technicians specializing in advanced laser treatments."
+                    },
+                    {
+                        "title": "Enhanced Skin",
+                        "description": "Our lasers not only remove hair but also improve skin texture and tone."
+                    }
+                ]
+            },
+            "para_sec2":{
+                "title": "Start Your Journey Today ",
+                "description": ["Say goodbye to traditional hair removal methods and hello to long-lasting smoothness. Schedule your consultation with our experts today and embrace the confidence of hair-free, radiant skin."]
+            },
+            "related_services": [
+                {
+                    "title": "Candela GentleMax Pro ",
+                    "link": "/",
+                    "image": "https://damasmc.com/uploads/services/service_image9e83179c92b6cae4ddf3fdc1abd8998a8fb3aa4e.jpg"
+                },
+                {
+                    "title": "RevLite SI",
+                    "link": "/",
+                    "image": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
+                }
+            ]
+        },
+        "candela":{
+            "blog1": {
+                "title": "Candela GentleMax Pro at Karisma Specialist Medical Center",
+                "description": "Revolutionize your laser hair removal experience with the Candela GentleMax Pro, a cutting-edge solution offering versatile and personalized treatments for all skin tones and hair types.",
+                "content": "Advanced Laser Technology for Every Need",
+                "bulletPoints":[
+                    "Dual Wavelengths: Features Alexandrite and Nd:YAG lasers for tailored, effective treatments. ",
+                    "Skin-Friendly: Safe for lighter and tanned skin tones with minimal risk of side effects. ",
+                    "Comfort Redefined: Integrated cooling technology ensures a gentle, comfortable experience."
+                ]
+            },
+            "para_sec1":{
+                "title": "Why Choose Karisma Specialist Medical Center ? ",
+                "description": ["At Karisma Specialist Medical Center, your comfort and satisfaction are our priority. Our certified specialists deliver precise, personalized care using the latest laser technology for optimal results."]
+            },
+            "para_sec2":{
+                "title": "Don't lose time or effort with Candela (Gentle Max Pro)",
+                "description": ["Experience the ultra attention to detail with non-invasive treatment for hair removal solution with (Gentle Max Pro). This non-invasive treatment, enhanced with controlled cooling technology, ensures no damage to surrounding skin, ensuring an overwhelmingly comfortable sensation. As a non-surgical procedure, it requires no downtime you can resume your daily activities immediately, with a simple recommendation to avoid sun exposure post-treatment."]
+            },
+            "para_sec3":{
+                "title": "Take the First Step Toward Smooth Skin ",
+                "description": ["Schedule your session today to explore how the Candela GentleMax Pro can transform your skincare routine. Achieve lasting smoothness and confidence with our expert team guiding you every step of the way."]
+            }
+        },
+        "revlite":{
+            "blog1": {
+                "title": "RevLite SI at Karisma Specialist Medical Center ",
+                "description": "Discover advanced laser technology with RevLite SI, designed for precise, effective, and safe hair bleaching. This innovative system uses high-powered nanosecond pulses to target melanin in hair follicles, disrupting the growth cycle for gradual and lasting hair reduction.",
+                "content": "Why Choose RevLite SI?",
+                "bulletPoints":[
+                    "Effective for All Skin Tones: Safely treats a variety of complexions, including darker skin tones.",
+                    "Versatile Results: Targets fine and vellus hair, which can be challenging for traditional lasers.",
+                    "Gentle Reduction: Gradual hair reduction minimizes discomfort while delivering impressive results.",
+                    "Long-Lasting Smoothness: Multiple sessions promote lasting hair-free skin."
+                ]
+            },
+            "para_sec1":{
+                "title": "Painless and No Downtime with RevLite SI ",
+                "description": ["Experience a painless non-invasive treatment for hair bleaching solution with RevLite SI. This non-invasive treatment, enhanced with controlled cooling technology, ensures no damage to surrounding skin, offering a comfortable sensation often compared to a warm stone massage. As a non-surgical procedure, it requires no downtime patients can resume daily activities immediately, with a simple recommendation to avoid sun exposure post-treatment."]
+            },
+            "para_sec2":{
+                "title": "Safe for All Skin Types",
+                "description": ["RevLite SI is among the safest laser hair bleaching options, supported by extensive research. It’s even effective for suntanned skin, though patients are advised to avoid sunbeds for a few weeks before treatment."]
+            },
+            "para_sec3":{
+                "title": "Expert Care at Karisma Specialist Medical Center ",
+                "description": ["At Karisma Specialist Medical Center, your comfort and satisfaction are our top priorities. Our certified laser technicians ensure a seamless experience, guiding you through each step of your personalized treatment."]
+            },
+            "para_sec4":{
+                "title": "Start Your Journey to Hair-Free Confidence",
+                "description": ["Schedule a consultation today to explore how RevLite SI can help you achieve smooth, radiant skin. Let our specialists create a custom plan tailored to your needs and goals."]
+            }
+        },
+        "elite":{
+            "blog1": {
+                "title": "Elite IQ",
+                "description": "The Elite iQ device is a highly versatile, dual-wavelength aesthetic platform enabling practitioners to perform many of the most requested aesthetic treatments.",
+                "content": "KNOWING A PATIENT’S MELANIN INDEX MATTERS",
+                "bulletPoints":[
+                    "World’s first FDA-cleared Melanin Reader™",
+                    "Measures melanin content to better guide treatment test spot settings",
+                    "Finds patient’s specific melanin reading on index of 0-99 which corresponds to skin type Provides treatment confidence"
+                ]
+            },
+            "point_blog1": {
+                "title": "IQ",
+                "benefits": [
+                    {
+                        "description": "Innovative Skintel technology and intuitive user interface Power:"
+                    },
+                    {
+                        "description": "Treat more patients faster with higher max energy."
+                    },
+                    {
+                        "description": "Versatility: Skin and hair treatments in one device"
+                    },
+                    {
+                        "description": "Style: Modern device and improved user experience"
+                    }
+                ]
+            },
+            "point_blog2": {
+                "title": "Benefits",
+                "benefits": [
+                    {
+                        "description": "Fast treatments to maximize potential ROI"
+                    },
+                    {
+                        "description": "Safe and effective treatments"
+                    },
+                    {
+                        "description": "Treat all skin types, including tanned skin"
+                    },
+                    {
+                        "description": "Easy to use"
+                    }
+                ]
+            },
+            "point_blog3": {
+                "title": "What it cures ?",
+                "benefits": [
+                    {
+                        "title": "Hair removal"
+                    },
+                    {
+                        "title": "Pseudofolliculitis Barbae "
+                    },
+                    {
+                        "title": "Sun damage"
+                    },
+                    {
+                        "title": "Leg veins "
+                    }
+                ]
+            }
+        }
+    }
+}
