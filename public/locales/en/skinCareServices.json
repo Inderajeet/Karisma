@@ -79,126 +79,126 @@
               "id": 1,
               "name": "Basic HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "skinCare/facials/basic-hydraFacial",
               "designation": ""
             },
             {
               "id": 2,
               "name": "HydraFacial Clear Skin",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": ""
             },
             {
               "id": 3,
               "name": "Magic Facial",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": ""
             },
             {
               "id": 4,
               "name": "Oily Skin HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": ""
             },
             {
               "id": 5,
               "name": "Dry Skin HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": ""
             },
             {
               "id": 6,
               "name": "Carboxy HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": ""
             },
             {
               "id": 7,
               "name": "Whitening HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": ""
             },
             {
               "id": 8,
               "name": "Karisma Signature Facial (Caviar)",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": ""
             },
             {
               "id": 9,
               "name": "Karisma Signature Plus Facial (Cleopatra HydraFacial)",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": ""
             },
             {
               "id": 10,
               "name": "Detox HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": ""
             },
             {
               "id": 11,
               "name": "Under Eye Facial",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": ""
             },
             {
               "id": 12,
               "name": "Platinum HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": ""
             },
             {
               "id": 13,
               "name": "Deluxe Radiant HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": ""
             },
             {
               "id": 14,
               "name": "Deluxe Age Refinement HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": ""
             },
             {
               "id": 15,
               "name": "LED Light Therapy",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": ""
             },
             {
               "id": 16,
               "name": "Bubble Facial",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": ""
             },
             {
               "id": 17,
               "name": "Pink Shooter",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": ""
             },
             {
               "id": 18,
               "name": "Chocolate HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": ""
             }
           ]
@@ -272,35 +272,35 @@
               "id": 1,
               "name": "Yellow Peeling",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": "Illuminate Your Skin with the Power of the Yellow Peel at Karisma"
             },
             {
               "id": 2,
               "name": "TCA Peeling",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": "A powerful, customizable treatment designed to rejuvenate skin, targeting imperfections and promoting long-lasting results."
             },
             {
               "id": 3,
               "name": "Salicylic Acid Peeling",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": "A targeted treatment designed to combat acne, minimize scarring, and fade pigmentation, unveiling a radiant, blemish-free complexion."
             },
             {
               "id": 4,
               "name": "Green Peel",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": "A revolutionary, plant-based skincare solution that harnesses the power of herbal extracts to promote cellular renewal and reveal a smoother, more radiant complexion."
             },
             {
               "id": 5,
               "name": "Carbon Laser Peel",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": "The Carbon Laser Peel utilizes advanced laser technology to rejuvenate the skin, unveiling a glowing and refreshed complexion."
             }
           ]
@@ -386,63 +386,63 @@
               "id": 1,
               "name": "Meso Face",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": "Illuminate Your Skin with the Power of the Yellow Peel at Karisma"
             },
             {
               "id": 2,
               "name": "HA Meso",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": "A powerful, customizable treatment designed to rejuvenate skin, targeting imperfections and promoting long-lasting results."
             },
             {
               "id": 3,
               "name": "Meso Whitening",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": "A targeted treatment designed to combat acne, minimize scarring, and fade pigmentation, unveiling a radiant, blemish-free complexion."
             },
             {
               "id": 4,
               "name": "Meso Open Pores & Acne Scars",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": "A revolutionary, plant-based skincare solution that harnesses the power of herbal extracts to promote cellular renewal and reveal a smoother, more radiant complexion."
             },
             {
               "id": 5,
               "name": "TPRX Meso",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": "The Carbon Laser Peel utilizes advanced laser technology to rejuvenate the skin, unveiling a glowing and refreshed complexion."
             },
             {
               "id": 6,
               "name": "Meso Lift",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": "The Carbon Laser Peel utilizes advanced laser technology to rejuvenate the skin, unveiling a glowing and refreshed complexion."
             },
             {
               "id": 7,
               "name": "Meso Gold",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": "The Carbon Laser Peel utilizes advanced laser technology to rejuvenate the skin, unveiling a glowing and refreshed complexion."
             },
             {
               "id": 8,
               "name": "Meso Eyes",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": "The Carbon Laser Peel utilizes advanced laser technology to rejuvenate the skin, unveiling a glowing and refreshed complexion."
             },
             {
               "id": 9,
               "name": "Meso Lips",
               "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
+              "link": "",
               "designation": "The Carbon Laser Peel utilizes advanced laser technology to rejuvenate the skin, unveiling a glowing and refreshed complexion."
             }
           ]

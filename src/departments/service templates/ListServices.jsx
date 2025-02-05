@@ -20,7 +20,7 @@ export default function ListServices({ services }) {
                     <div className="dd-row">
                       {services?.map((doctor) => (
                         <Link
-                          to={`/${i18n.language}/doctor/${encodeURIComponent(doctor.link)}`}
+                          to={`/${i18n.language}/${encodeURIComponent(doctor.link)}`}
                           key={doctor.id}
                           className="doctor-info-cols"
                           style={{ cursor: "pointer" }}

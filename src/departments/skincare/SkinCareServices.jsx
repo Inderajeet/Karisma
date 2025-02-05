@@ -11,6 +11,7 @@ import OffersTemplate from "../service templates/OffersTemplate";
 import Doctors from "../../pages/doctor";
 import ListServices from "../service templates/ListServices";
 import ListServicesNoImg from "../service templates/ListServicesNoImg";
+import BannerSkinCare from "../../components/BannerSkinCare";
 
 const SkinCareServices = () => {
     const { t, i18n } = useTranslation('skinCareServices');
@@ -41,7 +42,7 @@ const SkinCareServices = () => {
 
     return (
         <>
-            <Banner />
+            <BannerSkinCare />
             <div className="happysmile-content-wrap container page">
                 {service.sections.map((section, index) => {
                     console.log('Section-services:', section.listServices);  // Debugging: log section

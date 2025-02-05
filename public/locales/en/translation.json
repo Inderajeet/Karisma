@@ -19,7 +19,7 @@
     {
       "title": "Dental Department",
       "description": "",
-      "link": "/"
+      "link": "/dental"
     },
     {
       "title": "Dermatology Department",
@@ -34,17 +34,17 @@
     {
       "title": "Gynecology Department",
       "description": "",
-      "link": "/"
+      "link": "/gynecology"
     },
     {
       "title": "Nutrition and Slimming Department",
       "description": "",
-      "link": "/"
+      "link": "/slimming"
     },
     {
       "title": "Laser Department",
       "description": "",
-      "link": "/"
+      "link": "/laser-hair"
     },
     {
       "title": "Plastic Surgery Department",
