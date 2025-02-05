@@ -45,6 +45,22 @@ import SkinCareServices from './departments/skincare/SkinCareServices';
 import SkinCareRelatedServices from './departments/skincare/SkinCareRelatedServices';
 import FooterServices from './components/FooterServices';
 
+import TeethWhitening from './pages/departments/teethWhitening';
+import MouthRehabilitation from './pages/departments/mouthRehab';
+import RootCanal from './pages/departments/rootCanal';
+import Pediatric from './pages/departments/pediatric';
+import DentalSurgery from './pages/departments/dentalSurgery';
+import OralHealth from './pages/departments/oralHealth';
+import RestorativeDentistry from './pages/departments/restorativeDentistry';
+import Slimming from './pages/departments/slimming';
+import Machines from './pages/departments/machines';
+import Injections from './pages/departments/injections';
+import SlimmingOtherServices from './pages/departments/slimming_other_service';
+import LaserHair from './pages/departments/laserHair';
+import Candela from './pages/departments/candela';
+import Revlite from './pages/departments/revlite';
+import Elite from './pages/departments/elite';
+
 
 Modal.setAppElement('#root'); // For accessibility
 
@@ -95,7 +111,25 @@ function LanguageWrapper() {
           <Route path="/veneers" element={<Veneers />} />
           <Route path="/implant" element={<Implant />} />
           <Route path="/orthodontics" element={<Orthodontics />} />
+          <Route path="/implant" element={<Implant />} /> 
+          <Route path="/orthodontics" element={<Orthodontics />} />    
+          <Route path="/teeth-whitening" element={<TeethWhitening />} />  
+          <Route path="/mouth-rehabilitation" element={<MouthRehabilitation />} /> 
+          <Route path="/root-canal" element={<RootCanal />} />
+          <Route path="/pediatric" element={<Pediatric />} />
+          <Route path="/dental-surgery" element={<DentalSurgery />} />
+          <Route path="/oral-health" element={<OralHealth />} />
+          <Route path="/restorative-dentistry" element={<RestorativeDentistry />} />
           <Route path="/gynecology" element={<Gynecology />} />
+          <Route path="/slimming" element={<Slimming />} />
+          <Route path="/machines" element={<Machines />} />
+          <Route path="/injections" element={<Injections />} />
+          <Route path="/slimming/other-services" element={<SlimmingOtherServices />} />
+          <Route path="/laser-hair" element={<LaserHair />} />
+          <Route path="/laser-hair/candela" element={<Candela />} />
+          <Route path="/laser-hair/revlite" element={<Revlite />} />
+          <Route path="/laser-hair/elite" element={<Elite />} />
+
         </Routes>
       </CartProvider>
       <Footer />

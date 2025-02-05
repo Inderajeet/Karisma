@@ -51,7 +51,7 @@ const Dental = () => {
         ]}
       />
       <PointBlog title={dental?.point_blog1?.title} description={dental?.point_blog1?.description} benefits={dental?.point_blog1?.benefits} />
-      <PointBlog title={dental?.point_blog3?.title} description={dental?.point_blog2?.description} benefits={dental?.point_blog2?.benefits} />
+      <PointBlog title={dental?.point_blog2?.title} description={dental?.point_blog2?.description} benefits={dental?.point_blog2?.benefits} />
       {/* <PointBlog title={dental?.point_blog3?.title} description={dental?.point_blog3?.description} benefits={dental?.point_blog3?.benefits} /> */}
       <ParaSection title={dental?.para_sec1?.title} desc={dental?.para_sec1?.description} />;
       <PointBlog title={dental?.point_blog4?.title} description={dental?.point_blog4?.description} benefits={dental?.point_blog4?.benefits} />

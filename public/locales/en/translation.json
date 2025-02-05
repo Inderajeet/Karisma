@@ -67,27 +67,27 @@
           "subMenu": [
             {
               "label": "Hollywood Smile (Veneers)",
-              "link": "/"
+              "link": "/veneers"
             },
             {
               "label": "Implant",
-              "link": "/"
+              "link": "/implant"
             },
             {
               "label": "Orthodontics",
-              "link": "/"
+              "link": "/orthodontics"
             },
             {
               "label": "Teeth Whitening",
-              "link": "/"
+              "link": "/teeth-whitening"
             },
             {
               "label": "Mouth Rehabilitation",
-              "link": "/"
+              "link": "/mouth-rehabilitation"
             },
             {
               "label": "Root Canal Treatment",
-              "link": "/"
+              "link": "/root-canal"
             },
             {
               "label": "Pediatric",
