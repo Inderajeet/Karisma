@@ -1,0 +1,97 @@
+@media (min-width: 1200px) {
+    .service-name {
+        font-size: 22px;
+        color: #405D53;
+        /* font-weight: bold; */
+        /* margin: 10px 13px 0 13px; */
+        /* font-family: 'The Seasons'; */
+    }
+}
+
+.service-name {
+    font-size: 18px;
+    color: #405D53;
+    /* margin-top: 10px; */
+}
+
+.service-info-body {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 15px;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+.service-departments {
+    font-size: 16px;
+    color: #5C4033;
+}
+
+@media (min-width: 1200px) {
+    .doctor-info-cols {
+        flex: 1 1 30%;
+        /* 3 doctors per row for desktops */
+        max-width: 30%;
+    }
+
+    .service-name {
+        font-size: 20px;
+        color: #405D53;
+        /* font-weight: bold; */
+        /* margin: 10px 13px 0 13px; */
+        /* font-family: 'The Seasons'; */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .doctor-info-cols {
+        flex: 1 1 48%;
+        /* 2 doctors per row for tablets */
+        max-width: 48%;
+    }
+}
+
+@media (min-width: 768px) {
+    .cust-service-info-wrap {
+        margin-bottom: 40px;
+        padding-bottom: 0;
+        position: relative;
+        text-align: start;
+        box-shadow: 0px 0px 13px 0px rgb(6 6 6 / 35%);
+        border-radius: 0px 20px 0px 20px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .doctor-info-cols {
+        flex: 1 1 100%;
+        /* Default: 1 doctor per row for mobile */
+        max-width: 100%;
+        /* Prevent overflow */
+    }
+
+    .cust-service-info-wrap {
+        margin-bottom: 10px;
+        padding-bottom: 0;
+        position: relative;
+        text-align: start;
+        box-shadow: 0px 0px 13px 0px rgb(6 6 6 / 35%);
+        border-radius: 0px 20px 0px 20px;
+    }
+    .dd-row {
+        display: flex;
+        flex-wrap: wrap; /* Wrap items into the next row if they don't fit */
+        gap: 20px; /* Add consistent spacing between items */
+        padding: 0 10px;
+        justify-content: space-evenly;
+      }
+}
+
+
+
+
+.doctor-info-cols .doctor-info-inner {
+    margin-bottom: 0;
+    /* margin: 0px 13px 22px 14px; */
+}

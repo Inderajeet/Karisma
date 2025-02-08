@@ -1,0 +1,2009 @@
+{
+    "skinCareRelated": [
+        {
+            "id": "1",
+            "name": "facials/basic-hydraFacial",
+            "sections": [
+                {
+                    "type": "header-title",
+                    "title": "Basic HydraFacial"
+                },
+                {
+                    "type": "content",
+                    "title": "A Refreshing Foundation for Radiant Skin",
+                    "description": "At Karisma, our Basic HydraFacial is designed to cleanse, hydrate, and rejuvenate your skin, making it the perfect introduction to advanced skincare."
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "Benefits of a Basic HydraFacial",
+                            "subtitle": " This foundational treatment delivers multiple benefits, catering to all skin types:",
+                            "features": [
+                                "Deep Cleansing & Exfoliation: The HydraFacial machines gently removes impurities, including blackheads, whiteheads, excess oil, and dead skin cells, leaving your complexion refreshed and renewed.",
+                                "Enhanced Absorption: By clearing away surface debris, the treatment primes your skin for maximum absorption of nourishing serums and skincare products.",
+                                "Hydration Boost: A soothing application of hydrating products restores moisture, leaving your skin plump and healthy-looking.",
+                                "Versatility: Gentle yet effective, this treatment suits all skin types, offering a revitalizing cleanse for everyone."
+                            ]
+                        },
+                        {
+                            "title": "Who Can Benefit?",
+                            "subtitle": " The Basic HydraFacial is ideal for those seeking:",
+                            "features": [
+                                "Clearer Skin: Effectively addresses clogged pores and removes blemishes.",
+                                "Detoxification: Eliminates impurities for a fresh, revitalized appearance.",
+                                "Skincare Enhancement: Prepares your skin for better absorption of products, enhancing your daily routine results.",
+                                "Overall Glow: Promotes skin health and radiance through deep cleansing and hydration."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Unlocking Advanced Results",
+                    "description": "Combine the Basic HydraFacial with other treatments for even more dramatic results:",
+                    "features": [
+                        "Dermapen: Boost collagen production and improve product penetration with microneedling.",
+                        "Mesotherapy: Infuse the skin with a potent blend of vitamins and hydrating solutions for enhanced rejuvenation.",
+                        "Stem Cell Therapy: Explore cutting-edge stem cell treatments for deep renewal and anti-aging effects (consultation required)."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Important Considerations",
+                    "description": "While the Basic HydraFacial is generally safe for most, it may not be suitable for those with:",
+                    "features": [
+                        "Active Acne: Wait until breakouts subside to prevent irritation or infection. Our experts can recommend alternative treatments tailored to your skin’s condition."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Achieve Radiant, Healthy Skin",
+                    "description": "Book your consultation at Karisma today, and let our experts help you achieve your skincare goals with a customized HydraFacial experience."
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "facials/hydraFacial-clear-skin",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "HydraFacial Clear Skin"
+                },
+                {
+                    "type": "content",
+                    "title": "Targeting Blemishes for a Smooth, Radiant Complexion",
+                    "description": "The HydraFacial Clear Skin facial is designed to combat breakouts and balance oily and combination skin, offering a comprehensive solution to clear, smooth skin."
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "Combat Blemishes with Precision",
+                            "subtitle": " This specialized treatment targets imperfections, ensuring clearer, healthier skin with multiple benefits:",
+                            "features": [
+                                "Deep Cleansing & Exfoliation: Using HydraFacial’s advanced machines, this treatment removes blackheads, whiteheads, excess oil, and dead skin cells to create a clean base for further care.",
+                                "Targeted Exfoliation: A precise application of salicylic acid gently exfoliates the skin, addressing active pimples and preventing future breakouts.",
+                                "Pore Reduction: The treatment minimizes the appearance of enlarged pores, by eliminating excess oil and dead cells.",
+                                "Skin Rejuvenation: Promotes healthy cell turnover, leaving the skin smoother, clearer, and more radiant."
+                            ]
+                        },
+                        {
+                            "title": "Who Can Benefit?",
+                            "subtitle": " The HydraFacial Clear Skin facial is perfect for individuals experiencing:",
+                            "features": [
+                                "Oily Skin: Regulate sebum production, achieving a matte finish without excess shine.",
+                                "Combination Skin: Target oiliness in the T-zone while keeping drier areas balanced and hydrated.",
+                                "Active Pimples: Address blemishes with salicylic acid, promoting a clearer complexion.",
+                                "Large Pores: Minimize the appearance of enlarged pores for a smooth, refined texture."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "A Safe and Effective Solution",
+                    "description": "The HydraFacial Clear Skin facial offers a gentle yet powerful approach to treating oily and acne-prone skin:",
+                    "features": [
+                        "HydraFacial Technology: The specialized machines provides a comfortable, thorough cleanse that meets your skin’s needs.",
+                        "Salicylic Acid: This beta-hydroxy acid effectively targets blemishes and gently exfoliates without irritating.",
+                        "Premium Skincare Products: We use high-quality products tailored for oily and acne-prone skin to maximize results."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Precautions",
+                    "description": "While HydraFacial Clear Skin is safe for most skin types, we recommend consulting our skin care experts to assess the best treatment for your needs and determine suitability."
+                },
+                {
+                    "type": "content",
+                    "title": "Reveal Clear, Smooth Skin",
+                    "description": "Book your HydraFacial Clear Skin session today and let our specialists help you achieve a blemish-free, radiant complexion."
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "facials/magic-facial",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Magic Facial"
+                },
+                {
+                    "type": "content",
+                    "title": "Unveil Your Natural Radiance",
+                    "description": "Experience the gentle power of the Magic Facial, designed to enhance your natural beauty through a soothing, machine-free approach. It is Perfect for those seeking a more holistic way to achieve a glowing, youthful complexion."
+                },
+                {
+                    "type": "content",
+                    "title": "The Magic of Gentle Care",
+                    "description": "The Magic Facial is crafted to provide visible results without the need for harsh tools or aggressive techniques:",
+                    "features": [
+                        "Gentle Cleansing: Removes impurities while maintaining the skin’s natural balance, leaving you feeling refreshed.",
+                        "Light Exfoliation: A delicate scrub eliminates dead skin cells, revealing a smoother, softer surface.",
+                        "Deep Hydration: Infused with hyaluronic acid, this treatment locks in moisture, delivering a plump, dewy complexion.",
+                        "Vitamin C Boost: Brightens and evens out skin tone, reducing the appearance of dark spots and enhancing radiance.",
+                        "Targeted Lightening: A controlled application of TCA powder gently lightens and illuminates the skin, creating a luminous finish."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Ideal for Sensitive Skin",
+                    "description": "While HydraFacial Clear The Magic Facial is tailored for individuals seeking a soft, nurturing touch:",
+                    "features": [
+                        "Gentle Yet Powerful: Free from machines, this facial focuses on mild exfoliation and hydration, making it suitable for sensitive or reactive skin.",
+                        "Natural Brightening: The combination of hyaluronic acid and vitamin C promotes a healthy, radiant glow without irritation."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Precautions",
+                    "description": "While safe for most skin types, we recommend a consultation to ensure the Magic Facial aligns with your skincare needs."
+                },
+                {
+                    "type": "content",
+                    "title": "Embrace Natural Elegance",
+                    "description": "Step into a world of gentle transformation. Schedule your Magic Facial at Karisma and unlock the secret to glowing, healthy skin."
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "facials/oily-skin-hydraFacial",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Oily Skin HydraFacial"
+                },
+                {
+                    "type": "content",
+                    "title": "Achieve a Shine-Free, Balanced Complexion",
+                    "description": "Take control of oily skin with a targeted HydraFacial designed to restore balance and reduce excess shine, leaving your skin refreshed and revitalized."
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "Key Benefits of the Oily Skin HydraFacial",
+                            "features": [
+                                "Deep Cleansing: Removes excess sebum, dirt, and impurities using advanced HydraFacial technology, creating a clean foundation.",
+                                "Microneedling with Dermapen: Stimulates sebum regulation and tightens pores through precise micro-channels, enhancing overall skin texture.",
+                                "Oil-Control Serum: A specialized serum reduces shine and regulates oil production for a lasting mattified look.",
+                                "Detoxifying Mask: A Dead Sea salt mask absorbs oil, purifies the skin, and leaves it feeling clean and unified."
+                            ]
+                        },
+                        {
+                            "title": "Who Can Benefit?",
+                            "subtitle": " This treatment is ideal for anyone dealing with:",
+                            "features": [
+                                "Excess Oil & Shine: Achieve a fresh, matte finish by controlling sebum production.",
+                                "Enlarged Pores: Minimize pore visibility for a smoother complexion.",
+                                "Clogged Pores: Clear out impurities and prevent future breakouts.",
+                                "Persistent Oily Skin: Address oily skin challenges with a tailored, multi-step approach."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Precautions",
+                    "description": "Although safe for most skin types, it’s advisable to consult with our skincare experts to ensure this treatment suits your individual needs."
+                },
+                {
+                    "type": "content",
+                    "title": "Reclaim Your Glow",
+                    "description": "Discover a clear, balanced complexion with the Oily Skin HydraFacial at Karisma. Book your appointment today for a refreshed, mattified look!"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "facials/dry-skin-hydraFacial",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Dry Skin HydraFacial"
+                },
+                {
+                    "type": "content",
+                    "title": "Deep Hydration for a Radiant, Supple Glow",
+                    "description": "Restore balance and quench your skin’s thirst with a HydraFacial tailored to combat dryness and boost hydration, leaving your complexion plump, smooth, and radiant."
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "Key Benefits of the Dry Skin HydraFacial",
+                            "features": [
+                                "Gentle Cleansing: Carefully removes impurities while preserving essential moisture, ensuring comfort and freshness without over-drying.",
+                                "Hyaluronic Acid Infusion: Deeply hydrates with hyaluronic acid, locking in moisture and promoting a soft, supple appearance.",
+                                "Nourishing Serums: Customized serums target specific issues like flakiness, redness, and irritation, enhancing skin health.",
+                                "Oxygenating Bubble Mask: A revitalizing mask infused with oxygen and activated charcoal purifies while maintaining hydration for a glowing finish."
+                            ]
+                        },
+                        {
+                            "title": "Who Can Benefit?",
+                            "subtitle": " This treatment is perfect for those experiencing:",
+                            "features": [
+                                "Dry, Dehydrated Skin: Replenish moisture and restore a smooth, balanced complexion.",
+                                "Flaky Patches: Revitalize and soften rough, dry areas.",
+                                "Tightness & Discomfort: Soothe tight, uncomfortable skin and promote lasting hydration.",
+                                "Dull, Tired Skin: Enhance radiance and achieve a healthy glow."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Gentle Yet Powerful Hydration",
+                    "features": [
+                        "Advanced HydraFacial Technology: Provides a thorough, non-abrasive cleanse tailored for sensitive, dry skin.",
+                        "Hyaluronic Acid Benefits: Attracts and retains moisture, boosting hydration levels without irritation.",
+                        "Customized Serums: Selected to meet your skin’s unique needs.",
+                        "Oxygenating Bubble Mask: Purifies and energizes the skin, leaving it refreshed and radiant."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Precautions",
+                    "description": "While suitable for most, we recommend consulting with our skincare experts to determine the best approach for your skin type."
+                },
+                {
+                    "type": "content",
+                    "title": "Embrace Radiance and Comfort",
+                    "description": "Book your Dry Skin HydraFacial at Karisma today and experience deep hydration and rejuvenation tailored to your skin’s needs!"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "facials/carboxy-hydraFacial",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Carboxy HydraFacial"
+                },
+                {
+                    "type": "content",
+                    "title": "CO₂ Therapy for Youthful, Radiant Skin",
+                    "description": "Harness the power of carbon dioxide (CO₂) to rejuvenate and revitalize your skin with the Carboxy HydraFacial, a cutting-edge treatment designed to enhance skin health and restore a youthful glow."
+                },
+                {
+                    "type": "content",
+                    "title": "How It Works",
+                    "features": [
+                        "Deep Cleanse & Exfoliation: Using specialized HydraFacial machines, impurities such as blackheads, whiteheads, excess oil, and dead skin cells are gently removed, preparing your skin for optimal results.",
+                        "CO₂ Therapy - Awakening Renewal: A topical CO₂ gel triggers the Bohr effect, prompting the skin to demand more oxygen. This initiates a rush of oxygen-rich blood to the treated area, resulting in:",
+                        "Enhanced Cellular Activity: Increased oxygen and nutrients accelerate cell regeneration and create a radiant glow.",
+                        "Collagen Production Boost: Stimulates collagen, improving skin structure, firmness, and elasticity.",
+                        "Improved Blood Circulation: Reduces puffiness and enhances overall skin tone."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Targeted Eye Treatment",
+                    "description": "A specialized CO₂ mask is applied to the under-eye area, offering:",
+                    "features": [
+                        "Lightening & Tightening: Reduces fine lines and firms the delicate skin.",
+                        "Puffiness Reduction: Enhanced circulation diminishes puffiness, promoting a refreshed appearance.",
+                        "Dark Circle Lightening: It improves under-eye brightness by boosting circulation and renewing cells.",
+                        "Deep Hydration & Skin Nourishment: The treatment concludes with hydrating serums tailored to your skin type, locking in moisture and leaving your skin plump, refreshed, and glowing."
+                    ]
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "Who Can Benefit?",
+                            "subtitle": "Ideal for addressing:",
+                            "features": [
+                                "Fine Lines & Wrinkles: Increased collagen production smooths and plumps the skin.",
+                                "Loss of Elasticity: Promotes firmer, youthful skin.",
+                                "Uneven Skin Tone & Hyperpigmentation: Lightens dark spots and enhances overall radiance.",
+                                "Puffy Eyes & Dark Circles: Reduces puffiness and lightens under-eye areas for a rested look."
+                            ]
+                        },
+                        {
+                            "title": "Versatility & Convenience",
+                            "features": [
+                                "Year-Round Treatment: Safe and effective in all seasons.",
+                                "Minimal Downtime: Gentle on the skin, allowing you to resume daily activities immediately."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Precautions",
+                    "description": "While suitable for most skin types, personalized consultation with our skincare experts ensures the Carboxy HydraFacial meets your unique needs."
+                },
+                {
+                    "type": "content",
+                    "title": "Unlock Radiance and Renewal",
+                    "description": "Experience the transformative benefits of the Carboxy HydraFacial at Karisma. Schedule your session today for glowing, youthful skin!"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "facials/whitening-hydraFacial",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Whitening HydraFacial"
+                },
+                {
+                    "type": "content",
+                    "title": "Illuminate Your Skin’s True Potential",
+                    "description": "Reveal a brighter, more even complexion with the Whitening HydraFacial, a specialized treatment designed to target hyperpigmentation, dullness, and uneven skin tone."
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "How It Works",
+                            "subtitle": "Ideal for addressing:",
+                            "features": [
+                                "Deep Cleanse & Exfoliation: A HydraFacial machine gently removes impurities, including blackheads, whiteheads, excess oil, and dead skin cells, creating a clean slate for enhanced treatment effectiveness.",
+                                "Dermapen Microneedling - Enhanced Absorption: Micro-channels created by Dermapen technology promote cell turnover and boost the absorption of lightening solutions, maximizing results.",
+                                "Melafadin Fluid - Powering Up Lightening: A potent blend of lightening agents and Vitamin C delivers multiple benefits:",
+                                "Hyperpigmentation Targeting: Acids like kojic and azelaic acid gently reduce dark spots and stubborn pigmentation.",
+                                "Brightening Effect: Vitamin C inhibits melanin production and supports cell renewal, enhancing skin brightness.",
+                                "Lasting Hydration & Radiance: The treatment finishes with hydrating serums tailored to your skin type, leaving it plump, moisturized, and glowing."
+                            ]
+                        },
+                        {
+                            "title": "Who Can Benefit from the Whitening HydraFacial?",
+                            "subtitle": "This treatment is ideal for individuals dealing with:",
+                            "features": [
+                                "Sun & Age Spots: Lighten the appearance of sun damage and age-related pigmentation.",
+                                "Uneven Skin Tone: Achieve a balanced, uniform complexion.",
+                                "Dull Skin: Revitalize and brighten for a luminous glow.",
+                                "Melasma: While not a cure, the treatment can help manage its appearance when combined with a proper skincare routine."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Gentle & Safe Approach",
+                    "features": [
+                        "Customized Care: Serums and solutions are selected based on your unique skin type and needs.",
+                        "Comfortable Treatment: HydraFacial technology ensures a soothing, non-invasive experience."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Precautions",
+                    "features": [
+                        "Consultation Required: A personalized consultation with our experts will help determine if this treatment suits your needs.",
+                        "Not Suitable for Pregnancy or Breastfeeding: Due to the use of specific acids, this treatment should be avoided during pregnancy and breastfeeding."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Achieve Radiant, Even Skin",
+                    "description": "Discover the path to glowing, brighter skin with the Whitening HydraFacial at Karisma. Book your appointment today and experience the transformation!"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "facials/karisma-signature-facial",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Karisma Signature Facial (Caviar)"
+                },
+                {
+                    "type": "content",
+                    "title": "A Luxurious Path to Radiance",
+                    "description": "Pamper yourself with the indulgent Karisma Signature Facial (Caviar), a high-performance treatment designed to rejuvenate, nourish, and brighten normal to combination skin."
+                },
+                {
+                    "type": "content",
+                    "title": "Step-by-Step Luxury Experience",
+                    "features": [
+                        "Deep Cleanse: Begin with a thorough cleansing to remove impurities, makeup, and excess oil, creating the perfect base for enhanced product absorption.",
+                        "The Power of Caviar: HydraFacial technology ensures a soothing, non-invasive experience.A nutrient-rich caviar mask infuses your skin with:",
+                        "Deep Hydration: Caviar extract locks in moisture, leaving skin plump and refreshed.",
+                        "Improved Elasticity: Boost collagen production for firmer, more youthful skin.",
+                        "Antioxidant Protection: Shield your skin from environmental damage with powerful antioxidants.",
+                        "Vitamin C Infusion: Follow with a vitamin C mask, enhancing radiance and delivering:",
+                        "Brightening Effects: Diminish dark spots and even out skin tone.",
+                        "Collagen Boost: Support skin firmness and smoothness.",
+                        "Defense Against Damage: Protect against free radicals and maintain a youthful glow.",
+                        "Lasting Radiance: The treatment concludes with a tailored moisturizer, leaving your skin soft, supple, and luminous."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Who Is It For?",
+                    "description": "The Karisma Signature Facial (Caviar) is ideal for:",
+                    "features": [
+                        "Normal Skin: Maintain hydration and balance for a healthy glow.",
+                        "Combination Skin: Address both dryness and oiliness with targeted, balancing care."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Precautions",
+                    "features": [
+                        "Allergy Alert: This treatment is not suitable for individuals with fish or shellfish allergies.",
+                        "Consultation Recommended: Speak with our skincare experts to tailor the facial to your specific needs."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Elevate Your Skincare Routine",
+                    "description": "Experience the unparalleled caviar and vitamin C for radiant, youthful skin. Book your Karisma Signature Facial (Caviar) at Karisma today!"
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "name": "facials/karisma-signature-plus-facial",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Karisma Signature Plus Facial (Cleopatra HydraFacial)"
+                },
+                {
+                    "type": "content",
+                    "title": "Unveil Radiance Fit for a Queen",
+                    "description": "Indulge in the luxurious Karisma Signature Plus Facial (Cleopatra HydraFacial)—a comprehensive treatment that combines cutting-edge technology and opulent ingredients for complete rejuvenation, brighter skin, and lasting radiance."
+                },
+                {
+                    "type": "content",
+                    "title": "A Multi-Step Journey to Perfection",
+                    "features": [
+                        "Deep Cleanse: Start with a thorough cleansing to remove impurities, leaving a pristine foundation for the transformative treatments ahead.",
+                        "Stem Cell Power: Plant-derived stem cells are applied, offering potential benefits like:",
+                        "Cell Renewal: Stimulates healthy skin cell production for a smoother, revitalized look.",
+                        "Collagen Boost: Enhances collagen levels, improving skin structure and elasticity.",
+                        "Eye Flash Treatment: A focused treatment for the delicate eye area, helping to:",
+                        "Reduce Fine Lines: Smooth out wrinkles for a youthful appearance.",
+                        "Lighten Dark Circles: Improve circulation and brighten under-eye skin.",
+                        "Vitamin C Boost: A potent vitamin C serum brightens and protects, offering:",
+                        "Even Skin Tone: It inhibits melanin production to fade dark spots.",
+                        "Collagen Stimulation: Supports firmer, smoother skin.",
+                        "Antioxidant Defense: Shields against environmental damage.",
+                        "Dermapen Microneedling: This advanced technique creates micro-channels in the skin, enhancing the absorption of active ingredients and stimulating collagen production for a plump, youthful glow."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Tailored Results for Your Unique Needs",
+                    "description": "The Karisma Signature Plus Facial addresses a variety of concerns, making it ideal for:",
+                    "features": [
+                        "Freshness & Revitalization: Deep clean and restore your skin’s natural glow.",
+                        "Lightening: Reduce dark spots and under-eye circles for a more luminous complexion.",
+                        "Skin Rejuvenation: Boost cell renewal and collagen for youthful, smooth skin.",
+                        "Fine Line Reduction: Minimize wrinkles and promote a firmer, lifted appearance."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Safety & Recommendations",
+                    "features": [
+                        "Consultation Required: While suitable for most skin types, our experts will tailor the treatment to your needs.",
+                        "Pregnancy Advisory: Some elements may not be suitable for pregnant or breastfeeding women. Consult our team for personalized advice."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Glow Like Royalty",
+                    "description": "Book your Karisma Signature Plus Facial (Cleopatra HydraFacial) at Karisma for an indulgent journey to radiant, youthful skin."
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "name": "facials/detox-hydraFacial",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Detox HydraFacial"
+                },
+                {
+                    "type": "content",
+                    "title": "Detoxify, Refresh and Renew Naturally",
+                    "description": "The Detox HydraFacial is a powerful yet gentle treatment designed to cleanse, rejuvenate, and restore your skin using the benefits of natural ingredients."
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "A Deep-Cleaning, Revitalizing Experience",
+                            "features": [
+                                "Deep Cleanse & Exfoliation: Using specialized HydraFacial machines, this step removes impurities like blackheads, whiteheads, excess oil, and dead skin cells, creating a fresh, clean canvas.",
+                                "Green Peel Power: A soothing green peel mask, enriched with natural herbal extracts, provides targeted benefits:",
+                                "Cell Renewal: Stimulates turnover, revealing smoother, brighter skin.",
+                                "Pigmentation Reduction: Lightens dark spots and evens skin tone.",
+                                "Acne Treatment: It clears impurities and helps prevent future breakouts."
+                            ]
+                        },
+                        {
+                            "title": "Ideal Candidates for Detox HydraFacial",
+                            "subtitle": "This treatment benefits individuals with a variety of skin concerns:",
+                            "features": [
+                                "Dullness & Uneven Tone: Achieve a refreshed, radiant glow.",
+                                "Hyperpigmentation & Dark Spots: Reduce pigmentation for a more balanced complexion.",
+                                "Acne-Prone Skin: Purify and rejuvenate to minimize blemishes.",
+                                "Natural Skincare Enthusiasts: Enjoy gentle, plant-based exfoliation without harsh chemicals."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "How Natural Exfoliation Works",
+                    "features": [
+                        "Plant-Based Enzymes: Loosen and remove dead skin cells for a refined texture.",
+                        "Boosted Circulation: Improves blood flow, delivering essential nutrients for glowing, healthy skin."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Precautions & Recommendations",
+                    "features": [
+                        "Consultation Advised: While suitable for most, a personalized consultation ensures the best results for your skin type.",
+                        "Sensitive Skin Alert: Individuals with sensitive skin or allergies to herbal extracts should seek expert advice before booking."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Refresh Your Skin Naturally",
+                    "description": "Book your Detox HydraFacial at Karisma and enjoy a renewed, radiant complexion that feels as fresh as it looks."
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "name": "facials/under-eye-facial",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Under Eye Facial"
+                },
+                {
+                    "type": "content",
+                    "title": "Illuminate and Rejuvenate the Delicate Eye Area",
+                    "description": "The Under Eye Facial is designed to target the unique concerns of the under-eye area, restoring brightness, smoothness, and firmness through a luxurious, multi-step approach."
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "Steps to Radiant Eyes",
+                            "features": [
+                                "Gentle Cleansing: The treatment begins with a thorough cleanse, removing makeup and impurities to prepare the skin for enhanced absorption and optimal results.",
+                                "Targeted Rejuvenation:",
+                                {
+                                    "title": "Dermapen Microneedling: Tiny micro-channels are created to stimulate collagen production and allow deeper penetration of nourishing products.",
+                                    "items": [
+                                        "Collagen Boost: Promotes firmer, smoother skin by triggering the body’s natural healing response.",
+                                        "Enhanced Product Absorption: Maximizes the effectiveness of the active ingredients in the treatment."
+                                    ]
+                                },{
+                                    "title": "Eye Flash Ampoule: This advanced serum, enriched with hyaluronic acid and peptides, provides intense hydration and revitalization.",
+                                    "items": [
+                                        "Deep Hydration: Hyaluronic acid locks in moisture, reducing dryness and fine lines.",
+                                        "Peptide Power: Stimulates cell renewal and collagen production, improving firmness and brightness."
+                                    ]
+                                },
+                                "Luxurious Gold Mask: A golden mask is applied to the under-eye area, offering a soothing, anti-inflammatory touch that enhances the overall pampering experience."
+                            ]
+                        },
+                        {
+                            "title": "Who Can Benefit from the Under Eye Facial?",
+                            "subtitle": "Perfect for those seeking to address:",
+                            "features": [
+                                "Puffiness: Reduce swelling and refresh tired eyes.",
+                                "Dark Circles: Improve circulation and lighten discoloration for a more awake appearance.",
+                                "Fine Lines & Wrinkles: Minimize signs of aging with targeted hydration and collagen stimulation.",
+                                "Loss of Elasticity: Restore firmness and youthfulness through enhanced collagen production."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Precautions & Recommendations",
+                    "features": [
+                        "Consultation Advised: A personalized consultation ensures the treatment suits your skin type and specific needs.",
+                        "Skin Sensitivity: Individuals with very sensitive skin or a history of keloid scarring should seek expert advice before booking."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Reveal Brighter, Smoother Eyes",
+                    "description": "Book your Under Eye Facial at Karisma and rediscover the beauty of refreshed, youthful-looking eyes."
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "name": "facials/platinum-hydraFacial",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Platinum HydraFacial"
+                },
+                {
+                    "type": "content",
+                    "title": "Unlock Radiant, Youthful Skin with the Ultimate HydraFacial Treatment",
+                    "description": "At Karisma Specialist Medical Center, we are proud to introduce the Platinum HydraFacial, a cutting-edge treatment designed to provide a comprehensive approach to skin rejuvenation. Combining advanced HydraFacial technology with innovative techniques, this treatment is your solution for a visibly renewed, radiant, and youthful complexion"
+                },
+                {
+                    "type": "content",
+                    "title": "The Power of Platinum",
+                    "description": "The Platinum HydraFacial offers a multi-step process that works in harmony to deliver transformative results:",
+                    "features": [
+                        "Deep Cleanse with Advanced Technology: The treatment starts with a deep cleanse using the latest HydraFacial technology. This step removes impurities, blackheads, dead skin cells, and excess oil, preparing your skin for optimal absorption of the following treatments.",
+                        "Exfoliation and Rejuvenation: A gentle exfoliation removes dead skin cells, encouraging cell turnover and revealing a smoother, brighter complexion. This process also enhances the effectiveness of subsequent treatment steps.",
+                        {
+                            "title": "Enhanced Circulation for a Healthy Glow: The Platinum HydraFacial incorporates lymphatic drainage to:",
+                            "items": [
+                                "Stimulate Blood Flow: Boost circulation to deliver essential nutrients and oxygen to your skin cells for a healthy, glowing complexion.",
+                                "Eliminate Toxins: Help clear waste products and promote a cleaner, healthier skin surface."
+                            ]
+                        },
+                        {
+                            "title": "Boost Tightening and Elasticity: Targeted techniques and specialized serums are used to improve skin's tightness and elasticity:",
+                            "items": [
+                                "Hydrating Serums: These deliver essential nutrients to plump, firm, and revitalize the skin for a more youthful appearance."
+                            ]
+                        },
+                        {
+                            "title": "Light Therapy for Deeper Rejuvenation: The treatment incorporates both Blue and Red LED Light Therapy for enhanced results:",
+                            "items": [
+                                "Blue LED Light: Soothes and calms the skin, reducing inflammation and improving texture.",
+                                "Red LED Light: Stimulates collagen production, helping to firm and tighten the skin while reducing the appearance of sun damage and promoting a more even skin tone."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Comprehensive Skin Rejuvenation",
+                    "description": "The Platinum HydraFacial is perfect for those looking to achieve a visibly transformed complexion, offering multiple benefits:",
+                    "features": [
+                        "Cellular Regeneration: Encourages healthy skin turnover for a smoother, more luminous appearance.",
+                        "Reduced Hyperpigmentation: Addresses dark spots and uneven skin tone for a radiant complexion.",
+                        "Skin Tightening: Enjoy firmer, more youthful skin with improved elasticity.",
+                        "Restored Radiance: Reveal a glowing, revitalized complexion."
+                    ]
+                },
+                {
+                    "type": "Treatment Duration",
+                    "description": "The Platinum HydraFacial provides a complete treatment experience in approximately 45 minutes."
+                },
+                {
+                    "type": "Precautions",
+                    "description": "While safe for most skin types, we recommend a consultation with our skincare experts to discuss your unique needs and suitability. Pregnant and breastfeeding women may need to avoid certain aspects of the treatment (please consult with our experts for more details).",
+                    "features": [
+                        "Note: This treatment does not include lymphatic drainage."
+                    ]
+                },
+                {
+                    "type": "Experience the Ultimate in Skin Rejuvenation",
+                    "description": "Book your Platinum HydraFacial today at Karisma Specialist Medical Center and unlock the secret to radiant, youthful skin."
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "name": "facials/deluxe-radiant-hydraFacial",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Deluxe Radiant HydraFacial"
+                },
+                {
+                    "type": "content",
+                    "title": "Elevate Your Glow with Deluxe Radiance",
+                    "description": "At Karisma Specialist Medical Center, our results-driven approach to skincare is designed to reveal your skin’s true potential. The Deluxe Radiant HydraFacial is a luxurious, multi-step treatment that combines advanced HydraFacial technology, potent serums, and LED light therapy to deliver a visibly brighter, rejuvenated, and radiant complexion."
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "Why Choose the Deluxe Radiant HydraFacial?",
+                            "subtitle": "This premium treatment offers a complete skincare experience, targeting key areas to enhance your skin’s natural glow:",
+                            "features": [
+                                "Deep Cleanse with Advanced Technology: Using the latest HydraFacial machines, the treatment deeply cleanses your skin, removing impurities such as blackheads, dead skin cells, and excess oil. This ensures an optimal foundation for the next steps.",
+                                "Exfoliation for a Smoother Complexion: A gentle exfoliation process removes dead skin cells, encouraging cell turnover and revealing a fresh, smooth surface for enhanced product absorption.",
+                                {
+                                    "title": "The Power of Growth Factors: This step introduces powerful growth factors, which deliver targeted benefits:",
+                                    "items": [
+                                        "Stimulate Skin Renewal: Promotes the production of new skin cells for a youthful appearance.",
+                                        "Treat Skin Concerns: Helps address fine lines, wrinkles, uneven tone, and sun damage.",
+                                        "Deep Hydration: Encourages hyaluronic acid production for intense, lasting moisture.",
+                                        "Skin Tightening & Radiance: Boosts collagen production, enhancing firmness and glow."
+                                    ]
+                                },
+                                "Hydration and Freshness Boost: Customized serums, selected for your skin type, infuse your skin with moisture and nutrients, leaving it hydrated and refreshed.",
+                                {
+                                    "title": "LED Light Therapy for Ultimate Rejuvenation: The treatment concludes with Blue and Red LED Light Therapy for enhanced benefits:",
+                                    "items": [
+                                        "Blue LED Light: Calms and soothes the skin, reducing inflammation and promoting smoothness.",
+                                        "Red LED Light: Stimulates collagen, reduces sun damage, and improves skin tone for a youthful, even complexion."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Key Benefits of the Deluxe Radiant HydraFacial",
+                            "features": [
+                                "Cellular Renewal: Encourages healthy turnover for smoother, brighter skin.",
+                                "Reduced Pigmentation: Diminishes dark spots and hyperpigmentation for an even tone.",
+                                "Firmer Skin: Promotes skin tightening and elasticity.",
+                                "Radiant Glow: Restores luminosity for a revitalized appearance.",
+                                "Deep Hydration: Delivers moisture from within for long-lasting freshness."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Treatment Duration & Precautions",
+                    "features": [
+                        "Duration: Approximately 45 minutes.",
+                        "Precautions: Safe for most skin types, though a consultation with our skincare experts is advised to tailor the treatment to your needs. Pregnant and breastfeeding women should consult with our specialists to understand any limitations.",
+                        "Note: Lymphatic drainage is not included in this treatment."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Reveal Your Radiant Best",
+                    "description": "Book your Deluxe Radiant HydraFacial at Karisma Specialist Medical Centertoday and experience the ultimate in skin rejuvenation and hydration."
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "name": "facials/deluxe-age-refinement-hydraFacial",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Deluxe Age Refinement HydraFacial"
+                },
+                {
+                    "type": "content",
+                    "title": "Redefine Your Glow with Age Refinement",
+                    "description": "At Karisma Specialist Medical Center, age is a canvas, not a constraint. The Deluxe Age Refinement HydraFacial combines cutting-edge HydraFacial technology, advanced serums, and light therapy to deliver visibly younger, firmer, and more radiant skin. This multi-step treatment addresses the signs of aging while rejuvenating your complexion from within."
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "What Sets the Deluxe Age Refinement HydraFacial Apart?",
+                            "subtitle": "This premium treatment is designed to restore vitality and enhance your skin’s youthful glow through targeted steps:",
+                            "features": [
+                                "Deep Cleanse with Advanced Technology: Utilizing the latest HydraFacial machine, the treatment begins with a deep cleanse, eliminating impurities like blackheads, dead skin cells, and excess oil, setting the stage for optimal results.",
+                                "Exfoliation for a Refined Complexion: A gentle exfoliation process removes dead skin cells, unveiling a smoother, brighter surface and boosting the effectiveness of the following steps.",
+                                {
+                                    "title": "The Power of Retinol: Retinol, a gold-standard anti-aging ingredient, takes center stage:",
+                                    "items": [
+                                        "Brightens Skin Tone: Reduces hyperpigmentation and promotes an even, radiant complexion.",
+                                        "Unifies Skin Color: Addresses uneven tone for a more harmonious appearance.",
+                                        "Stimulates Collagen: Boosts collagen production and accelerates cell turnover, resulting in firmer, smoother, and more youthful skin."
+                                    ]
+                                },
+                                "Hydration and Rejuvenation Boost: Customized serums tailored to your skin type deliver deep hydration and a refreshed, revitalized feeling.",
+                                {
+                                    "title": "LED Light Therapy for Comprehensive Rejuvenation: The treatment includes Blue and Red LED Light Therapy for enhanced outcomes:",
+                                    "items": [
+                                        "Blue Light: Calms and soothes the skin, reducing inflammation and supporting healing.",
+                                        "Red Light: Stimulates collagen production, reduces sun damage, and promotes an even skin tone for a youthful glow."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Key Benefits of the Deluxe Age Refinement HydraFacial",
+                            "features": [
+                                "Cellular Renewal: Encourages healthy cell turnover for a smoother, brighter look.",
+                                "Even Skin Tone: Reduces dark spots and pigmentation for a unified complexion.",
+                                "Firm, Youthful Skin: Retinol’s collagen-boosting properties enhance skin elasticity and firmness.",
+                                "Radiant Glow: Restores luminosity and vibrancy.",
+                                "Deep Hydration: Provides lasting moisture from within."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Treatment Duration & Important Considerations",
+                    "features": [
+                        "Duration: Approximately 45 minutes.",
+                        "Precautions: Safe for most skin types; however, those with sensitive skin or prior retinoid use should consult with our experts.",
+                        "Pregnant and breastfeeding women should avoid Retinol-based treatments.",
+                        "Note: Lymphatic drainage is not included in this treatment."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Rediscover Timeless Beauty",
+                    "description": "Book your Deluxe Age Refinement HydraFacial at Karisma Specialist Medical Centerand unlock the secret to youthful, radiant skin."
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "name": "facials/led-light-therapy",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "LED Light Therapy"
+                },
+                {
+                    "type": "content",
+                    "title": "Harness the Power of Light for Radiant, Rejuvenated Skin",
+                    "description": "At Karisma Specialist Medical Center, we go beyond surface-level skincare, offering advanced treatments like LED Light Therapy to amplify your results. This non-invasive technology uses targeted wavelengths of light to address a range of skin concerns, revealing a clearer, brighter, and more youthful complexion."
+                },
+                {
+                    "type": "content",
+                    "title": "Why Add LED Light Therapy to Your HydraFacial?",
+                    "description": "Combining LED Light Therapy with a HydraFacial creates a synergistic approach that targets multiple skin concerns:",
+                    "features": [
+                        "Deep Cleanse and Rejuvenation: Enjoy the core benefits of a HydraFacial, including deep cleansing, exfoliation, and intense hydration.",
+                        {
+                            "title": "Science-Backed Light Therapy: Post-HydraFacial, LED Light Therapy uses specific wavelengths of light to deliver targeted results:",
+                            "items": [
+                                "Red Light Therapy",
+                                {
+                                    "title": "Diminishes Wrinkles and Fine Lines: Stimulates collagen production to smooth and firm the skin.",
+                                    "items": [
+                                        "Boosts Collagen: Enhances skin structure and elasticity for a youthful appearance.",
+                                        "Fades Sun Damage: Promotes an even skin tone by reducing signs of sun exposure."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Blue Light Therapy",
+                            "items": [
+                                "Clears Acne: Targets acne-causing bacteria to reduce breakouts and prevent future blemishes.",
+                                "Minimizes Acne Scars: Helps fade existing scars and promotes skin healing.",
+                                "Purifies Skin: Reduces impurities and inflammation for a clearer, calmer complexion."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Tailored Solutions for Your Skin Needs",
+                    "features": [
+                        "Combination Therapy: For comprehensive results, blend Red and Blue Light Therapy to tackle both aging concerns and acne.",
+                        "Targeted Focus: Choose Red Light for anti-aging or Blue Light to combat acne and promote clarity."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Treatment Details & Precautions",
+                    "features": [
+                        "Duration: Add 15 minutes to your HydraFacial session.",
+                        "Safety: Suitable for most skin types. However, individuals with certain medical conditions or those on photosensitizing medications should consult with our experts."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Glow Beyond Limits",
+                    "description": "Elevate your skincare routine with LED Light Therapy at Karisma Specialist Medical Center. Illuminate your skin’s full potential with this innovative, light-powered treatment."
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "name": "facials/bubble-facial",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Bubble Facial"
+                },
+                {
+                    "type": "content",
+                    "title": "Discover the Power of Bubbles for Radiant Skin",
+                    "description": "At Karisma Specialist Medical Center, we bring you the Bubble Facial, an innovative and refreshing treatment designed to deeply cleanse, oxygenate, and revitalize your skin. Infused with gentle, oxygenating bubbles, this luxurious experience leaves your complexion clear, smooth, and glowing."
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "How the Bubble Facial Works",
+                            "subtitle": "This premium treatment is designed to restore vitality and enhance your skin’s youthful glow through targeted steps:",
+                            "features": [
+                                "Gentle Cleansing: The treatment begins with a thorough yet gentle cleanse, removing makeup, dirt, and surface impurities without stripping essential moisture.",
+                                {
+                                    "title": "Oxygenating Bubbles: A specialized mask releases a cascade of oxygen-rich bubbles that offer multiple benefits:",
+                                    "items": [
+                                        "Exfoliation: Bubbles gently break down and lift away dead skin cells, revealing a fresh, radiant layer of skin.",
+                                        "Deep Pore Cleansing: The bubbles penetrate deep into pores, dissolving dirt and oil to minimize their appearance and prevent future breakouts.",
+                                        "Oxygenation: Oxygen boosts collagen production, enhancing skin plumpness and promoting a youthful glow.",
+                                        "Nutrient Delivery: Oxygenated bubbles help transport essential nutrients deeper into the skin for optimal results."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Benefits of the Bubble Facial",
+                            "features": [
+                                "Deep Cleanse: Enjoy a thorough cleanse that leaves skin fresh and free of impurities.",
+                                "Minimized Pores: Notice visibly refined, tightened pores and reduced blackheads.",
+                                "Breakout Prevention: Keep your complexion clear by preventing future blemishes.",
+                                "Hydrated Glow: Experience a boost in hydration and a luminous, refreshed appearance.",
+                                "Enhanced Product Absorption: Post-treatment, your skin is more receptive to other skincare products, maximizing their efficacy."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "A Gentle Yet Powerful Experience",
+                    "description": "The Bubble Facial is suitable for most skin types, offering gentle care with powerful results. However, a consultation with our experts ensures the treatment is tailored to your needs."
+                },
+                {
+                    "type": "content",
+                    "title": "Precautions to Consider",
+                    "features": [
+                        "Sensitive Skin: Consult our experts if you have very sensitive skin to ensure the treatment is appropriate.",
+                        "Allergies: Discuss any known ingredient sensitivities with our team to avoid reactions. A patch test may be recommended.",
+                        "Sunburn: Wait until sunburn heals before booking to avoid irritation.",
+                        "Open Wounds or Skin Conditions: Avoid treatment if you have active skin issues such as rashes or open wounds."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "description": "Glow Effortlessly Revel in the gentle power of the Bubble Facial at Karisma Specialist Medical Centerand let your skin shine with renewed clarity and radiance."
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "name": "facials/pink-shooter-facial",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "PINK SHOOTER Facial"
+                },
+                {
+                    "type": "content",
+                    "title": " Unveil Radiance with the Ultimate Skin Rejuvenation Treatment",
+                    "description": "At Karisma, innovation meets luxury with the PINK SHOOTER Facial, a groundbreaking microneedling treatment designed to brighten, even skin tone, combat signs of aging, and restore your skin’s natural barrier. This advanced facial harnesses the power of a potent, multi-action formula delivered through microneedling for remarkable, long-lasting results."
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "How the PINK SHOOTER Facial Works",
+                            "features": [
+                                "Microneedling + PINK SHOOTER Ampoule",
+                                {
+                                    "items": [
+                                        "Pre-Filled Ampoules: Each treatment uses pre-filled, sterile ampoules containing the exclusive PINK SHOOTER solution for consistent application and maximum efficacy.",
+                                        "Powerful Ingredients",
+                                        {
+                                            "items": [
+                                                "PDRN (Polydeoxyribonucleotide): Promotes cell regeneration, accelerating skin repair and rejuvenation.",
+                                                "14 Peptides: Stimulate collagen production, improve elasticity, and target signs of aging.",
+                                                "17 Amino Acids: Support skin repair and strengthen the skin's structure.",
+                                                "10 Vitamins: Nourish and energize the skin for a healthy glow."
+                                            ]
+                                        },
+                                        "Enhanced Delivery System",
+                                        {
+                                            "items": [
+                                                "Micro-Channeling: The microneedling machines creates tiny channels in the skin, allowing for deeper penetration of the PINK SHOOTER solution.",
+                                                "Collagen Boost: The micro-channels stimulate your body’s natural healing response, enhancing collagen production and cellular renewal.",
+                                                "Comfortable Treatment: Designed for a virtually painless experience with ultra-fine needles."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Benefits of the PINK SHOOTER Facial",
+                            "features": [
+                                "Brightening: Fades hyperpigmentation and evens out skin tone, revealing a luminous complexion.",
+                                "Anti-Aging: Smooths fine lines and wrinkles, restoring firmness and elasticity.",
+                                "Skin Barrier Repair: Strengthens the skin’s protective barrier, safeguarding against environmental stressors.",
+                                "Youthful Glow: Leaves your skin radiant, plump, and revitalized."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Why Choose the PINK SHOOTER Facial?",
+                    "features": [
+                        "Convenient & Efficient: Pre-filled ampoules streamline the treatment process, ensuring precision and effectiveness.",
+                        "Maximized Results: Microneedling enhances the absorption of active ingredients, delivering superior outcomes compared to traditional facials.",
+                        "Comfortable & Safe: The procedure is designed to be well-tolerated, with minimal discomfort."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Precautions and Suitability",
+                    "features": [
+                        "Consultation Required: A personalized consultation with our skincare experts will ensure the treatment is tailored to your skin’s unique needs.",
+                        "Avoid During Pregnancy: This treatment is not recommended for pregnant or breastfeeding women."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Glow Beyond Limits",
+                    "description": "Unlock the secret to flawless skin with the PINK SHOOTER Facial at Karisma. Schedule your consultation today and take the first step toward a more radiant, youthful complexion."
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "name": "facials/chocolate-facial",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Chocolate Facial"
+                },
+                {
+                    "type": "content",
+                    "title": "Indulge Your Skin with a Decadent, Nourishing Experience",
+                    "description": "At Karisma, luxury meets indulgence with the Chocolate Facial, a blissful treatment that combines the benefits of rich cocoa with advanced skincare techniques. This treatment doesn’t just pamper—it deeply nourishes and revitalizes your skin, revealing a smooth, radiant, and youthful glow."
+                },
+                {
+                    "type": "content",
+                    "title": "The Power of Cocoa for Your Skin",
+                    "features": [
+                        "Deep Hydration: Cocoa is packed with fatty acids that lock in moisture, leaving your skin soft, supple, and hydrated.",
+                        "Antioxidant Protection: The natural antioxidants in cocoa combat free radicals, reducing damage and brightening the complexion.",
+                        "Sun Defense Boost: While not a replacement for sunscreen, cocoa’s antioxidants offer an extra layer of defense against UV damage.",
+                        "Collagen Support: Cocoa may stimulate collagen production, helping to reduce fine lines and wrinkles for a firmer, more youthful appearance.",
+                        "Cellular Renewal: Cocoa promotes cell regeneration, smoothing the skin’s texture and enhancing overall radiance."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "A Luxurious Treatment Journey",
+                    "features": [
+                        "Aromatic Indulgence: The rich scent of chocolate enhances relaxation, creating a serene and enjoyable experience.",
+                        "Nourishing Mask: A luxurious chocolate mask infused with skin-loving ingredients deeply hydrates and revitalizes.",
+                        "Gentle Exfoliation: A mild exfoliation clears away dead skin cells, allowing nutrients to penetrate more effectively.",
+                        "Facial Massage: Enjoy a soothing facial massage to boost circulation, leaving your skin refreshed and glowing."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Benefits of the Chocolate Facial",
+                    "features": [
+                        "Hydrated Glow: Lock in moisture for long-lasting softness and hydration.",
+                        "Brighter Complexion: Antioxidants brighten and even out skin tone.",
+                        "Youthful Skin: Boost collagen for firmer, smoother skin.",
+                        "Relaxation & Pampering: Escape into a world of luxury and relaxation."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Is the Chocolate Facial Right for You?",
+                    "description": "The Chocolate Facial is suitable for most skin types. However, a consultation with our experts will ensure it meets your skin’s unique needs."
+                },
+                {
+                    "type": "content",
+                    "title": "Precautions",
+                    "features": [
+                        "Allergies: If you have a cocoa allergy, consult with our experts before booking. A patch test may be recommended.",
+                        "Sensitive Skin: A personalized consultation will determine if this facial is gentle enough for you.",
+                        "Sunburn & Skin Conditions: Avoid this treatment if you have sunburn, open wounds, or active skin conditions."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Treat Yourself to Delicious Skincare",
+                    "description": "Experience the ultimate indulgence with the Chocolate Facial at Karisma. Schedule your consultation today and let your skin bask in the luxurious nourishment it deserves."
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "name": "facials/yellow-peel-treatment",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Yellow Peel Treatment"
+                },
+                {
+                    "type": "content",
+                    "title": "Illuminate Your Skin with the Power of the Yellow Peel at Karisma",
+                    "description": "At Karisma, achieving a flawless, radiant complexion is within reach. The Yellow Peel is a transformative treatment designed to target stubborn pigmentation, melasma, and discoloration from sun damage or acne, giving you a brighter, more even-toned complexion."
+                },
+                {
+                    "type": "content",
+                    "title": "Why Choose the Yellow Peel?",
+                    "description": "Combat pigmentation and unlock your skin’s potential:",
+                    "features": [
+                        "Fade Stubborn Pigmentation: Effectively reduces hyperpigmentation, melasma, and dark spots for a clearer complexion.",
+                        "Correct Discoloration: Targets sun damage and post-acne marks, restoring an even skin tone.",
+                        "Prevent Future Dark Spots: Inhibits melanin production to prevent new discoloration, offering lasting results."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "How the Yellow Peel Works",
+                    "description": "The Yellow Peel works in carefully controlled stages to rejuvenate your skin:",
+                    "features": [
+                        "Gentle Exfoliation: Promotes the shedding of dead skin cells, encouraging fresh, renewed skin.",
+                        "Melanin Regulation: Ingredients target melanin production to fade pigmentation and prevent future spots.",
+                        "Cellular Renewal: Boosts skin cell turnover, revealing a brighter, smoother complexion over time."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Areas Treated",
+                    "description": "The Yellow Peel can be applied to multiple areas, including:",
+                    "features": [
+                        "Face",
+                        "Bikini Area",
+                        "Underarms",
+                        "Back",
+                        "Hands",
+                        "Knees",
+                        "Elbows"
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Achieving Optimal Results",
+                    "description": "For lasting benefits, follow these aftercare steps:",
+                    "features": [
+                        "Hydration Is Key: Keep your skin moisturized to ease dryness and enhance healing.",
+                        "Brightening Creams: Use lightening products as recommended to maximize results.",
+                        "Sun Protection: Protect your skin with SPF daily to avoid sun-induced pigmentation.",
+                        "Consistent Sessions: For optimal results, repeat the peel every 6–12 months as needed."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Precautions",
+                    "description": "While effective for most skin types, it’s important to consider:",
+                    "features": [
+                        "Sun Sensitivity: Avoid sun exposure and use high-SPF sunscreen post-treatment.",
+                        "Pre-existing Conditions: Individuals with certain skin conditions or on specific medications should consult a skincare expert.",
+                        "Pregnancy & Breastfeeding: Not recommended for pregnant or breastfeeding women."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Discover the Glow You Deserve",
+                    "description": "Ready to embrace radiant, flawless skin? Schedule a consultation with our experts at Karisma to see if the Yellow Peel is right for you. Let us help you achieve the vibrant, youthful complexion you’ve always wanted."
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "name": "facials/tca-peel-treatment",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "TCA Peeling Treatment"
+                },
+                {
+                    "type": "content",
+                    "title": "Reveal Radiance: Discover the Power of TCA Peeling at Karisma",
+                    "description": "At Karisma, we offer transformative skincare solutions to help you achieve a clearer, smoother, and more youthful complexion. TCA Peeling (Trichloroacetic Acid Peel) is a powerful, customizable treatment designed to rejuvenate skin, targeting imperfections and promoting long-lasting results."
+                },
+                {
+                    "type": "content",
+                    "title": "Benefits of TCA Peeling",
+                    "description": "The TCA Peel provides a comprehensive solution for skin rejuvenation:",
+                    "features": [
+                        "Reduce Fine Lines & Wrinkles: Smooths the appearance of fine lines and enhances skin elasticity.",
+                        "Fade Scars & Dark Spots: Effectively diminishes acne scars, pigmentation, and sun damage for a more even tone.",
+                        "Boost Collagen Production: Stimulates collagen for firmer, more youthful skin.",
+                        "Accelerate Skin Renewal: Promotes cellular turnover, unveiling fresh, radiant skin beneath."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Versatile Application Areas",
+                    "description": "TCA Peeling isn’t limited to the face; it can rejuvenate multiple areas:",
+                    "features": [
+                        "Hands",
+                        "Elbows",
+                        "Knees",
+                        "Underarms",
+                        "Intimate Areas (with expert consultation)"
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "How TCA Peeling Works",
+                    "description": "The treatment process involves controlled exfoliation and deep skin rejuvenation:",
+                    "features": [
+                        "Exfoliation: Removes damaged outer layers of skin to reveal a smoother, brighter complexion.",
+                        "Collagen Stimulation: Triggers collagen production for improved skin structure and elasticity.",
+                        "Cellular Renewal: Speeds up skin cell turnover, promoting a vibrant, youthful glow."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Essential Aftercare for Optimal Results",
+                    "description": "Proper care post-treatment ensures the best results:",
+                    "features": [
+                        "Sun Protection: Use high-SPF sunscreen daily to protect new skin and prevent pigmentation.",
+                        "Moisturization: Keep the skin hydrated to promote healing and reduce irritation.",
+                        "Hands Off: Avoid touching or picking at peeling skin to prevent scarring."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Precautions to Consider",
+                    "description": "While TCA Peels offer dramatic results, certain precautions should be observed:",
+                    "features": [
+                        "Skin Sensitivity: A consultation will determine if your skin can tolerate the treatment.",
+                        "Sun Sensitivity: Strict sun avoidance and protection are essential after the peel.",
+                        "Medical Conditions & Medications: Some conditions or medications may preclude TCA treatment.",
+                        "Pregnancy & Breastfeeding: Not recommended during pregnancy or while breastfeeding."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Transform Your Skin with Confidence",
+                    "description": "Achieve a radiant, youthful complexion with TCA Peeling at Karisma. Book your consultation today and let our skincare experts craft a personalized plan to reveal your most beautiful skin."
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "name": "facials/salicylic-acid-peeling",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Salicylic Acid Peeling"
+                },
+                {
+                    "type": "content",
+                    "title": "Clear Skin Awaits: Discover the Power of Salicylic Acid Peels at Karisma",
+                    "description": "At Karisma, we offer advanced solutions to help you achieve clearer, smoother, and healthier skin. Our Salicylic Acid Peel is a targeted treatment designed to combat acne, minimize scarring, and fade pigmentation, unveiling a radiant, blemish-free complexion."
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "Why Choose Salicylic Acid Peeling?",
+                            "subtitle": "This peel provides a multi-dimensional approach to addressing acne and skin imperfections:",
+                            "features": [
+                                "Clear Breakouts: Penetrates deep into pores to dissolve oil, unclogging and reducing active acne.",
+                                "Minimize Acne Scars: Promotes cell turnover, helping to smooth and reduce the appearance of acne scars.",
+                                "Fade Dark Spots: Gently exfoliates to lighten post-inflammatory hyperpigmentation and even out skin tone.",
+                                "Control Oil Production: Regulates sebum levels, reducing future breakouts and promoting balance."
+                            ]
+                        },
+                        {
+                            "title": "How Salicylic Acid Peels Work",
+                            "features": [
+                                "Deep Pore Cleansing: Salicylic acid, a beta hydroxy acid (BHA), penetrates the skin to remove oil and debris from pores.",
+                                "Exfoliation & Renewal: Loosens dead skin cells, promoting skin renewal and a smoother surface.",
+                                "Anti-Inflammatory Benefits: Reduces redness and irritation, calming inflamed acne-prone skin."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Advantages of Salicylic Acid Peeling",
+                    "features": [
+                        "Gentle Yet Effective: Ideal for sensitive skin, targeting acne without excessive irritation.",
+                        "Prevents Scarring: Regular treatments reduce the risk of future scarring by controlling acne before it worsens.",
+                        "Customizable & Safe: Suitable for various skin types with a tailored approach for optimal results."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Precautions & Aftercare",
+                    "description": "To ensure the best results, follow these essential guidelines:",
+                    "features": [
+                        "Sun Protection: Salicylic acid can increase sun sensitivity. Apply a broad-spectrum sunscreen with SPF 30+ daily.",
+                        "Hydration & Moisturization: Keep the skin hydrated to aid healing and prevent dryness.",
+                        "Avoid Picking: Let the skin peel naturally to prevent scarring.",
+                        "Patch Test: For sensitive skin, a patch test may be recommended before the full treatment.",
+                        "Pregnancy & Breastfeeding: Always consult your doctor if pregnant or breastfeeding before undergoing treatment."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Glow with Confidence",
+                    "description": "Reclaim your skin’s natural beauty with Salicylic Acid Peeling at Karisma. Book a consultation today and let our experts design a personalized plan to help you achieve a clear, radiant complexion."
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "name": "facials/green-peel",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Green Peel"
+                },
+                {
+                    "type": "content",
+                    "title": "Experience the Rejuvenating Power of Nature at Karisma Specialist Medical Center",
+                    "description": "At Karisma, we believe that nature holds the key to beautiful, healthy skin. The Green Peel is a revolutionary, plant-based skincare solution that harnesses the power of herbal extracts to promote cellular renewal and reveal a smoother, more radiant complexion."
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "Why Choose the Green Peel?",
+                            "subtitle": "This unique treatment offers a range of benefits for those seeking a gentle, natural approach to skin rejuvenation:",
+                            "features": [
+                                "Cellular Renewal: Botanical extracts stimulate cell turnover, promoting the shedding of dead skin cells to unveil fresher, more youthful skin.",
+                                "Minimize Blemishes: The Green Peel helps to reduce acne blemishes, fine lines, and wrinkles, promoting an even and clear complexion.",
+                                "Fade Hyperpigmentation: The herbal ingredients can lighten dark spots and even out skin tone, leaving you with a balanced, glowing look."
+                            ]
+                        },
+                        {
+                            "title": "How the Green Peel Works",
+                            "features": [
+                                "Herbal Power Blend: A unique mix of natural ingredients works together to gently exfoliate and stimulate skin renewal, without the use of harsh chemicals.",
+                                "Gentle Exfoliation: Unlike aggressive chemical peels, the Green Peel offers a softer approach, minimizing irritation and discomfort while still delivering noticeable results.",
+                                "Collagen Stimulation: Some ingredients in the peel help boost collagen production, enhancing skin’s elasticity and firmness."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "The Ideal Choice for Sensitive Skin",
+                    "description": "The Green Peel is a perfect option for those with sensitive skin who may not tolerate harsher chemical peels:",
+                    "features": [
+                        "Chemical-Free: Composed of all-natural ingredients, the Green Peel avoids harsh chemicals and abrasives, making it a safe and soothing choice.",
+                        "Minimal Downtime: The peel typically causes little discomfort, allowing you to return to your normal routine with minimal interruption.",
+                        "Customizable: Tailored to address your specific concerns, ensuring the best possible results for your skin type."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Precautions & Aftercare",
+                    "description": "For optimal results, follow the guidance of our skincare experts:",
+                    "features": [
+                        "Consultation: A consultation is essential to assess your skin’s needs and determine if the Green Peel is the right treatment for you.",
+                        "Sun Protection: Following the peel, protect your skin from the sun to avoid irritation or pigmentation changes.",
+                        "Gentle Care: Avoid harsh skincare products for a few days after treatment to allow your skin to heal and regenerate."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Unlock the Natural Beauty of Your Skin",
+                    "description": "Ready to experience the rejuvenating power of the Green Peel? Schedule a consultation at Karisma today and let us help you reveal your skin’s true radiance naturally."
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "name": "facials/ha-mesotherapy",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "HA Mesotherapy"
+                },
+                {
+                    "type": "content",
+                    "title": "Start Deep Hydration and Banish Fine Lines at Karisma Specialist Medical Center",
+                    "description": "At Karisma Specialist Medical Center, we are committed to pioneering solutions for achieving a flawlessly hydrated and youthful complexion. HA Mesotherapy offers a cutting-edge approach to facial rejuvenation by combining Dermapen technology with hyaluronic acid (HA) to deliver deep hydration and reduce the appearance of fine lines. This targeted treatment is particularly effective at addressing stubborn lines around the eyes, nose, and neck, revealing a smoother, plumper, and more youthful appearance."
+                },
+                {
+                    "type": "content",
+                    "title": "Awaken the Power of Deep Hydration",
+                    "description": "HA Mesotherapy provides multiple benefits for those seeking to combat dehydration and fine lines:",
+                    "features": [
+                        "Intense Hydration: Hyaluronic acid, a natural humectant, attracts and binds moisture to the skin, providing deep and long-lasting hydration.",
+                        "Fine Line Reduction: The precise delivery of HA combined with Dermapen microneedling stimulates collagen production, helping to reduce fine lines and wrinkles, especially in delicate areas such as the eyes, nose, and neck.",
+                        "Enhanced Elasticity: Increased hydration and collagen production improve skin elasticity, resulting in a firmer, more youthful appearance."
+                    ]
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "The Science Behind the Treatment",
+                            "subtitle": "HA Mesotherapy works through a unique and highly effective combination of techniques:",
+                            "features": [
+                                "Dermapen Technology: Microneedling with a Dermapen creates tiny channels in the skin, triggering the body’s natural healing response. This stimulates collagen production and improves the absorption of hyaluronic acid.",
+                                "Hyaluronic Acid Delivery: Hyaluronic acid is delivered directly into the deeper layers of the skin, providing significant and lasting hydration.",
+                                "Targeted Approach: The treatment can be customized to address specific areas prone to fine lines and dehydration, ensuring optimal and personalized results."
+                            ]
+                        },
+                        {
+                            "title": "A Treatment Tailored for All Skin Types",
+                            "subtitle": "HA Mesotherapy is suitable for most skin types and offers a versatile treatment plan:",
+                            "features": [
+                                "Dehydration Concerns: For those with dry or dehydrated skin, this treatment provides deep, lasting hydration, leaving the skin feeling plump and supple.",
+                                "Fine Line Reduction: This treatment targets fine lines and wrinkles around the eyes, nose, and neck, promoting smoother, youthful skin.",
+                                "Gentle Approach: Offering a minimally invasive approach to rejuvenation, HA Mesotherapy is ideal for those with sensitive skin."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "The Perfect Combination: HA Mesotherapy and HydraFacial",
+                    "description": "For a more comprehensive approach to facial rejuvenation, consider combining HA Mesotherapy with a HydraFacial treatment:",
+                    "features": [
+                        "Deep Hydration and Exfoliation: While HA Mesotherapy hydrates the skin from within, HydraFacial exfoliates and hydrates the surface layer, removing dead skin cells and impurities.",
+                        "Enhanced Results: The combination of these treatments offers dramatic improvements in skin texture, tone, hydration, and overall appearance."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Experience HA Mesotherapy",
+                    "description": "Book your consultation at Karisma Specialist Medical Centertoday and discover the transformative benefits of HA Mesotherapy—a non-invasive treatment that hydrates, rejuvenates, and smooths your skin."
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "name": "facials/meso-face",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Meso Face"
+                },
+                {
+                    "type": "content",
+                    "title": "Ignite Your Skin's Vitality at Karisma Specialist Medical Center",
+                    "description": "At Karisma Specialist Medical Center, we're dedicated to providing innovative solutions for a refreshed, rejuvenated, and radiant complexion. Facial Mesotherapy offers a revolutionary approach to skin rejuvenation, using microinjections or a dermapen to deliver a tailored cocktail of essential nutrients directly into the skin. This targeted treatment nourishes your skin from within, promoting a smoother, firmer, and healthier appearance."
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "Awaken the Power of Personalized Nourishment",
+                            "subtitle": "Mesotherapy for Face offers a range of benefits for those looking to revitalize and enhance their complexion:",
+                            "features": [
+                                "Deep Nourishment: Delivering essential vitamins, minerals, hyaluronic acid, and other revitalizing ingredients directly into the mesoderm (middle skin layer), mesotherapy promotes deep nourishment and cellular renewal.",
+                                "Collagen and Elastin Stimulation: Stimulating collagen and elastin production, this treatment enhances skin structure and elasticity, leading to firmer, smoother, and more youthful skin.",
+                                "Enhanced Radiance: Nourished skin naturally glows! Mesotherapy helps promote a radiant and healthy complexion, giving you a youthful and luminous look."
+                            ]
+                        },
+                        {
+                            "title": "Unlocking the Science Behind the Treatment",
+                            "subtitle": "Mesotherapy for Face uses a precise and targeted delivery system to ensure maximum benefits:",
+                            "features": [
+                                "Personalized Delivery: A custom blend of revitalizing ingredients is delivered directly into the mesoderm through microinjections or a dermapen.",
+                                "Enhanced Absorption: By bypassing the skin's surface layer, the treatment ensures deeper penetration and increased absorption of beneficial ingredients.",
+                                "Targeted Action: The cocktail can be tailored to address specific skin concerns, whether it’s combating fine lines, uneven skin tone, or promoting overall skin health."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "A Treatment Tailored for All Skin Types",
+                    "description": "Mesotherapy for Face is suitable for most skin types, offering a versatile treatment plan:",
+                    "features": [
+                        "Addressing Concerns: Whether you're looking to reduce fine lines, wrinkles, pigmentation, or simply enhance your skin’s health, mesotherapy can be customized to your unique needs.",
+                        "Gentle Approach: The minimally invasive nature of mesotherapy makes it an ideal option for those with sensitive skin, ensuring a comfortable and effective treatment experience."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "The Perfect Synergy: Mesotherapy and HydraFacial",
+                    "description": "For an even more comprehensive approach to facial rejuvenation, consider combining Mesotherapy for Face with a HydraFacial treatment:",
+                    "features": [
+                        "Deep Nourishment and Exfoliation: While mesotherapy nourishes the skin from within, HydraFacial gently exfoliates and hydrates the surface layer.",
+                        "Enhanced Results: This combination leads to even more dramatic improvements in skin texture, tone, and overall radiance, providing a glowing, youthful appearance."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Experience Meso Face",
+                    "description": "Book a consultation at Karisma Specialist Medical Centertoday and discover the revitalizing benefits of Mesotherapy for Face—a personalized, non-invasive treatment that enhances your skin's natural beauty."
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "name": "facials/meso-whitening",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Meso Whitening"
+                },
+                {
+                    "type": "content",
+                    "title": "Achieve a Brighter, Even-Toned Complexion at Karisma Specialist Medical Center",
+                    "description": "At Karisma Specialist Medical Center, we understand the desire for a radiant and even-toned complexion. Whitening Mesotherapy offers a groundbreaking approach to skin lightening and pigmentation reduction. This innovative treatment combines the precision of Dermapen technology with a customized meso cocktail to target hyperpigmentation and reveal a noticeably brighter, more luminous complexion."
+                },
+                {
+                    "type": "content",
+                    "title": "Get Ready to Shine Brighter Than Ever Before!",
+                    "description": "Whitening Mesotherapy offers a multitude of benefits for those seeking to achieve a more even skin tone:",
+                    "features": [
+                        "Targeted Lightening: The customized meso cocktail contains ingredients specifically chosen to address hyperpigmentation and uneven skin tone, promoting a brighter and more radiant appearance.",
+                        "Pigmentation Reduction: Dermapen microneedling stimulates the skin's natural healing response, encouraging the breakdown and elimination of excess pigment, leading to a reduction in dark spots and blemishes.",
+                        "Enhanced Radiance: By addressing hyperpigmentation and promoting overall skin health, Whitening Mesotherapy can help reveal a naturally luminous complexion."
+                    ]
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "The Science Behind Whitening Mesotherapy",
+                            "subtitle": "Whitening Mesotherapy works through a unique and effective combination:",
+                            "features": [
+                                "Dermapen Technology: Microneedling with a Dermapen creates tiny channels in the skin, triggering the body’s natural healing response. This process encourages the breakdown of existing pigmentation and enhances the absorption of the lightening ingredients in the meso cocktail.",
+                                "Targeted Meso Cocktail: A customized blend of lightening agents, vitamins, and antioxidants is delivered directly into the deeper layers of the skin, where it can have the most significant impact on hyperpigmentation.",
+                                "Precise Treatment: The treatment can be tailored to address specific areas of concern, ensuring optimal results."
+                            ]
+                        },
+                        {
+                            "title": "A Gentle Approach for Most Skin Types",
+                            "subtitle": "Whitening Mesotherapy offers a versatile treatment option for many:",
+                            "features": [
+                                "Skin Lightening: If you struggle with hyperpigmentation, sun spots, or uneven skin tone, this treatment can help achieve a brighter and more even complexion.",
+                                "Gentle Approach: Offering a minimally invasive approach to skin lightening, Whitening Mesotherapy is suitable for most skin types, even those with sensitive skin.",
+                                "Safe and Effective: When performed by a qualified professional, Whitening Mesotherapy is a safe and effective way to achieve your desired results."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Augmenting Whitening Mesotherapy with HydraFacial",
+                    "description": "For an even more comprehensive approach to achieving a luminous complexion, consider combining Whitening Mesotherapy with a HydraFacial treatment:",
+                    "features": [
+                        "Deep Exfoliation and Hydration: HydraFacial gently exfoliates dead skin cells and impurities while delivering deep hydration. This prepares the skin for optimal absorption of the lightening ingredients in the meso cocktail.",
+                        "Enhanced Results: Book your consultation at Karisma Specialist Medical Centertoday and discover how Whitening Mesotherapy can transform your skin, bringing you closer to your goal of a radiant, even-toned complexion."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Experience Whitening Mesotherapy",
+                    "description": "Book your consultation at Karisma Specialist Medical Centertoday and discover how Whitening Mesotherapy can transform your skin, bringing you closer to your goal of a radiant, even-toned complexion."
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "name": "facials/meso-open-pores",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Mesotherapy for Open Pores & Acne Scars at Karisma Specialist Medical Center"
+                }, 
+                {
+                    "type": "content",
+                    "title": "Combat Blemishes and Achieve Smoother Skin",
+                    "description": "At Karisma Specialist Medical Center, we understand the struggle to achieve a smooth and even complexion after dealing with acne. Mesotherapy for Open Pores & Acne Scars offers a targeted approach to minimize the appearance of acne scars, refine pores, and reveal a healthier, more radiant skin texture. This innovative treatment utilizes Dermapen technology and a powerful meso cocktail to tackle these concerns simultaneously, leading to a noticeably smoother and clearer complexion."
+                },
+
+                {
+                    "type": "content",
+                    "title": "Achieve Clearer, Smoother Skin",
+                    "description": "Mesotherapy for Open Pores & Acne Scars offers a multitude of benefits for those seeking to minimize acne's aftermath:",
+                    "features": [
+                        "Scar Reduction: The meso cocktail, containing ingredients like retinol and glycolic acid, helps diminish the appearance of acne scars by promoting collagen production and cellular renewal.",
+                        "Refined Pores: This treatment helps regulate oil production and minimizes the appearance of enlarged pores, promoting a smoother, more even skin texture.",
+                        "Pigmentation Reduction: Glycolic acid and other lightening agents in the cocktail help fade hyperpigmentation left behind by acne breakouts.",
+                        "Skin Rejuvenation: Hyaluronic acid hydrates and plumps the skin, promoting a healthy, youthful appearance."
+                    ]
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "The Science Behind Mesotherapy for Open Pores & Acne Scars",
+                            "subtitle": "Mesotherapy for Open Pores & Acne Scars works through a multifaceted approach:",
+                            "features": [
+                                "Dermapen Technology: Microneedling with a Dermapen creates tiny channels in the skin, triggering the body’s natural healing response. This stimulates collagen production and enhances the absorption of the beneficial ingredients in the meso cocktail.",
+                                "Targeted Meso Cocktail: A customized blend of active ingredients, including retinol, glycolic acid, and hyaluronic acid, is delivered directly into the deeper layers of the skin, where it can have the most significant impact.",
+                                "Precise Treatment: The treatment can be tailored to address specific concerns like acne scars or enlarged pores, ensuring optimal results."
+                            ]
+                        },
+                        {
+                            "title": "Customized Solutions for Managing Oily Skin",
+                            "subtitle": "Mesotherapy for Open Pores & Acne Scars is particularly beneficial for those with oily skin:",
+                            "features": [
+                                "Regulates Oil Production: The treatment can help regulate oil production, preventing future breakouts and promoting a more balanced complexion.",
+                                "Minimizes Pores: By reducing oil production, this treatment can minimize the appearance of enlarged pores, a common concern for those with oily skin."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "A Course of Treatment for Optimal Results",
+                    "description": "Mesotherapy for Open Pores & Acne Scars typically requires a series of treatments for optimal results:",
+                    "features": [
+                        "3-4 Sessions: A series of 3 to 4 sessions spaced two weeks apart is recommended to achieve significant improvements.",
+                        "Maintenance: Regular maintenance sessions may be recommended to maintain results and prevent future breakouts." 
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "The Perfect Synergy: Mesotherapy and HydraFacial",
+                    "description": "For an even more comprehensive approach to achieving a clear and radiant complexion, consider combining Mesotherapy for Open Pores & Acne Scars with a HydraFacial treatment:",
+                    "features": [
+                        "Deep Exfoliation and Hydration: HydraFacial gently exfoliates dead skin cells and impurities while delivering deep hydration. This prepares the skin for optimal absorption of the beneficial ingredients in the meso cocktail.",
+                        "Enhanced Results: The combination of these treatments can lead to dramatic improvements in skin texture, tone, and overall appearance."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Experience Mesotherapy for Open Pores & Acne Scars",
+                    "description": "Book your consultation at Karisma Specialist Medical Centertoday and discover how Mesotherapy can transform your skin, helping you achieve a clearer, smoother complexion."
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "name": "facials/tprx-meso",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "TPRX Meso"
+                }, 
+                {
+                    "type": "content",
+                    "title": "Establishing the Power of Rejuvenation and Science",
+                    "description": "At Karisma Specialist Medical Center, we’re committed to providing cutting-edge solutions for achieving a youthful, radiant, and even-toned complexion. TPRX Mesotherapy offers a groundbreaking approach to address aging skin concerns, acne, pigmentation, and fine lines. This targeted treatment utilizes Dermapen technology and a scientifically formulated TPRX solution to gently exfoliate the skin, minimize blemishes, and promote a smoother, firmer, and more youthful appearance."
+                },
+
+                {
+                    "type": "content",
+                    "title": "Demystifying the Power of the TPRX Formula",
+                    "description": "The success of TPRX Mesotherapy lies in its unique and potent formula:",
+                    "features": [
+                        "Tartaric Acid: This alpha hydroxy acid gently exfoliates the skin, promoting cell turnover, reducing blemishes, fading pigmentation, and minimizing fine lines.",
+                        "α-Arbutin: A natural skin brightener that inhibits melanin production, leading to a more even skin tone and a brighter complexion.",
+                        "Kojic Acid: Another powerful skin lightening agent, it combats hyperpigmentation, helping to further brighten the skin.",
+                        "Hydrogen Peroxide: A mild antiseptic that cleanses the skin, creating a more receptive environment for the other ingredients to penetrate deeper."
+                    ]
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "A Harmonious Approach to Skin Rejuvenation",
+                            "subtitle": "TPRX Mesotherapy works through a powerful combination of advanced technologies and a unique solution:",
+                            "features": [
+                                "Dermapen Technology: Microneedling with a Dermapen creates tiny channels in the skin, triggering the body’s natural healing response, stimulating collagen production, and enhancing absorption of the potent TPRX solution.",
+                                "TPRX Solution: A proprietary blend of ingredients that works synergistically to exfoliate, brighten, and stimulate skin regeneration, promoting a smoother, firmer, and more youthful appearance.",
+                                "Targeted Treatment: The treatment can be customized to address specific areas of concern, ensuring optimal results."
+                            ]
+                        },
+                        {
+                            "title": "A Treatment Tailored for Oily Skin and Beyond",
+                            "subtitle": "TPRX Mesotherapy offers a versatile solution for various skin concerns but is particularly beneficial for those with oily skin:",
+                            "features": [
+                                "Regulates Oil Production: The treatment helps balance oil production, preventing future breakouts and promoting a more even complexion.",
+                                "Minimizes Pores: By promoting cell turnover and reducing oil production, TPRX Mesotherapy minimizes the appearance of enlarged pores, a common concern for those with oily skin"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Releasing Visible Results: A Course of Treatment",
+                    "description": "Although TPRX Mesotherapy typically requires a series of treatments for optimal results, its unique composition works quickly and penetrates deep into the dermis to activate skin regeneration without harming the epidermis:",
+                    "features": [
+                        "3 Sessions: A series of 3 sessions spaced two weeks apart is recommended to achieve significant improvements.",
+                        "Visible Results: Most clients notice immediate changes, with skin appearing smoother, brighter, and more youthful." 
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "The Perfect Synergy: TPRX Mesotherapy and HydraFacial",
+                    "description": "For an even more comprehensive approach to achieving a clear and radiant complexion, consider combining TPRX Mesotherapy with a HydraFacial treatment:",
+                    "features": [
+                        "Deep Exfoliation and Hydration: HydraFacial gently exfoliates dead skin cells and impurities, while delivering deep hydration. This prepares the skin for optimal absorption of the TPRX solution.",
+                        "Enhanced Results: The combination of these treatments can lead to even more dramatic improvements in skin texture, tone, and overall appearance."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Experience TPRX Mesotherapy at Karisma Specialist Medical Center",
+                    "description": "Book your consultation today to discover how TPRX Mesotherapy can rejuvenate your skin, leaving you with a smooth, youthful, and radiant complexion."
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "name": "facials/meso-lift",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Meso Lift"
+                }, 
+                {
+                    "type": "content",
+                    "title": "Reinvigorate Your Radiance",
+                    "description": "At Karisma Specialist Medical Center, we understand the desire for a revitalized, youthful, and luminous complexion. Mesolifting offers a groundbreaking approach to facial rejuvenation, delivering a potent cocktail of essential nutrients directly into the skin. This minimally invasive treatment stimulates collagen and elastin production, promoting a firmer, brighter, and more youthful appearance."
+                },
+                {
+                    "type": "content",
+                    "title": "Choose a Brighter, Tighter You",
+                    "description": "Mesolifting offers a multitude of benefits for those seeking to restore vitality and radiance to their skin:",
+                    "features": [
+                        "Enhanced Elasticity and Firmness: Stimulating the production of collagen and elastin, Mesolifting helps restore skin structure and tightness, leading to a firmer, lifted appearance and noticeable reduction in sagging.",
+                        "Improved Skin Clarity and Brightness: The targeted delivery of essential vitamins and antioxidants nourishes the skin, promoting a brighter, more radiant complexion.",
+                        "Reduced Signs of Aging: By combating collagen and elastin loss, Mesolifting helps reduce fine lines, wrinkles, and other visible signs of aging.",
+                        "Scar Reduction: Mesolifting improves the appearance of acne scars and other blemishes by stimulating collagen production and promoting tissue regeneration.",
+                        "Sun Damage Reduction: It also minimizes visible effects of sun damage, such as hyperpigmentation and uneven skin tone."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Discover the Science Behind the Treatment",
+                    "description": "Mesolifting works through a precise and targeted approach:",
+                    "features": [
+                        "Microinjections: A personalized cocktail of essential vitamins, antioxidants, and hyaluronic acid is delivered directly into the mesoderm, the middle layer of the skin.",
+                        "Enhanced Absorption: Bypassing the surface layer of the skin allows for deeper penetration and increased absorption of the beneficial ingredients.",
+                        "Targeted Action: The customized cocktail is formulated to address specific concerns, ensuring optimal results for each individual."
+                    ]
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "A Treatment Formulated for a Variety of Concerns",
+                            "subtitle": "Mesolifting is a versatile treatment option for various signs of aging and skin damage:",
+                            "features": [
+                                "Loss of Elasticity and Firmness: If you struggle with sagging skin or a loss of definition in your facial contours, mesolifting can help restore a firmer, more youthful appearance.",
+                                "Fine Lines and Wrinkles: Mesolifting stimulates collagen production, leading to a reduction in the appearance of fine lines and wrinkles.",
+                                "Uneven Skin Tone: The targeted delivery of vitamins and antioxidants can help improve overall skin tone and reduce hyperpigmentation.",
+                                "Sun Damage: Mesolifting helps minimize the visible effects of sun damage, promoting a healthier complexion."
+                            ]
+                        },
+                        {
+                            "title": "Who Can Benefit from Mesolifting?",
+                            "subtitle": "Mesolifting is suitable for those seeking facial rejuvenation, including:",
+                            "features": [
+                                "Loss of Vitality and Brightness: If your skin appears dull and tired, mesolifting can restore its radiance and vitality.",
+                                "Sagging Skin and Wrinkles: Mesolifting addresses sagging skin and wrinkles, promoting a firmer, more youthful appearance.",
+                                "Sun Damage: Mesolifting can combat the visible effects of sun damage and promote a healthier complexion.",
+                                "Acne Scars: It can improve the appearance of acne scars by stimulating collagen production and tissue regeneration."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Treatment Frequency",
+                    "description": "Mesolifting typically requires an initial series of treatments, followed by maintenance sessions:",
+                    "features": [
+                        "Initial Sessions: 1-4 week intervals are recommended for the initial 4-6 sessions to achieve optimal results.",
+                        "Maintenance: After the initial series, maintenance sessions can be performed every 3-6 months to maintain results and sustain rejuvenated skin." 
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "The Perfect Collaboration: Mesolifting and HydraFacial",
+                    "description": "For a comprehensive approach to facial rejuvenation, consider combining Mesolifting with a HydraFacial treatment:",
+                    "features": [
+                        "Deep Exfoliation and Hydration: HydraFacial gently exfoliates dead skin cells and impurities, while delivering deep hydration. This prepares the skin for optimal absorption of the nutrients delivered during Mesolifting, ensuring enhanced results.",
+                        "Enhanced Results: The combination of these treatments leads to more dramatic improvements in skin texture, tone, elasticity, and overall radiance."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Experience Mesolifting at Karisma Specialist Medical Center",
+                    "description": "Book your consultation today to discover how Mesolifting can reinvigorate your complexion, restoring firmness, brightness, and a youthful glow."
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "name": "facials/meso-gold",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Meso Gold"
+                }, 
+                {
+                    "type": "content",
+                    "title": "Indulge in Luxurious Rejuvenation",
+                    "description": "At Karisma Specialist Medical Center, we've curated a pampering and effective facial treatment experience designed to leave your skin feeling refreshed, revitalized, and undeniably radiant. Our Meso Gold facial, combined with a luxurious chocolate mask and targeted eye care, offers a multi-faceted approach to achieving a brighter, tighter, and more youthful complexion."
+                },
+                {
+                    "type": "content",
+                    "title": "Unveiling the Power of Meso Gold",
+                    "description": "Meso Gold utilizes innovative Dermapen technology to deliver a customized cocktail of rejuvenating ingredients directly into the deeper layers of your skin. This minimally invasive treatment offers several benefits:",
+                    "features": [
+                        "Enhanced Freshness: Meso Gold stimulates cell turnover, promoting the removal of dull surface skin and revealing a brighter, fresher complexion.",
+                        "Lightening and Tightening: The meso cocktail often contains ingredients like hyaluronic acid and vitamins, which can help improve skin hydration, elasticity, and overall tone, leading to a visibly tighter and more youthful appearance.",
+                        "Improved Dark Circles: Certain meso cocktails target hyperpigmentation, potentially reducing the appearance of dark circles around the eyes."
+                    ]
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "The Decadent Indulgence of Chocolate",
+                            "subtitle": "Following the Meso Gold treatment, indulge in a luxurious chocolate mask that enhances the transformative experience:",
+                            "features": [
+                                "Antioxidant Powerhouse: Chocolate is rich in antioxidants, known to combat free radical damage and promote skin health.",
+                                "Hydration Boost: Chocolate masks are packed with hydrating ingredients that leave your skin feeling plump, supple, and nourished.",
+                                "Soothing and Calming: The application of the mask provides a relaxing, spa-like experience, leaving you feeling pampered and rejuvenated."                            ]
+                        },
+                        {
+                            "title": "Targeted Eye Care for a Complete Transformation",
+                            "subtitle": "To address the delicate under-eye area, our treatment incorporates specialized eye care:",
+                            "features": [
+                                "Targeted Ingredients: Eye creams or serums formulated for the sensitive under-eye area can reduce puffiness, diminish dark circles, and provide essential hydration.",
+                                "Improved Appearance: By addressing specific concerns around the eyes, this treatment contributes to a brighter, more youthful overall look."
+                            ],
+                            "title2": "Dermapen Technology: The Key to Enhanced Absorption",
+                            "subtitle2": "Dermapen technology plays a crucial role in this treatment:",
+                            "features2": [
+                                "Microneedling: The Dermapen creates tiny channels in the skin, enhancing the absorption of the beneficial ingredients delivered by the Meso Gold treatment and the eye care products, ensuring maximum effectiveness."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "The Perfect Combination with HydraFacial",
+                    "description": "For an even more comprehensive approach to achieving a radiant complexion, consider combining this treatment with a HydraFacial:",
+                    "features": [
+                        "Deep Cleansing and Exfoliation: HydraFacial gently removes dead skin cells and impurities, preparing the skin for optimal absorption of the Meso Gold cocktail and other treatment elements.",
+                        "Enhanced Results: The combination of these treatments can lead to even more dramatic improvements in skin texture, tone, and overall radiance." 
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Experience the Meso Gold Facial at Karisma Specialist Medical Center",
+                    "description": "Book your consultation today and indulge in this luxurious rejuvenation treatment designed to bring out your skin's natural beauty and youthful glow."
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "name": "facials/meso-eyes",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Meso Eyes"
+                }, 
+                {
+                    "type": "content",
+                    "title": "Illuminate and Rejuvenate",
+                    "description": "At Karisma Specialist Medical Center, we understand the desire for a bright and youthful eye area. Dark circles and under-eye puffiness can make you appear fatigued and affect your overall appearance. Our Meso Eye treatment offers a targeted approach to address these concerns, revealing a refreshed and more radiant look"
+                },
+                {
+                    "type": "content",
+                    "title": "Show a Brighter, More Revitalized You",
+                    "description": "The Meso Eye treatment offers a multitude of benefits for those seeking to illuminate and rejuvenate the under-eye area:",
+                    "features": [
+                        "Reduced Dark Circles: The treatment involves injecting a personalized cocktail of vitamins and hyaluronic acid directly into the delicate under-eye area. These ingredients help lighten hyperpigmentation and improve blood circulation, reducing the appearance of dark circles.",
+                        "Diminished Puffiness: The meso cocktail contains ingredients that promote lymphatic drainage and reduce fluid buildup, minimizing puffiness for a smoother under-eye appearance.",
+                        "Enhanced Hydration and Elasticity: Hyaluronic acid hydrates and revitalizes the under-eye area, improving skin texture and elasticity for a smoother, more youthful look.",
+                        "Brighter, More Youthful Look: By addressing dark circles, puffiness, and dehydration, Meso Eye treatment can leave you looking refreshed, well-rested, and vibrant."
+                    ]
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "Two Delivery Methods: Tailored to Your Needs",
+                            "subtitle": "At Karisma Specialist Medical Center, we offer two delivery methods for the Meso Eye treatment, ensuring a personalized approach that suits your comfort level:",
+                            "features": [
+                                "Dermapen Microneedling: A specialized Dermapen machines creates tiny channels in the skin, allowing the meso cocktail to be absorbed more effectively. This minimally invasive method stimulates collagen production, enhancing results.",
+                                "Doctor-administered Injections: For a more targeted and precise approach, a qualified doctor can directly inject the meso cocktail into the desired areas beneath the eyes for optimal results."
+                            ]
+                        },
+                        {
+                            "title": "The Science Behind the Treatment",
+                            "subtitle": "Meso Eye works through a combination of carefully selected ingredients and advanced delivery methods:",
+                            "features": [
+                                "Personalized Meso Cocktail: Eye creams or serums formulated for the sensitive under-eye area can reduce puffiness, diminish dark circles, and provide essential hydration.",
+                                "Enhanced Absorption: Dermapen microneedling or doctor-administered injections ensure that the meso cocktail reaches the deeper layers of the skin, maximizing its effectiveness.",
+                                "Stimulated Collagen Production: Microneedling with Dermapen enhances collagen production, improving skin elasticity and reducing the appearance of fine lines around the eyes."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Important Precautions",
+                    "description": "While Meso Eye treatment is generally safe, there are some important precautions to consider:",
+                    "features": [
+                        "Consultation: A consultation with a qualified dermatologist or skincare expert is essential to determine if Meso Eye is right for you and to discuss potential side effects.",
+                        "Not a One-Time Solution: Multiple sessions may be required for optimal results, and maintenance sessions are recommended to sustain the effects over time." 
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Illuminate Your Eyes with Meso Eye Treatment at Karisma Specialist Medical Center",
+                    "description": "Book your consultation today and take the first step towards brighter, rejuvenated eyes with our advanced treatment."
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "name": "facials/meso-lips",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Meso Lips"
+                }, 
+                {
+                    "type": "content",
+                    "title": "Hydrate and Enhance with the Power of Meso Lips at Karisma Specialist Medical Center",
+                    "description": "At Karisma Specialist Medical Center, we understand the desire for beautiful, plump, and kissable lips. Meso Lips offers a revolutionary approach to lip enhancement, delivering essential nutrients directly into the lips for deep hydration, improved texture, and a refreshed appearance. This minimally invasive treatment can also be paired with laser lip lightening for a more comprehensive lip rejuvenation experience."
+                },
+                {
+                    "type": "content",
+                    "title": "Grip Luscious, Hydrated Lips",
+                    "description": "Meso Lips offers a wide range of benefits for those looking to enhance and revitalize their lips:",
+                    "features": [
+                        "Intense Hydration: The meso cocktail, containing hyaluronic acid and other hydrating ingredients, deeply moisturizes the lips, leaving them plump, supple, and smooth.",
+                        "Improved Texture: This treatment addresses dryness, flakiness, and fine lines around the lips, promoting a smoother, more youthful look.",
+                        "Enhanced Color: Hydrated lips naturally appear brighter with a vibrant, refreshed color.",
+                        "Plumping Effect: Hyaluronic acid provides a subtle plumping effect, enhancing the natural shape of your lips."
+                    ]
+                },
+                {
+                    "type": "card",
+                    "cards": [
+                        {
+                            "title": "A Synergistic Approach: Combining Meso Lips with Laser Lip Lightening",
+                            "subtitle": "For an even more comprehensive lip rejuvenation, Karisma Specialist Medical Center offers the option to combine Meso Lips with laser lip lightening:",
+                            "features": [
+                                "Laser Lip Lightening: This treatment targets hyperpigmentation, lightening and evening out lip color for a smoother, more freshness look.",
+                                "Enhanced Results: Combining these treatments addresses both hydration and pigmentation concerns, leading to more beautiful and enhanced lips.",
+                                "Alternating Sessions: Meso Lips and laser lip lightening treatments are typically performed in alternating sessions for optimal results."
+                            ]
+                        },
+                        {
+                            "title": "Secrets Behind the Treatment",
+                            "subtitle": "Meso Lips uses a targeted approach to achieve effective results:",
+                            "features": [
+                                "Microinjections: A personalized meso cocktail containing hyaluronic acid, vitamins, and other beneficial ingredients is injected directly into the lips.",
+                                "Deep Hydration: Hyaluronic acid attracts and retains moisture, leaving your lips feeling plump and hydrated from within.",
+                                "Stimulated Collagen Production: Certain ingredients in the meso cocktail can stimulate collagen production, promoting firmer, smoother lips."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Important Precautions",
+                    "description": "While Meso Lips treatment is generally safe, there are some important considerations to keep in mind:",
+                    "features": [
+                        "Consultation: A consultation with a qualified dermatologist or skincare expert is necessary to determine if Meso Lips is suitable for you and to discuss potential side effects.",
+                        "Multiple Sessions: A series of Meso Lips sessions, typically 3, may be required to achieve the desired results." 
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Book Your Consultation at Karisma Specialist Medical Center",
+                    "description": "Explore the transformative potential of Meso Lips and enhance your lips with deep hydration, texture improvement, and a naturally plump look. Schedule your consultation today to discuss your goals and create a personalized plan for beautiful, youthful lips!"
+                }
+            ]
+        }
+    ]
+}

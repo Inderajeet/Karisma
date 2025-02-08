@@ -1,0 +1,183 @@
+{
+    "footerServices": [
+        {
+            "id": "1",
+            "name": "privacy-policy",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Privacy Policy",
+                    "description": "At Karisma Specialist Medical Center, we prioritize protecting your privacy and security. This Privacy Policy outlines the information we collect, how we utilize it, and the choices available to you when interacting with our services."
+                },
+                {
+                    "type": "content",
+                    "title": "Important Notice",
+                    "description": "This Privacy Policy pertains to personally identifiable information you provide when seeking medical care or making inquiries through our services. If any part of this policy conflicts with applicable laws, regulations, or government notices, the relevant legal provisions shall take precedence within the respective jurisdiction.",
+                    "features": [
+                        {
+                            "title": "Privacy Protection Measures",
+                            "items": [
+                                "All credit/debit card details and personally identifiable information will not be stored, sold, shared, rented, or leased to third parties.",
+                                "We do not share debit/credit card information with third parties.",
+                                "Karisma Specialist Medical Center employs appropriate security measures, including hardware and software protocols, to protect data privacy. However, we cannot guarantee complete security for information disclosed online.",
+                                "We are not responsible for the privacy policies of external websites linked to our platform. If you provide information to third parties, their data collection and usage policies will apply. It is advisable to contact them directly for details on their data practices.",
+                                "Our Website Policies and Terms & Conditions may be updated periodically to comply with legal and regulatory requirements. Customers are encouraged to review these sections frequently for updates. Any changes will take effect on the date they are posted."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Information We Collect?",
+                    "description": "When using our services, we may collect the following types of information:",
+                    "features": [
+                        {
+                            "title": "Information You Provide Directly:",
+                            "items": [
+                                "Contact details, including full name, email address, mobile number, and physical address.",
+                                "Username and password.",
+                                "Personal health details, such as diagnosis, medical history, general health status, and insurance information.",
+                                "Doctor reviews and any additional information you choose to share.",
+                                "We may combine this data with existing records."
+                            ]
+                        },
+                        {
+                            "title": "Automatically Collected Information:",
+                            "items": [
+                                "Internet protocol (IP) address, device identifiers, browser type, operating system, and Internet service provider.",
+                                "Pages visited before and after accessing our services, timestamps, clicked links, and viewed content.",
+                                "Location information, such as GPS signals, WiFi access points, and cell tower data."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Use of Cookies",
+                    "description": "We may utilize cookies and similar technologies to enhance your browsing experience. This information may be combined with existing records to personalize your interactions with our services.",
+                    "features": [
+                        {
+                            "title": "Third-Party Information Sources",
+                            "items": [
+                                "If you access our services via advertisements on third-party websites, we may receive information from those platforms.",
+                                "For medical-related services, we may obtain relevant records from your healthcare providers, including medical history, lab results, and other necessary details.",
+                                "We may also receive data from third-party services such as Facebook, Google, or Twitter if you choose to integrate these platforms with our services."
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "type": "content",
+                    "title": "How We Use Your Information",
+                    "description": "The information collected is utilized for the following purposes:",
+                    "features": [
+                        {
+                            "title": "Third-Party Information Sources",
+                            "items": [
+                                "Providing and improving our services.",
+                                "Communicating with you.",
+                                "Fulfilling requests for products, services, and information.",
+                                "Fulfilling requests for products, services, and information.",
+                                "Analyzing user data to enhance service quality.",
+                                "Conducting research with appropriate authorization.",
+                                "Preventing prohibited or illegal activities in compliance with our Terms of Use.",
+                                "Any other purposes disclosed at the time of data collection, are subject to your consent."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "description": "By using our services, you acknowledge and agree to the terms outlined in this Privacy Policy."
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "terms-conditions",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Terms & Conditions",
+                    "description": "At Karisma Specialist Medical Center, we are committed to maintaining transparency and ensuring the best experience for our visitors and patients. These Terms & Conditions outline the rules and regulations governing the use of our services."
+                },
+                {
+                    "type": "content",
+                    "title": "Important Notice",
+                    "description": "By accessing and using our services, you agree to comply with these Terms & Conditions. If any provisions in these Terms & Conditions conflict with applicable laws, regulations, or government notices, the relevant legal provisions shall take precedence within the respective jurisdiction."
+                },
+                {
+                    "type": "content",
+                    "title": "General Terms",
+                    "features": [
+                        "Our services are intended for lawful purposes only. Any misuse, fraudulent activity, or violation of laws while using our platform is strictly prohibited.",
+                        "We reserve the right to modify, suspend, or discontinue any part of our services without prior notice.",
+                        "Unauthorized use of our website, including attempting to gain access to restricted sections, interfering with security features, or engaging in activities that disrupt service functionality, is prohibited."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "User Responsibilities",
+                    "features": [
+                        "Users must provide accurate and up-to-date information when engaging with our services.",
+                        "Any content shared through our platform must not violate any intellectual property rights, privacy laws, or regulations.",
+                        "Users are responsible for maintaining the confidentiality of their account credentials and must notify us immediately of any unauthorized use."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Payment & Transactions",
+                    "features": [
+                        "Credit/debit card details will not be stored, sold, shared, rented, or leased to third parties.",
+                        "We do not disclose debit/credit card details to any external parties.",
+                        "All payments made through our platform are subject to secure transaction protocols, but we cannot guarantee absolute security for online transactions."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Third-Party Links & Services",
+                    "features": [
+                        "Our website may contain links to third-party websites for informational or service-related purposes. These external sites operate independently, and we are not responsible for their privacy policies or terms of use.",
+                        "Users engaging with third-party services should review their respective policies before providing any personal information."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Amendments to Terms & Conditions",
+                    "features": [
+                        "We may update or revise these Terms & Conditions periodically to reflect changes in legal and regulatory requirements.",
+                        "Users are encouraged to check this section regularly for any updates. Any modifications will take effect upon posting."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Limitation of Liability",
+                    "features": [
+                        "Karisma Specialist Medical Center is not liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use our services.",
+                        "We do not guarantee uninterrupted, error-free service and shall not be held responsible for any technical issues beyond our control."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Governing Law",
+                    "description": "These Terms & Conditions are governed by the laws of the applicable jurisdiction. Any disputes arising from the use of our services shall be subject to the exclusive jurisdiction of the respective legal authorities."
+                },
+                {
+                    "type": "content",
+                    "description": "By using our services, you acknowledge and agree to these Terms & Conditions. If you do not agree with any part of these terms, you should discontinue using our services immediately."
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "cookie-policy",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Website Cookies",
+                    "description": "We may combine such information with information we already have about you. Information we collect automatically: We may collect certain information automatically when you use our Services, such as your computer’s Internet protocol (IP) address, device and advertising identifiers, browser type, operating system, Internet service provider, pages that you visit before and after using the Services, the date and time of your visit, information about the links you click and pages you view within the Services, and other standard server log information. We may also collect certain location information when you use our Services, such as your mobile device’s GPS signal, or information about nearby WiFi access points and cell towers."
+                }
+            ]
+        }
+    ]
+}

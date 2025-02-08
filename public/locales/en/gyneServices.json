@@ -7,8 +7,8 @@
         {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
-          "imageAlt": "Facials",
-          "title": "Gynecological Filler",
+          "imageAlt": "Aesthetic Gynecology",
+          "title": "Aesthetic Gynecology",
           "content": [
             {
               "type": "heading",
@@ -419,8 +419,8 @@
           ]
         },
         {
-          "type": "related-services",
-          "relatedservices": [
+          "type": "list-services",
+          "listServices": [
             {
               "id": 1,
               "name": "Dr. Ramilia Anarkulova",
@@ -504,6 +504,476 @@
               "link": "https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/",
               "price": 499,
               "btn_text": "Book An Appointment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "bikini-whitening-rejuvenation",
+      "sections": [
+        {
+          "type": "image-content",
+          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageAlt": "Bikini Whitening & Rejuvenation",
+          "title": "Bikini Whitening & Rejuvenation",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Discover your path to radiant confidence with Karisma Specialist Medical Center’s advanced, safe, and personalized solutions for bikini area whitening and rejuvenation. Our cutting-edge treatments target hyperpigmentation and promote even-toned, healthy skin, empowering you to feel your best."
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Advanced Whitening & Rejuvenation Treatments"
+        },
+        {
+          "type": "content",
+          "title": "Laser Bikini Whitening (Laveen Machine)",
+          "description": "Experience a non-invasive, painless solution for hyperpigmentation:",
+          "features": [
+            {
+              "title": "How it Works",
+              "items": [
+                "The Laveen machine uses precise laser technology to gently lighten darkened skin, resulting in a more even complexion."
+              ]
+            },
+            {
+              "title": "Key Benefits",
+              "items": [
+                "Safe and effective for various skin types",
+                "Gradual, natural-looking results",
+                "Enhances skin tone and texture",
+                "Boosts confidence and comfort"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Mesotherapy Whitening",
+          "description": "A targeted, minimally invasive solution for pigmentation concerns:",
+          "features": [
+            {
+              "title": "How it Works",
+              "items": [
+                "A custom blend of vitamins, antioxidants, and lightening agents is injected directly into the bikini area, reducing melanin production and nourishing the skin."
+              ]
+            },
+            {
+              "title": "Key Benefits",
+              "items": [
+                "Safe and natural ingredients",
+                "Gradual lightening effect",
+                "Improved skin texture and elasticity",
+                "Minimal discomfort and downtime"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "IV Drip Whitening",
+          "description": "Internal nourishment for glowing skin:",
+          "features": [
+            {
+              "title": "How it Works",
+              "items": [
+                "A customized IV drip delivers vitamins and antioxidants directly to the body, regulating melanin and promoting overall skin health."
+              ]
+            },
+            {
+              "title": "Key Benefits",
+              "items": [
+                "Discreet, non-invasive treatment",
+                "Direct nutrient delivery for targeted results",
+                "Enhanced skin texture and elasticity",
+                "Gradual, radiant lightening"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "TCA Peeling",
+          "description": "Targeted exfoliation for brighter skin:",
+          "features": [
+            {
+              "title": "How it Works",
+              "items": [
+                "A Trichloroacetic Acid (TCA) peel removes hyperpigmented skin layers, stimulating the growth of new, lighter skin cells."
+              ]
+            },
+            {
+              "title": "Key Benefits",
+              "items": [
+                "Effective for localized pigmentation",
+                "Promotes cell renewal and skin rejuvenation",
+                "Must be performed by qualified professionals for safety"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Why Choose Karisma Specialist Medical Center?",
+          "features": [
+            "Personalized Consultations: Our board-certified gynecologists provide thorough consultations to assess your unique needs and recommend the best treatment options.",
+            "Tailored Treatment Plans: We design customized plans to achieve your desired results safely and effectively.",
+            "Supportive Environment: We prioritize your comfort and privacy, ensuring a discreet and supportive experience."
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Embrace Your Confidence",
+          "description": "Let Karisma Specialist Medical Center guide you on your journey to radiant, even-toned skin. Schedule a consultation today to explore our bikini whitening and rejuvenation treatments and unlock your most confident self."
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Dr. Huda Ebrahim Shaheen",
+              "designation": "Obstetrics and Gynecology Specialist",
+              "image": "/assets/Images/home/Doctors.png",
+              "link": "dr-huda-ebrahim-shaheen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "bikini-tightening-belladona",
+      "sections": [
+        {
+          "type": "image-content",
+          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageAlt": "Bikini Tightening - Belladona",
+          "title": "Bikini Tightening - Belladona",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Rejuvenate your intimate wellness with the Belladona Vaginal Tightening Laser at Karisma Specialist Medical Center. A non-surgical, advanced solution designed to restore tone, comfort, and confidence."
+            },
+            {
+              "type": "heading",
+              "text": "What is the Belladona Vaginal Tightening Laser?"
+            },
+            {
+              "type": "paragraph",
+              "text": "The Belladona Laser is a minimally invasive treatment that uses gentle thermal energy to stimulate collagen production, enhancing vaginal tone and elasticity. This rejuvenating therapy offers a safe and effective way to address concerns related to laxity and improve overall intimate health."
+            },
+            {
+              "type": "heading",
+              "text": "How It Works"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Collagen Stimulation: The laser delivers targeted heat to the vaginal tissue, triggering the body’s natural collagen production.",
+                "Thicker, Tighter Tissue: As collagen levels increase, the vaginal walls become firmer and more elastic, improving both tone and function."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Benefits of Belladona Vaginal Tightening Laser:",
+          "features": [
+            "Enhanced Vaginal Tightness: Experience noticeable improvements in tone, leading to increased comfort and satisfaction.",
+            "Improved Control: Regain confidence and better muscle control for an elevated intimate experience.",
+            "Address Laxity: Effectively reduce laxity caused by aging or childbirth.",
+            "Non-Surgical Solution: Enjoy a painless, minimally invasive procedure with minimal downtime.",
+            "Clinically Proven: Safe, effective, and backed by clinical research."
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Your Personalized Intimate Care Journey",
+          "description": "At Karisma Specialist Medical Center, we prioritize your comfort and privacy, offering a supportive space to discuss your needs:",
+          "features": [
+            "Expert Consultations: Our board-certified gynecologists will evaluate your goals and determine if the Belladona laser suits you.",
+            "Tailored Treatment Plans: We design customized plans to achieve your desired outcomes.",
+            "Discreet, Supportive Environment: Trust our team to provide compassionate, confidential care throughout your journey."
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Rediscover Confidence with Karisma",
+          "description": "Reclaim your comfort and confidence with the Belladona Vaginal Tightening Laser. Schedule a consultation today at Karisma Specialist Medical Center and embrace a new level of intimate wellness."
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Dr. Huda Ebrahim Shaheen",
+              "designation": "Obstetrics and Gynecology Specialist",
+              "image": "/assets/Images/home/Doctors.png",
+              "link": "dr-huda-ebrahim-shaheen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "vaginal-botox",
+      "sections": [
+        {
+          "type": "image-content",
+          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageAlt": "Vaginal Botox",
+          "title": "Vaginal Botox",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Effective Relief for Vaginismus and Enhanced Intimate Wellness"
+            },
+            {
+              "type": "paragraph",
+              "text": "At Karisma Specialist Medical Center, we recognize the importance of a fulfilling, pain-free intimate life. For women experiencing vaginismus, characterized by involuntary muscle contractions that cause discomfort or pain, Vaginal Botox offers a safe, effective solution to restore comfort and confidence."
+            },
+            {
+              "type": "heading",
+              "text": "What Is Vaginal Botox?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vaginal Botox involves injecting a neurotoxin into the muscles around the vaginal opening. This relaxes the muscles, easing contractions and alleviating pain associated with vaginismus, enhancing comfort during intimacy."
+            },
+            {
+              "type": "heading",
+              "text": "Benefits of Vaginal Botox"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Relief from Vaginismus: Alleviates involuntary muscle spasms, reducing pain and discomfort.",
+                "Enhanced Intimacy: Promotes more comfortable and fulfilling marital relations.",
+                "Quick and Long-Lasting Results: Enjoy relief within days, with effects lasting 6 to 12 months."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Treatment Process",
+          "features": [
+            "Consultation: A thorough consultation ensures Vaginal Botox is the right solution for your needs.",
+            "Quick Procedure: The treatment typically takes around 10 minutes, with minimal discomfort.",
+            "Long-Term Relief: Results can be felt within 3 days and may last up to a year, depending on individual response."
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Safety and Considerations",
+          "features": [
+            "Medical History: Our specialists will review your medical history to ensure safety and suitability.",
+            "Pregnancy & Breastfeeding: Vaginal Botox is not recommended for pregnant or breastfeeding women.",
+            "Personalized Care: Each treatment is customized to your unique needs, prioritizing safety and comfort."
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Why Choose Karisma Specialist Medical Center?",
+          "features": [
+            "Expert Gynecologists: Our board-certified specialists have extensive experience in treating vaginismus and other intimate health concerns.",
+            "Compassionate Care: We provide a discreet, supportive environment where you feel heard and understood.",
+            "Cutting-Edge Techniques: Our team uses the latest advancements to deliver safe, effective results."
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Reclaim Comfort and Confidence",
+          "description": "Embrace a life free from discomfort with Vaginal Botox at Karisma Specialist Medical Center. Contact us today to schedule your consultation and take the first step toward renewed intimacy and well-being."
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Dr. Huda Ebrahim Shaheen",
+              "designation": "Obstetrics and Gynecology Specialist",
+              "image": "/assets/Images/home/Doctors.png",
+              "link": "dr-huda-ebrahim-shaheen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "cosmetic-minor-surgeries",
+      "sections": [
+        {
+          "type": "image-content",
+          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageAlt": "Cosmetic Minor Surgeries",
+          "title": "Cosmetic Minor Surgeries",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Personalized Solutions for Your Intimate Well-being"
+            },
+            {
+              "type": "paragraph",
+              "text": "At Karisma Specialist Medical Center, we believe that feeling confident and comfortable in your body is essential. Our range of minor cosmetic gynecological surgeries is designed to address specific concerns, enhancing both appearance and intimate wellness with precision and care."
+            },
+            {
+              "type": "heading",
+              "text": "Empowering Your Choices: Procedures We Offer"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "title": "Labiaplasty: Focuses on reshaping and reducing the size of the labia minora for aesthetic or functional reasons.",
+                  "items": [
+                    {
+                      "title": "Benefits",
+                      "items": [
+                        "Tighter and more resilient skin.",
+                        "Long-lasting results with natural cell regeneration.",
+                        "Minimal discomfort during procedure."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Perineorrhaphy: A reconstructive procedure targeting vaginal tightening and perineal beautification.",
+                  "items": [
+                    {
+                      "title": "Benefits",
+                      "items": [
+                        "Restored vaginal tightness and elasticity.",
+                        "Improved sensation and satisfaction during intimacy.",
+                        "Renewed self-confidence in intimate moments."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+            
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Your Journey with Karisma: What to Expect",
+          "features": [
+            {
+              "title": "Pre-operative Consultation",
+              "items": [
+                "A detailed consultation with our specialists to review your health, discuss goals, and address all your questions."
+              ]
+            },
+            {
+              "title": "Minimally Invasive Techniques",
+              "items": [
+                "Both procedures are typically performed under local anesthesia, ensuring minimal discomfort and a faster recovery."
+              ]
+            },
+            {
+              "title": "Recovery and Care",
+              "items": [
+                "Recovery Time: Expect healing within 2-3 weeks.",
+                "Post-procedure Care: Follow our tailored aftercare plan, which includes hygiene tips and activity restrictions to optimize healing."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Important Guidelines",
+          "features": [
+            {
+              "title": "Eligibility",
+              "items": [
+                "Procedures are suitable for women over 18."
+              ]
+            },
+            {
+              "title": "Pre-procedure Preparation",
+              "items": [
+                "Shave the area a day before the surgery and avoid waxing, scrubs, or laser treatments for six weeks post-surgery."
+              ]
+            },
+            {
+              "title": "Post-operative Advice",
+              "items": [
+                "Avoid intercourse for at least one month.",
+                "Wear loose, breathable clothing for comfort."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Why Choose Karisma Specialist Medical Center?",
+          "features": [
+            "Expert Care: Our board-certified gynecologists specialize in intimate wellness, offering compassionate, discreet care.",
+            "Tailored Treatment Plans: We design personalized treatment plans to suit your unique needs and goals.",
+            "Comfort and Privacy: Your well-being and privacy are our top priorities, ensuring a supportive environment throughout your journey."
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Rediscover Confidence and Comfort",
+          "description": "Take the first step toward enhanced confidence and intimate well-being. Contact Karisma Specialist Medical Center today to schedule your consultation and explore the transformative benefits of cosmetic gynecological surgery."
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Dr. Huda Ebrahim Shaheen",
+              "designation": "Obstetrics and Gynecology Specialist",
+              "image": "/assets/Images/home/Doctors.png",
+              "link": "dr-huda-ebrahim-shaheen"
             }
           ]
         }

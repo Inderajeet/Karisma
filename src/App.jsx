@@ -40,6 +40,11 @@ import Services from './departments/Services';
 import ServiceTemplate from './departments/service templates/ServiceTemplate';
 import ServiceList from './departments/service templates/ServiceList';
 import GynecologyServices from './departments/gyne/GynecologyServices';
+import LaserServices from './departments/laser/LaserServices';
+import SkinCareServices from './departments/skincare/SkinCareServices';
+import SkinCareRelatedServices from './departments/skincare/SkinCareRelatedServices';
+import FooterServices from './components/FooterServices';
+
 import TeethWhitening from './pages/departments/teethWhitening';
 import MouthRehabilitation from './pages/departments/mouthRehab';
 import RootCanal from './pages/departments/rootCanal';
@@ -57,6 +62,8 @@ import Revlite from './pages/departments/revlite';
 import Elite from './pages/departments/elite';
 import DermaFiller from './pages/departments/dermaFiller';
 import BodyFiller from './pages/departments/bodyFiller';
+import SlimmingRelatedServices from './departments/slimming/SlimmingRelatedServices';
+import TreatmentImages from './departments/service templates/TreatmentImages';
 
 
 Modal.setAppElement('#root'); // For accessibility
@@ -87,21 +94,29 @@ function LanguageWrapper() {
           <Route path="offers" element={<Offers />} />
           <Route path="service/:slug" element={<OfferDetails />} />
           {/* <Route path="services" element={<ServiceTemplate/>} /> */}
-          <Route path="service" element={<Services/>} />
+          <Route path="service" element={<Services />} />
           <Route path="/services" element={<ServiceList />} />
-        <Route path="/services/:serviceName" element={<ServiceTemplate />} />
-        <Route path="/gyne-services/:serviceName" element={<GynecologyServices />} />
-        
+          <Route path="/services/:serviceName" element={<ServiceTemplate />} />
+          <Route path="/gynecology/:serviceName" element={<GynecologyServices />} />
+          <Route path="/laser/:serviceName" element={<LaserServices />} />
+          <Route path="/skinCare/:serviceName" element={<SkinCareServices />} />
+          <Route path="/skinCare/:serviceName/:subService" element={<SkinCareRelatedServices />} />
+          <Route path="/slimming/:serviceName/:subService" element={<SlimmingRelatedServices />} />
+          <Route path="/:serviceName" element={<FooterServices />} />  
+          <Route path="/treatments" element={<TreatmentImages />} />  
+
           {/* <Route path="skincare" element={<Skincare/>} /> */}
           <Route path="cart" element={<Cart />} />
           <Route path="checkout" element={<Checkout />} />
-          <Route path="/doctor/:doctorName" element={<DoctorPage/>} />
+          <Route path="/doctor/:doctorName" element={<DoctorPage />} />
           {/* <Route path="doctor-1" element={<Doctor1 />} /> */}
           <Route path="skincare" element={<Skincare />} />
           <Route path="service/hydra-facial" element={<HydraFacial />} />
           <Route path="dept/dental" element={<Dept />} />
           <Route path="/dental" element={<Dental />} />
           <Route path="/veneers" element={<Veneers />} />
+          <Route path="/implant" element={<Implant />} />
+          <Route path="/orthodontics" element={<Orthodontics />} />
           <Route path="/implant" element={<Implant />} /> 
           <Route path="/orthodontics" element={<Orthodontics />} />    
           <Route path="/teeth-whitening" element={<TeethWhitening />} />  
@@ -177,6 +192,6 @@ function NavigationWithLoader({ children }) {
 }
 
 export default App;
- 
+
 
 

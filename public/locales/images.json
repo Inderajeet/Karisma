@@ -1,6 +1,7 @@
 {
   "header": {
       "logo": "/assets/Images/logo_main_3.png",
+      "stickyLogo": "/assets/Images/logo_main.png",
       "appointmentBtn": "/assets/Images/logo_main_3.png",
       "arabIcon": "/assets/Images/lan/arabIcon.png",
       "engIcon": "/assets/Images/lan/engIcon.png"

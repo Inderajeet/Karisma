@@ -19,7 +19,7 @@ const SampleHeader2 = () => {
   const [isScrolling, setIsScrolling] = useState(false); // Track scrolling state
   const [isSticky, setIsSticky] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0); // Track last scroll position
-
+  const [logo, setLogo] = useState(null); 
 
   useEffect(() => {
     document.body.dir = i18n.dir();
@@ -64,6 +64,28 @@ const SampleHeader2 = () => {
       };
     }, [lastScrollY]);
     
+    useEffect(() => {
+      if (!data || !data.images || !data.images.header) return; // Check if data is loaded
+  
+      const { header } = data.images;
+      // Set initial logo
+      setLogo(header.logo);
+  
+    }, [data]);
+    useEffect(() => {
+      if (!data || !data.images || !data.images.header) return; // Check if data is loaded
+  
+      const { header } = data.images;
+  
+      if(isSticky){
+        setLogo(header.stickyLogo || header.logo); // Use stickyLogo if available, fallback to regular logo
+      }else{
+        setLogo(header.logo)
+      }
+  
+    }, [isSticky, data]);
+  
+
   const { images } = data;
   const { header } = images;
   const menuItems = t("menuItems", { returnObjects: true }) || []; // Ensure it's an array
@@ -121,11 +143,11 @@ const SampleHeader2 = () => {
           <div className="container-fluid" style={{ padding: "0" }}>
             <ul className="nav navbar-ul element-left right-element-exist align-items-center">
               <li className="header-titles-wrapper">
-                <div className="header-titles">
+                <div className="header-titles" style={{padding: "11px 0"}}>
                   <Link to={`/${lng}`}>
                     <img
                       className="img-fluid site-logo"
-                      src={header.logo}
+                      src={logo}
                       alt="Logo"
                     />
                   </Link>

@@ -46,7 +46,7 @@ const SocialIcons = () => {
                 // data-bs-target="#bookingModal" 
                 style={{ backgroundColor: 'rgb(64, 93, 83)', color: 'white', border: '2px solid gray', cursor: 'pointer' }}
             >
-                <div className="imgAlign" style={{ paddingBottom: '10px' }}>
+                <div className="imgAlign" >
 
                     <img src={header['appointmentBtn']} alt="Logo"  />
                 </div>

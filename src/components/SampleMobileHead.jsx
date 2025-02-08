@@ -21,6 +21,8 @@ const MobileHeader = () => {
     const [isSticky, setIsSticky] = useState(false);
     const [lastScrollY, setLastScrollY] = useState(0);
 
+      const [logo, setLogo] = useState(null); 
+    
 
     useEffect(() => {
         document.body.dir = i18n.dir();
@@ -69,6 +71,27 @@ const MobileHeader = () => {
         const newPath = location.pathname.replace(`/${lng}`, `/${newLang}`);
         navigate(newPath);
     };
+    useEffect(() => {
+          if (!data || !data.images || !data.images.header) return; // Check if data is loaded
+      
+          const { header } = data.images;
+          // Set initial logo
+          setLogo(header.logo);
+      
+        }, [data]);
+        useEffect(() => {
+          if (!data || !data.images || !data.images.header) return; // Check if data is loaded
+      
+          const { header } = data.images;
+      
+          if(isSticky){
+            setLogo(header.stickyLogo || header.logo); // Use stickyLogo if available, fallback to regular logo
+          }else{
+            setLogo(header.logo)
+          }
+      
+        }, [isSticky, data]);
+        
     const { images } = data;
     const menuItems = t("menuItems", { returnObjects: true }) || []; // Translation for menu items
     if (loading) return;
@@ -122,10 +145,10 @@ const MobileHeader = () => {
                 <button className="hamburger" onClick={toggleMenu}>
                     ☰
                 </button>
-                <div className="mobile-logo">
+                <div className="mobile-logo"style={{padding: "11px 0"}}>
                     <Link to={`/${lng}`}>
                         <img
-                            src={images.header.logo}
+                            src={logo}
                             alt="Logo"
                         />
                     </Link>

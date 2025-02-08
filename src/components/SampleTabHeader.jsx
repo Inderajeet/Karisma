@@ -21,6 +21,9 @@ const SampleTabHeader = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
+    const [logo, setLogo] = useState(null); 
+  
+
   useEffect(() => {
     document.body.dir = i18n.dir();
   }, [i18n, i18n.language]);
@@ -38,6 +41,27 @@ const SampleTabHeader = () => {
     };
     fetchData();
   }, []);
+
+  useEffect(() => {
+        if (!data || !data.images || !data.images.header) return; // Check if data is loaded
+    
+        const { header } = data.images;
+        // Set initial logo
+        setLogo(header.logo);
+    
+      }, [data]);
+      useEffect(() => {
+        if (!data || !data.images || !data.images.header) return; // Check if data is loaded
+    
+        const { header } = data.images;
+    
+        if(isSticky){
+          setLogo(header.stickyLogo || header.logo); // Use stickyLogo if available, fallback to regular logo
+        }else{
+          setLogo(header.logo)
+        }
+    
+      }, [isSticky, data]);
   const { images } = data;
   const { header } = images;
   const menuItems = t("menuItems", { returnObjects: true }) || []; // Ensure it's an array
@@ -120,11 +144,11 @@ const SampleTabHeader = () => {
             <ul className="nav navbar-ul element-left right-element-exist align-items-center justify-content-center">
               
               <li className="header-titles-wrapper">
-                <div className="header-titles">
+                <div className="header-titles"style={{padding: "11px 0"}}>
                   <Link to={`/${lng}`}>
                     <img
                       className="img-fluid site-logo"
-                      src={header.logo}
+                      src={logo}
                       alt="Logo"
                     />
                   </Link>

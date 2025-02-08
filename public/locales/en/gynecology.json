@@ -1,5 +1,5 @@
 {
-    "gynecology":{
+    "gynecology": {
         "blog1": {
             "title": "Empowering Women’s Health at Karisma Specialist Medical Center",
             "content": "At Karisma Specialist Medical Center, we celebrate and prioritize women’s health, offering a comprehensive range of cosmetic gynecology and obstetric care services. Our team of experienced specialists is dedicated to empowering you with personalized care, comfort, and confidence at every stage of life. "
@@ -52,23 +52,27 @@
                 }
             ]
         },
-        "blog2": {
+        "point_blog3": {
             "title": "Cosmetic Minor Surgeries",
-            "description": "Our specialized surgeries focus on improving aesthetics and function: "
-        },
-        "blog2_para1":{
-            "title":"Labiaplasty : ",
-            "description":["Reshape the labia minora or majora to enhance appearance, address symmetry concerns, or alleviate discomfort."]
-        },
-        "blog2_para2":{
-            "title":"Perineorrhaphy : ",
-            "description":["Restore and tighten the perineum’s structure and function after childbirth or injury. "]
+            "description": "Our specialized surgeries focus on improving aesthetics and function: ",
+            "benefits": [
+                {
+                    "title": "Labiaplasty :",
+                    "description": "Reshape the labia minora or majora to enhance appearance, address symmetry concerns, or alleviate discomfort."
+                },
+                {
+                    "title": "Perineorrhaphy :",
+                    "description": "Restore and tighten the perineum’s structure and function after childbirth or injury."
+                }
+            ]
         },
         "para_sec1": {
             "title": "Embrace Your Journey with Confidence",
-            "description": ["Discover how Karisma Specialist Medical Center can support your health and enhance your confidence. Contact us today to schedule a personalized consultation and explore our gynecology and obstetric care services."]
+            "description": [
+                "Discover how Karisma Specialist Medical Center can support your health and enhance your confidence. Contact us today to schedule a personalized consultation and explore our gynecology and obstetric care services."
+            ]
         },
-        "point_blog3": {
+        "point_blog4": {
             "title": "A Personalized Approach to Your Care",
             "description": "At Karisma Specialist Medical Center, we prioritize patient-centered care: ",
             "benefits": [
@@ -85,6 +89,48 @@
                     "description": "Our team leverages cutting-edge technology and expertise to prioritize your comfort and satisfaction."
                 }
             ]
-        }
+        },
+        "related_services": [
+            {
+                "title": "Bikini Whitening & Rejuvenation",
+                "link": "/",
+                "image": "https://damasmc.com/uploads/services/service_image9e83179c92b6cae4ddf3fdc1abd8998a8fb3aa4e.jpg"
+            },
+            {
+                "title": "Bikini Tightening - Belladona",
+                "link": "/",
+                "image": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
+            },
+            {
+                "title": " Plasma Injection",
+                "link": "/",
+                "image": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
+            },
+            {
+                "title": " Gynecological filler",
+                "link": "/",
+                "image": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
+            },
+            {
+                "title": " Vaginal Botox",
+                "link": "/",
+                "image": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
+            },
+            {
+                "title": " Cosmetic Minor Surgeries",
+                "link": "/",
+                "image": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
+            },
+            {
+                "title": " Aesthetic Gynecology",
+                "link": "/",
+                "image": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
+            },
+            {
+                "title": " Medical Gynecology / Obstetric",
+                "link": "/",
+                "image": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
+            }
+        ]
     }
 }

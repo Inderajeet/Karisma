@@ -12,7 +12,7 @@
       "/assets/Images/home/slider2.png",
       "/assets/Images/home/slider3.png"
     ],
-    "logo": "/assets/Images/logo_main_3.png",
+    "logo": "/assets/Images/logo_main.png",
     "languageIcon": "/assets/Images/lan/lang1.png"
   },
   "about_us": {
@@ -87,6 +87,6 @@
     "heading-size": "30px",
     "desc-color": "#5C4033",
     "desc-size": "16px",
-    "logo": "/assets/Images/logo_main_3.png"
+    "logo": "/assets/Images/logo_main.png"
   }
 }

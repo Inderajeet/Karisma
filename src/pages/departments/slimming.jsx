@@ -72,6 +72,7 @@ const Slimming = () => {
             <div className="entry-content">
               <div className="elementor elementor-73315">
                 <div className="elementor-element elementor-7a321f1b e-flex e-con-boxed e-con e-parent e-lazyloaded">
+                <h1>Related Services</h1>
                   <div className="e-con-inner">
                     <div className="dd-row">
                       {data?.related_services?.map((service, index) => (
@@ -83,7 +84,7 @@ const Slimming = () => {
                           className="doctor-info-cols"
                           style={{ cursor: "pointer" }}
                         >
-                          <h1>{service?.title}</h1>
+                          {/* <h1>{service?.title}</h1> */}
                           <div className="dd-inner">
                             <div className="cust-doctor-info-wrap">
                               <div className="doctor-thumbnail">
