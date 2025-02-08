@@ -45,7 +45,7 @@ export default function Doctors() {
                                 <div className="doctor-name">{doctor.name}</div>
                                 <div className="doctor-info-inner">
                                   <div className="doctor-specialities">
-                                    <div className="doctor-departments">{doctor.designation}</div>
+                                    <p className="">{doctor.designation}</p>
                                   </div>
                                 </div>
                               </div>

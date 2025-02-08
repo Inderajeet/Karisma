@@ -19666,7 +19666,7 @@ td span svg.sDeactivate {
 }
 
 .title {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center
 }
@@ -21354,12 +21354,12 @@ td span svg.sDeactivate {
 .mobile-book-now {
     display: none;
     justify-content: center;
-    font-size: 18px;
+    font-size: 16px;
     color: #763813;
     font-weight: 500;
-    padding: 20px 15px;
+    padding: 2px 15px;
     width: 100%;
-    height: 60px;
+    /* height: 60px; */
     /* writing-mode: unset; */
     border-radius: 3px;
     position: sticky;
@@ -21383,7 +21383,7 @@ td span svg.sDeactivate {
         bottom: 10%;
     }
     .mobile-book-now .imgAlign{
-        width: 13%;
+        width: 18%;
     }
 }
 

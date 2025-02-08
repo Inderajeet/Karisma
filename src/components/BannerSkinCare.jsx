@@ -47,8 +47,8 @@ const BannerSkinCare = () => {
           <div className="captionBx" style={{ color: "white" }}>
             <div className="row">
               <div className="col-12">
-                <div className="page-title-wrap">
-                  <ul className="page-title-elements page-title-center pull-center">
+                <div className="page-title-wrap" style={{padding: '0'}}>
+                  <ul className="">
                     <h1 className="page-title">SkinCare</h1>
                     <div className="breadcrumbs-wrap">
                       <li className="breadcrumb-wrap">

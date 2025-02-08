@@ -12,6 +12,7 @@ import Doctors from "../../pages/doctor";
 import ListServices from "../service templates/ListServices";
 import ListServicesNoImg from "../service templates/ListServicesNoImg";
 import BannerSkinCare from "../../components/BannerSkinCare";
+import HeaderTitle from "../service templates/HeaderTitle";
 
 const SkinCareServices = () => {
     const { t, i18n } = useTranslation('skinCareServices');
@@ -43,7 +44,7 @@ const SkinCareServices = () => {
     return (
         <>
             <BannerSkinCare />
-            <div className="happysmile-content-wrap container page">
+            <div className="">
                 {service.sections.map((section, index) => {
                     console.log('Section-services:', section.listServices);  // Debugging: log section
                     if (section.type === "content") {
@@ -53,6 +54,36 @@ const SkinCareServices = () => {
                                 title={section.title}
                                 description={section.description}
                                 features={section.features}
+                            />
+                        );
+                    }else if (section.type === "center-content") {
+                        return (
+                            <div style={{textAlign: 'center', backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
+                            <ContentSection
+                                key={index}
+                                title={section.title}
+                                description={section.description}
+                                features={section.features}
+                            />
+                            </div>
+                        );
+                    }else if (section.type === "color-content") {
+                        return (
+                            <div style={{backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
+                            <ContentSection
+                                key={index}
+                                title={section.title}
+                                description={section.description}
+                                features={section.features}
+                            />
+                            </div>
+                        );
+                    }else if (section.type === "header-title") {
+                        return (
+                            <HeaderTitle
+                                key={index}
+                                title={section.title}
+                                description={section.description}
                             />
                         );
                     } else if (section.type === "image-content") {
@@ -90,10 +121,16 @@ const SkinCareServices = () => {
                     }
                     else if (section.type === "list-services") {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
-                        return <ListServices key={index} services={section.listServices} />;
+                        return (
+                        <div style={{backgroundColor:'#c4a98863'}}>
+                        <ListServices key={index} services={section.listServices} />
+                        </div>);
                     }else if (section.type === "list-services-noImage") {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
-                        return <ListServicesNoImg key={index} services={section.listServices} />;
+                        return (
+                            <div style={{backgroundColor:'#c4a98863'}}>
+                        <ListServicesNoImg key={index} services={section.listServices} />
+                        </div>);
                     }
                     return null;  // If no valid section type found
                 })}

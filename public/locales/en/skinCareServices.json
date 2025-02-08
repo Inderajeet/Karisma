@@ -67,13 +67,13 @@
           "features": []
         },
         {
-          "type": "content",
+          "type": "center-content",
           "title": "Facial Selections",
           "description": "At Karisma, we offer a curated range of luxurious facial treatments, each designed to address specific skin concerns and enhance your natural beauty. Discover the perfect facial tailored to your needs",
           "features": []
         },
         {
-          "type": "list-services",
+          "type": "list-services-noImage",
           "listServices": [
             {
               "id": 1,
@@ -254,19 +254,12 @@
           ]
         },
         {
-          "type": "content",
+          "type": "center-content",
           "title": "Discover the Power of Peeling",
-          "description": "Ready to reveal your best skin? Schedule a consultation with our skincare specialists at Karisma today. Let us guide you toward a radiant, rejuvenated complexion.",
-          "features": [
-            "Yellow Peeling: Illuminate Your Skin with the Power of the Yellow Peel at Karisma",
-            "TCA Peeling: A powerful, customizable treatment designed to rejuvenate skin, targeting imperfections and promoting long-lasting results.",
-            "Salicylic Acid Peeling: A targeted treatment designed to combat acne, minimize scarring, and fade pigmentation, unveiling a radiant, blemish-free complexion.",
-            "Green Peel:",
-            "Carbon Laser Peel"
-          ]
+          "description": "Ready to reveal your best skin? Schedule a consultation with our skincare specialists at Karisma today. Let us guide you toward a radiant, rejuvenated complexion."
         },
         {
-          "type": "list-services",
+          "type": "list-services-noImage",
           "listServices": [
             {
               "id": 1,

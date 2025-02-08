@@ -10,6 +10,7 @@ import VideoSection from "../../components/VideoSection";
 import OffersTemplate from "../service templates/OffersTemplate";
 import ListServices from "../service templates/ListServices";
 import BannerSkinCare from "../../components/BannerSkinCare";
+import HeaderTitle from "../service templates/HeaderTitle";
 
 const SkinCareRelatedServices = () => {
     const { t, i18n } = useTranslation('skinCareRelated');
@@ -33,8 +34,7 @@ const SkinCareRelatedServices = () => {
 
     return (
         <>
-            <BannerSkinCare />
-            <div className="happysmile-content-wrap container page">
+            <div className="relatedServices">
                 {service.sections.map((section, index) => {
                     console.log('Section-services:', section.listServices);
 
@@ -45,6 +45,36 @@ const SkinCareRelatedServices = () => {
                                 title={section.title}
                                 description={section.description}
                                 features={section.features}
+                            />
+                        );
+                    }else if (section.type === "center-content") {
+                        return (
+                            <div style={{textAlign: 'center', backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
+                            <ContentSection
+                                key={index}
+                                title={section.title}
+                                description={section.description}
+                                features={section.features}
+                            />
+                            </div>
+                        );
+                    }else if (section.type === "color-content") {
+                        return (
+                            <div style={{backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
+                            <ContentSection
+                                key={index}
+                                title={section.title}
+                                description={section.description}
+                                features={section.features}
+                            />
+                            </div>
+                        );
+                    }else if (section.type === "header-title") {
+                        return (
+                            <HeaderTitle
+                                key={index}
+                                title={section.title}
+                                description={section.description}
                             />
                         );
                     } else if (section.type === "image-content") {
@@ -75,7 +105,7 @@ const SkinCareRelatedServices = () => {
                     } else if (section.type === "card") {
                         if (Array.isArray(section.cards)) {
                             return (
-                                <div className="flxBx" key={index}>
+                                <div className="flxBx custsectionStyle customContainer" key={index}>
                                     {section.cards.map((card, cardIndex) => (
                                         <CardSection
                                             key={cardIndex}

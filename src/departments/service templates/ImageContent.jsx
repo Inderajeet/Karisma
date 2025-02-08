@@ -7,9 +7,9 @@ const renderListItem = (item, index) => {
     if (item.includes(":")) {
       const [key, value] = item.split(":");
       return (
-        <li key={index} className="featureItem">
-          <strong>{key}:</strong> {value.trim()}
-        </li>
+        <p key={index} className="featureItem">
+          <strong >{key}:</strong> {value.trim()}
+        </p>
       );
     } else {
       // No colon, just render as normal text
@@ -19,12 +19,12 @@ const renderListItem = (item, index) => {
     const [key, value] = item.title.includes(":") ? item.title.split(":") : [item.title, ""];
 
     return (
-      <li key={index} className="featureItem">
+      <p key={index} className="featureItem">
         {key ? <strong>{key}:</strong> : ""} {value.trim()}
         <ul className="custom-list" style={{ paddingLeft: "10px" }}>
           {item.items.map((subItem, subIndex) => renderListItem(subItem, subIndex))}
         </ul>
-      </li>
+      </p>
     );
   }
   return null;
@@ -34,7 +34,7 @@ const renderListItem = (item, index) => {
 const ImageContent = ({ title, imageUrl, imageAlt, content }) => {
   return (
     <section className="cosmeticSec">
-      <div className="container">
+      <div className="customContainer">
         <div className="contentWrap">
           {/* Image Section */}
           <div className="imgBx">
@@ -43,24 +43,18 @@ const ImageContent = ({ title, imageUrl, imageAlt, content }) => {
 
           {/* Content Section */}
           <div className="cont">
-            <h2 className="tle">{title}</h2>
+            <h2 className="title">{title}</h2>
 
             {/* Render Dynamic Content */}
             {content.map((item, index) => {
               if (item.type === 'heading') {
-                return <h2 className="cmnTitle" key={index}>{item.text}</h2>;
+                return <p  key={index} style={{fontFamily:'The Seasons', fontWeight:'600'}}> <strong>{item.text}</strong></p>;
               }
               if (item.type === 'paragraph') {
                 const parts = item.text.split(":");
                 return (
                   <p key={index}>
-                    {parts.length > 1 ? (
-                      <>
-                        <strong>{parts[0]}:</strong> {parts.slice(1).join(":")}
-                      </>
-                    ) : (
-                      item.text
-                    )}
+                    {item.text}
                   </p>
                 );
               }

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../custom_css/basicSmile.css";
+import "../../custom_css/serviceTemplate.css";
 
 const renderFeature = (feature, index) => {
     // If feature is a string (Key-Value pair)
@@ -54,11 +54,11 @@ const renderFeature = (feature, index) => {
 
 const ContentSection = ({ title, description, features }) => {
     return (
-        <div className="custsectionStyle">
-            <div className="cmnTitle">{title}</div>
+        <div className="custsectionStyle customContainer">
+            <h2 className="title">{title}</h2>
             <p>{description}</p>
 
-            {features && <div className="featuresContainer">{features.map(renderFeature)}</div>}
+            {features && <p className="featuresContainer">{features.map(renderFeature)}</p>}
         </div>
     );
 };

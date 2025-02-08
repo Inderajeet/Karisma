@@ -42,12 +42,14 @@
     left: 0;
     padding: 0 15px;
     bottom: 50px;
-    width: 100%;
+    z-index: 3;
+    /* width: 100%; */
 }
 
 @media only screen and (min-width: 1200px) {
     #PageBanner .container .mainBanner .captionBx .mainHead {
         font-size: 40px;
         line-height: 45px;
+        z-index: 2;
     }
 }

@@ -7848,7 +7848,7 @@ body.single .dd-container .dd-row:not(:last-child) {
     padding: 0px 50px;
 }
 .single.single-cea-team .row.team {
-    padding: 50px 0px;
+    padding: 50px 50px;
 }
 .team-style-classic-pro.team-normal-model .team-inner .team-designation {
     padding: 5px 10px;

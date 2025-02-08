@@ -65,11 +65,10 @@ function DoctorPage() {
 
     return (
         <>
-            <BannerDoctor />
-            <div className="happysmile-content-wrap container cea-team-template-default 
+            <div className="relatedServices customContainer cea-team-template-default 
             single single-cea-team postid-73184 theme-happysmile woocommerce-js 
             elementor-default elementor-kit-5 elementor-page elementor-page-73184 
-            e--ua-blink e--ua-chrome e--ua-webkit page-load-end" style={{ padding: "5rem 0" }}>
+            e--ua-blink e--ua-chrome e--ua-webkit page-load-end" style={{ paddingBottom: "5rem" }}>
                 <div className="row">
                     <div className="col-md-12 order-md-2">
                         <div className="wrap cea-content">

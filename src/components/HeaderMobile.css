@@ -73,7 +73,7 @@ span.menu-icon {
 }
 
 .mobile-logo {
-    width: 30%;
+    width: 22%;
 }
 .header.sticky .mobile-menu {
     position: sticky;
@@ -93,7 +93,7 @@ span.menu-icon {
   
 
 .mobile-menu-logo {
-    width: 50%;
+    width: 33%;
 }
 
 .mobile-menu-header {
@@ -124,6 +124,7 @@ span.menu-icon {
     cursor: pointer;
     background: none;
     border: none;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
 }
 
 .hamburger {

@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-  position: relative;
+  /* position: relative; */
   width: 100%;
   overflow: hidden;
   z-index: 10;
@@ -29,7 +29,7 @@ body {
   /* border-radius: 0 0 57px 57px; */
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.3s ease;
-  z-index: 10;
+  z-index: 10000000000000000;
 
 }
 
@@ -54,6 +54,7 @@ body {
 
 /* When the menu is sticky */
 .menu-bar.scrolling {
+  z-index: 10000 !important;
   /* background-color: rgba(255, 255, 255, 0.8);  */
   border-radius: 0;
   /* background-color: #577065bd; */

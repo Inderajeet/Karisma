@@ -60,6 +60,8 @@ import LaserHair from './pages/departments/laserHair';
 import Candela from './pages/departments/candela';
 import Revlite from './pages/departments/revlite';
 import Elite from './pages/departments/elite';
+import SlimmingRelatedServices from './departments/slimming/SlimmingRelatedServices';
+import TreatmentImages from './departments/service templates/TreatmentImages';
 
 
 Modal.setAppElement('#root'); // For accessibility
@@ -97,7 +99,9 @@ function LanguageWrapper() {
           <Route path="/laser/:serviceName" element={<LaserServices />} />
           <Route path="/skinCare/:serviceName" element={<SkinCareServices />} />
           <Route path="/skinCare/:serviceName/:subService" element={<SkinCareRelatedServices />} />
-          <Route path="/:serviceName" element={<FooterServices />} />
+          <Route path="/slimming/:serviceName/:subService" element={<SlimmingRelatedServices />} />
+          <Route path="/:serviceName" element={<FooterServices />} />  
+          <Route path="/treatments" element={<TreatmentImages />} />  
 
           {/* <Route path="skincare" element={<Skincare/>} /> */}
           <Route path="cart" element={<Cart />} />

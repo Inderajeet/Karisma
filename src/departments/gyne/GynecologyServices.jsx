@@ -10,6 +10,7 @@ import OffersTemplate from "../service templates/OffersTemplate";
 import Doctors from "../../pages/doctor";
 import ListServices from "../service templates/ListServices";
 import GyneBanner from "../../components/GyneBanner";
+import ListServicesNoImg from "../service templates/ListServicesNoImg";
 
 const GynecologyServices = () => {
     const { t, i18n } = useTranslation('gyneServices');
@@ -41,7 +42,7 @@ const GynecologyServices = () => {
     return (
         <>
             <GyneBanner />
-            <div className="happysmile-content-wrap container page">
+            <div className="">
                 {service.sections.map((section, index) => {
                     console.log('Section-services:', section.listServices);  // Debugging: log section
                     if (section.type === "content") {
@@ -52,6 +53,17 @@ const GynecologyServices = () => {
                                 description={section.description}
                                 features={section.features}
                             />
+                        );
+                    } else if (section.type === "center-content") {
+                        return (
+                            <div style={{ textAlign: 'center', backgroundColor: '#c4a98863', paddingTop: '2rem' }}>
+                                <ContentSection
+                                    key={index}
+                                    title={section.title}
+                                    description={section.description}
+                                    features={section.features}
+                                />
+                            </div>
                         );
                     } else if (section.type === "image-content") {
                         console.log('ImageContent Data:', section);  // Debugging: log image-content
@@ -89,6 +101,12 @@ const GynecologyServices = () => {
                     else if (section.type === "list-services") {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
                         return <ListServices key={index} services={section.listServices} />;
+                    } else if (section.type === "list-services-noImage") {
+                        console.log('Related services:', section.listServices);  // Debugging: log related services
+                        return (
+                            <div style={{ backgroundColor: '#c4a98863' }}>
+                                <ListServicesNoImg key={index} services={section.listServices} />
+                            </div>);
                     }
                     return null;  // If no valid section type found
                 })}
