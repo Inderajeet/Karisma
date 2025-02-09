@@ -5,7 +5,7 @@ const ParaSection = (props) => {
   return (
    <div style={{...props.style}} className="para-body">
      <div className="para-container">
-      <h2 className="para-heading">{props.title}</h2>
+      <h2 className="title para-heading">{props.title}</h2>
       <div className="para-content">
         {props.desc?.map((paragraph, index) => (
           <p key={index} className="para-paragraph">
@@ -20,4 +20,3 @@ const ParaSection = (props) => {
 };
 
 export default ParaSection;
-

@@ -20,7 +20,7 @@ const DoctorGrid = (props) => {
                     <div className="dd-row">
                       {props?.data?.map((service, index) => (
                         <Link
-                          to={`/${i18n.language}/slimming/${encodeURIComponent(
+                          to={`/${i18n.language}/${encodeURIComponent(
                             service?.link
                           )}`}
                           key={index}

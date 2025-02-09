@@ -45,7 +45,7 @@ const LaserHair = () => {
     <div>
       <DeptBanner
         pageName="Laser Hair Removal"
-        bannerImg={images.about.visionImg}
+        bannerImg={laserHair?.bannerImg}
       ></DeptBanner>
       <Blog
         blogImg={data.blog1?.blogImg}
@@ -75,7 +75,7 @@ const LaserHair = () => {
             <div className="entry-content">
               <div className="elementor elementor-73315">
                 <div className="elementor-element elementor-7a321f1b e-flex e-con-boxed e-con e-parent e-lazyloaded">
-                <h1>Related Services</h1>
+                <h1 className="title">Related Services</h1>
 
                   <div className="e-con-inner">
                     <div className="dd-row">

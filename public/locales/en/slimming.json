@@ -1,10 +1,11 @@
 {
     "slimming": {
+        "bannerImg":"../public/assets/Images/blog/blog/slimming.png",
         "general_page": {
             "blog1": {
                 "title": "A Journey to Transformation at Karisma Specialist Medical Center",
                 "description": "At Karisma Specialist Medical Center, we believe true beauty and confidence begin with a healthy body. Our Slimming Department offers a comprehensive weight managementandbodycontouring, approach tailored to your unique needs. With a teamof experienced professionals, we’re here to guide and empower you to achieve your ideal physique.",
-                "blogImg": "https://damasmc.com/uploads/departments/department_image36e270012a97d8be04159303610a5d7ef84e0a86.jpg"
+                "blogImg": "../public/assets/Images/department/slimming.png"
             },
             "para_sec1": {
                 "title": "Embrace a Healthier, More Confident You",

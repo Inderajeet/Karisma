@@ -45,9 +45,9 @@ const Gynecology = () => {
           const gynecology = t('gynecology', { returnObjects: true });
   return (
     <div>
-      <DeptBanner pageName = "Gynecology" bannerImg = {images.about.visionImg}></DeptBanner>
+      <DeptBanner pageName = "Gynecology" bannerImg = {gynecology?.bannerImg}></DeptBanner>
       <Blog
-        blogImg={images.about.visionImg}
+        blogImg={gynecology?.blog1?.blogImg}
         blogTitle={gynecology.blog1?.title}
        
         additionalParagraphs={[

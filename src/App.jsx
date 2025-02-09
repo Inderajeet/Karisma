@@ -58,8 +58,15 @@ import LaserHair from './pages/departments/laserHair';
 import Candela from './pages/departments/candela';
 import Revlite from './pages/departments/revlite';
 import Elite from './pages/departments/elite';
+import DermaFiller from './pages/departments/dermaFiller';
+import BodyFiller from './pages/departments/bodyFiller';
 import SlimmingRelatedServices from './departments/slimming/SlimmingRelatedServices';
 import TreatmentImages from './departments/service templates/TreatmentImages';
+import SkincareGp from './pages/departments/skinCare';
+import Derma from './pages/departments/derma';
+import CosmeticThreads from './pages/departments/cosmeticThreads';
+import Botox from './pages/departments/botox';
+import Rejuvenation from './pages/departments/rejuvenation';
 import DermaRelatedServices from './departments/derma/DermaRelatedServices';
 
 
@@ -131,7 +138,13 @@ function LanguageWrapper() {
           <Route path="/laser-hair/candela" element={<Candela />} />
           <Route path="/laser-hair/revlite" element={<Revlite />} />
           <Route path="/laser-hair/elite" element={<Elite />} />
-
+          <Route path="/derma" element={<Derma />} />
+          <Route path="/derma/derma-filler" element={<DermaFiller />} />
+          <Route path="/derma/body-filler" element={<BodyFiller />} />
+          <Route path="/skincare" element={<SkincareGp />} />
+          <Route path="/derma/cosmetic-threads" element={<CosmeticThreads />} />
+          <Route path="/derma/botox" element={<Botox />} />
+          <Route path="/derma/rejuvenation" element={<Rejuvenation />} />
         </Routes>
       </CartProvider>
       <Footer />

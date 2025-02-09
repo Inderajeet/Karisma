@@ -29,8 +29,8 @@ const SkinCareServices = () => {
 
     // Find the current doctor
     useEffect(() => {
-        if (services.length > 0) {
-            const foundService = services.find((doc) => doc.name === decodeURIComponent(serviceName));
+        if (services?.length > 0) {
+            const foundService = services?.find((doc) => doc.name === decodeURIComponent(serviceName));
             setService(foundService);
         }
     }, [services, serviceName]);
