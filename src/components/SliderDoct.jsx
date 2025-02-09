@@ -42,26 +42,27 @@ const SliderDoct = () => {
     <Swiper
       slidesPerView={3}
       spaceBetween={24}
-      loop={true}
-      speed={1000}
-      autoplay={{
-        delay: 3000,
-        disableOnInteraction: false,
-        reverseDirection: isRTL, // Reverse autoplay direction for RTL
-      }}
-      dir={isRTL ? "rtl" : "ltr"} // Set the HTML direction for Swiper
-      style={{
-        direction: isRTL ? "rtl" : "ltr", // Ensure CSS direction is applied
-      }}
+      // loop={true}
+      // speed={1000}
+      // autoplay={{
+      //   delay: 3000,
+      //   disableOnInteraction: false,
+      //   reverseDirection: isRTL, // Reverse autoplay direction for RTL
+      // }}
+      // dir={isRTL ? "rtl" : "ltr"} // Set the HTML direction for Swiper
+      // style={{
+      //   direction: isRTL ? "rtl" : "ltr", // Ensure CSS direction is applied
+      // }}
       breakpoints={{
         0: { slidesPerView: 1 },
-        576: { slidesPerView: 1 },
-        768: { slidesPerView: 2 },
-        992: { slidesPerView: 2 },
+        530: { slidesPerView: 2 },
+        576: { slidesPerView: 2 },
+        768: { slidesPerView: 3 },
+        992: { slidesPerView: 3 },
         1200: { slidesPerView: 3 },
         1300: { slidesPerView: 3 },
       }}
-      modules={[Autoplay]}
+      // modules={[Autoplay]}
     >
       {doctors.map((doctor, index) => (
         <SwiperSlide key={doctor.id}>
@@ -73,7 +74,7 @@ const SliderDoct = () => {
               style={{ backgroundColor: cards["background-color"] }}
             >
               <div className="entry-title">
-                <h3 className="post-title-head">
+                <h3 className="post-title-head" style={{paddingBottom: '0'}}>
                   <a
                     href={doctor.link}
                     className="post-title"
@@ -95,7 +96,7 @@ const SliderDoct = () => {
               >
                 {doctor.designation}
               </div>
-              <div className="post-thumb">
+              <div className="post-thumb home-doct">
                 <a href={doctor.link} className="post-image-link">
                   <img
                     // src={Object.values(doctorsImg)[index]}

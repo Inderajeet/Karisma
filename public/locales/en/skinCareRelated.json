@@ -600,7 +600,7 @@
                             "title": "Steps to Radiant Eyes",
                             "features": [
                                 "Gentle Cleansing: The treatment begins with a thorough cleanse, removing makeup and impurities to prepare the skin for enhanced absorption and optimal results.",
-                                "Targeted Rejuvenation:",
+                                "Targeted Rejuvenation",
                                 {
                                     "title": "Dermapen Microneedling: Tiny micro-channels are created to stimulate collagen production and allow deeper penetration of nourishing products.",
                                     "items": [
@@ -1128,7 +1128,7 @@
         },
         {
             "id": "17",
-            "name": "facials/yellow-peel-treatment",
+            "name": "peeling/yellow-peel-treatment",
             "sections": [
                 {
                     "type": "content",
@@ -1203,7 +1203,7 @@
         },
         {
             "id": "18",
-            "name": "facials/tca-peel-treatment",
+            "name": "peeling/tca-peel-treatment",
             "sections": [
                 {
                     "type": "content",
@@ -1277,7 +1277,7 @@
         },
         {
             "id": "19",
-            "name": "facials/salicylic-acid-peeling",
+            "name": "peeling/salicylic-acid-peeling",
             "sections": [
                 {
                     "type": "content",
@@ -1341,7 +1341,7 @@
         },
         {
             "id": "20",
-            "name": "facials/green-peel",
+            "name": "peeling/green-peel",
             "sections": [
                 {
                     "type": "content",
@@ -1403,7 +1403,7 @@
         },
         {
             "id": "20",
-            "name": "facials/ha-mesotherapy",
+            "name": "mesotherapy/ha-mesotherapy",
             "sections": [
                 {
                     "type": "content",
@@ -1465,7 +1465,7 @@
         },
         {
             "id": "21",
-            "name": "facials/meso-face",
+            "name": "mesotherapy/meso-face",
             "sections": [
                 {
                     "type": "content",
@@ -1526,7 +1526,7 @@
         },
         {
             "id": "22",
-            "name": "facials/meso-whitening",
+            "name": "mesotherapy/meso-whitening",
             "sections": [
                 {
                     "type": "content",
@@ -1588,7 +1588,7 @@
         },
         {
             "id": "23",
-            "name": "facials/meso-open-pores",
+            "name": "mesotherapy/meso-open-pores",
             "sections": [
                 {
                     "type": "content",
@@ -1660,7 +1660,7 @@
         },
         {
             "id": "24",
-            "name": "facials/tprx-meso",
+            "name": "mesotherapy/tprx-meso",
             "sections": [
                 {
                     "type": "content",
@@ -1732,7 +1732,7 @@
         },
         {
             "id": "25",
-            "name": "facials/meso-lift",
+            "name": "mesotherapy/meso-lift",
             "sections": [
                 {
                     "type": "content",
@@ -1817,7 +1817,7 @@
         },
         {
             "id": "26",
-            "name": "facials/meso-gold",
+            "name": "mesotherapy/meso-gold",
             "sections": [
                 {
                     "type": "content",
@@ -1882,7 +1882,7 @@
         },
         {
             "id": "27",
-            "name": "facials/meso-eyes",
+            "name": "mesotherapy/meso-eyes",
             "sections": [
                 {
                     "type": "content",
@@ -1944,7 +1944,7 @@
         },
         {
             "id": "28",
-            "name": "facials/meso-lips",
+            "name": "mesotherapy/meso-lips",
             "sections": [
                 {
                     "type": "content",

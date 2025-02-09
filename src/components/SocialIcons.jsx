@@ -93,7 +93,7 @@ const SocialIcons = () => {
                                     xmlns="http://www.w3.org/2000/svg"
                                     width={55}
                                     height={55}
-                                    viewBox="0 0 68 68"
+                                    viewBox="0 0 68 78"
                                 >
                                     <g id="_08.whatsapp" data-name="08.whatsapp">
                                         <circle id="background" cx={34} cy={34} r={34} fill="#405d53" />
@@ -131,7 +131,7 @@ const SocialIcons = () => {
                                     xmlns="http://www.w3.org/2000/svg"
                                     width={55}
                                     height={55}
-                                    viewBox="0 0 68 68"
+                                    viewBox="0 0 68 78"
                                 >
                                     <g id="chat" transform="translate(0.327 0.071)">
                                         <g
@@ -171,7 +171,7 @@ const SocialIcons = () => {
                                     xmlnsXlink="http://www.w3.org/1999/xlink"
                                     width={55}
                                     height={55}
-                                    viewBox="0 0 68 68"
+                                    viewBox="0 0 68 78"
                                 >
                                     {/* <defs>
                     <linearGradient

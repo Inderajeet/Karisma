@@ -15,7 +15,7 @@
   }
   .home-desc-font{
     font-size: 17px !important;
-    line-height: 26px;
+    line-height: 26px !important;
   }
   .home-head-font{
     font-size: 30px !important;
@@ -49,4 +49,42 @@
     display: flex;
     justify-content: center;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  .home-doct{
+    height: 368px;
+  }
+}
+@media screen and (min-width: 1351px) {
+  .home-doct{
+    height: auto;
+  }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+  .footer-col{
+    flex-basis: 15%;
+  }
+  .footer-desc{
+    flex-basis: 34%;
+  }
+  
+}
+@media screen and (min-width: 769px) and (max-width:1023px){
+  .footer-col{
+    flex-basis: 36%;
+  }
+  .footer-desc{
+    flex-basis: 41%;
+  }
+  
+}
+
+.footer-icons{
+    padding: 11px;
+    color: #555;
+
 }

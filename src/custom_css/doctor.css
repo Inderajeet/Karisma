@@ -17,11 +17,11 @@
     color: #5C4033;
 }
 
-.doctor-name{
+/* .doctor-name{
     font-size: 24px;
     color: #405D53;
     margin-top: 10px;
-}
+} */
 
 .doctor-specialities-name{
     font-size: 20px;
@@ -40,7 +40,7 @@
     background: #fff;
     border-radius: 10px 10px 0px 10px;
 }
-
+  
 .cust-team-details-icon:hover{
     background-color: #405D53;
     color: #ffff;
@@ -92,12 +92,12 @@ ul.nav.cust-social-icons.team-social a.social-youtube {
 }
 
 
-
 .doctor-info-body{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 0 13px;
 }
 
 .dd-row {
@@ -112,17 +112,22 @@ ul.nav.cust-social-icons.team-social a.social-youtube {
     flex: 1 1 100%; /* Default: 1 doctor per row for mobile */
     max-width: 100%; /* Prevent overflow */
   }
-  
+  @media ((min-width: 450px)) {
+    .doctor-info-cols {
+        flex: 1 1 50%;
+        max-width: 47%;
+    }
+}
   @media (min-width: 768px) and (max-width: 1199px) {
     .doctor-info-cols {
-      flex: 1 1 48%; /* 2 doctors per row for tablets */
-      max-width: 48%;
+        flex: 1 1 24%;
+        max-width: 48%;
     }
-    .doctor-name {
+    /* .doctor-name {
         font-size: 24px;
         color: #405D53;
         margin-top: 10px;
-    }
+    } */
   }
   
   @media (min-width: 1200px) {
@@ -130,11 +135,11 @@ ul.nav.cust-social-icons.team-social a.social-youtube {
       flex: 1 1 30%; /* 3 doctors per row for desktops */
       max-width: 30%;
     }
-    .doctor-name {
+    /* .doctor-name {
         font-size: 25px;
         color: #405D53;
         margin: 10px 13px 0 13px;
-    }
+    } */
   }
   
   @media (max-width:768px){
@@ -142,3 +147,145 @@ ul.nav.cust-social-icons.team-social a.social-youtube {
         font-size: 15px;
     }
   }
+  .doctor-thumbnail {
+    position: relative;
+    overflow: hidden; /* Prevents image from going outside */
+    border-radius: 10px; /* Optional: adds smooth corners */
+  }
+  
+  .doctor-thumbnail img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .doctor-thumbnail:hover img {
+    transform: scale(1.1); /* Slight zoom effect */
+  }
+/* Default Style */
+.doctor-thumbnail {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctor-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* ✅ Fixing Media Queries */
+@media only screen and (max-width: 1440px) {
+    .doctor-thumbnail {
+        height: 388px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .doctor-thumbnail {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .doctor-thumbnail {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .doctor-thumbnail {
+        height: 330px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .doctor-thumbnail {
+        height: 260px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .doctor-thumbnail {
+        height: 405px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .doctor-thumbnail {
+        height: 315px;
+    }
+}
+.docContainer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+}
+
+/* Larger screens first to avoid conflicts */
+@media screen and (min-width: 1441px) {
+    .docContainer {
+        max-width: 1350px;
+    }
+}
+
+@media screen and (min-width: 1351px) and (max-width: 1440px) {
+    .docContainer {
+        max-width: 1280px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1350px) {
+    .docContainer {
+        max-width: 1180px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .docContainer {
+        max-width: 960px;
+    }
+}
+
+.doctor-name {
+    font-weight: 500;
+    color: #405D53;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 600
+    ;
+}
+
+/* ✅ Apply styles correctly as the screen size decreases */
+@media only screen and (max-width: 1440px) {
+    .doctor-name {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .doctor-name {
+        font-size: 18px !important;
+        /* margin-bottom: 10px !important; */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .doctor-name {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .doctor-name {
+    }
+}

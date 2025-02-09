@@ -21,7 +21,7 @@ const BeforeAfterSlider = ({ beforeImage, afterImage }) => {
         onTouchMove={(e) => handleMouseMove(e.touches[0])}
       >
         {/* Images Wrapper */}
-        <div className="image-container">
+        <div className="treat-image-container">
           {/* After Image (Full Background) */}
           <img src={afterImage} alt="After" className="image after-image" />
   

@@ -170,7 +170,7 @@ const MobileHeader = () => {
                         <div className="mobile-menu-logo">
                             <Link to={`/${lng}`}>
                                 <img
-                                    src={images.header.logo}
+                                    src={images.header.stickyLogo}
                                     alt="Logo"
                                 />
                             </Link>

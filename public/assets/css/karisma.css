@@ -21439,7 +21439,7 @@ ul {
 }
 
 .fixedRit ul li:not(:last-of-type) {
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 }
 
 @media only screen and (min-width: 1441px) {

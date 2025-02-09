@@ -13,7 +13,7 @@ export default function Doctors() {
   return (
     <>
     <BannerDoctor />
-      <div className="happysmile-content-wrap container page" style={{ marginTop: "50px" }}>
+      <div className="docContainer" style={{ marginTop: "50px" }}>
         <div className="col-md-12 order-md-2">
           <div className="post-inner">
             <div className="entry-content">

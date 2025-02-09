@@ -252,7 +252,7 @@ const Index = () => {
             data-left={85}
             data-top={40}
             data-distance={100}
-            style={{ width: 190, top: "40%", left: "85%" }}
+            style={{ width: 190, top: "40%", left: "85%", display:'none' }}
           >
             <img
               alt="Floating Image"
@@ -282,7 +282,7 @@ const Index = () => {
                             fontWeight: 'bold'
                           }}>{t('about2.about2Heading1')}</span>
                         </h6>
-                        <h2 className="" style={{
+                        <h2 className="subtitle-dots sub-title home-head-font" style={{
                           color: about2["heading2-color"], fontSize: about2["heading2-size"],
                           fontWeight: 'bold'
                         }}>{t('about2.about2Heading2')}</h2>

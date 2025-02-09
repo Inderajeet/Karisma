@@ -5655,6 +5655,7 @@ header .navbar > div > ul.nav > li.secondary-toggle-wrapper {
 }
 body .wp-block-columns.cus-footer-middle.is-layout-flex {
     align-items: normal;
+    justify-content: space-between;
 }
 .cus-footer-middle figure.wp-block-image {
     margin-bottom: 23px;
@@ -7848,7 +7849,7 @@ body.single .dd-container .dd-row:not(:last-child) {
     padding: 0px 50px;
 }
 .single.single-cea-team .row.team {
-    padding: 50px 50px;
+    /* padding: 50px 50px; */
 }
 .team-style-classic-pro.team-normal-model .team-inner .team-designation {
     padding: 5px 10px;

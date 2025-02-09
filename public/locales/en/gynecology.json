@@ -94,43 +94,43 @@
         },
         "related_services": [
             {
-                "title": "Bikini Whitening & Rejuvenation",
-                "link": "/",
+                "name": "Bikini Whitening & Rejuvenation",
+                "link": "gynecology/bikini-whitening-rejuvenation",
                 "image": "https://damasmc.com/uploads/services/service_image9e83179c92b6cae4ddf3fdc1abd8998a8fb3aa4e.jpg"
             },
             {
-                "title": "Bikini Tightening - Belladona",
-                "link": "/",
+                "name": "Bikini Tightening - Belladona",
+                "link": "gynecology/bikini-tightening-belladona",
                 "image": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
             },
             {
-                "title": " Plasma Injection",
-                "link": "/",
+                "name": " Plasma Injection",
+                "link": "gynecology/plasma-injection",
                 "image": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
             },
             {
-                "title": " Gynecological filler",
-                "link": "/",
+                "name": " Gynecological filler",
+                "link": "gynecology/gynecological-filler",
                 "image": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
             },
             {
-                "title": " Vaginal Botox",
-                "link": "/",
+                "name": " Vaginal Botox",
+                "link": "gynecology/vaginal-botox",
                 "image": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
             },
             {
-                "title": " Cosmetic Minor Surgeries",
-                "link": "/",
+                "name": " Cosmetic Minor Surgeries",
+                "link": "gynecology/cosmetic-minor-surgeries",
                 "image": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
             },
             {
-                "title": " Aesthetic Gynecology",
-                "link": "/",
+                "name": " Aesthetic Gynecology",
+                "link": "gynecology/aesthetic-gynecology",
                 "image": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
             },
             {
-                "title": " Medical Gynecology / Obstetric",
-                "link": "/",
+                "name": " Medical Gynecology / Obstetric",
+                "link": "gynecology/obstetric",
                 "image": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
             }
         ]
