@@ -12,7 +12,7 @@ const Blog = (props) => {
 
         {/* Blog Content */}
         <div className="blog-content">
-          <h2 className="blog-title">{props.blogTitle}</h2>
+          <h2 className="title blog-title">{props.blogTitle}</h2>
           <p className="blog-description">{props.blogDesc}</p>
 
           {/* Additional Content */}

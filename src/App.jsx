@@ -64,6 +64,11 @@ import DermaFiller from './pages/departments/dermaFiller';
 import BodyFiller from './pages/departments/bodyFiller';
 import SlimmingRelatedServices from './departments/slimming/SlimmingRelatedServices';
 import TreatmentImages from './departments/service templates/TreatmentImages';
+import SkincareGp from './pages/departments/skinCare';
+import Derma from './pages/departments/derma';
+import CosmeticThreads from './pages/departments/cosmeticThreads';
+import Botox from './pages/departments/botox';
+import Rejuvenation from './pages/departments/rejuvenation';
 
 
 Modal.setAppElement('#root'); // For accessibility
@@ -110,7 +115,7 @@ function LanguageWrapper() {
           <Route path="checkout" element={<Checkout />} />
           <Route path="/doctor/:doctorName" element={<DoctorPage />} />
           {/* <Route path="doctor-1" element={<Doctor1 />} /> */}
-          <Route path="skincare" element={<Skincare />} />
+          {/* <Route path="skincare" element={<Skincare />} /> */}
           <Route path="service/hydra-facial" element={<HydraFacial />} />
           <Route path="dept/dental" element={<Dept />} />
           <Route path="/dental" element={<Dental />} />
@@ -135,8 +140,13 @@ function LanguageWrapper() {
           <Route path="/laser-hair/candela" element={<Candela />} />
           <Route path="/laser-hair/revlite" element={<Revlite />} />
           <Route path="/laser-hair/elite" element={<Elite />} />
+          <Route path="/derma" element={<Derma />} />
           <Route path="/derma/derma-filler" element={<DermaFiller />} />
           <Route path="/derma/body-filler" element={<BodyFiller />} />
+          <Route path="/skincare" element={<SkincareGp />} />
+          <Route path="/derma/cosmetic-threads" element={<CosmeticThreads />} />
+          <Route path="/derma/botox" element={<Botox />} />
+          <Route path="/derma/rejuvenation" element={<Rejuvenation />} />
         </Routes>
       </CartProvider>
       <Footer />

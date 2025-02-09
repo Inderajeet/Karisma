@@ -1,5 +1,88 @@
 {
     "derma": {
+        "general_page": {
+            "bannerImg": "../public/assets/Images/blog/blog/derma.png",
+            "blog1": {
+                "title": "Radiate Confidence",
+                "description": "At Karisma Specialist Medical Center, we redefine beauty as a deeply personal journey. With over 16 years of expertise, our elite cosmetic dermatology team has guided countless individuals toward their most radiant selves.",
+                "blogImg": "../public/assets/Images/department/derma.png"
+            },
+            "paras": [
+                {
+                    "title": "Expertise Meets Elegance",
+                    "description": "Our board-certified dermatologists craft personalized treatment plans, blending artistry with precision to meet your unique aesthetic goals. ",
+                    "subcategories": [
+                        {
+                            "name": "Filler Perfection",
+                            "description": "Sculpt, smooth, and rejuvenate with dermal fillers designed to restore youthful volume and contour. "
+                        },
+                        {
+                            "name": "Anti-Aging Treatments Brilliance",
+                            "description": "Gently soften fine lines and wrinkles for a refreshed, natural look."
+                        },
+                        {
+                            "name": "Timeless Threads",
+                            "description": "Lift, tighten, and redefine with advanced cosmetic threads ideal for skin rejuvenation, hair loss solutions, and body contouring."
+                        },
+                        {
+                            "name": "Glow-Boosting Injections",
+                            "description": "Revitalize your skin with treatments that enhance texture, tone, and radiance. Experience tailored care and transformative results that celebrate your unique beauty. "
+                        }
+                    ]
+                },
+                {
+                    "title": "Confidence, Tailored to You",
+                    "description": "At Karisma Specialist Medical Center, we understand that confidence is deeply personal. Our personalized approach ensures each client receives a personalized treatment plan that celebrates and enhances their natural beauty, inside and out. "
+                },
+                {
+                    "title": "Beauty Beyond Aesthetics",
+                    "description": "We don’t just transform appearances; we empower you to embrace your uniqueness and achieve your goals with unwavering confidence. With state-of-the-art facilities and a passionate team, we’re dedicated to providing the highest standard of care for a truly transformative experience."
+                }
+            ],
+            "para_sec1": {
+                "title": [
+                    "Begin your journey to self-discovery and radiant beauty today. Schedule your consultation with Karisma Specialist Medical Center."
+                ]
+            },
+            "related_services": [
+                {
+                    "title": "Dermal Fillers",
+                    "link": "/",
+                    "image": "https://damasmc.com/uploads/services/service_image9e83179c92b6cae4ddf3fdc1abd8998a8fb3aa4e.jpg"
+                },
+                {
+                    "title": "Anti-Aging Treatments",
+                    "link": "/",
+                    "image": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
+                },
+                {
+                    "title": "Cosmetic Threads ",
+                    "link": "/",
+                    "image": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
+                },
+                {
+                    "title": "Rejuvenation Injection",
+                    "link": "/",
+                    "image": "https://damasmc.com/uploads/services/service_image9e83179c92b6cae4ddf3fdc1abd8998a8fb3aa4e.jpg"
+                }
+            ],
+            "doctors": {
+                "title": "Our Doctors",
+                "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+                "doctors": [
+                    {
+                        "name": "Dr. Amelia Thompson",
+                        "position": "Board Certified Dermatologist",
+                        "image": "https://damasmc.com/uploads/doctors/doctor_image9816285470117c65a6433383783b1799f9c82c19.jpg"
+                    },
+                    {
+                        "name": "Dr. Samantha Baker",
+                        "position": "Board Certified Dermatologist",
+                        "image": "https://damasmc.com/uploads/doctors/doctor_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
+                    }
+                ]
+            }
+        },
         "derma_filler": {
             "bannerImg": "https://damasmc.com/uploads/departments/banner_image8f1b344eb89a29a62ec7afeec55d3faf9c113568.jpg",
             "blog1": {
@@ -270,6 +353,764 @@
                 "title": "Schedule a Consultation Today!",
                 "description": [
                     "Unlock your radiance and achieve a youthful, refreshed look with Karisma Specialist Medical Center. Contact us to schedule your consultation and let us guide you through the world of dermal fillers to enhance your natural beauty!"
+                ]
+            }
+        },
+        "botox": {
+            "bannerImg": "https://damasmc.com/uploads/departments/banner_image6179695776763391231.jpg",
+            "blog1": {
+                "title": "Botox",
+                "description": " The Versatility Beyond Wrinkles at Karisma Specialist Medical Center",
+                "content": [
+                    "More Than Just Wrinkle Reduction",
+                    " Botox, or botulinum toxin type A, is a purified protein with a powerful function:",
+                    "Function",
+                    " Botox works by temporarily blocking the signals between nerves and muscles, causing relaxation in the targeted area."
+                ],
+                "blogImg": "https://damasmc.com/uploads/departments/department_imagecaa35a6864c945534d3f8caa4ad77c35b95d01e9.png"
+            },
+            "para_sec5": {
+                "title": "Diverse Medical Applications",
+                "description": [
+                    "While Botox is known for its cosmetic benefits, its versatility extends to various medical indications:"
+                ]
+            },
+            "point_blog1": {
+                "title": "Wrinkle Reduction",
+                "description": "Relaxes facial and neck muscles that contribute to wrinkles and fine lines, promoting a smoother appearance. (Duration: 3-6 months).",
+                "benefits": [
+                    {
+                        "title": "Forehead Wrinkles",
+                        "description": "Soften frown lines and horizontal forehead wrinkles for a relaxed look."
+                    },
+                    {
+                        "title": "Brighter Eyes",
+                        "description": "Lift the brow area to create the illusion of more youthful, open eyes"
+                    },
+                    {
+                        "title": "Frown Lines",
+                        "description": "Minimize deep lines between the brows for a less severe expression."
+                    },
+                    {
+                        "title": "Smile Lines",
+                        "description": "Soften lines around the mouth for a more youthful look."
+                    },
+                    {
+                        "title": "Crow's Feet",
+                        "description": "Smooth outlines around the eyes for a brighter, youthful appearance"
+                    },
+                    {
+                        "title": "Brow Lift",
+                        "description": "Subtly lift the brows to open up the eye area for a youthful look."
+                    },
+                    {
+                        "title": "Enhanced Lip Shape",
+                        "description": "Achieve a subtle 'cupids bow' effect on theupper lip."
+                    },
+                    {
+                        "title": "Lip Lines",
+                        "description": "Relax vertical lines above the upper lip for smoother, plumper lips."
+                    },
+                    {
+                        "title": "Preventive Care",
+                        "description": "Botox can be used preventatively to minimize future wrinkle formation."
+                    }
+                ]
+            },
+            "paras1": [
+                {
+                    "title": "Achieving a Balanced and Refreshed Look",
+                    "description": "Botox offers additional benefits for overall facial rejuvenation:",
+                    "subcategories": [
+                        {
+                            "name": "Significant Reduction of Jaw Clenching",
+                            "description": "Botox helps relax jaw muscles, alleviating teeth grinding and offering a more relaxed jawline appearance."
+                        },
+                        {
+                            "name": "Minimized Gummy Smile",
+                            "description": "Botox can relax the muscle that lifts the upper lip, reducing the visibility of gum tissue when you smile."
+                        },
+                        {
+                            "name": "Chronic Migraines",
+                            "description": "Botox can block pain signals associated with migraines, reducing headache frequency and intensity. (Duration: 3-6 months)"
+                        },
+                        {
+                            "name": "Hyperhidrosis (Excessive Sweating)",
+                            "description": "Botox inhibits sweat gland activity, offering relief from excessive sweating in areas like the underarms, hands, and face. (Duration: 6-12 months)"
+                        },
+                        {
+                            "name": "TMJ Dysfunction",
+                            "description": "Botox reduces muscle tension in the jaw, alleviating pain and discomfort related to temporomandibular joint dysfunction. (Duration: 3-6 months)"
+                        },
+                        {
+                            "name": "Muscle Spasms",
+                            "description": "Botox helps to relax muscles that are too active, offering relief from issues such as cervical dystonia (spasms in the neck), blepharospasm (twitching of the eyelids), and hemifacial spasm (twitching of the face). (Lasts for 3-6 months)"
+                        }
+                    ]
+                }
+            ],
+            "para_sec1": {
+                "title": "Experience The Vibrant Version of Yourself with Botox.",
+                "description": [
+                    "Botox is a powerful tool for achieving a smoother, brighter, and more youthful appearance across your face and body. Whether you're looking to target fine lines, reduce excessive sweating, or relieve muscle tension, Botox can enhance your natural beauty and well-being."
+                ]
+            },
+            "para_sec2": {
+                "title": " Vital Information Regarding Botox Injections at Karisma Specialist Medical Center",
+                "description": [
+                    "At Karisma Specialist Medical Center, ensuring your safety and achieving the best possible outcomes are our highest priorities. To ensure a successful and smooth experience, we’ve compiled the essential precautions, contraindications, and aftercare instructions for Botox treatments."
+                ]
+            },
+            "paras2": [
+                {
+                    "title": "Botox Aftercare Instructions",
+                    "description": "To ensure the best results and minimize risks, please follow these aftercare instructions:",
+                    "subcategories": [
+                        {
+                            "name": "Maintain An Upright Posture",
+                            "description": "Maintain an upright posture for at least 3-4 hours after your Botox injection to allow optimal distribution of the product. Avoid strenuous exercise during this time."
+                        },
+                        {
+                            "name": "Minimize Sun Exposure Time",
+                            "description": "For 24 hours after your injection, avoid direct sunlight or extreme heat to reduce the risk of swelling or redness."
+                        },
+                        {
+                            "name": "Minimize Touching Treated Area",
+                            "description": "Refrain from touching, massaging, or applying pressure to the treated areas for at least 8 hours to avoid disrupting the Botox."
+                        },
+                        {
+                            "name": "Smoking Cessation",
+                            "description": "For optimal results, we strongly advise avoiding smoking for at least 2 weeks after your Botox injection."
+                        }
+                    ]
+                },
+                {
+                    "title": "Contraindications for Botox Treatment",
+                    "description": "Botox may not be suitable for individuals with the following conditions:",
+                    "subcategories": [
+                        {
+                            "name": "Pregnancy",
+                            "description": "Botox is prohibited during pregnancy due to the potential risks of the substance getting transferred to the baby."
+                        },
+                        {
+                            "name": "Breastfeeding",
+                            "description": "Botox is not recommended for breastfeeding women within the first 6 months after birth. If breastfeeding is necessary, a waiting period of 2 hours is advised."
+                        },
+                        {
+                            "name": "Muscular Diseases and MS",
+                            "description": "Botox may interfere with certain muscle disorders and multiple sclerosis (MS), and should be avoided in such cases."
+                        },
+                        {
+                            "name": "Active Skin Infection or Dermatitis",
+                            "description": "Do not receive Botox treatment if you have an infection or inflammation at the injection site."
+                        }
+                    ]
+                }
+            ],
+            "para_sec3": {
+                "title": [
+                    "Westrongly advise you to inform your dermatologist if any of these conditions apply to you in order to ensure your safety and well-being."
+                ]
+            },
+            "paras3": [
+                {
+                    "title": "Prior to Your Botox Injection",
+                    "description": "Guidelines to ensure a smooth and effective Botox experience:",
+                    "subcategories": [
+                        {
+                            "name": "Compatible Pre-treatments",
+                            "description": "Skin cleansing procedures are generally safe before Botox injections, but please discuss any other treatments with your dermatologist."
+                        },
+                        {
+                            "name": "Wait Time for Certain Treatments",
+                            "description": "After Botox injections, wait for about three weeks before undergoing mesotherapy, laser hair removal, bleaching, or peeling procedures."
+                        },
+                        {
+                            "name": "Planning Your Treatment Schedule",
+                            "description": "Same-day compatibility of Botox with other treatments like plasma rejuvenation and fillers depends on individual goals and will be discussed with your dermatologist."
+                        }
+                    ]
+                },
+                {
+                    "title": "Securing a Safe and Effective Botox Experience",
+                    "description": "At Karisma Specialist Medical Center, we take every measure to provide a safe, effective, and personalized Botox experience:",
+                    "subcategories": [
+                        {
+                            "name": "Expert Consultation",
+                            "description": "Our board-certified professionals will evaluate your medical history and assess whether Botox is the right treatment for you."
+                        },
+                        {
+                            "name": "Personalized Treatment Plans",
+                            "description": "We customize Botox treatments to your unique needs, ensuring your desired outcome is achieved."
+                        },
+                        {
+                            "name": "Safe and Effective",
+                            "description": "We utilize premium Botox products along with cutting-edge techniques to ensure optimal results while reducing risks. Your safety and satisfaction are our top priorities."
+                        }
+                    ]
+                }
+            ],
+            "para_sec4": {
+                "title": "Unlock a More Youthful You with Botox Today With Karisma Specialist Medical Center!",
+                "description": [
+                    "Botox offers a non-surgical solution for a smoother, brighter, and more youthful appearance. Schedule a consultation with our Botox specialists today to learn more about howthis treatment can enhance your natural beauty. We’ll discuss your goals, answer your questions, and create a personalized treatment plan to help you achieve your desired look."
+                ]
+            },
+            "doctors": {
+                "title": "Meet Our Specialists",
+                "cards": {
+                    "background-color": "#f9f9f9",
+                    "heading-color": "#577065",
+                    "heading-size": "24px",
+                    "desc-color": "#5C4033",
+                    "desc-size": "16px",
+                    "button-text-color": "#577065",
+                    "button-text-size": "16px"
+                },
+                "doctors": [
+                    {
+                        "name": "Dr. Manar MagdyKhalil Osman",
+                        "designation": "Dermatology Specialist",
+                        "image": "/assets/Images/home/Doctors.png",
+                        "link": "dr-huda-ebrahim-shaheen"
+                    },
+                    {
+                        "name": "",
+                        "designation": "Dermatology Specialist",
+                        "image": "https://damasmc.com/uploads/doctors/doctor_image9816285470117c65a6433383783b1799f9c82c19.jpg"
+                    },
+                    {
+                        "name": "",
+                        "designation": "Dermatology Specialist",
+                        "image": "https://damasmc.com/uploads/doctors/doctor_image9816285470117c65a6433383783b1799f9c82c19.jpg"
+                    }
+                ]
+            }
+        },
+        "cosmetic_threads": {
+            "bannerImg": "../public/assets/Images/blog/blog/derma.png",
+            "blog1": {
+                "title": "Cosmetic Threads At Karisma Specialist Medical Center",
+                "description": "Uncover Your Natural Beauty with Advanced Non-Surgical Thread Lifts at Karisma Specialist Medical Center.",
+                "content": [
+                    "What are Non-Surgical Threads",
+                    " Dissolvable sutures made from bio compatible substances like Polydioxanone (PDO) are known as non-surgical threads. These threads are purposely placed in specific locations on the face, scalp, or body to accomplish a range of aesthetic objectives"
+                ],
+                "blogImg": "../public/assets/Images/department/derma.png"
+            },
+            "paras": [
+                {
+                    "title": "What are the Functions of Cosmetic Threads?",
+                    "description": "Cosmetic Threads provides lifting, tightening, and volumizing effects, and stimulates collagen production for longer-lasting results.  At Karisma Specialist Medical Center, we offer advanced cosmetic thread procedures that are minimally invasive, delivering facial rejuvenation, scar reduction, and tummy tightening for a more youthful appearance.",
+                    "subcategories": [
+                        {
+                            "title": "Trusted Professionals, You Can Count On",
+                            "description": "Our board-certified dermatologists are experts in the latest thread lift techniques. We take a personalized approach to ensure every treatment is designed to enhance your unique features."
+                        },
+                        {
+                            "title": "Advanced Techniques and Safety",
+                            "description": "We use the latest thread lift techniques and premium materials to provide optimal, long-lasting results while ensuring your safety and comfort."
+                        },
+                        {
+                            "title": "Personalized Treatment Plans",
+                            "description": "We understand your aesthetic goals and work closely with you to create a tailored plan to achieve your desired smoother, more youthful appearance."
+                        }
+                    ]
+                },
+                {
+                    "title": "What are Cosmetic Threads Used For?",
+                    "description": "At Karisma Specialist Medical Center, cosmetic threads have various uses. Discover our diverse range of thread lift solutions tailored to meet your unique concerns:",
+                    "subcategories": [
+                        {
+                            "name": "Face",
+                            "description": "Transform and rejuvenate your facial features with methods aimed at achieving striking cat eyes or graceful fox eyes. Our techniques successfully elevate and contour the eye region for a more youthful and captivating appearance."
+                        },
+                        {
+                            "name": "Hair",
+                            "description": "Stimulate hair follicles for thicker and healthier hair, achieving a fuller and more voluminous appearance with our innovative thread techniques."
+                        },
+                        {
+                            "name": "Tummy",
+                            "description": "Achieve a firmer and tighter abdominal area with our non-surgical tummy thread procedures, reducing saggy skin for a smoother, more toned appearance."
+                        }
+                    ]
+                },
+                {
+                    "title": "Transformative Results with PDO Lifting Threads",
+                    "description": "PDO lifting threads are a versatile solution for addressing various skin concerns.",
+                    "subcategories": [
+                        {
+                            "name": "Types of PDO Lifting Threads",
+                            "description": "We offer Mono and Screw PDO threads to target sagging skin, wrinkles, volume loss, and acne scars."
+                        }
+                    ]
+                },
+                {
+                    "title": "What are PDO Lifting Threads Used For?",
+                    "subcategories": [
+                        {
+                            "name": "Immediate Rejuvenation",
+                            "description": "Achieve remarkable results with minimal discomfort and the convenience of no lengthy recovery time."
+                        },
+                        {
+                            "name": "Long-Lasting Effects",
+                            "description": "PDO lifting threads provide lasting results, typically lasting between 12 and 18 months, with sessions recommended every 3 to 4 months."
+                        },
+                        {
+                            "name": "Turn Back Time in 20 Minutes",
+                            "description": "Each session lasts approximately 20 minutes and requires only local anesthesia."
+                        },
+                        {
+                            "name": "Minimal Side Effects and Recovery",
+                            "description": "Enjoy a safe, effective treatment with minimal downtime."
+                        }
+                    ]
+                },
+                {
+                    "title": "Transform into a Smoother You with PDO Lifting Threads",
+                    "subcategories": [
+                        {
+                            "name": "Firmer and Lifted Skin",
+                            "description": "PDO threads tighten sagging skin on the face, chin, neck, and abdomen."
+                        },
+                        {
+                            "name": "Reduced Wrinkles and Scars",
+                            "description": "Minimize wrinkles, fine lines, and deep acne scars for a smoother complexion."
+                        },
+                        {
+                            "name": "Radiant and Youthful Appearance",
+                            "description": "Enhance your skin texture and elasticity, giving you a refreshed, vibrant look."
+                        }
+                    ]
+                }
+            ],
+            "para_sec1": {
+                "title": "Discover the Power of PDO Lifting Threads at Karisma Specialist Medical Center",
+                "description": [
+                    "Schedule your consultation today to explore the transformative benefits of PDO lifting threads and reveal a smoother, more youthful complexion!"
+                ]
+            },
+            "para_sec2": {
+                "title": "Experience the Revolutionary Benefits of Non-Surgical Thread Lifts at Karisma Specialist Medical Center!",
+                "content": [
+                    {
+                        "title": "PDO Tummy Threads",
+                        "description": [
+                            " Achieve your desired athletic look in minutes, a more toned abdomen with our PDO Tummy Thread procedures, a non-surgical solution for lifting and tightening the skin."
+                        ]
+                    },
+                    {
+                        "title": "Turn Back the Clock with Karisma’s Single Needle Threads",
+                        "description": [
+                            "Single needle threads provide a non-surgical solution for lifting and rejuvenating various areas of the face, offering a comprehensive approach to facial rejuvenation."
+                        ]
+                    }
+                ]
+            },
+            "para_sec3": {
+                "title": "Unveil Smoother Skin: Subcision for Deep ScarReduction at Karisma",
+                "description": [
+                    " At Karisma Specialist Medical Center, we understand the impact deep scars can have on your confidence. Subcision offers a minimally invasive treatment for addressing eep and concave scars, particularly those from acne and wounds. Cause memories lace are in your brain not on your body."
+                ]
+            },
+            "paras1": [
+                {
+                    "title": "Revitalize Your Face with Single Needle Threads: A Definitive Rejuvenation",
+                    "description": " Single needle threads offer a targeted solution for lifting and rejuvenating various facial areas:",
+                    "subcategories": [
+                        {
+                            "name": "Targeted Areas",
+                            "description": "Treat the face, neck, nose, cheeks, and smile lines for a comprehensive rejuvenation effect."
+                        },
+                        {
+                            "name": "Customized Lifting",
+                            "description": "Our skilled dermatologists use threads of varying lengths and sizes to achieve stunning Cat or elegant Fox eye lifts."
+                        }
+                    ],
+                    "benefits_title": "Benefits of Single Needle Threads",
+                    "benefits": [
+                        "Comprehensive facial lifting for a youthful appearance",
+                        "Enhanced facial contours",
+                        "Captivating eye lifts",
+                        "Comfortable procedures with local anesthesia",
+                        "Long-lasting results tailored to your unique skin"
+                    ]
+                }
+            ],
+            "paras2": [
+                {
+                    "title": "Treatment Considerations",
+                    "subcategories": [
+                        {
+                            "name": "Multiple Sessions",
+                            "description": "Depending on the severity of your scars, 2-3 sessions spaced two weeks apart may be recommended by your doctor."
+                        },
+                        {
+                            "name": "Recovery and Aftercare",
+                            "description": "Swelling and redness are common after treatment. Sun exposure should be avoided for two weeks following each session."
+                        }
+                    ]
+                },
+                {
+                    "title": "Embrace a Flawless Complexion with Subcision at Karisma",
+                    "description": "Subcision can transform your skin, reducing deep scars and unveiling a smoother, scar-free complexion. Our experienced dermatologists will assess your individual needs to determine if subcision is the ideal treatment for you. We offer personalized treatment plans and combine subcision with other modalities to optimize results.",
+                    "subcategories": [
+                        {
+                            "name": "What is Subcision?",
+                            "description": "Subcision uses a fine needle to target the underlying cause of deep scars."
+                        },
+                        {
+                            "name": "How Does Subcision Work?",
+                            "description": "The procedure severs the fibrous tissue that tethers scars to deeper layers of skin. This allows the skin to regenerate and fill the scar space, resulting in a smoother, more even appearance."
+                        }
+                    ]
+                },
+                {
+                    "title": "The Benefits of Subcision for Scar Reduction",
+                    "subcategories": [
+                        {
+                            "name": "Visible Results",
+                            "description": "Improvements may be visible after the first session, especially when paired with other scar-reducing treatments."
+                        },
+                        {
+                            "name": "Quick and Safe",
+                            "description": "Performed under local anesthesia, subcision is a safe, well-tolerated, and minimally invasive procedure."
+                        },
+                        {
+                            "name": "Effective for Deep Scars",
+                            "description": "Particularly beneficial for scars that don't respond to topical treatments."
+                        },
+                        {
+                            "name": "Enhanced Results",
+                            "description": "Subcision works even better when combined with therapies like plasma, mesotherapy, microneedling, or fractional lasers."
+                        }
+                    ]
+                },
+                {
+                    "title": "Treatment Considerations",
+                    "subcategories": [
+                        {
+                            "name": "Multiple Sessions to Be Scar-Free!",
+                            "description": "2-3 sessions spaced two weeks apart for optimal results."
+                        },
+                        {
+                            "name": "Recovery",
+                            "description": "Expect some swelling and redness, and avoid sun exposure for two weeks after each session."
+                        }
+                    ]
+                }
+            ],
+            "para_sec4": {
+                "title": "Achieve Radiant, Scar-Free Skin at Karisma",
+                "description": [
+                    " Contact Karisma Specialist Medical Center today to schedule your consultation and discover how subcision can help you achieve smoother, more confident skin. Let us help you feel your best!"
+                ]
+            },
+            "para_sec5": {
+                "title": "Our Doctors",
+                "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+                "doctors": [
+                    {
+                        "name": "Dr. Manar MagdyKhalil Osman",
+                        "position": "Dermatology Specialist",
+                        "image": "https://damasmc.com/uploads/doctors/doctor_image9816285470117c65a6433383783b1799f9c82c19.jpg"
+                    },
+                    {
+                        "name": "",
+                        "position": "Dermatology Specialist",
+                        "image": "https://damasmc.com/uploads/doctors/doctor_image9816285470117c65a6433383783b1799f9c82c19.jpg"
+                    },
+                    {
+                        "name": "",
+                        "position": "Dermatology Specialist",
+                        "image": "https://damasmc.com/uploads/doctors/doctor_image9816285470117c65a6433383783b1799f9c82c19.jpg"
+                    }
+                ]
+            }
+        },
+        "rejuvenation": {
+            "bannerImg": "../public/assets/Images/blog/blog/derma.png",
+            "blog1": {
+                "title": "Radiant Skin Awaits",
+                "description": "Karisma Specialist Medical Center supports your path to a more youthful and refreshed appearance. Our non-invasive skin rejuvenation injections provide a flexible method for attaining smoother, brighter, and more youthful skin.",
+                "blogImg": "../public/assets/Images/department/derma.png"
+            },
+            "paras": [
+                {
+                    "title": "Unlock the Benefits of Non-Surgical Skin Rejuvenation Injections",
+                    "subcategories": [
+                        {
+                            "name": "What Are Non-Surgical Skin Rejuvenation Injections?",
+                            "description": "Non-surgical skin rejuvenation injections, featuring a diverse array of effective injectable solutions specifically crafted to combat the visible signs of aging and promote healthier, more radiant skin all without the need for invasive procedures."
+                        }
+                    ]
+                },
+                {
+                    "title": "Skin Lifting Solutions",
+                    "subcategories": [
+                        {
+                            "name": "Experience the Transformation to Youthful Firmness",
+                            "description": "Address sagging skin using focused injections that encourage a more lifted and youthful look."
+                        },
+                        {
+                            "name": "Enhance Facial Contours",
+                            "description": "Transform and elevate your facial contours for a beautifully sculpted and youthful look."
+                        },
+                        {
+                            "name": "Boost Skin Elasticity",
+                            "description": "Boost your skin’s elasticity to effectively diminish the look of fine lines and wrinkles, resulting in a smooth and more luminous complexion that radiates beauty."
+                        }
+                    ]
+                },
+                {
+                    "title": "Skin Whitening Solutions",
+                    "subcategories": [
+                        {
+                            "name": "Revitalize Your Radiance",
+                            "description": "Transform your skin's appearance and achieve a luminous, even tone with powerful treatments that effectively target hyper pigmentation and dark spots."
+                        }
+                    ]
+                }
+            ],
+            "para1": {
+                "title": "Revitalize Your Skin: Non-Invasive Rejuvenation Techniques",
+                "sections": [
+                    {
+                        "name": "Achieve Flawless Complexion",
+                        "description": "Say goodbye to uneven skin tone and hello to a radiant appearance. Our targeted treatments address the following:",
+                        "points": [
+                            "Discoloration and blemishes",
+                            "Flawless skin"
+                        ],
+                        "extra": "Experience a transformation as your natural glow is restored, revealing a more vibrant and youthful you."
+                    },
+                    {
+                        "name": "Sculpt and Enhance with a Natural Look",
+                        "description": "Rediscover your skin's youthful contours with our volume-enhancing solutions:",
+                        "points": [
+                            "Plumping up your skin by restoring fullness to hollow areas",
+                            "Improve your skin texture, smooth out wrinkles and fine lines"
+                        ],
+                        "extra": "Our injectable treatments offer a non-surgical path to a more sculpted, youthful appearance."
+                    },
+                    {
+                        "name": "Tailored Solutions for Every Skin Concern",
+                        "subcategories": [
+                            {
+                                "name": "Wrinkle Reduction",
+                                "description": "Soften the appearance of fine lines and wrinkles with our advanced skin boosters and bio-stimulatory injections."
+                            },
+                            {
+                                "name": "Even Out Skin Tone",
+                                "description": "Combat hyperpigmentation and achieve a more uniform complexion with our specialized treatments."
+                            },
+                            {
+                                "name": "Hydration and Firmness",
+                                "description": "Revitalize your skin from within:",
+                                "points": [
+                                    "Deep hydration for a plump, healthy look",
+                                    "Collagen stimulation for improved elasticity and firmness"
+                                ]
+                            },
+                            {
+                                "name": "Sun Damage",
+                                "description": "Discover the power of antioxidant-rich skin boosters to combat visible sun damage and achieve healthier, more even-toned skin."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "para_sec1": {
+                "title": "Unlocking Youthful Skin: A Guide to Non-Surgical Rejuvenation",
+                "point_blog1": {
+                    "title": "The Power of Injectable Treatments",
+                    "description": "Achieve a remarkable change in your skin without needing surgery. Our injectable treatments provide:",
+                    "benefits": [
+                        {
+                            "title": "Gentle Approach",
+                            "description": "Enjoy beauty enhancement with minimal recovery time."
+                        },
+                        {
+                            "title": "Precision Care",
+                            "description": "Tailored treatments addressing your unique skin concerns."
+                        },
+                        {
+                            "title": "Authentic Enhancement",
+                            "description": "Subtle improvements that complement your natural beauty."
+                        },
+                        {
+                            "title": "Safety First",
+                            "description": "Lower complication rates compared to surgical options."
+                        },
+                        {
+                            "title": "Enduring Results",
+                            "description": "Enjoy improvements lasting months, varying by treatment and skin type."
+                        }
+                    ]
+                }
+            },
+            "paras2": [
+                {
+                    "name": "Comprehensive Skin Solutions",
+                    "description": "Our injections target various concerns across different body areas:",
+                    "subcategories": [
+                        {
+                            "name": "Facial Rejuvenation",
+                            "description": "Combat fine lines, wrinkles, volume loss, and sun damage with hyaluronic acid fillers, skin boosters, and collagen-stimulating injections."
+                        },
+                        {
+                            "name": "Décolletage (Chest Area Revival)",
+                            "description": "Restore youthful texture to the décolletage, addressing crepey skin and fine lines."
+                        },
+                        {
+                            "name": "Scar Improvement",
+                            "description": "Minimize the appearance of acne scars, surgical marks, and stretch marks."
+                        },
+                        {
+                            "name": "Intimate Wellness",
+                            "description": "Karisma offers specialized gynecological treatments to enhance vulvar hydration, elasticity, and volume."
+                        }
+                    ]
+                }
+            ],
+            "point_blogs": [
+                {
+                    "title": "Treatment Zones for Optimal Enhancement",
+                    "description": "Our advanced treatments target multiple areas to rejuvenate and enhance your natural beauty:",
+                    "benefits": [
+                        {
+                            "title": "Face",
+                            "description": "From forehead to chin, including eye area and lips."
+                        },
+                        {
+                            "title": "Neck and Hands",
+                            "description": "Rejuvenate often-overlooked areas for a youthful appearance."
+                        },
+                        {
+                            "title": "Chest",
+                            "description": "Refresh your décolletage with specialized treatments."
+                        },
+                        {
+                            "title": "Buttocks",
+                            "description": "Enhance shape and texture for a firmer look."
+                        },
+                        {
+                            "title": "Scars",
+                            "description": "Targeted treatment based on location to minimize scar visibility."
+                        },
+                        {
+                            "title": "Intimate Areas",
+                            "description": "Vulvar rejuvenation performed by qualified specialists."
+                        }
+                    ]
+                },
+                {
+                    "title": "Long-Term Beauty Investment",
+                    "description": "Achieve lasting beauty with treatments designed for extended results:",
+                    "benefits": [
+                        {
+                            "title": "Hyaluronic Acid Fillers",
+                            "description": "Enjoy results for 6-18 months."
+                        },
+                        {
+                            "title": "Skin Boosters",
+                            "description": "Refresh every 3-6 months for ongoing radiance."
+                        },
+                        {
+                            "title": "Collagen-Stimulating Injections",
+                            "description": "Experience gradual improvement lasting a year or more."
+                        }
+                    ]
+                },
+                {
+                    "title": "Prioritizing Your Safety",
+                    "description": "We ensure a safe and effective experience by following strict safety guidelines:",
+                    "benefits": [
+                        {
+                            "title": "Full Health Disclosure",
+                            "description": "Inform us about any medical conditions or medications before treatment."
+                        },
+                        {
+                            "title": "Pregnancy and Breastfeeding",
+                            "description": "Postpone treatments during these periods for safety."
+                        },
+                        {
+                            "title": "Sun Protection",
+                            "description": "Shield your skin post-treatment to maintain optimal results."
+                        },
+                        {
+                            "title": "Post-Care",
+                            "description": "Avoid intense activities and touching treated areas immediately after injections."
+                        }
+                    ]
+                },
+                {
+                    "title": "Treatment Limitations",
+                    "description": "Our priority is your safety. We may not proceed with treatment if you have:",
+                    "benefits": [
+                        {
+                            "title": "Active Skin Infections or Acne",
+                            "description": "Treatments are not recommended at the injection site if infections are present."
+                        },
+                        {
+                            "title": "Autoimmune Conditions",
+                            "description": "Certain autoimmune diseases may affect treatment eligibility."
+                        },
+                        {
+                            "title": "Blood Thinners",
+                            "description": "If you take blood thinners, consult your doctor before discontinuation."
+                        },
+                        {
+                            "title": "Allergies",
+                            "description": "Ensure you are not sensitive to filler ingredients before proceeding."
+                        }
+                    ]
+                },
+                {
+                    "title": "Why Choose Karisma Specialist Medical Center?",
+                    "description": "We go beyond injections to provide personalized care and expertise:",
+                    "benefits": [
+                        {
+                            "title": "Expert Advice",
+                            "description": "Our board-certified dermatologists offer professional, tailored recommendations."
+                        },
+                        {
+                            "title": "Customized Treatment Plan",
+                            "description": "Every treatment is uniquely designed to match your specific needs."
+                        },
+                        {
+                            "title": "Latest Techniques and Safety",
+                            "description": "We use high-quality products and cutting-edge technologies for optimal results."
+                        }
+                    ]
+                }
+            ],
+            "para_sec2": {
+                "title": "Ready to Glow Up with Karisma Specialist Medical Center?",
+                "description": [
+                    "Imagine achieving softer, more luminous, and youthful skin without the need for surgery. Does that sound appealing? That's the essence of what we offer at Karisma.",
+                    "Ready to enhance your natural beauty? Call us now and book your consultation with our experts. Let’s discuss how our amazing injections can help you look and feel your best. Together, we’ll create something truly magical!"
+                ]
+            },
+            "para_sec5": {
+                "title": "Our Doctors",
+                "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+                "doctors": [
+                    {
+                        "name": "Dr. Manar MagdyKhalil Osman",
+                        "position": "Dermatology Specialist",
+                        "image": "https://damasmc.com/uploads/doctors/doctor_image9816285470117c65a6433383783b1799f9c82c19.jpg"
+                    },
+                    {
+                        "name": "",
+                        "position": "Dermatology Specialist",
+                        "image": "https://damasmc.com/uploads/doctors/doctor_image9816285470117c65a6433383783b1799f9c82c19.jpg"
+                    },
+                    {
+                        "name": "",
+                        "position": "Dermatology Specialist",
+                        "image": "https://damasmc.com/uploads/doctors/doctor_image9816285470117c65a6433383783b1799f9c82c19.jpg"
+                    }
                 ]
             }
         }

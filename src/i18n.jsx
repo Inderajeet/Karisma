@@ -10,7 +10,8 @@ i18n
   .init({
     fallbackLng: 'en', // Fallback language
     debug: true,
-    ns: ['translation','doctors','about','veneers','implant','orthodontics','mouthRehabilitation','rootCanal','pediatric','dentalSurgery','oralHealth','restorativeDentistry','gynecology','contact', 'services', 'gyneServices','slimming','laserHair','laserServices', 'skinCareServices', 'skinCareRelated', 'footerServices','slimmingRelated','derma'], 
+   
+    ns: ['translation','doctors','about','veneers','implant','orthodontics','mouthRehabilitation','rootCanal','pediatric','dentalSurgery','oralHealth','restorativeDentistry','gynecology','contact', 'services', 'gyneServices','slimming','laserHair','laserServices', 'skinCareServices', 'skinCareRelated', 'footerServices','slimmingRelated','derma','skinCare'], 
     defaultNS: 'translation', 
     backend: {
       loadPath: '/locales/{{lng}}/{{ns}}.json',

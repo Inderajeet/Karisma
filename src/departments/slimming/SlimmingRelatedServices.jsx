@@ -21,7 +21,7 @@ const SlimmingRelatedServices = () => {
         const servicesData = t('slimmingRelated:slimmingRelated', { returnObjects: true });
 
         // 🔹 Split the name from JSON: "facials/basic-hydraFacial" → ["facials", "basic-hydraFacial"]
-        const foundService = servicesData.find(service => {
+        const foundService = servicesData?.find(service => {
             const serviceParts = service.name.split("/");
             return serviceParts[0] === serviceName; // Match only the main service name
         });

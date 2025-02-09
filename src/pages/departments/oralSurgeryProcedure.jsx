@@ -14,8 +14,8 @@ const OralSurgeryProcedure = ({ procedures }) => {
               <p style={styles.description}>{sub.description}</p>
             </div>
           ))}
-          {procedures.benefits && (<div>
-            <h4 style={styles.benefitsTitle}>Key Benefits:</h4>
+          {procedure.benefits && (<div>
+            <h4 style={styles.benefitsTitle}>{procedure?.benefits_title || "Key Benefits:"}</h4>
           <ul style={styles.benefitsList}>
             {procedure?.benefits?.map((benefit, benIndex) => (
               <li key={benIndex} style={styles.benefitItem}>

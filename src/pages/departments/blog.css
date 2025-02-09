@@ -1,7 +1,7 @@
 .blog-body{
     padding: 100px;
     /* margin: 10px auto; */
-    background-color: #c4a988;
+    background-color: #D1BB9F;
 }
 .blog-container {
   display: flex; /* Create a horizontal layout */
@@ -40,7 +40,7 @@
 .blog-title {
   font-size: 24px;
   font-weight: bold;
-  color: #333;
+ 
   margin-bottom: 10px;
 }
 

@@ -44,7 +44,7 @@ const Slimming = () => {
     <div>
       <DeptBanner
         pageName="Slimming"
-        bannerImg={images.about.visionImg}
+        bannerImg={slimming?.bannerImg}
       ></DeptBanner>
       <Blog
         blogImg={data.blog1?.blogImg}

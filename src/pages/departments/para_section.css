@@ -1,7 +1,7 @@
 .para-body{
     padding: 30px;
     /* margin: 10px auto; */
-    background-color: #c4a988;
+    background-color: #D1BB9F;
 }
 .para-container {
     max-width: 1200px;
@@ -24,7 +24,6 @@
   .para-content {
     font-size: 16px;
     line-height: 1.8;
-    /* color: #555; */
   }
   
   .para-paragraph {
@@ -33,7 +32,7 @@
   }
   
   .para-paragraph:last-child {
-    margin-bottom: 0; /* Remove margin for the last paragraph */
+    margin-bottom: 0; 
   }
   
   /* Responsive Styling */

@@ -5,7 +5,7 @@ import { TiTick } from "react-icons/ti";
 const PointBlog = ({ title, description, benefits, description2,className,style,extraContent }) => {
   return (
     <div style={{...style}} className={`benefits-container ${className || ""}`}>
-      <h2 className="benefits-title">{title}</h2>
+      <h2 className="title benefits-title">{title}</h2>
       <p className="benefits-description">{description}</p>
       {description2 && (
         <div className="benefits-description">

@@ -1,5 +1,6 @@
 {
     "laserHair": {
+        "bannerImg": "../public/assets/Images/blog/blog/laser.png",
         "general_page": {
             "blog1": {
                 "title": "Laser Hair Removal at Karisma Specialist Medical Center",
@@ -8,7 +9,7 @@
                     "What is Laser Hair Removal ? ",
                     "Laser hair removal is a cutting-edge, non-invasive procedure that targets hair follicles using  focused light energy. By concentrating on the melanin in hair, the laser disables the follicle,  reducing future growth while leaving the surrounding skin untouched."
                 ],
-                "blogImg": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
+                "blogImg": "../public/assets/Images/department/laser.png"
             },
             "point_blog1": {
                 "title": "Benefits of Laser Hair Removal: ",
