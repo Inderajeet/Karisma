@@ -23,8 +23,6 @@ import PageLoader from './components/PageLoader';
 import Checkout from './components/Checkout';
 import OfferDetails from './components/OfferDetails';
 // import Doctor1 from './pages/doctors/doctor_1';
-import HydraFacial from './departments/skincare/facial/hydrafacial';
-import Skincare from './departments/skincare/SkinCare';
 import SampleHeader from './components/Sample';
 import Footer from './components/footer';
 import SampleHeader2 from './components/SampleHead';
@@ -62,6 +60,7 @@ import Revlite from './pages/departments/revlite';
 import Elite from './pages/departments/elite';
 import SlimmingRelatedServices from './departments/slimming/SlimmingRelatedServices';
 import TreatmentImages from './departments/service templates/TreatmentImages';
+import DermaRelatedServices from './departments/derma/DermaRelatedServices';
 
 
 Modal.setAppElement('#root'); // For accessibility
@@ -100,6 +99,7 @@ function LanguageWrapper() {
           <Route path="/skinCare/:serviceName" element={<SkinCareServices />} />
           <Route path="/skinCare/:serviceName/:subService" element={<SkinCareRelatedServices />} />
           <Route path="/slimming/:serviceName/:subService" element={<SlimmingRelatedServices />} />
+          <Route path="/derma/:serviceName/:subService" element={<DermaRelatedServices />} />
           <Route path="/:serviceName" element={<FooterServices />} />  
           <Route path="/treatments" element={<TreatmentImages />} />  
 
@@ -108,8 +108,6 @@ function LanguageWrapper() {
           <Route path="checkout" element={<Checkout />} />
           <Route path="/doctor/:doctorName" element={<DoctorPage />} />
           {/* <Route path="doctor-1" element={<Doctor1 />} /> */}
-          <Route path="skincare" element={<Skincare />} />
-          <Route path="service/hydra-facial" element={<HydraFacial />} />
           <Route path="dept/dental" element={<Dept />} />
           <Route path="/dental" element={<Dental />} />
           <Route path="/veneers" element={<Veneers />} />

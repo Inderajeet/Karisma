@@ -4,6 +4,7 @@ import ContactDetail from "../components/ContactDetail";
 import ContactForm from "../components/ContactForm";
 import HomeSlider from "../components/HomeSlider";
 import { useTranslation } from "react-i18next";
+import '../components/Home.css';
 
 
 export default function ContactPage() {

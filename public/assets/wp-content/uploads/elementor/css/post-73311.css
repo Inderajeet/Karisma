@@ -511,7 +511,7 @@
 @media(max-width:1024px) {
     .elementor-73311 .elementor-element.elementor-element-6859ace0 .section-title-wrapper .section-title {
         margin-bottom: 20px;
-        font-size: 40px;
+        font-size: 40px !important;
         line-height: 48px;
     }
 
@@ -599,7 +599,7 @@
 @media(max-width:767px) {
     .elementor-73311 .elementor-element.elementor-element-6859ace0 .section-title-wrapper .section-title {
         margin-bottom: 15px;
-        font-size: 30px;
+        font-size: 30px !important;
         line-height: 38px;
     }
 

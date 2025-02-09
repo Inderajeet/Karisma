@@ -28,7 +28,7 @@
 }
 
 @media (min-width: 1200px) {
-    .doctor-info-cols {
+    .service-info-cols {
         flex: 1 1 30%;
         /* 3 doctors per row for desktops */
         max-width: 30%;
@@ -44,7 +44,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-    .doctor-info-cols {
+    .service-info-cols {
         flex: 1 1 48%;
         /* 2 doctors per row for tablets */
         max-width: 48%;
@@ -64,7 +64,7 @@
 
 @media (max-width: 767px) {
 
-    .doctor-info-cols {
+    .service-info-cols {
         flex: 1 1 100%;
         /* Default: 1 doctor per row for mobile */
         max-width: 100%;
@@ -91,7 +91,7 @@
 
 
 
-.doctor-info-cols .doctor-info-inner {
+.service-info-cols .doctor-info-inner {
     margin-bottom: 0;
     /* margin: 0px 13px 22px 14px; */
 }

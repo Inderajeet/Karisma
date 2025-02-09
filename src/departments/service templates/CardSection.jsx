@@ -20,40 +20,36 @@ const renderFeature = (feature, index) => {
 
     // If feature is an object with title & items (nested list)
     else if (typeof feature === "object" && feature.title && Array.isArray(feature.items)) {
-        if (feature.title.includes(":")) {
-            const [key, value] = feature.title.split(/:(.+)/);
-            return (
-                <div key={index} className="featureItem">
-                    <strong>{key}</strong>: {value}
-                    <ul className="custom-list">
-                        {feature.items.map((item, subIndex) => (
-                            <p key={subIndex} className="custom-list-item">
-                                {typeof item === "string" ? item : renderFeature(item, subIndex)}
-                            </p>
-                        ))}
-                    </ul>
-                </div>
-            );
-        } else {
-            return (
-                <div key={index} className="featureItem">
-                    {feature.title}
-                    <ul className="custom-list">
-                        {feature.items.map((item, subIndex) => (
-                            <p key={subIndex} className="custom-list-item">
-                                {typeof item === "string" ? item : renderFeature(item, subIndex)}
-                            </p>
-                        ))}
-                    </ul>
-                </div>
-            );
-        }
+        const [key, value] = feature.title.includes(":") ? feature.title.split(/:(.+)/) : [feature.title, ""];
+
+        return (
+            <div key={index} className="featureItem">
+                <strong>{key}</strong>{value && `: ${value}`}
+                <ul className="custom-list">
+                    {feature.items.map((item, subIndex) => (
+                        <li key={subIndex} className="custom-list-item">
+                            {typeof item === "string" ? (
+                                item.includes(":") ? (
+                                    <>
+                                        <strong>{item.split(/:(.+)/)[0]}</strong>: {item.split(/:(.+)/)[1]}
+                                    </>
+                                ) : (
+                                    item
+                                )
+                            ) : (
+                                renderFeature(item, subIndex)
+                            )}
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        );
     }
 
     return null;
 };
 
-const CardSection = ({ title, subtitle, description, subtitle2, description2, features }) => {
+const CardSection = ({ title, subtitle, description, title2, subtitle2, description2, features }) => {
     return (
         <>
             <div className="custitem">
@@ -66,14 +62,15 @@ const CardSection = ({ title, subtitle, description, subtitle2, description2, fe
                     {description && <div className="description">{description}</div>}
                     
                     {/* Subtitle 2 and Description 2 */}
+                    {title2 && <div className="card_title">{title2}</div>}
                     {subtitle2 && <p className="subtitle">{subtitle2}</p>}
                     {description2 && <div className="description">{description2}</div>}
                     
                     {/* Features */}
                     {features && features.length > 0 && (
-                        <div className="featuresContainer">
+                        <p className="featuresContainer">
                             {features.map(renderFeature)}
-                        </div>
+                        </p>
                     )}
                 </div>
             </div>

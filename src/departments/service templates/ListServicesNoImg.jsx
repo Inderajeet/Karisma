@@ -21,7 +21,7 @@ export default function ListServicesNoImg({ services }) {
                     <div className="dd-row" style={{paddingTop:'10px'}}>
                       {services?.map((doctor) => (
                         <Link
-                          to={`/${i18n.language}/doctor/${encodeURIComponent(doctor.link)}`}
+                          to={`/${i18n.language}/${encodeURI(doctor.link)}`}
                           key={doctor.id}
                           className="doctor-info-cols"
                           style={{ cursor: "pointer" }}

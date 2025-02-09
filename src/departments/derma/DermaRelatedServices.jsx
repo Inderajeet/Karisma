@@ -12,14 +12,14 @@ import ListServices from "../service templates/ListServices";
 import BannerSkinCare from "../../components/BannerSkinCare";
 import HeaderTitle from "../service templates/HeaderTitle";
 
-const SkinCareRelatedServices = () => {
-    const { t, i18n } = useTranslation('skinCareRelated');
+const DermaRelatedServices = () => {
+    const { t, i18n } = useTranslation('dermaRelated');
     const { serviceName, subService } = useParams(); // Extract category & sub-service
 
     const [service, setService] = useState(null);
 
     useEffect(() => {
-        const servicesData = t('skinCareRelated:skinCareRelated', { returnObjects: true });
+        const servicesData = t('dermaRelated:dermaRelated', { returnObjects: true });
 
         const foundService = servicesData.find(service => service.name === `${serviceName}/${subService}`);
 
@@ -108,6 +108,7 @@ const SkinCareRelatedServices = () => {
                                             title={card.title}
                                             subtitle={card.subtitle}
                                             description={card.description}
+                                            title2={card.title2}
                                             subtitle2={card.subtitle2}
                                             description2={card.description2}
                                             features={card.features}
@@ -124,4 +125,4 @@ const SkinCareRelatedServices = () => {
     );
 };
 
-export default SkinCareRelatedServices;
+export default DermaRelatedServices;

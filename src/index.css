@@ -52,22 +52,31 @@ body[dir="ltr"] {
 }
 
 @font-face {
-  font-family: 'The Seasons';
-  src: url('../src/custom_css/fonts/seasons/Fontspring-DEMO-theseasons-lt.otf') format('truetype');
+  font-family: 'Seasons';
+  src: url('../src/custom_css/fonts/seasons/Fontspring-DEMO-theseasons-lt.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
+  font-family: 'FallbackFont';
+  src: local('Arial'), local('sans-serif');
+  unicode-range: U+00A0-FFFF; /* All special characters */
+}
+
+/* Apply fallback globally */
+h1, h2, h3, h4, h5, h6, p, span, li {
+  font-family: 'Seasons', 'FallbackFont', sans-serif !important;
+}
+
+
+@font-face {
   font-family: 'CabinetGrotesk';
-  src: url('../src/custom_css//fonts/cabinet-grotesk/CabinetGrotesk-Regular.otf') format('truetype');
+  src: url('../src/custom_css/fonts/cabinet-grotesk/CabinetGrotesk-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
-h1, h2, h3, h4, h5, h6, nav{
-  font-family: 'The Seasons' !important;
-}
 
 body, div, p,a,  li, span {
   font-family: 'CabinetGrotesk';
