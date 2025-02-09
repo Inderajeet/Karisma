@@ -29,27 +29,29 @@ const OralSurgeryProcedure = ({ procedures }) => {
   );
 };
 
-// Inline Styles
 const styles = {
   container: {
-    maxWidth: "1200px",
-    margin: "40px auto",
+    maxWidth: "1000px",
+    margin: "30px auto",
     padding: "20px",
-    // fontFamily: "Arial, sans-serif",
   },
   procedure: {
-    marginBottom: "40px",
+    marginBottom: "30px",
     padding: "20px",
     borderBottom: "1px solid #ddd",
   },
   title: {
-    fontSize: "28px",
+    fontSize: "26px",
     fontWeight: "bold",
-    // color: "#333",
-    marginBottom: "15px",
+    marginBottom: "10px",
+  },
+  mainDescription: {
+    fontSize: "18px",
+    lineHeight: "1.5",
+    marginBottom: "10px",
   },
   subcategory: {
-    marginBottom: "15px",
+    marginBottom: "10px",
   },
   subtitle: {
     fontSize: "20px",
@@ -59,13 +61,6 @@ const styles = {
   description: {
     fontSize: "16px",
     lineHeight: "1.6",
-    // color: "#555",
-    marginBottom: "10px",
-  },
-  mainDescription: {
-    fontSize: "26px",
-    lineHeight: "1.6",
-    // color: "#555",
     marginBottom: "10px",
   },
   benefitsTitle: {
@@ -80,6 +75,13 @@ const styles = {
     fontSize: "16px",
     color: "#666",
     marginBottom: "5px",
+  },
+  noData: {
+    textAlign: "center",
+    fontSize: "18px",
+    fontWeight: "bold",
+    color: "#888",
+    marginTop: "20px",
   },
 };
 

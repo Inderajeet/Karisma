@@ -84,7 +84,7 @@
             }
         },
         "derma_filler": {
-            "bannerImg": "https://damasmc.com/uploads/departments/banner_image8f1b344eb89a29a62ec7afeec55d3faf9c113568.jpg",
+            "bannerImg": "../public/assets/Images/blog/blog/derma.png",
             "blog1": {
                 "title": " Dive into the Art of Dermal Fillers at Karisma Specialist Medical Center",
                 "description": " The Science of Youth: Understanding Dermal Fillers at Karisma Specialist Medical Center.",
@@ -357,7 +357,7 @@
             }
         },
         "botox": {
-            "bannerImg": "https://damasmc.com/uploads/departments/banner_image6179695776763391231.jpg",
+            "bannerImg": "../public/assets/Images/blog/blog/derma.png",
             "blog1": {
                 "title": "Botox",
                 "description": " The Versatility Beyond Wrinkles at Karisma Specialist Medical Center",
@@ -509,7 +509,7 @@
             ],
             "para_sec3": {
                 "title": [
-                    "Westrongly advise you to inform your dermatologist if any of these conditions apply to you in order to ensure your safety and well-being."
+                    "We strongly advise you to inform your dermatologist if any of these conditions apply to you in order to ensure your safety and well-being."
                 ]
             },
             "paras3": [
@@ -588,7 +588,7 @@
             }
         },
         "cosmetic_threads": {
-            "bannerImg": "../public/assets/Images/blog/blog/derma.png",
+           "bannerImg": "../public/assets/Images/blog/blog/derma.png",
             "blog1": {
                 "title": "Cosmetic Threads At Karisma Specialist Medical Center",
                 "description": "Uncover Your Natural Beauty with Advanced Non-Surgical Thread Lifts at Karisma Specialist Medical Center.",

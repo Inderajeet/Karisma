@@ -3,8 +3,8 @@ import React from "react";
 const SkinRejuvenation = ({ data }) => {
   return (
     <div style={styles.container}>
-      <h1 style={styles.mainTitle}>{data.title}</h1>
-      {data.sections.map((section, index) => (
+      <h1 style={styles.mainTitle}>{data?.title}</h1>
+      {data.sections && data.sections.map((section, index) => (
         <div key={index} style={styles.section}>
           <h2 style={styles.title}>{section.name}</h2>
           <p style={styles.description}>{section.description}</p>

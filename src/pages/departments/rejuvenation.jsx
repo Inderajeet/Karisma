@@ -32,7 +32,7 @@ const Rejuvenation = () => {
         additionalParagraphs={data?.blog1?.content}
       />
       <OralSurgeryProcedure procedures={data?.paras} />
-      <SkinRejuvenation data={data.para1} />
+      <SkinRejuvenation data={data?.para1} />
       <ParaSection
       // style={{ backgroundColor: "transparent", marginBottom: "-100px" }}
         title={data?.para_sec1?.title}
