@@ -1,7 +1,8 @@
 {
     "derma": {
+        "bannerImg": "../public/assets/Images/banner/dept_banner/derma.png",
         "general_page": {
-            "bannerImg": "../public/assets/Images/blog/blog/derma.png",
+            "bannerImg": "../public/assets/Images/banner/dept_banner/derma.png",
             "blog1": {
                 "title": "Radiate Confidence",
                 "description": "At Karisma Specialist Medical Center, we redefine beauty as a deeply personal journey. With over 16 years of expertise, our elite cosmetic dermatology team has guided countless individuals toward their most radiant selves.",
@@ -357,7 +358,7 @@
             }
         },
         "botox": {
-            "bannerImg": "../public/assets/Images/blog/blog/derma.png",
+            "bannerImg": "../public/assets/Images/banner/dept_banner/derma.png",
             "blog1": {
                 "title": "Botox",
                 "description": " The Versatility Beyond Wrinkles at Karisma Specialist Medical Center",

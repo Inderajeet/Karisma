@@ -39,9 +39,9 @@ const Veneers = () => {
   const veneers = t('veneers', { returnObjects: true });
   return (
     <div>
-      <DeptBanner pageName="Hollywood Smile  (Veneers)" bannerImg={images.about.visionImg}></DeptBanner>
+      <DeptBanner pageName="Hollywood Smile  (Veneers)" bannerImg={veneers.bannerImg}></DeptBanner>
       <Blog
-        blogImg={images.about.visionImg}
+        blogImg={veneers.blog1?.blogImg}
         blogTitle={veneers.blog1?.title}
         blogDesc={veneers.blog1?.description}
         additionalParagraphs={[

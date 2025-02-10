@@ -39,9 +39,9 @@ const Elite = () => {
   const laserHair = t("laserHair", { returnObjects: true });
   const data = laserHair?.elite;
   return <div>
-    <DeptBanner pageName = "Elite IQ" bannerImg = {images.about.visionImg}></DeptBanner>
+    <DeptBanner pageName = "Elite IQ" bannerImg = {laserHair?.bannerImg}></DeptBanner>
     <Blog
-        blogImg={images.about.visionImg}
+        blogImg={data?.blog1?.blogImg}
         blogTitle={data.blog1?.title}
         blogDesc={data.blog1?.description}
         additionalParagraphs={[

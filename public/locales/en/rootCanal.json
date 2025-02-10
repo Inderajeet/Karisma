@@ -1,9 +1,11 @@
 {
     "rootCanal":{
+        "bannerImg":"../public/assets/Images/banner/dept_banner/dental.png",
         "blog1": {
             "title": "Root Canal Treatment in UAE At Karisma Specialist Medical Center",
             "description": " Your Oral Health Is Our Priority with Root Canal Treatment at Karisma Specialist Medical Center",
-            "content": "At Karisma Specialist Medical Center in the UAE, we understand the importance of preserving your natural teeth for a healthy, radiant smile. Root canal treatment (RCT) is a key procedure that can save an infected or damaged tooth, allowing you to maintain optimal oral health and smile confidently. Our team of expert dentists is committed to providing a pain-free, comfortable treatment, using the latest technologies to restore the health and beauty of your teeth."
+            "content": "At Karisma Specialist Medical Center in the UAE, we understand the importance of preserving your natural teeth for a healthy, radiant smile. Root canal treatment (RCT) is a key procedure that can save an infected or damaged tooth, allowing you to maintain optimal oral health and smile confidently. Our team of expert dentists is committed to providing a pain-free, comfortable treatment, using the latest technologies to restore the health and beauty of your teeth.",
+            "blogImg":"../public/assets/Images/banner/About Service/dental.png"
         },
         "para_sec1":{
             "title":"What is Root Canal Treatment?",

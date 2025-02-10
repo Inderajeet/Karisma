@@ -38,9 +38,9 @@ const RootCanal = () => {
 
   const rootCanal = t("rootCanal", { returnObjects: true });
   return <div>
-    <DeptBanner pageName = "Root Canal" bannerImg = {images.about.visionImg}></DeptBanner>
+    <DeptBanner pageName = "Root Canal" bannerImg = {rootCanal?.bannerImg}></DeptBanner>
     <Blog
-        blogImg={images.about.visionImg}
+        blogImg={rootCanal?.blog1?.blogImg}
         blogTitle={rootCanal.blog1?.title}
         blogDesc={rootCanal.blog1?.description}
         additionalParagraphs={[

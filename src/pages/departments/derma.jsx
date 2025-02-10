@@ -22,7 +22,7 @@ const Derma = () => {
     <div>
       <DeptBanner
         pageName="Derma"
-        bannerImg={data?.bannerImg}
+        bannerImg={derma?.bannerImg}
       ></DeptBanner>
       <Blog
         blogImg={data?.blog1?.blogImg}

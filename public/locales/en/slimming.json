@@ -1,11 +1,11 @@
 {
     "slimming": {
-        "bannerImg":"../public/assets/Images/blog/blog/slimming.png",
+        "bannerImg":"../public/assets/Images/banner/dept_banner/slimming.png",
         "general_page": {
             "blog1": {
                 "title": "A Journey to Transformation at Karisma Specialist Medical Center",
                 "description": "At Karisma Specialist Medical Center, we believe true beauty and confidence begin with a healthy body. Our Slimming Department offers a comprehensive weight managementandbodycontouring, approach tailored to your unique needs. With a teamof experienced professionals, we’re here to guide and empower you to achieve your ideal physique.",
-                "blogImg": "../public/assets/Images/department/slimming.png"
+                "blogImg": "../public/assets/Images/banner/About Service/slimming.png"
             },
             "para_sec1": {
                 "title": "Embrace a Healthier, More Confident You",
