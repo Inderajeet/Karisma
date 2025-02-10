@@ -39,9 +39,9 @@ const Revlite = () => {
   const laserHair = t("laserHair", { returnObjects: true });
   const data = laserHair?.revlite;
   return <div>
-    <DeptBanner pageName = "RevLite SI" bannerImg = {images.about.visionImg}></DeptBanner>
+    <DeptBanner pageName = "RevLite SI" bannerImg = {laserHair?.bannerImg}></DeptBanner>
     <Blog
-        blogImg={images.about.visionImg}
+        blogImg={data?.blog1?.blogImg}
         blogTitle={data.blog1?.title}
         blogDesc={data.blog1?.description}
         additionalParagraphs={[

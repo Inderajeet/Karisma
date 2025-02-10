@@ -1,9 +1,11 @@
 {
     "veneers":{
+        "bannerImg":"../public/assets/Images/banner/dept_banner/dental.png",
         "blog1": {
             "title": "Veneers in UAE | Hollywood Smile Transformation at Karisma Specialist Medical Center",
             "description": "Your Smile, Perfected",
-            "content": "Your smile is your signature, radiating charm, confidence, and charisma. At Karisma Specialist Medical Center, located in the heart of UAE, we specialize in crafting stunning, custom veneers to elevate your smile to new heights. Whether you're seeking a subtle enhancement or a show-stopping Hollywood smile, our advanced techniques and meticulous attention to detail ensure exceptional results tailored to your unique style."
+            "content": "Your smile is your signature, radiating charm, confidence, and charisma. At Karisma Specialist Medical Center, located in the heart of UAE, we specialize in crafting stunning, custom veneers to elevate your smile to new heights. Whether you're seeking a subtle enhancement or a show-stopping Hollywood smile, our advanced techniques and meticulous attention to detail ensure exceptional results tailored to your unique style.",
+             "blogImg":"../public/assets/Images/banner/About Service/dental.png"
         },
         "point_blog1": {
             "title": "What Are Veneers?",

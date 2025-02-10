@@ -1,10 +1,10 @@
 {
     "skinCare": {
-        "bannerImg": "../public/assets/Images/depts/skincare/skincareBanner.jpg",
+        "bannerImg": "../public/assets/Images/banner/dept_banner/skincare.png",
         "blog1": {
             "title": "Radiant Perfection Awaits: Premier Skincare Solutions  at Karisma",
             "description": " At Karisma, we believe that true beauty begins with healthy, glowing skin. Our elite dermatologists and skincare specialists offer a curated selection of advanced treatments designed to elevate your skincare journey and reveal your most luminous self",
-            "blogImg": "../public/assets/Images/blog/blog/skincre.png"
+            "blogImg": "../public/assets/Images/banner/About Service/skincare.png"
         },
         "paras": [
             {

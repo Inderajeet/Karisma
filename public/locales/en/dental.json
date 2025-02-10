@@ -1,11 +1,11 @@
 {
     "dental":{
-        "bannerImg":"../public/assets/Images/blog/blog/dental.png",
+        "bannerImg":"../public/assets/Images/banner/dept_banner/dental.png",
         "blog1": {
             "title": " Enhance Your Smile and Boost Your Confidence at Karisma Specialist Medical Center in UAE",
             "description": " The UAE’s Premier Dental Destination",
             "content": " Are you dreaming of a smile that exudes charm and self-assurance? Look no further than Karisma Specialist Medical Center, the UAE’s trusted leader in exceptional dental care. We go beyond traditional dentistry dedicated to transforming lives through the artistry of smiles.",
-            "blogImg":"../public/assets/Images/depts/dental.png"
+            "blogImg":"../public/assets/Images/banner/About Service/dental.png"
         },
         "point_blog1": {
             "title": " Why Choose Karisma Specialist Medical Center?",

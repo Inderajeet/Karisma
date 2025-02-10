@@ -44,7 +44,7 @@ const Machines = () => {
     <div>
       <DeptBanner
         pageName="Machines"
-        bannerImg={images.about.visionImg}
+        bannerImg={slimming?.bannerImg}
       ></DeptBanner>
       <Blog
         blogImg={machines.blog1?.blogImg}

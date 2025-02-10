@@ -41,10 +41,10 @@ const RestorativeDentistry = () => {
     <div>
       <DeptBanner
         pageName="Restorative Dentistry"
-        bannerImg={images.about.visionImg}
+        bannerImg={restorativeDentistry?.bannerImg}
       ></DeptBanner>
       <Blog
-        blogImg={images.about.visionImg}
+        blogImg={restorativeDentistry?.blog1?.blogImg}
         blogTitle={restorativeDentistry.blog1?.title}
         blogDesc={restorativeDentistry.blog1?.description}
         additionalParagraphs={[restorativeDentistry.blog1?.content]}

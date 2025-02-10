@@ -29,7 +29,7 @@
     {
       "title": "Skin Care Department",
       "description": "",
-      "link": "/"
+      "link": "/skincare"
     },
     {
       "title": "Gynecology Department",
@@ -109,44 +109,47 @@
         },
         {
           "label": "Derma",
+          "link": "/derma",
           "subMenu": [
             {
               "label": "Dermal Fillers",
-              "link": "/"
+              "link": "/derma/derma-filler"
             },
             {
               "label": "Botox",
-              "link": "/"
+              "link": "/derma/botox"
             },
             {
               "label": "Cosmetic Threads",
-              "link": "/"
+              "link": "/derma/cosmetic-threads"
             },
             {
               "label": "Rejuvenation Injection",
-              "link": "/"
+              "link": "/derma/rejuvenation"
             }
           ]
         },
         {
           "label": "Laser Hair Removal",
+          "link": "/laser-hair",
           "subMenu": [
             {
               "label": "Candela GentleMax Pro",
-              "link": "/"
+              "link": "/laser-hair/candela"
             },
             {
               "label": "Cynosure Elite+",
-              "link": "/"
+              "link": "/laser-hair/elite"
             },
             {
               "label": "RevLite SI",
-              "link": "/"
+              "link": "/laser-hair/revlite"
             }
           ]
         },
         {
           "label": "Skin Care",
+          "link": "/skincare",
           "subMenu": [
             {
               "label": "Facials",
@@ -226,18 +229,19 @@
         },
         {
           "label": "Slimming",
+          "link": "/slimming",
           "subMenu": [
             {
               "label": "Machines",
-              "link": "/"
+              "link": "/slimming/machines"
             },
             {
               "label": "Injections",
-              "link": "/"
+              "link": "/slimming/injections"
             },
             {
               "label": "Other Services",
-              "link": "/"
+              "link": "/slimming/other-services"
             }
           ]
         }

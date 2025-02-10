@@ -18,9 +18,10 @@ const Botox = () => {
 
   const derma = t("derma", { returnObjects: true });
   const data = derma?.botox;
+  console.log(derma)
   return (
     <div>
-      <DeptBanner pageName="Botox" bannerImg={data?.bannerImg}></DeptBanner>
+      <DeptBanner pageName="Botox" bannerImg={derma?.bannerImg}></DeptBanner>
       <Blog
         blogImg={data?.blog1?.blogImg}
         blogTitle={data?.blog1?.title}
