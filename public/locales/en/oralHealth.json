@@ -1,11 +1,11 @@
 {
     "oralHealth": {
-        "bannerImg":"../public/assets/Images/banner/dept_banner/dental.png",
+        "bannerImg":"../assets/Images/banner/dept_banner/dental.png",
         "blog1": {
             "title": "Elite Gum Treatment at Karisma Specialist Medical Center in UAE: Cultivating Radiant Smiles from the Foundation",
             "description": " The Essence of Periodontal Excellence",
             "content": " At Karisma Specialist Medical Center, we understand that a healthy, confident smile begins with impeccable gum health. Our team of periodontal specialists offers a comprehensive range of advanced gum treatments tailored to address a variety of concerns. From eliminating bad breath to managing advanced periodontal diseases, we ensure your oral health foundation is strong and radiant.",
-            "blogImg":"../public/assets/Images/banner/About Service/dental.png"
+            "blogImg":"../assets/Images/banner/About Service/dental.png"
         },
         "para_sec1": {
             "title": "Healthy Gums: The Cornerstone of Oral Vitality",

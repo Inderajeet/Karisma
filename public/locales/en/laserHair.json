@@ -1,6 +1,6 @@
 {
     "laserHair": {
-        "bannerImg": "../public/assets/Images/banner/dept_banner/laser.png",
+        "bannerImg": "../assets/Images/banner/dept_banner/laser.png",
         "general_page": {
             "blog1": {
                 "title": "Laser Hair Removal at Karisma Specialist Medical Center",
@@ -9,7 +9,7 @@
                     "What is Laser Hair Removal ? ",
                     "Laser hair removal is a cutting-edge, non-invasive procedure that targets hair follicles using  focused light energy. By concentrating on the melanin in hair, the laser disables the follicle,  reducing future growth while leaving the surrounding skin untouched."
                 ],
-                "blogImg": "../public/assets/Images/banner/About Service/laser.png"
+                "blogImg": "../assets/Images/banner/About Service/laser.png"
             },
             "point_blog1": {
                 "title": "Benefits of Laser Hair Removal: ",
@@ -104,12 +104,12 @@
             },
             "related_services": [
                 {
-                    "title": "Candela GentleMax Pro ",
+                    "name": "Candela GentleMax Pro ",
                     "link": "/",
                     "image": "https://damasmc.com/uploads/services/service_image9e83179c92b6cae4ddf3fdc1abd8998a8fb3aa4e.jpg"
                 },
                 {
-                    "title": "RevLite SI",
+                    "name": "RevLite SI",
                     "link": "/",
                     "image": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
                 }
@@ -125,7 +125,7 @@
                     "Skin-Friendly: Safe for lighter and tanned skin tones with minimal risk of side effects. ",
                     "Comfort Redefined: Integrated cooling technology ensures a gentle, comfortable experience."
                 ],
-                "blogImg": "../public/assets/Images/banner/About Service/laser.png"
+                "blogImg": "../assets/Images/banner/About Service/laser.png"
             },
             "para_sec1": {
                 "title": "Why Choose Karisma Specialist Medical Center ? ",
@@ -157,7 +157,7 @@
                     "Gentle Reduction: Gradual hair reduction minimizes discomfort while delivering impressive results.",
                     "Long-Lasting Smoothness: Multiple sessions promote lasting hair-free skin."
                 ],
-                 "blogImg": "../public/assets/Images/banner/About Service/laser.png"
+                 "blogImg": "../assets/Images/banner/About Service/laser.png"
             },
             "para_sec1": {
                 "title": "Painless and No Downtime with RevLite SI ",
@@ -194,7 +194,7 @@
                     "Measures melanin content to better guide treatment test spot settings",
                     "Finds patient’s specific melanin reading on index of 0-99 which corresponds to skin type Provides treatment confidence"
                 ],
-                 "blogImg": "../public/assets/Images/banner/About Service/laser.png"
+                 "blogImg": "../assets/Images/banner/About Service/laser.png"
             },
             "point_blog1": {
                 "title": "IQ",

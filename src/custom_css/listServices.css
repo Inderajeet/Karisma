@@ -1,6 +1,6 @@
 
 .service-name {
-    font-size: 18px;
+    font-size: 20px;
     color: #405D53;
     font-family: 'The Seasons' !important;
 
@@ -57,11 +57,7 @@
     }
 
     .service-name {
-        font-size: 20px;
-        color: #405D53;
-        /* font-weight: bold; */
-        /* margin: 10px 13px 0 13px; */
-        font-family: 'The Seasons' !important;
+        font-size: 24px;
     }
 }
 
@@ -118,4 +114,44 @@
 .service-info-cols .doctor-info-inner {
     margin-bottom: 0;
     /* margin: 0px 13px 22px 14px; */
+}
+
+.listServiceImg {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+}
+  
+  .listServiceImg img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .listServiceImg:hover img {
+    transform: scale(1.1); /* Slight zoom effect */
+  }
+
+/* Small screens (mobile & tablets) */
+@media screen and (min-width: 600px) {
+    .listServiceImg {
+        height: 200px;
+    }
+}
+
+/* Medium screens (laptops & small desktops) */
+@media screen and (min-width: 1200px) {
+    .listServiceImg {
+        height: 200px;
+    }
+}
+
+/* Large screens (big desktops) */
+@media screen and (min-width: 1441px) {
+    .listServiceImg {
+        height: 271px;
+    }
 }

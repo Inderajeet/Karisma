@@ -1,12 +1,12 @@
 {
     "derma": {
-        "bannerImg": "../public/assets/Images/banner/dept_banner/derma.png",
+        "bannerImg": "../assets/Images/banner/dept_banner/derma.png",
         "general_page": {
-            "bannerImg": "../public/assets/Images/banner/dept_banner/derma.png",
+            "bannerImg": "../assets/Images/banner/dept_banner/derma.png",
             "blog1": {
                 "title": "Radiate Confidence",
                 "description": "At Karisma Specialist Medical Center, we redefine beauty as a deeply personal journey. With over 16 years of expertise, our elite cosmetic dermatology team has guided countless individuals toward their most radiant selves.",
-                "blogImg": "../public/assets/Images/department/derma.png"
+                "blogImg": "../assets/Images/department/derma.png"
             },
             "paras": [
                 {
@@ -85,7 +85,7 @@
             }
         },
         "derma_filler": {
-            "bannerImg": "../public/assets/Images/blog/blog/derma.png",
+            "bannerImg": "../assets/Images/blog/blog/derma.png",
             "blog1": {
                 "title": " Dive into the Art of Dermal Fillers at Karisma Specialist Medical Center",
                 "description": " The Science of Youth: Understanding Dermal Fillers at Karisma Specialist Medical Center.",
@@ -358,7 +358,7 @@
             }
         },
         "botox": {
-            "bannerImg": "../public/assets/Images/banner/dept_banner/derma.png",
+            "bannerImg": "../assets/Images/banner/dept_banner/derma.png",
             "blog1": {
                 "title": "Botox",
                 "description": " The Versatility Beyond Wrinkles at Karisma Specialist Medical Center",
@@ -589,7 +589,7 @@
             }
         },
         "cosmetic_threads": {
-           "bannerImg": "../public/assets/Images/blog/blog/derma.png",
+           "bannerImg": "../assets/Images/blog/blog/derma.png",
             "blog1": {
                 "title": "Cosmetic Threads At Karisma Specialist Medical Center",
                 "description": "Uncover Your Natural Beauty with Advanced Non-Surgical Thread Lifts at Karisma Specialist Medical Center.",
@@ -597,7 +597,7 @@
                     "What are Non-Surgical Threads",
                     " Dissolvable sutures made from bio compatible substances like Polydioxanone (PDO) are known as non-surgical threads. These threads are purposely placed in specific locations on the face, scalp, or body to accomplish a range of aesthetic objectives"
                 ],
-                "blogImg": "../public/assets/Images/department/derma.png"
+                "blogImg": "../assets/Images/department/derma.png"
             },
             "paras": [
                 {
@@ -830,11 +830,11 @@
             }
         },
         "rejuvenation": {
-            "bannerImg": "../public/assets/Images/blog/blog/derma.png",
+            "bannerImg": "../assets/Images/blog/blog/derma.png",
             "blog1": {
                 "title": "Radiant Skin Awaits",
                 "description": "Karisma Specialist Medical Center supports your path to a more youthful and refreshed appearance. Our non-invasive skin rejuvenation injections provide a flexible method for attaining smoother, brighter, and more youthful skin.",
-                "blogImg": "../public/assets/Images/department/derma.png"
+                "blogImg": "../assets/Images/department/derma.png"
             },
             "paras": [
                 {

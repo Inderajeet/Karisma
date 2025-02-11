@@ -9,6 +9,7 @@ import OralSurgeryProcedure from "./oralSurgeryProcedure";
 import { Link } from "react-router-dom";
 import "../../custom_css/doctor.css";
 import i18n from "../../i18n";
+import ListServices from "../../departments/service templates/ListServices";
 const LaserHair = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -40,7 +41,7 @@ const LaserHair = () => {
 
   const laserHair = t("laserHair", { returnObjects: true });
   const data = laserHair?.general_page;
-  console.log(data,laserHair);
+  console.log(data, laserHair);
   return (
     <div>
       <DeptBanner
@@ -66,64 +67,10 @@ const LaserHair = () => {
         title={data?.para_sec2?.title}
         desc={data?.para_sec2?.description}
       />
-      <div
-        className="happysmile-content-wrap container page"
-        style={{ marginTop: "50px" }}
-      >
-        <div className="col-md-12 order-md-2">
-          <div className="post-inner">
-            <div className="entry-content">
-              <div className="elementor elementor-73315">
-                <div className="elementor-element elementor-7a321f1b e-flex e-con-boxed e-con e-parent e-lazyloaded">
-                <h1 className="title">Related Services</h1>
+      <h1 className="title benefits-container customContainer ">Related Services</h1>
 
-                  <div className="e-con-inner">
-                    <div className="dd-row">
-                      {data?.related_services?.map((service, index) => (
-                        <Link
-                          to={`/${i18n.language}/slimming/${encodeURIComponent(
-                            service?.link
-                          )}`}
-                          key={index}
-                          className="doctor-info-cols"
-                          style={{ cursor: "pointer" }}
-                        >
-                          {/* <h1>{service?.title}</h1> */}
-                          <div className="dd-inner">
-                            <div className="cust-doctor-info-wrap">
-                              <div className="doctor-thumbnail">
-                                <img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width={500}
-                                  height={456}
-                                  src={service.image}
-                                  className="img-responsive wp-post-image"
-                                  alt={service.title}
-                                />
-                              </div>
-                              <div className="doctor-info-body">
-                                <div className="doctor-name">
-                                  {service.title}
-                                </div>
-                                <div className="doctor-info-inner">
-                                  {/* <div className="doctor-specialities">
-                                          <div className="doctor-departments">{service.designation}</div>
-                                        </div> */}
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <ListServices services={data?.related_services} />
+
     </div>
   );
 };
