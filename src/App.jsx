@@ -133,6 +133,8 @@ function LanguageWrapper() {
           <Route path="/slimming" element={<Slimming />} />
           <Route path="/slimming/machines" element={<Machines />} />
           <Route path="/slimming/injections" element={<Injections />} />
+          <Route path="/slimming/machines" element={<Machines />} />
+          <Route path="/slimming/injections" element={<Injections />} />
           <Route path="/slimming/other-services" element={<SlimmingOtherServices />} />
           <Route path="/laser-hair" element={<LaserHair />} />
           <Route path="/laser-hair/candela" element={<Candela />} />

@@ -39,9 +39,9 @@ const Orthodontics = () => {
                      const orthodontics = t('orthodontics', { returnObjects: true });
   return (
     <div>
-      <DeptBanner pageName = "Orthodontics" bannerImg = {images.about.visionImg}></DeptBanner>
+      <DeptBanner pageName = "Orthodontics" bannerImg = {orthodontics?.bannerImg}></DeptBanner>
       <Blog
-        blogImg={images.about.visionImg}
+        blogImg={orthodontics?.blog1?.blogImg}
         blogTitle={orthodontics.blog1?.title}
         blogDesc={orthodontics.blog1?.description}
         additionalParagraphs={[

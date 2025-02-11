@@ -39,9 +39,9 @@ const Pediatric = () => {
   const pediatric = t("pediatric", { returnObjects: true });
   
   return <div>
-    <DeptBanner pageName = "Pediatric" bannerImg = {images.about.visionImg}></DeptBanner>
+    <DeptBanner pageName = "Pediatric" bannerImg = {pediatric?.bannerImg}></DeptBanner>
     <Blog
-        blogImg={images.about.visionImg}
+        blogImg={pediatric?.blog1?.blogImg}
         blogTitle={pediatric.blog1?.title}
         blogDesc={pediatric.blog1?.description}
         additionalParagraphs={[

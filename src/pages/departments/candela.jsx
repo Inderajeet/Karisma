@@ -39,9 +39,9 @@ const Candela = () => {
   const laserHair = t("laserHair", { returnObjects: true });
   const data = laserHair?.candela;
   return <div>
-    <DeptBanner pageName = "Candela GentleMax Pro" bannerImg = {images.about.visionImg}></DeptBanner>
+    <DeptBanner pageName = "Candela GentleMax Pro" bannerImg = {laserHair.bannerImg}></DeptBanner>
     <Blog
-        blogImg={images.about.visionImg}
+        blogImg={data.blog1?.blogImg}
         blogTitle={data.blog1?.title}
         blogDesc={data.blog1?.description}
         additionalParagraphs={[

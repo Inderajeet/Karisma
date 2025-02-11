@@ -1,9 +1,11 @@
 {
     "dentalSurgery": {
+        "bannerImg":"../public/assets/Images/banner/dept_banner/dental.png",
         "blog1": {
             "title": " Raising Dental Excellence in The UAE to New Heights: With Karisma Specialist Medical Center Oral Surgery Department",
             "description": "Sculpting Perfection: Advanced Surgical Interventions for Exceptional Smiles",
-            "content": " At Karisma Specialist Medical Center in the UAE, we believe oral health goes beyond routine care. Our highly skilled oral surgeons offer a comprehensive range of sophisticated surgical procedures designed to address the smallest issues to the most complex dental concerns while preserving the aesthetics and functionality of your smile. Whether you require a routine extraction or intricate surgical intervention, our focus remains on providing exceptional care and achieving optimal results tailored to your needs."
+            "content": " At Karisma Specialist Medical Center in the UAE, we believe oral health goes beyond routine care. Our highly skilled oral surgeons offer a comprehensive range of sophisticated surgical procedures designed to address the smallest issues to the most complex dental concerns while preserving the aesthetics and functionality of your smile. Whether you require a routine extraction or intricate surgical intervention, our focus remains on providing exceptional care and achieving optimal results tailored to your needs.",
+            "blogImg":"../public/assets/Images/banner/About Service/dental.png"
         },
         "para_sec1": {
             "title": " Mastering Complexity with Surgical Expertise",

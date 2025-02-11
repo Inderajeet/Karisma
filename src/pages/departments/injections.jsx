@@ -44,7 +44,7 @@ const Injections = () => {
     <div>
       <DeptBanner
         pageName="Injections"
-        bannerImg={images.about.visionImg}
+        bannerImg={slimming?.bannerImg}
       ></DeptBanner>
       <Blog
         blogImg={injections.blog1?.blogImg}
@@ -57,7 +57,7 @@ const Injections = () => {
           <PointBlog key={i} title={p.title} description={p.description} benefits={p.subcategories} />
         )
       })}
-     
+       
        <ParaSection title={injections?.para_sec1?.title} desc={injections?.para_sec1?.description} />
       <div style={styles.container}>
         <h1 style={styles.mainTitle}>{injections?.para_sec1?.title}</h1>

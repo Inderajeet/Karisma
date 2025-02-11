@@ -39,7 +39,7 @@ const Implant = () => {
                      const implant = t('implant', { returnObjects: true });
   return (
     <div>
-      <DeptBanner pageName = "Implant" bannerImg = {images.about.visionImg}></DeptBanner>
+      <DeptBanner pageName = "Implant" bannerImg = {implant?.bannerImg}></DeptBanner>
       <ParaSection title={implant?.para_sec1?.title} desc={implant?.para_sec1?.description} />;
       <ParaSection title={implant?.para_sec2?.title} desc={implant?.para_sec2?.description} />;
       <PointBlog title={implant?.point_blog1?.title} description={implant?.point_blog1?.description} benefits={implant?.point_blog1?.benefits} />

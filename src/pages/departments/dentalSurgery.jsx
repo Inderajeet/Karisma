@@ -41,10 +41,10 @@ const DentalSurgery = () => {
     <div>
       <DeptBanner
         pageName="Dental Surgery"
-        bannerImg={images.about.visionImg}
+        bannerImg={dentalSurgery?.bannerImg}
       ></DeptBanner>
       <Blog
-        blogImg={images.about.visionImg}
+        blogImg={dentalSurgery?.blog1?.blogImg}
         blogTitle={dentalSurgery.blog1?.title}
         blogDesc={dentalSurgery.blog1?.description}
         additionalParagraphs={[dentalSurgery.blog1?.content]}
