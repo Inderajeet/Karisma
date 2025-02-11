@@ -39,9 +39,9 @@ export default function ListServicesNoImg({ services }) {
                                   alt={doctor.name}
                                 />
                               </div> */}
-                              <div className="service-info-body">
-                                <div className="service-name">{doctor.name}</div>
+                              <div className="service-info-body third">
                                 <div className="doctor-info-inner">
+                                <div className="service-name">{doctor.name}</div>
                                   <div className="doctor-specialities">
                                     <div className="service-departments">{doctor.designation}</div>
                                   </div>

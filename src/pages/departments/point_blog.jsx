@@ -5,8 +5,8 @@ import { TiTick } from "react-icons/ti";
 const PointBlog = ({ title, description, benefits, description2,className,style,extraContent }) => {
   return (
     <div style={{...style}} className={`benefits-container ${className || ""}`}>
-      <h2 className="title benefits-title">{title}</h2>
-      <p className="benefits-description">{description}</p>
+      <h2 className="title">{title}</h2>
+      <p >{description}</p>
       {description2 && (
         <div className="benefits-description">
           <p>{description2}</p>
@@ -14,9 +14,9 @@ const PointBlog = ({ title, description, benefits, description2,className,style,
       )}
       <ul className="benefits-list">
         {benefits?.map((benefit, index) => (
-          <li key={index} className="benefit-item">
+          <p key={index} className="benefit-item">
             <TiTick /><strong>{benefit.title}:</strong> {benefit.description}
-          </li>
+          </p>
         ))}
       </ul>
       <div>{extraContent}</div>

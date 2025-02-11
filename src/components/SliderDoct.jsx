@@ -42,17 +42,17 @@ const SliderDoct = () => {
     <Swiper
       slidesPerView={3}
       spaceBetween={24}
-      // loop={true}
-      // speed={1000}
-      // autoplay={{
-      //   delay: 3000,
-      //   disableOnInteraction: false,
-      //   reverseDirection: isRTL, // Reverse autoplay direction for RTL
-      // }}
-      // dir={isRTL ? "rtl" : "ltr"} // Set the HTML direction for Swiper
-      // style={{
-      //   direction: isRTL ? "rtl" : "ltr", // Ensure CSS direction is applied
-      // }}
+      loop={true}
+      speed={1000}
+      autoplay={{
+        delay: 3000,
+        disableOnInteraction: false,
+        reverseDirection: isRTL, // Reverse autoplay direction for RTL
+      }}
+      dir={isRTL ? "rtl" : "ltr"} // Set the HTML direction for Swiper
+      style={{
+        direction: isRTL ? "rtl" : "ltr", // Ensure CSS direction is applied
+      }}
       breakpoints={{
         0: { slidesPerView: 1 },
         530: { slidesPerView: 2 },
@@ -62,7 +62,7 @@ const SliderDoct = () => {
         1200: { slidesPerView: 3 },
         1300: { slidesPerView: 3 },
       }}
-      // modules={[Autoplay]}
+      modules={[Autoplay]}
     >
       {doctors.map((doctor, index) => (
         <SwiperSlide key={doctor.id}>

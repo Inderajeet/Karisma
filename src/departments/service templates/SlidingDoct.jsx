@@ -16,7 +16,7 @@ const SlidingDoct = ({ doctors, cards, isRTL }) => {
         <div
         data-elementor-type="wp-page"
         data-elementor-id={73397}
-        className="elementor elementor-73397"
+        className="elementor elementor-73397 customContainer"
         style={{
         //   backgroundColor: about_us["background-color"],
         }}

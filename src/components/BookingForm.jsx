@@ -190,7 +190,7 @@ function Booking({ showModal, handleClose }) {
                 <Modal.Body>
                     <div className="d-flex">
                         {/* Left Column: Image */}
-                        <div style={{ flex: 1, alignSelf: 'center' }}>
+                        <div className="bookImg" style={{ flex: 1, alignSelf: 'center' }}>
                             <img
                                 src="/assets/wp-content/uploads/appointment-booking.jpg"
                                 alt='Booking Illustration'

@@ -159,7 +159,7 @@ const SocialIcons = () => {
                     </li>
                     <li>
                         <a
-                            href="https://www.instagram.com/damasmedicalcenter/"
+                            href="https://www.instagram.com/karismamc_shj/"
                             target="_blank"
                             id="insta"
                             className="socialLink"

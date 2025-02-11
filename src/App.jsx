@@ -117,27 +117,28 @@ function LanguageWrapper() {
           {/* <Route path="doctor-1" element={<Doctor1 />} /> */}
           <Route path="dept/dental" element={<Dept />} />
           <Route path="/dental" element={<Dental />} />
-          <Route path="/veneers" element={<Veneers />} />
-          <Route path="/implant" element={<Implant />} />
-          <Route path="/orthodontics" element={<Orthodontics />} />
-          <Route path="/implant" element={<Implant />} /> 
-          <Route path="/orthodontics" element={<Orthodontics />} />    
-          <Route path="/teeth-whitening" element={<TeethWhitening />} />  
-          <Route path="/mouth-rehabilitation" element={<MouthRehabilitation />} /> 
-          <Route path="/root-canal" element={<RootCanal />} />
-          <Route path="/pediatric" element={<Pediatric />} />
-          <Route path="/dental-surgery" element={<DentalSurgery />} />
-          <Route path="/oral-health" element={<OralHealth />} />
-          <Route path="/restorative-dentistry" element={<RestorativeDentistry />} />
+          <Route path="/dental/veneers" element={<Veneers />} />
+          <Route path="/dental/implant" element={<Implant />} />
+          <Route path="/dental/orthodontics" element={<Orthodontics />} />
+          <Route path="/dental/implant" element={<Implant />} /> 
+          <Route path="/dental/orthodontics" element={<Orthodontics />} />    
+          <Route path="/dental/teeth-whitening" element={<TeethWhitening />} />  
+          <Route path="/dental/mouth-rehabilitation" element={<MouthRehabilitation />} /> 
+          <Route path="/dental/root-canal" element={<RootCanal />} />
+          <Route path="/dental/pediatric" element={<Pediatric />} />
+          <Route path="/dental/dental-surgery" element={<DentalSurgery />} />
+          <Route path="/dental/oral-health" element={<OralHealth />} />
+          <Route path="/dental/restorative-dentistry" element={<RestorativeDentistry />} />
           <Route path="/gynecology" element={<Gynecology />} />
           <Route path="/slimming" element={<Slimming />} />
-          <Route path="/machines" element={<Machines />} />
-          <Route path="/injections" element={<Injections />} />
+          <Route path="/slimming/machines" element={<Machines />} />
+          <Route path="/slimming/injections" element={<Injections />} />
           <Route path="/slimming/other-services" element={<SlimmingOtherServices />} />
           <Route path="/laser-hair" element={<LaserHair />} />
           <Route path="/laser-hair/candela" element={<Candela />} />
           <Route path="/laser-hair/revlite" element={<Revlite />} />
           <Route path="/laser-hair/elite" element={<Elite />} />
+
           <Route path="/derma" element={<Derma />} />
           <Route path="/derma/derma-filler" element={<DermaFiller />} />
           <Route path="/derma/body-filler" element={<BodyFiller />} />

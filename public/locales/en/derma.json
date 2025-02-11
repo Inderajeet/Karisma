@@ -47,22 +47,22 @@
             "related_services": [
                 {
                     "title": "Dermal Fillers",
-                    "link": "/",
+                    "link": "/derma/derma-filler",
                     "image": "https://damasmc.com/uploads/services/service_image9e83179c92b6cae4ddf3fdc1abd8998a8fb3aa4e.jpg"
                 },
                 {
                     "title": "Anti-Aging Treatments",
-                    "link": "/",
+                    "link": "/derma/botox",
                     "image": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
                 },
                 {
                     "title": "Cosmetic Threads ",
-                    "link": "/",
+                    "link": "/derma/cosmetic-threads",
                     "image": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
                 },
                 {
                     "title": "Rejuvenation Injection",
-                    "link": "/",
+                    "link": "/derma/rejuvenation",
                     "image": "https://damasmc.com/uploads/services/service_image9e83179c92b6cae4ddf3fdc1abd8998a8fb3aa4e.jpg"
                 }
             ],

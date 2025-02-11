@@ -211,21 +211,36 @@ const Index = () => {
                             data-element_type="widget"
                             data-widget_type="ceabutton.default" style={{ float: 'left' }}
                           >
-                            <div className="" >
+                            {/* <div className="" >
                               <div className=""  >
                                 <a
                                   href="/"
-                                  className="cea-button-link elementor-button cea-button elementor-size-sm"
-                                  style={{ backgroundColor: about_us["Button-color"], border: `1px solid ${about_us["Button-color"]}`, float: 'left' }}
+                                  className="cea-button-link elementor-button cea-button elementor-size-sm third"
+                                  // style={{ backgroundColor: about_us["Button-color"], border: `1px solid ${about_us["Button-color"]}`, float: 'left' }}
                                 >
                                   <span className="cea-button-content-wrapper" >
                                     <span className="cea-button-icon cea-align-icon-right">
                                     </span>
-                                    <span className="cea-button-text" style={{ color: about_us["Button-text-color"] }}>{t('about1.about1Btn')} </span>
+                                    <span className="cea-button-text" 
+                                    // style={{ color: about_us["Button-text-color"] }}
+                                    >{t('about1.about1Btn')} </span>
                                   </span>
                                 </a>
                               </div>
+                            </div> */}
+                            <div className="">
+                              <div className="">
+                                <a
+                                  href="/"
+                                  className="cea-button-link elementor-button cea-button elementor-size-sm third slidebottomleft"
+                                >
+                                  <span>
+                                    {t('about1.about1Btn')}</span>
+                                </a>
+                              </div>
                             </div>
+
+
                           </div>
                         </div>
 
@@ -252,7 +267,7 @@ const Index = () => {
             data-left={85}
             data-top={40}
             data-distance={100}
-            style={{ width: 190, top: "40%", left: "85%", display:'none' }}
+            style={{ width: 190, top: "40%", left: "85%", display: 'none' }}
           >
             <img
               alt="Floating Image"
@@ -317,12 +332,8 @@ const Index = () => {
                         <div className="">
                           <a
                             href="/"
-                            className="cea-button-link elementor-button cea-button elementor-size-sm"
-                            style={{
-                              backgroundColor: about2["button-bg-color"],
-                              border: `1px solid ${about2['button-border-color']}`,
-                              float: 'left', color: about2["button-text-color"]
-                            }}
+                            className="cea-button-link elementor-button cea-button elementor-size-sm third slidebottomleft"
+
                           >
                             <span className="cea-button-content-wrapper">
                               <span className="cea-button-icon cea-align-icon-right">
