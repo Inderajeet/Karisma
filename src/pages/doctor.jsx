@@ -5,6 +5,16 @@ import { useTranslation } from "react-i18next";
 import Banner from "../components/Banner";
 import BannerDoctor from '../components/Bannerdoctor';
 
+export const applyFontFallback = (text) => {
+    if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
+  
+    return text.split("").map((char, index) =>
+      /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
+        ? char
+        : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
+    );
+  };
+  
 export default function Doctors() {
   const { t, i18n } = useTranslation('doctors');
 

@@ -3,12 +3,12 @@ import "./para_section.css";
 import "./blog.css";
 const ParaSection = (props) => {
   return (
-   <div style={{...props.style}} className="para-body">
-     <div className="para-container">
+   <div style={{...props.style, backgroundColor: '#D1BB9F', textAlign: 'center'}}>
+     <div className="benefits-container customContainer para-body">
       <h2 className="title para-heading">{props.title}</h2>
-      <div className="para-content">
+      <div className="">
         {props.desc?.map((paragraph, index) => (
-          <p key={index} className="para-paragraph">
+          <p key={index} className="" style={{textAlign: 'center'}}>
             {paragraph}
           </p>
         ))}

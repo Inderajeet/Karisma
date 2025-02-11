@@ -1,6 +1,6 @@
 .benefits-container {
     max-width: 1200px;
-    margin: 60px auto;
+    margin: 30px auto;
     padding: 20px;
     /* background-color: #f9f9f9; */
     /* border: 1px solid #ddd; */
@@ -26,7 +26,7 @@
   
   .benefits-list {
     list-style-type: disc;
-    padding-left: 20px;
+    padding-left: 0px;
   }
   
   .benefit-item {

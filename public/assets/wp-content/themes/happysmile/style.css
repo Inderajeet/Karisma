@@ -7470,7 +7470,7 @@ body.single-doctors-directory.doctors-directory-template-default .page-title-wra
 }
 /* Directory Grid */
 .doctor-info-cols .doctor-info-inner {
-    margin-bottom: 22px;
+    /* margin-bottom: 22px; */
 }
 .doctor-info-cols .doctor-info-inner .doctor-info h5 {
     margin-bottom: 10px;
