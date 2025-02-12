@@ -7,7 +7,7 @@ const Blog = (props) => {
       <div className="blog-container">
         {/* Blog Image */}
         <div className="blog-image-container">
-          <img src={props.blogImg} alt="Blog" className="blog-image" />
+          <img style={{height:"300px"}} src={props.blogImg} alt="Blog" className="blog-image" />
         </div>
 
         {/* Blog Content */}

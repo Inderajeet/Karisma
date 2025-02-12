@@ -14,6 +14,26 @@
     margin: 30px;
   }
 
+  .our-story-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .our-story-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .our-story-text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+    text-align: justify;
+  }
+
   .sec1 {
     width: 30%;
   }
@@ -45,7 +65,7 @@
   .about-us-paragraph {
     font-size: 18px;
     line-height: 1.6;
-    color: #666;
+    /* color: #666; */
     flex: 1;
     text-align: justify;
   }
@@ -74,18 +94,18 @@
   .about-card-title {
     font-size: 24px;
     font-weight: bold;
-    color: #333;
+    /* color: #333; */
     margin-bottom: 15px;
   }
   
   .about-card-content {
-    font-size: 16px;
-    color: #5a5757;
-    line-height: 1.6;
-    flex-grow: 1; /* Makes content fill the card and ensures alignment */
+    /* font-size: 16px;
+    /* color: #5a5757; */
+    /* line-height: 1.6; */
+    flex-grow: 1;
     display: flex;
-    flex-direction: column; /* Ensures content stacks vertically */
-    justify-content: space-between; /* Ensures consistent spacing inside cards */
+    flex-direction: column;
+    justify-content: space-between;
   }
   .about-card-content ul {
     list-style-type: disc;
@@ -109,69 +129,70 @@
   }
   
   .ceo-message-container {
-    max-width: 1200px; /* Center the content with a limited width */
-    margin: 100px auto; /* Center the container on the page */
-    padding: 60px;
-    background-color: #D9C5AD; /* Light background for contrast */
-    /* border: 1px solid #ddd; Subtle border for separation */
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 40px;
+    background-color: #D1BB9F;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-    text-align: center; /* Center-align the text */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
+  
+  .ceo-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .ceo-image-container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .ceo-image-container img {
+    width: 300px;
+    height: 450px;
+    /* border-radius: 50%; */
+    object-fit: cover;
+  }
+  
+  .ceo-text-container {
+    flex: 2;
+    text-align: left;
+  }
+  
   .ceo-message-heading {
     font-size: 28px;
     font-weight: bold;
-    color: #333; /* Dark text color for contrast */
-    margin-bottom: 10px;
   }
   
   .ceo-message-tagline {
     font-size: 18px;
     font-style: italic;
-    color: #666; /* Muted color for tagline */
     margin-bottom: 20px;
-  }
-  
-  .ceo-message-container img {
-    max-width: 120px; /* Restrict the image size */
-    height: auto;
-    border-radius: 50%; /* Make the image circular */
-    margin: 20px 0; /* Add spacing around the image */
-    border: 2px solid #ddd; /* Subtle border for focus */
   }
   
   .ceo-message-content {
     font-size: 16px;
     line-height: 1.8;
-    color: #444; /* Slightly muted text for readability */
     margin-bottom: 20px;
-    text-align: justify; /* Justify content for clean alignment */
-  }
-  
-  .ceo-message-container div {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center-align the name and designation */
+    text-align: justify;
   }
   
   .ceo-name {
     font-size: 20px;
     font-weight: bold;
-    color: #222; /* Strong color for emphasis */
-    margin-bottom: 5px;
   }
   
   .ceo-designation {
     font-size: 16px;
     font-style: italic;
-    color: #555; /* Muted color for designation */
   }
   
   .background-container {
     position: relative;
     width: 100%;
     height: 800px; /* Adjust height as needed */
-    background-image: url(https://damasmc.com/uploads/about/bottom_banner_imagea4555bc6a94f6bce2a522e193fa21121e2e2fbdf.jpg); /* Replace with your image path */
+    background-image: url(https://damasmc.com/uploads/about/bottom_banner_imagea4555bc6a94f6bce2a522e193fa21121e2e2fbdf.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Keeps the image fixed while scrolling */

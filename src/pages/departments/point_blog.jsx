@@ -14,9 +14,9 @@ const PointBlog = ({ title, description, benefits, description2,className,style,
       )}
       <ul className="benefits-list">
         {benefits?.map((benefit, index) => (
-          <li key={index} className="benefit-item">
+          <p key={index} className="benefit-item">
             <TiTick /><strong>{benefit.title}:</strong> {benefit.description}
-          </li>
+          </p>
         ))}
       </ul>
       <div>{extraContent}</div>
