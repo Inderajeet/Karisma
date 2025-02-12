@@ -29,15 +29,16 @@ const Botox = () => {
         additionalParagraphs={data?.blog1?.content}
       />
       <ParaSection
-        style={{ backgroundColor: "transparent", marginBottom: "-100px" }}
+        style={{ backgroundColor: "transparent", textAlign:"left" }}
         title={data?.para_sec5?.title}
         desc={data?.para_sec5?.description}
+        extraContent={ <PointBlog
+          title={data?.point_blog1?.title}
+          description={data?.point_blog1?.description}
+          benefits={data?.point_blog1?.benefits}
+        />}
       />
-      <PointBlog
-        title={data?.point_blog1?.title}
-        description={data?.point_blog1?.description}
-        benefits={data?.point_blog1?.benefits}
-      />
+     
 
       <OralSurgeryProcedure procedures={data?.paras1} />
 

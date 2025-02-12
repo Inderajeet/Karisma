@@ -3,10 +3,10 @@ import React from "react";
 const SkinRejuvenation = ({ data }) => {
   return (
     <div style={styles.container}>
-      <h1 style={styles.mainTitle}>{data?.title}</h1>
+      <h1 className="title" style={styles.mainTitle}>{data?.title}</h1>
       {data.sections && data.sections.map((section, index) => (
         <div key={index} style={styles.section}>
-          <h2 style={styles.title}>{section.name}</h2>
+          <h2 className="title" style={styles.title}>{section.name}</h2>
           <p style={styles.description}>{section.description}</p>
           {section.points && (
             <ul style={styles.list}>
@@ -18,7 +18,7 @@ const SkinRejuvenation = ({ data }) => {
           {section.extra && <p style={styles.extra}>{section.extra}</p>}
           {section.subcategories && section.subcategories.map((sub, subIndex) => (
             <div key={subIndex} style={styles.subcategory}>
-              <h3 style={styles.subtitle}>{sub.name}</h3>
+              <h3  className="title" style={styles.subtitle}>{sub.name}</h3>
               <p style={styles.description}>{sub.description}</p>
               {sub.points && (
                 <ul style={styles.list}>

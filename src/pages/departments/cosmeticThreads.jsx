@@ -40,7 +40,7 @@ const CosmeticThreads = () => {
         desc={data?.para_sec1?.description}
       />
        <div style={styles.container}>
-        <h1 style={styles.mainTitle}>{data?.para_sec2?.title}</h1>
+        <h1 className="title" style={styles.mainTitle}>{data?.para_sec2?.title}</h1>
         {data?.para_sec2?.description?.map((desc, index) => (
           <p
             key={index}
@@ -52,7 +52,7 @@ const CosmeticThreads = () => {
         <div style={styles.procedureList}>
           {data?.para_sec2?.content?.map((procedure, index) => (
             <div key={index} style={styles.procedureCard}>
-              <h3 style={styles.procedureTitle}>{procedure.title}</h3>
+              <h3 className="title" style={styles.procedureTitle}>{procedure.title}</h3>
               <p style={styles.procedureDescription}>{procedure.description}</p>
               <a href={procedure.link} style={styles.readMore}>
                 Read More
@@ -86,22 +86,22 @@ const styles = {
       //   textAlign: "center",
     },
     mainTitle: {
-      fontSize: "32px",
+      // fontSize: "32px",
       fontWeight: "bold",
-      color: "#005a87",
+      // color: "#005a87",
       textAlign: "center",
       marginBottom: "20px",
     },
     subtitle: {
-      fontSize: "20px",
+      // fontSize: "20px",
       fontWeight: "600",
-      color: "#444",
+      // color: "#444",
       marginBottom: "15px",
     },
     description: {
       fontSize: "16px",
       lineHeight: "1.6",
-      color: "#555",
+      // color: "#555",
       marginBottom: "30px",
     },
     procedureList: {
@@ -119,12 +119,12 @@ const styles = {
     procedureTitle: {
       fontSize: "18px",
       fontWeight: "bold",
-      color: "#333",
+      // color: "#333",
       marginBottom: "10px",
     },
     procedureDescription: {
       fontSize: "14px",
-      color: "#666",
+      // color: "#666",
       marginBottom: "10px",
     },
     readMore: {
