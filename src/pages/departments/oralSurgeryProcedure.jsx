@@ -6,11 +6,11 @@ const OralSurgeryProcedure = ({ procedures }) => {
     <div style={styles.container}>
       {procedures?.map((procedure, index) => (
         <div key={index} style={styles.procedure}>
-          <h2 style={styles.title}>{procedure.title}</h2>
+          <h2 className="title" style={styles.title}>{procedure.title}</h2>
           <p style={styles.mainDescription}>{procedure.description}</p>
           {procedure?.subcategories?.map((sub, subIndex) => (
             <div key={subIndex} style={styles.subcategory}>
-              <h3 style={styles.subtitle}>{sub.name}</h3>
+              <h3 className="title" style={styles.subtitle}>{sub.name}</h3>
               <p style={styles.description}>{sub.description}</p>
             </div>
           ))}
