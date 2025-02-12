@@ -68,6 +68,7 @@ import CosmeticThreads from './pages/departments/cosmeticThreads';
 import Botox from './pages/departments/botox';
 import Rejuvenation from './pages/departments/rejuvenation';
 import DermaRelatedServices from './departments/derma/DermaRelatedServices';
+import PlasticSurgery from './pages/departments/plasticSurgery';
 
 
 Modal.setAppElement('#root'); // For accessibility
@@ -148,6 +149,7 @@ function LanguageWrapper() {
           <Route path="/derma/cosmetic-threads" element={<CosmeticThreads />} />
           <Route path="/derma/botox" element={<Botox />} />
           <Route path="/derma/rejuvenation" element={<Rejuvenation />} />
+          <Route path="/plastic-surgery" element={<PlasticSurgery />} />
         </Routes>
       </CartProvider>
       <Footer />

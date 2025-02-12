@@ -82,7 +82,7 @@ body, div, p,a,  li, span {
   font-family: 'CabinetGrotesk' !important;
 }
 
-p{
+p, li{ 
   color: rgb(92, 64, 51);
 }
 

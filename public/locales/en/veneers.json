@@ -12,19 +12,19 @@
             "description": " Veneers are ultra-thin, custom-crafted shells made from high-quality, tooth-colored materials. This transformative cosmetic treatment is designed to address a variety of dental concerns, including:",
             "benefits": [
                 {
-                    "title": "ChipsandCracks : ",
+                    "title": "ChipsandCracks",
                     "description": "Conceal minor imperfections for a smooth, polished look"
                 },
                 {
-                    "title": "Discoloration : ",
+                    "title": "Discoloration",
                     "description": "Cover stains or natural discoloration for a brighter smile."
                 },
                 {
-                    "title": "UnevenSpacing or Gaps : ",
+                    "title": "UnevenSpacing or Gaps",
                     "description": "Achieve symmetry by closing gaps and correcting irregularities."
                 },
                 {
-                    "title": "Worn-DownTeeth : ",
+                    "title": "Worn-DownTeeth",
                     "description": "Restore the natural shape and structure of teeth affected by wear over time."
                 }
             ]
