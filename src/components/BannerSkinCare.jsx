@@ -42,7 +42,7 @@ const BannerSkinCare = () => {
       >
         <div className="img-overlay"></div>
       </div>
-      <div className="container" style={{ position: "relative", top: '100px'}}>
+      <div className="container" style={{ position: "relative"}}>
         <div className="mainBanner">
           <div className="captionBx" style={{ color: "white" }}>
             <div className="row">

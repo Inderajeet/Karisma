@@ -361,12 +361,12 @@
           ]
         },
         {
-          "type": "content",
+          "type": "center-content",
           "title": "Experience Mesotherapy",
           "description": "Explore the world of possibilities that Mesotherapy offers for skin and body rejuvenation. Schedule a consultation at Karisma Specialist Medical Centertoday and discover how this advanced treatment can help you achieve radiant, youthful skin and a rejuvenated appearance."
         },
         {
-          "type": "list-services",
+          "type": "list-services-noImage",
           "listServices": [
             {
               "id": 1,
