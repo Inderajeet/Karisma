@@ -51,11 +51,23 @@ const renderFeature = (feature, index) => {
 
     return null;
 };
+export const applyFontFallback = (text) => {
+    if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
+  
+    return text.split("").map((char, index) =>
+      /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
+        ? char
+        : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
+    );
+  };
+  
+  
 
 const ContentSection = ({ title, description, features }) => {
     return (
         <div className="custsectionStyle customContainer">
-            <h2 className="title">{title}</h2>
+            <h2 className="title">{applyFontFallback(title)}</h2>
+            {/* <h2 className="title">{title}</h2> */}
             <p>{description}</p>
 
             {features && <p className="featuresContainer">{features.map(renderFeature)}</p>}

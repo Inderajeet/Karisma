@@ -4,6 +4,16 @@ import React from "react";
 import { Link } from "react-router-dom"; // For navigation
 import { useTranslation } from "react-i18next";
 
+export const applyFontFallback = (text) => {
+    if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
+  
+    return text.split("").map((char, index) =>
+      /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
+        ? char
+        : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
+    );
+  };
+
 export default function ListServicesNoImg({ services }) {
 
   console.log('inside services:', services);  // Debugging: log services
@@ -39,9 +49,9 @@ export default function ListServicesNoImg({ services }) {
                                   alt={doctor.name}
                                 />
                               </div> */}
-                              <div className="service-info-body">
-                                <div className="service-name">{doctor.name}</div>
+                              <div className="service-info-body third">
                                 <div className="doctor-info-inner">
+                                <div className="service-name">{applyFontFallback(doctor.name)}</div>
                                   <div className="doctor-specialities">
                                     <div className="service-departments">{doctor.designation}</div>
                                   </div>

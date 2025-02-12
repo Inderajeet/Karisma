@@ -10,59 +10,59 @@ import OralSurgeryProcedure from './oralSurgeryProcedure';
 import DoctorGrid from './doctor_grid';
 
 const BodyFiller = () => {
-    const [loading, setLoading] = useState(true);
-          const [error, setError] = useState(null);
-         const { t, ready } = useTranslation('derma');
-       
-         
-      
-          
-          const derma = t('derma', { returnObjects: true });
-          const data = derma?.body_filler;
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const { t, ready } = useTranslation('derma');
 
-          const temp =  <div style={styles.container}>
-         {data?.paras1?.content.map((filler, index) => (
-           <div key={index} style={styles.section}>
-             <h3 style={styles.title}>{filler.title}</h3>
-             <ul style={styles.list}>
-               {filler.details.map((item, i) => (
-                 <li key={i} style={styles.listItem}>
-                   <strong>{item.label}:</strong> {item.value}
-                 </li>
-               ))}
-             </ul>
-           </div>
-         ))}
-       </div>;
 
-const temp2 =  <div style={styles.container}>
-{data?.blog1?.additional_description.map((filler, index) => (
-  <div key={index} style={styles.section}>
-    <h3 style={styles.title}>{filler.title}</h3>
-   <p>{filler.description}</p>
-  </div>
-))}
-</div>;
 
-const temp3 =  <div>
-  <ul style={styles.list}>
-    {derma?.derma_filler?.point_blog1?.benefits?.map((point, index) => (
-      <li key={index} style={styles.point}>
-        <TbPointFilled /> {point}
-      </li>
+
+  const derma = t('derma', { returnObjects: true });
+  const data = derma?.body_filler;
+
+  const temp = <div style={styles.container}>
+    {data?.paras1?.content.map((filler, index) => (
+      <div key={index} style={styles.section}>
+        <h3 style={styles.title}>{filler.title}</h3>
+        <ul style={styles.list}>
+          {filler.details.map((item, i) => (
+            <li key={i} style={styles.listItem}>
+              <strong>{item.label}:</strong> {item.value}
+            </li>
+          ))}
+        </ul>
+      </div>
     ))}
-  </ul>
-  {derma?.derma_filler?.point_blog1?.para.map((p,i)=>{
-    return <div style={{marginTop:"40px"}} key={i}>
-      <p style={styles.subtitle}>{p?.title}</p>
-      <p style={styles.description}>{p?.description}</p>
-    </div>
-  })}
-</div>;
+  </div>;
+
+  const temp2 = <div style={styles.container}>
+    {data?.blog1?.additional_description.map((filler, index) => (
+      <div key={index} style={styles.section}>
+        <h3 style={styles.title}>{filler.title}</h3>
+        <p>{filler.description}</p>
+      </div>
+    ))}
+  </div>;
+
+  const temp3 = <div>
+    <ul style={styles.list}>
+      {derma?.derma_filler?.point_blog1?.benefits?.map((point, index) => (
+        <li key={index} style={styles.point}>
+          <TbPointFilled /> {point}
+        </li>
+      ))}
+    </ul>
+    {derma?.derma_filler?.point_blog1?.para.map((p, i) => {
+      return <div style={{ marginTop: "40px" }} key={i}>
+        <p style={styles.subtitle}>{p?.title}</p>
+        <p style={styles.description}>{p?.description}</p>
+      </div>
+    })}
+  </div>;
 
   return (
     <div>
-      <DeptBanner pageName = "Body Fillers" bannerImg = {data?.bannerImg}></DeptBanner>
+      <DeptBanner pageName="Body Fillers" bannerImg={data?.bannerImg}></DeptBanner>
       <Blog
         blogImg={data?.blog1?.blogImg}
         blogTitle={data?.blog1?.title}
@@ -72,12 +72,12 @@ const temp3 =  <div>
         // }
         extraContent={temp2}
       />
-      <ParaSection  title={data?.para_sec1?.title} desc={data?.para_sec1?.description}/>;
-    <PointBlog title={derma?.derma_filler?.point_blog1?.title} description={derma?.derma_filler?.point_blog1?.description} description2={derma?.derma_filler?.point_blog1?.description2} extraContent={temp3} />
-    <OralSurgeryProcedure procedures={derma?.derma_filler?.paras3} />
-    <ParaSection title={data?.para_sec2?.title} desc={data?.para_sec2?.description} />;
-    <ParaSection title={data?.para_sec3?.title} desc={data?.para_sec3?.description} />;
-   
+      <ParaSection title={data?.para_sec1?.title} desc={data?.para_sec1?.description} />;
+      <PointBlog title={derma?.derma_filler?.point_blog1?.title} description={derma?.derma_filler?.point_blog1?.description} description2={derma?.derma_filler?.point_blog1?.description2} extraContent={temp3} />
+      <OralSurgeryProcedure procedures={derma?.derma_filler?.paras3} />
+      <ParaSection title={data?.para_sec2?.title} desc={data?.para_sec2?.description} />;
+      <ParaSection title={data?.para_sec3?.title} desc={data?.para_sec3?.description} />;
+
     </div>
   )
 }

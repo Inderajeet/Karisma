@@ -1,11 +1,11 @@
 {
     "pediatric":{
-        "bannerImg":"../public/assets/Images/banner/dept_banner/dental.png",
+        "bannerImg":"../assets/Images/banner/dept_banner/dental.png",
         "blog1": {
             "title": "Pediatric Dentistry in UAE: Nurturing Exceptional Oral Health from the Start",
             "description": "Elevating Young Smiles: Premier Children’s Dentistry at Karisma Specialist Medical Center",
             "content": "At Karisma Specialist Medical Center in the UAE, we understand that your child’s smile & oral health is a precious asset that deserves the utmost care and expertise. Our esteemed pediatric dentistry team is dedicated to providing exceptional dental services that promote oral health and instill confidence in your child’s smile for years to come. From routine care to advanced treatments, we offer a comprehensive approach to pediatric dental health.",
-            "blogImg":"../public/assets/Images/banner/About Service/dental.png"
+            "blogImg":"../assets/Images/banner/About Service/dental.png"
         },
         "point_blog1": {
             "title": " Crafting a Legacy of Dental Excellence for Children",

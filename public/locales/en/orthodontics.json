@@ -1,6 +1,6 @@
 {
     "orthodontics":{
-        "bannerImg":"../public/assets/Images/banner/dept_banner/dental.png",
+        "bannerImg":"../assets/Images/banner/dept_banner/dental.png",
         "para_sec1":{
             "title": "Orthodontics: Enhance Your Smile and Oral Wellness",
             "description":[
@@ -12,7 +12,7 @@
             "title": "Orthodontics: Enhance Your Smile and Oral Wellness",
             "description": "Your Smile, Perfected",
             "content": "Discover the art of achieving a perfectly aligned smile at Karisma Specialist Medical Center, where our elite orthodontic treatments are tailored to meet your unique needs. Designed to enhance both your confidence and overall oral health, our services are delivered by expert orthodontists committed to providing the highest standard of care. Let us redefine your journey to dental excellence.",
-            "blogImg":"../public/assets/Images/banner/About Service/dental.png"
+            "blogImg":"../assets/Images/banner/About Service/dental.png"
         },
         "point_blog1": {
             "title": " What Are the Orthodontic Treatments ?",

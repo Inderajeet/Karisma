@@ -1,10 +1,10 @@
 {
     "gynecology": {
-        "bannerImg": "../public/assets/Images/banner/dept_banner/gyne.png",
+        "bannerImg": "../assets/Images/banner/dept_banner/gyne.png",
         "blog1": {
             "title": "Empowering Women’s Health at Karisma Specialist Medical Center",
             "content": "At Karisma Specialist Medical Center, we celebrate and prioritize women’s health, offering a comprehensive range of cosmetic gynecology and obstetric care services. Our team of experienced specialists is dedicated to empowering you with personalized care, comfort, and confidence at every stage of life. ",
-            "blogImg":"../public/assets/Images/banner/About Service/gyne.png"
+            "blogImg":"../assets/Images/banner/About Service/gyne.png"
         },
         "point_blog1": {
             "title": "Comprehensive Cosmetic Gynecology Services ",

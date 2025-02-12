@@ -41,7 +41,7 @@
   .slider-arrows {
     position: absolute;
     bottom: 20px;
-    right: 20px;
+    left: 20px;
     display: flex;
     gap: 10px;
     z-index: 10;

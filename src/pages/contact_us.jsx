@@ -20,7 +20,7 @@ export default function ContactPage() {
     return (
         <>
             <Banner></Banner>
-            <div className="happysmile-content-wrap ">
+            <div className="customContainer ">
                 <div className="row">
                     <div className="col-md-12 order-md-2">
                         <article

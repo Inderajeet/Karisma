@@ -5,7 +5,15 @@ import { useTranslation } from "react-i18next";
 import { useParams, Link } from "react-router-dom";
 import BannerDoctor from "../../components/Bannerdoctor";
 
-
+export const applyFontFallback = (text) => {
+    if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
+  
+    return text.split("").map((char, index) =>
+      /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
+        ? char
+        : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
+    );
+  };
 
 function DoctorPage() {
 
@@ -271,7 +279,7 @@ function DoctorPage() {
                                                                                     <div className="section-title-wrapper">
                                                                                         <div className="title-wrap">
                                                                                             <h4 className="section-title">
-                                                                                                {doctor.overview.title}
+                                                                                                {applyFontFallback(doctor.overview.title)}
                                                                                             </h4>
                                                                                         </div>
                                                                                     </div>
@@ -325,7 +333,7 @@ function DoctorPage() {
                                                                                     <div className="section-title-wrapper">
                                                                                         <div className="title-wrap">
                                                                                             <h4 className="section-title">
-                                                                                                {doctor.workExperience.title}
+                                                                                                {applyFontFallback(doctor.workExperience.title)}
                                                                                             </h4>
                                                                                         </div>
                                                                                         {/* .title-wrap */}
@@ -378,7 +386,7 @@ function DoctorPage() {
                                                                                     <div className="section-title-wrapper">
                                                                                         <div className="title-wrap">
                                                                                             <h4 className="section-title">
-                                                                                                {doctor.qualifications.title}
+                                                                                                {applyFontFallback(doctor.qualifications.title)}
                                                                                             </h4>
                                                                                         </div>
                                                                                     </div>
@@ -429,7 +437,7 @@ function DoctorPage() {
                                                                                     <div className="section-title-wrapper">
                                                                                         <div className="title-wrap">
                                                                                             <h4 className="section-title">
-                                                                                                {doctor.workExperience.title}
+                                                                                                {applyFontFallback(doctor.workExperience.title)}
                                                                                             </h4>
                                                                                         </div>
                                                                                         {/* .title-wrap */}
@@ -480,7 +488,7 @@ function DoctorPage() {
                                                                                     <div className="section-title-wrapper">
                                                                                         <div className="title-wrap">
                                                                                             <h4 className="section-title">
-                                                                                                {doctor.qualifications.title}
+                                                                                                {applyFontFallback(doctor.qualifications.title)}
                                                                                             </h4>
                                                                                         </div>
                                                                                     </div>
@@ -521,7 +529,7 @@ function DoctorPage() {
                                                                                     <div className="section-title-wrapper">
                                                                                         <div className="title-wrap">
                                                                                             <h4 className="section-title">
-                                                                                                {doctor.workingShifts.title}
+                                                                                                {applyFontFallback(doctor.workingShifts.title)}
                                                                                             </h4>
                                                                                         </div>
                                                                                         {/* .title-wrap */}
@@ -564,7 +572,7 @@ function DoctorPage() {
                                                                                                                     </svg>
                                                                                                                 </div>
                                                                                                                 <h4 className="flip-box-title">
-                                                                                                                    {doctor.workingShifts.flipFront1}
+                                                                                                                    {applyFontFallback(doctor.workingShifts.flipFront1)}
                                                                                                                 </h4>
                                                                                                                 <div className="flip-content">
                                                                                                                     {doctor.workingShifts.flipFrontDesc1}
@@ -586,7 +594,7 @@ function DoctorPage() {
                                                                                                                     </svg>
                                                                                                                 </div>
                                                                                                                 <h4 className="flip-box-title">
-                                                                                                                    {doctor.workingShifts.flipBack1}
+                                                                                                                    {applyFontFallback(doctor.workingShifts.flipBack1)}
                                                                                                                 </h4>
                                                                                                                 <div className="flip-content">
                                                                                                                     {doctor.workingShifts.flipBackDesc1}
@@ -628,7 +636,7 @@ function DoctorPage() {
                                                                                                                     </svg>
                                                                                                                 </div>
                                                                                                                 <h4 className="flip-box-title">
-                                                                                                                    {doctor.workingShifts.flipFront2}
+                                                                                                                    {applyFontFallback(doctor.workingShifts.flipFront2)}
                                                                                                                 </h4>
                                                                                                                 <div className="flip-content">
                                                                                                                     {doctor.workingShifts.flipFrontDesc2}
@@ -650,7 +658,7 @@ function DoctorPage() {
                                                                                                                     </svg>
                                                                                                                 </div>
                                                                                                                 <h4 className="flip-box-title">
-                                                                                                                    {doctor.workingShifts.flipBack2}
+                                                                                                                    {applyFontFallback(doctor.workingShifts.flipBack2)}
                                                                                                                 </h4>
                                                                                                                 <div className="flip-content">
                                                                                                                     {doctor.workingShifts.flipBackDesc2}

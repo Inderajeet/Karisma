@@ -91,19 +91,19 @@
             },
             {
               "label": "Pediatric",
-              "link": "/pediatric"
+              "link": "/dental/pediatric"
             },
             {
               "label": "Dental Surgical Treatment",
-              "link": "/"
+              "link": "/dental/dental-surgery"
             },
             {
               "label": "Oral Health (Gum Treatment)",
-              "link": "/"
+              "link": "/dental/oral-health"
             },
             {
               "label": "Restorative Dentistry",
-              "link": "/"
+              "link": "/dental/restorative-dentistry"
             }
           ]
         },
@@ -117,7 +117,7 @@
             },
             {
               "label": "Botox",
-              "link": "/derma/botox"
+              "link": "/derma/body-filler"
             },
             {
               "label": "Cosmetic Threads",
@@ -153,39 +153,39 @@
           "subMenu": [
             {
               "label": "Facials",
-              "link": "/"
+              "link": "/skincare/facials"
             },
             {
               "label": "Peeling",
-              "link": "/"
+              "link": "/skincare/peeling"
             },
             {
               "label": "Mesotherapy",
-              "link": "/"
+              "link": "/skincare/mesotherapy"
             },
             {
               "label": "Plasma face",
-              "link": "/"
+              "link": "/skincare/plasma-face"
             },
             {
               "label": "IV DRIP Glowing",
-              "link": "/"
+              "link": "/skincare/iv-drip-glowing"
             },
             {
               "label": "Collagen Threads",
-              "link": "/"
+              "link": "/skincare/collagen-threads"
             },
             {
               "label": "Piercing",
-              "link": "/"
+              "link": "/skincare/piercing"
             },
             {
               "label": "Facial machines",
-              "link": "/"
+              "link": "/skincare/facial-machines"
             },
             {
               "label": "Hair Treatment",
-              "link": "/"
+              "link": "/skincare/hair-treatment"
             }
           ]
         },
@@ -195,35 +195,35 @@
           "subMenu": [
             {
               "label": "Bikini Whitening & Rejuvenation",
-              "link": "/"
+              "link": "/gynecology/bikini-whitening-rejuvenation"
             },
             {
               "label": "Bikini Tightening - Belladona",
-              "link": "/"
+              "link": "/gynecology/bikini-tightening-belladona"
             },
             {
               "label": "Plasma Injection",
-              "link": "/"
+              "link": "/gynecology/plasma-injection"
             },
             {
               "label": "Gynecological filler",
-              "link": "/"
+              "link": "/gynecology/gynecological-filler"
             },
             {
               "label": "Vaginal Botox",
-              "link": "/"
+              "link": "/gynecology/vaginal-botox"
             },
             {
               "label": "Cosmetic Minor Surgeries",
-              "link": "/"
+              "link": "/gynecology/cosmetic-minor-surgeries"
             },
             {
               "label": "Gynecology aesthetic",
-              "link": "/"
+              "link": "/gynecology/aesthetic-gynecology"
             },
             {
               "label": "Medical Gynecology / Obstetric",
-              "link": "/"
+              "link": "/gynecology/obstetric"
             }
           ]
         },

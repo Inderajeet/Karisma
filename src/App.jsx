@@ -120,7 +120,9 @@ function LanguageWrapper() {
           <Route path="/dental" element={<Dental />} />
           <Route path="/dental/veneers" element={<Veneers />} />
           <Route path="/dental/implant" element={<Implant />} />
-          <Route path="/dental/orthodontics" element={<Orthodontics />} /> 
+          <Route path="/dental/orthodontics" element={<Orthodontics />} />
+          <Route path="/dental/implant" element={<Implant />} /> 
+          <Route path="/dental/orthodontics" element={<Orthodontics />} />    
           <Route path="/dental/teeth-whitening" element={<TeethWhitening />} />  
           <Route path="/dental/mouth-rehabilitation" element={<MouthRehabilitation />} /> 
           <Route path="/dental/root-canal" element={<RootCanal />} />
@@ -132,11 +134,14 @@ function LanguageWrapper() {
           <Route path="/slimming" element={<Slimming />} />
           <Route path="/slimming/machines" element={<Machines />} />
           <Route path="/slimming/injections" element={<Injections />} />
+          <Route path="/slimming/machines" element={<Machines />} />
+          <Route path="/slimming/injections" element={<Injections />} />
           <Route path="/slimming/other-services" element={<SlimmingOtherServices />} />
           <Route path="/laser-hair" element={<LaserHair />} />
           <Route path="/laser-hair/candela" element={<Candela />} />
           <Route path="/laser-hair/revlite" element={<Revlite />} />
           <Route path="/laser-hair/elite" element={<Elite />} />
+
           <Route path="/derma" element={<Derma />} />
           <Route path="/derma/derma-filler" element={<DermaFiller />} />
           <Route path="/derma/body-filler" element={<BodyFiller />} />

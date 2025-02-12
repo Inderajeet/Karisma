@@ -124,7 +124,7 @@ const SampleTabHeader = () => {
           className={`menu-item ${item.subMenu ? "menu-item-has-children" : ""
             }`}
         >
-          <a href={item.link}>{item.label}</a>
+          <Link to={`/${lng}${item.link}`}>{item.label}</Link>
           {item.subMenu && renderSubMenu(item.subMenu)}
         </li>
       ))}
@@ -179,7 +179,7 @@ const SampleTabHeader = () => {
                         className={`menu-item menu-item-type-custom menu-item-object-custom ${menu.subMenu ? "menu-item-has-children" : ""
                           }`}
                       >
-                        <a href={menu.link}>{menu.label}</a>
+                        <Link to={`/${lng}${menu.link}`}>{menu.label}</Link>
                         {menu.subMenu && renderSubMenu(menu.subMenu)}
                       </li>
                     ))}

@@ -65,7 +65,7 @@ body[dir="ltr"] {
 }
 
 /* Apply fallback globally */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
   font-family: 'Seasons', 'FallbackFont', sans-serif !important;
 }
 
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 body, div, p,a,  li, span {
-  font-family: 'CabinetGrotesk';
+  font-family: 'CabinetGrotesk' !important;
 }
 
 p, li{ 
