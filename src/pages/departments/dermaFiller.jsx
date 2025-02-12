@@ -23,7 +23,7 @@ const DermaFiller = () => {
           const temp =  <div style={styles.container}>
          {data?.paras1?.content.map((filler, index) => (
            <div key={index} style={styles.section}>
-             <h3 style={styles.title}>{filler.title}</h3>
+             <h3 className='title' style={styles.title}>{filler.title}</h3>
              <ul style={styles.list}>
                {filler.details.map((item, i) => (
                  <li key={i} style={styles.listItem}>
@@ -38,7 +38,7 @@ const DermaFiller = () => {
 const temp2 =  <div style={styles.container}>
 {data?.paras2?.content.map((filler, index) => (
   <div key={index} style={styles.section}>
-    <h3 style={styles.title}>{filler.title}</h3>
+    <h3 className='title' style={styles.title}>{filler.title}</h3>
    <p>{filler.description}</p>
   </div>
 ))}
@@ -71,15 +71,15 @@ const temp3 =  <div>
           data?.blog1?.additional_description
         ]}
       />
-      <ParaSection style={{"margin-top":"30px", "background-color":"transparent"}} title={data?.paras1?.title} extraContent={temp} />;
+      <ParaSection style={{"background-color":"transparent", "margin-bottom":"-100px", "text-align" : "left"}} title={data?.paras1?.title} extraContent={temp} />;
       <ParaSection title={data?.para_sec1?.title} desc={data?.para_sec1?.description}/>;
       <div style={styles.container}>
-        <h1 style={styles.mainTitle}>{data?.paras2?.title}</h1>
+        <h1 className='title' style={styles.mainTitle}>{data?.paras2?.title}</h1>
         <div>{temp2}</div>
         <div style={styles.procedureList}>
           {data?.paras2?.paras?.map((procedure, index) => (
             <div key={index} style={styles.procedureCard}>
-              <h3 style={styles.procedureTitle}>{procedure.title}</h3>
+              <h3 className='title' style={styles.procedureTitle}>{procedure.title}</h3>
               <p style={styles.procedureDescription}>{procedure.description}</p>
               <a href={procedure.link} style={styles.readMore}>
                 Read More
@@ -111,6 +111,7 @@ const styles = {
     marginBottom: "25px",
     padding: "15px",
     borderBottom: "1px solid #ddd",
+    textAlign: "left",
   },
   title: {
     fontSize: "20px",
@@ -135,9 +136,9 @@ const styles = {
   //   //   textAlign: "center",
   // },
   mainTitle: {
-    fontSize: "32px",
+    // fontSize: "32px",
     fontWeight: "bold",
-    color: "#005a87",
+    // color: "#005a87",
     textAlign: "center",
     marginBottom: "20px",
   },
@@ -166,9 +167,9 @@ const styles = {
     transition: "0.3s",
   },
   procedureTitle: {
-    fontSize: "18px",
+    // fontSize: "18px",
     fontWeight: "bold",
-    color: "#333",
+    // color: "#333",
     marginBottom: "10px",
   },
   procedureDescription: {

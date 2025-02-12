@@ -3,7 +3,7 @@ import "./para_section.css";
 import "./blog.css";
 const ParaSection = (props) => {
   return (
-   <div style={{...props.style, backgroundColor: '#D1BB9F', textAlign: 'center'}}>
+   <div className="para-container" style={{...props.style, textAlign: 'center'}}>
      <div className="benefits-container customContainer para-body">
       <h2 className="title para-heading">{props.title}</h2>
       <div className="">

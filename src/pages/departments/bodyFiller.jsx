@@ -112,12 +112,7 @@ const styles = {
     color: "#555",
     marginBottom: "5px",
   },
-  // container: {
-  //   maxWidth: "1000px",
-  //   margin: "50px auto",
-  //   padding: "20px",
-  //   //   textAlign: "center",
-  // },
+
   mainTitle: {
     fontSize: "32px",
     fontWeight: "bold",
