@@ -12,7 +12,7 @@ const DeptBanner = (props) => {
       >
         <div className="img-overlay"></div> 
       </div>
-      <div className="container" style={{ position: "relative", zIndex: "100" }}>
+      <div className="container" style={{ position: "relative", top: '100px' }}>
         <div className="mainBanner">
           <div className="captionBx" style={{ color: "white" }}>
             <div className="row">

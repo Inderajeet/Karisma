@@ -98,44 +98,53 @@ const MobileHeader = () => {
     if (error) return;
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
-    const toggleSubmenu = (index) => {
+    const toggleSubmenu = (event, index) => {
+        event.stopPropagation();
         setSubmenuStates((prev) => ({
             ...prev,
-            [index]: !prev[index], // Toggle the specific submenu state
+            [index]: !prev[index],
         }));
     };
 
+    const handleLinkClick = (item) => {
+        setMenuOpen(false); // Close the mobile menu on navigation
+        navigate(`/${lng}${item.link}`);
+    };
+
     const renderSubMenu = (subMenu, parentIndex) => (
-        <ul
+<ul
             className={`mobile-sub-menu ${submenuStates[parentIndex] ? "open" : ""}`}
             style={{ display: submenuStates[parentIndex] ? "block" : "none" }}
         >
-            {subMenu.map((item, index) => (
-                <li key={index} className="menu-item menu-font">
-                    {item.subMenu ? (
-                        <>
-                            <Link
-                                to={item.link}
-                                className={`menu-item-has-children menu-font`}
-                                onClick={(e) => {
-                                    e.preventDefault(); // Prevent default link navigation if it has submenus
-                                    toggleSubmenu(`${parentIndex}-${index}`);
-                                }}
-                            >
-                                {item.label}
-                                <span className="menu-icon">
-                                    {submenuStates[`${parentIndex}-${index}`] ? "▼" : "▶"}
+            {subMenu.map((item, index) => {
+                const currentIndex = parentIndex ? `${parentIndex}-${index}` : `${index}`;
+                return (
+                    <li key={index} className="menu-item menu-font">
+                        <span // Changed to span for consistent click handling
+                            className="menu-item-content"
+                            onClick={(event) => {
+                                event.stopPropagation(); // Stop bubbling from the text
+                                handleLinkClick(item);
+                            }}
+                        >
+                            {item.label}
+                            </span>
+                            {item.subMenu && (
+                                <span className="menu-icon" onClick={(event) => toggleSubmenu(event, currentIndex)}>
+                                    {submenuStates[currentIndex] ? "▼" : "▶"}
                                 </span>
-                            </Link>
-                            {renderSubMenu(item.subMenu, `${parentIndex}-${index}`)}
-                        </>
-                    ) : (
-                        <Link className="menu-font" to={item.link}>{item.label}</Link>
-                    )}
-                </li>
-            ))}
+                            )}
+                        {item.subMenu && renderSubMenu(item.subMenu, currentIndex)} {/* Recursive call with correct index */}
+                    </li>
+                );
+            })}
         </ul>
     );
+
+
+
+
+
 
     return (
         <header className={`mobile-header`}>
@@ -182,26 +191,27 @@ const MobileHeader = () => {
                     <ul className="mobile-menu-list">
                         {menuItems.map((menu, index) => (
                             <li key={index} className={`menu-item menu-font ${menu.subMenu ? "menu-item-has-children" : ""}`}>
-                                <Link
-                                    to={menu.link}
-                                    className={`menu-item-has-children menu-font`}
-                                    onClick={(e) => {
-                                        if (menu.subMenu) {
-                                            e.preventDefault(); // Prevent default link navigation if it has submenus
-                                            toggleSubmenu(index);
-                                        } else {
-                                            navigate(menu.link); // Navigate to the department page if no submenu
-                                        }
-                                    }}
-                                >
-                                    {menu.label}
+                                <div className="menu-item-content">
+                                    <span
+                                        className="menu-item-text"
+                                        onClick={(event) => {
+                                            if (menu.subMenu) {
+                                                event.preventDefault();
+                                                toggleSubmenu(event, index);
+                                            } else {
+                                                handleLinkClick(menu);
+                                            }
+                                        }}
+                                    >
+                                        {menu.label}
+                                    </span>
                                     {menu.subMenu && (
-                                        <span className="menu-icon">
+                                        <span className="menu-icon" onClick={(event) => toggleSubmenu(event, index)}>
                                             {submenuStates[index] ? "▼" : "▶"}
                                         </span>
                                     )}
-                                </Link>
-                                {menu.subMenu && renderSubMenu(menu.subMenu, index)}
+                                </div>
+                                {menu.subMenu && renderSubMenu(menu.subMenu, index)} {/* Start the recursive rendering */}
                             </li>
                         ))}
                     </ul>

@@ -21305,6 +21305,7 @@ td span svg.sDeactivate {
     bottom: 5%;
     right: 0;
     margin: auto;
+    margin-right: 4px;
 }
 
 .fixedRit ul li .bookNow {
@@ -21380,7 +21381,7 @@ td span svg.sDeactivate {
     }
     
     .fixedRit{
-        bottom: 10%;
+        bottom: 13%;
     }
     .mobile-book-now .imgAlign{
         width: 18%;
