@@ -46,7 +46,7 @@
                     ]
                 },
                 {
-                    "type": "center-content",
+                    "type": "color-content",
                     "title": "Transform your body and boost your confidence with ABAS Fit & ReFit at Karisma Specialist Medical Center.",
                     "description": "Schedule your consultation today to start your journey toward a more sculpted you!"
                 }
@@ -109,7 +109,7 @@
                     ]
                 },
                 {
-                    "type": "center-content",
+                    "type": "color-content",
                     "title": "Start your journey to a sculpted, youthful look with Power Shape 2 at Karisma Specialist Medical Center.",
                     "description": "Schedule a consultation today to experience a tailored approach that brings out your best!"
                 }
@@ -144,7 +144,7 @@
                     ]
                 },
                 {
-                    "type": "center-content",
+                    "type": "color-content",
                     "title": "Maximize Your Results with a Tailored Approach",
                     "description": "For best results, combine heater sessions with a balanced diet, regular exercise, and other treatments like Electrical Muscle Stimulation (EMS) for enhanced muscle tone and fat reduction."
                 },
@@ -164,8 +164,8 @@
                     "description": "Heater machines aren’t a standalone solution but an effective complement to your weight loss strategy. Incorporate them into your routine to maximize calorie burn and enhance your body-sculpting results."
                 },
                 {
-                    "type": "center-content",
-                    "title": "Start your journey towards a fitter, more confident you with Heater Therapy at Karisma Specialist Medical Center!"
+                    "type": "color-content",
+                    "heading": "Start your journey towards a fitter, more confident you with Heater Therapy at Karisma Specialist Medical Center!"
                 }
             ]
         },
@@ -218,8 +218,8 @@
                     "description": "EMS is a powerful tool for enhancing muscle tone and fat loss, but it works best alongside a balanced diet and regular exercise. For athletes, incorporating rest days ensures optimal muscle recovery."
                 },
                 {
-                    "type": "center-content",
-                    "title": "Achieve your dream physique with the transformative power of EMS at Karisma Specialist Medical Center!"
+                    "type": "color-content",
+                    "heading": "Achieve your dream physique with the transformative power of EMS at Karisma Specialist Medical Center!"
                 }
             ]
         },
@@ -273,7 +273,7 @@
                 },
                 {
                     "type": "center-content",
-                    "title": "Rediscover comfort and confidence with Pressotherapy at Karisma Specialist Medical Center—your partner in beauty and wellness."
+                    "heading": "Rediscover comfort and confidence with Pressotherapy at Karisma Specialist Medical Center—your partner in beauty and wellness."
                 }
             ]
         },
@@ -327,7 +327,7 @@
                 },
                 {
                     "type": "center-content",
-                    "title": "Book your consultation today and unlock a healthier, more radiant you."
+                    "heading": "Book your consultation today and unlock a healthier, more radiant you."
                 }
             ]
         },
@@ -397,7 +397,7 @@
                     ]
                 },
                 {
-                    "type": "center-content",
+                    "type": "color-content",
                     "title": "Schedule Your Consultation Today!",
                     "description": "At Karisma Specialist Medical Center, we offer personalized plans to help you achieve your body goals. Book a consultation today and discover how Meso Fat Injections can help you reshape your physique and boost your confidence."
                 }
@@ -535,7 +535,7 @@
         },
         {
             "id": "8",
-            "name": "machines/food-print-testing",
+            "name": "other-services/food-print-testing",
             "sections": [
                 {
                     "type": "content",
@@ -588,7 +588,7 @@
         },
         {
             "id": "9",
-            "name": "machines/diet-plans",
+            "name": "other-services/diet-plans",
             "sections": [
                 {
                     "type": "content",

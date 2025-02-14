@@ -23,7 +23,7 @@ const SlimmingRelatedServices = () => {
         // 🔹 Split the name from JSON: "facials/basic-hydraFacial" → ["facials", "basic-hydraFacial"]
         const foundService = servicesData?.find(service => {
             const serviceParts = service.name.split("/");
-            return serviceParts[0] === serviceName; // Match only the main service name
+            return serviceParts[0] === serviceName && (!subService || serviceParts[1] === subService);
         });
 
         setService(foundService || null);
@@ -46,12 +46,25 @@ const SlimmingRelatedServices = () => {
                                 features={section.features}
                             />
                         );
-                    } else if (section.type === "center-content") {
+                    } else if (section.type === "color-content") {
+                        return (
+                            <div style={{backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
+                            <ContentSection
+                                key={index}
+                                title={section.title}
+                                heading={section.heading}
+                                description={section.description}
+                                features={section.features}
+                            />
+                            </div>
+                        );
+                    }else if (section.type === "center-content") {
                         return (
                             <div style={{textAlign: 'center', backgroundColor:'#c4a98863'}}> 
                             <ContentSection
                                 key={index}
                                 title={section.title}
+                                heading={section.heading}
                                 description={section.description}
                                 features={section.features}
                             />

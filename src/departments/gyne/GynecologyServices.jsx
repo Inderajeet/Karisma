@@ -11,6 +11,7 @@ import Doctors from "../../pages/doctor";
 import ListServices from "../service templates/ListServices";
 import GyneBanner from "../../components/GyneBanner";
 import ListServicesNoImg from "../service templates/ListServicesNoImg";
+import DynamicBanner from "../../components/DynamicBanner";
 
 const GynecologyServices = () => {
     const { t, i18n } = useTranslation('gyneServices');
@@ -41,7 +42,7 @@ const GynecologyServices = () => {
 
     return (
         <>
-            <GyneBanner />
+            {/* <GyneBanner /> */}
             <div className="">
                 {service.sections.map((section, index) => {
                     console.log('Section-services:', section.listServices);  // Debugging: log section
@@ -50,20 +51,42 @@ const GynecologyServices = () => {
                             <ContentSection
                                 key={index}
                                 title={section.title}
+                                heading={section.heading}
                                 description={section.description}
                                 features={section.features}
                             />
                         );
-                    } else if (section.type === "center-content") {
+                    }else if (section.type === "center-content") {
                         return (
-                            <div style={{ textAlign: 'center', backgroundColor: '#c4a98863', paddingTop: '2rem' }}>
-                                <ContentSection
-                                    key={index}
-                                    title={section.title}
-                                    description={section.description}
-                                    features={section.features}
-                                />
+                            <div style={{textAlign: 'center', backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
+                            <ContentSection
+                                key={index}
+                                title={section.title}
+                                heading={section.heading}
+                                description={section.description}
+                                features={section.features}
+                            />
                             </div>
+                        );
+                    }else if (section.type === "color-content") {
+                        return (
+                            <div style={{backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
+                            <ContentSection
+                                key={index}
+                                title={section.title}
+                                heading={section.heading}
+                                description={section.description}
+                                features={section.features}
+                            />
+                            </div>
+                        );
+                    }else if (section.type === "header-title") {
+                        return (
+                            <HeaderTitle
+                                key={index}
+                                title={section.title}
+                                description={section.description}
+                            />
                         );
                     } else if (section.type === "image-content") {
                         console.log('ImageContent Data:', section);  // Debugging: log image-content
@@ -77,7 +100,15 @@ const GynecologyServices = () => {
                                 content={section.content} // Pass the content array
                             />
                         );
-                    } else if (section.type === "slider-doctors") {
+                    } else if (section.type === "banner") {
+                        return (
+                           <DynamicBanner 
+                           deptName={section.deptName} 
+                           serviceName={section.serviceName} 
+                           bannerImage={section.bannerImage}
+                           />
+                        );
+                    }else if (section.type === "slider-doctors") {
                         console.log('inside doctors')
                         return (
 
@@ -100,13 +131,16 @@ const GynecologyServices = () => {
                     }
                     else if (section.type === "list-services") {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
-                        return <ListServices key={index} services={section.listServices} />;
-                    } else if (section.type === "list-services-noImage") {
+                        return (
+                        <div style={{backgroundColor:'#c4a98863'}}>
+                        <ListServices key={index} services={section.listServices} />
+                        </div>);
+                    }else if (section.type === "list-services-noImage") {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
                         return (
-                            <div style={{ backgroundColor: '#c4a98863' }}>
-                                <ListServicesNoImg key={index} services={section.listServices} />
-                            </div>);
+                            <div style={{backgroundColor:'#c4a98863'}}>
+                        <ListServicesNoImg key={index} services={section.listServices} />
+                        </div>);
                     }
                     return null;  // If no valid section type found
                 })}

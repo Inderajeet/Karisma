@@ -51,6 +51,7 @@ const renderFeature = (feature, index) => {
 
     return null;
 };
+
 export const applyFontFallback = (text) => {
     if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
   
@@ -63,11 +64,12 @@ export const applyFontFallback = (text) => {
   
   
 
-const ContentSection = ({ title, description, features }) => {
+const ContentSection = ({ title, description, features, heading }) => {
     return (
         <div className="custsectionStyle customContainer">
             <h2 className="title">{applyFontFallback(title)}</h2>
             {/* <h2 className="title">{title}</h2> */}
+            <p  style={{fontFamily:'The Seasons', fontWeight:'600'}}> <strong>{heading}</strong></p>
             <p>{description}</p>
 
             {features && <p className="featuresContainer">{features.map(renderFeature)}</p>}

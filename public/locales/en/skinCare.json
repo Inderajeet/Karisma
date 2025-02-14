@@ -74,52 +74,52 @@
         },
         "related_services": [
             {
-                "title": "Facials",
+                "name": "Facials",
                 "link": "/",
                 "image": "https://damasmc.com/uploads/services/service_image9e83179c92b6cae4ddf3fdc1abd8998a8fb3aa4e.jpg"
             },
             {
-                "title": "Peeling",
+                "name": "Peeling",
                 "link": "/",
                 "image": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
             },
             {
-                "title": "Mesotherapy",
+                "name": "Mesotherapy",
                 "link": "/",
                 "image": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
             },
             {
-                "title": "Plasma Face",
+                "name": "Plasma Face",
                 "link": "/",
                 "image": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
             },
             {
-                "title": "Dermapen + Botox",
+                "name": "Dermapen + Botox",
                 "link": "/",
                 "image": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
             },
             {
-                "title": "IV DRIP Glowing",
+                "name": "IV DRIP Glowing",
                 "link": "/",
                 "image": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
             },
             {
-                "title": "Collagen Threads",
+                "name": "Collagen Threads",
                 "link": "/",
                 "image": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
             },
             {
-                "title": "Piercing",
+                "name": "Piercing",
                 "link": "/",
                 "image": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
             },
             {
-                "title": "Facial Machines",
+                "name": "Facial Machines",
                 "link": "/",
                 "image": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
             },
             {
-                "title": "Hair Treatment",
+                "name": "Hair Treatment",
                 "link": "/",
                 "image": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
             }

@@ -15,8 +15,8 @@ import BannerSkinCare from "../../components/BannerSkinCare";
 import HeaderTitle from "../service templates/HeaderTitle";
 import DynamicBanner from "../../components/DynamicBanner";
 
-const LaserServices = () => {
-    const { t, i18n } = useTranslation('laserServices');
+const DentalServices = () => {
+    const { t, i18n } = useTranslation('dentalServices');
     // const services = t('services', { returnObjects: true });
 
     const { serviceName } = useParams();
@@ -24,7 +24,7 @@ const LaserServices = () => {
     const [service, setService] = useState(null);
     // Load services from translations
     useEffect(() => {
-        const servicesData = t('laserServices:laserServices', { returnObjects: true });
+        const servicesData = t('dentalServices:dentalServices', { returnObjects: true });
         setServices(servicesData);
     }, [t]);
 
@@ -53,16 +53,18 @@ const LaserServices = () => {
                             <ContentSection
                                 key={index}
                                 title={section.title}
+                                heading={section.heading}
                                 description={section.description}
                                 features={section.features}
                             />
                         );
                     }else if (section.type === "center-content") {
                         return (
-                            <div style={{textAlign: 'center', backgroundColor:'#c4a98863', padding:' 2rem 0'}}> 
+                            <div style={{textAlign: 'center', backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
                             <ContentSection
                                 key={index}
                                 title={section.title}
+                                heading={section.heading}
                                 description={section.description}
                                 features={section.features}
                             />
@@ -70,10 +72,11 @@ const LaserServices = () => {
                         );
                     }else if (section.type === "color-content") {
                         return (
-                            <div style={{backgroundColor:'#c4a98863', paddingTop:'2rem', margin: '1rem 0'}}> 
+                            <div style={{backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
                             <ContentSection
                                 key={index}
                                 title={section.title}
+                                heading={section.heading}
                                 description={section.description}
                                 features={section.features}
                             />
@@ -149,4 +152,4 @@ const LaserServices = () => {
     );
 };
 
-export default LaserServices;
+export default DentalServices;

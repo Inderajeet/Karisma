@@ -5,7 +5,7 @@
             "name": "facials/basic-hydraFacial",
             "sections": [
                 {
-                    "type": "header-title",
+                    "type": "content",
                     "title": "Basic HydraFacial"
                 },
                 {

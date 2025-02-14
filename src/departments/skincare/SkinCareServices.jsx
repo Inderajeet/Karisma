@@ -13,6 +13,7 @@ import ListServices from "../service templates/ListServices";
 import ListServicesNoImg from "../service templates/ListServicesNoImg";
 import BannerSkinCare from "../../components/BannerSkinCare";
 import HeaderTitle from "../service templates/HeaderTitle";
+import DynamicBanner from "../../components/DynamicBanner";
 
 const SkinCareServices = () => {
     const { t, i18n } = useTranslation('skinCareServices');
@@ -43,7 +44,7 @@ const SkinCareServices = () => {
 
     return (
         <>
-            <BannerSkinCare />
+            {/* <BannerSkinCare /> */}
             <div className="">
                 {service.sections.map((section, index) => {
                     console.log('Section-services:', section.listServices);  // Debugging: log section
@@ -52,6 +53,7 @@ const SkinCareServices = () => {
                             <ContentSection
                                 key={index}
                                 title={section.title}
+                                heading={section.heading}
                                 description={section.description}
                                 features={section.features}
                             />
@@ -62,6 +64,7 @@ const SkinCareServices = () => {
                             <ContentSection
                                 key={index}
                                 title={section.title}
+                                heading={section.heading}
                                 description={section.description}
                                 features={section.features}
                             />
@@ -73,6 +76,7 @@ const SkinCareServices = () => {
                             <ContentSection
                                 key={index}
                                 title={section.title}
+                                heading={section.heading}
                                 description={section.description}
                                 features={section.features}
                             />
@@ -98,7 +102,15 @@ const SkinCareServices = () => {
                                 content={section.content} // Pass the content array
                             />
                         );
-                    } else if (section.type === "slider-doctors") {
+                    } else if (section.type === "banner") {
+                        return (
+                           <DynamicBanner 
+                           deptName={section.deptName} 
+                           serviceName={section.serviceName} 
+                           bannerImage={section.bannerImage}
+                           />
+                        );
+                    }else if (section.type === "slider-doctors") {
                         console.log('inside doctors')
                         return (
 

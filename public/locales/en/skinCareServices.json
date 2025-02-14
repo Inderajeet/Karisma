@@ -5,6 +5,12 @@
       "name": "facials",
       "sections": [
         {
+          "type": "banner",
+          "deptName": "SkinCare",
+          "serviceName": "Facials",
+          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+        },
+        {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
           "imageAlt": "Facials",
@@ -210,6 +216,12 @@
       "name": "peeling",
       "sections": [
         {
+          "type": "banner",
+          "deptName": "SkinCare",
+          "serviceName": "Peeling",
+          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+        },
+        {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
           "imageAlt": "Peeling Treatments",
@@ -297,6 +309,12 @@
       "id": "3",
       "name": "mesotherapy",
       "sections": [
+        {
+          "type": "banner",
+          "deptName": "SkinCare",
+          "serviceName": "Mesotherapy",
+          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+        },
         {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
@@ -440,6 +458,12 @@
       "name": "plasma-face",
       "sections": [
         {
+          "type": "banner",
+          "deptName": "SkinCare",
+          "serviceName": "Plasma Face",
+          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+        },
+        {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
           "imageAlt": "Plasma Face",
@@ -492,7 +516,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Stem Cell Therapy: Experience the Power of Cellular Renewal",
           "description": "Stem cell therapy for facial rejuvenation offers a multitude of benefits for those seeking to restore and revitalize their skin:"
         },
@@ -538,7 +562,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "A Synergistic Approach: Combining with Dermapen and HydraFacial",
           "description": "For an even more comprehensive approach to facial rejuvenation, consider combining stem cell therapy with:",
           "features": [
@@ -598,7 +622,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Book Your Consultation at Karisma Specialist Medical Center",
           "description": "Discover the transformative power of PRP, Stem Cell Therapy, and Exosome treatments. Rejuvenate your skin naturally, restore its youthful glow, and address multiple skin concerns with these cutting-edge therapies. Schedule your consultation today to start your journey to radiant, healthier skin!"
         }
@@ -608,6 +632,12 @@
       "id": "4",
       "name": "iv-drip-glowing",
       "sections": [
+        {
+          "type": "banner",
+          "deptName": "SkinCare",
+          "serviceName": "IV DRIP Glowing",
+          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+        },
         {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
@@ -637,7 +667,8 @@
                 "Enhanced Nutrition: A custom solution provides vital vitamins (excluding vitamin D) and minerals like zinc and iron, which are essential for maintaining skin health and a glowing complexion.",
                 "Antioxidant Boost: Antioxidants protect skin cells from free radicals, reducing damage and fighting the signs of aging.",
                 "Brighter, Even Skin Tone: By addressing nutritional deficiencies, IV therapy promotes a more uniform skin tone and a naturally brighter appearance.",
-                "Reduced Signs of Aging: Improved hydration and cellular function help reduce fine lines and wrinkles, revealing a smoother, more youthful look."              ]
+                "Reduced Signs of Aging: Improved hydration and cellular function help reduce fine lines and wrinkles, revealing a smoother, more youthful look."
+              ]
             }
           ]
         },
@@ -666,7 +697,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "A Synergistic Approach to Beauty",
           "description": "For optimal results, IV Drip Therapy for Glowing Skin can be paired with other treatments, such as slimming machiness, to enhance your overall beauty goals. Our experts will create a personalized treatment plan to help you achieve the glowing skin you've always desired."
         }
@@ -676,6 +707,12 @@
       "id": "4",
       "name": "collagen-threads",
       "sections": [
+        {
+          "type": "banner",
+          "deptName": "SkinCare",
+          "serviceName": "Collagen Threads",
+          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+        },
         {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
@@ -705,7 +742,8 @@
                 "Improved Skin Texture and Uniformity: Collagen threads promote collagen production and cell renewal, leading to smoother, more even-toned skin and a refined pore appearance.",
                 "Enhanced Elasticity: By stimulating collagen synthesis, the threads improve skin elasticity, helping to restore a firmer, more youthful feel to your face.",
                 "Natural Approach to Rejuvenation: Using biocompatible materials that mimic your body’s natural building blocks, the treatment delivers results that look and feel natural.",
-                "Comfortable and Convenient: A minimally invasive procedure, collagen threads require little to no anesthesia, offering a quick and comfortable experience with minimal downtime."              ]
+                "Comfortable and Convenient: A minimally invasive procedure, collagen threads require little to no anesthesia, offering a quick and comfortable experience with minimal downtime."
+              ]
             }
           ]
         },
@@ -735,8 +773,8 @@
           ]
         },
         {
-          "type": "content",
-          "description": "Embrace a natural lift and experience a smoother, firmer complexion with collagen threads at Karisma Specialist Medical Center."
+          "type": "color-content",
+          "heading": "Embrace a natural lift and experience a smoother, firmer complexion with collagen threads at Karisma Specialist Medical Center."
         }
       ]
     },
@@ -744,6 +782,12 @@
       "id": "4",
       "name": "piercing",
       "sections": [
+        {
+          "type": "banner",
+          "deptName": "SkinCare",
+          "serviceName": "Piercing",
+          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+        },
         {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
@@ -801,8 +845,8 @@
           "description": "A piercing can be a meaningful way to express your unique style and identity. At Karisma Body Art, we’re here to guide you through the process and ensure you get the perfect piercing to reflect who you are."
         },
         {
-          "type": "content",
-          "description": "Ready to make a statement? Schedule a consultation with our piercing experts today!"
+          "type": "color-content",
+          "heading": "Ready to make a statement? Schedule a consultation with our piercing experts today!"
         }
       ]
     },
@@ -810,6 +854,12 @@
       "id": "4",
       "name": "facial-machines",
       "sections": [
+        {
+          "type": "banner",
+          "deptName": "SkinCare",
+          "serviceName": "Facial Machines",
+          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+        },
         {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
@@ -892,7 +942,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Schedule a Consultation with Our Experienced Team",
           "description": "These are just a few of the advanced skin treatments offered at Karisma Specialist Medical Center. Schedule a consultation to discuss your specific concerns and develop a personalized treatment plan to achieve your desired results."
         }
@@ -902,6 +952,12 @@
       "id": "4",
       "name": "hair-treatment",
       "sections": [
+        {
+          "type": "banner",
+          "deptName": "SkinCare",
+          "serviceName": "Hair Treatment",
+          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+        },
         {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
@@ -974,7 +1030,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Schedule Your Consultation Today",
           "description": "These are just a few of the advanced hair restoration treatments we offer at Karisma Specialist Medical Center. Schedule a consultation with our experienced team to discuss your hair concerns and explore the best treatment plan for achieving your desired results."
         }

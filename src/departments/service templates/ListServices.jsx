@@ -4,15 +4,15 @@ import { Link } from "react-router-dom"; // For navigation
 import { useTranslation } from "react-i18next";
 
 export const applyFontFallback = (text) => {
-    if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
-  
-    return text.split("").map((char, index) =>
-      /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
-        ? char
-        : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
-    );
-  };
-  
+  if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
+
+  return text.split("").map((char, index) =>
+    /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
+      ? char
+      : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
+  );
+};
+
 export default function ListServices({ services }) {
 
   console.log('inside services:', services);  // Debugging: log services
@@ -20,7 +20,7 @@ export default function ListServices({ services }) {
 
   return (
     <>
-      <div className="customContainer" style={{ marginTop: "10px" }}>
+      <div className="customContainer" style={{ paddingTop: "10px" }}>
         <div className="col-md-12 order-md-2">
           <div className="post-inner">
             <div className="entry-content">
@@ -29,39 +29,42 @@ export default function ListServices({ services }) {
                   <div className="e-con-inner">
                     <div className="dd-row">
                       {services?.map((doctor) => (
-                        <Link
-                          to={`/${i18n.language}/${encodeURI(doctor.link)}`}
-                          key={doctor.id}
-                          className="service-info-cols"
-                          style={{ cursor: "pointer" }}
-                        >
+                        <div className="service-info-cols">
                           <div className="dd-inner">
-                            <div className="cust-doctor-info-wrap">
-                              <div className="listServiceImg">
-                                <img
-                                  loading="lazy"
-                                  decoding="async"
-                                  width={500}
-                                  height={456}
-                                  src={doctor.image}
-                                  className="img-responsive wp-post-image"
-                                  alt={doctor.name}
-                                />
-                              </div>
-                              <div className="service-info-body">
-                                <div className="doctor-info-inner">
-                                <div className="service-name">{applyFontFallback(doctor.name)}</div>
-                                  <div className="doctor-specialities">
-                                    <div className="service-departments">{doctor.designation}</div>
-                                  </div>
-                                  <div className="doctor-specialities">
-                                    <div className="service-departments"><strong>Read More</strong></div>
+
+                            <Link
+                              to={`/${i18n.language}/${encodeURI(doctor.link)}`}
+                              key={doctor.id}
+
+                              style={{ cursor: "pointer" }}
+                            >
+                              <div className="cust-doctor-info-wrap">
+                                <div className="listServiceImg">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width={500}
+                                    height={456}
+                                    src={doctor.image}
+                                    className="img-responsive wp-post-image"
+                                    alt={doctor.name}
+                                  />
+                                </div>
+                                <div className="service-info-body">
+                                  <div className="doctor-info-inner">
+                                    <div className="service-name">{applyFontFallback(doctor.name)}</div>
+                                    <div className="doctor-specialities">
+                                      <div className="service-departments">{doctor.designation}</div>
+                                    </div>
+                                    <div className="doctor-specialities">
+                                      <div className="service-departments"><strong>Read More</strong></div>
+                                    </div>
                                   </div>
                                 </div>
                               </div>
-                            </div>
+                            </Link>
                           </div>
-                        </Link>
+                        </div>
                       ))}
                     </div>
                   </div>
@@ -70,7 +73,7 @@ export default function ListServices({ services }) {
             </div>
           </div>
         </div>
-      </div>
+      </div >
     </>
   );
 }

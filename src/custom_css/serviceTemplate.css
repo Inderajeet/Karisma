@@ -407,3 +407,17 @@ b, strong{
     }
     
 }
+li.custom-list-item:before {
+    content: "-";
+    position: relative;
+    left: 0;
+    top: 0;
+    color: green;
+    font-size: large;
+    font-weight: 600;
+    width: 20px;
+    margin: 0 0 0 10px;
+    display: inline-flex
+;
+    height: 11px;
+}

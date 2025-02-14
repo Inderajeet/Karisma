@@ -15,8 +15,8 @@ import BannerSkinCare from "../../components/BannerSkinCare";
 import HeaderTitle from "../service templates/HeaderTitle";
 import DynamicBanner from "../../components/DynamicBanner";
 
-const LaserServices = () => {
-    const { t, i18n } = useTranslation('laserServices');
+const SlimmingServices = () => {
+    const { t, i18n } = useTranslation('slimmingServices');
     // const services = t('services', { returnObjects: true });
 
     const { serviceName } = useParams();
@@ -24,7 +24,7 @@ const LaserServices = () => {
     const [service, setService] = useState(null);
     // Load services from translations
     useEffect(() => {
-        const servicesData = t('laserServices:laserServices', { returnObjects: true });
+        const servicesData = t('slimmingServices:slimmingServices', { returnObjects: true });
         setServices(servicesData);
     }, [t]);
 
@@ -57,29 +57,29 @@ const LaserServices = () => {
                                 features={section.features}
                             />
                         );
-                    }else if (section.type === "center-content") {
+                    } else if (section.type === "center-content") {
                         return (
-                            <div style={{textAlign: 'center', backgroundColor:'#c4a98863', padding:' 2rem 0'}}> 
-                            <ContentSection
-                                key={index}
-                                title={section.title}
-                                description={section.description}
-                                features={section.features}
-                            />
+                            <div style={{ textAlign: 'center', backgroundColor: '#c4a98863', paddingTop: '2rem' }}>
+                                <ContentSection
+                                    key={index}
+                                    title={section.title}
+                                    description={section.description}
+                                    features={section.features}
+                                />
                             </div>
                         );
-                    }else if (section.type === "color-content") {
+                    } else if (section.type === "color-content") {
                         return (
-                            <div style={{backgroundColor:'#c4a98863', paddingTop:'2rem', margin: '1rem 0'}}> 
-                            <ContentSection
-                                key={index}
-                                title={section.title}
-                                description={section.description}
-                                features={section.features}
-                            />
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '2rem' }}>
+                                <ContentSection
+                                    key={index}
+                                    title={section.title}
+                                    description={section.description}
+                                    features={section.features}
+                                />
                             </div>
                         );
-                    }else if (section.type === "header-title") {
+                    } else if (section.type === "header-title") {
                         return (
                             <HeaderTitle
                                 key={index}
@@ -99,13 +99,13 @@ const LaserServices = () => {
                                 content={section.content} // Pass the content array
                             />
                         );
-                    }else if (section.type === "banner") {
+                    } else if (section.type === "banner") {
                         return (
-                           <DynamicBanner 
-                           deptName={section.deptName} 
-                           serviceName={section.serviceName} 
-                           bannerImage={section.bannerImage}
-                           />
+                            <DynamicBanner
+                                deptName={section.deptName}
+                                serviceName={section.serviceName}
+                                bannerImage={section.bannerImage}
+                            />
                         );
                     } else if (section.type === "slider-doctors") {
                         console.log('inside doctors')
@@ -131,15 +131,15 @@ const LaserServices = () => {
                     else if (section.type === "list-services") {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
                         return (
-                        <div style={{backgroundColor:'#c4a98863'}}>
-                        <ListServices key={index} services={section.listServices} />
-                        </div>);
-                    }else if (section.type === "list-services-noImage") {
+                            <div style={{ backgroundColor: '#c4a98863' }}>
+                                <ListServices key={index} services={section.listServices} />
+                            </div>);
+                    } else if (section.type === "list-services-noImage") {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
                         return (
-                            <div style={{backgroundColor:'#c4a98863'}}>
-                        <ListServicesNoImg key={index} services={section.listServices} />
-                        </div>);
+                            <div style={{ backgroundColor: '#c4a98863', marginBottom: '12px' }}>
+                                <ListServicesNoImg key={index} services={section.listServices} />
+                            </div>);
                     }
                     return null;  // If no valid section type found
                 })}
@@ -149,4 +149,4 @@ const LaserServices = () => {
     );
 };
 
-export default LaserServices;
+export default SlimmingServices;
