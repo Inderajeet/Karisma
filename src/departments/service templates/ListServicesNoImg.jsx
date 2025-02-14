@@ -5,14 +5,14 @@ import { Link } from "react-router-dom"; // For navigation
 import { useTranslation } from "react-i18next";
 
 export const applyFontFallback = (text) => {
-    if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
-  
-    return text.split("").map((char, index) =>
-      /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
-        ? char
-        : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
-    );
-  };
+  if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
+
+  return text.split("").map((char, index) =>
+    /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
+      ? char
+      : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
+  );
+};
 
 export default function ListServicesNoImg({ services }) {
 
@@ -28,15 +28,17 @@ export default function ListServicesNoImg({ services }) {
               <div className="elementor elementor-73315">
                 <div className="elementor-element elementor-7a321f1b e-flex e-con-boxed e-con e-parent e-lazyloaded">
                   <div className="e-con-inner">
-                    <div className="dd-row" style={{paddingTop:'10px'}}>
+                    <div className="dd-row" style={{ paddingTop: '10px' }}>
                       {services?.map((doctor) => (
-                        <Link
-                          to={`/${i18n.language}/${encodeURI(doctor.link)}`}
-                          key={doctor.id}
-                          className="doctor-info-cols"
-                          style={{ cursor: "pointer" }}
-                        >
-                          <div className="dd-inner">
+                        <div className='doctor-info-cols'>
+                        <div className="dd-inner">
+
+                          <Link
+                            to={`/${i18n.language}/${encodeURI(doctor.link)}`}
+                            key={doctor.id}
+                            className=""
+                            style={{ cursor: "pointer" }}
+                          >
                             <div className="cust-service-info-wrap">
                               {/* <div className="doctor-thumbnail">
                                 <img
@@ -51,7 +53,7 @@ export default function ListServicesNoImg({ services }) {
                               </div> */}
                               <div className="service-info-body third">
                                 <div className="doctor-info-inner">
-                                <div className="service-name">{applyFontFallback(doctor.name)}</div>
+                                  <div className="service-name">{applyFontFallback(doctor.name)}</div>
                                   <div className="doctor-specialities">
                                     <div className="service-departments">{doctor.designation}</div>
                                   </div>
@@ -61,8 +63,9 @@ export default function ListServicesNoImg({ services }) {
                                 </div>
                               </div>
                             </div>
-                          </div>
-                        </Link>
+                          </Link>
+                        </div>
+                        </div>
                       ))}
                     </div>
                   </div>

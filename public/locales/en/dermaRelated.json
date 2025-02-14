@@ -1,11 +1,11 @@
 {
-    "skinCareRelated": [
+    "dermaRelated": [
         {
             "id": "1",
             "name": "dermal-fillers/body-confidence",
             "sections": [
                 {
-                    "type": "header-title",
+                    "type": "content",
                     "title": "Own Your Body Confidence at Karisma Specialist Medical Center"
                 },
                 {
@@ -76,14 +76,14 @@
         },
         {
             "id": "2",
-            "name": "dermal-fillers/hydraFacial-clear-skin",
+            "name": "dermal-fillers/sculpting",
             "sections": [
                 {
                     "type": "content",
                     "title": "Craft Your Ideal Charismatic Look at Karisma Specialist Medical Center"
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "description": "Our skilled cosmetic dermatologists use advanced techniques and premium products to sculpt the facial features you've always desired.",
                     "features": [
                         "Lips: Enhance volume and define lip shape for a fuller, more balanced smile.",

@@ -5,6 +5,12 @@
       "name": "aesthetic-gynecology",
       "sections": [
         {
+          "type": "banner",
+          "deptName": "Gynecology",
+          "serviceName": "Aesthetic Gynecology",
+          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+        },
+        {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
           "imageAlt": "Aesthetic Gynecology",
@@ -48,7 +54,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Begin Your Confidence Journey at Karisma Specialist Medical Center",
           "description": "Empower yourself with expert care designed for your unique needs. Contact Karisma Specialist Medical Center today to schedule a private consultation and explore how cosmetic gynecology can help you embrace your intimate health and confidence.",
           "features": []
@@ -76,7 +82,7 @@
               "id": 1,
               "name": "Dr. Huda Ebrahim Shaheen",
               "designation": "Obstetrics and Gynecology Specialist",
-              "image": "/assets/Images/home/Doctors.png",
+              "image": "/assets/Images/doctors/huda.png",
               "link": "dr-huda-ebrahim-shaheen"
             }
           ]
@@ -87,6 +93,12 @@
       "id": "2",
       "name": "gynecological-filler",
       "sections": [
+        {
+          "type": "banner",
+          "deptName": "Gynecology",
+          "serviceName": "Gynecological Filler",
+          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+        },
         {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
@@ -144,7 +156,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Rediscover Your Confidence",
           "description": "Empower yourself with gynecological fillers at Karisma Specialist Medical Center. Contact us today to schedule your consultation and explore how this innovative treatment can enhance your intimate well-being."
         },
@@ -170,7 +182,7 @@
               "id": 1,
               "name": "Dr. Huda Ebrahim Shaheen",
               "designation": "Obstetrics and Gynecology Specialist",
-              "image": "/assets/Images/home/Doctors.png",
+              "image": "/assets/Images/doctors/huda.png",
               "link": "dr-huda-ebrahim-shaheen"
             }
           ]
@@ -182,9 +194,15 @@
       "name": "obstetric",
       "sections": [
         {
+          "type": "banner",
+          "deptName": "Gynecology",
+          "serviceName": "Medical Gynecology / Obstetric",
+          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+        },
+        {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
-          "imageAlt": "Gynecological Filler",
+          "imageAlt": "Medical Gynecology / Obstetric",
           "title": "Medical Gynecology / Obstetric",
           "content": [
             {
@@ -301,7 +319,7 @@
               "id": 1,
               "name": "Dr. Huda Ebrahim Shaheen",
               "designation": "Obstetrics and Gynecology Specialist",
-              "image": "/assets/Images/home/Doctors.png",
+              "image": "/assets/Images/doctors/huda.png",
               "link": "dr-huda-ebrahim-shaheen"
             }
           ]
@@ -313,9 +331,15 @@
       "name": "plasma-injection",
       "sections": [
         {
+          "type": "banner",
+          "deptName": "Gynecology",
+          "serviceName": "Plasma Injection",
+          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+        },
+        {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
-          "imageAlt": "Gynecological Filler",
+          "imageAlt": "Plasma Injection",
           "title": "Plasma Injection",
           "content": [
             {
@@ -382,14 +406,9 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Rediscover Confidence and Comfort",
           "description": "Reclaim your intimate wellness with PRP Vaginal Injections at Karisma Specialist Medical Center. Schedule a consultation today and experience the benefits of natural, revitalized confidence."
-        },
-        {
-          "type": "content",
-          "title": "Your Health, Our Priority",
-          "description": "At Karisma Specialist Medical Center, we are committed to delivering world-class care to women at every stage of life. Schedule a consultation today to take the first step towards optimal health and well-being"
         },
         {
           "type": "content",
@@ -413,97 +432,8 @@
               "id": 1,
               "name": "Dr. Huda Ebrahim Shaheen",
               "designation": "Obstetrics and Gynecology Specialist",
-              "image": "/assets/Images/home/Doctors.png",
+              "image": "/assets/Images/doctors/huda.png",
               "link": "dr-huda-ebrahim-shaheen"
-            }
-          ]
-        },
-        {
-          "type": "list-services",
-          "listServices": [
-            {
-              "id": 1,
-              "name": "Dr. Ramilia Anarkulova",
-              "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
-              "designation": "Beauty consultant"
-            },
-            {
-              "id": 2,
-              "name": "Dr. Ramilia Anarkulova",
-              "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
-              "designation": "Beauty consultant"
-            },
-            {
-              "id": 2,
-              "name": "Dr. Ramilia Anarkulova",
-              "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
-              "designation": "Beauty consultant"
-            },
-            {
-              "id": 2,
-              "name": "Dr. Ramilia Anarkulova",
-              "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
-              "designation": "Beauty consultant"
-            },
-            {
-              "id": 2,
-              "name": "Dr. Ramilia Anarkulova",
-              "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
-              "designation": "Beauty consultant"
-            },
-            {
-              "id": 2,
-              "name": "Dr. Ramilia Anarkulova",
-              "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
-              "designation": "Beauty consultant"
-            }
-          ]
-        },
-        {
-          "type": "offers",
-          "offers": [
-            {
-              "id": "1",
-              "name": "Basic MO Premium Smile",
-              "description": "Premium (Basic MO), where Simplicity Meets Affordability",
-              "image": "https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-1.webp",
-              "slug": "basic-mo-premium-smile",
-              "price": 1799,
-              "btn_text": "Book An Appointment",
-              "vat": 0
-            },
-            {
-              "id": 2,
-              "name": "G-Glass",
-              "description": "We offering our patients the most advanced and exceptional dental solutions.",
-              "image": "https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-9.webp",
-              "slug": "gc-snow-white-hollywood-smile",
-              "price": 4500,
-              "btn_text": "Book An Appointment"
-            },
-            {
-              "id": 3,
-              "name": "Zircon Smile",
-              "description": "Embrace Unmatched Strength with Stunning Clarity",
-              "image": "https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-6.webp",
-              "slug": "zircon-hollywood-smile",
-              "price": 6999,
-              "btn_text": "Book An Appointment"
-            },
-            {
-              "id": 4,
-              "name": "Ortho",
-              "description": "We understand the transformative power of a smile.",
-              "image": "https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-2.webp",
-              "link": "https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/",
-              "price": 499,
-              "btn_text": "Book An Appointment"
             }
           ]
         }
@@ -513,6 +443,12 @@
       "id": "5",
       "name": "bikini-whitening-rejuvenation",
       "sections": [
+        {
+          "type": "banner",
+          "deptName": "Gynecology",
+          "serviceName": "Bikini Whitening & Rejuvenation",
+          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+        },
         {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
@@ -531,7 +467,7 @@
         },
         {
           "type": "content",
-          "title": "Laser Bikini Whitening (Laveen Machine)",
+          "heading": "Laser Bikini Whitening (Laveen Machine)",
           "description": "Experience a non-invasive, painless solution for hyperpigmentation:",
           "features": [
             {
@@ -553,7 +489,7 @@
         },
         {
           "type": "content",
-          "title": "Mesotherapy Whitening",
+          "heading": "Mesotherapy Whitening",
           "description": "A targeted, minimally invasive solution for pigmentation concerns:",
           "features": [
             {
@@ -575,7 +511,7 @@
         },
         {
           "type": "content",
-          "title": "IV Drip Whitening",
+          "heading": "IV Drip Whitening",
           "description": "Internal nourishment for glowing skin:",
           "features": [
             {
@@ -597,7 +533,7 @@
         },
         {
           "type": "content",
-          "title": "TCA Peeling",
+          "heading": "TCA Peeling",
           "description": "Targeted exfoliation for brighter skin:",
           "features": [
             {
@@ -626,9 +562,14 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Embrace Your Confidence",
           "description": "Let Karisma Specialist Medical Center guide you on your journey to radiant, even-toned skin. Schedule a consultation today to explore our bikini whitening and rejuvenation treatments and unlock your most confident self."
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
         },
         {
           "type": "slider-doctors",
@@ -647,7 +588,7 @@
               "id": 1,
               "name": "Dr. Huda Ebrahim Shaheen",
               "designation": "Obstetrics and Gynecology Specialist",
-              "image": "/assets/Images/home/Doctors.png",
+              "image": "/assets/Images/doctors/huda.png",
               "link": "dr-huda-ebrahim-shaheen"
             }
           ]
@@ -658,6 +599,12 @@
       "id": "6",
       "name": "bikini-tightening-belladona",
       "sections": [
+        {
+          "type": "banner",
+          "deptName": "Gynecology",
+          "serviceName": "Bikini Tightening - Belladona",
+          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+        },
         {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
@@ -711,9 +658,14 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Rediscover Confidence with Karisma",
           "description": "Reclaim your comfort and confidence with the Belladona Vaginal Tightening Laser. Schedule a consultation today at Karisma Specialist Medical Center and embrace a new level of intimate wellness."
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
         },
         {
           "type": "slider-doctors",
@@ -732,7 +684,7 @@
               "id": 1,
               "name": "Dr. Huda Ebrahim Shaheen",
               "designation": "Obstetrics and Gynecology Specialist",
-              "image": "/assets/Images/home/Doctors.png",
+              "image": "/assets/Images/doctors/huda.png",
               "link": "dr-huda-ebrahim-shaheen"
             }
           ]
@@ -743,6 +695,12 @@
       "id": "7",
       "name": "vaginal-botox",
       "sections": [
+        {
+          "type": "banner",
+          "deptName": "Gynecology",
+          "serviceName": "Vaginal Botox",
+          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+        },
         {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
@@ -807,9 +765,14 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Reclaim Comfort and Confidence",
           "description": "Embrace a life free from discomfort with Vaginal Botox at Karisma Specialist Medical Center. Contact us today to schedule your consultation and take the first step toward renewed intimacy and well-being."
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
         },
         {
           "type": "slider-doctors",
@@ -828,7 +791,7 @@
               "id": 1,
               "name": "Dr. Huda Ebrahim Shaheen",
               "designation": "Obstetrics and Gynecology Specialist",
-              "image": "/assets/Images/home/Doctors.png",
+              "image": "/assets/Images/doctors/huda.png",
               "link": "dr-huda-ebrahim-shaheen"
             }
           ]
@@ -839,6 +802,12 @@
       "id": "8",
       "name": "cosmetic-minor-surgeries",
       "sections": [
+        {
+          "type": "banner",
+          "deptName": "Gynecology",
+          "serviceName": "Cosmetic Minor Surgeries",
+          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+        },
         {
           "type": "image-content",
           "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
@@ -866,9 +835,9 @@
                     {
                       "title": "Benefits",
                       "items": [
-                        "Tighter and more resilient skin.",
-                        "Long-lasting results with natural cell regeneration.",
-                        "Minimal discomfort during procedure."
+                        "Enhanced aesthetics and confidence.",
+                        "Reduced discomfort during physical activities.",
+                        "Lowered risk of irritation or infection."
                       ]
                     }
                   ]
@@ -888,7 +857,6 @@
                 }
               ]
             }
-            
           ]
         },
         {
@@ -951,9 +919,14 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Rediscover Confidence and Comfort",
           "description": "Take the first step toward enhanced confidence and intimate well-being. Contact Karisma Specialist Medical Center today to schedule your consultation and explore the transformative benefits of cosmetic gynecological surgery."
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
         },
         {
           "type": "slider-doctors",
@@ -972,7 +945,7 @@
               "id": 1,
               "name": "Dr. Huda Ebrahim Shaheen",
               "designation": "Obstetrics and Gynecology Specialist",
-              "image": "/assets/Images/home/Doctors.png",
+              "image": "/assets/Images/doctors/huda.png",
               "link": "dr-huda-ebrahim-shaheen"
             }
           ]

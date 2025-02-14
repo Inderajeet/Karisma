@@ -69,6 +69,10 @@ import Botox from './pages/departments/botox';
 import Rejuvenation from './pages/departments/rejuvenation';
 import DermaRelatedServices from './departments/derma/DermaRelatedServices';
 import PlasticSurgery from './pages/departments/plasticSurgery';
+import SlimmingServices from './departments/slimming/SlimmingServices';
+import DermaServices from './departments/derma/DermaServices';
+import DentalServices from './departments/dental/DentalServices';
+import Departments from './departments/Departments';
 
 
 Modal.setAppElement('#root'); // For accessibility
@@ -103,11 +107,15 @@ function LanguageWrapper() {
           <Route path="/services" element={<ServiceList />} />
           <Route path="/services/:serviceName" element={<ServiceTemplate />} />
           <Route path="/gynecology/:serviceName" element={<GynecologyServices />} />
-          <Route path="/laser/:serviceName" element={<LaserServices />} />
+          <Route path="/laser-hair-removal/:serviceName" element={<LaserServices />} />
           <Route path="/skinCare/:serviceName" element={<SkinCareServices />} />
+          <Route path="/slimming/:serviceName" element={<SlimmingServices />} />
+          <Route path="/derma/:serviceName" element={<DermaServices />} />
+          <Route path="/:deptName" element={<Departments />} />
           <Route path="/skinCare/:serviceName/:subService" element={<SkinCareRelatedServices />} />
           <Route path="/slimming/:serviceName/:subService" element={<SlimmingRelatedServices />} />
           <Route path="/derma/:serviceName/:subService" element={<DermaRelatedServices />} />
+          <Route path="/dental/:serviceName" element={<DentalServices />} />
           <Route path="/:serviceName" element={<FooterServices />} />  
           <Route path="/treatments" element={<TreatmentImages />} />  
 
@@ -116,10 +124,10 @@ function LanguageWrapper() {
           <Route path="checkout" element={<Checkout />} />
           <Route path="/doctor/:doctorName" element={<DoctorPage />} />
           {/* <Route path="doctor-1" element={<Doctor1 />} /> */}
-          <Route path="dept/dental" element={<Dept />} />
-          <Route path="/dental" element={<Dental />} />
-          <Route path="/dental/veneers" element={<Veneers />} />
-          <Route path="/dental/implant" element={<Implant />} />
+          {/* <Route path="dept/dental" element={<Dept />} /> */}
+          {/* <Route path="/dental" element={<Dental />} /> */}
+          {/* <Route path="/dental/veneers" element={<Veneers />} /> */}
+          {/* <Route path="/dental/implant" element={<Implant />} />
           <Route path="/dental/orthodontics" element={<Orthodontics />} />
           <Route path="/dental/implant" element={<Implant />} /> 
           <Route path="/dental/orthodontics" element={<Orthodontics />} />    
@@ -129,27 +137,27 @@ function LanguageWrapper() {
           <Route path="/dental/pediatric" element={<Pediatric />} />
           <Route path="/dental/dental-surgery" element={<DentalSurgery />} />
           <Route path="/dental/oral-health" element={<OralHealth />} />
-          <Route path="/dental/restorative-dentistry" element={<RestorativeDentistry />} />
-          <Route path="/gynecology" element={<Gynecology />} />
-          <Route path="/slimming" element={<Slimming />} />
-          <Route path="/slimming/machines" element={<Machines />} />
-          <Route path="/slimming/injections" element={<Injections />} />
-          <Route path="/slimming/machines" element={<Machines />} />
-          <Route path="/slimming/injections" element={<Injections />} />
-          <Route path="/slimming/other-services" element={<SlimmingOtherServices />} />
-          <Route path="/laser-hair" element={<LaserHair />} />
+          <Route path="/dental/restorative-dentistry" element={<RestorativeDentistry />} /> */}
+          {/* <Route path="/gynecology" element={<Gynecology />} />
+          <Route path="/slimming" element={<Slimming />} /> */}
+          {/* <Route path="/slimming/machines" element={<Machines />} /> */}
+          {/* <Route path="/slimming/injections" element={<Injections />} /> */}
+          {/* <Route path="/slimming/machines" element={<Machines />} /> */}
+          {/* <Route path="/slimming/injections" element={<Injections />} /> */}
+          {/* <Route path="/slimming/other-services" element={<SlimmingOtherServices />} /> */}
+          {/* <Route path="/laser-hair" element={<LaserHair />} />
           <Route path="/laser-hair/candela" element={<Candela />} />
           <Route path="/laser-hair/revlite" element={<Revlite />} />
-          <Route path="/laser-hair/elite" element={<Elite />} />
+          <Route path="/laser-hair/elite" element={<Elite />} /> */}
 
-          <Route path="/derma" element={<Derma />} />
-          <Route path="/derma/derma-filler" element={<DermaFiller />} />
-          <Route path="/derma/body-filler" element={<BodyFiller />} />
-          <Route path="/skincare" element={<SkincareGp />} />
-          <Route path="/derma/cosmetic-threads" element={<CosmeticThreads />} />
-          <Route path="/derma/botox" element={<Botox />} />
+          {/* <Route path="/derma" element={<Derma />} /> */}
+          {/* <Route path="/derma/derma-filler" element={<DermaFiller />} /> */}
+          {/* <Route path="/derma/body-filler" element={<BodyFiller />} /> */}
+          {/* <Route path="/skincare" element={<SkincareGp />} /> */}
+          {/* <Route path="/derma/cosmetic-threads" element={<CosmeticThreads />} /> */}
+          {/* <Route path="/derma/botox" element={<Botox />} /> */}
           <Route path="/derma/rejuvenation" element={<Rejuvenation />} />
-          <Route path="/plastic-surgery" element={<PlasticSurgery />} />
+          {/* <Route path="/plastic-surgery" element={<PlasticSurgery />} /> */}
         </Routes>
       </CartProvider>
       <Footer />

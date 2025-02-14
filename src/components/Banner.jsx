@@ -1,44 +1,15 @@
-import React, { useState, useEffect } from "react";
-import { fetchAllJson } from "../utils/fetchAllJson";
+import React from "react";
 import "./Header.css";
 import "./Banner.css";
 
 const Banner = () => {
-  const [jsonData, setJsonData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const data = await fetchAllJson();
-        setJsonData(data);
-        setLoading(false);
-      } catch (err) {
-        setError(err.message);
-        setLoading(false);
-      }
-    };
-
-    fetchData();
-  }, []);
-
-  if (loading) {
-    return ;
-  }
-
-  if (error) {
-    return ;
-  }
-
-  const { images } = jsonData;
-  const { contact } = images;
 
   return (
     <>
       <div
         className="background-img"
-        style={{ backgroundImage: `url(${contact?.bannerImg})` }}
+        style={{ backgroundImage: `url("https://damasmc.com/uploads/banners/bannerimage68e2318425ebbe7d65777d85eb6a11ecbabc116c.jpg")` }}
       >
         <div className="img-overlay"></div>
       </div>

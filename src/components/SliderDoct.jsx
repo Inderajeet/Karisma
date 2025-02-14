@@ -75,8 +75,7 @@ const SliderDoct = () => {
             >
               <div className="entry-title">
                 <h3 className="post-title-head" style={{paddingBottom: '0'}}>
-                  <a
-                    href={doctor.link}
+                  <div
                     className="post-title"
                     style={{
                       color: cards["heading-color"],
@@ -84,7 +83,7 @@ const SliderDoct = () => {
                     }}
                   >
                     {doctor.name}
-                  </a>
+                  </div>
                 </h3>
               </div>
               <div
@@ -97,20 +96,20 @@ const SliderDoct = () => {
                 {doctor.designation}
               </div>
               <div className="post-thumb home-doct">
-                <a href={doctor.link} className="post-image-link">
+                <div className="post-image-link">
                   <img
                     // src={Object.values(doctorsImg)[index]}
                     src={doctor.image}
                     alt={doctor.title}
                     className="img-fluid squared"
                   />
-                </a>
+                </div>
               </div>
               <div className="bottom-meta clearfix">
                 <ul className="nav bottom-meta-list meta-left">
                   <li>
                     <div>
-                      <a
+                      <div
                         href={doctor.link}
                         className="homefont"
                         style={{
@@ -120,7 +119,7 @@ const SliderDoct = () => {
                         }}
                       >
                         READ MORE
-                      </a>
+                      </div>
                     </div>
                   </li>
                 </ul>

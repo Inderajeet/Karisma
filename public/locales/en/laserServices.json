@@ -2,12 +2,18 @@
     "laserServices": [
         {
             "id": "1",
-            "name": "candela-gentleMax-pro",
+            "name": "candela",
             "sections": [
+                {
+                    "type": "banner",
+                    "deptName": "Laser Hair Removal",
+                    "serviceName": "Candela GentleMax Pro",
+                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                },
                 {
                     "type": "image-content",
                     "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
-                    "imageAlt": "Facials",
+                    "imageAlt": "Candela GentleMax Pro",
                     "title": "Candela GentleMax Pro",
                     "content": [
                         {
@@ -27,7 +33,7 @@
                             "items": [
                                 "Dual Wavelengths: Features Alexandrite and Nd:YAG lasers for tailored, effective treatments.",
                                 "Skin-Friendly: Safe for lighter and tanned skin tones with minimal risk of side effects.",
-                                "Comfort Redefined:: Integrated cooling technology ensures a gentle, comfortable experience."
+                                "Comfort Redefined: Integrated cooling technology ensures a gentle, comfortable experience."
                             ]
                         }
                     ]
@@ -35,7 +41,7 @@
                 {
                     "type": "content",
                     "title": "Why Choose Karisma Specialist Medical Center?",
-                    "description":"At Karisma Specialist Medical Center, your comfort and satisfaction are our priority. Our certified specialists deliver precise, personalized care using the latest laser technology for optimal results."
+                    "description": "At Karisma Specialist Medical Center, your comfort and satisfaction are our priority. Our certified specialists deliver precise, personalized care using the latest laser technology for optimal results."
                 },
                 {
                     "type": "content",
@@ -43,23 +49,23 @@
                     "description": "Experience the ultra attention to detail with non-invasive treatment for hair removal solution with (Gentle Max Pro). This non-invasive treatment, enhanced with controlled cooling technology, ensures no damage to surrounding skin, ensuring an overwhelmingly comfortable sensation. As a non-surgical procedure, it requires no downtime you can resume your daily activities immediately, with a simple recommendation to avoid sun exposure post-treatment.​"
                 },
                 {
-                    "type": "content",
-                    "title": "Our Doctors",
-                    "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
-                    "features": []
-                }, {
-                    "type": "content",
+                    "type": "center-content",
                     "title": "Take the First Step Toward Smooth Skin",
                     "description": "Schedule your session today to explore how the Candela GentleMax Pro can transform your skincare routine. Achieve lasting smoothness and confidence with our expert team guiding you every step of the way.",
                     "features": []
                 }
-                
             ]
         },
         {
             "id": "2",
-            "name": "revLite-si",
+            "name": "revlite",
             "sections": [
+                {
+                    "type": "banner",
+                    "deptName": "Laser Hair Removal",
+                    "serviceName": "RevLite SI",
+                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                },
                 {
                     "type": "image-content",
                     "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
@@ -88,13 +94,12 @@
                 {
                     "type": "content",
                     "title": "Painless and No Downtime with RevLite SI​",
-                    "description":"Experience a painless non-invasive treatment for hair bleaching solution with RevLite SI. This non-invasive treatment, enhanced with controlled cooling technology, ensures no damage to surrounding skin, offering a comfortable sensation often compared to a warm stone massage. As a non-surgical procedure, it requires no downtime patients can resume daily activities immediately, with a simple recommendation to avoid sun exposure post-treatment."
-
+                    "description": "Experience a painless non-invasive treatment for hair bleaching solution with RevLite SI. This non-invasive treatment, enhanced with controlled cooling technology, ensures no damage to surrounding skin, offering a comfortable sensation often compared to a warm stone massage. As a non-surgical procedure, it requires no downtime patients can resume daily activities immediately, with a simple recommendation to avoid sun exposure post-treatment."
                 },
                 {
                     "type": "content",
                     "title": "Safe for All Skin Types​",
-                    "description":"RevLite SI is among the safest laser hair bleaching options, supported by extensive research. It’s even effective for suntanned skin, though patients are advised to avoid sunbeds for a few weeks before treatment."
+                    "description": "RevLite SI is among the safest laser hair bleaching options, supported by extensive research. It’s even effective for suntanned skin, though patients are advised to avoid sunbeds for a few weeks before treatment."
                 },
                 {
                     "type": "content",
@@ -102,9 +107,75 @@
                     "description": "At Karisma Specialist Medical Center, your comfort and satisfaction are our top priorities. Our certified laser technicians ensure a seamless experience, guiding you through each step of your personalized treatment."
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Start Your Journey to Hair-Free Confidence​",
                     "description": "Schedule a consultation today to explore how RevLite SI can help you achieve smooth, radiant skin. Let our specialists create a custom plan tailored to your needs and goals."
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "elite",
+            "sections": [
+                {
+                    "type": "banner",
+                    "deptName": "Laser Hair Removal",
+                    "serviceName": "Elite IQ",
+                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                },
+                {
+                    "type": "image-content",
+                    "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+                    "imageAlt": "Elite IQ",
+                    "title": "Elite IQ",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "text": "The Elite iQ device is a highly versatile, dual-wavelength aesthetic platform enabling practitioners to perform many of the most requested aesthetic treatments."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "KNOWING A PATIENT’S MELANIN INDEX MATTERS"
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "World’s first FDA-cleared Melanin Reader™",
+                                "Measures melanin content to better guide treatment test spot settings",
+                                "Finds patient’s specific melanin reading on index of 0-99 which corresponds to skin type Provides treatment confidence."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "color-content",
+                    "title": "IQ",
+                    "features": [
+                        "Innovative Skintel technology and intuitive user interface Power",
+                        "Treat more patients faster with higher max energy",
+                        "Versatility: Skin and hair treatments in one device",
+                        "Style: Modern device and improved user experience"
+                    ]
+                },
+                {
+                    "type": "color-content",
+                    "title": "Benefits",
+                    "features": [
+                        "Fast treatments to maximize potential ROI",
+                        "Safe and effective treatments",
+                        "Treat all skin types, including tanned skin",
+                        "Easy to use"
+                    ]
+                },
+                {
+                    "type": "color-content",
+                    "title": "What it cures?",
+                    "features": [
+                        "Hair removal",
+                        "Pseudofolliculitis Barbae",
+                        "Sun damage",
+                        "Leg veins"
+                    ]
                 }
             ]
         }

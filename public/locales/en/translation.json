@@ -44,12 +44,12 @@
     {
       "title": "Laser Department",
       "description": "",
-      "link": "/laser-hair"
+      "link": "/laser-hair-removal"
     },
     {
       "title": "Plastic Surgery Department",
       "description": "",
-      "link": "/"
+      "link": "/plastic-surgery"
     }
   ],
   "menuItems": [
@@ -67,7 +67,7 @@
           "subMenu": [
             {
               "label": "Hollywood Smile (Veneers)",
-              "link": "/dental/veneers"
+              "link": "/dental/hollywood-smile-veneers"
             },
             {
               "label": "Implant",
@@ -131,19 +131,19 @@
         },
         {
           "label": "Laser Hair Removal",
-          "link": "/laser-hair",
+          "link": "/laser-hair-removal",
           "subMenu": [
             {
               "label": "Candela GentleMax Pro",
-              "link": "/laser-hair/candela"
+              "link": "/laser-hair-removal/candela"
             },
             {
               "label": "Cynosure Elite+",
-              "link": "/laser-hair/elite"
+              "link": "/laser-hair-removal/elite"
             },
             {
               "label": "RevLite SI",
-              "link": "/laser-hair/revlite"
+              "link": "/laser-hair-removal/revlite"
             }
           ]
         },
@@ -244,6 +244,10 @@
               "link": "/slimming/other-services"
             }
           ]
+        },
+        {
+          "label": "Plastic Surgery",
+          "link": "/plastic-surgery"
         }
       ]
     },
