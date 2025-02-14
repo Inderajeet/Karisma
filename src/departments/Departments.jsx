@@ -28,11 +28,12 @@ const Departments = () => {
 
     // Find the current doctor
     useEffect(() => {
-        if (services?.length > 0) {
-            const foundService = services?.find((doc) => doc.name === decodeURIComponent(deptName));
+        if (Array.isArray(services) && services.length > 0) {
+            const foundService = services.find((doc) => doc.name === decodeURIComponent(deptName));
             setService(foundService);
         }
     }, [services, deptName]);
+    
     console.log('Found Service:', services);  // Debugging: log found service
 
     console.log('Services data:', deptName);  // Debugging: log services
