@@ -11,31 +11,7 @@ const DentalSurgery = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const { t, ready } = useTranslation("dentalSurgery");
-  const [imageData, setImageData] = useState(null);
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const imageData = await fetchAllJson();
-
-        setImageData(imageData);
-      } catch (err) {
-        setError(err.message);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchData();
-  }, []);
-  if (!ready || loading) {
-    return <div>Loading...</div>;
-  }
-
-  if (error) {
-    return <div>Error: {error}</div>;
-  }
-  const { images } = imageData;
-
+ 
   const dentalSurgery = t("dentalSurgery", { returnObjects: true });
   return (
     <div>
