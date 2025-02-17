@@ -16,6 +16,8 @@ const HomeSlider = () => {
         const { home } = data.images;
         setSliderImages(home.sliderImages); // Extract slider images
         setLoading(false);
+        console.log("Fetched Images:", home.sliderImages);
+
       } catch (err) {
         setError(err.message);
         setLoading(false);
@@ -25,25 +27,38 @@ const HomeSlider = () => {
     fetchData();
   }, []);
 
+
   // Handle automatic sliding
   useEffect(() => {
+    if (sliderImages.length === 0) return;
     const interval = setInterval(() => {
-      changeSlide(1); // Move to the next slide
-    }, 5000); // Change slide every 5 seconds
+      changeSlide(1);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, [sliderImages]); // Add this dependency
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % sliderImages.length);
+    }, 5000); // Auto-slide every 5 seconds
+  
     return () => clearInterval(interval); // Cleanup on unmount
   }, [sliderImages]);
-
+  
   const changeSlide = (direction) => {
-    setIsSliding(true);
-    setTimeout(() => {
-      setCurrentImageIndex((prevIndex) => {
-        const newIndex = (prevIndex + direction + sliderImages.length) % sliderImages.length;
-        return newIndex;
-      });
-      setIsSliding(false);
-    }, 500); // Delay matches the CSS transition
+    console.log("Arrow Clicked! Moving:", direction);
+    
+    // Reset the auto-slide timer when user interacts
+    setCurrentImageIndex((prevIndex) => (prevIndex + direction + sliderImages.length) % sliderImages.length);
   };
-
+  
+  
+  useEffect(() => {
+    console.log("Updated Index:", currentImageIndex);
+  }, [currentImageIndex]);
+  
+  
+  
   if (loading) return ;
   if (error) return ;
 

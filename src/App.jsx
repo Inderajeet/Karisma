@@ -156,7 +156,7 @@ function LanguageWrapper() {
           {/* <Route path="/skincare" element={<SkincareGp />} /> */}
           {/* <Route path="/derma/cosmetic-threads" element={<CosmeticThreads />} /> */}
           {/* <Route path="/derma/botox" element={<Botox />} /> */}
-          <Route path="/derma/rejuvenation" element={<Rejuvenation />} />
+          {/* <Route path="/derma/rejuvenation" element={<Rejuvenation />} /> */}
           {/* <Route path="/plastic-surgery" element={<PlasticSurgery />} /> */}
         </Routes>
       </CartProvider>

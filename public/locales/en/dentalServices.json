@@ -1083,6 +1083,11 @@
                             "link": "dr-rania-ghanem"
                         }
                     ]
+                },
+                {
+                    "type": "content",
+                    "title": "Technical Details and Accessibility",
+                    "description": "Our website is optimized for a seamless user experience, featuring responsive design, fast load times, and secure browsing via HTTPS. Whether you're browsing on mobile or desktop, you’ll find all the information you need at your fingertips."
                 }
             ]
         }

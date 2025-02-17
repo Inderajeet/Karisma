@@ -4,12 +4,18 @@ import "./Banner.css";
 import { Link } from "react-router-dom";
 
 const DynamicBanner = ({ deptName, serviceName, bannerImage }) => {
+    console.log('Inside banner:', bannerImage);
+    const bannerImageUrl = bannerImage.startsWith("http") 
+  ? bannerImage 
+  : `${window.location.origin}/assets/${bannerImage.replace(/^(\.\.\/)+assets\//, '')}`;
+
+console.log("Final Banner Image URL:", bannerImageUrl); // Debugging
     return (
         <>
             <div
                 className="background-img"
                 style={{
-                    backgroundImage: `url("${bannerImage}")`
+                    backgroundImage: `url(${bannerImageUrl})`
                   }}            >
                 <div className="img-overlay"></div>
             </div>
