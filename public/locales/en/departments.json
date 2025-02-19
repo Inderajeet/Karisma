@@ -12,7 +12,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/About Service/dental.png",
+                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
                     "imageAlt": "Dental",
                     "title": "Dental",
                     "content": [
@@ -48,10 +48,9 @@
                 {
                     "type": "content",
                     "title": "Our Smile-Transforming Services",
-                    "description": "At Karisma, each facial is crafted to reflect your individual skin needs, ensuring a luxurious experience with optimal results:",
                     "features": [
                         "1. Hollywood Smile: Achieve the flawless smile of celebrities with our Hollywood Smile makeover. Whether it’s a special occasion or you simply want to feel radiant every day, we’ll help you attain red-carpet-worthy teeth.",
-                        "2. Natural-Looking Dental Implants: Say goodbye to the inconvenience of missing teeth. Our lifelike dental implants restore your smile, letting you eat, speak, and laugh with renewed confidence.",
+                        "2. Natural-Looking Dental Implants: Say goodbye to the inconvenience of missing teeth. Like the original dental implants restore your smile, letting you eat, speak, and laugh with renewed confidence.",
                         "3. Discreet Aligners and Braces: Achieve perfect alignment discreetly with our invisible aligner technology. Prefer the traditional metal look? We’ve got that too! Our options cater to every style and need."
                     ]
                 },
@@ -96,6 +95,54 @@
                         "Join the many patients who have discovered the Karisma difference. Contact us now to book your personalized consultation and take the first step toward achieving the smile of your dreams.",
                         "Your perfect smile and renewed confidence are just a visit away at Karisma Specialist Medical Center where artistry meets excellence."
                     ]
+                },
+                {
+                    "type": "content",
+                    "title": "Our Doctors",
+                    "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+                },
+                {
+                    "type": "slider-doctors",
+                    "title": "Meet Our Specialists",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 1,
+                            "name": "Dr. Hesham Nafei",
+                            "designation": "Dental General Practitioner",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": "dr-hesham-nafei"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Dr. Adel Al- Aswad",
+                            "designation": "Specialist Oral Surgeon",
+                            "image": "/assets/Images/doctors/Adel.png",
+                            "link": "dr-adel-al-aswad"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Dr. Rania Ghanem",
+                            "designation": "Prosthodontics Specialist",
+                            "image": "/assets/Images/doctors/Rania.png",
+                            "link": "dr-rania-ghanem"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Dr. Amir Magdy",
+                            "designation": "GP Dentist",
+                            "image": "/assets/Images/doctors/Amir.png",
+                            "link": "dr-amir-magdy"
+                        }
+                    ]
                 }
             ]
         },
@@ -111,7 +158,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/About Service/gyne.png",
+                    "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
                     "imageAlt": "Gynecology",
                     "title": "Gynecology",
                     "content": [
@@ -134,7 +181,7 @@
                         "Whitening & Rejuvenation: Revitalize and brighten the vulvar area, addressing pigmentation concerns and restoring a youthful glow.",
                         "Plasma Injection: Harness advanced plasma technology to promote tissue regeneration and address concerns like pigmentation or laxity.",
                         "Filler: Add volume to the labia majora, enhancing symmetry and achieving a more youthful appearance.",
-                        "Botox: Target pelvic floor issues, muscle tension, and discomfort during intimacy with specialized Botox treatments."
+                        "Anti-Aging Treatment: Target pelvic floor issues, muscle tension, and discomfort during intimacy with specialized Anti-Aging Treatment treatments."
                     ]
                 },
                 {
@@ -182,57 +229,65 @@
                         {
                             "id": 1,
                             "name": "Bikini Whitening & Rejuvenation",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/gyne.png",
                             "link": "gynecology/bikini-whitening-rejuvenation",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 2,
                             "name": "Bikini Tightening - Belladona",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/gyne.png",
                             "link": "gynecology/bikini-tightening-belladona",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 3,
                             "name": "Plasma Injection",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/gyne.png",
                             "link": "gynecology/plasma-injection",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 4,
                             "name": "Gynecological filler",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/gyne.png",
                             "link": "gynecology/gynecological-filler",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 5,
-                            "name": "Vaginal Botox",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "gynecology/vaginal-botox",
+                            "name": "Vaginal Anti-Aging Treatment",
+                            "image": "../assets/Images/banner/about_dept/gyne.png",
+                            "link": "gynecology/vaginal-anti-aging-treatment",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 6,
                             "name": "Cosmetic Minor Surgeries",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/gyne.png",
                             "link": "gynecology/cosmetic-minor-surgeries",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 7,
                             "name": "Aesthetic Gynecology",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/gyne.png",
                             "link": "gynecology/aesthetic-gynecology",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 8,
                             "name": "Medical Gynecology / Obstetric",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/gyne.png",
                             "link": "gynecology/obstetric",
+                            "readMore": "Read More",
                             "designation": ""
                         }
                     ]
@@ -278,7 +333,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/About Service/laser.png",
+                    "imageUrl": "../assets/Images/banner/about_dept/laser.png",
                     "imageAlt": "Laser Hair Removal",
                     "title": "Laser Hair Removal",
                     "content": [
@@ -371,15 +426,17 @@
                         {
                             "id": 1,
                             "name": "Candela GentleMax Pro",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/laser.png",
                             "link": "laser-hair-removal/candela",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 2,
                             "name": "RevLite SI",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/laser.png",
                             "link": "laser-hair-removal/revlite",
+                            "readMore": "Read More",
                             "designation": ""
                         }
                     ]
@@ -398,7 +455,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/About Service/skincare.png",
+                    "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
                     "imageAlt": "Skincare",
                     "title": "Skincare",
                     "content": [
@@ -449,64 +506,73 @@
                         {
                             "id": 1,
                             "name": "Facials",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/skincare.png",
                             "link": "skinCare/facials",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 2,
                             "name": "Peeling",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/skincare.png",
                             "link": "skinCare/peeling",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 3,
                             "name": "Mesotherapy",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/skincare.png",
                             "link": "skinCare/mesotherapy",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 4,
                             "name": "Plasma Face",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/skincare.png",
                             "link": "skinCare/plasma-face",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 6,
                             "name": "IV DRIP Glowing",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/skincare.png",
                             "link": "skinCare/iv-drip-glowing",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 7,
                             "name": "Collagen Threads",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/skincare.png",
                             "link": "skinCare/collagen-threads",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 8,
                             "name": "Piercing",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/skincare.png",
                             "link": "skinCare/piercing",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 9,
                             "name": "Facial Machines",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/skincare.png",
                             "link": "skinCare/facial-machines",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 10,
                             "name": "Hair Treatment",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/skincare.png",
                             "link": "skinCare/hair-treatment",
+                            "readMore": "Read More",
                             "designation": ""
                         }
                     ]
@@ -525,7 +591,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/About Service/slimming.png",
+                    "imageUrl": "../assets/Images/banner/about_dept/slimming.png",
                     "imageAlt": "Slimming",
                     "title": "Slimming",
                     "content": [
@@ -592,22 +658,25 @@
                         {
                             "id": 1,
                             "name": "Machines",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/slimming.png",
                             "link": "slimming/machines",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 2,
                             "name": "Injections",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/slimming.png",
                             "link": "slimming/injections",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 3,
                             "name": "Other Services",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/slimming.png",
                             "link": "slimming/other-services",
+                            "readMore": "Read More",
                             "designation": ""
                         }
                     ]
@@ -653,7 +722,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/About Service/dental.png",
+                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
                     "imageAlt": "Plastic Surgery",
                     "title": "Plastic Surgery",
                     "content": [
@@ -721,6 +790,33 @@
                     "type": "color-content",
                     "heading": "At Karisma, we understand that each patient's journey is unique. Our approach combines the latest techniques with personalised care, ensuring your comfort and satisfaction every step of the way.",
                     "description": "Ready for your transformation? Schedule a consultation with our expert doctors today."
+                },
+                {
+                    "type": "content",
+                    "title": "Our Doctors",
+                    "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+                },
+                {
+                    "type": "slider-doctors",
+                    "title": "Meet Our Specialists",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 1,
+                            "name": "Dr. Yuri Macrino",
+                            "designation": "Aesthetic plastic surgeon & consultant",
+                            "image": "/assets/Images/doctors/Dr Yuri.png",
+                            "link": "dr-yuri-macrino"
+                        }
+                    ]
                 }
             ]
         },
@@ -736,7 +832,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/About Service/derma.png",
+                    "imageUrl": "../assets/Images/banner/about_dept/derma.png",
                     "imageAlt": "Derma",
                     "title": "Derma",
                     "content": [
@@ -756,7 +852,7 @@
                     "description": "Our board-certified dermatologists craft personalized treatment plans, blending artistry with precision to meet your unique aesthetic goals.",
                     "features": [
                         "Filler Perfection: Sculpt, smooth, and rejuvenate with dermal fillers designed to restore youthful volume and contour.",
-                        "Anti-Aging Treatments Brilliance: Gently soften fine lines and wrinkles for a refreshed, natural look.",
+                        "“New Level Of Anti-Aging Treatments”​: Gently soften fine lines and wrinkles for a refreshed, natural look.",
                         "Timeless Threads: Lift, tighten, and redefine with advanced cosmetic threads ideal for skin rejuvenation, hair loss solutions, and body contouring.",
                         {
                             "title": "Glow-Boosting Injections",
@@ -787,29 +883,33 @@
                         {
                             "id": 1,
                             "name": "Dermal Fillers",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/derma.png",
                             "link": "derma/derma-filler",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 2,
                             "name": "Anti-Aging Treatments",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "derma/botox",
+                            "image": "../assets/Images/banner/about_dept/derma.png",
+                            "link": "derma/anti-aging-treatment",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 3,
                             "name": "Cosmetic Threads",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/derma.png",
                             "link": "derma/cosmetic-threads",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 4,
                             "name": "Rejuvenation Injection",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/banner/about_dept/derma.png",
                             "link": "derma/rejuvenation-injection",
+                            "readMore": "Read More",
                             "designation": ""
                         }
                     ]
@@ -834,10 +934,24 @@
                     "doctors": [
                         {
                             "id": 1,
+                            "name": "Dr. Sandro Ceci",
+                            "designation": "Dermatologist Specialist",
+                            "image": "/assets/Images/doctors/Dr Sandro.png",
+                            "link": "dr-sandro-ceci"
+                        },
+                        {
+                            "id": 2,
                             "name": "Dr. Manar Magdy",
                             "designation": "Dermatology Specialist",
                             "image": "/assets/Images/doctors/Dr Manar.png",
                             "link": "dr-manar-magdy"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Dr. Ramilia Anarkulova",
+                            "designation": "Dermatologist-Cosmetologist",
+                            "image": "/assets/Images/doctors/Dr Ramila.png",
+                            "link": "dr-ramilia-anarkulova"
                         }
                     ]
                 }

@@ -3,6 +3,16 @@ import "./Header.css";
 import "./Banner.css";
 import { Link } from "react-router-dom";
 
+export const applyFontFallback = (text) => {
+    if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
+  
+    return text.split("").map((char, index) =>
+      /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
+        ? char
+        : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
+    );
+  };
+
 const DynamicBanner = ({ deptName, serviceName, bannerImage }) => {
     console.log('Inside banner:', bannerImage);
     const bannerImageUrl = bannerImage.startsWith("http") 
@@ -26,7 +36,7 @@ console.log("Final Banner Image URL:", bannerImageUrl); // Debugging
                             <div className="col-12">
                                 <div className="page-title-wrap">
                                     <ul className="page-title-elements page-title-center pull-center">
-                                        <h1 className="page-title">{serviceName || deptName}</h1>
+                                        <h1 className="page-title">{applyFontFallback(serviceName || deptName)}</h1>
                                         <div className="breadcrumbs-wrap">
                                             <li className="breadcrumb-wrap">
                                                 <ul id="breadcrumb" className="breadcrumb nav">

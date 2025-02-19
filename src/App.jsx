@@ -73,6 +73,7 @@ import SlimmingServices from './departments/slimming/SlimmingServices';
 import DermaServices from './departments/derma/DermaServices';
 import DentalServices from './departments/dental/DentalServices';
 import Departments from './departments/Departments';
+import Careers from './pages/careers';
 
 
 Modal.setAppElement('#root'); // For accessibility
@@ -116,8 +117,10 @@ function LanguageWrapper() {
           <Route path="/slimming/:serviceName/:subService" element={<SlimmingRelatedServices />} />
           <Route path="/derma/:serviceName/:subService" element={<DermaRelatedServices />} />
           <Route path="/dental/:serviceName" element={<DentalServices />} />
-          <Route path="/:serviceName" element={<FooterServices />} />  
+          <Route path="/policies/:footSerName" element={<FooterServices />} />  
           <Route path="/treatments" element={<TreatmentImages />} />  
+          <Route path="/careers" element={<Careers />} />  
+
 
           {/* <Route path="skincare" element={<Skincare/>} /> */}
           <Route path="cart" element={<Cart />} />

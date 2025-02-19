@@ -6,12 +6,16 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { fetchAllJson } from "../utils/fetchAllJson"; // Import the utility function
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom"; // For navigation
+import { useParams } from "react-router-dom";
 
 const SliderDept = () => {
   const { t, i18n } = useTranslation();
   const [data, setData] = useState({ styles: {}, images: {} });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const { lng } = useParams();
+
 
   useEffect(() => {
     const fetchData = async () => {
@@ -28,8 +32,8 @@ const SliderDept = () => {
     fetchData();
   }, []);
 
-  if (loading) return ;
-  if (error) return ;
+  if (loading) return;
+  if (error) return;
 
   const { department } = data.styles;
   const { cards } = department;
@@ -72,8 +76,8 @@ const SliderDept = () => {
           >
             <div className="entry-title">
               <h3 className="post-title-head">
-                <a
-                  href={service.link}
+                <Link
+                  to={`/${lng}${service.link}`}
                   className="post-title"
                   style={{
                     color: cards["heading-color"],
@@ -81,7 +85,7 @@ const SliderDept = () => {
                   }}
                 >
                   {service.title}
-                </a>
+                </Link>
               </h3>
             </div>
             <div
@@ -94,20 +98,20 @@ const SliderDept = () => {
               {service.description}
             </div>
             <div className="post-thumb">
-              <a href={service.link} className="post-image-link">
+              <div className="post-image-link">
                 <img
                   src={Object.values(departmentImg)[index]}
                   alt={service.title}
                   className="img-fluid squared"
                 />
-              </a>
+              </div>
             </div>
             <div className="bottom-meta clearfix">
               <ul className="nav bottom-meta-list meta-left">
                 <li>
                   <div>
-                    <a
-                      href={service.link}
+                  <Link
+                  to={`/${lng}${service.link}`}
                       className="homefont"
                       style={{
                         color: cards["button-text-color"],
@@ -116,15 +120,16 @@ const SliderDept = () => {
                       }}
                     >
                       VIEW DETAILS
-                    </a>
+                    </Link>
                   </div>
                 </li>
               </ul>
             </div>
           </div>
         </SwiperSlide>
-      ))}
-    </Swiper>
+      ))
+      }
+    </Swiper >
   );
 };
 

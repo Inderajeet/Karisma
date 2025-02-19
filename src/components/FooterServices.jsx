@@ -15,7 +15,7 @@ const FooterServices = () => {
     const { t, i18n } = useTranslation('footerServices');
     // const services = t('services', { returnObjects: true });
 
-    const { serviceName } = useParams();
+    const { footSerName } = useParams();
     const [services, setServices] = useState([]);
     const [service, setService] = useState(null);
     // Load services from translations
@@ -27,14 +27,14 @@ const FooterServices = () => {
     // Find the current doctor
     useEffect(() => {
         if (services.length > 0) {
-            const foundService = services.find((doc) => doc.name === decodeURIComponent(serviceName));
+            const foundService = services.find((doc) => doc.name === decodeURIComponent(footSerName));
             setService(foundService);
         }
-    }, [services, serviceName]);
+    }, [services, footSerName]);
     console.log('Found Service:', services);  // Debugging: log found service
 
-    console.log('Services data:', serviceName);  // Debugging: log services
-    console.log("gyne services:", decodeURIComponent(serviceName));
+    console.log('Services data:', footSerName);  // Debugging: log services
+    console.log("gyne services:", decodeURIComponent(footSerName));
 
     if (!service) return <p>service not found!</p>;
 

@@ -3,13 +3,15 @@
     "about1Heading": "About us",
     "about1Desc1": "Karisma Stands for empowerment and self-expression, it is a luxury aesthetic brand that enhances and brings out your inner charisma by offering transformative treatments tailored to unique needs using latest technologies.",
     "about1Desc2": "",
-    "about1Btn": "READ MORE"
+    "about1Btn": "READ MORE",
+    "about1Link": "/about_us"
   },
   "about2": {
     "about2Heading1": "",
     "about2Heading2": "Why choose us?",
     "about2Desc": "At Karisma, we empower individuals by providing luxurious, personalized aesthetic treatments that enhance natural beauty and confidence. We blend advanced technology with the art of beauty to create transformative experiences that unlock the inner charisma within each of our client.",
-    "about2Btn": "READ MORE"
+    "about2Btn": "READ MORE",
+    "about2Link": "/about_us"
   },
   "services":{
     "servicesHeading": "Our Services",
@@ -24,12 +26,17 @@
     {
       "title": "Dermatology Department",
       "description": "",
-      "link": "/"
+      "link": "/derma"
     },
     {
       "title": "Skin Care Department",
       "description": "",
       "link": "/skincare"
+    },
+    {
+      "title": "Plastic Surgery Department",
+      "description": "",
+      "link": "/plastic-surgery"
     },
     {
       "title": "Gynecology Department",
@@ -45,11 +52,6 @@
       "title": "Laser Department",
       "description": "",
       "link": "/laser-hair-removal"
-    },
-    {
-      "title": "Plastic Surgery Department",
-      "description": "",
-      "link": "/plastic-surgery"
     }
   ],
   "menuItems": [
@@ -116,8 +118,8 @@
               "link": "/derma/derma-filler"
             },
             {
-              "label": "Botox",
-              "link": "/derma/botox"
+              "label": "Anti-Aging Treatment",
+              "link": "/derma/anti-aging-treatment"
             },
             {
               "label": "Cosmetic Threads",
@@ -125,7 +127,7 @@
             },
             {
               "label": "Rejuvenation Injection",
-              "link": "/derma/rejuvenation"
+              "link": "/derma/rejuvenation-injection"
             }
           ]
         },
@@ -210,8 +212,8 @@
               "link": "/gynecology/gynecological-filler"
             },
             {
-              "label": "Vaginal Botox",
-              "link": "/gynecology/vaginal-botox"
+              "label": "Vaginal Anti-Aging Treatment",
+              "link": "/gynecology/vaginal-anti-aging-treatment"
             },
             {
               "label": "Cosmetic Minor Surgeries",
@@ -257,7 +259,7 @@
     },
     {
       "label": "Careers",
-      "link": "/"
+      "link": "/careers"
     },
     {
       "label": "Contact Us",

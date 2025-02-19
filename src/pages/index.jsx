@@ -6,6 +6,7 @@ import VideoSection from "../components/VideoSection";
 import { useTranslation } from "react-i18next";
 import HomeSlider from "../components/HomeSlider";
 import '../components/Home.css';
+import { Link, useParams } from "react-router-dom";
 import AppointmentButton from "../components/AppointmentButton";
 
 const Index = () => {
@@ -13,6 +14,8 @@ const Index = () => {
   const [loading, setLoading] = useState(true); // State for loading
   const [error, setError] = useState(null); // State for error handling
   const { t, ready } = useTranslation();
+  const { lng } = useParams();
+
 
   useEffect(() => {
     const fetchData = async () => {
@@ -230,13 +233,12 @@ const Index = () => {
                             </div> */}
                             <div className="">
                               <div className="">
-                                <a
-                                  href="/"
+                              <Link to={`/${lng}${t('about1.about1Link')}`}
                                   className="cea-button-link elementor-button cea-button elementor-size-sm third slidebottomleft"
                                 >
                                   <span>
                                     {t('about1.about1Btn')}</span>
-                                </a>
+                                </Link>
                               </div>
                             </div>
 
@@ -330,8 +332,7 @@ const Index = () => {
                       {/* <AppointmentButton></AppointmentButton> */}
                       <div className="" >
                         <div className="">
-                          <a
-                            href="/"
+                        <Link to={`/${lng}${t('about2.about2Link')}`}
                             className="cea-button-link elementor-button cea-button elementor-size-sm third slidebottomleft"
 
                           >
@@ -340,7 +341,7 @@ const Index = () => {
                               </span>
                               <span className="cea-button-text" >{t('about2.about2Btn')}</span>
                             </span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

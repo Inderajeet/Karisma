@@ -8,11 +8,11 @@
                     "type": "banner",
                     "deptName": "Laser Hair Removal",
                     "serviceName": "Candela GentleMax Pro",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/laser.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+                    "imageUrl": "../assets/Images/banner/about_dept/laser.png",
                     "imageAlt": "Candela GentleMax Pro",
                     "title": "Candela GentleMax Pro",
                     "content": [
@@ -64,11 +64,11 @@
                     "type": "banner",
                     "deptName": "Laser Hair Removal",
                     "serviceName": "RevLite SI",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/laser.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+                    "imageUrl": "../assets/Images/banner/about_dept/laser.png",
                     "imageAlt": "RevLite SI",
                     "title": "RevLite SI",
                     "content": [
@@ -121,11 +121,11 @@
                     "type": "banner",
                     "deptName": "Laser Hair Removal",
                     "serviceName": "Elite IQ",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/laser.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+                    "imageUrl": "../assets/Images/banner/about_dept/laser.png",
                     "imageAlt": "Elite IQ",
                     "title": "Elite IQ",
                     "content": [

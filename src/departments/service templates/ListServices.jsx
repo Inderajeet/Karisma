@@ -57,7 +57,7 @@ export default function ListServices({ services }) {
                                       <div className="service-departments">{doctor.designation}</div>
                                     </div>
                                     <div className="doctor-specialities">
-                                      <div className="service-departments"><strong>Read More</strong></div>
+                                      <div className="service-departments"><strong>{doctor.readMore}</strong></div>
                                     </div>
                                   </div>
                                 </div>

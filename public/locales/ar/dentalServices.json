@@ -12,7 +12,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
                     "imageAlt": "Pediatric",
                     "title": "Pediatric",
                     "content": [
@@ -135,7 +135,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
                     "imageAlt": "Dental Surgery",
                     "title": "Dental Surgery",
                     "content": [
@@ -282,7 +282,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
                     "imageAlt": "Implants",
                     "title": "Implants",
                     "content": [
@@ -365,7 +365,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
                     "imageAlt": "Orthodontics",
                     "title": "Orthodontics",
                     "content": [
@@ -459,7 +459,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
                     "imageAlt": "Teeth Whitening",
                     "title": "Teeth Whitening",
                     "content": [
@@ -547,7 +547,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
                     "imageAlt": "Mouth Rehabilitation",
                     "title": "Mouth Rehabilitation",
                     "content": [
@@ -645,7 +645,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
                     "imageAlt": "Root Canal Treatment",
                     "title": "Root Canal Treatment",
                     "content": [
@@ -748,7 +748,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
                     "imageAlt": "Oral health (Gum treatment)",
                     "title": "Oral health (Gum treatment)",
                     "content": [
@@ -845,7 +845,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
                     "imageAlt": "Restorative Dentistry",
                     "title": "Restorative Dentistry",
                     "content": [
@@ -958,7 +958,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
                     "imageAlt": "Hollywood Smile (Veneers)",
                     "title": "Hollywood Smile (Veneers)",
                     "content": [
@@ -993,7 +993,7 @@
                     "description": "At Karisma Specialist Medical Center, artistry meets innovation. We combine cutting-edge technology with expert craftsmanship to deliver veneers that enhance your natural beauty and reflect your personal taste. With a legacy of excellence and mastery in veneer technology, we bring world-class smile transformations to UAE, helping you radiate confidence and timeless beauty."
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Explore Our Veneer Options",
                     "description": "We offer a range of veneer solutions to suit your preferences:"
                 },
@@ -1005,6 +1005,7 @@
                             "name": "E-Max Hollywood Smile",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "",
+                            "readMore": "Read More",
                             "designation": "Crafted from premium German ceramics, E-Max veneers offer exceptional durability and aesthetic appeal."
                         },
                         {
@@ -1012,6 +1013,7 @@
                             "name": "Elite (GC - 6D) Hollywood Smile",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "",
+                            "readMore": "Read More",
                             "designation": "Combining German materials with American innovation, these veneers deliver precision, durability, and artistry."
                         },
                         {
@@ -1019,6 +1021,7 @@
                             "name": "GC Snow White Hollywood Smile",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "",
+                            "readMore": "Read More",
                             "designation": "Experience unmatched brilliance with these revolutionary veneers, designed for captivating smiles."
                         },
                         {
@@ -1026,6 +1029,7 @@
                             "name": "Karisma Zircon Hollywood Smile",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "",
+                            "readMore": "Read More",
                             "designation": "Durable and stunning, these veneers provide a flawless, natural appearance for a smile that lasts."
                         },
                         {
@@ -1033,6 +1037,7 @@
                             "name": "Karisma Zircon Elite Hollywood Smile",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "",
+                            "readMore": "Read More",
                             "designation": "Push the boundaries of modern dentistry with translucent, durable veneers for a dazzling finish."
                         }
                     ]
@@ -1052,9 +1057,8 @@
                     "title": "Book Your Exclusive Consultation",
                     "description": "Transform your smile today at Karisma Specialist Medical Center, UAE. Schedule your personalized consultation to explore our premium veneer options and let our expert team craft a smile that reflects your confidence and beauty.",
                     "features": [
-                        "📍 Location: Karisma Specialist Medical Center, UAE",
-                        "📞 Contact: [Insert Phone Number]",
-                        "🌐 Website: [Insert Website URL]"
+                        "Location: Al Raha Walk, Al Muntazah Street, Sharjah",
+                        "Contact: +971 06 506 8777, +971 0504525189"
                     ]
                 },
                 {
@@ -1083,6 +1087,11 @@
                             "link": "dr-rania-ghanem"
                         }
                     ]
+                },
+                {
+                    "type": "content",
+                    "title": "Technical Details and Accessibility",
+                    "description": "Our website is optimized for a seamless user experience, featuring responsive design, fast load times, and secure browsing via HTTPS. Whether you're browsing on mobile or desktop, you’ll find all the information you need at your fingertips."
                 }
             ]
         }

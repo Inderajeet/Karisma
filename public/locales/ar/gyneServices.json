@@ -5,8 +5,15 @@
       "name": "aesthetic-gynecology",
       "sections": [
         {
+          "type": "banner",
+          "deptName": "Gynecology",
+          "serviceName": "Aesthetic Gynecology",
+          "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
+        },
+        {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
+
           "imageAlt": "Aesthetic Gynecology",
           "title": "Aesthetic Gynecology",
           "content": [
@@ -33,7 +40,7 @@
                 "Whitening Treatments: Achieve a brighter, more even skin tone in the vulvar area, addressing hyperpigmentation for a rejuvenated appearance.",
                 "Plasma Therapy: Harness the healing power of plasma technology to promote tissue rejuvenation, improving laxity and minor pigmentation concerns.",
                 "Fillers: Add volume and definition to the labia majora, creating a more balanced, aesthetically pleasing look and enhancing comfort.",
-                "Botox for Intimate Care: Botox may be used to address muscle hyperactivity and minimize certain aesthetic concerns. A personalized consultation ensures this option aligns with your needs and safety."
+                "Anti-Aging Treatment for Intimate Care: Anti-Aging Treatment may be used to address muscle hyperactivity and minimize certain aesthetic concerns. A personalized consultation ensures this option aligns with your needs and safety."
               ]
             }
           ]
@@ -48,7 +55,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Begin Your Confidence Journey at Karisma Specialist Medical Center",
           "description": "Empower yourself with expert care designed for your unique needs. Contact Karisma Specialist Medical Center today to schedule a private consultation and explore how cosmetic gynecology can help you embrace your intimate health and confidence.",
           "features": []
@@ -76,7 +83,7 @@
               "id": 1,
               "name": "Dr. Huda Ebrahim Shaheen",
               "designation": "Obstetrics and Gynecology Specialist",
-              "image": "/assets/Images/home/Doctors.png",
+              "image": "/assets/Images/doctors/huda.png",
               "link": "dr-huda-ebrahim-shaheen"
             }
           ]
@@ -88,65 +95,72 @@
       "name": "gynecological-filler",
       "sections": [
         {
+          "type": "banner",
+          "deptName": "Gynecology",
+          "serviceName": "الحشو النسائي ",
+          "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
+        },
+        {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
-          "imageAlt": "Gynecological Filler",
-          "title": "Gynecological Filler",
+          "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
+
+          "imageAlt": "الحشو النسائي ",
+          "title": "الحشو النسائي ",
           "content": [
             {
               "type": "heading",
-              "text": "Enhance Intimacy and Restore Confidence with Precision and Care"
+              "text": "تعزيز العالقة الحميمة واستعادة الثقة بدقة العناية"
             },
             {
               "type": "paragraph",
-              "text": "Rejuvenate and enhance your intimate area with gynecological fillers at Karisma Specialist Medical Center. Designed to restore volume, improve symmetry, and elevate your confidence, this non-surgical treatment offers a discreet solution tailored to your unique needs."
+              "text": "جددي وعززي منطقتك الحميمة بالحشو النسائي في مركز كاريزما الطبي التخصصي. ُصمم هذا العالج غير الجراحي الستعادة الحجم وتحسين التناسق ورفع ثقتك بنفسك، وهو يقدم حالً سرًيا مصمًما وفقًاالحتياجاتك الفريدة."
             },
             {
               "type": "heading",
-              "text": "What Are Gynecological Fillers?"
+              "text": "ما هي الحشوات النسائية؟ "
             },
             {
               "type": "paragraph",
-              "text": "Gynecological fillers are injectable gels made from hyaluronic acid, a natural substance that hydrates and restores volume. This treatment addresses age-related or postpartum changes, offering aesthetic and functional improvements."
+              "text": "الحشوات النسائية عبارة عن مواد هالمية قابلة للحقن مصنوعة من حمض الهيالورونيك، وهي مادة طبيعية تعمل على ترطيب واستعادة الحجم. يعالج هذا العالج التغيرات المرتبطة بالعمر أو ما بعد الوالدة، ويقدم تحسينات جمالية ووظيفية. "
             },
             {
               "type": "heading",
-              "text": "Key Benefits of Gynecological Fillers"
+              "text": "الفوائد الرئيسية للحشو النسائي "
             },
             {
               "type": "list",
               "items": [
-                "Restored Volume: Rejuvenate the labia majora and address volume loss for a youthful appearance.",
-                "Improved Symmetry: Achieve balance and harmony in the vulvar area.",
-                "Enhanced Confidence: Feel more comfortable and self-assured during intimate moments.",
-                "Non-Surgical Solution: Enjoy immediate results with minimal downtime and a safe, effective procedure."
+                "ستعادة الحجم: تجديد الشفرين الكبيرين ومعالجة فقدان الحجم للحصول على مظهر شبابي.",
+                "تحسين التناسق : تحقيق التوازن واالنسجام في منطقة الفرج. ",
+                "زيادة الثقة: اشعري بمزيد من الراحة والثقة بالنفس أثناء اللحظات الحميمة. ",
+                "حل غير جراحي : تمتع بنتائج فورية مع الحد األدنى من وقت التوقف وإجراء آمن وفعال. "
               ]
             }
           ]
         },
         {
           "type": "content",
-          "title": "Your Personalized Treatment Journey",
+          "title": "رحلة العالج الشخصية الخاصة بك",
           "features": [
-            "Expert Consultation: Meet with our board-certified gynecologists to discuss your goals and evaluate your suitability for fillers.",
-            "Customized Plan: We design a treatment plan based on your unique anatomy and desired outcomes.",
-            "Quick & Comfortable Procedure: The procedure typically takes less than an hour, with results lasting 6 to 9 months.",
-            "Ongoing Care: Repeat treatments can be scheduled to maintain your results."
+            "استشارة الخبراء :التِق بأطباء أمراض النساء المعتمدين لدينا لمناقشة أهدافك وتقييم مدى مالئ متك لفيلر المنطقة النسائية",
+            "خطة مخصصة: نصمم خطة عالج بنا ًء على تشريحك الفريد والنتائج المرجوة.",
+            "إجراء سريع ومريح : يستغرق اإلجراء عادةً أقل من ساعة، وتستمر النتائج من 6 إلى 9 أشهر. ",
+            "رعاية مستمرة: يمكن جدولة عالجات متكررة للحفاظ على نتائجك."
           ]
         },
         {
           "type": "content",
-          "title": "Why Choose Karisma Specialist Medical Center?",
+          "title": "لماذا تختار مركز كاريزما الطبي المتخصص؟",
           "features": [
-            "Specialized Expertise: Our experienced professionals utilize advanced techniques to ensure precise, natural-looking results.",
-            "Premium Products: We use high-quality, safe fillers that prioritize both efficacy and comfort.",
-            "Supportive Environment: Your privacy and comfort are our top priorities, with compassionate care in a discreet setting."
+            "خبرة متخصصة : يستخدم محترفونا ذوو الخبرة تقنيات متقدمة لضمان نتائج دقيقة وطبيعية المظهر. ",
+            "منتجات متميزة: نستخدم حشوات آمنة وعالية الجودة تعطي األولوية للفعالية والراحة ",
+            "بيئة داعمة : خصوصيتك وراحتك هي أولوياتنا القصوى، مع رعاية متعاطفة في بيئة سرية. "
           ]
         },
         {
-          "type": "content",
-          "title": "Rediscover Your Confidence",
-          "description": "Empower yourself with gynecological fillers at Karisma Specialist Medical Center. Contact us today to schedule your consultation and explore how this innovative treatment can enhance your intimate well-being."
+          "type": "color-content",
+          "title": "أعيدي اكتشاف ثقتك بنفسك",
+          "description": "عززي ثقتك بنفسك باستخدام الحشوات النسائية في مركز كاريزما الطبي التخصصي اتصلي بنا اليوم لتحديد موعد استشارتك واستكشاف كيف يمكن لهذا العالج المبتكر أن يعزز من صحتك الحميمة. "
         },
         {
           "type": "content",
@@ -170,7 +184,7 @@
               "id": 1,
               "name": "Dr. Huda Ebrahim Shaheen",
               "designation": "Obstetrics and Gynecology Specialist",
-              "image": "/assets/Images/home/Doctors.png",
+              "image": "/assets/Images/doctors/huda.png",
               "link": "dr-huda-ebrahim-shaheen"
             }
           ]
@@ -182,10 +196,17 @@
       "name": "obstetric",
       "sections": [
         {
+          "type": "banner",
+          "deptName": "Gynecology",
+          "serviceName": "Medical Gynecology / Obstetric",
+          "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
+        },
+        {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
-          "imageAlt": "Gynecological Filler",
-          "title": "Medical Gynecology or Obstetric",
+          "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
+
+          "imageAlt": "Medical Gynecology / Obstetric",
+          "title": "Medical Gynecology / Obstetric",
           "content": [
             {
               "type": "heading",
@@ -301,7 +322,7 @@
               "id": 1,
               "name": "Dr. Huda Ebrahim Shaheen",
               "designation": "Obstetrics and Gynecology Specialist",
-              "image": "/assets/Images/home/Doctors.png",
+              "image": "/assets/Images/doctors/huda.png",
               "link": "dr-huda-ebrahim-shaheen"
             }
           ]
@@ -313,83 +334,85 @@
       "name": "plasma-injection",
       "sections": [
         {
+          "type": "banner",
+          "deptName": "Gynecology",
+          "serviceName": "Plasma Injection",
+          "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
+        },
+        {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
-          "imageAlt": "Gynecological Filler",
-          "title": "Plasma Injection",
+          "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
+
+          "imageAlt": "حقن البالزما ",
+          "title": "حقن البالزما ",
           "content": [
             {
               "type": "heading",
-              "text": "Plasma Injection (PRP) for Intimate Rejuvenation at Karisma Specialist Medical Center"
+              "text": "حقن البالزما (PRP) لتجديد المنطقة الحميمة في مركز كاريزما الطبي المتخصص"
             },
             {
               "type": "paragraph",
-              "text": "Revitalize your intimate wellness with PRP Vaginal Injections at Karisma Specialist Medical Center—a natural and effective solution designed to rejuvenate tissues, improve elasticity, and promote overall intimate health."
+              "text": "قم بتنشيط صحتك الحميمة باستخدام حقن البالزما الغنية بالصفائح الدموية المهبلية في مركز كاريزما الطبي المتخصص، وهو حل طبيعي وفعال مصمم لتجديد األنسجة، وتحسين المرونة، وتعزيز الصحة الحميمة بشكل عام. "
             },
             {
               "type": "heading",
-              "text": "What is PRP Therapy?"
+              "text": "ما هو عالج البالزما الغنية بالصفائح الدموية؟"
             },
             {
               "type": "paragraph",
-              "text": "PRP (Platelet-Rich Plasma) therapy harnesses your body’s own healing power. A small amount of your blood is drawn, processed to isolate the plasma rich in growth factors, and injected into vaginal tissues. This stimulates tissue regeneration, enhances blood flow, and promotes collagen production."
+              "text": "يعمل عالج البالزما الغنية بالصفائح الدموية (PRP) على تسخير قوة الشفاء في جسمك. يتم سحب كمية صغيرة من دمك ومعالجتها لعزل البالزما الغنية بعوامل النمو، وحقنها في أنسجة المهبل. هذا يحفز تجديد األنسجة، ويعزز تدفق الدم، ويعزز إنتاج الكوالجين "
             },
             {
               "type": "heading",
-              "text": "How Does PRP Work?"
+              "text": "كيف يعمل البالزما الغنية بالصفائح الدموية؟ "
             },
             {
               "type": "list",
               "items": [
-                "Tissue Regeneration: PRP stimulates the body’s natural healing process, encouraging new cell growth.",
-                "Collagen Production: The treatment boosts collagen and elastin, improving firmness and elasticity.",
-                "Blood Flow Enhancement: Increased circulation promotes better tissue health and sensitivity."
+                "تجديد األنسجة: يحفز البالزما الغنية بالصفائح الدموية عملية الشفاء الطبيعية في الجسم، ويشجع نمو الخاليا الجديدة. ",
+                "إنتاج الكوالجين: يعزز العالج الكوالجين واإليالستين، مما يحسن الصالبة والمرونة ",
+                "تعزيز تدفق الدم : يعزز الدورة الدموية صحة األنسجة وحساسيتها بشكل أفضل. "
               ]
             },
             {
               "type": "heading",
-              "text": "Benefits of PRP Vaginal Injections"
+              "text": "فوائد حقن البالزما الغنية بالصفائح الدموية في المهبل "
             },
             {
               "type": "list",
               "items": [
-                "Improved Skin Quality: Achieve softer, rejuvenated vulvar skin with a youthful appearance.",
-                "Enhanced Elasticity: Enjoy firmer and tighter tissues for improved comfort and function.",
-                "Natural Rejuvenation: PRP uses your body’s own growth factors, making it a safe and biocompatible solution.",
-                "Potential Increased Sensitivity: Enhanced blood flow may lead to improved sensation and intimacy."
+                "تحسين جودة الجلد : احصل على بشرة أكثر نعومة وتجددًا في منطقة الفرج مع مظهر شبابي. ",
+                "مرونة محسنة : استمتع بأنسجة أكثر تماس ًكا وقوة لتحسين الراحة والوظيفة",
+                "التجديد الطبيعي : يستخدم البالزما الغنية بالصفائح الدموية عوامل نمو الجسم، مما يجعله حالً آمًنا ومتوافقا بيولوجًيا.",
+                "زيادة الحساسية المحتملة: قد يؤدي تدفق الدم المحسن إلى تحسين اإلحساس والحميمية "
               ]
             }
           ]
         },
         {
           "type": "content",
-          "title": "What to Expect",
+          "title": "ما الذي يمكن توقعه ؟ ",
           "features": [
-            "Consultation: Our expert gynecologists will discuss your goals and assess your suitability for PRP therapy.",
-            "Blood Draw & Preparation: A small sample of blood is drawn and processed to extract the PRP.",
-            "Targeted Injection: The PRP is carefully injected into specific vaginal areas to stimulate rejuvenation.",
-            "Session Time: Each session lasts approximately 30 minutes.",
-            "Treatment Plan: Typically, 3-6 sessions spaced 2-4 weeks apart are recommended for optimal results."
+            "االستشارة: سيناقش أطباء أمراض النساء الخبراء لدينا أهدافك ويقيمون مدى مالءمتك لعالج البالزما الغنية بالصفائح الدموية. ",
+            "سحب الدم والتحضير : يتم سحب عينة صغيرة من الدم ومعالجتها الستخراج البالزما الغنية بالصفائح الدموية. ",
+            "الحقن المستهدف : يتم حقن البالزما الغنية بالصفائح الدموية بعناية في مناطق مهبلية محددة لتحفيز التجديد ",
+            "مدة الجلسة : تستغرق كل جلسة حوالي 30 دقيقة.",
+            "خطة العالج : عادة،ً يوصى بإجراء 3-6 جلسات متباعدة بفاصل 2-4 أسابيع للحصول على نتائج مثالية."
           ]
         },
         {
           "type": "content",
-          "title": "Why Choose Karisma Specialist Medical Center?",
+          "title": "لماذا تختار مركز كاريزما الطبي المتخصص؟",
           "features": [
-            "Personalized Care Careation: We design tailored treatment plans to meet your unique needs.",
-            "Expert Guidance: Our board-certified gynecologists ensure your safety and comfort throughout the process.",
-            "Advanced Techniques: We use cutting-edge methods to deliver effective, lasting results."
+            "رعاية شخصية: نصمم خطط عالج مخصصة لتلبية احتياجاتك الفريدة. ",
+            "إرشادات الخبراء: يضمن أطباء أمراض النساء المعتمدون لدينا سالمتك وراحتك طوال العملية. ",
+            "تقنيات متقدمة: نستخدم أساليب متطورة لتقديم نتائج فعالة ودائمة. "
           ]
         },
         {
-          "type": "content",
-          "title": "Rediscover Confidence and Comfort",
-          "description": "Reclaim your intimate wellness with PRP Vaginal Injections at Karisma Specialist Medical Center. Schedule a consultation today and experience the benefits of natural, revitalized confidence."
-        },
-        {
-          "type": "content",
-          "title": "Your Health, Our Priority",
-          "description": "At Karisma Specialist Medical Center, we are committed to delivering world-class care to women at every stage of life. Schedule a consultation today to take the first step towards optimal health and well-being"
+          "type": "color-content",
+          "title": "اكتشف الثقة والراحة من جديد",
+          "description": "استعد عافيتك الحميمة مع حقن البالزما الغنية بالصفائح الدموية المهبلية في مركز كاريزما الطبي التخصصي. حدد موعدًا لالستشارة اليوم واستمتع بفوائد الثقة الطبيعية المتجددة "
         },
         {
           "type": "content",
@@ -413,97 +436,525 @@
               "id": 1,
               "name": "Dr. Huda Ebrahim Shaheen",
               "designation": "Obstetrics and Gynecology Specialist",
-              "image": "/assets/Images/home/Doctors.png",
+              "image": "/assets/Images/doctors/huda.png",
               "link": "dr-huda-ebrahim-shaheen"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "bikini-whitening-rejuvenation",
+      "sections": [
+        {
+          "type": "banner",
+          "deptName": "Gynecology",
+          "serviceName": "تبييض وتجديد منطقة البكيني ",
+          "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
         },
         {
-          "type": "list-services",
-          "listServices": [
+          "type": "image-content",
+          "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
+
+          "imageAlt": "تبييض وتجديد منطقة البكيني ",
+          "title": "تبييض وتجديد منطقة البكيني ",
+          "content": [
             {
-              "id": 1,
-              "name": "Dr. Ramilia Anarkulova",
-              "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
-              "designation": "Beauty consultant"
-            },
-            {
-              "id": 2,
-              "name": "Dr. Ramilia Anarkulova",
-              "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
-              "designation": "Beauty consultant"
-            },
-            {
-              "id": 2,
-              "name": "Dr. Ramilia Anarkulova",
-              "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
-              "designation": "Beauty consultant"
-            },
-            {
-              "id": 2,
-              "name": "Dr. Ramilia Anarkulova",
-              "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
-              "designation": "Beauty consultant"
-            },
-            {
-              "id": 2,
-              "name": "Dr. Ramilia Anarkulova",
-              "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
-              "designation": "Beauty consultant"
-            },
-            {
-              "id": 2,
-              "name": "Dr. Ramilia Anarkulova",
-              "image": "/assets/Images/home/Doctors.png",
-              "link": "dr-ramilia-anarkulova",
-              "designation": "Beauty consultant"
+              "type": "paragraph",
+              "text": "اكتشف طريقك إلى الثقة المتألقة مع مركز كاريزما الطبي المتخصص الحلول المتقدمة واآلمنة والمخصصة لتبييض منطقة البكيني وتجديدها. تستهدف عالجاتنا المتطورة فرط التصبغ وتعزز البشرة الصحية ذات اللون الموحد، مما يمّكنك من الشعور بأفضل ما لديك."
             }
           ]
         },
         {
-          "type": "offers",
-          "offers": [
+          "type": "content",
+          "title": "عالجات التبييض والتجديد المتقدمة "
+        },
+        {
+          "type": "content",
+          "heading": "تبييض منطقة البكيني بالليزر (جهاز الفين) ",
+          "description": "جرب حالً غير جراحي وغير مؤلم لفرط التصبغ:",
+          "features": [
             {
-              "id": "1",
-              "name": "Basic MO Premium Smile",
-              "description": "Premium (Basic MO), where Simplicity Meets Affordability",
-              "image": "https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-1.webp",
-              "slug": "basic-mo-premium-smile",
-              "price": 1799,
-              "btn_text": "Book An Appointment",
-              "vat": 0
+              "title": "كيف يعمل؟ ",
+              "items": [
+                "تستخدم آلة الفين تقنية الليزر الدقيقة لتفتيح البشرة الداكنة بلطف، مما يؤدي إلى بشرة أكثر تناسقًا"
+              ]
             },
             {
-              "id": 2,
-              "name": "G-Glass",
-              "description": "We offering our patients the most advanced and exceptional dental solutions.",
-              "image": "https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-9.webp",
-              "slug": "gc-snow-white-hollywood-smile",
-              "price": 4500,
-              "btn_text": "Book An Appointment"
+              "title": "الفوائد الرئيسية ",
+              "items": [
+                "آمن وفعال ألنواع البشرة المختلفة ",
+                "نتائج تدريجية وطبيعية المظهر ",
+                "يعزز لون البشرة وملمسها ",
+                "يعزز الثقة والراحة "
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "heading": "التبييض بالميزوثيرابي ",
+          "description": "حل مستهدف وغير جراحي لمشاكل التصبغ: ",
+          "features": [
+            {
+              "title": "كيف يعمل؟ ",
+              "items": [
+                "يتم حقن مزيج مخصص من الفيتامينات ومضادات األكسدة وعوامل التفتيح مباشرة في منطقة البكيني، مما يقلل من إنتاج الميالنين ويغذي البشرة. "
+              ]
             },
             {
-              "id": 3,
-              "name": "Zircon Smile",
-              "description": "Embrace Unmatched Strength with Stunning Clarity",
-              "image": "https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-6.webp",
-              "slug": "zircon-hollywood-smile",
-              "price": 6999,
-              "btn_text": "Book An Appointment"
+              "title": "الفوائد الرئيسية ",
+              "items": [
+                "مكونات آمنة وطبيعية",
+                "تأثير تفتيح تدريجي",
+                "تحسين ملمس البشرة ومرونتها",
+                "أدنى قدر من االنزعاج ووقت التعافي"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "heading": "تبييض بالمحلول الوريدي",
+          "description": "تغذية داخلية لبشرة متوهجة: ",
+          "features": [
+            {
+              "title": "كيف يعمل؟ ",
+              "items": [
+                "يقوم التنقيط الوريدي المخصص بتوصيل الفيتامينات ومضادات األكسدة مباشرة إلى الجسم،لتنظيم الميالنين وتعزيز صحة البشرة بشكل عام. "
+              ]
             },
             {
-              "id": 4,
-              "name": "Ortho",
-              "description": "We understand the transformative power of a smile.",
-              "image": "https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2022/07/services-2.webp",
-              "link": "https://wordpress.zozothemes.com/happysmile/service/zirconium-crowns/",
-              "price": 499,
-              "btn_text": "Book An Appointment"
+              "title": "الفوائد الرئيسية ",
+              "items": [
+                "عالج سري وغير جراحي ",
+                "توصيل مباشر للمغذيات للحصول على نتائج مستهدفة",
+                "تحسين ملمس الجلد ومرونته ",
+                "تفتيح تدريجي ومشرق "
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "heading": "تقشير حمض ثالثي كلورو األسيتيك",
+          "description": "تقشير مستهدف للحصول على بشرة أكثر إشراقً:",
+          "features": [
+            {
+              "title": "كيف يعمل",
+              "items": [
+                "يزيل تقشير حمض ثالثي كلورو األسيتيك )TCA )طبقات الجلد المفرطة التصبغ، مما يحفز نمو خاليا الجلد الجديدة األفتح. "
+              ]
+            },
+            {
+              "title": "الفوائد الرئيسية ",
+              "items": [
+                "فعال في عالج التصبغ الموضعي ",
+                "يعزز تجديد الخاليا وتجديد شباب الجلد ",
+                "يجب أن يتم إجراؤه بواسطة متخصصين مؤهلين للحصول على نتائج آمنه"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "لماذا تختار مركز كاريزما الطبي المتخصص؟",
+          "features": [
+            "استشارات شخصية: يقدم أطباء أمراض النساء المعتمدون لدينا استشارات شاملة لتقييم احتياجاتك الفريدة والتوصية بأفضل خيارات العالج. ",
+            "خطط عالج مخصصة: نصمم خط ًطا مخصصة لتحقيق النتائج المرجوة بأمان وفعالية.",
+            "Supportive Environment: We prioritize your comfort and privacy, ensuring a discreet and supportive experience."
+          ]
+        },
+        {
+          "type": "color-content",
+          "title": "احتضن ثقتك بنفسك ",
+          "description": "دع مركز كاريزما الطبي المتخصص يرشدك في رحلتك نحو بشرة مشرقة وموحدة اللون. حدد موع ًدا لالستشارة اليوم الستكشاف عالجات تبييض وتجديد البشرة لدينا وإطالق العنان لثقتك بنفسك"
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Dr. Huda Ebrahim Shaheen",
+              "designation": "Obstetrics and Gynecology Specialist",
+              "image": "/assets/Images/doctors/huda.png",
+              "link": "dr-huda-ebrahim-shaheen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "bikini-tightening-belladona",
+      "sections": [
+        {
+          "type": "banner",
+          "deptName": "Gynecology",
+          "serviceName": "تضييق البكيني - بيال دونا ",
+          "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
+        },
+        {
+          "type": "image-content",
+          "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
+
+          "imageAlt": "تضييق البكيني - بيال دونا ",
+          "title": "تضييق البكيني - بيال دونا ",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "جددي صحتك الحميمة باستخدام ليزر بيال دونا لتضييق المهبل في مركز كاريزما الطبي المتخصص. حل متقدم غير جراحي مصمم الستعادة النغمة والراحة والثقة "
+            },
+            {
+              "type": "heading",
+              "text": "ما هو ليزر بيال دونا لتضييق المهبل؟"
+            },
+            {
+              "type": "paragraph",
+              "text": "ليزر بيال دونا هو عالج طفيف التوغل يستخدم طاقة حرارية لطيفة لتحفيز إنتاج الكوالجين، وتعزيز تضييق المهبل ومرونته. يقدم هذا العالج المجدد طريقة آمنة وفعالة لمعالجة المخاوف المتعلقة بالترهل وتحسين الصحة الحميمة بشكل عام. "
+            },
+            {
+              "type": "heading",
+              "text": "كيف يعمل"
+            },
+            {
+              "type": "list",
+              "items": [
+                "تحفيز الكوالجين: يقوم الليزر بتوصيل حرارة مستهدفة لألنسجة المهبلية، مما يحفز إنتاج الكوالجين الطبيعي في الجسم.",
+                "أنسجة أكثر سم ًكا وش ًدا:  مع زيادة مستويات الكوالجين، تصبح جدران المهبل أكثر ثباتًا ومرونة مما يحسن كل من النغمة والوظيفة."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "فوائد ليزر بيال دونا لتضييق المهبل",
+          "features": [
+            "شد مهبلي معزز: جربي تحسينات ملحوظة في النغمة، مما يؤدي إلى زيادة الراحة والرضا. ",
+            "تحسين التحكم: استعد الثقة وتحكم أفضل في العضالت للحصول على تجربة حميمة متطورة ",
+            "عالج الترهل: قلل بفعالية من الترهل الناتج عن الشيخوخة أو الوالدة. ",
+            "حل غير جراحي : استمتع بإجراء جراحي غير مؤلم وغير جراحي مع الحد األدنى من فترة التعافي. ",
+            "مثبت سريرًيا: آمن وفعال ومدعوم بالبحث السريري. "
+          ]
+        },
+        {
+          "type": "content",
+          "title": "رحلة الرعاية الحميمة الشخصية الخاصة بك",
+          "description": "في مركز كاريزما الطبي المتخصص، نضع راحتك وخصوصيتك في المقام األول، ونقدم مساحة داعمة لمناقشة احتياجاتك:",
+          "features": [
+            "استشارات الخبراء: سيقوم أطباء أمراض النساء المعتمدون لدينا بتقييم أهدافك وتحديد ما إذا كان ليزر بيال دونا يناسبك.",
+            "خطط عالج مخصصة: نصمم خط ًطا مخصصة لتحقيق النتائج المرجوة.",
+            " بيئة داعمة وسرية: ثقي بفريقنا لتقديم رعاية متعاطفة وسرية طوال رحلتك"
+          ]
+        },
+        {
+          "type": "color-content",
+          "title": " اكتشفي الثقة من جديد مع كاريس",
+          "description": "استعيدي راحتك وثقتك بنفسك باستخدام ليزر شد المهبل بيالدونا حددي موعد استشارة اليوم في مركز كاريزما الطبي التخصصي واستمتعي بمستوى جديد من العافية الحميمة. "
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Dr. Huda Ebrahim Shaheen",
+              "designation": "Obstetrics and Gynecology Specialist",
+              "image": "/assets/Images/doctors/huda.png",
+              "link": "dr-huda-ebrahim-shaheen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "vaginal-anti-aging-treatment",
+      "sections": [
+        {
+          "type": "banner",
+          "deptName": "Gynecology",
+          "serviceName": "Vaginal Anti-Aging Treatment",
+          "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
+        },
+        {
+          "type": "image-content",
+          "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
+
+          "imageAlt": "Vaginal Anti-Aging Treatment",
+          "title": "Vaginal Anti-Aging Treatment",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Effective Relief for Vaginismus and Enhanced Intimate Wellness"
+            },
+            {
+              "type": "paragraph",
+              "text": "At Karisma Specialist Medical Center, we recognize the importance of a fulfilling, pain-free intimate life. For women experiencing vaginismus, characterized by involuntary muscle contractions that cause discomfort or pain, Vaginal Anti-Aging Treatment offers a safe, effective solution to restore comfort and confidence."
+            },
+            {
+              "type": "heading",
+              "text": "What Is Vaginal Anti-Aging Treatment?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Vaginal Anti-Aging Treatment involves injecting a neurotoxin into the muscles around the vaginal opening. This relaxes the muscles, easing contractions and alleviating pain associated with vaginismus, enhancing comfort during intimacy."
+            },
+            {
+              "type": "heading",
+              "text": "Benefits of Vaginal Anti-Aging Treatment"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Relief from Vaginismus: Alleviates involuntary muscle spasms, reducing pain and discomfort.",
+                "Enhanced Intimacy: Promotes more comfortable and fulfilling marital relations.",
+                "Quick and Long-Lasting Results: Enjoy relief within days, with effects lasting 6 to 12 months."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Treatment Process",
+          "features": [
+            "Consultation: A thorough consultation ensures Vaginal Anti-Aging Treatment is the right solution for your needs.",
+            "Quick Procedure: The treatment typically takes around 10 minutes, with minimal discomfort.",
+            "Long-Term Relief: Results can be felt within 3 days and may last up to a year, depending on individual response."
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Safety and Considerations",
+          "features": [
+            "Medical History: Our specialists will review your medical history to ensure safety and suitability.",
+            "Pregnancy & Breastfeeding: Vaginal Anti-Aging Treatment is not recommended for pregnant or breastfeeding women.",
+            "Personalized Care: Each treatment is customized to your unique needs, prioritizing safety and comfort."
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Why Choose Karisma Specialist Medical Center?",
+          "features": [
+            "Expert Gynecologists: Our board-certified specialists have extensive experience in treating vaginismus and other intimate health concerns.",
+            "Compassionate Care: We provide a discreet, supportive environment where you feel heard and understood.",
+            "Cutting-Edge Techniques: Our team uses the latest advancements to deliver safe, effective results."
+          ]
+        },
+        {
+          "type": "color-content",
+          "title": "Reclaim Comfort and Confidence",
+          "description": "Embrace a life free from discomfort with Vaginal Anti-Aging Treatment at Karisma Specialist Medical Center. Contact us today to schedule your consultation and take the first step toward renewed intimacy and well-being."
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Dr. Huda Ebrahim Shaheen",
+              "designation": "Obstetrics and Gynecology Specialist",
+              "image": "/assets/Images/doctors/huda.png",
+              "link": "dr-huda-ebrahim-shaheen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "cosmetic-minor-surgeries",
+      "sections": [
+        {
+          "type": "banner",
+          "deptName": "Gynecology",
+          "serviceName": "Cosmetic Minor Surgeries",
+          "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
+        },
+        {
+          "type": "image-content",
+          "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
+
+          "imageAlt": "Cosmetic Minor Surgeries",
+          "title": "Cosmetic Minor Surgeries",
+          "content": [
+            {
+              "type": "heading",
+              "text": "Personalized Solutions for Your Intimate Well-being"
+            },
+            {
+              "type": "paragraph",
+              "text": "At Karisma Specialist Medical Center, we believe that feeling confident and comfortable in your body is essential. Our range of minor cosmetic gynecological surgeries is designed to address specific concerns, enhancing both appearance and intimate wellness with precision and care."
+            },
+            {
+              "type": "heading",
+              "text": "Empowering Your Choices: Procedures We Offer"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "title": "Labiaplasty: Focuses on reshaping and reducing the size of the labia minora for aesthetic or functional reasons.",
+                  "items": [
+                    {
+                      "title": "Benefits",
+                      "items": [
+                        "Enhanced aesthetics and confidence.",
+                        "Reduced discomfort during physical activities.",
+                        "Lowered risk of irritation or infection."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Perineorrhaphy: A reconstructive procedure targeting vaginal tightening and perineal beautification.",
+                  "items": [
+                    {
+                      "title": "Benefits",
+                      "items": [
+                        "Restored vaginal tightness and elasticity.",
+                        "Improved sensation and satisfaction during intimacy.",
+                        "Renewed self-confidence in intimate moments."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Your Journey with Karisma: What to Expect",
+          "features": [
+            {
+              "title": "Pre-operative Consultation",
+              "items": [
+                "A detailed consultation with our specialists to review your health, discuss goals, and address all your questions."
+              ]
+            },
+            {
+              "title": "Minimally Invasive Techniques",
+              "items": [
+                "Both procedures are typically performed under local anesthesia, ensuring minimal discomfort and a faster recovery."
+              ]
+            },
+            {
+              "title": "Recovery and Care",
+              "items": [
+                "Recovery Time: Expect healing within 2-3 weeks.",
+                "Post-procedure Care: Follow our tailored aftercare plan, which includes hygiene tips and activity restrictions to optimize healing."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Important Guidelines",
+          "features": [
+            {
+              "title": "Eligibility",
+              "items": [
+                "Procedures are suitable for women over 18."
+              ]
+            },
+            {
+              "title": "Pre-procedure Preparation",
+              "items": [
+                "Shave the area a day before the surgery and avoid waxing, scrubs, or laser treatments for six weeks post-surgery."
+              ]
+            },
+            {
+              "title": "Post-operative Advice",
+              "items": [
+                "Avoid intercourse for at least one month.",
+                "Wear loose, breathable clothing for comfort."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Why Choose Karisma Specialist Medical Center?",
+          "features": [
+            "Expert Care: Our board-certified gynecologists specialize in intimate wellness, offering compassionate, discreet care.",
+            "Tailored Treatment Plans: We design personalized treatment plans to suit your unique needs and goals.",
+            "Comfort and Privacy: Your well-being and privacy are our top priorities, ensuring a supportive environment throughout your journey."
+          ]
+        },
+        {
+          "type": "color-content",
+          "title": "Rediscover Confidence and Comfort",
+          "description": "Take the first step toward enhanced confidence and intimate well-being. Contact Karisma Specialist Medical Center today to schedule your consultation and explore the transformative benefits of cosmetic gynecological surgery."
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Dr. Huda Ebrahim Shaheen",
+              "designation": "Obstetrics and Gynecology Specialist",
+              "image": "/assets/Images/doctors/huda.png",
+              "link": "dr-huda-ebrahim-shaheen"
             }
           ]
         }
