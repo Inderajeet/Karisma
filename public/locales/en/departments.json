@@ -576,6 +576,34 @@
                             "designation": ""
                         }
                     ]
+                },
+                {
+                  "type": "content",
+                  "title": "Our Doctors",
+                  "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+                  "features": []
+                },
+                {
+                  "type": "slider-doctors",
+                  "title": "Meet Our Specialists",
+                  "cards": {
+                    "background-color": "#f9f9f9",
+                    "heading-color": "#577065",
+                    "heading-size": "24px",
+                    "desc-color": "#5C4033",
+                    "desc-size": "16px",
+                    "button-text-color": "#577065",
+                    "button-text-size": "16px"
+                  },
+                  "doctors": [
+                    {
+                      "id": 1,
+                      "name": "Naziha Al Tabaa",
+                      "designation": "Skin Expert & Beauty Therapist",
+                      "image": "/assets/Images/doctors/Naziha.png",
+                      "link": "naziha-al-tabaa"
+                    }
+                  ]
                 }
             ]
         },
@@ -701,11 +729,18 @@
                     "doctors": [
                         {
                             "id": 1,
-                            "name": "DT. Elissa Al- Ahmadieh",
+                            "name": "DT. Elissa Nabil El Ahmadieh",
                             "designation": "Dietician & Nutritionist Specialist",
                             "image": "/assets/Images/doctors/Dr Elissa.png",
                             "link": "dt-elissa-a-ahmadieh"
-                        }
+                          }, 
+                          {
+                            "id": 2,
+                            "name": "Dr. Mehdi Shidvash",
+                            "designation": "Aesthetic Physician",
+                            "image": "/assets/Images/doctors/mahdi.png",
+                            "link": "dr-mehdi-shidvash"
+                          }
                     ]
                 }
             ]
@@ -718,11 +753,11 @@
                     "type": "banner",
                     "deptName": "Plastic Surgery",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/plastic_surgery.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/banner/about_dept/plastic_surgery.png",
                     "imageAlt": "Plastic Surgery",
                     "title": "Plastic Surgery",
                     "content": [

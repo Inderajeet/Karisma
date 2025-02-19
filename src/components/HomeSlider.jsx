@@ -1,85 +1,75 @@
-import React, { useState, useEffect } from "react";
-import { fetchAllJson } from "../utils/fetchAllJson"; // Import the utility function
+import React, { useState, useEffect, useRef } from "react";
+import { fetchAllJson } from "../utils/fetchAllJson";
 import "./HomeSlider.css";
 
 const HomeSlider = () => {
-  const [sliderImages, setSliderImages] = useState([]);
+  const [data, setData] = useState(null); // Store the entire fetched data
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [isSliding, setIsSliding] = useState(false);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const autoSlideIntervalRef = useRef(null);
+  const isMounted = useRef(true);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const data = await fetchAllJson();
-        const { home } = data.images;
-        setSliderImages(home.sliderImages); // Extract slider images
-        setLoading(false);
-        console.log("Fetched Images:", home.sliderImages);
-
+        const fetchedData = await fetchAllJson();
+        if (isMounted.current) {
+          setData(fetchedData); // Set the entire data object
+        }
       } catch (err) {
-        setError(err.message);
-        setLoading(false);
+        console.error("Error fetching data:", err);
       }
     };
 
     fetchData();
+
+    return () => {
+      isMounted.current = false;
+      clearInterval(autoSlideIntervalRef.current);
+    };
   }, []);
 
-
-  // Handle automatic sliding
   useEffect(() => {
-    if (sliderImages.length === 0) return;
-    const interval = setInterval(() => {
-      changeSlide(1);
-    }, 5000);
-    return () => clearInterval(interval);
-  }, [sliderImages]); // Add this dependency
+    if (data && data.images && data.images.home && data.images.home.sliderImages && data.images.home.sliderImages.length > 0) {
+      clearInterval(autoSlideIntervalRef.current);
+      autoSlideIntervalRef.current = setInterval(() => {
+        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % data.images.home.sliderImages.length);
+      }, 5000);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % sliderImages.length);
-    }, 5000); // Auto-slide every 5 seconds
-  
-    return () => clearInterval(interval); // Cleanup on unmount
-  }, [sliderImages]);
-  
+      return () => clearInterval(autoSlideIntervalRef.current);
+    }
+  }, [data]); // Depend on the entire data object
+
   const changeSlide = (direction) => {
-    console.log("Arrow Clicked! Moving:", direction);
-    
-    // Reset the auto-slide timer when user interacts
-    setCurrentImageIndex((prevIndex) => (prevIndex + direction + sliderImages.length) % sliderImages.length);
+    if (data && data.images && data.images.home && data.images.home.sliderImages) {
+      clearInterval(autoSlideIntervalRef.current);
+      setCurrentImageIndex((prevIndex) => (prevIndex + direction + data.images.home.sliderImages.length) % data.images.home.sliderImages.length);
+
+      autoSlideIntervalRef.current = setInterval(() => {
+        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % data.images.home.sliderImages.length);
+      }, 5000);
+    }
   };
-  
-  
-  useEffect(() => {
-    console.log("Updated Index:", currentImageIndex);
-  }, [currentImageIndex]);
-  
-  
-  
-  if (loading) return ;
-  if (error) return ;
+
+  if (!data || !data.images || !data.images.home || !data.images.home.sliderImages || data.images.home.sliderImages.length === 0) {
+    return <div>Loading...</div>; // Or "No images available"
+  }
 
   return (
-    <>
-      <div className={`background-slider ${isSliding ? "sliding" : ""}`}>
-        <div
-          className="background-image"
-          style={{ backgroundImage: `url(${sliderImages[currentImageIndex]})` }}
-        ></div>
-        <div className="overlay"></div>
-        <div className="slider-arrows">
-          <button className="slider-arrow" onClick={() => changeSlide(-1)}>
-            &lt;
-          </button>
-          <button className="slider-arrow" onClick={() => changeSlide(1)}>
-            &gt;
-          </button>
-        </div>
+    <div className="background-slider">
+      <div
+        className="background-image"
+        style={{ backgroundImage: `url(${data.images.home.sliderImages[currentImageIndex] || ''})` }}
+      ></div>
+      <div className="overlay"></div>
+      <div className="slider-arrows">
+        <button className="slider-arrow" onClick={() => changeSlide(-1)}>
+          &lt;
+        </button>
+        <button className="slider-arrow" onClick={() => changeSlide(1)}>
+          &gt;
+        </button>
       </div>
-    </>
+    </div>
   );
 };
 

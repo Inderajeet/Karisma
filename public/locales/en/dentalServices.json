@@ -1434,40 +1434,40 @@
                     "listServices": [
                         {
                             "id": 1,
-                            "name": "E-Max Hollywood Smile",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "name": "E-Max Veneer 6D",
+                            "image": "../assets/Images/banner/about_dept/dental.png",
                             "link": "",
                             "readMore": "Read More",
                             "designation": "Crafted from premium German ceramics, E-Max veneers offer exceptional durability and aesthetic appeal."
                         },
                         {
                             "id": 2,
-                            "name": "Elite (GC - 6D) Hollywood Smile",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "name": "Zircon Veneer",
+                            "image": "../assets/Images/banner/about_dept/dental.png",
                             "link": "",
                             "readMore": "Read More",
                             "designation": "Combining German materials with American innovation, these veneers deliver precision, durability, and artistry."
                         },
                         {
                             "id": 3,
-                            "name": "GC Snow White Hollywood Smile",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "name": "Zircon Snow White Veneer",
+                            "image": "../assets/Images/banner/about_dept/dental.png",
                             "link": "",
                             "readMore": "Read More",
                             "designation": "Experience unmatched brilliance with these revolutionary veneers, designed for captivating smiles."
                         },
                         {
                             "id": 4,
-                            "name": "Karisma Zircon Hollywood Smile",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "name": "Diamond Cut",
+                            "image": "../assets/Images/banner/about_dept/dental.png",
                             "link": "",
                             "readMore": "Read More",
                             "designation": "Durable and stunning, these veneers provide a flawless, natural appearance for a smile that lasts."
                         },
                         {
                             "id": 5,
-                            "name": "Karisma Zircon Elite Hollywood Smile",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "name": "Solitaire Smile",
+                            "image": "../assets/Images/banner/about_dept/dental.png",
                             "link": "",
                             "readMore": "Read More",
                             "designation": "Push the boundaries of modern dentistry with translucent, durable veneers for a dazzling finish."

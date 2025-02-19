@@ -226,6 +226,34 @@
               "designation": ""
             }
           ]
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
+            }
+          ]
         }
       ]
     },
@@ -322,6 +350,34 @@
               "link": "skinCare/peeling/green-peel",
               "readMore": "Read More",
               "designation": "A revolutionary, plant-based skincare solution that harnesses the power of herbal extracts to promote cellular renewal and reveal a smoother, more radiant complexion."
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
             }
           ]
         }
@@ -479,6 +535,34 @@
               "link": "skinCare/mesotherapy/meso-lips",
               "readMore": "Read More",
               "designation": ""
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
             }
           ]
         }
@@ -656,6 +740,34 @@
           "type": "color-content",
           "title": "Book Your Consultation at Karisma Specialist Medical Center",
           "description": "Discover the transformative power of PRP, Stem Cell Therapy, and Exosome treatments. Rejuvenate your skin naturally, restore its youthful glow, and address multiple skin concerns with these cutting-edge therapies. Schedule your consultation today to start your journey to radiant, healthier skin!"
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
+            }
+          ]
         }
       ]
     },
@@ -725,6 +837,34 @@
           "type": "color-content",
           "title": "A Synergistic Approach to Beauty",
           "description": "For optimal results, IV Drip Therapy for Glowing Skin can be paired with other treatments, such as slimming machiness, to enhance your overall beauty goals. Our experts will create a personalized treatment plan to help you achieve the glowing skin you've always desired."
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
+            }
+          ]
         }
       ]
     },
@@ -794,6 +934,34 @@
         {
           "type": "color-content",
           "heading": "Embrace a natural lift and experience a smoother, firmer complexion with collagen threads at Karisma Specialist Medical Center."
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
+            }
+          ]
         }
       ]
     },
@@ -866,6 +1034,34 @@
         {
           "type": "color-content",
           "heading": "Ready to make a statement? Schedule a consultation with our piercing experts today!"
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
+            }
+          ]
         }
       ]
     },
@@ -964,6 +1160,34 @@
           "type": "color-content",
           "title": "Schedule a Consultation with Our Experienced Team",
           "description": "These are just a few of the advanced skin treatments offered at Karisma Specialist Medical Center. Schedule a consultation to discuss your specific concerns and develop a personalized treatment plan to achieve your desired results."
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
+            }
+          ]
         }
       ]
     },
@@ -1052,6 +1276,34 @@
           "type": "color-content",
           "title": "Schedule Your Consultation Today",
           "description": "These are just a few of the advanced hair restoration treatments we offer at Karisma Specialist Medical Center. Schedule a consultation with our experienced team to discuss your hair concerns and explore the best treatment plan for achieving your desired results."
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
+            }
+          ]
         }
       ]
     }
