@@ -41,7 +41,7 @@ const FooterServices = () => {
     return (
         <>
             {/* <Banner /> */}
-            <div className="happysmile-content-wrap container page" style={{paddingTop: '144px'}}>
+            <div className="happysmile-content-wrap container page" style={{ paddingTop: '144px' }}>
                 {service.sections.map((section, index) => {
                     console.log('Section-services:', section.listServices);  // Debugging: log section
                     if (section.type === "content") {
@@ -94,6 +94,9 @@ const FooterServices = () => {
                 })}
                 {/* <Doctors /> */}
             </div>
+                <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center' , paddingTop:'10px'}}>
+                    <hr className="half-line" style={{ width: '50%', border: '0', height: '3px', backgroundColor: '#111', margin: '0' }} />
+                </div>
         </>
     );
 };

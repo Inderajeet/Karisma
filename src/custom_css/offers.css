@@ -97,10 +97,7 @@ a, a:focus, a:hover, a:active{
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 
 }
-.my-modal{
-    /* width: 90vw !important;     */
-    max-width: 75vw !important;
-}
+
 
 @media (max-width: 420px) {
     .payNowbtn{

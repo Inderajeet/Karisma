@@ -15,6 +15,7 @@ textarea::placeholder {
   font-size: 16px;
   font-style: italic;
   font-weight: bold;
+  margin-right: 10px;
 }
 
 input:focus::placeholder,
