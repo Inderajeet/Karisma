@@ -156,8 +156,8 @@ const SampleTabHeader = () => {
               </li>
               <div style={{display: "flex", alignItems: "center"}}>
               <li>
-                <a href="tel:+971564223807" className="h-phone" style={{marginRight: "10px"}}>
-                  <i className="bi bi-telephone-forward-fill mr-2" /> +971564223807
+                <a href="tel:+971065068777" className="h-phone" style={{marginRight: "10px"}}>
+                  <i className="bi bi-telephone-forward-fill mr-2" /> +971065068777
                 </a>
               </li>
               <li className="secondary-toggle-wrapper">

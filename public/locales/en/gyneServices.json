@@ -8,11 +8,11 @@
           "type": "banner",
           "deptName": "Gynecology",
           "serviceName": "Aesthetic Gynecology",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
           "imageAlt": "Aesthetic Gynecology",
           "title": "Aesthetic Gynecology",
           "content": [
@@ -39,7 +39,7 @@
                 "Whitening Treatments: Achieve a brighter, more even skin tone in the vulvar area, addressing hyperpigmentation for a rejuvenated appearance.",
                 "Plasma Therapy: Harness the healing power of plasma technology to promote tissue rejuvenation, improving laxity and minor pigmentation concerns.",
                 "Fillers: Add volume and definition to the labia majora, creating a more balanced, aesthetically pleasing look and enhancing comfort.",
-                "Botox for Intimate Care: Botox may be used to address muscle hyperactivity and minimize certain aesthetic concerns. A personalized consultation ensures this option aligns with your needs and safety."
+                "Anti-Aging Treatment for Intimate Care: Anti-Aging Treatment may be used to address muscle hyperactivity and minimize certain aesthetic concerns. A personalized consultation ensures this option aligns with your needs and safety."
               ]
             }
           ]
@@ -97,11 +97,11 @@
           "type": "banner",
           "deptName": "Gynecology",
           "serviceName": "Gynecological Filler",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
           "imageAlt": "Gynecological Filler",
           "title": "Gynecological Filler",
           "content": [
@@ -197,11 +197,11 @@
           "type": "banner",
           "deptName": "Gynecology",
           "serviceName": "Medical Gynecology / Obstetric",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
           "imageAlt": "Medical Gynecology / Obstetric",
           "title": "Medical Gynecology / Obstetric",
           "content": [
@@ -334,11 +334,11 @@
           "type": "banner",
           "deptName": "Gynecology",
           "serviceName": "Plasma Injection",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
           "imageAlt": "Plasma Injection",
           "title": "Plasma Injection",
           "content": [
@@ -400,7 +400,7 @@
           "type": "content",
           "title": "Why Choose Karisma Specialist Medical Center?",
           "features": [
-            "Personalized Care Careation: We design tailored treatment plans to meet your unique needs.",
+            "Personalized Care: We design tailored treatment plans to meet your unique needs.",
             "Expert Guidance: Our board-certified gynecologists ensure your safety and comfort throughout the process.",
             "Advanced Techniques: We use cutting-edge methods to deliver effective, lasting results."
           ]
@@ -447,11 +447,11 @@
           "type": "banner",
           "deptName": "Gynecology",
           "serviceName": "Bikini Whitening & Rejuvenation",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
           "imageAlt": "Bikini Whitening & Rejuvenation",
           "title": "Bikini Whitening & Rejuvenation",
           "content": [
@@ -603,11 +603,11 @@
           "type": "banner",
           "deptName": "Gynecology",
           "serviceName": "Bikini Tightening - Belladona",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
           "imageAlt": "Bikini Tightening - Belladona",
           "title": "Bikini Tightening - Belladona",
           "content": [
@@ -693,19 +693,19 @@
     },
     {
       "id": "7",
-      "name": "vaginal-botox",
+      "name": "vaginal-anti-aging-treatment",
       "sections": [
         {
           "type": "banner",
           "deptName": "Gynecology",
-          "serviceName": "Vaginal Botox",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "serviceName": "Vaginal Anti-Aging Treatment",
+          "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
-          "imageAlt": "Vaginal Botox",
-          "title": "Vaginal Botox",
+          "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
+          "imageAlt": "Vaginal Anti-Aging Treatment",
+          "title": "Vaginal Anti-Aging Treatment",
           "content": [
             {
               "type": "heading",
@@ -713,19 +713,19 @@
             },
             {
               "type": "paragraph",
-              "text": "At Karisma Specialist Medical Center, we recognize the importance of a fulfilling, pain-free intimate life. For women experiencing vaginismus, characterized by involuntary muscle contractions that cause discomfort or pain, Vaginal Botox offers a safe, effective solution to restore comfort and confidence."
+              "text": "At Karisma Specialist Medical Center, we recognize the importance of a fulfilling, pain-free intimate life. For women experiencing vaginismus, characterized by involuntary muscle contractions that cause discomfort or pain, Vaginal Anti-Aging Treatment offers a safe, effective solution to restore comfort and confidence."
             },
             {
               "type": "heading",
-              "text": "What Is Vaginal Botox?"
+              "text": "What Is Vaginal Anti-Aging Treatment?"
             },
             {
               "type": "paragraph",
-              "text": "Vaginal Botox involves injecting a neurotoxin into the muscles around the vaginal opening. This relaxes the muscles, easing contractions and alleviating pain associated with vaginismus, enhancing comfort during intimacy."
+              "text": "Vaginal Anti-Aging Treatment involves injecting a neurotoxin into the muscles around the vaginal opening. This relaxes the muscles, easing contractions and alleviating pain associated with vaginismus, enhancing comfort during intimacy."
             },
             {
               "type": "heading",
-              "text": "Benefits of Vaginal Botox"
+              "text": "Benefits of Vaginal Anti-Aging Treatment"
             },
             {
               "type": "list",
@@ -741,7 +741,7 @@
           "type": "content",
           "title": "Treatment Process",
           "features": [
-            "Consultation: A thorough consultation ensures Vaginal Botox is the right solution for your needs.",
+            "Consultation: A thorough consultation ensures Vaginal Anti-Aging Treatment is the right solution for your needs.",
             "Quick Procedure: The treatment typically takes around 10 minutes, with minimal discomfort.",
             "Long-Term Relief: Results can be felt within 3 days and may last up to a year, depending on individual response."
           ]
@@ -751,7 +751,7 @@
           "title": "Safety and Considerations",
           "features": [
             "Medical History: Our specialists will review your medical history to ensure safety and suitability.",
-            "Pregnancy & Breastfeeding: Vaginal Botox is not recommended for pregnant or breastfeeding women.",
+            "Pregnancy & Breastfeeding: Vaginal Anti-Aging Treatment is not recommended for pregnant or breastfeeding women.",
             "Personalized Care: Each treatment is customized to your unique needs, prioritizing safety and comfort."
           ]
         },
@@ -767,7 +767,7 @@
         {
           "type": "color-content",
           "title": "Reclaim Comfort and Confidence",
-          "description": "Embrace a life free from discomfort with Vaginal Botox at Karisma Specialist Medical Center. Contact us today to schedule your consultation and take the first step toward renewed intimacy and well-being."
+          "description": "Embrace a life free from discomfort with Vaginal Anti-Aging Treatment at Karisma Specialist Medical Center. Contact us today to schedule your consultation and take the first step toward renewed intimacy and well-being."
         },
         {
           "type": "content",
@@ -806,11 +806,11 @@
           "type": "banner",
           "deptName": "Gynecology",
           "serviceName": "Cosmetic Minor Surgeries",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
           "imageAlt": "Cosmetic Minor Surgeries",
           "title": "Cosmetic Minor Surgeries",
           "content": [

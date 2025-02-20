@@ -9,7 +9,7 @@
     background-size: cover;
     background-position: center;
     transition: background-image 0.5s ease-in-out; 
-    position: relative;
+    position: static;
     top: 0;
     left: 0;
     width: 100%;
@@ -39,7 +39,8 @@
   
   /* Slider Arrows */
   .slider-arrows {
-    position: absolute;
+    position: sticky;
+    padding-left: 25px;
     bottom: 20px;
     left: 20px;
     display: flex;
@@ -68,5 +69,10 @@
   .background-image{
     height: 100%;
   }
-  
+  .overlay {
+    height: 70vh;
+  }
+  .slider-arrows {
+    padding-left: 15px;
+  }
   }

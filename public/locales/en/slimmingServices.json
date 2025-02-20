@@ -8,11 +8,11 @@
           "type": "banner",
           "deptName": "Slimming",
           "serviceName": "Machines",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/slimming.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/slimming.png",
           "imageAlt": "machines",
           "title": "Machines",
           "content": [
@@ -51,6 +51,7 @@
               "name": "ABAS Fit & ReFit",
               "image": "/assets/Images/home/Doctors.png",
               "link": "slimming/machines/abas-fit-refit",
+              "readMore": "Read More",
               "designation": "The innovative ABAS Fit & ReFit technology at Karisma Specialist Medical Center achieves a sculpted, toned physique."
             },
             {
@@ -58,6 +59,7 @@
               "name": "Power Shape 2",
               "image": "/assets/Images/home/Doctors.png",
               "link": "slimming/machines/power-shape-2",
+              "readMore": "Read More",
               "designation": "Discover the next level of body contouring with Power Shape 2, an advanced, multi-technology treatment designed to melt fat, reduce cellulite, and rejuvenate your skin for a youthful, sculpted appearance."
             },
             {
@@ -65,6 +67,7 @@
               "name": "Fat Burning- Heater",
               "image": "/assets/Images/home/Doctors.png",
               "link": "slimming/machines/fat-burning-heater",
+              "readMore": "Read More",
               "designation": "Achieve your body transformation goals faster with Heater Machines, a cutting-edge solution to amplify fat burning and boost metabolism."
             },
             {
@@ -72,6 +75,7 @@
               "name": "Stimulate muscles- EMS",
               "image": "/assets/Images/home/Doctors.png",
               "link": "slimming/machines/stimulate-muscle-ems",
+              "readMore": "Read More",
               "designation": "Achieve peak muscle definition and enhanced fat burning with Electrical Muscle Stimulation (EMS), a cutting-edge technology that mimics natural exercise through targeted electrical impulses."
             },
             {
@@ -79,6 +83,7 @@
               "name": "lymphatic drainage- Presso",
               "image": "/assets/Images/home/Doctors.png",
               "link": "slimming/machines/lymphatic-drainage-presso",
+              "readMore": "Read More",
               "designation": "Pressotherapy is a non-invasive treatment that stimulates lymphatic drainage, helps reduce bloating, enhances recovery, and promotes a streamlined silhouette."
             },
             {
@@ -86,6 +91,7 @@
               "name": "Wooden Massage–MaderoTherapy",
               "image": "/assets/Images/home/Doctors.png",
               "link": "slimming/machines/wooden-massage–madero-therapy",
+              "readMore": "Read More",
               "designation": "Experience the fusion of ancient Colombian techniques with modern wellness at Karisma Specialist Medical Center through Madero Therapy, a unique, all-natural treatment designed to sculpt, tone, and rejuvenate your body."
             }
           ]
@@ -125,6 +131,13 @@
               "designation": "Dietician & Nutritionist Specialist",
               "image": "/assets/Images/doctors/Dr Elissa.png",
               "link": "dt-elissa-a-ahmadieh"
+            }, 
+            {
+              "id": 2,
+              "name": "Dr. Mehdi Shidvash",
+              "designation": "Aesthetic Physician",
+              "image": "/assets/Images/doctors/mahdi.png",
+              "link": "dr-mehdi-shidvash"
             }
           ]
         }
@@ -138,11 +151,11 @@
           "type": "banner",
           "deptName": "Slimming",
           "serviceName": "Injections",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/slimming.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/slimming.png",
           "imageAlt": "injections",
           "title": "Injections",
           "content": [
@@ -189,6 +202,7 @@
               "name": "Meso Fat Injections",
               "image": "/assets/Images/home/Doctors.png",
               "link": "slimming/injections/meso-fat-injections",
+              "readMore": "Read More",
               "designation": "Our Meso Fat injections offer a minimally invasive solution to target localized fat deposits, helping you achieve a more sculpted and confident silhouette."
             },
             {
@@ -196,6 +210,7 @@
               "name": "Ozempic Injections",
               "image": "/assets/Images/home/Doctors.png",
               "link": "slimming/injections/ozempic-injections",
+              "readMore": "Read More",
               "designation": "Our experienced team of doctors is here to help you achieve a healthier weight and sculpted physique. Through our expert-led programs, including Ozempic injections, we offer a safe and effective approach to weight loss and overall health improvement."
             },
             {
@@ -203,6 +218,7 @@
               "name": "IV Drip Solutions",
               "image": "/assets/Images/home/Doctors.png",
               "link": "slimming/injections/iv-drip-solutions",
+              "readMore": "Read More",
               "designation": "Our IV Drip Therapy offers a fast and effective way to deliver essential nutrients directly into your bloodstream, enhancing your health, beauty, and overall well-being."
             }
           ]
@@ -228,6 +244,13 @@
           "doctors": [
             {
               "id": 1,
+              "name": "DT. Elissa Nabil El Ahmadieh",
+              "designation": "Dietician & Nutritionist Specialist",
+              "image": "/assets/Images/doctors/Dr Elissa.png",
+              "link": "dt-elissa-a-ahmadieh"
+            }, 
+            {
+              "id": 2,
               "name": "Dr. Mehdi Shidvash",
               "designation": "Aesthetic Physician",
               "image": "/assets/Images/doctors/mahdi.png",
@@ -245,11 +268,11 @@
           "type": "banner",
           "deptName": "Slimming",
           "serviceName": "Other Services",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/slimming.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/slimming.png",
           "imageAlt": "other_services",
           "title": "Other Services",
           "content": [
@@ -287,6 +310,7 @@
               "name": "Food Print Testing",
               "image": "/assets/Images/home/Doctors.png",
               "link": "slimming/other-services/food-print-testing",
+              "readMore": "Read More",
               "designation": "At Karisma Specialist Medical Center, we are proud to offer Food Print Testing, a simple and effective blood test that helps identify potential food sensitivities and support your digestive health."
             },
             {
@@ -294,6 +318,7 @@
               "name": "Diet Plans",
               "image": "/assets/Images/home/Doctors.png",
               "link": "slimming/other-services/diet-plans",
+              "readMore": "Read More",
               "designation": "Single needle threads provide a non-surgical solution for lifting and rejuvenating various areas of the face, offering a comprehensive approach to facial rejuvenation."
             }
           ]
@@ -319,6 +344,13 @@
           "doctors": [
             {
               "id": 1,
+              "name": "DT. Elissa Nabil El Ahmadieh",
+              "designation": "Dietician & Nutritionist Specialist",
+              "image": "/assets/Images/doctors/Dr Elissa.png",
+              "link": "dt-elissa-a-ahmadieh"
+            }, 
+            {
+              "id": 2,
               "name": "Dr. Mehdi Shidvash",
               "designation": "Aesthetic Physician",
               "image": "/assets/Images/doctors/mahdi.png",

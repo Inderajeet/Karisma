@@ -45,13 +45,16 @@ const SkinCareServices = () => {
     return (
         <>
             {/* <BannerSkinCare /> */}
-            <div className="">
+            <div key={service.id || serviceName}> 
                 {service.sections.map((section, index) => {
-                    console.log('Section-services:', section.listServices);  // Debugging: log section
+    const uniqueKey = `${section.type}-${index}`;
+    console.log('Rendering section:', section.type, 'Key:', uniqueKey); // Debugging
+
+    console.log('Section-services:', section.listServices);  // Debugging: log section
                     if (section.type === "content") {
                         return (
                             <ContentSection
-                                key={index}
+                                key={uniqueKey}
                                 title={section.title}
                                 heading={section.heading}
                                 description={section.description}
@@ -62,7 +65,7 @@ const SkinCareServices = () => {
                         return (
                             <div style={{textAlign: 'center', backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
                             <ContentSection
-                                key={index}
+                                key={uniqueKey}
                                 title={section.title}
                                 heading={section.heading}
                                 description={section.description}
@@ -74,7 +77,7 @@ const SkinCareServices = () => {
                         return (
                             <div style={{backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
                             <ContentSection
-                                key={index}
+                                key={uniqueKey}
                                 title={section.title}
                                 heading={section.heading}
                                 description={section.description}
@@ -85,7 +88,7 @@ const SkinCareServices = () => {
                     }else if (section.type === "header-title") {
                         return (
                             <HeaderTitle
-                                key={index}
+                                key={uniqueKey}
                                 title={section.title}
                                 description={section.description}
                             />
@@ -95,7 +98,7 @@ const SkinCareServices = () => {
 
                         return (
                             <ImageContent
-                                key={index}
+                                key={uniqueKey}
                                 title={section.title} // Pass title
                                 imageUrl={section.imageUrl} // Pass image URL
                                 imageAlt={section.imageAlt} // Pass image alt text
@@ -105,6 +108,7 @@ const SkinCareServices = () => {
                     } else if (section.type === "banner") {
                         return (
                            <DynamicBanner 
+                           key={uniqueKey}
                            deptName={section.deptName} 
                            serviceName={section.serviceName} 
                            bannerImage={section.bannerImage}
@@ -115,7 +119,7 @@ const SkinCareServices = () => {
                         return (
 
                             <SlidingDoct
-                                key={index}
+                                key={uniqueKey}
                                 doctors={section.doctors} // Pass doctors array
                                 cards={section.cards} // Pass card styles
                                 isRTL={i18n.dir() === "rtl"} // Pass direction info
@@ -125,28 +129,39 @@ const SkinCareServices = () => {
                         console.log('inside video')
                         return (
 
-                            <VideoSection />
+                            <VideoSection 
+                            key={uniqueKey}
+                            />
                         );
                     }
                     else if (section.type === "offers") {
-                        return <OffersTemplate key={index} offers={section.offers} />;
+                        return <OffersTemplate 
+                        key={uniqueKey} 
+                        offers={section.offers} />;
                     }
                     else if (section.type === "list-services") {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
                         return (
                         <div style={{backgroundColor:'#c4a98863'}}>
-                        <ListServices key={index} services={section.listServices} />
+                        <ListServices 
+                        key={uniqueKey} 
+                        services={section.listServices} />
                         </div>);
                     }else if (section.type === "list-services-noImage") {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
                         return (
                             <div style={{backgroundColor:'#c4a98863'}}>
-                        <ListServicesNoImg key={index} services={section.listServices} />
+                        <ListServicesNoImg 
+                        key={uniqueKey} 
+                        services={section.listServices} />
                         </div>);
                     }
                     return null;  // If no valid section type found
                 })}
                 {/* <Doctors /> */}
+            </div>
+            <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '10px' }}>
+                <hr className="half-line" style={{ width: '50%', border: '0', height: '2px', backgroundColor: '#111', margin: '0' }} />
             </div>
         </>
     );

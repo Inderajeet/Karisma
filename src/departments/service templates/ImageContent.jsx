@@ -31,23 +31,29 @@ const renderListItem = (item, index) => {
 };
 
 export const applyFontFallback = (text) => {
-    if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
-  
-    return text.split("").map((char, index) =>
-      /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
-        ? char
-        : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
-    );
-  };
-  
+  if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
+
+  return text.split("").map((char, index) =>
+    /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
+      ? char
+      : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
+  );
+};
+
 const ImageContent = ({ title, imageUrl, imageAlt, content }) => {
+  const finalImageUrl = imageUrl.startsWith("http")
+  ? imageUrl
+  : `${window.location.origin}/assets/${imageUrl.replace(/^(\.\.\/)+assets\//, '')}`;
+
+console.log("Final Image URL:", finalImageUrl);
+
   return (
     <section className="imgSect">
       <div className="customContainer">
         <div className="contentWrap">
           {/* Image Section */}
           <div className="imgBx">
-            <img src={imageUrl} loading="lazy" alt={imageAlt} />
+            <img src={finalImageUrl} loading="lazy" alt={imageAlt} />
           </div>
 
           {/* Content Section */}
@@ -57,7 +63,7 @@ const ImageContent = ({ title, imageUrl, imageAlt, content }) => {
             {/* Render Dynamic Content */}
             {content.map((item, index) => {
               if (item.type === 'heading') {
-                return <p  key={index} style={{fontFamily:'The Seasons', fontWeight:'600'}}> <strong>{item.text}</strong></p>;
+                return <p key={index} style={{ fontFamily: 'The Seasons', fontWeight: '600' }}> <strong>{item.text}</strong></p>;
               }
               if (item.type === 'paragraph') {
                 const parts = item.text.split(":");

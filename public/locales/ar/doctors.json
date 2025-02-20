@@ -2,8 +2,59 @@
     "doctors": [
         {
             "id": 1,
+            "name": "Dr. Hesham Nafei",
+            "image": "/assets/Images/doctors/hesham nafi.png",
+            "link": "dr-hesham-nafei",
+            "designation": "Dental General Practitioner",
+            "email":"",
+            "phone":"",
+            "website":"",
+            "experience": "M",
+            "socialLinks": {
+                "facebook":"",
+                "twitter":"",
+                "instagram":"",
+                "youtube":""
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "",
+                        "items": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    ""
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    ""
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Sunday to Thursday",
+                "flipFrontDesc1": "10:00 AM to 8:00 PM",
+                "flipBack1": "Saturday",
+               "flipBackDesc1": "10:00 AM to 9:00 PM",
+                "flipFront2": "Address",
+                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
+                "flipBack2": "Address",
+                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+            }
+        },
+        {
+            "id": 2,
             "name": "Dr. Yuri Macrino",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/Dr Yuri.png",
             "link": "dr-yuri-macrino",
             "designation": "Aesthetic plastic surgeon & consultant",
             "email":"",
@@ -52,9 +103,9 @@
             }
         },
         {
-            "id": 2,
+            "id": 3,
             "name": "Dr. Mehdi Shidvash",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/mahdi.png",
             "link": "dr-mehdi-shidvash",
             "designation": "Aesthetic Physician",
             "email":"",
@@ -103,9 +154,9 @@
             }
         },
         {
-            "id": 3,
+            "id": 4,
             "name": "Dr. Sandro Ceci",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/Dr Sandro.png",
             "link": "dr-sandro-ceci",
             "designation": "Dermatologist Specialist",
             "email":"",
@@ -154,9 +205,9 @@
             }
         },
         {
-            "id": 4,
+            "id": 5,
             "name": "Dr. Manar Magdy",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/Dr Manar.png",
             "link": "dr-manar-magdy",
             "designation": "Dermatologist Specialist",
             "email":"",
@@ -183,7 +234,7 @@
             "workExperience": {
                 "title": "Work Experience",
                 "items": [
-                    "She is an expert in cosmetic dermatology, offering a range of non-surgical treatments including fillers, botox, fat injections,microneedling, peeling, and anti-aging techniques. She also specializes in advanced non-surgical lifting techniques such as Endo lift, HIFU, and Therapy, as well as fractional laser and radiofrequency treatments. Her areas of expertise include non-surgical face lifting, nose thread lifts, under-eye thread lifts, eyebrow and neck lifting, facial rejuvenation, collagen stimulation, PRP, mesotherapy, and chemical peeling."
+                    "She is an expert in cosmetic dermatology, offering a range of non-surgical treatments including fillers, anti-aging treatment, fat injections,microneedling, peeling, and anti-aging techniques. She also specializes in advanced non-surgical lifting techniques such as Endo lift, HIFU, and Therapy, as well as fractional laser and radiofrequency treatments. Her areas of expertise include non-surgical face lifting, nose thread lifts, under-eye thread lifts, eyebrow and neck lifting, facial rejuvenation, collagen stimulation, PRP, mesotherapy, and chemical peeling."
                 ]
             },
             "qualifications": {
@@ -205,62 +256,11 @@
             }
         },
         {
-            "id": 5,
-            "name": "Dr. Ramilia Anarkulova",
-            "image": "/assets/Images/home/Doctors.png",
-            "link": "dr-ramilia-anarkulova",
-            "designation": "Beauty consultant",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
-            "overview": {
-                "title": "Overview",
-                "sections": [
-                    {
-                        "subtitle": "",
-                        "items": [
-                            ""
-                        ]
-                    }
-                ]
-            },
-            "workExperience": {
-                "title": "Work Experience",
-                "items": [
-                    ""
-                ]
-            },
-            "qualifications": {
-                "title": "Qualifications",
-                "items": [
-                    ""
-                ]
-            },
-            "workingShifts": {
-                "title": "Working Shifts",
-                "flipFront1": "Sunday to Thursday",
-                "flipFrontDesc1": "10:00 AM to 8:00 PM",
-                "flipBack1": "Saturday",
-               "flipBackDesc1": "10:00 AM to 9:00 PM",
-                "flipFront2": "Address",
-                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
-                "flipBack2": "Address",
-                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
-            }
-        },
-        {
             "id": 6,
-            "name": "Dr. Yara Khaled",
-            "image": "/assets/Images/home/Doctors.png",
-            "link": "dr-yara-khaled",
-            "designation": "General Practitioner",
+            "name": "Dr. Ramilia Anarkulova",
+            "image": "/assets/Images/doctors/Dr Ramila.png",
+            "link": "dr-ramilia-anarkulova",
+            "designation": "Dermatologist-Cosmetologist",
             "email":"",
             "phone":"",
             "website":"",
@@ -277,7 +277,7 @@
                     {
                         "subtitle": "",
                         "items": [
-                            "Dr. Yara Khaled is a dedicated and accomplished medical professional with a strong foundation in general medicine and advanced training in aesthetic and functional medicine. Dr. Khaled’s practice is characterized by a holistic approach to patient care, combining her medical expertise with a focus on enhancing well-being and confidence through aesthetic and functional medicine. Her compassionate care and commitment to staying at the forefront of medical advancements make her a trusted professional in her field."
+                            "Passionate about enhancing natural beauty, Ramilia specializes in Full Face Anti-Aging Treatment, Lipolytic, Russian Lips Technique, Mesotherapy, Contour Plastic, and Butt Augmentation. Her patient-centered approach, combined with precision and artistry, ensures tailored treatments that deliver safe, effective, and natural-looking results."
                         ]
                     }
                 ]
@@ -285,13 +285,13 @@
             "workExperience": {
                 "title": "Work Experience",
                 "items": [
-                    "In addition to her clinical achievements, Dr. Khaled is a published researcher. Her 2020 article, /'Recent Emerging Gut Microbiome Management Modalities in Acute Diarrhea in Children: A Comparative Study Review of Different Probiotic Strains,' highlights her dedication to advancing medical knowledge and contributing to the field of pediatric health."
+                    "With multiple certifications in Anti-Aging Treatment, thread lifting, PRP, and other advanced techniques, Ramilia remains committed to staying at the forefront of dermatology and cosmetology. Fluent in Russian, English, Kyrgyz, Uighur, and Turkish, she provides expert care to a diverse clientele, ensuring every patient receives a customized and professional experience. Her expertise, attention to detail, and dedication to innovation have established her as a trusted name in the field of beauty and aesthetics."
                 ]
             },
             "qualifications": {
                 "title": "Qualifications",
                 "items": [
-                    "A graduate of Al-Azhar University for Girls, Cairo, Egypt (Faculty of Medicine, 2019), she has continuously expanded her expertise to provide comprehensive, patient-centered care. Dr. Yara is certified by the Egyptian Medical Council and Syndicate (October 2020) and holds active licenses with the Ministry of Health (MOH) and SHC. She has pursued advanced certifications, including courses in Basic Life Support (BLS), Pediatric Advanced Life Support (PALS), and Advanced Cardiac Life Support (ACLS), accredited by the National CPR Foundation and the American Heart Association (AHA). Her commitment to excellence is further reflected in her training in aesthetic medicine at Sharjah University and functional medicine courses."
+                    "Ramilia Anarkulova is a highly skilled and dedicated Dermatologist-Cosmetologist with extensive experience in facial aesthetic procedures and non-surgical treatments. She holds a Diploma in General Medicine from I.K. Akhunbaev Kyrgyz State Medical Academy and completed her Postgraduate Residency in Dermatocosmetology, equipping her with in-depth expertise in advanced skincare and cosmetic enhancements."
                 ]
             },
             "workingShifts": {
@@ -309,7 +309,7 @@
         {
             "id": 7,
             "name": "DT. Elissa Al- Ahmadieh",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/Dr Elissa.png",
             "link": "dt-elissa-a-ahmadieh",
             "designation": "Dietician & Nutritionist Specialist",
             "email":"",
@@ -361,7 +361,7 @@
         {
             "id": 8,
             "name": "Dr. Adel Al- Aswad",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/Adel.png",
             "link": "dr-adel-al-aswad",
             "designation": "Specialist Oral Surgeon",
             "email":"",
@@ -415,7 +415,7 @@
         {
             "id": 9,
             "name": "Dr. Amir Magdy",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/Amir.png",
             "link": "dr-amir-magdy",
             "designation": "GP Dentist",
             "email":"",
@@ -468,7 +468,7 @@
         {
             "id": 10,
             "name": "Dr. Rania Ghanem",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/Rania.png",
             "link": "dr-rania-ghanem",
             "designation": "Prosthodontics Specialist",
             "email":"",
@@ -519,9 +519,9 @@
         },
         {
             "id": 11,
-            "name": "Dr. Huda Shaheen",
-            "image": "/assets/Images/home/Doctors.png",
-            "link": "dr-huda-shaheen",
+            "name": "Dr. Huda Ebrahim Shaheen",
+            "image": "/assets/Images/doctors/huda.png",
+            "link": "dr-huda-ebrahim-shaheen",
             "designation": "Obstetrics and Gynecology Specialist",
             "email":"",
             "phone":"",
@@ -539,7 +539,7 @@
                     {
                         "subtitle": "",
                         "items": [
-                            "As she has a broad range of services includes gynecology cosmetics, tightening, whitening, laser treatments, 2D-4D ultrasound, as well as facial aesthetics such as Botox, fillers, PRP, and mesotherapy. Her approach combines medical expertise with cosmetic enhancements to ensure comprehensive care and natural results for her patients."
+                            "As she has a broad range of services includes gynecology cosmetics, tightening, whitening, laser treatments, 2D-4D ultrasound, as well as facial aesthetics such as Anti-Aging Treatment, fillers, PRP, and mesotherapy. Her approach combines medical expertise with cosmetic enhancements to ensure comprehensive care and natural results for her patients."
                         ]
                     }
                 ]
@@ -547,7 +547,7 @@
             "workExperience": {
                 "title": "Work Experience",
                 "items": [
-                    "She holds privileges from DHA and MOH for various treatments, including cosmeticgynecology, facial aesthetics, laser treatments, Botox, fillers, and mesotherapy."
+                    "She holds privileges from DHA and MOH for various treatments, including cosmeticgynecology, facial aesthetics, laser treatments, Anti-Aging Treatment, fillers, and mesotherapy."
                 ]
             },
             "qualifications": {
@@ -571,7 +571,7 @@
         {
             "id": 12,
             "name": "Naziha Al Tabaa",
-            "image": "/assets/Images/home/Doctors.png",
+            "image": "/assets/Images/doctors/Naziha.png",
             "link": "naziha-al-tabaa",
             "designation": "Skin Expert & Beauty Therapist",
             "email":"",

@@ -31,8 +31,8 @@ function Booking({ showModal, handleClose }) {
 
     const fetchDepartments = async () => {
         try {
-            // const response = await fetch('https://dental.dmaksolutions.com/api/departments');
-            const response = await fetch('http://localhost:5000/api/departments');
+            const response = await fetch('https://dental.dmaksolutions.com/api/departments');
+            // const response = await fetch('http://localhost:5000/api/departments');
             if (!response.ok) {
                 throw new Error(`Failed to fetch departments. Status: ${response.status}`);
             }

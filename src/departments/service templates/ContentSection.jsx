@@ -7,13 +7,13 @@ const renderFeature = (feature, index) => {
         if (feature.includes(":")) {
             const [key, value] = feature.split(/:(.+)/); // Split only at the first colon
             return (
-                <div key={index} className="featureItem">
+                <div key={index} className="featureItem divP">
                     <strong>{key}</strong>: {value}
                 </div>
             );
         } else {
             // If no colon, return as normal text
-            return <div key={index} className="featureItem">{feature}</div>;
+            return <div key={index} className="featureItem divP">{feature}</div>;
         }
     }
 
@@ -22,26 +22,26 @@ const renderFeature = (feature, index) => {
         if (feature.title.includes(":")) {
             const [key, value] = feature.title.split(/:(.+)/);
             return (
-                <div key={index} className="featureItem">
+                <div key={index} className="featureItem divP">
                     <strong>{key}</strong>: {value}
                     <ul className="custom-list">
                         {feature.items.map((item, subIndex) => (
-                            <li key={subIndex} className="custom-list-item">
+                            <p key={subIndex} className="custom-list-item">
                                 {typeof item === "string" ? item : renderFeature(item, subIndex)}
-                            </li>
+                            </p>
                         ))}
                     </ul>
                 </div>
             );
         } else {
             return (
-                <div key={index} className="featureItem">
+                <div key={index} className="featureItem divP">
                     {feature.title}
                     <ul className="custom-list">
                         {feature.items.map((item, subIndex) => (
-                            <li key={subIndex} className="custom-list-item">
+                            <p key={subIndex} className="custom-list-item">
                                 {typeof item === "string" ? item : renderFeature(item, subIndex)}
-                            </li>
+                            </p>
                         ))}
                     </ul>
                 </div>
@@ -72,7 +72,8 @@ const ContentSection = ({ title, description, features, heading }) => {
             <p  style={{fontFamily:'The Seasons', fontWeight:'600'}}> <strong>{heading}</strong></p>
             <p>{description}</p>
 
-            {features && <p className="featuresContainer">{features.map(renderFeature)}</p>}
+            {features && <div className="featuresContainer divP">{features.map(renderFeature)}</div>
+        }
         </div>
     );
 };

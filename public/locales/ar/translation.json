@@ -19,37 +19,37 @@
     {
       "title": "قسم طب األسنان",
       "description": "",
-      "link": "/"
+      "link": "/dental"
     },
     {
-      "title": " قسم األمراض الجلدية",
+      "title": "قسم األمراض الجلدية",
       "description": "",
-      "link": "/"
+      "link": "/derma"
     },
     {
       "title": "قسم العناية بالبشرة",
       "description": "",
-      "link": "/"
+      "link": "/skincare"
     },
     {
-      "title": "قسم أمراض النساء ",
+      "title": "قسم جراحة التجميل",
       "description": "",
-      "link": "/"
+      "link": "/plastic-surgery"
+    },
+    {
+      "title": "قسم أمراض النساء",
+      "description": "",
+      "link": "/gynecology"
     },
     {
       "title": "قسم التغذية والتخسيس",
       "description": "",
-      "link": "/"
+      "link": "/slimming"
     },
     {
       "title": "قسم الليزر",
       "description": "",
-      "link": "/"
-    },
-    {
-      "title": " قسم جراحة التجميل",
-      "description": "",
-      "link": "/"
+      "link": "/laser-hair-removal"
     }
   ],
   "menuItems": [
@@ -63,181 +63,191 @@
       "subMenu": [
         {
           "label": "Dental",
+          "link": "/dental",
           "subMenu": [
             {
               "label": "Hollywood Smile (Veneers)",
-              "link": "/"
+              "link": "/dental/hollywood-smile-veneers"
             },
             {
               "label": "Implant",
-              "link": "/"
+              "link": "/dental/implant"
             },
             {
               "label": "Orthodontics",
-              "link": "/"
+              "link": "/dental/orthodontics"
             },
             {
               "label": "Teeth Whitening",
-              "link": "/"
+              "link": "/dental/teeth-whitening"
             },
             {
               "label": "Mouth Rehabilitation",
-              "link": "/"
+              "link": "/dental/mouth-rehabilitation"
             },
             {
               "label": "Root Canal Treatment",
-              "link": "/"
+              "link": "/dental/root-canal"
             },
             {
               "label": "Pediatric",
-              "link": "/"
+              "link": "/dental/pediatric"
             },
             {
               "label": "Dental Surgical Treatment",
-              "link": "/"
+              "link": "/dental/dental-surgery"
             },
             {
               "label": "Oral Health (Gum Treatment)",
-              "link": "/"
+              "link": "/dental/oral-health"
             },
             {
               "label": "Restorative Dentistry",
-              "link": "/"
+              "link": "/dental/restorative-dentistry"
             }
           ]
         },
         {
           "label": "Derma",
+          "link": "/derma",
           "subMenu": [
             {
               "label": "Dermal Fillers",
-              "link": "/"
+              "link": "/derma/derma-filler"
             },
             {
-              "label": "Botox",
-              "link": "/"
+              "label": "Anti-Aging Treatment",
+              "link": "/derma/anti-aging-treatment"
             },
             {
               "label": "Cosmetic Threads",
-              "link": "/"
+              "link": "/derma/cosmetic-threads"
             },
             {
               "label": "Rejuvenation Injection",
-              "link": "/"
+              "link": "/derma/rejuvenation"
             }
           ]
         },
         {
           "label": "Laser Hair Removal",
+          "link": "/laser-hair-removal",
           "subMenu": [
             {
               "label": "Candela GentleMax Pro",
-              "link": "/"
+              "link": "/laser-hair-removal/candela"
             },
             {
               "label": "Cynosure Elite+",
-              "link": "/"
+              "link": "/laser-hair-removal/elite"
             },
             {
               "label": "RevLite SI",
-              "link": "/"
+              "link": "/laser-hair-removal/revlite"
             }
           ]
         },
         {
           "label": "Skin Care",
+          "link": "/skincare",
           "subMenu": [
             {
               "label": "Facials",
-              "link": "/"
+              "link": "/skincare/facials"
             },
             {
               "label": "Peeling",
-              "link": "/"
+              "link": "/skincare/peeling"
             },
             {
               "label": "Mesotherapy",
-              "link": "/"
+              "link": "/skincare/mesotherapy"
             },
             {
               "label": "Plasma face",
-              "link": "/"
+              "link": "/skincare/plasma-face"
             },
             {
               "label": "IV DRIP Glowing",
-              "link": "/"
+              "link": "/skincare/iv-drip-glowing"
             },
             {
               "label": "Collagen Threads",
-              "link": "/"
+              "link": "/skincare/collagen-threads"
             },
             {
               "label": "Piercing",
-              "link": "/"
+              "link": "/skincare/piercing"
             },
             {
               "label": "Facial machines",
-              "link": "/"
+              "link": "/skincare/facial-machines"
             },
             {
               "label": "Hair Treatment",
-              "link": "/"
+              "link": "/skincare/hair-treatment"
             }
           ]
         },
         {
           "label": "Gynecology",
+          "link": "/gynecology",
           "subMenu": [
             {
               "label": "Bikini Whitening & Rejuvenation",
-              "link": "/"
+              "link": "/gynecology/bikini-whitening-rejuvenation"
             },
             {
               "label": "Bikini Tightening - Belladona",
-              "link": "/"
+              "link": "/gynecology/bikini-tightening-belladona"
             },
             {
               "label": "Plasma Injection",
-              "link": "/"
+              "link": "/gynecology/plasma-injection"
             },
             {
               "label": "Gynecological filler",
-              "link": "/"
+              "link": "/gynecology/gynecological-filler"
             },
             {
-              "label": "Vaginal Botox",
-              "link": "/"
+              "label": "Vaginal Anti-Aging Treatment",
+              "link": "/gynecology/vaginal-anti-aging-treatment"
             },
             {
               "label": "Cosmetic Minor Surgeries",
-              "link": "/"
+              "link": "/gynecology/cosmetic-minor-surgeries"
             },
             {
               "label": "Gynecology aesthetic",
-              "link": "/"
+              "link": "/gynecology/aesthetic-gynecology"
             },
             {
               "label": "Medical Gynecology / Obstetric",
-              "link": "/"
+              "link": "/gynecology/obstetric"
             }
           ]
         },
         {
           "label": "Slimming",
+          "link": "/slimming",
           "subMenu": [
             {
               "label": "Machines",
-              "link": "/"
+              "link": "/slimming/machines"
             },
             {
               "label": "Injections",
-              "link": "/"
+              "link": "/slimming/injections"
             },
             {
               "label": "Other Services",
-              "link": "/"
+              "link": "/slimming/other-services"
             }
           ]
+        },
+        {
+          "label": "Plastic Surgery",
+          "link": "/plastic-surgery"
         }
       ]
     },
@@ -247,7 +257,7 @@
     },
     {
       "label": "Careers",
-      "link": "/"
+      "link": "/careers"
     },
     {
       "label": "Contact Us",

@@ -243,7 +243,10 @@ export default function ContactForm() {
                                             </div>
                                             <div className="col-md-12 mt-3">
                                                 <input
-                                                    className="wpcf7-form-control wpcf7-submit has-spinner"
+                                                data-elementor-type="wp-page"
+                                                data-elementor-id={73397}
+                                                // className="elementor elementor-73397"
+                                                    className="wpcf7-form-control wpcf7-submit has-spinner third slidebottomleft"
                                                     type="submit"
                                                     value={isSubmitting ? 'Submitting...' : 'Send Now'}
                                                     disabled={isSubmitting}

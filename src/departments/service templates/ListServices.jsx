@@ -27,7 +27,7 @@ export default function ListServices({ services }) {
               <div className="elementor elementor-73315">
                 <div className="elementor-element elementor-7a321f1b e-flex e-con-boxed e-con e-parent e-lazyloaded">
                   <div className="e-con-inner">
-                    <div className="dd-row">
+                    <div className="listRow">
                       {services?.map((doctor) => (
                         <div className="service-info-cols">
                           <div className="dd-inner">
@@ -57,7 +57,7 @@ export default function ListServices({ services }) {
                                       <div className="service-departments">{doctor.designation}</div>
                                     </div>
                                     <div className="doctor-specialities">
-                                      <div className="service-departments"><strong>Read More</strong></div>
+                                      <div className="service-departments"><strong>{doctor.readMore}</strong></div>
                                     </div>
                                   </div>
                                 </div>

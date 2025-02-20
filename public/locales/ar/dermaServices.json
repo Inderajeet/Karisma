@@ -168,7 +168,8 @@
         {
           "type": "content",
           "title": "Our Doctors",
-          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
         },
         {
           "type": "slider-doctors",
@@ -185,24 +186,10 @@
           "doctors": [
             {
               "id": 1,
-              "name": "Dr. Sandro Ceci",
-              "designation": "Dermatologist Specialist",
-              "image": "/assets/Images/doctors/Dr Sandro.png",
-              "link": "dr-sandro-ceci"
-            },
-            {
-              "id": 2,
               "name": "Dr. Manar Magdy",
               "designation": "Dermatology Specialist",
               "image": "/assets/Images/doctors/Dr Manar.png",
               "link": "dr-manar-magdy"
-            },
-            {
-              "id": 3,
-              "name": "Dr. Ramilia Anarkulova",
-              "designation": "Dermatologist-Cosmetologist",
-              "image": "/assets/Images/doctors/Dr Ramila.png",
-              "link": "dr-ramilia-anarkulova"
             }
           ]
         }
@@ -347,7 +334,8 @@
         {
           "type": "content",
           "title": "Our Doctors",
-          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
         },
         {
           "type": "slider-doctors",
@@ -364,24 +352,10 @@
           "doctors": [
             {
               "id": 1,
-              "name": "Dr. Sandro Ceci",
-              "designation": "Dermatologist Specialist",
-              "image": "/assets/Images/doctors/Dr Sandro.png",
-              "link": "dr-sandro-ceci"
-            },
-            {
-              "id": 2,
               "name": "Dr. Manar Magdy",
               "designation": "Dermatology Specialist",
               "image": "/assets/Images/doctors/Dr Manar.png",
               "link": "dr-manar-magdy"
-            },
-            {
-              "id": 3,
-              "name": "Dr. Ramilia Anarkulova",
-              "designation": "Dermatologist-Cosmetologist",
-              "image": "/assets/Images/doctors/Dr Ramila.png",
-              "link": "dr-ramilia-anarkulova"
             }
           ]
         }
@@ -579,7 +553,8 @@
         {
           "type": "content",
           "title": "Our Doctors",
-          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
         },
         {
           "type": "slider-doctors",
@@ -596,24 +571,10 @@
           "doctors": [
             {
               "id": 1,
-              "name": "Dr. Sandro Ceci",
-              "designation": "Dermatologist Specialist",
-              "image": "/assets/Images/doctors/Dr Sandro.png",
-              "link": "dr-sandro-ceci"
-            },
-            {
-              "id": 2,
               "name": "Dr. Manar Magdy",
               "designation": "Dermatology Specialist",
               "image": "/assets/Images/doctors/Dr Manar.png",
               "link": "dr-manar-magdy"
-            },
-            {
-              "id": 3,
-              "name": "Dr. Ramilia Anarkulova",
-              "designation": "Dermatologist-Cosmetologist",
-              "image": "/assets/Images/doctors/Dr Ramila.png",
-              "link": "dr-ramilia-anarkulova"
             }
           ]
         }
@@ -813,7 +774,8 @@
         {
           "type": "content",
           "title": "Our Doctors",
-          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
         },
         {
           "type": "slider-doctors",
@@ -830,24 +792,10 @@
           "doctors": [
             {
               "id": 1,
-              "name": "Dr. Sandro Ceci",
-              "designation": "Dermatologist Specialist",
-              "image": "/assets/Images/doctors/Dr Sandro.png",
-              "link": "dr-sandro-ceci"
-            },
-            {
-              "id": 2,
               "name": "Dr. Manar Magdy",
               "designation": "Dermatology Specialist",
               "image": "/assets/Images/doctors/Dr Manar.png",
               "link": "dr-manar-magdy"
-            },
-            {
-              "id": 3,
-              "name": "Dr. Ramilia Anarkulova",
-              "designation": "Dermatologist-Cosmetologist",
-              "image": "/assets/Images/doctors/Dr Ramila.png",
-              "link": "dr-ramilia-anarkulova"
             }
           ]
         }

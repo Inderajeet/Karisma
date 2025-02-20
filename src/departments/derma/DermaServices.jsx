@@ -53,33 +53,36 @@ const DermaServices = () => {
                             <ContentSection
                                 key={index}
                                 title={section.title}
+                                heading={section.heading}
                                 description={section.description}
                                 features={section.features}
                             />
                         );
-                    }else if (section.type === "center-content") {
+                    } else if (section.type === "center-content") {
                         return (
-                            <div style={{textAlign: 'center', backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
-                            <ContentSection
-                                key={index}
-                                title={section.title}
-                                description={section.description}
-                                features={section.features}
-                            />
+                            <div style={{ textAlign: 'center', backgroundColor: '#c4a98863', paddingTop: '2rem' }}>
+                                <ContentSection
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    description={section.description}
+                                    features={section.features}
+                                />
                             </div>
                         );
-                    }else if (section.type === "color-content") {
+                    } else if (section.type === "color-content") {
                         return (
-                            <div style={{backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
-                            <ContentSection
-                                key={index}
-                                title={section.title}
-                                description={section.description}
-                                features={section.features}
-                            />
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '2rem' }}>
+                                <ContentSection
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    description={section.description}
+                                    features={section.features}
+                                />
                             </div>
                         );
-                    }else if (section.type === "header-title") {
+                    } else if (section.type === "header-title") {
                         return (
                             <HeaderTitle
                                 key={index}
@@ -100,14 +103,16 @@ const DermaServices = () => {
                             />
                         );
                     } else if (section.type === "banner") {
+                        console.log("Banner Image Path:", section.bannerImage);
+
                         return (
-                           <DynamicBanner 
-                           deptName={section.deptName} 
-                           serviceName={section.serviceName} 
-                           bannerImage={section.bannerImage}
-                           />
+                            <DynamicBanner
+                                deptName={section.deptName}
+                                serviceName={section.serviceName}
+                                bannerImage={section.bannerImage}
+                            />
                         );
-                    }else if (section.type === "slider-doctors") {
+                    } else if (section.type === "slider-doctors") {
                         console.log('inside doctors')
                         return (
 
@@ -131,19 +136,22 @@ const DermaServices = () => {
                     else if (section.type === "list-services") {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
                         return (
-                        <div style={{backgroundColor:'#c4a98863'}}>
-                        <ListServices key={index} services={section.listServices} />
-                        </div>);
-                    }else if (section.type === "list-services-noImage") {
+                            <div style={{ backgroundColor: '#c4a98863' }}>
+                                <ListServices key={index} services={section.listServices} />
+                            </div>);
+                    } else if (section.type === "list-services-noImage") {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
                         return (
-                            <div style={{backgroundColor:'#c4a98863'}}>
-                        <ListServicesNoImg key={index} services={section.listServices} />
-                        </div>);
+                            <div style={{ backgroundColor: '#c4a98863' }}>
+                                <ListServicesNoImg key={index} services={section.listServices} />
+                            </div>);
                     }
                     return null;  // If no valid section type found
                 })}
                 {/* <Doctors /> */}
+            </div>
+            <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '10px' }}>
+                <hr className="half-line" style={{ width: '50%', border: '0', height: '2px', backgroundColor: '#111', margin: '0' }} />
             </div>
         </>
     );

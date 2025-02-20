@@ -8,11 +8,11 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Facials",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
           "imageAlt": "Facials",
           "title": "Facials",
           "content": [
@@ -86,6 +86,7 @@
               "name": "Basic HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/basic-hydraFacial",
+              "readMore": "Read More",
               "designation": ""
             },
             {
@@ -93,6 +94,7 @@
               "name": "HydraFacial Clear Skin",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/hydraFacial-clear-skin",
+              "readMore": "Read More",
               "designation": ""
             },
             {
@@ -100,6 +102,7 @@
               "name": "Magic Facial",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/magic-facial",
+              "readMore": "Read More",
               "designation": ""
             },
             {
@@ -107,6 +110,7 @@
               "name": "Oily Skin HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/oily-skin-hydraFacial",
+              "readMore": "Read More",
               "designation": ""
             },
             {
@@ -114,6 +118,7 @@
               "name": "Dry Skin HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/dry-skin-hydraFacial",
+              "readMore": "Read More",
               "designation": ""
             },
             {
@@ -121,6 +126,7 @@
               "name": "Carboxy HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/carboxy-hydraFacial",
+              "readMore": "Read More",
               "designation": ""
             },
             {
@@ -128,6 +134,7 @@
               "name": "Whitening HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/whitening-hydraFacial",
+              "readMore": "Read More",
               "designation": ""
             },
             {
@@ -135,6 +142,7 @@
               "name": "Karisma Signature Facial (Caviar)",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/karisma-signature-facial",
+              "readMore": "Read More",
               "designation": ""
             },
             {
@@ -142,6 +150,7 @@
               "name": "Karisma Signature Plus Facial (Cleopatra HydraFacial)",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/karisma-signature-plus-facial",
+              "readMore": "Read More",
               "designation": ""
             },
             {
@@ -149,6 +158,7 @@
               "name": "Detox HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/detox-hydraFacial",
+              "readMore": "Read More",
               "designation": ""
             },
             {
@@ -156,6 +166,7 @@
               "name": "Under Eye Facial",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/under-eye-facial",
+              "readMore": "Read More",
               "designation": ""
             },
             {
@@ -163,6 +174,7 @@
               "name": "Platinum HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/platinum-hydraFacial",
+              "readMore": "Read More",
               "designation": ""
             },
             {
@@ -170,6 +182,7 @@
               "name": "Deluxe Radiant HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/deluxe-radiant-hydraFacial",
+              "readMore": "Read More",
               "designation": ""
             },
             {
@@ -177,6 +190,7 @@
               "name": "Deluxe Age Refinement HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/deluxe-age-refinement-hydraFacial",
+              "readMore": "Read More",
               "designation": ""
             },
             {
@@ -184,6 +198,7 @@
               "name": "LED Light Therapy",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/led-light-therapy",
+              "readMore": "Read More",
               "designation": ""
             },
             {
@@ -191,6 +206,7 @@
               "name": "Bubble Facial",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/bubble-facial",
+              "readMore": "Read More",
               "designation": ""
             },
             {
@@ -198,6 +214,7 @@
               "name": "Pink Shooter",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/pink-shooter-facial",
+              "readMore": "Read More",
               "designation": ""
             },
             {
@@ -205,7 +222,36 @@
               "name": "Chocolate HydraFacial",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/facials/chocolate-facial",
+              "readMore": "Read More",
               "designation": ""
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
             }
           ]
         }
@@ -219,11 +265,11 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Peeling",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
           "imageAlt": "Peeling Treatments",
           "title": "Peeling Treatments",
           "content": [
@@ -278,6 +324,7 @@
               "name": "Yellow Peeling",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/peeling/yellow-peel-treatment",
+              "readMore": "Read More",
               "designation": "Illuminate Your Skin with the Power of the Yellow Peel at Karisma"
             },
             {
@@ -285,6 +332,7 @@
               "name": "TCA Peeling",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/peeling/tca-peel-treatment",
+              "readMore": "Read More",
               "designation": "A powerful, customizable treatment designed to rejuvenate skin, targeting imperfections and promoting long-lasting results."
             },
             {
@@ -292,6 +340,7 @@
               "name": "Salicylic Acid Peeling",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/peeling/salicylic-acid-peeling",
+              "readMore": "Read More",
               "designation": "A targeted treatment designed to combat acne, minimize scarring, and fade pigmentation, unveiling a radiant, blemish-free complexion."
             },
             {
@@ -299,7 +348,36 @@
               "name": "Green Peel",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/peeling/green-peel",
+              "readMore": "Read More",
               "designation": "A revolutionary, plant-based skincare solution that harnesses the power of herbal extracts to promote cellular renewal and reveal a smoother, more radiant complexion."
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
             }
           ]
         }
@@ -313,11 +391,11 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Mesotherapy",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
           "imageAlt": "Mesotherapy",
           "title": "Mesotherapy",
           "content": [
@@ -391,63 +469,100 @@
               "name": "Meso Face",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/mesotherapy/meso-face",
-              "designation": "Illuminate Your Skin with the Power of the Yellow Peel at Karisma"
+              "readMore": "Read More",
+              "designation": ""
             },
             {
               "id": 2,
               "name": "HA Meso",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/mesotherapy/ha-mesotherapy",
-              "designation": "A powerful, customizable treatment designed to rejuvenate skin, targeting imperfections and promoting long-lasting results."
+              "readMore": "Read More",
+              "designation": ""
             },
             {
               "id": 3,
               "name": "Meso Whitening",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/mesotherapy/meso-whitening",
-              "designation": "A targeted treatment designed to combat acne, minimize scarring, and fade pigmentation, unveiling a radiant, blemish-free complexion."
+              "readMore": "Read More",
+              "designation": ""
             },
             {
               "id": 4,
               "name": "Meso Open Pores & Acne Scars",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/mesotherapy/meso-open-pores",
-              "designation": "A revolutionary, plant-based skincare solution that harnesses the power of herbal extracts to promote cellular renewal and reveal a smoother, more radiant complexion."
+              "readMore": "Read More",
+              "designation": ""
             },
             {
               "id": 5,
               "name": "TPRX Meso",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/mesotherapy/tprx-meso",
-              "designation": "The Carbon Laser Peel utilizes advanced laser technology to rejuvenate the skin, unveiling a glowing and refreshed complexion."
+              "readMore": "Read More",
+              "designation": ""
             },
             {
               "id": 6,
               "name": "Meso Lift",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/mesotherapy/meso-lift",
-              "designation": "The Carbon Laser Peel utilizes advanced laser technology to rejuvenate the skin, unveiling a glowing and refreshed complexion."
+              "readMore": "Read More",
+              "designation": ""
             },
             {
               "id": 7,
               "name": "Meso Gold",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/mesotherapy/meso-gold",
-              "designation": "The Carbon Laser Peel utilizes advanced laser technology to rejuvenate the skin, unveiling a glowing and refreshed complexion."
+              "readMore": "Read More",
+              "designation": ""
             },
             {
               "id": 8,
               "name": "Meso Eyes",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/mesotherapy/meso-eyes",
-              "designation": "The Carbon Laser Peel utilizes advanced laser technology to rejuvenate the skin, unveiling a glowing and refreshed complexion."
+              "readMore": "Read More",
+              "designation": ""
             },
             {
               "id": 9,
               "name": "Meso Lips",
               "image": "/assets/Images/home/Doctors.png",
               "link": "skinCare/mesotherapy/meso-lips",
-              "designation": "The Carbon Laser Peel utilizes advanced laser technology to rejuvenate the skin, unveiling a glowing and refreshed complexion."
+              "readMore": "Read More",
+              "designation": ""
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
             }
           ]
         }
@@ -461,11 +576,11 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Plasma Face",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
           "imageAlt": "Plasma Face",
           "title": "Plasma Face",
           "content": [
@@ -518,12 +633,7 @@
         {
           "type": "color-content",
           "title": "Stem Cell Therapy: Experience the Power of Cellular Renewal",
-          "description": "Stem cell therapy for facial rejuvenation offers a multitude of benefits for those seeking to restore and revitalize their skin:"
-        },
-        {
-          "type": "content",
-          "title": "Your Health, Our Priority",
-          "description": "At Karisma Specialist Medical Center, we are committed to delivering world-class care to women at every stage of life. Schedule a consultation today to take the first step towards optimal health and well-being",
+          "description": "Stem cell therapy for facial rejuvenation offers a multitude of benefits for those seeking to restore and revitalize their skin:",
           "features": [
             "Turning Back Time: Stem cells can transform and repair tissues. This treatment stimulates the production of new, healthy skin cells, leading to a firmer, smoother, and more youthful appearance.",
             {
@@ -567,8 +677,12 @@
           "description": "For an even more comprehensive approach to facial rejuvenation, consider combining stem cell therapy with:",
           "features": [
             "Dermapen: Dermapen technology enhances absorption, improving the results of stem cell",
-            "HydraFacial: HydraFacial gently removes dead skin cells and impurities, preparing the skin for optimal absorption of stem cells and other beneficial ingredients. These treatments together lead to dramatic improvements in skin texture, tone, and rejuvenation."
+            "HydraFacial: HydraFacial gently removes dead skin cells and impurities, preparing the skin for optimal absorption of stem cells and other beneficial ingredients."
           ]
+        },
+        {
+          "type": "content",
+          "description": "These treatments together lead to dramatic improvements in skin texture, tone, and rejuvenation."
         },
         {
           "type": "content",
@@ -618,29 +732,58 @@
           "title": "Important Considerations Before RxStem Exosome Therapy",
           "description": "While RxStem Exosome therapy holds immense promise, there are a few precautions to consider:",
           "features": [
-            "Consultation: A consultation with a qualified dermatologist or skincare expert is necessary to determine if RxStem Exosome therapy is right for you and to discuss potential side effects. Minimally Invasive Procedure: RxStem Exosome therapy is minimally invasive, with minimal downtime."
+            "Consultation: A consultation with a qualified dermatologist or skincare expert is necessary to determine if RxStem Exosome therapy is right for you and to discuss potential side effects. ",
+            "Minimally Invasive Procedure: RxStem Exosome therapy is minimally invasive, with minimal downtime."
           ]
         },
         {
           "type": "color-content",
           "title": "Book Your Consultation at Karisma Specialist Medical Center",
           "description": "Discover the transformative power of PRP, Stem Cell Therapy, and Exosome treatments. Rejuvenate your skin naturally, restore its youthful glow, and address multiple skin concerns with these cutting-edge therapies. Schedule your consultation today to start your journey to radiant, healthier skin!"
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "4",
+      "id": "5",
       "name": "iv-drip-glowing",
       "sections": [
         {
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "IV DRIP Glowing",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
           "imageAlt": "IV DRIP Glowing",
           "title": "IV DRIP Glowing",
           "content": [
@@ -675,23 +818,17 @@
         {
           "type": "content",
           "title": "The Science Behind IV Drip Therapy",
-          "description": "PRP facials work through a targeted and effective approach:",
           "features": [
-            {
-              "title": "Customized Formula",
-              "items": [
-                "Based on your specific needs, a tailored IV solution is prepared, packed with vitamins, minerals, and antioxidants that benefit your skin and overall health.​ Bypassing Digestion",
-                "Direct delivery into the bloodstream ensures faster and more effective absorption, bypassing the digestive system for optimal results.​ Enhanced Skin Health",
-                "The nutrients nourish your skin from the inside, encouraging hydration, cell repair, and a glowing complexion."
-              ]
-            }
+            "Customized Formula: Based on your specific needs, a tailored IV solution is prepared, packed with vitamins, minerals, and antioxidants that benefit your skin and overall health.​",
+            "Bypassing Digestion: Direct delivery into the bloodstream ensures faster and more effective absorption, bypassing the digestive system for optimal results",
+            "Enhanced Skin Health: The nutrients nourish your skin from the inside, encouraging hydration, cell repair, and a glowing complexion."
           ]
         },
         {
           "type": "content",
           "title": "Important Considerations Before IV Drip Therapy",
           "features": [
-            "Consultation: A consultation with a qualified dermatologist or skincare expert is crucial to determine if PRP is right for you and to discuss potential side effects.",
+            "Consultation:A consultation with a qualified medical professional is required to determine if IV Drip Therapy is right for you and to assess any potential risks.",
             "Pre-Treatment Bloodwork: To ensure safety, necessary blood tests (including liver and kidney function) will be required before each session.",
             "Recommended Treatment Plan:For best results, we recommend a series of 6 sessions (twice a month for 3 months), along with repeated blood tests every two months to track your progress."
           ]
@@ -700,22 +837,50 @@
           "type": "color-content",
           "title": "A Synergistic Approach to Beauty",
           "description": "For optimal results, IV Drip Therapy for Glowing Skin can be paired with other treatments, such as slimming machiness, to enhance your overall beauty goals. Our experts will create a personalized treatment plan to help you achieve the glowing skin you've always desired."
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "4",
+      "id": "6",
       "name": "collagen-threads",
       "sections": [
         {
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Collagen Threads",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
           "imageAlt": "Collagen Threads",
           "title": "Collagen Threads",
           "content": [
@@ -750,16 +915,10 @@
         {
           "type": "content",
           "title": "The Science Behind Collagen Threads",
-          "description": "PRP facials work through a targeted and effective approach:",
           "features": [
-            {
-              "title": "Biocompatible Material",
-              "items": [
-                "Fine threads made from collagen and elastin-stimulating materials are gently inserted into targeted areas of the skin.​ Dissolving Scaffolding",
-                "Over time, the threads dissolve naturally, leaving behind a collagen network that provides lasting support and structure to the skin.​ Cellular Renewal Trigger",
-                "The presence of the threads stimulates collagen production and cellular renewal, further enhancing skin texture and elasticity."
-              ]
-            }
+            "Biocompatible Material: Fine threads made from collagen and elastin-stimulating materials are gently inserted into targeted areas of the skin.​",
+            "Dissolving Scaffolding: Over time, the threads dissolve naturally, leaving behind a collagen network that provides lasting support and structure to the skin.",
+            "Cellular Renewal Trigger: The presence of the threads stimulates collagen production and cellular renewal, further enhancing skin texture and elasticity."
           ]
         },
         {
@@ -775,22 +934,50 @@
         {
           "type": "color-content",
           "heading": "Embrace a natural lift and experience a smoother, firmer complexion with collagen threads at Karisma Specialist Medical Center."
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "4",
+      "id": "7",
       "name": "piercing",
       "sections": [
         {
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Piercing",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
           "imageAlt": "Piercing",
           "title": "Piercing",
           "content": [
@@ -847,22 +1034,50 @@
         {
           "type": "color-content",
           "heading": "Ready to make a statement? Schedule a consultation with our piercing experts today!"
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "4",
+      "id": "8",
       "name": "facial-machines",
       "sections": [
         {
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Facial Machines",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
           "imageAlt": "Facial Machines",
           "title": "Facial Machines",
           "content": [
@@ -945,22 +1160,50 @@
           "type": "color-content",
           "title": "Schedule a Consultation with Our Experienced Team",
           "description": "These are just a few of the advanced skin treatments offered at Karisma Specialist Medical Center. Schedule a consultation to discuss your specific concerns and develop a personalized treatment plan to achieve your desired results."
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "4",
+      "id": "9",
       "name": "hair-treatment",
       "sections": [
         {
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Hair Treatment",
-          "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
+          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
           "imageAlt": "Hair Treatment",
           "title": "Hair Treatment",
           "content": [
@@ -1033,6 +1276,34 @@
           "type": "color-content",
           "title": "Schedule Your Consultation Today",
           "description": "These are just a few of the advanced hair restoration treatments we offer at Karisma Specialist Medical Center. Schedule a consultation with our experienced team to discuss your hair concerns and explore the best treatment plan for achieving your desired results."
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "features": []
+        },
+        {
+          "type": "slider-doctors",
+          "title": "Meet Our Specialists",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": "Naziha Al Tabaa",
+              "designation": "Skin Expert & Beauty Therapist",
+              "image": "/assets/Images/doctors/Naziha.png",
+              "link": "naziha-al-tabaa"
+            }
+          ]
         }
       ]
     }

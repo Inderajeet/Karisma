@@ -15,7 +15,7 @@ const FooterServices = () => {
     const { t, i18n } = useTranslation('footerServices');
     // const services = t('services', { returnObjects: true });
 
-    const { serviceName } = useParams();
+    const { footSerName } = useParams();
     const [services, setServices] = useState([]);
     const [service, setService] = useState(null);
     // Load services from translations
@@ -27,21 +27,21 @@ const FooterServices = () => {
     // Find the current doctor
     useEffect(() => {
         if (services.length > 0) {
-            const foundService = services.find((doc) => doc.name === decodeURIComponent(serviceName));
+            const foundService = services.find((doc) => doc.name === decodeURIComponent(footSerName));
             setService(foundService);
         }
-    }, [services, serviceName]);
+    }, [services, footSerName]);
     console.log('Found Service:', services);  // Debugging: log found service
 
-    console.log('Services data:', serviceName);  // Debugging: log services
-    console.log("gyne services:", decodeURIComponent(serviceName));
+    console.log('Services data:', footSerName);  // Debugging: log services
+    console.log("gyne services:", decodeURIComponent(footSerName));
 
     if (!service) return <p>service not found!</p>;
 
     return (
         <>
             {/* <Banner /> */}
-            <div className="happysmile-content-wrap container page" style={{paddingTop: '144px'}}>
+            <div className="happysmile-content-wrap container page" style={{ paddingTop: '144px' }}>
                 {service.sections.map((section, index) => {
                     console.log('Section-services:', section.listServices);  // Debugging: log section
                     if (section.type === "content") {
@@ -94,6 +94,9 @@ const FooterServices = () => {
                 })}
                 {/* <Doctors /> */}
             </div>
+                <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center' , paddingTop:'10px'}}>
+                    <hr className="half-line" style={{ width: '50%', border: '0', height: '3px', backgroundColor: '#111', margin: '0' }} />
+                </div>
         </>
     );
 };

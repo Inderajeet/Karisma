@@ -12,7 +12,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/About Service/dental.png",
+                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
                     "imageAlt": "قسم الأسنان",
                     "title": "قسم الأسنان",
                     "content": [
@@ -111,7 +111,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/About Service/gyne.png",
+                    "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
                     "imageAlt": "طب النساء والتوليد",
                     "title": "طب النساء والتوليد",
                     "content": [
@@ -222,7 +222,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/About Service/laser.png",
+                    "imageUrl": "../assets/Images/banner/about_dept/laser.png",
                     "imageAlt": "إزالة الشعر بالليزر",
                     "title": "إزالة الشعر بالليزر",
                     "content": [
@@ -342,7 +342,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/About Service/skincare.png",
+                    "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
                     "imageAlt": "العناية بالبشرة",
                     "title": "العناية بالبشرة",
                     "content": [
@@ -469,7 +469,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/About Service/slimming.png",
+                    "imageUrl": "../assets/Images/banner/about_dept/slimming.png",
                     "imageAlt": "التغذية والتنحيف",
                     "title": "التغذية والتنحيف",
                     "content": [
@@ -597,7 +597,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/About Service/dental.png",
+                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
                     "imageAlt": "الجراحة التجميلية",
                     "title": "الجراحة التجميلية",
                     "content": [
@@ -680,7 +680,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/About Service/derma.png",
+                    "imageUrl": "../assets/Images/banner/about_dept/derma.png",
                     "imageAlt": "الأمراض الجلدية",
                     "title": "الأمراض الجلدية",
                     "content": [

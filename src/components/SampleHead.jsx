@@ -172,8 +172,8 @@ const SampleHeader2 = () => {
             </ul>
             <ul className="nav navbar-ul pull-right justify-content-end right-element-exist align-items-center">
               <li>
-                <a href="tel:065068777" className="h-phone">
-                  <i className="bi bi-telephone-forward-fill mr-2" /> 065068777
+                <a href="tel:+971065068777" className="h-phone">
+                  <i className="bi bi-telephone-forward-fill mr-2" /> +971065068777
                 </a>
               </li>
               <li className="secondary-toggle-wrapper">
