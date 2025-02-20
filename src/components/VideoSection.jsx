@@ -64,8 +64,8 @@ const VideoSection = () => {
             >
                 <div className="elementor-widget-container popup-anything-wrapper" style={{ margin: '0' }}>
                     <a className="cea-popup-anything popup-trigger-icon" 
-                    // href="onClick={toggleModal}"
-                    href="/"
+                    onClick={toggleModal}
+                    // href="/"
                     >
                         <i aria-hidden="true" className=" bi-play"></i>
                     </a>
@@ -76,8 +76,8 @@ const VideoSection = () => {
                         <iframe
                             width="560"
                             height="315"
-                            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                            // src="/ggg"
+                            // src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                            src="https://dental.dmaksolutions.com/videos/intro_wide_done_2%20(1080p)%20(1).mp4"
                             title="YouTube video"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
