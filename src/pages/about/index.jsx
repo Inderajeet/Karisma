@@ -46,19 +46,11 @@ const About = () => {
 
   console.log(about);
   
-//   const { section1, section2, section3, section4 } = about;
-  const audience = about?.audience; // Replace with the actual path to audience
-  const brandPersona = about?.brandPersona; // Replace with the actual path to brand persona
-  const toneOfVoice = about?.toneOfVoice; 
-  const brandPrism = about?.brandPrism;
   const ceoMessage = about?.ceoMessage;
 
-  if (!audience || !brandPersona) {
-    return <div>Error: Data is not available.</div>;
-  }
+ 
   
   const sections = [about.section1, about.section2];
-  const sectionImages = [images.about.visionImg, images.about.missionImg, images.about.foundationImg, images.about.essenceImg];
 
   return (
     <div>
@@ -66,16 +58,11 @@ const About = () => {
   
       {/* Our Story Section (Moved to Top) */}
       <div className="our-story-container">
-        <h2 className="our-story-heading">Our Story</h2>
-        <p className="our-story-text">
-          Karisma stands for empowerment and self-expression. It is a luxury aesthetic brand that enhances and 
-          brings out an individual’s inner charisma by offering transformative treatments tailored to unique needs.
-          <br /><br />
-          With a focus on innovation, sophistication, and elegance, Karisma helps clients radiate confidence, not 
-          just through external beauty but by igniting their inner glow. By blending advanced technology with 
-          personalized care, Karisma is a destination where beauty and empowerment meet, offering a unique 
-          journey of self-discovery and confidence.
-        </p>
+        <h2 className="title our-story-heading">{about?.our_story?.title}</h2>
+        {about?.our_story?.content.map((c,i) =>{
+          return <div><p className="our-story-text" key={i}>{t(c)}</p><br/></div>
+        })}
+     
       </div>
   
       <div style={{ backgroundColor: "#D9C5AD" }}>
@@ -87,7 +74,7 @@ const About = () => {
                 className={`about-us-section ${index % 2 === 0 ? "" : "reverse-layout"}`}
               >
                 <div className="sec1">
-                  <img src={sectionImages[index]} alt={t(section.title)} className="section-image" />
+                  <img src={section.image} alt={t(section.title)} className="section-image" />
                 </div>
                 <div className="sec2">
                   <span className="title about-us-heading">{t(section.title)}</span>
@@ -104,7 +91,7 @@ const About = () => {
                   <img src={images.about.ceoImg} alt="CEO" />
                 </div>
                 <div className="ceo-text-container">
-                  <p className="ceo-message-heading">CEO Message</p>
+                  <p className="title ceo-message-heading">{ceoMessage?.title}</p>
                   <p className="ceo-message-tagline">{ceoMessage?.ceoMessageTagline}</p>
                   {ceoMessage?.ceoMessageContent?.map((ceoPara, i) => (
                     <p key={i} className="ceo-message-content">{ceoPara}</p>
