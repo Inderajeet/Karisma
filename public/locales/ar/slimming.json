@@ -1,10 +1,11 @@
 {
     "slimming": {
+        "bannerImg": "../assets/Images/banner/dept_banner/slimming.png",
         "general_page": {
             "blog1": {
                 "title": "A Journey to Transformation at Karisma Specialist Medical Center",
                 "description": "At Karisma Specialist Medical Center, we believe true beauty and confidence begin with a healthy body. Our Slimming Department offers a comprehensive weight managementandbodycontouring, approach tailored to your unique needs. With a teamof experienced professionals, we’re here to guide and empower you to achieve your ideal physique.",
-                "blogImg": "https://damasmc.com/uploads/departments/department_image36e270012a97d8be04159303610a5d7ef84e0a86.jpg"
+                "blogImg": "../assets/Images/banner/About Service/slimming.png"
             },
             "para_sec1": {
                 "title": "Embrace a Healthier, More Confident You",
@@ -76,7 +77,7 @@
                     "At Karisma Specialist Medical Center, we’re dedicated to helping you achieve a healthier, more confident version of yourself. Book a consultation with our Slimming Department to start your personalized journey toward lasting transformation."
                 ]
             },
-            "related_services":[
+            "related_services": [
                 {
                     "title": "Machines",
                     "link": "/",
@@ -93,6 +94,377 @@
                     "image": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
                 }
             ]
+        },
+        "machines": {
+            "blog1": {
+                "title": "احصل على قوام الجسم المثالي مع أحدث التقنيات في مركز كاريزما الطبي التخصصي",
+                "description": "يوفر مركز كاريزما الطبي التخصصي مجموعة شاملة من حلول نحت الجسم وتقليل الدهون المتطورة لمساعدتك على تحقيق القوام المثالي. سواء كنت تبحث عن إذابة الدهون العنيدة، أو شد العضلات، أو تحسين التصريف الليمفاوي، توفر أجهزتنا وعلاجاتنا المتقدمة خيارات غير جراحية وفعالة مصممة لتلبية احتياجاتك.",
+                "blogImg": "https://damasmc.com/uploads/services/service_image9e83179c92b6cae4ddf3fdc1abd8998a8fb3aa4e.jpg"
+            },
+            "paras": [
+                {
+                    "title": "استكشف تقنيات نحت الجسم المبتكرة لدينا",
+                    "subcategories": [
+                        {
+                            "name": "تذويب وتكسير الدهون - ABAS Fit & ReFit (RF Technology)",
+                            "description": "تستهدف طاقة ترددات الراديو خلايا الدهون، وتعزز إنتاج الكولاجين، وتشد الجلد للحصول على مظهر منحوت."
+                        },
+                        {
+                            "name": "تذويب وتكسير الدهون - Power Shape 2 (RF Technology)",
+                            "description": "تجمع بين ترددات الراديو وتقنيات الشفط لتفكيك رواسب الدهون، وتحسين مرونة الجلد، ونحت الجسم."
+                        },
+                        {
+                            "name": "حرق الدهون – هيتر Heater",
+                            "description": "يستخدم تقنية تسخين متقدمة لاستهداف طبقات الدهون وتقليلها مع تعزيز شد الجلد وتحديد العضلات."
+                        },
+                        {
+                            "name": "تحفيز العضلات - EMS تحفيز العضلات الكهربائي",
+                            "description": "ينشّط وينحت العضلات من خلال نبضات كهربائية، مما يعزز القوة والتحديد دون الحاجة إلى تمارين شاقة."
+                        },
+                        {
+                            "name": "التصريف الليمفاوي – بريسّو Presso",
+                            "description": "يحفّز الجهاز الليمفاوي، ويقلل من احتباس السوائل، ويعزز الدورة الدموية، ويعزز إزالة السموم."
+                        },
+                        {
+                            "name": "ماديروثيرابي - التدليك بالأخشاب",
+                            "description": "هو تقنية طبيعية غير جراحية تستخدم أدوات خشبية مصممة خصيصًا لتحفيز تكسير الدهون، وتعزيز الدورة الدموية، ونحت الجسم."
+                        }
+                    ]
+                }
+            ],
+            "para_sec1": {
+                "title": "خطوة أولى نحو صحة أفضل وثقة أكبر بنفسك",
+                "description": [
+                    "احجز استشارتك اليوم في مركز كاريزما الطبي التخصصي واكتشف قوة تقنيات نحت الجسم المتطورة لدينا."
+                ],
+                "content": [
+                    {
+                        "title": "ABAS Fit & ReFit",
+                        "description": [
+                            "تحقق تقنية ABAS Fit & ReFit المبتكرة في مركز كاريزما الطبي التخصصي قوامًا منحوتًا ومتناسقًا."
+                        ]
+                    },
+                    {
+                        "title": "باور شيب 2 – Power Shape 2",
+                        "description": [
+                            "اكتشف المستوى الفائق لنحت الجسم مع باور شيب 2، وهو علاج متطور متعدد التقنيات مصمم لإذابة الدهون وتقليل السيلوليت وتجديد شباب بشرتك للحصول على مظهر شبابي ومنحوت."
+                        ]
+                    },
+                    {
+                        "title": "حرق الدهون – هيتر Heater",
+                        "description": [
+                            "حقق أهدافك بنحت جسمك بشكل أسرع مع جهاز هيتر، وهو حل متطور لتعزيز حرق الدهون وتعزيز عملية الأيض."
+                        ]
+                    },
+                    {
+                        "title": "تحفيز العضلات - EMS",
+                        "description": [
+                            "احصل على عضلات محددة وقوية وبارزة وتحسينًا لحرق الدهون مع تحفيز العضلات الكهربائي (EMS)، وهي تقنية متطورة تحاكي التمرين الطبيعي من خلال نبضات كهربائية مُستهدِفة."
+                        ]
+                    },
+                    {
+                        "title": "التصريف الليمفاوي – بريسّو Presso",
+                        "description": [
+                            "بريسّو هو علاج غير جراحي يحفز التصريف الليمفاوي، ويساعد على تقليل الانتفاخ، كما يعزز الراحة ومظهرًا انسيابياً."
+                        ]
+                    },
+                    {
+                        "title": "ماديروثيرابي - التدليك بالأخشاب",
+                        "description": [
+                            "استمتع بدمج التقنيات الكولومبية القديمة مع الرفاهية الحديثة في مركز كاريزما الطبي التخصصي من خلال ماديروثيرابي، وهو علاج طبيعي فريد مصمم لنحت جسمك وتقويته وتجديد الجلد."
+                        ]
+                    }
+                ]
+            },
+            "para_sec2": {
+                "title": "أطباؤنا",
+                "description": [
+                    "التقِ بفريق خبرائنا المتميز، الملتزم بمساعدتك على تحقيق أفضل نتائج تعكس لياقتك وصحتك ورقي وتمّز عياداتنا."
+                ],
+                "content": [
+                    {
+                        "id": 1,
+                        "title": "د. إليسا نبيل الأحمدية",
+                        "description": "أخصائية التغذية والحمية",
+                        "image": "https://th.bing.com/th?q=Royalty+Free+Doctor&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
+                    }
+                ]
+            }
+        },
+        "injections": {
+            "blog1": {
+                "title": "Targeted Fat Reduction at Karisma Specialist Medical Center",
+                "description": " At Karisma Specialist Medical Center achieve your weight management goals with precision and care. Our range of targeted fat reduction injections offers a non-surgical solution to help you sculpt and define your body.",
+                "blogImg": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
+            },
+            "paras": [
+                {
+                    "title": "Why Choose Fat Reduction Injections?",
+                    "subcategories": [
+                        {
+                            "title": "Targeted Fat Loss",
+                            "description": "Focus on stubborn areas like the abdomen, thighs, arms, or chin."
+                        },
+                        {
+                            "title": "Non-Invasive Solution",
+                            "description": "Achieve noticeable results without surgery or downtime."
+                        },
+                        {
+                            "title": "Customized Plans",
+                            "description": " Our medical experts tailor treatments to your specific needs and goals."
+                        },
+                        {
+                            "title": "Safe and Effective",
+                            "description": " Administered by experienced professionals, ensuring safety and optimal results."
+                        }
+                    ]
+                },
+                {
+                    "title": "Your Personalized Weight Management Journey",
+                    "description": " Weunderstand that achieving a healthier weight can be challenging. Our dedicated teamwill work with you to develop a comprehensive, personalized plan, combining injections with:",
+                    "subcategories": [
+                        {
+                            "title": "Nutritional Guidance"
+                        },
+                        {
+                            "title": "Lifestyle Modifications"
+                        },
+                        {
+                            "title": "Other Complementary Treatments"
+                        }
+                    ]
+                }
+            ],
+            "para_sec1": {
+                "title": "Take the next step towards a more sculpted, confident you.",
+                "description": [
+                    "Schedule a consultation at Karisma Specialist Medical Center today and discover how targeted fat reduction injections can enhance your journey to wellness."
+                ],
+                "content": [
+                    {
+                        "title": "Meso Fat Injections",
+                        "description": [
+                            " Our Meso Fat injections offer a minimally invasive solution to target localized fat deposits, helping you achieve a more sculpted and confident silhouette."
+                        ]
+                    },
+                    {
+                        "title": "Ozempic Injections",
+                        "description": [
+                            " Our experienced team of doctors is here to help you achieve a healthier weight and sculpted physique. Through our expert-led programs, including Ozempic injections, we offer a safe and effective approach to weight loss and overall health improvement."
+                        ]
+                    },
+                    {
+                        "title": "IV Drip Solutions",
+                        "description": [
+                            "Our IV Drip Therapy offers a fast and effective way to deliver essential nutrients directly into your bloodstream, enhancing your health, beauty, and overall well-being."
+                        ]
+                    }
+                ]
+            },
+            "para_sec2": {
+                "title": "Our Doctors",
+                "description": [
+                    "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+                ],
+                "content": [
+                    {
+                        "id": 1,
+                        "title": "Dr. Mehdi Shidvash",
+                        "description": "Dietician & Nutritionist Specialist",
+                        "image": "https://th.bing.com/th?q=Royalty+Free+Doctor&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
+                    }
+                ]
+            }
+        },
+        "other_services": {
+            "blog1": {
+                "description": "At Karisma Specialist Medical Center, we understand that achieving optimal health and wellness requires a holistic approach. Our team of experienced professionals is committed to providing a wide range of services tailored to meet your individual needs, ensuring you feel and look your best.",
+                "blogImg": "https://damasmc.com/uploads/services/service_imagee34680d0a2780ada574fbd85fe0fcd0539932ca7.jpg"
+            },
+            "para_sec1": {
+                "title": "Our Comprehensive Services Include:",
+                "paras": [
+                    {
+                        "title": "Slimming Solutions",
+                        "description": "From Meso Fat injections to advanced body sculpting treatments, we offer a variety of options designed to target stubborn fat, improve skin tone, and help you achieve your desired physique"
+                    },
+                    {
+                        "title": "Skin and Beauty Treatments",
+                        "description": "Whether it's rejuvenating facials, anti-aging therapies, or IV drip therapy, our beauty services aim to enhance your natural beauty and leave you feeling refreshed."
+                    },
+                    {
+                        "title": "Weight ManagementPrograms",
+                        "description": " Our weight management services include personalized nutrition plans, Ozempic injections, and lifestyle counseling to support sustainable weight loss and long-term health."
+                    },
+                    {
+                        "title": "Holistic Wellnesss",
+                        "description": " We offer personalized wellness plans that incorporate fitness guidance, stress management techniques, and other therapeutic services designed to enhance your overall well-being."
+                    }
+                ]
+            },
+            "para_sec2": {
+                "title": " Dedicated to Your Health and Beauty",
+                "description": [
+                    " At Karisma Specialist Medical Center, our goal is to provide a comprehensive range of services to support your journey to better health and a more confident you. Our medical team will work closely with you to develop a tailored plan that addresses all your wellness needs, ensuring you achieve the results you're looking for."
+                ]
+            },
+            "para_sec3": {
+                "title": "Schedule a Consultation Today!",
+                "description": [
+                    "Discover how our variety of services can support your health, beauty, and wellness goals. Our team is ready to assist you every step of the way."
+                ],
+                "content": [
+                    {
+                        "title": "Food Print Testing",
+                        "description": [
+                            "At Karisma Specialist Medical Center, we are proud to offer Food Print Testing, a simple and effective blood test that helps identify potential food sensitivities and support your digestive health."
+                        ]
+                    },
+                    {
+                        "title": "Diet Plans",
+                        "description": [
+                            " Single needle threads provide a non-surgical solution for lifting and rejuvenating various areas of the face, offering a comprehensive approach to facial rejuvenation."
+                        ]
+                    }
+                ]
+            },
+            "para_sec4": {
+                "title": "Our Doctors",
+                "description": [
+                    "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+                ],
+                "content": [
+                    {
+                        "id": 1,
+                        "title": "Dr. Mehdi Shidvash",
+                        "description": "Dietician & Nutritionist Specialist",
+                        "image": "https://th.bing.com/th?q=Royalty+Free+Doctor&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
+                    }
+                ]
+            }
+        },
+        "food_print": {
+            "blog1": {
+                "title": "Targeted Fat Reduction at Karisma Specialist Medical Center",
+                "description": "Digestive discomfort such as bloating, gas, and abdominal pain can be frustrating and disruptive to daily life. Food sensitivities may be a hidden cause. At Karisma Specialist Medical Center, we are proud to offer Food Print Testing, a simple and effective blood test that helps identify potential food sensitivities and support your digestive health.",
+                "additional_description": [
+                    "Uncover Potential Food Sensitivities",
+                    " Unlike food allergies, which trigger severe immune responses, food sensitivities cause more subtle symptoms like bloating, abdominal discomfort, headaches, and fatigue. Identifying these sensitivities can help you make more informed choices about your diet and improve your overall well-being."
+                ],
+                "blogImg": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
+            },
+            "para_sec1": {
+                "title": "Uncover Potential Food Sensitivities",
+                "description": [
+                    "Unlike food allergies, which trigger severe immune responses, food sensitivities cause more subtle symptoms like bloating, abdominal discomfort, headaches, and fatigue. Identifying these sensitivities can help you make more informed choices about your diet and improve your overall well-being."
+                ]
+            },
+            "point_blog1": {
+                "title": "How Food Print Testing Works",
+                "description": " Our FoodPrint Testing process is straightforward and non-invasive, offering a fast and reliable way to understand your body's immune response to various foods:",
+                "benefits": [
+                    {
+                        "title": "Convenient Blood Draw",
+                        "description": "A simple blood sample is collected at our clinic."
+                    },
+                    {
+                        "title": "Advanced Analysis",
+                        "description": "The blood sample is tested for IgG antibodies against a wide range of common food antigens."
+                    },
+                    {
+                        "title": "Personalized Results",
+                        "description": " You will receive a comprehensive report within a week, detailing any food sensitivities identified."
+                    }
+                ]
+            },
+            "point_blog2": {
+                "title": "Benefits of Identifying Food Sensitivities",
+                "description": "Identifying potential food sensitivities can lead to several health benefits :",
+                "benefits": [
+                    {
+                        "title": "Improved Digestive Health",
+                        "description": "Avoiding foods that trigger sensitivities may help reduce bloating, gas, and other digestive discomfort."
+                    },
+                    {
+                        "title": "Enhanced Overall Well-being",
+                        "description": "Managing food sensitivities may alleviate other health concerns, contributing to a better quality of life."
+                    },
+                    {
+                        "title": "Informed Dietary Choices",
+                        "description": "Your test results will guide you in making better dietary choices, supporting long-term gut health and overall wellness."
+                    }
+                ]
+            },
+            "point_blog3": {
+                "title": "Important Considerations",
+                "description": " While Food Print Testing can be an invaluable tool in identifying food sensitivities, please keep the following in mind: ",
+                "benefits": [
+                    {
+                        "title": "Confirmation with a Doctor",
+                        "description": "It’s essential to discuss your results with a healthcare professional to receive personalized advice and ensure the best approach for your health."
+                    },
+                    {
+                        "title": "Not a Diagnostic Tool",
+                        "description": "This test is not a diagnostic tool for food allergies, but it can offer valuable insight into potential food sensitivities."
+                    }
+                ]
+            },
+            "para_sec2": {
+                "title": "Schedule Your Food Print Test Today!",
+                "description": [
+                    "If you're ready to uncover food sensitivities that may be affecting your digestive health and overall well-being, schedule your Food Print Test at Karisma Specialist Medical Center today. Our expert team is here to guide you through every step of the process!"
+                ]
+            }
+        },
+        "diet_plans": {
+            "blog1": {
+                "title": "Diet Plans",
+                "description": " At Karisma Specialist Medical Center, we recognize that nutrition is not one-size-fits-all. Your unique health journey deserves a diet plan tailored specifically to your needs, goals, and preferences. That's why we offer a range of comprehensive, personalized diet plans created by our team of expert nutritionists, designed to help you achieve your optimal health.",
+                "blogImg": "https://damasmc.com/uploads/services/service_imagedb6a5311972ebb8dc94d470a9ccf85a8693ea435.jpg"
+            },
+            "point_blog1": {
+                "title": "Unveiling a World of Dietary Options",
+                "description": "Whether you're looking to lose weight, gain weight, or manage a chronic condition, we can design a diet plan that fits your lifestyle. Some examples of our customized plans include:",
+                "benefits": [
+                    {
+                        "title": "Healthy Weight Loss Without Deprivation",
+                        "description": "Our registered dietitians focus on sustainable, balanced eating habits and portion control, helping you lose weight without the feeling of deprivation."
+                    },
+                    {
+                        "title": "Weight Gain for Optimal Health",
+                        "description": "If your goal is to gain weight in a controlled and healthy way, we’ll create a plan rich in essential nutrients to support steady and effective weight gain."
+                    },
+                    {
+                        "title": "Dietary Management for Chronic Conditions",
+                        "description": " For those managing conditions like diabetes, high cholesterol, or malabsorption, our nutritionists craft specialized plans that complement your treatment and improve overall well-being."
+                    }
+                ]
+            },
+            "point_blog2": {
+                "title": "Benefits of Working with a Nutritionist",
+                "description": "When you work with our nutrition experts, you gain several advantages that can help you achieve long-term success: ",
+                "benefits": [
+                    {
+                        "title": "Personalized Guidance",
+                        "description": "We take the time to understand your individual needs, preferences, and lifestyle to create a diet plan that's both realistic and effective for you."
+                    },
+                    {
+                        "title": "Ongoing Support",
+                        "description": "With four visits per month, you’ll receive continuous support from your nutritionist to stay motivated, track progress, and make adjustments as needed."
+                    },
+                    {
+                        "title": "Education and Empowerment",
+                        "description": "We believe in empowering you with the knowledge and tools to make informed dietary choices, enabling you to build a lasting healthy relationship with food."
+                    }
+                ]
+            },
+            "para_sec1": {
+                "title": "Taking the First Step Towards a Healthier You",
+                "description": [
+                    " Are you ready to take the next step in your health journey? Schedule a consultation with our expert nutritionists today. We will discuss your goals, answer your questions, and create a personalized diet plan that helps you become the healthiest version of yourself.",
+                    "Let’s create a diet plan that nourishes your body and empowers your well-being !"
+                ]
+            }
         }
     }
 }
