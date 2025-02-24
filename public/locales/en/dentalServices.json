@@ -557,13 +557,13 @@
                     "description": "At Karisma Specialist Medical Center, we offer a range of premier orthodontic solutions, carefully designed to suit your lifestyle and preferences:",
                     "features": [
                         {
-                            "title": "Traditional Metal Braces",
+                            "title": "Traditional Metal Braces:",
                             "items": [
                                 "A time-tested solution, metal braces use a sophisticated system of brackets, wires, and bands to shift your teeth into perfect alignment gradually."
                             ]
                         },
                         {
-                            "title": "Invisible (Clear) Aligners",
+                            "title": "Invisible (Clear) Aligners:",
                             "items": [
                                 "For a discreet alternative and a less impactful one on your daily lifestyle, clear aligners are custom-made, removable devices that straighten your teeth with minimal impact on your daily activities."
                             ]
@@ -576,7 +576,7 @@
                     "description": "Why settle for anything less than exceptional? Begin your journey to the smile you’ve always envisioned with Karisma Specialist Medical Center."
                 },
                 {
-                    "type": "center-content",
+                    "type": "color-content",
                     "title": "Schedule Your Orthodontic Consultation Today",
                     "features": [
                         "Contact us now to book your personalized consultation with our expert orthodontists. During your visit, we’ll conduct a thorough assessment of your dental needs and present tailored treatment options to help you achieve your ideal smile.",
@@ -1417,7 +1417,7 @@
                             "id": 1,
                             "name": "E-Max Veneer 6D",
                             "image": "../assets/Images/banner/about_dept/dental.png",
-                            "link": "",
+                            "link": "dental/hollywood-smile-veneers",
                             "readMore": "Read More",
                             "designation": "Crafted from premium German ceramics, E-Max veneers offer exceptional durability and aesthetic appeal."
                         },
@@ -1425,7 +1425,7 @@
                             "id": 2,
                             "name": "Zircon Veneer",
                             "image": "../assets/Images/banner/about_dept/dental.png",
-                            "link": "",
+                            "link": "dental/hollywood-smile-veneers",
                             "readMore": "Read More",
                             "designation": "Combining German materials with American innovation, these veneers deliver precision, durability, and artistry."
                         },
@@ -1433,7 +1433,7 @@
                             "id": 3,
                             "name": "Zircon Snow White Veneer",
                             "image": "../assets/Images/banner/about_dept/dental.png",
-                            "link": "",
+                            "link": "dental/hollywood-smile-veneers",
                             "readMore": "Read More",
                             "designation": "Experience unmatched brilliance with these revolutionary veneers, designed for captivating smiles."
                         },
@@ -1441,7 +1441,7 @@
                             "id": 4,
                             "name": "Diamond Cut",
                             "image": "../assets/Images/banner/about_dept/dental.png",
-                            "link": "",
+                            "link": "dental/hollywood-smile-veneers",
                             "readMore": "Read More",
                             "designation": "Durable and stunning, these veneers provide a flawless, natural appearance for a smile that lasts."
                         },
@@ -1449,7 +1449,7 @@
                             "id": 5,
                             "name": "Solitaire Smile",
                             "image": "../assets/Images/banner/about_dept/dental.png",
-                            "link": "",
+                            "link": "dental/hollywood-smile-veneers",
                             "readMore": "Read More",
                             "designation": "Push the boundaries of modern dentistry with translucent, durable veneers for a dazzling finish."
                         }

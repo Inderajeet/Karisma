@@ -23,7 +23,7 @@ const renderFeature = (feature, index) => {
             const [key, value] = feature.title.split(/:(.+)/);
             return (
                 <div key={index} className="featureItem divP">
-                    <strong>{key}</strong>: {value}
+                    <strong>{key}</strong> {value}
                     <ul className="custom-list">
                         {feature.items.map((item, subIndex) => (
                             <p key={subIndex} className="custom-list-item">
