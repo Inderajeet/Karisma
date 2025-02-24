@@ -249,10 +249,7 @@
         {
           "type": "content",
           "title": "Women’s Health Services",
-          "description": "Age Range: Adulthood and Beyond"
-        },
-        {
-          "type": "content",
+          "heading": "Age Range: Adulthood and Beyond",
           "description": "Our team offers a wide range of services to support women through every stage of life:",
           "features": [
             "Menopausal Care: Managing symptoms like hot flashes, night sweats, and vaginal dryness.",
@@ -282,8 +279,13 @@
             "High-Risk Pregnancy Care: Specialized monitoring and support for high-risk pregnancies.",
             "Pregnancy Detection & Follow-up: Convenient packages with essential lab tests.",
             "Prenatal Testing: Comprehensive tests to ensure a healthy pregnancy.",
-            "Advanced Ultrasound: 4D Ultrasound- Detailed imaging for early detection of fetal features and potential ano  malies (18-20 weeks).",
-            "Advanced Ultrasound: 2D Doppler Ultrasound- Vital early pregnancy insights, including fetal count and heart activity.",
+            {
+              "title": "Advanced Ultrasound:",
+              "items": [
+                "4D Ultrasound- Detailed imaging for early detection of fetal features and potential ano  malies (18-20 weeks).",
+                "2D Doppler Ultrasound- Vital early pregnancy insights, including fetal count and heart activity."
+              ]
+            },
             "Genetic Testing: Assessing potential risks with advanced genetic screening.",
             "Delivery & Postnatal Care: A comfortable environment for childbirth and continued support after delivery."
           ]
@@ -864,19 +866,19 @@
           "title": "Your Journey with Karisma: What to Expect",
           "features": [
             {
-              "title": "Pre-operative Consultation",
+              "title": "Pre-operative Consultation:",
               "items": [
                 "A detailed consultation with our specialists to review your health, discuss goals, and address all your questions."
               ]
             },
             {
-              "title": "Minimally Invasive Techniques",
+              "title": "Minimally Invasive Techniques:",
               "items": [
                 "Both procedures are typically performed under local anesthesia, ensuring minimal discomfort and a faster recovery."
               ]
             },
             {
-              "title": "Recovery and Care",
+              "title": "Recovery and Care:",
               "items": [
                 "Recovery Time: Expect healing within 2-3 weeks.",
                 "Post-procedure Care: Follow our tailored aftercare plan, which includes hygiene tips and activity restrictions to optimize healing."
@@ -889,19 +891,19 @@
           "title": "Important Guidelines",
           "features": [
             {
-              "title": "Eligibility",
+              "title": "Eligibility:",
               "items": [
                 "Procedures are suitable for women over 18."
               ]
             },
             {
-              "title": "Pre-procedure Preparation",
+              "title": "Pre-procedure Preparation:",
               "items": [
                 "Shave the area a day before the surgery and avoid waxing, scrubs, or laser treatments for six weeks post-surgery."
               ]
             },
             {
-              "title": "Post-operative Advice",
+              "title": "Post-operative Advice:",
               "items": [
                 "Avoid intercourse for at least one month.",
                 "Wear loose, breathable clothing for comfort."

@@ -16,12 +16,28 @@ function Booking({ showModal, handleClose }) {
         gender: '',
         phone: '',
         preferredDate: '',
-        departments:'',
+        departments: '',
         message: '',
-        
+
     });
 
     const [errors, setErrors] = useState({});
+    const [minDate, setMinDate] = useState(''); // State for minimum date
+
+    useEffect(() => {
+        if (showModal) {
+            fetchDepartments();
+            setMinDate(getTodayDate()); // Set minDate when the modal is shown
+        }
+    }, [showModal]);
+
+    const getTodayDate = () => {
+        const today = new Date();
+        const year = today.getFullYear();
+        const month = String(today.getMonth() + 1).padStart(2, '0');
+        const day = String(today.getDate()).padStart(2, '0');
+        return `${year}-${month}-${day}`;
+    };
 
     useEffect(() => {
         if (showModal) {
@@ -76,7 +92,7 @@ function Booking({ showModal, handleClose }) {
                 newErrors.gender = value ? '' : 'Gender is required';
                 break;
             case 'departments':
-                newErrors.departmentId  = value ? '' : 'Departments is required';
+                newErrors.departmentId = value ? '' : 'Departments is required';
                 break;
             case 'phone':
                 newErrors.phone = value && /^\d{10}$/.test(value) ? '' : 'Valid phone number is required';
@@ -97,7 +113,7 @@ function Booking({ showModal, handleClose }) {
         if (!formData.email.trim() || !/^\S+@\S+\.\S+$/.test(formData.email)) newErrors.email = 'Valid email is required';
         if (!formData.age || isNaN(formData.age) || formData.age <= 0) newErrors.age = 'Valid age is required';
         if (!formData.gender) newErrors.gender = 'Gender is required';
-        if (!formData.departmentId ) newErrors.departmentId  = 'Deparment is required';
+        if (!formData.departmentId) newErrors.departmentId = 'Deparment is required';
         if (!formData.phone || !/^\d{10}$/.test(formData.phone)) newErrors.phone = 'Valid phone number is required';
         if (!formData.preferredDate) newErrors.preferredDate = 'Date is required';
 
@@ -110,7 +126,7 @@ function Booking({ showModal, handleClose }) {
         setFormLoading(true); // Start loader for submission
         try {
             const response = await axios.post('https://dental.dmaksolutions.com/api/book-appointment', {
-            // const response = await axios.post('http://localhost:5000/api/book-appointment', {
+                // const response = await axios.post('http://localhost:5000/api/book-appointment', {
                 ...formData,
             });
 
@@ -283,6 +299,7 @@ function Booking({ showModal, handleClose }) {
                                         onChange={handleChange}
                                         onBlur={handleBlur}
                                         className={`input ${errors.preferredDate ? 'is-invalid' : ''}`}
+                                        min={minDate} // Set the minimum date
                                     />
                                     {errors.preferredDate && <div className="cust-invalid-feedback">{errors.preferredDate}</div>}
                                 </div>
@@ -308,7 +325,7 @@ function Booking({ showModal, handleClose }) {
                                         </option>
                                     ))}
                                 </select>
-                                {errors.departmentId  && <div className="cust-invalid-feedback">{errors.departmentId }</div>}
+                                {errors.departmentId && <div className="cust-invalid-feedback">{errors.departmentId}</div>}
                             </div>
                             {/* Messgage */}
                             <div className="mb-3">

@@ -23,7 +23,7 @@ const renderFeature = (feature, index) => {
             const [key, value] = feature.title.split(/:(.+)/);
             return (
                 <div key={index} className="featureItem divP">
-                    <strong>{key}</strong>: {value}
+                    <strong>{key}</strong> {value}
                     <ul className="custom-list">
                         {feature.items.map((item, subIndex) => (
                             <p key={subIndex} className="custom-list-item">
@@ -64,13 +64,14 @@ export const applyFontFallback = (text) => {
   
   
 
-const ContentSection = ({ title, description, features, heading }) => {
+const ContentSection = ({ title, description, features, heading, heading2 }) => {
     return (
         <div className="custsectionStyle customContainer">
             <h2 className="title">{applyFontFallback(title)}</h2>
             {/* <h2 className="title">{title}</h2> */}
             <p  style={{fontFamily:'The Seasons', fontWeight:'600'}}> <strong>{heading}</strong></p>
             <p>{description}</p>
+            <p  style={{fontFamily:'The Seasons', fontWeight:'600'}}> <strong>{heading2}</strong></p>
 
             {features && <div className="featuresContainer divP">{features.map(renderFeature)}</div>
         }

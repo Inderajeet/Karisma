@@ -7,13 +7,13 @@ import BannerDoctor from "../../components/Bannerdoctor";
 
 export const applyFontFallback = (text) => {
     if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
-  
+
     return text.split("").map((char, index) =>
-      /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
-        ? char
-        : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
+        /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
+            ? char
+            : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
     );
-  };
+};
 
 function DoctorPage() {
 
@@ -120,13 +120,13 @@ function DoctorPage() {
                                                             data-widget_type="icon-list.default"
                                                         >
                                                             <div className="elementor-widget-container">
-                                                                    {section.items.map((detail, index) => (
-                                                                        <div className="elementor-icon-list-item" key={index}>
-                                                                            <span className="elementor-cust-icon-list-text">
-                                                                                {detail}
-                                                                            </span>
-                                                                        </div>
-                                                                    ))}
+                                                                {section.items.map((detail, index) => (
+                                                                    <div className="elementor-icon-list-item" key={index}>
+                                                                        <span className="elementor-cust-icon-list-text">
+                                                                            {detail}
+                                                                        </span>
+                                                                    </div>
+                                                                ))}
                                                             </div>
                                                         </div>
                                                     </div>
@@ -260,14 +260,14 @@ function DoctorPage() {
                                                                 data-element_type="container"
                                                             >
                                                                 <div className="e-con-inner">
-                                                                     {/* Overview */}
+                                                                    {/* Overview */}
                                                                     <div
                                                                         className="elementor-element elementor-element-2b718853 e-flex e-con-boxed e-con e-child"
                                                                         data-id="2b718853"
                                                                         data-element_type="container"
-                                                                        style={{display:'none'}}
+                                                                        style={{ display: 'none' }}
                                                                     >
-                                                                       
+
                                                                         <div className="e-con-inner">
                                                                             <div
                                                                                 className="elementor-element elementor-element-2ef812fa cea-align-left elementor-widget elementor-widget-ceasectiontitle"
@@ -373,7 +373,7 @@ function DoctorPage() {
                                                                         className="elementor-element elementor-element-87e3501 e-flex e-con-boxed e-con e-child"
                                                                         data-id="87e3501"
                                                                         data-element_type="container"
-                                                                        style={{display: 'none'}}
+                                                                        style={{ display: 'none' }}
                                                                     >
                                                                         <div className="e-con-inner">
                                                                             <div
@@ -424,7 +424,7 @@ function DoctorPage() {
                                                                         className="elementor-element elementor-element-2b718853 e-flex e-con-boxed e-con e-child"
                                                                         data-id="2b718853"
                                                                         data-element_type="container"
-                                                                        style={{display: 'none'}}
+                                                                        style={{ display: 'none' }}
                                                                     >
                                                                         <div className="e-con-inner">
                                                                             <div
@@ -716,6 +716,9 @@ function DoctorPage() {
                     {/* .col */}
                 </div>
                 {/* .row */}
+            <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '10px' }}>
+                <hr className="half-line" style={{ width: '50%', border: '0', height: '2px', backgroundColor: '#111', margin: '0' }} />
+            </div>
             </div>
         </>
 

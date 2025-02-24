@@ -120,7 +120,7 @@ const SocialIcons = () => {
                     </li>
                     <li>
                         <a
-                            href="tel:+971 06 506 8777"
+                            href="tel:+971 6 506 8777"
                             target="_blank"
                             id="call"
                             className="socialLink"

@@ -7,63 +7,62 @@
         {
           "type": "banner",
           "deptName": "Gynecology",
-          "serviceName": "Aesthetic Gynecology",
+          "serviceName": "طب النساء التجميلي ",
           "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
         },
         {
           "type": "image-content",
           "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
-
-          "imageAlt": "Aesthetic Gynecology",
-          "title": "Aesthetic Gynecology",
+          "imageAlt": "طب النساء التجميلي ",
+          "title": "طب النساء التجميلي ",
           "content": [
             {
               "type": "heading",
-              "text": "Enhancing Intimate Wellness and Confidence"
+              "text": "تعزيز الصحة الحميمة والثقة"
             },
             {
               "type": "paragraph",
-              "text": "At Karisma Specialist Medical Center, we celebrate and support women’s health in all its facets. Our expert team of female gynecologists offers a range of cosmetic gynecology services designed to enhance your intimate well-being, boost confidence, and promote a renewed sense of self."
+              "text": "في مركز كاريزما الطبي التخصصي، ن عتز بصحة المرأة وندعمها في جميع جوانبها. يقدم فريقنا الخبير من أطباء أمراض النساء مجموعة من خدمات طب النساء التجميلي المصممة لتعزيز صحتك الحميمة، وتعزيز ثقتك بنفسك، وتعزيز الشعور المتجدد بالذات "
             },
             {
               "type": "heading",
-              "text": "Discover the Power of Cosmetic Gynecology"
+              "text": "اكتشف قوة طب النساء التجميلي"
             },
             {
               "type": "paragraph",
-              "text": "Cosmetic gynecology focuses on non-surgical and minimally invasive treatments that address aesthetic and functional concerns, helping you feel your best."
+              "text": "يركز طب النساء التجميلي على العالجات الجراحية وغير الجراحية التي تعالج المخاوف الجمالية والوظيفية، وتساعدك على الشعور بأفضل ما لديك. "
             },
             {
               "type": "list",
               "items": [
-                "Vaginal Tightening: Restore firmness and elasticity with advanced treatments such as laser therapy and radiofrequency, enhancing both comfort and intimacy.",
-                "Whitening Treatments: Achieve a brighter, more even skin tone in the vulvar area, addressing hyperpigmentation for a rejuvenated appearance.",
-                "Plasma Therapy: Harness the healing power of plasma technology to promote tissue rejuvenation, improving laxity and minor pigmentation concerns.",
-                "Fillers: Add volume and definition to the labia majora, creating a more balanced, aesthetically pleasing look and enhancing comfort.",
-                "Anti-Aging Treatment for Intimate Care: Anti-Aging Treatment may be used to address muscle hyperactivity and minimize certain aesthetic concerns. A personalized consultation ensures this option aligns with your needs and safety."
+                "شد المهبل: Restore firmness and elasticity with advanced treatments such as laser therapy and radiofrequency, enhancing both comfort and intimacy.",
+                "العالج بالبالزما : استغل القوة العالجية لتكنولوجيا البالزما لتعزيز تجديد األنسجة، وتحسين الترهل ومشاكل التصبغ الطفيفة. ",
+                "الحشوات: أضف الحجم والتعريف إلى الشفرين الكبيرين، مما يخلق مظهًرا أكثر توازناً وجما ًًل ويعزز الراحة.",
+                "الحشوات: أضف الحجم والتعريف إلى الشفرين الكبيرين، مما يخلق مظهًرا أكثر توازناً وجما ًًل ويعزز الراحة.",
+                "البوتوكس للعناية الحميمة: يمكن استخدام البوتوكس لمعالجة فرط نشاط العضالت وتقليل بعض المخاوف الجمالية. تضمن اًلستشارة الشخصية أن هذا الخيار يتوافق مع احتياجاتك وسالمتك. "
               ]
             }
           ]
         },
         {
           "type": "content",
-          "title": "A Personalized Approach to Intimate Wellness",
+          "title": "نهج شخصي للعافية الحميمة",
           "features": [
-            "Discreet Consultations: Our caring, all-female team offers a private, supportive space to discuss your concerns openly and confidently.",
-            "Tailored Treatment Plans: Each plan is customized to meet your individual goals, ensuring treatments are effective and aligned with your desired outcomes.",
-            "Cutting-edge Technology: We utilize the latest advancements to deliver optimal results while prioritizing your comfort and well-being."
+            "ستشارات سرية: يقدم فريقنا النسائي المهتم مساحة خاصة داعمة لمناقشة مخاوفك بصراحة وثقة",
+            "خطط عالج مخصصة : يتم تخصيص كل خطة لتلبية أهدافك الفردية، مما يضمن فعالية العالجات ومواءمتها مع النتائج المرجوة. ",
+            "تكنولوجيا متطورة: نستخدم أحدث التطورات لتقديم نتائج مثالية مع إعطاء األولوية لراحتك ورفاهتك."
           ]
         },
         {
           "type": "color-content",
-          "title": "Begin Your Confidence Journey at Karisma Specialist Medical Center",
-          "description": "Empower yourself with expert care designed for your unique needs. Contact Karisma Specialist Medical Center today to schedule a private consultation and explore how cosmetic gynecology can help you embrace your intimate health and confidence.",
+          "title": "بدأ رحلة الثقة في مركز كاريزما الطبي المتخصص",
+          "description": "قم بتمكين نفسك من خالل الرعاية المتخصصة المصممة ًلحتياجاتك الفريدة. اتصل بمركز كاريزما الطبي المتخصص اليوم لتحديد موعد استشارة خاصة واستكشاف كيف يمكن أن تساعدك طب النساء التجميلي في احتضان صحتك الحميمة وثقتك بنفسك",
           "features": []
         },
         {
           "type": "content",
-          "title": "Our Doctors",
-          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+          "title": "أطباؤنا",
+          "description": "تعرف على فريقنا المتميز من الخبراء، والمكرسين لصياغة اًلبتسامات التي تحدد الرقي  والتميز.",
           "features": []
         },
         {
@@ -103,7 +102,6 @@
         {
           "type": "image-content",
           "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
-
           "imageAlt": "الحشو النسائي ",
           "title": "الحشو النسائي ",
           "content": [
@@ -164,8 +162,8 @@
         },
         {
           "type": "content",
-          "title": "Our Doctors",
-          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+          "title": "أطباؤنا",
+          "description": "تعرف على فريقنا المتميز من الخبراء، والمكرسين لصياغة اًلبتسامات التي تحدد الرقي  والتميز."
         },
         {
           "type": "slider-doctors",
@@ -198,112 +196,116 @@
         {
           "type": "banner",
           "deptName": "Gynecology",
-          "serviceName": "Medical Gynecology / Obstetric",
+          "serviceName": "طب النساء والتوليد ",
           "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
         },
         {
           "type": "image-content",
           "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
-
-          "imageAlt": "Medical Gynecology / Obstetric",
-          "title": "Medical Gynecology / Obstetric",
+          "imageAlt": "طب النساء والتوليد ",
+          "title": "طب النساء والتوليد ",
           "content": [
             {
               "type": "heading",
-              "text": "Empowering Women’s Health at Every Stage of Life"
+              "text": "تمكين صحة المرأة في كل مرحلة من مراحل الحياة "
             },
             {
               "type": "paragraph",
-              "text": "At Karisma Specialist Medical Center, we prioritize comprehensive, compassionate care tailored to the unique health needs of women from childhood through adulthood. Our experienced team of gynecologists and obstetricians is dedicated to supporting your well-being every step of the way."
+              "text": "في مركز كاريزما الطبي التخصصي، نعطي األولوية للرعاية الشاملة والرحيمة والتي تتناسب مع االحتياجات الصحية الفريدة للمرأة من الطفولة وحتى مرحلة البلوغ. يكرس فريقنا ذو الخبرة من أطباء أمراض النساء والتوليد أنفسهم لدعم رفاهيتك في كل خطوة على الطريق. "
             },
             {
               "type": "heading",
-              "text": "Caring for Girls’ Health"
+              "text": "رعاية صحة الفتيات "
             },
             {
               "type": "paragraph",
-              "text": "Age Range: Childhood – Adolescence"
+              "text": "الفئة العمرية: الطفولة - المراهقة "
             },
             {
               "type": "paragraph",
-              "text": "We address common conditions affecting young girls, focusing on early diagnosis and effective management:"
+              "text": "نتعامل مع الحاالت الشائعة التي تؤثر على الفتيات الصغيرات، مع التركيز على التشخيص المبكر واإلدارة الفعالة: "
             },
             {
               "type": "list",
               "items": [
-                "Hormonal Disorders: Identifying and treating issues like irregular periods, breast development concerns, or growth abnormalities.",
-                "Polycystic Ovary Syndrome (PCOS): Managing symptoms such as irregular cycles, excess body hair, and acne to promote overall well-being.",
-                "Menstrual Disorders: Offering solutions for heavy bleeding, painful periods, and irregular cycles.",
-                "Hirsutism: Providing treatments to manage and reduce excessive hair growth.",
-                "Acne: Developing personalized treatment plans to restore confidence and skin health."
+                "االضطرابات الهرمونية: تحديد وعالج مشاكل مثل الدورة الشهرية غير المنتظمة، ومشاكل نمو الثدي، أو تشوهات النمو. ",
+                "متالزمة تكيس المبايض )PCOS ): إدارة األعراض مثل الدورات الشهرية غير المنتظمة، وزيادة شعر الجسم، وحب الشباب لتعزيز الصحة العامة. ",
+                "اضطرابات الدورة الشهرية: تقديم حلول للنزيف الشديد، والدورة الشهرية المؤلمة، والدورة الشهرية غير المنتظمة. ",
+                "فرط الشعر : توفير عالجات إلدارة وتقليل نمو الشعر المفرط. ",
+                "حب الشباب : تطوير خطط عالج مخصصة الستعادة الثقة وصحة الجلد "
               ]
             }
           ]
         },
         {
           "type": "content",
-          "title": "Our Approach",
+          "title": "نهجنا",
           "features": [
-            "Comprehensive evaluations, including blood and hormonal tests.",
-            "Tailored treatment plans designed for each patient’s needs.",
-            "A supportive, welcoming environment for young patients and their families."
+            "التقييمات الشاملة، بما في ذلك اختبارات الدم والهرمونات. ",
+            "خطط عالج مخصصة مصممة الحتياجات كل مريض. ",
+            "بيئة داعمة ومرحبة للمرضى الصغار وأسرهم. "
           ]
         },
         {
           "type": "content",
-          "title": "Women’s Health Services",
-          "description": "Age Range: Adulthood and Beyond"
+          "title": "خدمات صحة المرأة ",
+          "description": "الفئة العمرية: سن الرشد وما بعده"
         },
         {
           "type": "content",
-          "description": "Our team offers a wide range of services to support women through every stage of life:",
+          "description": "يقدم فريقنا مجموعة واسعة من الخدمات لدعم النساء في كل مرحلة من مراحل الحياة: ",
           "features": [
-            "Menopausal Care: Managing symptoms like hot flashes, night sweats, and vaginal dryness.",
-            "Menstrual Support: Treating irregular periods and heavy bleeding.",
-            "Fertility Support: Comprehensive care for infertility and delayed childbearing.",
-            "Pre-Marital Counseling & Testing: Preparing for a healthy and informed start to married life.",
-            "Contraception Guidance: Offering tailored contraceptive options, including IUD insertion (copper and hormonal).",
-            "Sexual Health: Providing a safe space to discuss and address sexual concerns.",
-            "Early Detection & Screening: Advanced screening for breast cancer and uterine fibroids.",
-            "Endoscopic Procedures: Minimally invasive cervical and uterine examinations for precise diagnosis and treatment."
+            "رعاية انقطاع الطمث: إدارة األعراض مثل الهبات الساخنة والتعرق الليلي وجفاف المهبل ",
+            "دعم الدورة الشهرية: عالج فترات الحيض غير المنتظمة والنزيف الشديد. ",
+            "دعم الخصوبة : رعاية شاملة للعقم وتأخر اإلنجاب. ",
+            "االستشارة واالختبار قبل الزواج : االستعداد لبداية صحية ومستنيرة للحياة الزوجية. ",
+            "إرشادات منع الحمل : تقديم خيارات منع الحمل المخصصة، بما في ذلك إدخال اللولب )النحاسي والهرموني(. ",
+            "الصحة الجنسية: توفير مساحة آمنة لمناقشة المخاوف الجنسية ومعالجتها. ",
+            "الكشف المبكر والفحص : الفحص المتقدم لسرطان الثدي واألورام الليفية الرحمية ",
+            "اإلجراءات التنظيرية: Minimally invasive cervical and uterine examinations for precise diagnosis and treatment."
           ]
         },
         {
           "type": "content",
-          "title": "Our Approach",
+          "title": "نهجنا",
           "features": [
-            "Compassionate, patient-centered care delivered with empathy and respect.",
-            "Advanced diagnostics using cutting-edge technology.",
-            "A comprehensive array of treatment options designed for optimal outcomes."
+            "رعاية متعاطفة تركز على المريض وتقدم بتعاطف واحترام. ",
+            "التشخيص المتقدم باستخدام أحدث التقنيات.",
+            "مجموعة شاملة من خيارات العالج المصممة لتحقيق نتائج مثالية."
           ]
         },
         {
           "type": "content",
-          "title": "Pregnancy Care & Obstetrics",
-          "description": "We offer personalized support for every pregnancy journey, including:",
+          "title": "رعاية الحمل والتوليد ",
+          "description": "نقدم دع ًما شخصًيا لكل رحلة حمل، بما في ذلك:",
           "features": [
-            "High-Risk Pregnancy Care: Specialized monitoring and support for high-risk pregnancies.",
-            "Pregnancy Detection & Follow-up: Convenient packages with essential lab tests.",
-            "Prenatal Testing: Comprehensive tests to ensure a healthy pregnancy.",
-            "Advanced Ultrasound: 4D Ultrasound- Detailed imaging for early detection of fetal features and potential ano  malies (18-20 weeks).",
-            "Advanced Ultrasound: 2D Doppler Ultrasound- Vital early pregnancy insights, including fetal count and heart activity.",
-            "Genetic Testing: Assessing potential risks with advanced genetic screening.",
-            "Delivery & Postnatal Care: A comfortable environment for childbirth and continued support after delivery."
+            "رعاية الحمل عالي الخطورة : المراقبة المتخصصة والدعم لحاالت الحمل عالية الخطورة. ",
+            "اكتشاف الحمل ومتابعته: حزم مالئمة مع االختبارات المعملية األساسية. ",
+            "اختبار ما قبل الوالدة : اختبارات شاملة لضمان حمل صحي. ",
+            {
+              "title": "الموجات فوق الصوتية المتقدمة ",
+              "items": [
+                "الموجات فوق الصوتية رباعية األبعاد التصوير التفصيلي للكشف المبكر عن سمات الجنين والتشوهات المحتملة )-18 20 أسبو ًعا(.",
+                "الموجات فوق الصوتية دوبلر ثنائية األبعاد معلومات حيوية عن الحمل المبكر، بما في ذلك عدد األجنة ونشاط القلب. "
+              ]
+            },
+            "االختبارات الجينية : تقييم المخاطر المحتملة من خالل الفحص الجيني المتقدم. ",
+            "الوالدة والرعاية بعد الوالدة : بيئة مريحة للوالدة والدعم المستمر بعد الوالدة. "
           ]
         },
         {
           "type": "content",
-          "title": "Our Approach",
+          "title": "نهجنا",
           "features": [
-            "Personalized care plans tailored to each woman’s needs and pregnancy journey.",
-            "Expertise from experienced obstetricians dedicated to exceptional care.",
-            "State-of-the-art technology ensures the best outcomes for mother and baby."
+            "خطط رعاية شخصية مصممة خصي ًصا الحتياجات كل امرأة ورحلة الحمل.",
+            "خبرة من أطباء التوليد ذوي الخبرة المكرسين لرعاية استثنائية. ",
+            "تضمن التكنولوجيا الحديثة أفضل النتائج لألم والطفل. "
           ]
         },
         {
           "type": "content",
-          "title": "Your Health, Our Priority",
-          "description": "At Karisma Specialist Medical Center, we are committed to delivering world-class care to women at every stage of life. Schedule a consultation today to take the first step towards optimal health and well-being"
+          "title": "صحتك، أولويتنا ",
+          "description": "في مركز كاريزما الطبي المتخصص، نحن ملتزمون بتقديم رعاية عالمية المستوى للنساء في كل مرحلة من مراحل الحياة. حدد موعدًا لالستشارة اليوم لتتخذ الخطوة األولى نحو الصحة والعافية المثلى. "
         },
         {
           "type": "slider-doctors",
@@ -342,7 +344,6 @@
         {
           "type": "image-content",
           "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
-
           "imageAlt": "حقن البالزما ",
           "title": "حقن البالزما ",
           "content": [
@@ -416,8 +417,8 @@
         },
         {
           "type": "content",
-          "title": "Our Doctors",
-          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+          "title": "أطباؤنا",
+          "description": "تعرف على فريقنا المتميز من الخبراء، والمكرسين لصياغة اًلبتسامات التي تحدد الرقي  والتميز."
         },
         {
           "type": "slider-doctors",
@@ -456,7 +457,6 @@
         {
           "type": "image-content",
           "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
-
           "imageAlt": "تبييض وتجديد منطقة البكيني ",
           "title": "تبييض وتجديد منطقة البكيني ",
           "content": [
@@ -573,8 +573,8 @@
         },
         {
           "type": "content",
-          "title": "Our Doctors",
-          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+          "title": "أطباؤنا",
+          "description": "تعرف على فريقنا المتميز من الخبراء، والمكرسين لصياغة اًلبتسامات التي تحدد الرقي  والتميز."
         },
         {
           "type": "slider-doctors",
@@ -613,7 +613,6 @@
         {
           "type": "image-content",
           "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
-
           "imageAlt": "تضييق البكيني - بيال دونا ",
           "title": "تضييق البكيني - بيال دونا ",
           "content": [
@@ -670,8 +669,8 @@
         },
         {
           "type": "content",
-          "title": "Our Doctors",
-          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+          "title": "أطباؤنا",
+          "description": "تعرف على فريقنا المتميز من الخبراء، والمكرسين لصياغة اًلبتسامات التي تحدد الرقي  والتميز."
         },
         {
           "type": "slider-doctors",
@@ -704,71 +703,70 @@
         {
           "type": "banner",
           "deptName": "Gynecology",
-          "serviceName": "Vaginal Anti-Aging Treatment",
+          "serviceName": "البوتوكس المهبلي ",
           "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
         },
         {
           "type": "image-content",
           "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
-
-          "imageAlt": "Vaginal Anti-Aging Treatment",
-          "title": "Vaginal Anti-Aging Treatment",
+          "imageAlt": "البوتوكس المهبلي ",
+          "title": "البوتوكس المهبلي ",
           "content": [
             {
               "type": "heading",
-              "text": "Effective Relief for Vaginismus and Enhanced Intimate Wellness"
+              "text": "تخفيف فعال لتشنج المهبل وتحسين الصحة الحميمة "
             },
             {
               "type": "paragraph",
-              "text": "At Karisma Specialist Medical Center, we recognize the importance of a fulfilling, pain-free intimate life. For women experiencing vaginismus, characterized by involuntary muscle contractions that cause discomfort or pain, Vaginal Anti-Aging Treatment offers a safe, effective solution to restore comfort and confidence."
+              "text": "في مركز كاريزما الطبي المتخصص، ندرك أهمية الحياة الحميمة الخالية من األلم. بالنسبة للنساء الالتي يعانين من تشنج المهبل، والذي حالً يتميز بانقباضات عضلية ال إرادية تسبب عدم الراحة أو األلم، يقدم البوتوكس المهبلي آمًنا وفعا ًال الستعادة الراحة والثقة"
             },
             {
               "type": "heading",
-              "text": "What Is Vaginal Anti-Aging Treatment?"
+              "text": "ما هو البوتوكس المهبلي؟"
             },
             {
               "type": "paragraph",
-              "text": "Vaginal Anti-Aging Treatment involves injecting a neurotoxin into the muscles around the vaginal opening. This relaxes the muscles, easing contractions and alleviating pain associated with vaginismus, enhancing comfort during intimacy."
+              "text": "يتضمن البوتوكس المهبلي حقن في العضالت المحيطة بفتحة المهبل. يعمل هذا على استرخاء العضالت وتخفيف االنقباضات وتخفيف األلم المرتبط بتشنج المهبل، وتعزيز الراحة أثناء العالقة الحميمة. "
             },
             {
               "type": "heading",
-              "text": "Benefits of Vaginal Anti-Aging Treatment"
+              "text": "فوائد حقن البوتكس المهبلي "
             },
             {
               "type": "list",
               "items": [
-                "Relief from Vaginismus: Alleviates involuntary muscle spasms, reducing pain and discomfort.",
-                "Enhanced Intimacy: Promotes more comfortable and fulfilling marital relations.",
-                "Quick and Long-Lasting Results: Enjoy relief within days, with effects lasting 6 to 12 months."
+                "تخفيف تشنج المهبل: يخفف من تشنجات العضالت الالإرادية، ويقلل من األلم وعدم الراحة.",
+                "تحسين الصحة الحميمة :  يعزز العالقة الزوجية المريحة والممتعة",
+                "نتائج سريعة وطويلة األمد: تمتعي بالراحة في غضون أيام، مع تأثيرات تدوم من 6 إلى 12 شهًرا."
               ]
             }
           ]
         },
         {
           "type": "content",
-          "title": "Treatment Process",
+          "title": "عملية العالج ",
           "features": [
-            "Consultation: A thorough consultation ensures Vaginal Anti-Aging Treatment is the right solution for your needs.",
-            "Quick Procedure: The treatment typically takes around 10 minutes, with minimal discomfort.",
-            "Long-Term Relief: Results can be felt within 3 days and may last up to a year, depending on individual response."
+            "االستشارة: تضمن االستشارة الشاملة أن البوتوكس المهبلي هو الحل المناسب الحتياجاتك.",
+            "إجراء سريع: يستغرق العالج عادةً حوالي 10 دقائق، مع الحد األدنى من االنزعاج. ",
+            "راحة طويلة األمد : يمكن الشعور بالنتائج في غضون 3 أيام وقد تستمر لمدة تصل إلى عام، اعتمادًا على االستجابة الفردية. "
           ]
         },
         {
           "type": "content",
-          "title": "Safety and Considerations",
+          "title": "السالمة واالعتبارات",
           "features": [
-            "Medical History: Our specialists will review your medical history to ensure safety and suitability.",
-            "Pregnancy & Breastfeeding: Vaginal Anti-Aging Treatment is not recommended for pregnant or breastfeeding women.",
-            "Personalized Care: Each treatment is customized to your unique needs, prioritizing safety and comfort."
+            "التاريخ الطبي : سيقوم المتخصصون لدينا بمراجعة تاريخك الطبي لضمان السالمة والمالءمة. ",
+            "الحمل والرضاعة الطبيعية : ال ينصح بالبوتوكس المهبلي للنساء الحوامل أو المرضعات. ",
+            "رعاية شخصية: يتم تخصيص كل عالج الحتياجاتك الفريدة، مع إعطاء األولوية للسالمة والراحة. "
           ]
         },
         {
           "type": "content",
-          "title": "Why Choose Karisma Specialist Medical Center?",
+          "title": "لماذا تختار مركز كاريزما الطبي المتخصص؟",
           "features": [
-            "Expert Gynecologists: Our board-certified specialists have extensive experience in treating vaginismus and other intimate health concerns.",
-            "Compassionate Care: We provide a discreet, supportive environment where you feel heard and understood.",
-            "Cutting-Edge Techniques: Our team uses the latest advancements to deliver safe, effective results."
+            "أطباء أمراض النساء الخبراء: يتمتع المتخصصون المعتمدون لدينا بخبرة واسعة في عالج المهبل ومشاكل صحية حميمة أخرى. ",
+            "رعاية متعاطفة : نحن نقدم بيئة داعمة وسرية حيث تشعر أنك مسموع ومفهوم. ",
+            "تقنيات متطورة : يستخدم فريقنا أحدث التطورات لتقديم نتائج آمنة وفعالة. "
           ]
         },
         {
@@ -778,8 +776,8 @@
         },
         {
           "type": "content",
-          "title": "Our Doctors",
-          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+          "title": "أطباؤنا",
+          "description": "تعرف على فريقنا المتميز من الخبراء، والمكرسين لصياغة اًلبتسامات التي تحدد الرقي  والتميز."
         },
         {
           "type": "slider-doctors",
@@ -812,53 +810,52 @@
         {
           "type": "banner",
           "deptName": "Gynecology",
-          "serviceName": "Cosmetic Minor Surgeries",
+          "serviceName": "جراحات التجميل البسيطة",
           "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
         },
         {
           "type": "image-content",
           "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
-
-          "imageAlt": "Cosmetic Minor Surgeries",
-          "title": "Cosmetic Minor Surgeries",
+          "imageAlt": "جراحات التجميل البسيطة",
+          "title": "جراحات التجميل البسيطة",
           "content": [
             {
               "type": "heading",
-              "text": "Personalized Solutions for Your Intimate Well-being"
+              "text": "حلول شخصية لرفاهيتك الحميمة"
             },
             {
               "type": "paragraph",
-              "text": "At Karisma Specialist Medical Center, we believe that feeling confident and comfortable in your body is essential. Our range of minor cosmetic gynecological surgeries is designed to address specific concerns, enhancing both appearance and intimate wellness with precision and care."
+              "text": "في مركز كاريزما الطبي المتخصص، نعتقد أن الشعور بالثقة والراحة في جسدك أمر ضروري. تم تصميم مجموعتنا من جراحات التجميل النسائية البسيطة لمعالجة مخاوف محددة، وتعزيز المظهر والعافية الحميمة بدقة وعناية. "
             },
             {
               "type": "heading",
-              "text": "Empowering Your Choices: Procedures We Offer"
+              "text": "تمكين اختياراتك: اإلجراءات التي نقدمها"
             },
             {
               "type": "list",
               "items": [
                 {
-                  "title": "Labiaplasty: Focuses on reshaping and reducing the size of the labia minora for aesthetic or functional reasons.",
+                  "title": "عملية تجميل الشفرين: تركز على إعادة تشكيل وتقليل حجم الشفرين الصغيرين ألسباب جمالية أو وظيفية. ",
                   "items": [
                     {
-                      "title": "Benefits",
+                      "title": "الفوائد ",
                       "items": [
-                        "Enhanced aesthetics and confidence.",
-                        "Reduced discomfort during physical activities.",
-                        "Lowered risk of irritation or infection."
+                        "تحسين المظهر والثقة .",
+                        "تقليل االنزعاج أثناء األنشطة البدنية. ",
+                        "انخفاض خطر التهيج أو العدوى. "
                       ]
                     }
                   ]
                 },
                 {
-                  "title": "Perineorrhaphy: A reconstructive procedure targeting vaginal tightening and perineal beautification.",
+                  "title": "عملية تجميل العجان : إجراء إعادة بناء يستهدف تضييق المهبل وتجميل العجان ",
                   "items": [
                     {
-                      "title": "Benefits",
+                      "title": "الفوائد",
                       "items": [
-                        "Restored vaginal tightness and elasticity.",
-                        "Improved sensation and satisfaction during intimacy.",
-                        "Renewed self-confidence in intimate moments."
+                        "استعادة تضييق المهبل ومرونته. ",
+                        "تحسين اإلحساس والرضا أثناء العالقة الحميمة. ",
+                        "تجديد الثقة بالنفس في اللحظات الحميمة"
                       ]
                     }
                   ]
@@ -869,72 +866,72 @@
         },
         {
           "type": "content",
-          "title": "Your Journey with Karisma: What to Expect",
+          "title": "رحلتك مع كاريزما: ما الذي تتوقعه",
           "features": [
             {
-              "title": "Pre-operative Consultation",
+              "title": "االستشارة قبل الجراحة ",
               "items": [
-                "A detailed consultation with our specialists to review your health, discuss goals, and address all your questions."
+                "استشارة مفصلة مع المتخصصين لدينا لمراجعة صحتك ومناقشة األهداف ومعالجة جميع أسئلتك. "
               ]
             },
             {
-              "title": "Minimally Invasive Techniques",
+              "title": "تقنيات قليلة التوغل",
               "items": [
-                "Both procedures are typically performed under local anesthesia, ensuring minimal discomfort and a faster recovery."
+                "يتم إجراء كال اإلجراءين عادةً تحت التخدير الموضعي، مما يضمن الحد األدنى من االنزعاج والتعافي السريع."
               ]
             },
             {
-              "title": "Recovery and Care",
+              "title": "التعافي والرعاية",
               "items": [
-                "Recovery Time: Expect healing within 2-3 weeks.",
-                "Post-procedure Care: Follow our tailored aftercare plan, which includes hygiene tips and activity restrictions to optimize healing."
+                "وقت التعافي: توقع الشفاء في غضون 3-2 أسابيع. ",
+                "رعاية ما بعد العملية: اتبع خطة الرعاية الالحقة المصممة خصي ًصا، والتي تتضمن نصائح النظافة وقيود النشاط لتحسين الشفاء."
               ]
             }
           ]
         },
         {
           "type": "content",
-          "title": "Important Guidelines",
+          "title": "إرشادات مهمة ",
           "features": [
             {
-              "title": "Eligibility",
+              "title": "األهلية",
               "items": [
-                "Procedures are suitable for women over 18."
+                "اإلجراءات مناسبة للنساء فوق سن 18 عا ًما."
               ]
             },
             {
-              "title": "Pre-procedure Preparation",
+              "title": "التحضير قبل العملية",
               "items": [
-                "Shave the area a day before the surgery and avoid waxing, scrubs, or laser treatments for six weeks post-surgery."
+                "احلق المنطقة قبل يوم من الجراحة وتجنب إزالة الشعر بالشمع أو عالجات الليزر لمدة ستة أسابيع بعد الجراحة. "
               ]
             },
             {
-              "title": "Post-operative Advice",
+              "title": "نصائح ما بعد الجراحة ",
               "items": [
-                "Avoid intercourse for at least one month.",
-                "Wear loose, breathable clothing for comfort."
+                "تجنب الجماع لمدة شهر واحد على األقل. ",
+                "ارتِد مالبس فضفاضة وجيدة التهوية للراحة."
               ]
             }
           ]
         },
         {
           "type": "content",
-          "title": "Why Choose Karisma Specialist Medical Center?",
+          "title": "لماذا تختار مركز كاريزما الطبي المتخصص؟",
           "features": [
-            "Expert Care: Our board-certified gynecologists specialize in intimate wellness, offering compassionate, discreet care.",
-            "Tailored Treatment Plans: We design personalized treatment plans to suit your unique needs and goals.",
-            "Comfort and Privacy: Your well-being and privacy are our top priorities, ensuring a supportive environment throughout your journey."
+            "رعاية الخبراء : يتخصص أطباء أمراض النساء المعتمدون لدينا في العافية الحميمة، ويقدمون رعاية متعاطفة وسرية. ",
+            "حلول مخصصة: نصمم خطط عالج مخصصة لتناسب احتياجاتك وأهدافك الفريدة. ",
+            "الراحة والخصوصية: إن رفاهيتك وخصوصيتك هي أولوياتنا القصوى، مما يضمن بيئة داعمة طوال رحلتك. "
           ]
         },
         {
           "type": "color-content",
-          "title": "Rediscover Confidence and Comfort",
-          "description": "Take the first step toward enhanced confidence and intimate well-being. Contact Karisma Specialist Medical Center today to schedule your consultation and explore the transformative benefits of cosmetic gynecological surgery."
+          "title": "اكتشف الثقة والراحة من جديد",
+          "description": "اتخذ الخطوة األولى نحو تعزيز الثقة والعافية الحميمة. اتصل بمركز كاريزما الطبي المتخصص اليوم لتحديد موعد استشارتك واستكشاف الفوائد التحويلية لجراحة أمراض النساء التجميلية "
         },
         {
           "type": "content",
-          "title": "Our Doctors",
-          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+          "title": "أطباؤنا",
+          "description": "تعرف على فريقنا المتميز من الخبراء، والمكرسين لصياغة اًلبتسامات التي تحدد الرقي  والتميز."
         },
         {
           "type": "slider-doctors",

@@ -13,7 +13,7 @@ import ListServices from "../service templates/ListServices";
 import ListServicesNoImg from "../service templates/ListServicesNoImg";
 import BannerSkinCare from "../../components/BannerSkinCare";
 import HeaderTitle from "../service templates/HeaderTitle";
-import DynamicBanner from "../../components/DynamicBanner";
+import LaserBanner from "./LaserBanner";
 
 const LaserServices = () => {
     const { t, i18n } = useTranslation('laserServices');
@@ -101,7 +101,7 @@ const LaserServices = () => {
                         );
                     }else if (section.type === "banner") {
                         return (
-                           <DynamicBanner 
+                           <LaserBanner 
                            deptName={section.deptName} 
                            serviceName={section.serviceName} 
                            bannerImage={section.bannerImage}

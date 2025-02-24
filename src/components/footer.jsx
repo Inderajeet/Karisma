@@ -44,11 +44,11 @@ export default function Footer() {
   const departments = [
     { name: "Dental", link: "/dental" },
     { name: "Derma", link: "/derma" },
-    { name: "Laser Hair Removal", link: "/laser-hair-removal" },
     { name: "Skin Care", link: "/skincare" },
-    { name: "Gynecology", link: "/gynecology" },
-    { name: "Slimming", link: "/slimming" },
     { name: "Plastic Surgery", link: "/plastic-surgery" },
+    { name: "Gynecology", link: "/gynecology" },
+    { name: "Nutrition and Slimming", link: "/slimming" },
+    { name: "Laser Hair Removal", link: "/laser-hair-removal" },
   ];
 
   const corporate = [

@@ -7,42 +7,28 @@ import ImageContent from "../service templates/ImageContent"
 import SlidingDoct from "../service templates/SlidingDoct";
 import VideoSection from "../../components/VideoSection";
 import OffersTemplate from "../service templates/OffersTemplate";
-import Doctors from "../../pages/doctor";
 import ListServices from "../service templates/ListServices";
-import GyneBanner from "../../components/GyneBanner";
 import ListServicesNoImg from "../service templates/ListServicesNoImg";
-import DynamicBanner from "../../components/DynamicBanner";
+import HeaderTitle from "../service templates/HeaderTitle";
+import DermaBanner from "./DermaBanner";
 
-const GynecologyServices = () => {
-    const { t, i18n } = useTranslation('gyneServices');
-    // const services = t('services', { returnObjects: true });
+const DermaDept = () => {
+    const { t, i18n } = useTranslation('dermadept');
 
-    const { serviceName } = useParams();
-    const [services, setServices] = useState([]);
-    const [service, setService] = useState(null);
-    // Load services from translations
-    useEffect(() => {
-        const servicesData = t('gyneServices:gyneServices', { returnObjects: true });
-        setServices(servicesData);
-    }, [t]);
+    // Correct way to access the data:
+    const serviceData = t('dermadept', { returnObjects: true });
 
-    // Find the current doctor
-    useEffect(() => {
-        if (services.length > 0) {
-            const foundService = services.find((doc) => doc.name === decodeURIComponent(serviceName));
-            setService(foundService);
-        }
-    }, [services, serviceName]);
-    console.log('Found Service:', services);  // Debugging: log found service
+    // Check if the translation returned an array and access the first element
+    const service = Array.isArray(serviceData) && serviceData.length > 0 ? serviceData[0] : null;
 
-    console.log('Services data:', serviceName);  // Debugging: log services
-    console.log("gyne services:", decodeURIComponent(serviceName));
+    if (!service) {
+        return <div>{t('Loading...') || 'Loading...'}</div>; // Handle the case where translation is not yet loaded
+    }
 
-    if (!service) return <p>service not found!</p>;
 
     return (
         <>
-            {/* <GyneBanner /> */}
+            {/* <BannerSkinCare /> */}
             <div className="">
                 {service.sections.map((section, index) => {
                     console.log('Section-services:', section.listServices);  // Debugging: log section
@@ -56,36 +42,44 @@ const GynecologyServices = () => {
                                 features={section.features}
                             />
                         );
-                    }else if (section.type === "center-content") {
+                    } else if (section.type === "center-content") {
                         return (
-                            <div style={{textAlign: 'center', backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
-                            <ContentSection
-                                key={index}
-                                title={section.title}
-                                heading={section.heading}
-                                description={section.description}
-                                features={section.features}
-                            />
+                            <div style={{ textAlign: 'center', backgroundColor: '#c4a98863', paddingTop: '2rem' }}>
+                                <ContentSection
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    description={section.description}
+                                    features={section.features}
+                                />
                             </div>
                         );
-                    }else if (section.type === "color-content") {
+                    } else if (section.type === "color-content") {
                         return (
-                            <div style={{backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
-                            <ContentSection
-                                key={index}
-                                title={section.title}
-                                heading={section.heading}
-                                description={section.description}
-                                features={section.features}
-                            />
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '2rem' }}>
+                                <ContentSection
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    description={section.description}
+                                    features={section.features}
+                                />
                             </div>
                         );
-                    }else if (section.type === "header-title") {
+                    } else if (section.type === "header-title") {
                         return (
                             <HeaderTitle
                                 key={index}
                                 title={section.title}
                                 description={section.description}
+                            />
+                        );
+                    } else if (section.type === "banner") {
+                        return (
+                            <DermaBanner
+                                deptName={section.deptName}
+                                serviceName={section.serviceName}
+                                bannerImage={section.bannerImage}
                             />
                         );
                     } else if (section.type === "image-content") {
@@ -100,15 +94,7 @@ const GynecologyServices = () => {
                                 content={section.content} // Pass the content array
                             />
                         );
-                    } else if (section.type === "banner") {
-                        return (
-                           <DynamicBanner 
-                           deptName={section.deptName} 
-                           serviceName={section.serviceName} 
-                           bannerImage={section.bannerImage}
-                           />
-                        );
-                    }else if (section.type === "slider-doctors") {
+                    } else if (section.type === "slider-doctors") {
                         console.log('inside doctors')
                         return (
 
@@ -122,6 +108,7 @@ const GynecologyServices = () => {
                     } else if (section.type === "video") {
                         console.log('inside video')
                         return (
+
                             <VideoSection />
                         );
                     }
@@ -131,15 +118,15 @@ const GynecologyServices = () => {
                     else if (section.type === "list-services") {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
                         return (
-                        <div style={{backgroundColor:'#c4a98863'}}>
-                        <ListServices key={index} services={section.listServices} />
-                        </div>);
-                    }else if (section.type === "list-services-noImage") {
+                            <div style={{ backgroundColor: '#c4a98863' }}>
+                                <ListServices key={index} services={section.listServices} />
+                            </div>);
+                    } else if (section.type === "list-services-noImage") {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
                         return (
-                            <div style={{backgroundColor:'#c4a98863'}}>
-                        <ListServicesNoImg key={index} services={section.listServices} />
-                        </div>);
+                            <div style={{ backgroundColor: '#c4a98863' }}>
+                                <ListServicesNoImg key={index} services={section.listServices} />
+                            </div>);
                     }
                     return null;  // If no valid section type found
                 })}
@@ -152,4 +139,4 @@ const GynecologyServices = () => {
     );
 };
 
-export default GynecologyServices;
+export default DermaDept;

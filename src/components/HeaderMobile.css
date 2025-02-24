@@ -155,7 +155,7 @@ span.menu-icon {
     backdrop-filter: blur(15px) saturate(150%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1123px) {
     .mobile-align {
         display: flex;
         justify-content: space-around;

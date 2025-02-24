@@ -31,7 +31,7 @@
                         {
                             "type": "list",
                             "items": [
-                                "Dual Wavelengths: Features Alexandrite and Nd:YAG lasers for tailored, effective treatments.",
+                                "Dual Wavelengths: Features Alexandrite and Nd YAG lasers for tailored, effective treatments.",
                                 "Skin-Friendly: Safe for lighter and tanned skin tones with minimal risk of side effects.",
                                 "Comfort Redefined: Integrated cooling technology ensures a gentle, comfortable experience."
                             ]
@@ -75,6 +75,10 @@
                         {
                             "type": "heading",
                             "text": "RevLite SI at Karisma Specialist Medical Center"
+                        }, 
+                        {
+                            "type": "paragraph",
+                            "text": "Discover advanced laser technology with RevLite SI, designed for precise, effective, and safe hair bleaching. This innovative system uses high-powered nanosecond pulses to target melanin in hair follicles, disrupting the growth cycle for gradual and lasting hair reduction."
                         },
                         {
                             "type": "heading",

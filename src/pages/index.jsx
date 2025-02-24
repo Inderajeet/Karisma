@@ -182,12 +182,12 @@ const Index = () => {
                           {/* .title-wrap */}
                           <div className="section-description">
                             <p className="home-desc-font" style={{
-                              color: about_us["font-color"], fontSize: about_us["font-size"], textAlign: 'justify',
+                              color: about_us["font-color"], fontSize: about_us["font-size"]
                             }}>
                               {t('about1.about1Desc1')}
                             </p>
                             <p className="" style={{
-                              color: about_us["font-color"], fontSize: about_us["font-size"], textAlign: 'justify',
+                              color: about_us["font-color"], fontSize: about_us["font-size"]
                             }}>
                               {t('about1.about1Desc2')}
                             </p>
@@ -307,7 +307,7 @@ const Index = () => {
                       {/* .title-wrap */}
                       <div className="section-description">
                         <p className="section-content home-desc-font" style={{
-                          color: about2["desc-color"], fontSize: about2["desc-size"], textAlign: 'justify',
+                          color: about2["desc-color"], fontSize: about2["desc-size"]
                         }}>
                           {t('about2.about2Desc')}
                         </p>

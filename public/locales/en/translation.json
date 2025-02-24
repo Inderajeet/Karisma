@@ -14,7 +14,7 @@
     "about2Link": "/about_us"
   },
   "services":{
-    "servicesHeading": "Our Services",
+    "servicesHeading": "Services",
     "servicesDesc": "We are elevating your confidence and attractiveness by combining advanced medical science with artistry by offering services in below departments"
   },
   "departments": [
@@ -61,7 +61,7 @@
     },
     {
       "label": "Department",
-      "link": "/",
+      "link": "",
       "subMenu": [
         {
           "label": "Dental",
@@ -132,24 +132,6 @@
           ]
         },
         {
-          "label": "Laser Hair Removal",
-          "link": "/laser-hair-removal",
-          "subMenu": [
-            {
-              "label": "Candela GentleMax Pro",
-              "link": "/laser-hair-removal/candela"
-            },
-            {
-              "label": "Cynosure Elite+",
-              "link": "/laser-hair-removal/elite"
-            },
-            {
-              "label": "RevLite SI",
-              "link": "/laser-hair-removal/revlite"
-            }
-          ]
-        },
-        {
           "label": "Skin Care",
           "link": "/skincare",
           "subMenu": [
@@ -192,6 +174,10 @@
           ]
         },
         {
+          "label": "Plastic Surgery",
+          "link": "/plastic-surgery"
+        },
+        {
           "label": "Gynecology",
           "link": "/gynecology",
           "subMenu": [
@@ -230,7 +216,7 @@
           ]
         },
         {
-          "label": "Slimming",
+          "label": "Nutrition and Slimming",
           "link": "/slimming",
           "subMenu": [
             {
@@ -248,8 +234,22 @@
           ]
         },
         {
-          "label": "Plastic Surgery",
-          "link": "/plastic-surgery"
+          "label": "Laser Hair Removal",
+          "link": "/laser-hair-removal",
+          "subMenu": [
+            {
+              "label": "Candela GentleMax Pro",
+              "link": "/laser-hair-removal/candela"
+            },
+            {
+              "label": "Elite IQ",
+              "link": "/laser-hair-removal/elite"
+            },
+            {
+              "label": "RevLite SI",
+              "link": "/laser-hair-removal/revlite"
+            }
+          ]
         }
       ]
     },
