@@ -699,7 +699,7 @@ h6,
 .primary-menu li.current-menu-parent>ul.sub-menu>li.current-menu-item>a,
 .primary-menu li.current-menu-parent>ul.sub-menu>li.current-menu-ancestor.current-menu-item>a,
 ul.wp-menu ul.sub-menu li.menu-item.current-menu-ancestor.menu-item-has-children>a {
-    color: #38bde0
+    color: #c39a51
 }
 
 .header-topbar {

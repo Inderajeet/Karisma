@@ -6,7 +6,7 @@ const TopBar = () => {
     return(
         <>
         <SampleHeader2/>
-        <SampleTabHeader/>
+        {/* <SampleTabHeader/> */}
         <MobileHeader></MobileHeader>
         </>
     );

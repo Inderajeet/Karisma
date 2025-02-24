@@ -35,30 +35,30 @@
                     "title": "Crafting a Legacy of Dental Excellence for Children",
                     "description": "Discover our range of advanced pediatric dental treatments, each designed to meet the unique needs of our young heroes and ensure their healthy dental development:",
                     "features": [
-                        "Pulpotomy: A tooth pulp (nerve) treatment for primary teeth. Read More",
-                        "Pediatric Extractions: When a baby tooth is severely decayed, infected, or causing overcrowding, a gentle extraction may be necessary. Read More.",
-                        "Dental Fillings (Composite or Amalgam): Similar to adult fillings, children's fillings address cavities and prevent further decay. Read More",
-                        "Metal Crowns: For severely damaged or fractured baby teeth, metal crowns offer a strong and durable restoration. Read More",
-                        "Prophylactic Fillings (Sealants): A preventive measure applied to the chewing surfaces of healthy permanent molars. Read More",
-                        "Fluoride Treatment: A topical application of concentrated fluoride strengthens tooth enamel and helps prevent cavities. Read More"
+                        "Pulpotomy: A tooth pulp (nerve) treatment for primary teeth.",
+                        "Pediatric Extractions: When a baby tooth is severely decayed, infected, or causing overcrowding, a gentle extraction may be necessary.",
+                        "Dental Fillings (Composite or Amalgam): Similar to adult fillings, children's fillings address cavities and prevent further decay.",
+                        "Metal Crowns: For severely damaged or fractured baby teeth, metal crowns offer a strong and durable restoration.",
+                        "Prophylactic Fillings (Sealants): A preventive measure applied to the chewing surfaces of healthy permanent molars.",
+                        "Fluoride Treatment: A topical application of concentrated fluoride strengthens tooth enamel and helps prevent cavities."
                     ]
                 },
                 {
                     "type": "content",
                     "title": "Pulpotomy: Preserving Nature’ss Design for Healthy Smiles",
                     "description": "Pulpotomy is a sophisticated nerve treatment for primary (baby) teeth. This procedure delicately addresses inflamed pulp tissue while preserving the tooth’s vital root structure. It is an excellent option for maintaining the integrity of your child’s natural tooth shape.",
-                    "heading": "Benefits of Pulpotomy:",
+                    "heading2": "Benefits of Pulpotomy:",
                     "features": [
                         "Maintains the integrity of natural tooth structure",
                         "Facilitates normal tooth function until the tooth naturally falls out",
-                        "Personalized Perfection: Ensures optimal spacing for permanent tooth emergence"
+                        "Ensures optimal spacing for permanent tooth emergence"
                     ]
                 },
                 {
                     "type": "content",
                     "title": "Precision Pediatric Extractions: When Necessity Calls",
                     "description": "Sometimes, a primary tooth may pose a threat to overall oral health. In such cases, our skilled pediatric dentists perform gentle tooth extractions to maintain your child’s oral health and ensure proper growth of permanent teeth. We use the latest techniques to minimize discomfort and promote healing.",
-                    "heading": "Advantages of Pediatric Extractions:",
+                    "heading2": "Advantages of Pediatric Extractions:",
                     "features": [
                         "Eliminates potential sources of infection or discomfort",
                         "Optimizes dental alignment for future growth",
@@ -69,7 +69,7 @@
                     "type": "content",
                     "title": "Dental Fillings for Children: Exploring Composite and Amalgam Solutions",
                     "description": "Fillings are essential for treating cavities and preventing further decay in children's teeth. We offer both composite fillings (tooth-colored) and amalgam fillings (durable, ideal for back teeth). These solutions ensure your child’s smile remains beautiful and aesthetically pleasing while maintaining long-term oral health.",
-                    "heading": "Key Benefits of Fillings:",
+                    "heading2": "Key Benefits of Fillings:",
                     "features": [
                         "Halts the progression of decay and eliminates pain",
                         "Restores tooth functionality and appearance",
@@ -80,7 +80,7 @@
                     "type": "content",
                     "title": "Customized Metal Crowns: Uncompromising Protection for Primary Teeth",
                     "description": "When primary teeth require extensive restoration, we use custom metal crowns for your kids to provide superior durability and protection. These crowns are designed to fit comfortably, maintain proper spacing, and support your child’s developing teeth.",
-                    "heading": "Advantages of Metal Crowns:",
+                    "heading2": "Advantages of Metal Crowns:",
                     "features": [
                         "Provides robust protection for compromised teeth",
                         "Maintains proper dental spacing and bite alignment",
@@ -91,7 +91,7 @@
                     "type": "content",
                     "title": "Prophylactic Fillings (Sealants): Proactive Cavity Prevention",
                     "description": "Our preventive dental care includes the application of sealants to safeguard vulnerable permanent molars. This advanced procedure creates a protective barrier against bacteria and food particles that cause cavities, helping to prevent dental decay from the start.",
-                    "heading": "Benefits of Dental Sealants:",
+                    "heading2": "Benefits of Dental Sealants:",
                     "features": [
                         "Significantly reduces cavity risk in permanent teeth",
                         "Especially effective for teeth with deep grooves or fissures",
@@ -102,7 +102,7 @@
                     "type": "content",
                     "title": "Professional Fluoride Treatments: Fortifying Developing Smiles",
                     "description": "Fluoride treatments are one of the most effective ways to strengthen developing teeth. By delivering a concentrated dose of fluoride directly to your child’s enamel, we provide superior protection against tooth decay and help support healthy tooth development.",
-                    "heading": "Advantages of Fluoride Treatments:",
+                    "heading2": "Advantages of Fluoride Treatments:",
                     "features": [
                         "Strengthens tooth enamel on a molecular level",
                         "Reduces cavity susceptibility",
@@ -142,7 +142,7 @@
                         {
                             "id": 1,
                             "name": "Dr. Hesham Nafei",
-                            "designation": "Dental General Practitioner",
+                            "designation": "Implantologist",
                             "image": "/assets/Images/doctors/hesham nafi.png",
                             "link": "dr-hesham-nafei"
                         },
@@ -207,11 +207,11 @@
                     "heading": "Explore Our Advanced Oral Surgical Solutions",
                     "description": "We provide a carefully curated selection of cutting-edge oral surgical treatments tailored to meet the unique needs and high standards of our patients in the UAE.",
                     "features": [
-                        "Precision Tooth Extraction: Simple and Surgical Solutions. Read More",
-                        "Wisdom Teeth Extraction: Expertly Managed for Your Comfort. Read More",
-                        "Apicectomy: Preserving Natural Teeth with Surgical Precision. Read More",
-                        "Gingivectomy: Achieving Perfect Gum Aesthetics. Read More",
-                        "Incision and Drainage: Immediate Relief for Dental Abscesses. Read More"
+                        "Precision Tooth Extraction: Simple and Surgical Solutions.",
+                        "Wisdom Teeth Extraction: Expertly Managed for Your Comfort.",
+                        "Apicectomy: Preserving Natural Teeth with Surgical Precision.",
+                        "Gingivectomy: Achieving Perfect Gum Aesthetics.",
+                        "Incision and Drainage: Immediate Relief for Dental Abscesses."
                     ]
                 },
                 {
@@ -300,7 +300,7 @@
                     "type": "content",
                     "title": "Why Choose Karisma Specialist Medical Center in the UAE?",
                     "description": "At Karisma Specialist Medical Center, we combine advanced technology with compassionate care to redefine excellence in oral surgery. Our commitment to your well-being ensures that each procedure is performed with precision and tailored to your unique needs.",
-                    "heading": "What Sets Us Apart At Karisma Specialist Medical Center?",
+                    "heading2": "What Sets Us Apart At Karisma Specialist Medical Center?",
                     "features": [
                         "State-of-the-Art Techniques: Leveraging advanced surgical methods and technology to achieve superior results.",
                         "Skilled Oral Surgeons: Our experienced specialists with a combined experience of 50 years are committed to ensuring safety, precision, and comfort.",
@@ -337,7 +337,7 @@
                         {
                             "id": 1,
                             "name": "Dr. Hesham Nafei",
-                            "designation": "Dental General Practitioner",
+                            "designation": "Implantologist",
                             "image": "/assets/Images/doctors/hesham nafi.png",
                             "link": "dr-hesham-nafei"
                         },
@@ -405,7 +405,7 @@
                     "title": "Key Benefits of Dental Implants",
                     "features": [
                         "Enhanced Functionality: Regain the ability to eat, speak, and smile confidently, just like with natural teeth.",
-                        "Improved Aesthetics: Achieve a natural, radiant smile that enhances your self-esteem and leaves a lasting impression., more vibrant look.",
+                        "Improved Aesthetics: Achieve a natural, radiant smile that enhances your self-esteem and leaves a lasting impression.",
                         "Unmatched Durability: Dental implants can last a lifetime with proper care, making them a long-term investment.",
                         "Jawbone Preservation: Stimulate your jawbone to prevent bone loss, a common issue with missing teeth.",
                         "Better Oral Health: Protect your remaining teeth by maintaining alignment and preventing neighboring teeth from shifting."
@@ -444,7 +444,6 @@
                 },
                 {
                     "type": "color-content",
-                    "title": "Call to Action",
                     "description": "Ready to restore your smile with dental implants? Call Karisma Specialist Medical Center today to schedule your consultation. Let us help you achieve the confident, healthy smile you deserve!"
                 },
                 {
@@ -468,7 +467,7 @@
                         {
                             "id": 1,
                             "name": "Dr. Hesham Nafei",
-                            "designation": "Dental General Practitioner",
+                            "designation": "Implantologist",
                             "image": "/assets/Images/doctors/hesham nafi.png",
                             "link": "dr-hesham-nafei"
                         },
@@ -559,13 +558,13 @@
                     "features": [
                         {
                             "title": "Traditional Metal Braces",
-                            "item": [
+                            "items": [
                                 "A time-tested solution, metal braces use a sophisticated system of brackets, wires, and bands to shift your teeth into perfect alignment gradually."
                             ]
                         },
                         {
                             "title": "Invisible (Clear) Aligners",
-                            "item": [
+                            "items": [
                                 "For a discreet alternative and a less impactful one on your daily lifestyle, clear aligners are custom-made, removable devices that straighten your teeth with minimal impact on your daily activities."
                             ]
                         }
@@ -585,7 +584,7 @@
                     ]
                 },
                 {
-                    "type": "color-content",
+                    "type": "content",
                     "title": "Your Radiant Smile Awaits",
                     "description": "Embrace the transformative journey to a healthier, more confident you. Contact Karisma Specialist Medical Center today, and take the first step toward a lifetime of smiles."
                 },
@@ -610,7 +609,7 @@
                         {
                             "id": 1,
                             "name": "Dr. Hesham Nafei",
-                            "designation": "Dental General Practitioner",
+                            "designation": "Implantologist",
                             "image": "/assets/Images/doctors/hesham nafi.png",
                             "link": "dr-hesham-nafei"
                         },
@@ -746,7 +745,7 @@
                         {
                             "id": 1,
                             "name": "Dr. Hesham Nafei",
-                            "designation": "Dental General Practitioner",
+                            "designation": "Implantologist",
                             "image": "/assets/Images/doctors/hesham nafi.png",
                             "link": "dr-hesham-nafei"
                         },
@@ -892,7 +891,7 @@
                         {
                             "id": 1,
                             "name": "Dr. Hesham Nafei",
-                            "designation": "Dental General Practitioner",
+                            "designation": "Implantologist",
                             "image": "/assets/Images/doctors/hesham nafi.png",
                             "link": "dr-hesham-nafei"
                         },
@@ -955,7 +954,7 @@
                     "type": "content",
                     "title": "What is Root Canal Treatment?",
                     "description": "Your tooth’s inner pulp containing nerves, blood vessels, and connective tissue can become infected due to decay, trauma, or cracks. This infection can lead to severe pain and swelling if not addressed. Root canal treatment is designed to remove the infected pulp, prevent further damage, and restore your tooth to full function.",
-                    "heading": "How does Root Canal work?",
+                    "heading2": "How does Root Canal work?",
                     "features": [
                         "Removing Infected Pulp: We gently remove the damaged pulp from the tooth’s root canals.",
                         "Cleaning and Disinfecting: The canals are thoroughly cleaned and disinfected to eliminate harmful bacteria and reduce the risk of reinfection.",
@@ -997,7 +996,7 @@
                     "type": "content",
                     "title": "Root Canal Treatment at Karisma Specialist Medical Center: Your Premier Choice in UAE",
                     "description": "At Karisma Specialist Medical Center, we go beyond basic dental care to offer a truly premium root canal treatment experience. Our UAE-based clinic is equipped with the latest dental technology, ensuring that you receive the most efficient, comfortable, and effective treatment.",
-                    "heading": "Here’s what you can expect from us:",
+                    "heading2": "Here’s what you can expect from us:",
                     "features": [
                         "State-of-the-Art Technology: Our advanced equipment allows for precise and efficient root canal treatments, ensuring better outcomes with less discomfort.",
                         "Experienced Dental Team: Our highly skilled specialists are dedicated to delivering top-notch care with a combined experience of 50 years in dental care, they will make the entire process seamless and stress-free.",
@@ -1043,7 +1042,7 @@
                         {
                             "id": 1,
                             "name": "Dr. Hesham Nafei",
-                            "designation": "Dental General Practitioner",
+                            "designation": "Implantologist",
                             "image": "/assets/Images/doctors/hesham nafi.png",
                             "link": "dr-hesham-nafei"
                         },
@@ -1119,7 +1118,7 @@
                     "type": "content",
                     "title": "1. Halitosis Management: Restoring Freshness and Confidence",
                     "description": "Chronic bad breath is caused by (halitosis)and can affect social interactions and self-confidence. Often linked to periodontal disease, it requires a precise approach. Our experts use advanced diagnostic tools to identify the root cause and craft a personalized treatment plan, including professional periodontal therapy and disease management.",
-                    "heading": "Benefits of Halitosis Management:",
+                    "heading2": "Benefits of Halitosis Management:",
                     "features": [
                         "Eliminates persistent bad breath, enhancing social confidence",
                         "Targets the underlying cause to prevent recurrence",
@@ -1130,7 +1129,7 @@
                     "type": "content",
                     "title": "2. Deep Scaling and Polishing: Non-Surgical Gum Therapy",
                     "description": "Ideal for mild to moderate gum concerns, this non-invasive procedure removes plaque and tartar both above and below the gumline. It leaves teeth and gums refreshed, clean, and healthy.",
-                    "heading": "Advantages of Deep Scaling and Polishing:",
+                    "heading2": "Advantages of Deep Scaling and Polishing:",
                     "features": [
                         "Removes harmful biofilm and calcified deposits",
                         "Enhances gum health and reduces recession risks",
@@ -1141,7 +1140,7 @@
                     "type": "content",
                     "title": "3. Deep Scaling & Root Planing: Advanced Periodontal Refreshness",
                     "description": "For patients with moderate to advanced periodontal disease, this intensive treatment involves the thorough removal of plaque and tartar from the teeth. The roots are also smoothed to discourage bacteria from recolonizing, promoting gum reattachment and healing.",
-                    "heading": "Key Benefits:",
+                    "heading2": "Key Benefits:",
                     "features": [
                         "Arrests disease progression by eliminating pathogens",
                         "Encourages gum healing and reattachment to tooth surfaces",
@@ -1152,10 +1151,11 @@
                     "type": "content",
                     "title": "Why Choose Karisma Specialist Medical Center?",
                     "description": "At Karisma Specialist Medical Center, we combine advanced periodontal expertise with patient-focused care to deliver outstanding results. Your comfort is our priority, and our treatments are designed to be as smooth and stress-free as possible.",
-                    "heading": "What Sets Us Apart At Karisma Specialist Medical Center?",
+                    "heading2": "What Sets Us Apart At Karisma Specialist Medical Center?",
                     "features": [
                         "State-of-the-Art Technology: Ensuring precision in every procedure",
                         "Highly Skilled Specialists: Dedicated to achieving the best outcomes",
+                        "Patient-Centric Approach: Tailored treatments that address your specific needs",
                         "Compassionate Care: A welcoming environment that prioritizes your well-being"
                     ]
                 },
@@ -1188,7 +1188,7 @@
                         {
                             "id": 1,
                             "name": "Dr. Hesham Nafei",
-                            "designation": "Dental General Practitioner",
+                            "designation": "Implantologist",
                             "image": "/assets/Images/doctors/hesham nafi.png",
                             "link": "dr-hesham-nafei"
                         },
@@ -1256,16 +1256,16 @@
                     "title": "Restorative Dental Treatments: Tailored Solutions for Every Smile",
                     "description": "Explore our comprehensive range of restorative dental services, carefully designed to meet your dental health goals while enhancing the aesthetics of your smile.",
                     "features": [
-                        "Aesthetic Fillings (Composite Resin): Our tooth-colored composite fillings are the perfect solution for repairing cavities, cracks, chips, or worn teeth. Read More",
-                        "Pulp Capping Protecting the Core of Your Tooth: When a tooth has a minor infection or inflammation, pulp capping can save it without resorting to invasive procedures. Read More",
-                        "Post and Core Strengthening Severely Damaged Teeth: When a tooth is severely damaged below the gum line or lacks sufficient structure to support a crown, the post and core procedure provides a reliable solution. Read More"
+                        "Aesthetic Fillings (Composite Resin): Our tooth-colored composite fillings are the perfect solution for repairing cavities, cracks, chips, or worn teeth.",
+                        "Pulp Capping Protecting the Core of Your Tooth: When a tooth has a minor infection or inflammation, pulp capping can save it without resorting to invasive procedures.",
+                        "Post and Core Strengthening Severely Damaged Teeth: When a tooth is severely damaged below the gum line or lacks sufficient structure to support a crown, the post and core procedure provides a reliable solution."
                     ]
                 },
                 {
                     "type": "content",
                     "title": "1. Aesthetic Fillings (Composite Resin)",
                     "description": "Our tooth-colored composite fillings are the perfect solution for repairing cavities, cracks, chips, or worn teeth. These restorations blend seamlessly with your natural teeth, offering durability and an invisible finish for a flawless smile.",
-                    "heading": "Why Choose Aesthetic Fillings At Karisma Specialist Medical Center?",
+                    "heading2": "Why Choose Aesthetic Fillings At Karisma Specialist Medical Center?",
                     "features": [
                         "Preserve Your Teeth: Effectively repairs damage without requiring extraction.",
                         "Protect Against Decay: Prevents further issues by safeguarding your tooth's sensitive inner layers.",
@@ -1277,7 +1277,7 @@
                     "type": "content",
                     "title": "2. Pulp Capping: Protecting the Core of Your Tooth",
                     "description": "When a tooth has a minor infection or inflammation, pulp capping can save it without resorting to invasive procedures. This gentle treatment removes the affected pulp tissue, covers the healthy portion with a special material, and allows the tooth to heal naturally.",
-                    "heading": "Why Pulp Capping Matters",
+                    "heading2": "Why Pulp Capping Matters",
                     "features": [
                         "Save Your Tooth: Keeps the natural pulp alive and functional.",
                         "Ease Discomfort: Relieves pain and prevents further infection.",
@@ -1289,7 +1289,7 @@
                     "type": "content",
                     "title": "3. Post and Core: Strengthening Severely Damaged Teeth",
                     "description": "When a tooth is severely damaged below the gum line or lacks sufficient structure to support a crown, the post and core procedure provides a reliable solution. A post is inserted into the root canal for stability, and the core is built up around it. A crown is then placed to restore the tooth's strength, function, and aesthetics.",
-                    "heading": "What are the Benefits of Post and Core?",
+                    "heading2": "What are the Benefits of Post and Core?",
                     "features": [
                         "Save the Tooth: Avoid extraction by rebuilding its structure.",
                         "Create a Strong Foundation: Provides stability for your crown.",
@@ -1301,31 +1301,12 @@
                     "type": "content",
                     "title": "Why Choose Karisma Specialist Medical Center for Restorative Dentistry?",
                     "description": "At Karisma Specialist Medical Center, we prioritize your comfort and satisfaction, combining advanced technology, innovative techniques, and compassionate care to ensure an exceptional dental experience.",
-                    "heading": "What Sets Us Apart At Karisma Specialist Medical Center?",
+                    "heading2": "What Sets Us Apart At Karisma Specialist Medical Center?",
                     "features": [
                         "State-of-the-Art Equipment: Ensures precision and long-lasting results.",
                         "Highly Skilled Dentists: Experienced professionals dedicated to providing personalized care.",
                         "Comprehensive Solutions: Tailored treatments for every stage of dental restoration.",
                         "Comfort-First Approach: A patient-centered environment designed to put you at ease."
-                    ]
-                },
-                {
-                    "type": "content",
-                    "title": "Why Choose Karisma Specialist Medical Center?",
-                    "description": "At Karisma Specialist Medical Center, we combine advanced periodontal expertise with patient-focused care to deliver outstanding results. Your comfort is our priority, and our treatments are designed to be as smooth and stress-free as possible.",
-                    "heading": "What Sets Us Apart At Karisma Specialist Medical Center?",
-                    "features": [
-                        "State-of-the-Art Technology: Ensuring precision in every procedure",
-                        "Highly Skilled Specialists: Dedicated to achieving the best outcomes",
-                        "Compassionate Care: A welcoming environment that prioritizes your well-being"
-                    ]
-                },
-                {
-                    "type": "color-content",
-                    "title": "Start Your Journey to Optimal Gum Health",
-                    "features": [
-                        "Don’t let gum issues compromise your smile or oral health. Take the first step toward a healthier, more confident you.",
-                        "Contact Karisma Specialist Medical Center today to schedule a consultation with our periodontal specialists and discover the difference in expert gum care."
                     ]
                 },
                 {
@@ -1349,7 +1330,7 @@
                         {
                             "id": 1,
                             "name": "Dr. Hesham Nafei",
-                            "designation": "Dental General Practitioner",
+                            "designation": "Implantologist",
                             "image": "/assets/Images/doctors/hesham nafi.png",
                             "link": "dr-hesham-nafei"
                         },
@@ -1499,11 +1480,6 @@
                     "description": "Our skilled team includes some of UAE’s top dental professionals, each dedicated to creating smiles that exude sophistication and excellence:"
                 },
                 {
-                    "type": "content",
-                    "title": "Our Doctors",
-                    "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
-                },
-                {
                     "type": "slider-doctors",
                     "title": "Meet Our Specialists",
                     "cards": {
@@ -1519,7 +1495,7 @@
                         {
                             "id": 1,
                             "name": "Dr. Hesham Nafei",
-                            "designation": "Dental General Practitioner",
+                            "designation": "Implantologist",
                             "image": "/assets/Images/doctors/hesham nafi.png",
                             "link": "dr-hesham-nafei"
                         },

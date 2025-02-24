@@ -1005,8 +1005,9 @@
                                 {
                                     "items": [
                                         "Pre-Filled Ampoules: Each treatment uses pre-filled, sterile ampoules containing the exclusive PINK SHOOTER solution for consistent application and maximum efficacy.",
-                                        "Powerful Ingredients",
+                                        
                                         {
+                                            "title": "Powerful Ingredients",
                                             "items": [
                                                 "PDRN (Polydeoxyribonucleotide): Promotes cell regeneration, accelerating skin repair and rejuvenation.",
                                                 "14 Peptides: Stimulate collagen production, improve elasticity, and target signs of aging.",

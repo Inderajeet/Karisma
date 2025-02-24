@@ -7875,8 +7875,8 @@ body.single .dd-container .dd-row:not(:last-child) {
         top: 30px;
     }
     .page-title-wrap h1 {
-        font-size: 48px;
-        line-height: 62px;
+        font-size: 38px;
+        line-height: 48px;
     }
     .page .page-title-wrap, .error404 .page-title-wrap {
         padding-top: 40px;

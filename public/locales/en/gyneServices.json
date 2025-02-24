@@ -282,8 +282,13 @@
             "High-Risk Pregnancy Care: Specialized monitoring and support for high-risk pregnancies.",
             "Pregnancy Detection & Follow-up: Convenient packages with essential lab tests.",
             "Prenatal Testing: Comprehensive tests to ensure a healthy pregnancy.",
-            "Advanced Ultrasound: 4D Ultrasound- Detailed imaging for early detection of fetal features and potential ano  malies (18-20 weeks).",
-            "Advanced Ultrasound: 2D Doppler Ultrasound- Vital early pregnancy insights, including fetal count and heart activity.",
+            {
+              "title": "Advanced Ultrasound",
+              "items": [
+                "4D Ultrasound- Detailed imaging for early detection of fetal features and potential ano  malies (18-20 weeks).",
+                "2D Doppler Ultrasound- Vital early pregnancy insights, including fetal count and heart activity."
+              ]
+            },
             "Genetic Testing: Assessing potential risks with advanced genetic screening.",
             "Delivery & Postnatal Care: A comfortable environment for childbirth and continued support after delivery."
           ]

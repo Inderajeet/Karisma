@@ -57,9 +57,10 @@ const SlidingDoct = ({ doctors, cards, isRTL }) => {
                                                 }}
                                                 breakpoints={{
                                                     0: { slidesPerView: 1 },
-                                                    576: { slidesPerView: 1 },
-                                                    768: { slidesPerView: 2 },
-                                                    992: { slidesPerView: 2 },
+                                                    530: { slidesPerView: 2 },
+                                                    576: { slidesPerView: 2 },
+                                                    768: { slidesPerView: 3 },
+                                                    992: { slidesPerView: 3 },
                                                     1200: { slidesPerView: 3 },
                                                     1300: { slidesPerView: 3 },
                                                 }}
@@ -75,7 +76,7 @@ const SlidingDoct = ({ doctors, cards, isRTL }) => {
                                                                 style={{ backgroundColor: cards["background-color"] }}
                                                             >
                                                                 <div className="entry-title">
-                                                                    <h3 className="post-title-head"style={{paddingBottom: '0'}}>
+                                                                    <h3 className="post-title-head" style={{ paddingBottom: '0' }}>
                                                                         <div
                                                                             className="post-title"
                                                                             style={{

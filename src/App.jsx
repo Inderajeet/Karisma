@@ -74,6 +74,9 @@ import DermaServices from './departments/derma/DermaServices';
 import DentalServices from './departments/dental/DentalServices';
 import Departments from './departments/Departments';
 import Careers from './pages/careers';
+import DermaDept from './departments/derma/DermaDept';
+import DentalDept from './departments/dental/DentalDept';
+import LaserDept from './departments/laser/LaserDept';
 
 
 Modal.setAppElement('#root'); // For accessibility
@@ -102,6 +105,9 @@ function LanguageWrapper() {
           <Route path="about_us" element={<About />} />
           <Route path="doctors" element={<Doctors />} />
           <Route path="offers" element={<Offers />} />
+          <Route path="/derma" element={<DermaDept />} />  
+          <Route path="/dental" element={<DentalDept />} />  
+          <Route path="/laser-hair-removal" element={<LaserDept />} />  
           <Route path="service/:slug" element={<OfferDetails />} />
           {/* <Route path="services" element={<ServiceTemplate/>} /> */}
           <Route path="service" element={<Services />} />
@@ -120,6 +126,7 @@ function LanguageWrapper() {
           <Route path="/policies/:footSerName" element={<FooterServices />} />  
           <Route path="/treatments" element={<TreatmentImages />} />  
           <Route path="/careers" element={<Careers />} />  
+    
 
 
           {/* <Route path="skincare" element={<Skincare/>} /> */}

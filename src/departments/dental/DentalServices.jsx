@@ -13,7 +13,7 @@ import ListServices from "../service templates/ListServices";
 import ListServicesNoImg from "../service templates/ListServicesNoImg";
 import BannerSkinCare from "../../components/BannerSkinCare";
 import HeaderTitle from "../service templates/HeaderTitle";
-import DynamicBanner from "../../components/DynamicBanner";
+import DentalBanner from "./DentalBanner";
 
 const DentalServices = () => {
     const { t, i18n } = useTranslation('dentalServices');
@@ -54,6 +54,7 @@ const DentalServices = () => {
                                 key={index}
                                 title={section.title}
                                 heading={section.heading}
+                                heading2={section.heading2}
                                 description={section.description}
                                 features={section.features}
                             />
@@ -104,7 +105,7 @@ const DentalServices = () => {
                         );
                     } else if (section.type === "banner") {
                         return (
-                            <DynamicBanner
+                            <DentalBanner
                                 deptName={section.deptName}
                                 serviceName={section.serviceName}
                                 bannerImage={section.bannerImage}

@@ -1,6 +1,6 @@
 import React from "react";
-import "./Header.css";
-import "./Banner.css";
+import "../../components/Header.css";
+import "./LaserBanner.css";
 import { Link } from "react-router-dom";
 
 export const applyFontFallback = (text) => {
@@ -13,7 +13,7 @@ export const applyFontFallback = (text) => {
     );
 };
 
-const DynamicBanner = ({ deptName, serviceName, bannerImage }) => {
+const LaserBanner = ({ deptName, serviceName, bannerImage }) => {
     console.log('Inside banner:', bannerImage);
     const bannerImageUrl = bannerImage.startsWith("http")
         ? bannerImage
@@ -23,7 +23,7 @@ const DynamicBanner = ({ deptName, serviceName, bannerImage }) => {
     return (
         <>
             <div
-                className="background-img"
+                className="laser-background-img"
                 style={{
                     backgroundImage: `url(${bannerImageUrl})`
                 }}            >
@@ -72,4 +72,4 @@ const DynamicBanner = ({ deptName, serviceName, bannerImage }) => {
     );
 };
 
-export default DynamicBanner;
+export default LaserBanner;

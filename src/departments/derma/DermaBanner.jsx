@@ -1,32 +1,32 @@
 import React from "react";
-import "./Header.css";
-import "./Banner.css";
+import "../../components/Header.css";
+import "./DermaBanner.css";
 import { Link } from "react-router-dom";
 
 export const applyFontFallback = (text) => {
     if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
-
+  
     return text.split("").map((char, index) =>
-        /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
-            ? char
-            : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
+      /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
+        ? char
+        : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
     );
-};
+  };
 
-const DynamicBanner = ({ deptName, serviceName, bannerImage }) => {
+const DermaBanner = ({ deptName, serviceName, bannerImage }) => {
     console.log('Inside banner:', bannerImage);
-    const bannerImageUrl = bannerImage.startsWith("http")
-        ? bannerImage
-        : `${window.location.origin}/assets/${bannerImage.replace(/^(\.\.\/)+assets\//, '')}`;
+    const bannerImageUrl = bannerImage.startsWith("http") 
+  ? bannerImage 
+  : `${window.location.origin}/assets/${bannerImage.replace(/^(\.\.\/)+assets\//, '')}`;
 
-    console.log("Final Banner Image URL:", bannerImageUrl); // Debugging
+console.log("Final Banner Image URL:", bannerImageUrl); // Debugging
     return (
         <>
             <div
-                className="background-img"
+                className="derma-background-img"
                 style={{
                     backgroundImage: `url(${bannerImageUrl})`
-                }}            >
+                  }}            >
                 <div className="img-overlay"></div>
             </div>
             <div className="container" style={{ position: "relative", top: '100px' }}>
@@ -42,19 +42,19 @@ const DynamicBanner = ({ deptName, serviceName, bannerImage }) => {
                                                 <ul id="breadcrumb" className="breadcrumb nav">
                                                     <li>
                                                         <Link to="/">
-                                                            <span style={{ color: '#fff' }}>Home</span>
+                                                            <span style={{  color:'#fff' }}>Home</span>
                                                         </Link>
                                                     </li>
                                                     {deptName && (
-                                                        <li style={{ marginLeft: "4px" }}>
+                                                        <li style={{  marginLeft: "4px" }}>
                                                             <Link to={`/department/${deptName.toLowerCase()}`}
-                                                                style={{ color: '#fff' }}>
-                                                                | {deptName}
+                                                            style={{color:'#fff'}}>
+                                                               | {deptName}
                                                             </Link>
                                                         </li>
                                                     )}
                                                     {serviceName && (
-                                                        <li style={{ marginLeft: "4px", color: '#fff' }}>
+                                                        <li style={{  marginLeft: "4px", color:'#fff' }}>
                                                             | {serviceName}
                                                         </li>
                                                     )}
@@ -72,4 +72,4 @@ const DynamicBanner = ({ deptName, serviceName, bannerImage }) => {
     );
 };
 
-export default DynamicBanner;
+export default DermaBanner;

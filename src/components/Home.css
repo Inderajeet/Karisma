@@ -16,7 +16,7 @@
   .home-desc-font{
     font-size: 17px !important;
     line-height: 26px !important;
-    text-align: justify !important;
+    /* text-align: justify !important; */
   }
   .home-head-font{
     font-size: 30px !important;
@@ -120,4 +120,8 @@
 
 .abtbtn1:hover::before{
   width: 100%;
+}
+
+.widget ul li:first-child{
+  padding-top: 4px;
 }

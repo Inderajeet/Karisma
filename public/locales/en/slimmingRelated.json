@@ -470,7 +470,7 @@
                     "description": "Ozempic is a prescription medication and should only be used under the supervision of a qualified physician. This content is for informational purposes and should not replace medical advice. Always consult with your doctor before starting any new treatment."
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Elevate Your Skincare Routine",
                     "description": "Experience the unparalleled caviar and vitamin C for radiant, youthful skin. Book your Karisma Signature Facial (Caviar) at Karisma today!"
                 }
@@ -527,7 +527,7 @@
                     "description": "At Karisma Specialist Medical Center, we are committed to helping you achieve your health and beauty goals. Schedule a consultation today to discuss how IV Drip Therapy can benefit you and explore the tailored options available. Start your journey towards a healthier, more radiant you!"
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Disclaimer",
                     "description": "IV Drip Therapy is not a one-size-fits-all solution. While it offers numerous benefits, it should be combined with a balanced lifestyle, proper nutrition, and self-care. Always consult with our experts to determine the best course of action for your needs."
                 }
@@ -580,7 +580,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Schedule Your Food Print Test Today!",
                     "description": "If you're ready to uncover food sensitivities that may be affecting your digestive health and overall well-being, schedule your Food Print Test at Karisma Specialist Medical Center today. Our expert team is here to guide you through every step of the process!"
                 }
@@ -621,7 +621,7 @@
                     "description": "Are you ready to take the next step in your health journey? Schedule a consultation with our expert nutritionists today. We will discuss your goals, answer your questions, and create a personalized diet plan that helps you become the healthiest version of yourself."
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Let’s create a diet plan that nourishes your body and empowers your well-being!"
                 }
             ]

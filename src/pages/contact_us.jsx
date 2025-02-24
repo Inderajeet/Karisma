@@ -5,6 +5,7 @@ import ContactForm from "../components/ContactForm";
 import HomeSlider from "../components/HomeSlider";
 import { useTranslation } from "react-i18next";
 import '../components/Home.css';
+import DynamicBanner from "../components/DynamicBanner";
 
 
 export default function ContactPage() {
@@ -19,8 +20,8 @@ export default function ContactPage() {
 
     return (
         <>
-            <Banner></Banner>
-            <div className="customContainer ">
+    <DynamicBanner  deptName="Contact Us" serviceName="" bannerImage="https://damasmc.com/uploads/banners/bannerimage68e2318425ebbe7d65777d85eb6a11ecbabc116c.jpg" />
+    <div className="customContainer ">
                 <div className="row">
                     <div className="col-md-12 order-md-2">
                         <article

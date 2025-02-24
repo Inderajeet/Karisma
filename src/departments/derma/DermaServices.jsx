@@ -13,7 +13,7 @@ import ListServices from "../service templates/ListServices";
 import ListServicesNoImg from "../service templates/ListServicesNoImg";
 import BannerSkinCare from "../../components/BannerSkinCare";
 import HeaderTitle from "../service templates/HeaderTitle";
-import DynamicBanner from "../../components/DynamicBanner";
+import DermaBanner from "./DermaBanner";
 
 const DermaServices = () => {
     const { t, i18n } = useTranslation('dermaServices');
@@ -106,7 +106,7 @@ const DermaServices = () => {
                         console.log("Banner Image Path:", section.bannerImage);
 
                         return (
-                            <DynamicBanner
+                            <DermaBanner
                                 deptName={section.deptName}
                                 serviceName={section.serviceName}
                                 bannerImage={section.bannerImage}
