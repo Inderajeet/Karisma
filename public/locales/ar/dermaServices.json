@@ -159,166 +159,77 @@
       "sections": [
         {
           "type": "banner",
-          "deptName": "Derma",
-          "serviceName": "Anti-Aging Treatment",
+          "deptName": "الأمراض الجلدية",
+          "serviceName": "علاج مكافحة الشيخوخة",
           "bannerImage": "../assets/Images/banner/dept_banner/derma.png"
         },
         {
           "type": "image-content",
           "imageUrl": "../assets/Images/banner/about_dept/derma.png",
-          "imageAlt": "Anti-Aging Treatment",
-          "title": "Anti-Aging Treatment",
+          "imageAlt": "علاج مكافحة الشيخوخة",
+          "title": "علاج مكافحة الشيخوخة",
           "content": [
             {
               "type": "paragraph",
-              "text": "The Versatility Beyond Wrinkles at Karisma Specialist Medical Center"
+              "text": "التأثيرات المتعددة لعلاج مكافحة الشيخوخة في مركز كاريزما الطبي التخصصي"
             },
             {
               "type": "heading",
-              "text": "More Than Just Wrinkle Reduction"
+              "text": "أكثر من مجرد تقليل التجاعيد"
             },
             {
               "type": "paragraph",
-              "text": "Anti-Aging Treatment, or botulinum toxin type A, is a purified protein with a powerful function:"
+              "text": "علاج مكافحة الشيخوخة، أو توكسين البوتولينوم النوع A، هو بروتين نقي ذو وظيفة قوية:"
             },
             {
               "type": "list",
               "items": [
-                "Function: Anti-Aging Treatment works by temporarily blocking the signals between nerves and muscles, causing relaxation in the targeted area."
+                "الوظيفة: يعمل علاج مكافحة الشيخوخة عن طريق منع الإشارات بين الأعصاب والعضلات بشكل مؤقت، مما يؤدي إلى استرخاء المنطقة المستهدفة."
               ]
             }
           ]
         },
         {
           "type": "content",
-          "title": "Diverse Medical Applications",
-          "description": "While Anti-Aging Treatment is known for its cosmetic benefits, its versatility extends to various medical indications:"
+          "title": "تطبيقات طبية متنوعة",
+          "description": "على الرغم من أن علاج مكافحة الشيخوخة معروف بفوائده التجميلية، إلا أن استخداماته تمتد إلى العديد من التطبيقات الطبية:"
         },
         {
           "type": "content",
-          "heading": "Wrinkle Reduction",
-          "description": "Relaxes facial and neck muscles that contribute to wrinkles and fine lines, promoting a smoother appearance. (Duration: 3-6 months).",
+          "heading": "تقليل التجاعيد",
+          "description": "يساعد على استرخاء عضلات الوجه والرقبة التي تسبب التجاعيد والخطوط الدقيقة، مما يمنح مظهرًا أكثر نعومة. (المدة: 3-6 أشهر).",
           "features": [
-            "Forehead Wrinkles: Soften frown lines and horizontal forehead wrinkles for a relaxed look.",
-            "Brighter Eyes: Lift the brow area to create the illusion of more youthful, open eyes.",
-            "Frown Lines: Minimize deep lines between the brows for a less severe expression.",
-            "Smile Lines: Soften lines around the mouth for a more youthful look.",
-            "Crow's Feet: Smooth out lines around the eyes for a brighter, youthful appearance",
-            "Brow Lift: Subtly lift the brows to open up the eye area for a youthful look.",
-            "Enhanced Lip Shape: Achieve a subtle \"cupid's bow\" effect on the upper lip.",
-            "Lip Lines: Relax vertical lines above the upper lip for smoother, plumper lips.",
-            "Preventive Care: Anti-Aging Treatment can be used preventatively to minimize future wrinkle formation."
+            "تجاعيد الجبهة: تقليل خطوط العبوس والتجاعيد الأفقية للحصول على مظهر أكثر استرخاءً.",
+            "عيون أكثر إشراقًا: رفع منطقة الحاجب لمنح العيون مظهرًا أكثر شبابًا وانفتاحًا.",
+            "خطوط العبوس: تقليل الخطوط العميقة بين الحاجبين للحصول على تعبير أقل حدة.",
+            "خطوط الابتسامة: تقليل التجاعيد حول الفم لمظهر أكثر شبابًا.",
+            "أقدام الغراب: تنعيم الخطوط حول العينين لمظهر أكثر إشراقًا وشبابًا.",
+            "رفع الحواجب: رفع الحواجب قليلاً لفتح منطقة العين وإضفاء مظهر أكثر شبابًا.",
+            "تحسين شكل الشفاه: تحقيق تأثير \"قوس كيوبيد\" خفيف على الشفة العليا.",
+            "خطوط الشفاه: تقليل الخطوط العمودية فوق الشفة العلوية للحصول على مظهر أكثر نعومة وامتلاءً.",
+            "الرعاية الوقائية: يمكن استخدام علاج مكافحة الشيخوخة بشكل وقائي لتقليل تكوين التجاعيد في المستقبل."
           ]
         },
         {
           "type": "content",
-          "title": "Achieving a Balanced and Refreshed Look",
-          "description": "Anti-Aging Treatment offers additional benefits for overall facial rejuvenation:",
+          "title": "تحقيق مظهر متوازن ومنتعش",
+          "description": "يقدم علاج مكافحة الشيخوخة فوائد إضافية لإعادة تجديد شباب الوجه بالكامل:",
           "features": [
-            "Significant Reduction of Jaw Clenching: Anti-Aging Treatment helps relax jaw muscles, alleviating teeth grinding and offering a more relaxed jawline appearance.",
-            "Minimized Gummy Smile: Anti-Aging Treatment can relax the muscle that lifts the upper lip, reducing the visibility of gum tissue when you smile.",
-            "Chronic Migraines: Anti-Aging Treatment can block pain signals associated with migraines, reducing headache frequency and intensity. (Duration: 3-6 months)",
-            "Hyperhidrosis (Excessive Sweating): Anti-Aging Treatment inhibits sweat gland activity, offering relief from excessive sweating in areas like the underarms, hands, and face. (Duration: 6-12 months)",
-            "TMJ Dysfunction: Anti-Aging Treatment reduces muscle tension in the jaw, alleviating pain and discomfort related to temporomandibular joint dysfunction. (Duration: 3-6 months)",
-            "Muscle Spasms: Anti-Aging Treatment helps to relax muscles that are too active, offering relief from issues such as cervical dystonia (spasms in the neck), blepharospasm (twitching of the eyelids), and hemifacial spasm (twitching of the face). (Lasts for 3-6 months)"
-          ]
-        },
-        {
-          "type": "content",
-          "title": "Experience The Vibrant Version of Yourself with Anti-Aging Treatment.",
-          "description": "Anti-Aging Treatment is a powerful tool for achieving a smoother, brighter, and more youthful appearance across your face and body. Whether you're looking to target fine lines, reduce excessive sweating, or relieve muscle tension, Anti-Aging Treatment can enhance your natural beauty and well-being."
-        },
-        {
-          "type": "content",
-          "title": "Vital Information Regarding Anti-Aging Treatment Injections at Karisma Specialist Medical Center",
-          "description": "At Karisma Specialist Medical Center, ensuring your safety and achieving the best possible outcomes are our highest priorities. To ensure a successful and smooth experience, we’ve compiled the essential precautions, contraindications, and aftercare instructions for Anti-Aging Treatment treatments."
-        },
-        {
-          "type": "content",
-          "title": "Anti-Aging Treatment Aftercare Instructions",
-          "description": "To ensure the best results and minimize risks, please follow these aftercare instructions:",
-          "features": [
-            "Maintain An Upright Posture: Maintain an upright posture for at least 3-4 hours after your Anti-Aging Treatment injection to allow optimal distribution of the product. Avoid strenuous exercise during this time.",
-            "Minimize Sun Exposure Time: For 24 hours after your injection, avoid direct sunlight or extreme heat to reduce the risk of swelling or redness.",
-            "Minimize Touching Teated Area: Refrain from touching, massaging, or applying pressure to the treated areas for at least 8 hours to avoid disrupting the Anti-Aging Treatment.",
-            "Smoking Cessation: For optimal results, we strongly advise avoiding smoking for at least 2 weeks after your Anti-Aging Treatment injection."
-          ]
-        },
-        {
-          "type": "content",
-          "title": "Contraindications for Anti-Aging Treatment Treatment",
-          "description": "Anti-Aging Treatment may not be suitable for individuals with the following conditions:",
-          "features": [
-            "Pregnancy: Anti-Aging Treatment is prohibited during pregnancy due to the potential risks of the substance getting transferred to the baby.",
-            "Breastfeeding: Anti-Aging Treatment is not recommended for breastfeeding women within the first 6 months after birth. If breastfeeding is necessary, a waiting period of 2 hours is advised.",
-            "Muscular Diseases and MS: Anti-Aging Treatment may interfere with certain muscle disorders and multiple sclerosis (MS), and should be avoided in such cases.",
-            "Active Skin Infection or Dermatitis: Do not receive Anti-Aging Treatment treatment if you have an infection or inflammation at the injection site."
-          ]
-        },
-        {
-          "type": "center-content",
-          "title": "We strongly advise you to inform your dermatologist if any of these conditions apply to you in order to ensure your safety and well-being."
-        },
-        {
-          "type": "content",
-          "title": "Prior to Your Anti-Aging Treatment Injection",
-          "features": [
-            "Compatible Pre-treatments: Skin cleansing procedures are generally safe before Anti-Aging Treatment injections, but please discuss any other treatments with your dermatologist.",
-            "Wait Time for Certain Treatments: After Anti-Aging Treatment injections, wait for about three weeks before undergoing mesotherapy, laser hair removal, bleaching, or peeling procedures."
-          ]
-        },
-        {
-          "type": "content",
-          "title": "Planning Your Treatment Schedule",
-          "features": [
-            "Same-Day Compatibility: Depending on your treatment goals, plasma rejuvenation procedures, and filler injections can often be performed on the same day as your Anti-Aging Treatment injection. This will be discussed during your consultation with your dermatologist."
-          ]
-        },
-        {
-          "type": "content",
-          "title": "Securing a Safe and Effective Anti-Aging Treatment Experience is essential.",
-          "description": "At Karisma Specialist Medical Center, we pride ourselves on taking every measure to provide a safe, effective, and personalized Anti-Aging Treatment experience for our customers:",
-          "features": [
-            "Expert Consultation: Our board-certified professionals will evaluate your medical history and assess whether Anti-Aging Treatment is the right treatment for you or not.",
-            "Personalized Treatment Plans: We customize Anti-Aging Treatment treatments to your unique needs, ensuring your desired outcome is achieved.",
-            "Safe and Effective: We utilize premium Anti-Aging Treatment products along with cutting-edge techniques to ensure optimal results while reducing risk, Cause your safety and getting optimal results for our customer's satisfaction is our number one goal."
+            "تقليل كبير لتشنج الفك: يساعد علاج مكافحة الشيخوخة على استرخاء عضلات الفك، مما يقلل من طحن الأسنان ويمنح مظهرًا أكثر استرخاءً للفك.",
+            "تقليل الابتسامة اللثوية: يمكن لعلاج مكافحة الشيخوخة أن يرخي العضلة التي ترفع الشفة العليا، مما يقلل من ظهور اللثة عند الابتسام.",
+            "الصداع النصفي المزمن: يمكن لعلاج مكافحة الشيخوخة أن يمنع إشارات الألم المرتبطة بالصداع النصفي، مما يقلل من تكرار وحدة الصداع. (المدة: 3-6 أشهر)",
+            "فرط التعرق (التعرق الزائد): يمنع علاج مكافحة الشيخوخة نشاط الغدد العرقية، مما يوفر راحة من التعرق المفرط في مناطق مثل الإبطين واليدين والوجه. (المدة: 6-12 شهرًا)",
+            "اضطرابات المفصل الصدغي الفكي: يقلل علاج مكافحة الشيخوخة من توتر العضلات في الفك، مما يخفف الألم والانزعاج المرتبط باضطرابات المفصل الفكي الصدغي. (المدة: 3-6 أشهر)",
+            "تشنجات العضلات: يساعد علاج مكافحة الشيخوخة على استرخاء العضلات التي تكون مفرطة النشاط، مما يوفر راحة من الحالات مثل خلل التوتر العنقي (تشنجات الرقبة)، وتشنج الجفن (ارتعاش الجفون)، وتشنج الوجه النصفي (ارتعاش الوجه). (يدوم لمدة 3-6 أشهر)"
           ]
         },
         {
           "type": "color-content",
-          "title": "Unlock a More Youthful You with Anti-Aging Treatment Today With Karisma Specialist Medical Center!",
-          "description": "Anti-Aging Treatment offers a non-surgical solution for a smoother, brighter, and more youthful appearance. Schedule a consultation with our Anti-Aging Treatment specialists today to learn more about how this treatment can enhance your natural beauty. We’ll discuss your goals, answer your questions, and create a personalized treatment plan to help you achieve your desired look."
-        },
-        {
-          "type": "content",
-          "title": "Our Doctors",
-          "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
-          "features": []
-        },
-        {
-          "type": "slider-doctors",
-          "title": "Meet Our Specialists",
-          "cards": {
-            "background-color": "#f9f9f9",
-            "heading-color": "#577065",
-            "heading-size": "24px",
-            "desc-color": "#5C4033",
-            "desc-size": "16px",
-            "button-text-color": "#577065",
-            "button-text-size": "16px"
-          },
-          "doctors": [
-            {
-              "id": 1,
-              "name": "Dr. Manar Magdy",
-              "designation": "Dermatology Specialist",
-              "image": "/assets/Images/doctors/Dr Manar.png",
-              "link": "dr-manar-magdy"
-            }
-          ]
+          "title": "احصل على مظهر أكثر شبابًا مع علاج مكافحة الشيخوخة اليوم في مركز كاريزما الطبي التخصصي!",
+          "description": "يقدم علاج مكافحة الشيخوخة حلاً غير جراحي لمظهر أكثر نعومة وإشراقًا وشبابًا. حجز استشارة مع متخصصي علاج مكافحة الشيخوخة لدينا اليوم لمعرفة المزيد عن كيفية تحسين جمالك الطبيعي بهذا العلاج. سنناقش أهدافك، نجيب على أسئلتك، ونضع خطة علاج مخصصة لمساعدتك في تحقيق المظهر الذي تريده."
         }
       ]
-    },
+    },    
     {
       "id": "3",
       "name": "cosmetic-threads",
