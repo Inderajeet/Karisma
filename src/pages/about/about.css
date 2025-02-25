@@ -1,150 +1,9 @@
-.about-us-container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 40px 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-}
-
-.about-us-section {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  margin: 30px;
-}
-
-.our-story-container {
-  max-width: 1200px;
-  margin: 40px auto;
-  padding: 20px;
-  text-align: center;
-}
-
-.our-story-heading {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  color: #405D53;
-}
-
-.our-story-text {
-  font-size: 18px;
-  line-height: 1.6;
-  /* color: rgb(92, 64, 51); */
-  text-align: justify;
-  padding: 10px;
-}
-
-.sec1 {
-  width: 30%;
-}
-
-.sec2 {
-  width: 60%;
-}
-
-.about-us-section:nth-child(even) {
-  flex-direction: row-reverse;
-}
-
-.about-us-heading {
-  font-size: 42px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-.section-image {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.about-us-paragraph {
-  font-size: 18px;
-  line-height: 1.6;
-  /* color: rgb(92, 64, 51); */
-  text-align: justify;
-}
-
-.about-card-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px;
-  justify-content: center;
-  align-items: stretch;
-}
-
-.about-card {
-  background-color: #c1a079;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 20px;
-  flex: 1 1 calc(50% - 20px);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-width: 600px;
-  display: flex;
-  flex-direction: column;
-}
-
-.ceo-message-container {
-  max-width: 1200px;
-  margin: 80px auto;
-  padding: 40px;
-  background-color: #D1BB9F;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.ceo-content {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.ceo-image-container {
-  flex: 1;
-  text-align: center;
-}
-
-.ceo-image-container img {
-  width: 300px;
-  height: 450px;
-  object-fit: cover;
-}
-
-.ceo-text-container {
-  flex: 2;
-  text-align: left;
-}
-
-.background-container {
-  position: relative;
-  width: 100%;
-  height: 800px;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-.overlay-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  text-align: center;
-  z-index: 2;
-}
-
 @media (max-width: 1024px) {
   .about-us-section {
       flex-direction: column;
       text-align: center;
-      gap: 20px;
+      gap: 15px; /* Reduce space between sections */
+      margin: 15px 0; /* Reduce margin */
   }
 
   .sec1, .sec2 {
@@ -154,6 +13,7 @@
   .ceo-content {
       flex-direction: column;
       text-align: center;
+      gap: 20px; /* Reduce gap between image & text */
   }
 
   .ceo-image-container img {
@@ -164,15 +24,18 @@
 
 @media (max-width: 768px) {
   .about-us-heading {
-      font-size: 36px;
+      font-size: 34px;
+      margin-bottom: 10px; /* Reduce bottom margin */
   }
 
   .our-story-heading {
-      font-size: 30px;
+      font-size: 28px;
+      margin-bottom: 10px; /* Reduce bottom margin */
   }
 
   .about-card {
       flex: 1 1 100%;
+      padding: 15px; /* Reduce padding */
   }
 
   .ceo-image-container img {
@@ -180,64 +43,75 @@
       height: 350px;
   }
 
+  .ceo-message-container {
+      padding: 45px; /* Reduce padding */
+      margin: 40px auto; /* Reduce vertical spacing */
+  }
+
   .background-container {
-      height: 600px;
+      height: 500px; /* Reduce height */
       background-attachment: scroll;
   }
 
- 
-    .about-us-section {
-      flex-direction: column !important; /* Ensures all sections stack in a single column */
-      text-align: center;
-      gap: 20px;
-    }
-  
-    .reverse-layout {
+  .about-us-section {
       flex-direction: column !important;
-    }
-  
-    .sec1, .sec2 {
-      width: 100% !important; /* Makes both the text and image take full width */
-    }
-  
-    .section-image {
-      height: auto; /* Ensures the image resizes properly */
-      max-width: 100%; /* Keeps the image within its container */
-    }
-  
-    .about-us-heading {
-      font-size: 28px; /* Adjusts the heading size for better readability */
-    }
-  
-    .about-us-paragraph {
+      text-align: center;
+      gap: 15px !important; /* Decrease gap */
+      margin: 20px 10px !important; /* Reduce margin */
+  }
+
+  .sec1, .sec2 {
+      width: 100% !important;
+      margin-bottom: 20px;
+  }
+
+  .section-image {
+      height: auto;
+      max-width: 100%;
+  }
+
+  .about-us-paragraph {
       font-size: 16px;
-      padding: 0 10px; /* Adds some spacing on mobile */
-    }
-  
+      padding: 0 8px; /* Reduce padding */
+  }
 }
 
 @media (max-width: 480px) {
   .about-us-heading {
-      font-size: 28px;
+      font-size: 26px;
+      margin-bottom: 8px; /* Reduce space below heading */
   }
 
   .our-story-heading {
-      font-size: 24px;
+      font-size: 22px;
+      margin: 10px 30px;
+      text-align: center;
   }
 
   .about-us-container, .our-story-container {
-      padding: 20px 10px;
+      padding: 15px 8px; /* Reduce padding */
+  }
+
+  .about-us-section {
+      gap: 10px; /* Further reduce space between sections */
+      margin: 5px 0; /* Reduce margin */
   }
 
   .ceo-message-container {
-      padding: 20px;
+      padding: 35px;
+      margin: 30px auto;
   }
 
   .overlay-text h1 {
-      font-size: 24px;
+      font-size: 22px;
+      margin-bottom: 5px; /* Reduce space */
   }
 
   .overlay-text p {
-      font-size: 16px;
+      font-size: 14px;
+  }
+
+  .ceo-image-container {
+     margin-bottom: 20px;
   }
 }

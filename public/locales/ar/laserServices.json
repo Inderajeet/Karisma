@@ -2,109 +2,180 @@
     "laserServices": [
         {
             "id": "1",
-            "name": "candela-gentleMax-pro",
+            "name": "candela",
             "sections": [
                 {
+                    "type": "banner",
+                    "deptName": "إزالة الشعر بالليزر",
+                    "serviceName": "كانديلا جنتل ماكس برو",
+                    "bannerImage": "../assets/Images/banner/dept_banner/laser.png"
+                },
+                {
                     "type": "image-content",
-                    "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
-                    "imageAlt": "Facials",
-                    "title": "Candela GentleMax Pro",
+                    "imageUrl": "../assets/Images/banner/about_dept/laser.png",
+                    "imageAlt": "كانديلا جنتل ماكس برو",
+                    "title": "كانديلا جنتل ماكس برو",
                     "content": [
                         {
                             "type": "heading",
-                            "text": "Candela GentleMax Pro at Karisma Specialist Medical Center"
+                            "text": "كانديلا جنتل ماكس برو في مركز كاريزما التخصصي الطبي"
                         },
                         {
                             "type": "paragraph",
-                            "text": "Revolutionize your laser hair removal experience with the Candela GentleMax Pro, a cutting-edge solution offering versatile and personalized treatments for all skin tones and hair types."
+                            "text": "أحدث ثورة في تجربة إزالة الشعر بالليزر مع جهاز كانديلا جنتل ماكس برو، وهو حل متطور يوفر علاجات متنوعة وشخصية لجميع أنواع البشرة وألوان الشعر."
                         },
                         {
                             "type": "heading",
-                            "text": "Advanced Laser Technology for Every Need"
+                            "text": "تقنية ليزر متقدمة تناسب جميع الاحتياجات"
                         },
                         {
                             "type": "list",
                             "items": [
-                                "Dual Wavelengths: Features Alexandrite and Nd:YAG lasers for tailored, effective treatments.",
-                                "Skin-Friendly: Safe for lighter and tanned skin tones with minimal risk of side effects.",
-                                "Comfort Redefined:: Integrated cooling technology ensures a gentle, comfortable experience."
+                                "أطوال موجية مزدوجة: يتميز بأشعة الليزر ألكسندريت و Nd:YAG لعلاجات مخصصة وفعالة.",
+                                "آمن على البشرة: مناسب للبشرة الفاتحة والداكنة بأقل خطر للآثار الجانبية.",
+                                "راحة محسنة: تقنية التبريد المدمجة تضمن تجربة لطيفة ومريحة."
                             ]
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Why Choose Karisma Specialist Medical Center?",
-                    "description":"At Karisma Specialist Medical Center, your comfort and satisfaction are our priority. Our certified specialists deliver precise, personalized care using the latest laser technology for optimal results."
+                    "title": "لماذا تختار مركز كاريزما التخصصي الطبي؟",
+                    "description": "في مركز كاريزما التخصصي الطبي، راحتك ورضاك هما أولويتنا. يقدم أخصائيونا المعتمدون رعاية دقيقة وشخصية باستخدام أحدث تقنيات الليزر للحصول على نتائج مثالية."
                 },
                 {
                     "type": "content",
-                    "title": "Don't lose time or effort with Candela (Gentle Max Pro)​",
-                    "description": "Experience the ultra attention to detail with non-invasive treatment for hair removal solution with (Gentle Max Pro). This non-invasive treatment, enhanced with controlled cooling technology, ensures no damage to surrounding skin, ensuring an overwhelmingly comfortable sensation. As a non-surgical procedure, it requires no downtime you can resume your daily activities immediately, with a simple recommendation to avoid sun exposure post-treatment.​"
+                    "title": "لا تضيع الوقت أو الجهد مع كانديلا (جنتل ماكس برو)",
+                    "description": "استمتع بأقصى درجات العناية مع علاج غير جراحي لحل إزالة الشعر باستخدام (جنتل ماكس برو). يتميز هذا العلاج غير الجراحي بتقنية تبريد متحكم بها لضمان عدم إلحاق ضرر بالبشرة المحيطة، مما يضمن إحساسًا مريحًا بشكل استثنائي. كونه إجراء غير جراحي، فإنه لا يتطلب فترة نقاهة، ويمكنك استئناف أنشطتك اليومية فورًا مع توصية بسيطة بتجنب التعرض للشمس بعد العلاج."
                 },
                 {
-                    "type": "content",
-                    "title": "Our Doctors",
-                    "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
-                    "features": []
-                }, {
-                    "type": "content",
-                    "title": "Take the First Step Toward Smooth Skin",
-                    "description": "Schedule your session today to explore how the Candela GentleMax Pro can transform your skincare routine. Achieve lasting smoothness and confidence with our expert team guiding you every step of the way.",
+                    "type": "center-content",
+                    "title": "اتخذ الخطوة الأولى نحو بشرة ناعمة",
+                    "description": "حدد موعد جلستك اليوم لاستكشاف كيف يمكن لجهاز كانديلا جنتل ماكس برو أن يحول روتين العناية ببشرتك. احصل على نعومة دائمة وثقة مع فريق خبرائنا الذين سيرشدونك في كل خطوة على الطريق.",
                     "features": []
                 }
-                
             ]
         },
         {
             "id": "2",
-            "name": "revLite-si",
+            "name": "revlite",
             "sections": [
                 {
+                    "type": "banner",
+                    "deptName": "إزالة الشعر بالليزر",
+                    "serviceName": "revlite SI",
+                    "bannerImage": "../assets/Images/banner/dept_banner/laser.png"
+                },
+                {
                     "type": "image-content",
-                    "imageUrl": "https://damasmc.com/uploads/services/service_image7634dd58c2d48657bad993881722a915f8dbe576.jpg",
-                    "imageAlt": "RevLite SI",
-                    "title": "RevLite SI",
+                    "imageUrl": "../assets/Images/banner/about_dept/laser.png",
+                    "imageAlt": "revlite SI",
+                    "title": "Revlite SI",
                     "content": [
                         {
                             "type": "heading",
-                            "text": "RevLite SI at Karisma Specialist Medical Center"
+                            "text": "revlite SI في مركز كاريزما التخصصي الطبي"
                         },
                         {
                             "type": "heading",
-                            "text": "Why Choose RevLite SI?"
+                            "text": "لماذا تختار تيلفير SI?"
                         },
                         {
                             "type": "list",
                             "items": [
-                                "Effective for All Skin Tones: Safely treats a variety of complexions, including darker skin tones.",
-                                "Versatile Results: Targets fine and vellus hair, which can be challenging for traditional lasers.",
-                                "Gentle Reduction: Gradual hair reduction minimizes discomfort while delivering impressive results.",
-                                "Long-Lasting Smoothness: Multiple sessions promote lasting hair-free skin."
+                                "فعال لجميع ألوان البشرة: يعالج بأمان مجموعة متنوعة من أنواع البشرة، بما في ذلك البشرة الداكنة.",
+                                "نتائج متعددة الاستخدامات: يستهدف الشعر الناعم والخفيف، والذي قد يكون صعبًا على الليزر التقليدي.",
+                                "تقليل لطيف: يقلل الشعر تدريجيًا مما يقلل من الانزعاج مع تحقيق نتائج رائعة.",
+                                "نعومة تدوم طويلاً: تعزز الجلسات المتعددة بشرة خالية من الشعر لفترة طويلة."
                             ]
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Painless and No Downtime with RevLite SI​",
-                    "description":"Experience a painless non-invasive treatment for hair bleaching solution with RevLite SI. This non-invasive treatment, enhanced with controlled cooling technology, ensures no damage to surrounding skin, offering a comfortable sensation often compared to a warm stone massage. As a non-surgical procedure, it requires no downtime patients can resume daily activities immediately, with a simple recommendation to avoid sun exposure post-treatment."
-
+                    "title": "إجراء غير مؤلم ولا يحتاج إلى فترة نقاهة مع تيلفير SI",
+                    "description": "اختبر علاجًا غير جراحي وآمنًا لتفتيح الشعر باستخدام تيلفير SI. يتميز هذا العلاج غير الجراحي بتقنية تبريد متحكم بها لضمان عدم إلحاق ضرر بالبشرة المحيطة، مما يضمن إحساسًا مريحًا يُشبه التدليك بالحجر الدافئ. لا يتطلب الإجراء فترة نقاهة، مما يسمح للمرضى باستئناف أنشطتهم اليومية على الفور، مع التوصية بتجنب التعرض للشمس بعد العلاج."
                 },
                 {
                     "type": "content",
-                    "title": "Safe for All Skin Types​",
-                    "description":"RevLite SI is among the safest laser hair bleaching options, supported by extensive research. It’s even effective for suntanned skin, though patients are advised to avoid sunbeds for a few weeks before treatment."
+                    "title": "آمن لجميع أنواع البشرة",
+                    "description": "يُعد تيلفير SI من أكثر الخيارات أمانًا لتفتيح الشعر بالليزر، وهو مدعوم بأبحاث مكثفة. وهو فعال حتى للبشرة المعرضة للشمس، رغم أنه يُوصى بتجنب أجهزة التسمير لعدة أسابيع قبل العلاج."
                 },
                 {
                     "type": "content",
-                    "title": "Expert Care at Karisma Specialist Medical Center​",
-                    "description": "At Karisma Specialist Medical Center, your comfort and satisfaction are our top priorities. Our certified laser technicians ensure a seamless experience, guiding you through each step of your personalized treatment."
+                    "title": "رعاية احترافية في مركز كاريزما التخصصي الطبي",
+                    "description": "في مركز كاريزما التخصصي الطبي، راحتك ورضاك هما أولويتنا. يضمن فنيو الليزر المعتمدون لدينا تجربة سلسة، حيث يوجهونك خلال كل خطوة من خطوات علاجك الشخصي."
                 },
                 {
-                    "type": "content",
-                    "title": "Start Your Journey to Hair-Free Confidence​",
-                    "description": "Schedule a consultation today to explore how RevLite SI can help you achieve smooth, radiant skin. Let our specialists create a custom plan tailored to your needs and goals."
+                    "type": "color-content",
+                    "title": "ابدأ رحلتك نحو الثقة ببشرة خالية من الشعر",
+                    "description": "حدد موعدًا لاستشارة اليوم لاكتشاف كيف يمكن أن يساعدك تيلفير SI في الحصول على بشرة ناعمة ومشرقة. دع خبراءنا يضعون خطة مخصصة تلبي احتياجاتك وأهدافك."
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "elite",
+            "sections": [
+                {
+                    "type": "banner",
+                    "deptName": "إزالة الشعر بالليزر",
+                    "serviceName": "Elite IQ",
+                    "bannerImage": "../assets/Images/banner/dept_banner/laser.png"
+                },
+                {
+                    "type": "image-content",
+                    "imageUrl": "../assets/Images/banner/about_dept/laser.png",
+                    "imageAlt": "Elite IQ",
+                    "title": "Elite IQ",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "text": "جهاز Elite iQ هو منصة تجميلية متعددة الاستخدامات، تعتمد على تقنية الطول الموجي المزدوج، مما يمكن الممارسين من إجراء العديد من العلاجات التجميلية المطلوبة."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "أهمية معرفة مؤشر الميلانين لدى المرضى"
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "أول جهاز في العالم لقراءة الميلانين حاصل على موافقة إدارة الغذاء والدواء الأمريكية (FDA).",
+                                "يعمل على قياس نسبة الميلانين بدقة لتوجيه إعدادات اختبار العلاج بشكل أفضل.",
+                                "يحدد قراءة الميلانين الخاصة بالمريض على مقياس من 0 إلى 99، مما يساعد في اختيار العلاج المناسب لكل نوع بشرة بثقة عالية."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "color-content",
+                    "title": "التقنية",
+                    "features": [
+                        "تقنية Skintel المبتكرة وواجهة مستخدم بديهية.",
+                        "علاج أسرع بفضل الطاقة القصوى الأعلى، مما يسمح بمعالجة عدد أكبر من المرضى.",
+                        "جهاز متعدد الاستخدامات يوفر حلولًا لعلاج البشرة وإزالة الشعر في وقت واحد.",
+                        "تصميم حديث وتجربة مستخدم محسّنة."
+                    ]
+                },
+                {
+                    "type": "color-content",
+                    "title": "الفوائد",
+                    "features": [
+                        "علاجات سريعة لتعظيم العائد على الاستثمار.",
+                        "علاجات آمنة وفعالة.",
+                        "مناسب لجميع أنواع البشرة، بما في ذلك البشرة المعرضة للشمس.",
+                        "سهل الاستخدام."
+                    ]
+                },
+                {
+                    "type": "color-content",
+                    "title": "ما الذي يعالجه؟",
+                    "features": [
+                        "إزالة الشعر.",
+                        "التهاب الجريبات الكاذب (Pseudofolliculitis Barbae).",
+                        "أضرار أشعة الشمس.",
+                        "علاج دوالي الساقين."
+                    ]
                 }
             ]
         }

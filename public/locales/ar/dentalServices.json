@@ -6,120 +6,168 @@
             "sections": [
                 {
                     "type": "banner",
-                    "deptName": "Dental",
-                    "serviceName": "Pediatric",
+                    "deptName": "الأسنان",
+                    "serviceName": "طب أسنان الأطفال",
                     "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
                 },
                 {
                     "type": "image-content",
                     "imageUrl": "../assets/Images/banner/about_dept/dental.png",
-                    "imageAlt": "Pediatric",
-                    "title": "Pediatric",
+                    "imageAlt": "طب أسنان الأطفال",
+                    "title": "طب أسنان الأطفال",
                     "content": [
                         {
                             "type": "heading",
-                            "text": "Pediatric Dentistry in UAE: Nurturing Exceptional Oral Health from the Start"
+                            "text": "طب أسنان الأطفال في الإمارات: رعاية فموية متميزة منذ البداية"
                         },
                         {
                             "type": "paragraph",
-                            "text": "Elevating Young Smiles: Premier Children’s Dentistry at Karisma Specialist Medical Center"
+                            "text": "لأن ابتسامات الأطفال البريئة تستحق الأفضل: طب أسنان الأطفال المتميز في مركز كاريزما الطبي التخصصي"
                         },
                         {
                             "type": "paragraph",
-                            "text": "At Karisma Specialist Medical Center in the UAE, we understand that your child’s smile & oral health is a precious asset that deserves the utmost care and expertise. Our esteemed pediatric dentistry team is dedicated to providing exceptional dental services that promote oral health and instill confidence in your child’s smile for years to come. From routine care to advanced treatments, we offer a comprehensive approach to pediatric dental health."
+                            "text": "في مركز كاريزما الطبي التخصصي في الإمارات، ندرك أن ابتسامة طفلك وصحة فمه هي كنز ثمين يستحق أعلى درجات العناية والخبرة. يلتزم فريق طب أسنان الأطفال لدينا بتقديم خدمات استثنائية تعزز صحة الفم وتمنح طفلك الثقة في ابتسامته لسنوات طويلة. بدءًا من الرعاية الروتينية وحتى العلاجات المتقدمة، نقدم نهجًا متكاملاً لصحة الأسنان عند الأطفال."
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Crafting a Legacy of Dental Excellence for Children",
-                    "description": "Discover our range of advanced pediatric dental treatments, each designed to meet the unique needs of our young heroes and ensure their healthy dental development:",
+                    "title": "رعاية شاملة لصحة أسنان الأطفال",
+                    "description": "استكشف مجموعة علاجاتنا المتقدمة في طب أسنان الأطفال، المصممة خصيصًا لتلبية احتياجات الأطفال وضمان نمو أسنانهم بشكل صحي:",
                     "features": [
-                        "Pulpotomy: A tooth pulp (nerve) treatment for primary teeth. Read More",
-                        "Pediatric Extractions: When a baby tooth is severely decayed, infected, or causing overcrowding, a gentle extraction may be necessary. Read More.",
-                        "Dental Fillings (Composite or Amalgam): Similar to adult fillings, children's fillings address cavities and prevent further decay. Read More",
-                        "Metal Crowns: For severely damaged or fractured baby teeth, metal crowns offer a strong and durable restoration. Read More",
-                        "Prophylactic Fillings (Sealants): A preventive measure applied to the chewing surfaces of healthy permanent molars. Read More",
-                        "Fluoride Treatment: A topical application of concentrated fluoride strengthens tooth enamel and helps prevent cavities. Read More"
+                        "علاج لب الأسنان (البولبوتومي): علاج مخصص لعصب الأسنان اللبنية للحفاظ على وظائفها الطبيعية.",
+                        "خلع الأسنان اللبنية: يتم اللجوء إليه في حال تسوس السن اللبني بشكل حاد، أو إذا كان يسبب ازدحام الأسنان.",
+                        "حشوات الأسنان (مركبة أو معدنية): تعالج التسوس وتحافظ على صحة الأسنان ومنع تفاقم المشكلات.",
+                        "التيجان المعدنية: حل فعال للأسنان اللبنية التالفة، يوفر حماية طويلة الأمد للأسنان.",
+                        "الحشوات الوقائية (السدادات): إجراء وقائي لحماية الأضراس الدائمة من التسوس.",
+                        "علاج الفلورايد: تطبيق موضعي للفلورايد يعمل على تقوية مينا الأسنان ومنع التسوس."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Pulpotomy: Preserving Nature’ss Design for Healthy Smiles",
-                    "description": "Pulpotomy is a sophisticated nerve treatment for primary (baby) teeth. This procedure delicately addresses inflamed pulp tissue while preserving the tooth’s vital root structure. It is an excellent option for maintaining the integrity of your child’s natural tooth shape.",
-                    "heading": "Benefits of Pulpotomy:",
+                    "title": "علاج لب الأسنان: الحفاظ على البنية الطبيعية للأسنان",
+                    "description": "يعد علاج لب الأسنان (البولبوتومي) علاجًا متقدمًا للأسنان اللبنية الملتهبة، حيث يعالج اللب المصاب مع الحفاظ على بنية السن الأساسية.",
+                    "heading2": "فوائد علاج لب الأسنان:",
                     "features": [
-                        "Maintains the integrity of natural tooth structure",
-                        "Facilitates normal tooth function until the tooth naturally falls out",
-                        "Personalized Perfection: Ensures optimal spacing for permanent tooth emergence"
+                        "يحافظ على بنية السن الطبيعية.",
+                        "يساعد في استمرار وظيفة السن حتى سقوطه الطبيعي.",
+                        "يضمن المسافة المثلى لنمو الأسنان الدائمة."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Precision Pediatric Extractions: When Necessity Calls",
-                    "description": "Sometimes, a primary tooth may pose a threat to overall oral health. In such cases, our skilled pediatric dentists perform gentle tooth extractions to maintain your child’s oral health and ensure proper growth of permanent teeth. We use the latest techniques to minimize discomfort and promote healing.",
-                    "heading": "Advantages of Pediatric Extractions:",
+                    "title": "خلع الأسنان اللبنية عند الضرورة",
+                    "description": "في بعض الحالات، قد يشكل السن اللبني خطرًا على صحة الفم العامة. يقوم أطباء الأسنان لدينا بخلع الأسنان اللبنية بلطف لضمان نمو الأسنان الدائمة بشكل صحيح.",
+                    "heading2": "مزايا خلع الأسنان اللبنية:",
                     "features": [
-                        "Eliminates potential sources of infection or discomfort",
-                        "Optimizes dental alignment for future growth",
-                        "Sets the stage for the healthy emergence of permanent teeth"
+                        "يمنع حدوث التهابات أو آلام مستقبلية.",
+                        "يحسن محاذاة الأسنان لنمو صحي.",
+                        "يهيئ الفك لبروز الأسنان الدائمة بشكل مثالي."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Dental Fillings for Children: Exploring Composite and Amalgam Solutions",
-                    "description": "Fillings are essential for treating cavities and preventing further decay in children's teeth. We offer both composite fillings (tooth-colored) and amalgam fillings (durable, ideal for back teeth). These solutions ensure your child’s smile remains beautiful and aesthetically pleasing while maintaining long-term oral health.",
-                    "heading": "Key Benefits of Fillings:",
+                    "title": "حشوات الأسنان للأطفال: حلول المركب والمعدن",
+                    "description": "تعتبر الحشوات ضرورية لعلاج تسوس الأسنان عند الأطفال. نحن نوفر حشوات تجميلية مركبة بلون الأسنان، وحشوات معدنية متينة للأسنان الخلفية.",
+                    "heading2": "فوائد الحشوات:",
                     "features": [
-                        "Halts the progression of decay and eliminates pain",
-                        "Restores tooth functionality and appearance",
-                        "Promotes long-term oral health and cavity prevention"
+                        "إيقاف تسوس الأسنان ومنع الألم.",
+                        "استعادة وظيفة ومظهر الأسنان.",
+                        "تعزيز صحة الفم على المدى الطويل."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Customized Metal Crowns: Uncompromising Protection for Primary Teeth",
-                    "description": "When primary teeth require extensive restoration, we use custom metal crowns for your kids to provide superior durability and protection. These crowns are designed to fit comfortably, maintain proper spacing, and support your child’s developing teeth.",
-                    "heading": "Advantages of Metal Crowns:",
+                    "title": "التيجان المعدنية: الحماية المثالية للأسنان اللبنية",
+                    "description": "توفر التيجان المعدنية حلاً طويل الأمد للأسنان اللبنية التالفة، حيث تضمن حماية فائقة ودعمًا لنمو الأسنان بشكل سليم.",
+                    "heading2": "مزايا التيجان المعدنية:",
                     "features": [
-                        "Provides robust protection for compromised teeth",
-                        "Maintains proper dental spacing and bite alignment",
-                        "Eliminates the need for premature extractions"
+                        "توفر حماية قوية للأسنان المتضررة.",
+                        "تحافظ على التوازن الطبيعي بين الأسنان.",
+                        "تمنع الحاجة إلى خلع الأسنان المبكر."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Prophylactic Fillings (Sealants): Proactive Cavity Prevention",
-                    "description": "Our preventive dental care includes the application of sealants to safeguard vulnerable permanent molars. This advanced procedure creates a protective barrier against bacteria and food particles that cause cavities, helping to prevent dental decay from the start.",
-                    "heading": "Benefits of Dental Sealants:",
+                    "title": "الحشوات الوقائية (السدادات): حماية استباقية من التسوس",
+                    "description": "تساعد الحشوات الوقائية في حماية الأضراس الدائمة من التسوس من خلال تكوين حاجز يحميها من البكتيريا وبقايا الطعام.",
+                    "heading2": "فوائد السدادات الوقائية:",
                     "features": [
-                        "Significantly reduces cavity risk in permanent teeth",
-                        "Especially effective for teeth with deep grooves or fissures",
-                        "Supports a proactive approach to dental health"
+                        "تقلل بشكل كبير من خطر تسوس الأسنان.",
+                        "مثالية للأسنان ذات الأخاديد العميقة.",
+                        "تحمي صحة الأسنان على المدى الطويل."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Professional Fluoride Treatments: Fortifying Developing Smiles",
-                    "description": "Fluoride treatments are one of the most effective ways to strengthen developing teeth. By delivering a concentrated dose of fluoride directly to your child’s enamel, we provide superior protection against tooth decay and help support healthy tooth development.",
-                    "heading": "Advantages of Fluoride Treatments:",
+                    "title": "علاج الفلورايد: تقوية الأسنان وحمايتها من التسوس",
+                    "description": "يعد العلاج بالفلورايد من أكثر الطرق فعالية لحماية الأسنان النامية، حيث يعمل على تقوية المينا وتقليل خطر التسوس.",
+                    "heading2": "فوائد علاج الفلورايد:",
                     "features": [
-                        "Strengthens tooth enamel on a molecular level",
-                        "Reduces cavity susceptibility",
-                        "Supports the healthy development of teeth"
+                        "يقوي مينا الأسنان ويمنع التآكل.",
+                        "يقلل من خطر الإصابة بالتسوس.",
+                        "يدعم صحة الأسنان أثناء النمو."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Advanced Pediatric Care Meets Comfort at Karisma Specialist Medical Center",
-                    "description": "At Karisma Specialist Medical Center, we combine cutting-edge dental technology with a child-friendly, comforting environment. Our expert pediatric dentists utilize the latest techniques to ensure that every visit is a positive experience for your child. We make dental care fun, effective, and stress-free for your little one.",
+                    "title": "رعاية متقدمة لأسنان الأطفال في مركز كاريزما التخصصي",
+                    "description": "في مركز كاريزما الطبي التخصصي، نجمع بين أحدث تقنيات طب الأسنان وبيئة مريحة للأطفال، لضمان تجربة ممتعة ومريحة في كل زيارة.",
                     "features": []
                 },
                 {
                     "type": "center-content",
-                    "title": "Start Your Child’s Journey to Exceptional Oral Health",
-                    "description": "Give your child the foundation for a lifetime of healthy, confident smiles. Contact Karisma Specialist Medical Center today to schedule a consultation with our expert pediatric dentists. Let us guide your child towards excellent oral health and a beautiful smile for years to come.",
+                    "title": "ابدأ رحلة طفلك نحو صحة فموية مثالية",
+                    "description": "امنح طفلك ابتسامة صحية وواثقة مدى الحياة. احجز موعدك الآن في مركز كاريزما التخصصي لطب أسنان الأطفال.",
                     "features": []
+                },
+                {
+                    "type": "content",
+                    "title": "أطباؤنا المتخصصون",
+                    "description": "تعرف على فريقنا المتميز من الأطباء المتخصصين، الذين يكرسون جهودهم لتقديم أفضل العلاجات وتحقيق ابتسامات صحية للأطفال."
+                },
+                {
+                    "type": "slider-doctors",
+                    "title": "تعرف على أطبائنا",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 1,
+                            "name": "د. هشام نافع",
+                            "designation": "أخصائي زراعة الأسنان",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": "dr-hesham-nafei"
+                        },
+                        {
+                            "id": 2,
+                            "name": "د. عادل الأسود",
+                            "designation": "أخصائي جراحة الفم",
+                            "image": "/assets/Images/doctors/Adel.png",
+                            "link": "dr-adel-al-aswad"
+                        },
+                        {
+                            "id": 3,
+                            "name": "د. رانيا غانم",
+                            "designation": "أخصائية تعويضات سنية",
+                            "image": "/assets/Images/doctors/Rania.png",
+                            "link": "dr-rania-ghanem"
+                        },
+                        {
+                            "id": 4,
+                            "name": "د. أمير مجدي",
+                            "designation": "طبيب أسنان عام",
+                            "image": "/assets/Images/doctors/Amir.png",
+                            "link": "dr-amir-magdy"
+                        }
+                    ]
                 }
             ]
         },
@@ -129,143 +177,191 @@
             "sections": [
                 {
                     "type": "banner",
-                    "deptName": "Dental",
-                    "serviceName": "Dental Surgery",
+                    "deptName": "الأسنان",
+                    "serviceName": "جراحة الأسنان",
                     "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
                 },
                 {
                     "type": "image-content",
                     "imageUrl": "../assets/Images/banner/about_dept/dental.png",
-                    "imageAlt": "Dental Surgery",
-                    "title": "Dental Surgery",
+                    "imageAlt": "جراحة الأسنان",
+                    "title": "جراحة الأسنان",
                     "content": [
                         {
                             "type": "heading",
-                            "text": "Raising Dental Excellence in The UAE to New Heights: With Karisma Specialist Medical Center Oral Surgery Department"
+                            "text": "الارتقاء بمعايير جراحة الفم والأسنان في الإمارات: مع مركز كاريزما الطبي التخصصي"
                         },
                         {
                             "type": "paragraph",
-                            "text": "Sculpting Perfection: Advanced Surgical Interventions for Exceptional Smiles"
+                            "text": "إتقان فن الابتسامة: تدخلات جراحية متقدمة للحصول على ابتسامة مثالية"
                         },
                         {
                             "type": "paragraph",
-                            "text": "At Karisma Specialist Medical Center in the UAE, we believe oral health goes beyond routine care. Our highly skilled oral surgeons offer a comprehensive range of sophisticated surgical procedures designed to address the smallest issues to the most complex dental concerns while preserving the aesthetics and functionality of your smile. Whether you require a routine extraction or intricate surgical intervention, our focus remains on providing exceptional care and achieving optimal results tailored to your needs."
+                            "text": "في مركز كاريزما الطبي التخصصي في الإمارات، نؤمن بأن صحة الفم تمتد إلى ما هو أبعد من الرعاية الروتينية. يقدم جراحو الفم لدينا مجموعة شاملة من الإجراءات الجراحية المتطورة المصممة لمعالجة المشكلات البسيطة والمعقدة مع الحفاظ على جمالية ووظائف ابتسامتك. سواء كنت بحاجة إلى خلع بسيط أو تدخل جراحي معقد، نضمن لك رعاية استثنائية لتحقيق أفضل النتائج وفقًا لاحتياجاتك."
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Mastering Complexity with Surgical Expertise",
-                    "heading": "Explore Our Advanced Oral Surgical Solutions",
-                    "description": "We provide a carefully curated selection of cutting-edge oral surgical treatments tailored to meet the unique needs and high standards of our patients in the UAE.",
+                    "title": "إتقان التعقيد بخبرة جراحية",
+                    "heading": "اكتشف حلولنا الجراحية المتقدمة في جراحة الفم",
+                    "description": "نحن نقدم مجموعة متكاملة من العلاجات الجراحية المصممة لتلبية احتياجات مرضانا الفريدة وتحقيق أعلى المعايير الطبية في الإمارات.",
                     "features": [
-                        "Precision Tooth Extraction: Simple and Surgical Solutions. Read More",
-                        "Wisdom Teeth Extraction: Expertly Managed for Your Comfort. Read More",
-                        "Apicectomy: Preserving Natural Teeth with Surgical Precision. Read More",
-                        "Gingivectomy: Achieving Perfect Gum Aesthetics. Read More",
-                        "Incision and Drainage: Immediate Relief for Dental Abscesses. Read More"
+                        "قلع الأسنان بدقة: حلول بسيطة وجراحية.",
+                        "قلع ضرس العقل: إزالة احترافية لراحتك.",
+                        "استئصال قمة الجذر: الحفاظ على الأسنان الطبيعية بدقة جراحية.",
+                        "جراحة اللثة: تحقيق جمالية اللثة المثالية.",
+                        "شق وتصريف الخراجات: تخفيف فوري لألم والتهابات الأسنان."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "1. Precision Tooth Extraction: Simple and Surgical Solutions",
-                    "heading": "Simple Extraction",
-                    "description": "For teeth that are easily accessible with minimal root involvement, we use refined techniques combined with advanced local anesthesia to ensure a pain-free and efficient procedure."
+                    "title": "1. قلع الأسنان بدقة: حلول جراحية بسيطة",
+                    "heading": "القلع البسيط",
+                    "description": "بالنسبة للأسنان التي يمكن الوصول إليها بسهولة، نستخدم تقنيات دقيقة إلى جانب التخدير الموضعي المتقدم لضمان تجربة مريحة وخالية من الألم."
                 },
                 {
                     "type": "content",
-                    "heading": "Surgical Extraction",
-                    "description": "For cases involving impacted teeth, fractured dental structures, or intricate root systems, our oral surgeons employ minimally invasive surgical techniques. This involves precise incisions in the gum tissue for careful and complete removal."
+                    "heading": "القلع الجراحي",
+                    "description": "في الحالات التي تتطلب إزالة أسنان منطمرة أو جذور معقدة، يقوم جراحو الفم لدينا بإجراء شقوق دقيقة في أنسجة اللثة لإتمام عملية الإزالة بدقة وراحة."
                 },
                 {
                     "type": "content",
-                    "heading": "Key Benefits:",
+                    "heading": "الفوائد الرئيسية:",
                     "features": [
-                        "Removes compromised dental structures efficiently",
-                        "Prepares space for orthodontic treatment or dental implants",
-                        "Alleviates discomfort while preventing further complications"
+                        "إزالة الأسنان المتضررة بكفاءة.",
+                        "تحضير المساحة للعلاج التقويمي أو زراعة الأسنان.",
+                        "تخفيف الألم ومنع حدوث مضاعفات مستقبلية."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "2. Wisdom Teeth Extraction: Expertly Managed for Your Comfort",
-                    "heading": "Simple Wisdom Tooth Extraction",
-                    "description": "Fully erupted wisdom teeth with minimal complexity are removed using a streamlined, comfortable process."
+                    "title": "2. قلع ضرس العقل: إزالة احترافية لراحتك",
+                    "heading": "قلع ضرس العقل البسيط",
+                    "description": "يتم إزالة ضروس العقل البارزة بالكامل بتقنيات مريحة وسلسة دون أي تعقيد."
                 },
                 {
                     "type": "content",
-                    "heading": "Surgical Wisdom Tooth Extraction",
-                    "description": "For impacted or partially erupted wisdom teeth, we use advanced surgical techniques. This includes a skillfully crafted incision in the gum and bone to facilitate seamless removal."
+                    "heading": "قلع ضرس العقل الجراحي",
+                    "description": "بالنسبة للأضراس المطمورة أو غير المكتملة البروز، نقوم باستخدام تقنيات جراحية متطورة تشمل شقًا دقيقًا في اللثة والعظم لتسهيل إزالة السن."
                 },
                 {
                     "type": "content",
-                    "heading": "Advantages:",
+                    "heading": "المزايا:",
                     "features": [
-                        "Prevents complications such as infection and overcrowding",
-                        "Reduces discomfort and inflammation",
-                        "Protects the surrounding teeth and oral structures"
+                        "منع المضاعفات مثل الالتهابات وتزاحم الأسنان.",
+                        "تقليل الألم والالتهاب بعد العملية.",
+                        "حماية الأسنان والأنسجة المحيطة."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "3. Apicectomy: Preserving Natural Teeth with Surgical Precision",
-                    "description": "An apicectomy is an advanced procedure designed to save teeth with persistent root-tip infections. This involves the removal of the infected apex and surrounding tissue, followed by sealing the root with premium materials to ensure long-term health and stability."
+                    "title": "3. استئصال قمة الجذر: الحفاظ على الأسنان الطبيعية بدقة جراحية",
+                    "description": "يعد استئصال قمة الجذر إجراءً جراحيًا متقدمًا يُستخدم لعلاج التهابات الجذر المزمنة عن طريق إزالة الأنسجة المصابة وإغلاق الجذر بمواد متطورة لضمان استقرار السن على المدى الطويل."
                 },
                 {
                     "type": "content",
-                    "heading": "Key Benefits:",
+                    "heading": "الفوائد الرئيسية:",
                     "features": [
-                        "Preserves your natural tooth structure",
-                        "Eliminates chronic infection with precision",
-                        "Maintains the integrity and balance of your dental arch"
+                        "الحفاظ على بنية الأسنان الطبيعية.",
+                        "القضاء على الالتهابات المستمرة بدقة عالية.",
+                        "المحافظة على توازن الأسنان وهيكل الفك."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "4. Gingivectomy: Achieving Perfect Gum Aesthetics",
-                    "description": "A gingivectomy is ideal for improving smile aesthetics by removing excess gum tissue. This procedure reveals more tooth surfaces and creates a balanced, symmetrical gum line for a confident and beautiful smile."
+                    "title": "4. جراحة اللثة: تحسين جمالية الابتسامة",
+                    "description": "يهدف هذا الإجراء إلى تحسين مظهر الابتسامة عن طريق إزالة الأنسجة الزائدة في اللثة، مما يساعد في الحصول على ابتسامة أكثر تناسقًا وجمالًا."
                 },
                 {
                     "type": "content",
-                    "heading": "Advantages:",
+                    "heading": "المزايا:",
                     "features": [
-                        "Enhances the aesthetics of your smile through precise gum contouring",
-                        "Improves oral hygiene by increasing accessibility for cleaning",
-                        "Creates a harmonious and symmetrical smile"
+                        "تحسين مظهر الابتسامة من خلال تشكيل دقيق للثة.",
+                        "تعزيز نظافة الفم عبر تسهيل الوصول إلى مناطق التنظيف.",
+                        "تحقيق تناسق مثالي للابتسامة."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "5. Incision and Drainage: Immediate Relief for Dental Abscesses",
-                    "description": "When dental abscesses occur, our experts use incision and drainage techniques to provide swift relief. A precise incision is made to allow drainage of the abscess, followed by thorough cleaning and disinfection to prevent further complications."
+                    "title": "5. شق وتصريف الخراجات: علاج فوري لالتهابات الأسنان",
+                    "description": "عند حدوث خراجات الأسنان، نقوم بعمل شق دقيق لتصريف الالتهاب، يتبعه تنظيف وتطهير شامل لمنع المضاعفات."
                 },
                 {
                     "type": "content",
-                    "heading": "Benefits:",
+                    "heading": "الفوائد:",
                     "features": [
-                        "Offers immediate relief from pain and swelling",
-                        "Effectively eradicates the infection source",
-                        "Prevents complications through early intervention"
+                        "توفير راحة فورية من الألم والتورم.",
+                        "القضاء على مصدر الالتهاب.",
+                        "منع حدوث مضاعفات خطيرة من خلال التدخل المبكر."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Why Choose Karisma Specialist Medical Center in the UAE?",
-                    "description": "At Karisma Specialist Medical Center, we combine advanced technology with compassionate care to redefine excellence in oral surgery. Our commitment to your well-being ensures that each procedure is performed with precision and tailored to your unique needs.",
-                    "heading": "What Sets Us Apart At Karisma Specialist Medical Center?",
+                    "title": "لماذا تختار مركز كاريزما الطبي التخصصي في الإمارات؟",
+                    "description": "نحن نقدم أحدث تقنيات الجراحة الفموية في بيئة طبية متكاملة، حيث يتم تنفيذ جميع الإجراءات بدقة وفقًا لاحتياجات المريض.",
+                    "heading2": "ما الذي يميزنا في مركز كاريزما الطبي التخصصي؟",
                     "features": [
-                        "State-of-the-Art Techniques: Leveraging advanced surgical methods and technology to achieve superior results.",
-                        "Skilled Oral Surgeons: Our experienced specialists with a combined experience of 50 years are committed to ensuring safety, precision, and comfort.",
-                        "Patient-Centric Approach: From consultation to recovery, we prioritize your comfort and satisfaction.",
-                        "Comfort-Driven Care: Our calming environment and compassionate team make every visit stress-free and our experienced surgeons will also ensure it is a pain-free visit as well."
+                        "تقنيات حديثة ومتطورة لتحقيق أفضل النتائج.",
+                        "فريق من جراحي الفم ذوي الخبرة، بخبرة إجمالية تتجاوز 50 عامًا.",
+                        "نهج يركز على راحة المريض ورضاه من الاستشارة إلى الشفاء.",
+                        "بيئة مريحة وداعمة لضمان تجربة خالية من التوتر."
                     ]
                 },
                 {
                     "type": "color-content",
-                    "title": "Start Your Journey to Exceptional Oral Health",
+                    "title": "ابدأ رحلتك نحو صحة فم استثنائية",
                     "features": [
-                        "Transform your smile and improve your oral health with our expert oral surgical treatments at Karisma Specialist Medical Center in the UAE.",
-                        "Contact Karisma Specialist Medical Center today to schedule a consultation with our experts in oral surgery. Let us guide you toward a healthier, more confident smile."
+                        "تحسين صحة الفم والابتسامة من خلال علاجاتنا الجراحية المتخصصة.",
+                        "اتصل بنا اليوم لحجز استشارة مع خبرائنا في جراحة الفم بمركز كاريزما الطبي التخصصي."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "أطباؤنا المتخصصون",
+                    "description": "تعرف على فريقنا الطبي المتميز المتخصص في تحقيق ابتسامات صحية وجميلة."
+                },
+                {
+                    "type": "slider-doctors",
+                    "title": "تعرف على أطبائنا",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 1,
+                            "name": "د. هشام نافع",
+                            "designation": "أخصائي زراعة الأسنان",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": "dr-hesham-nafei"
+                        },
+                        {
+                            "id": 2,
+                            "name": "د. عادل الأسود",
+                            "designation": "أخصائي جراحة الفم",
+                            "image": "/assets/Images/doctors/Adel.png",
+                            "link": "dr-adel-al-aswad"
+                        },
+                        {
+                            "id": 3,
+                            "name": "د. رانيا غانم",
+                            "designation": "أخصائية تعويضات سنية",
+                            "image": "/assets/Images/doctors/Rania.png",
+                            "link": "dr-rania-ghanem"
+                        },
+                        {
+                            "id": 4,
+                            "name": "د. أمير مجدي",
+                            "designation": "طبيب أسنان عام",
+                            "image": "/assets/Images/doctors/Amir.png",
+                            "link": "dr-amir-magdy"
+                        }
                     ]
                 }
             ]
@@ -276,80 +372,127 @@
             "sections": [
                 {
                     "type": "banner",
-                    "deptName": "Dental",
-                    "serviceName": "Implants",
+                    "deptName": "الأسنان",
+                    "serviceName": "زراعة الأسنان",
                     "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
                 },
                 {
                     "type": "image-content",
                     "imageUrl": "../assets/Images/banner/about_dept/dental.png",
-                    "imageAlt": "Implants",
-                    "title": "Implants",
+                    "imageAlt": "زراعة الأسنان",
+                    "title": "زراعة الأسنان",
                     "content": [
                         {
                             "type": "heading",
-                            "text": "Dental Implants: Your Path to a Complete, Confident Smile"
+                            "text": "زراعة الأسنان: طريقك نحو ابتسامة كاملة واثقة"
                         },
                         {
                             "type": "paragraph",
-                            "text": "Are you struggling with missing teeth or damaged teeth? Discover the transformative power of dental implants at Karisma Specialist Medical Center. Our state-of-the-art implant solutions provide a permanent, life-enhancing alternative to traditional dentures or dental bridges, revolutionizing your oral health and improving your overall quality of life."
+                            "text": "هل تعاني من فقدان الأسنان أو تلفها؟ اكتشف الحلول الحديثة لزراعة الأسنان في مركز كاريزما الطبي التخصصي. توفر تقنياتنا المتطورة بديلاً دائماً وفعالاً لأطقم الأسنان التقليدية أو الجسور السنية، مما يحسن صحتك الفموية ونوعية حياتك بشكل عام."
                         },
                         {
                             "type": "heading",
-                            "text": "What Are Dental Implants?"
+                            "text": "ما هي زراعة الأسنان؟"
                         },
                         {
                             "type": "paragraph",
-                            "text": "Dental implants are innovative, biocompatible titanium posts that our expert dentists surgically places into your jawbone. Acting as artificial tooth roots, these implants create a solid foundation for secure, natural-looking tooth replacements. Once the implants are set, we attach custom-made crowns, bridges, or dentures for a complete restoration of your smile's appearance and functionality."
+                            "text": "زراعة الأسنان عبارة عن دعامات تيتانيوم متطورة يتم زرعها جراحياً في عظم الفك بواسطة أطبائنا الخبراء. تعمل هذه الزرعات كجذور أسنان صناعية قوية لدعم التيجان أو الجسور أو أطقم الأسنان المخصصة، مما يضمن استعادة كاملة لوظيفة الأسنان الطبيعية ومظهرها الجمالي."
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Key Benefits of Dental Implants",
+                    "title": "الفوائد الرئيسية لزراعة الأسنان",
                     "features": [
-                        "Enhanced Functionality: Regain the ability to eat, speak, and smile confidently, just like with natural teeth.",
-                        "Improved Aesthetics: Achieve a natural, radiant smile that enhances your self-esteem and leaves a lasting impression., more vibrant look.",
-                        "Unmatched Durability: Dental implants can last a lifetime with proper care, making them a long-term investment.",
-                        "Jawbone Preservation: Stimulate your jawbone to prevent bone loss, a common issue with missing teeth.",
-                        "Better Oral Health: Protect your remaining teeth by maintaining alignment and preventing neighboring teeth from shifting."
+                        "وظيفة محسنة: استعد قدرتك على الأكل والتحدث والابتسام بثقة، كما لو كانت لديك أسنان طبيعية.",
+                        "جمالية محسنة: احصل على ابتسامة طبيعية مشرقة تعزز من ثقتك بنفسك وتترك انطباعًا دائمًا.",
+                        "متانة فائقة: تدوم زراعة الأسنان مدى الحياة مع العناية المناسبة، مما يجعلها استثمارًا طويل الأمد.",
+                        "الحفاظ على عظم الفك: تساعد الزرعات في تحفيز عظم الفك لمنع فقدانه، وهي مشكلة شائعة عند فقدان الأسنان.",
+                        "صحة فموية محسنة: تحافظ على محاذاة الأسنان وتمنع تحرك الأسنان المجاورة، مما يقلل من مخاطر المشكلات الفموية الأخرى."
                     ]
                 },
                 {
                     "type": "content",
-                    "description": "By choosing dental implants, you’re investing in a solution that not only restores your smile but also protects your long-term oral health."
+                    "description": "عند اختيار زراعة الأسنان، فإنك تستثمر في حل يحسن ابتسامتك ويحافظ على صحتك الفموية على المدى الطويل."
                 },
                 {
                     "type": "center-content",
-                    "title": "Why Choose Karisma Specialist Medical Center for Dental Implants?",
-                    "description": "At Karisma Specialist Medical Center, we offer a comprehensive approach to dental implant treatments, catering to individuals with a wide range of needs. Our team of implant specialists provides tailored solutions to help you achieve your dream smile."
+                    "title": "لماذا تختار مركز كاريزما الطبي التخصصي لزراعة الأسنان؟",
+                    "description": "في مركز كاريزما الطبي التخصصي، نقدم حلول زراعة الأسنان الشاملة والمخصصة لتلبية احتياجات المرضى المتنوعة، مع فريق من الخبراء الذين يساعدونك في تحقيق ابتسامة مثالية."
                 },
                 {
                     "type": "content",
-                    "heading": "Who Can Get Dental Implants?",
+                    "heading": "من يمكنه الحصول على زراعة الأسنان؟",
                     "features": [
-                        "Most adults with missing teeth are excellent candidates for dental implants. While the minimum age for implant placement is typically 18 (when jawbone development is complete), our experienced team will evaluate your specific needs during your consultation to ensure you’re a suitable candidate.",
-                        "Take the first step toward a confident smile today. Contact Karisma Specialist Medical Center to schedule your personalized dental implant consultation and begin your journey to a better quality of life."
+                        "معظم البالغين الذين يعانون من فقدان الأسنان هم مرشحون ممتازون لزراعة الأسنان. يُفضل أن يكون عمر المريض 18 عامًا على الأقل حتى يكتمل نمو عظم الفك، وسيقوم فريقنا المتخصص بتقييم حالتك خلال الاستشارة للتأكد من أهليتك.",
+                        "ابدأ رحلتك نحو الابتسامة المثالية اليوم. تواصل مع مركز كاريزما الطبي التخصصي لحجز استشارتك الشخصية حول زراعة الأسنان واستعد لجودة حياة أفضل."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "The Karisma Advantage: German and Swiss Dental Implants",
-                    "description": "At Karisma Specialist Medical Center, we offer premium implant systems to deliver the best outcomes for our patients:",
+                    "title": "تميز كاريزما: زرعات الأسنان الألمانية والسويسرية",
+                    "description": "في مركز كاريزما الطبي التخصصي، نقدم أحدث أنظمة الزرعات لضمان تحقيق أفضل النتائج لمرضانا:",
                     "features": [
-                        "German Dental Implants: Our German dental implants prioritize comfort, reducing discomfort during procedures while achieving remarkable success rates.",
-                        "Swiss Dental Implants: Renowned for innovation, our Swiss dental implants are known for their durability, rapid bone integration, and excellent gum healing. These implants are an ideal choice for patients seeking cutting-edge dental solutions."
+                        "زرعات الأسنان الألمانية: مصممة للراحة وتقليل الألم أثناء الإجراء، مع تحقيق معدلات نجاح عالية.",
+                        "زرعات الأسنان السويسرية: معروفة بابتكاراتها الرائدة، تتميز بالمتانة وسرعة الاندماج العظمي والتئام اللثة الممتاز، مما يجعلها خيارًا مثالياً لمن يبحثون عن حلول متطورة."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Experience the Karisma Difference",
-                    "description": "Choose Karisma Specialist Medical Center for your dental implant needs and experience unparalleled care and advanced technology. Whether you're replacing one tooth or an entire set, our skilled team is here to help you achieve a smile that's beautiful, functional, and built to last."
+                    "title": "جرّب الفرق مع كاريزما",
+                    "description": "اختر مركز كاريزما الطبي التخصصي لزراعة الأسنان وتمتع بأفضل رعاية باستخدام أحدث التقنيات. سواء كنت بحاجة إلى استبدال سن واحد أو مجموعة كاملة، فإن فريقنا الماهر جاهز لمساعدتك في تحقيق ابتسامة تدوم طويلاً بجمالها ووظيفتها."
                 },
                 {
                     "type": "color-content",
-                    "title": "Call to Action",
-                    "description": "Ready to restore your smile with dental implants? Call Karisma Specialist Medical Center today to schedule your consultation. Let us help you achieve the confident, healthy smile you deserve!"
+                    "description": "هل أنت مستعد لاستعادة ابتسامتك مع زراعة الأسنان؟ اتصل بمركز كاريزما الطبي التخصصي اليوم لحجز استشارتك. دعنا نساعدك في تحقيق الابتسامة الصحية والواثقة التي تستحقها!"
+                },
+                {
+                    "type": "content",
+                    "title": "أطباؤنا المتخصصون",
+                    "description": "تعرف على فريقنا المتميز من الخبراء، المكرسين لمنحك ابتسامة صحية ومثالية."
+                },
+                {
+                    "type": "slider-doctors",
+                    "title": "تعرف على أطبائنا",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 1,
+                            "name": "د. هشام نافع",
+                            "designation": "أخصائي زراعة الأسنان",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": "dr-hesham-nafei"
+                        },
+                        {
+                            "id": 2,
+                            "name": "د. عادل الأسود",
+                            "designation": "أخصائي جراحة الفم",
+                            "image": "/assets/Images/doctors/Adel.png",
+                            "link": "dr-adel-al-aswad"
+                        },
+                        {
+                            "id": 3,
+                            "name": "د. رانيا غانم",
+                            "designation": "أخصائية التعويضات السنية",
+                            "image": "/assets/Images/doctors/Rania.png",
+                            "link": "dr-rania-ghanem"
+                        },
+                        {
+                            "id": 4,
+                            "name": "د. أمير مجدي",
+                            "designation": "طبيب أسنان عام",
+                            "image": "/assets/Images/doctors/Amir.png",
+                            "link": "dr-amir-magdy"
+                        }
+                    ]
                 }
             ]
         },
@@ -359,91 +502,139 @@
             "sections": [
                 {
                     "type": "banner",
-                    "deptName": "Dental",
-                    "serviceName": "Orthodontics",
+                    "deptName": "الأسنان",
+                    "serviceName": "تقويم الأسنان",
                     "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
                 },
                 {
                     "type": "image-content",
                     "imageUrl": "../assets/Images/banner/about_dept/dental.png",
-                    "imageAlt": "Orthodontics",
-                    "title": "Orthodontics",
+                    "imageAlt": "تقويم الأسنان",
+                    "title": "تقويم الأسنان",
                     "content": [
                         {
                             "type": "heading",
-                            "text": "Orthodontics: Enhance Your Smile and Oral Wellness"
+                            "text": "تقويم الأسنان: تحسين ابتسامتك وصحة فمك"
                         },
                         {
                             "type": "paragraph",
-                            "text": "Discover the art of achieving a perfectly aligned smile at Karisma Specialist Medical Center, where our elite orthodontic treatments are tailored to meet your unique needs. Designed to enhance both your confidence and overall oral health, our services are delivered by expert orthodontists committed to providing the highest standard of care. Let us redefine your journey to dental excellence."
+                            "text": "اكتشف فن الحصول على ابتسامة متناسقة في مركز كاريزما الطبي التخصصي، حيث نقدم علاجات تقويم الأسنان المتقدمة المصممة خصيصًا لتلبية احتياجاتك. تهدف خدماتنا إلى تعزيز ثقتك بنفسك وتحسين صحتك الفموية، بإشراف نخبة من أطباء تقويم الأسنان الخبراء الملتزمين بتقديم أعلى مستويات الرعاية. دعنا نأخذك في رحلة نحو التميز في العناية بالأسنان."
                         },
                         {
                             "type": "heading",
-                            "text": "What Are the Orthodontic Treatments?"
+                            "text": "ما هي علاجات تقويم الأسنان؟"
                         },
                         {
                             "type": "paragraph",
-                            "text": "Orthodontics is a specialized branch of dentistry dedicated to diagnosing, preventing, and treating dental misalignments and jaw irregularities. At Karisma Specialist Medical Center, our skilled orthodontists create customized treatment plans to address various concerns, including:"
+                            "text": "تقويم الأسنان هو تخصص طبي يُعنى بتشخيص وتصحيح مشاكل محاذاة الأسنان والفكين. في مركز كاريزما الطبي التخصصي، يقوم أطباؤنا المتخصصون بوضع خطط علاجية مخصصة لمعالجة مختلف المشكلات، مثل:"
                         },
                         {
                             "type": "list",
                             "items": [
-                                "Crowding: Correcting overlapping teeth for better aesthetics and improved oral hygiene.",
-                                "Spacing: Closing gaps between teeth to enhance speech and facial harmony.",
-                                "Overbite: Aligning upper front teeth for a more balanced and attractive smile.",
-                                "Underbite: Adjusting lower teeth that extend beyond upper teeth for proper alignment.",
-                                "Crossbite: Ensuring correct positioning of upper and lower teeth for optimal functionality."
+                                "التزاحم: تصحيح الأسنان المتداخلة لتحسين المظهر الجمالي والصحة الفموية.",
+                                "التباعد: إغلاق الفجوات بين الأسنان لتعزيز تناسق الوجه وتحسين النطق.",
+                                "العضة العلوية: إعادة تنظيم الأسنان الأمامية العلوية للحصول على ابتسامة أكثر توازناً.",
+                                "العضة السفلية: تصحيح الأسنان السفلية التي تتجاوز الأسنان العلوية لتحقيق محاذاة مثالية.",
+                                "العضة المتصالبة: ضمان وضع الأسنان العلوية والسفلية بشكل صحيح لتعزيز الوظائف الفموية."
                             ]
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "The Benefits of Orthodontic Treatment",
-                    "description": "Choosing orthodontic care at Karisma Specialist Medical Center comes with a wide array of benefits:",
+                    "title": "فوائد علاج تقويم الأسنان",
+                    "description": "اختيارك لعلاج تقويم الأسنان في مركز كاريزما الطبي التخصصي يمنحك العديد من الفوائد الصحية والجمالية:",
                     "features": [
-                        "Improved Oral Health: Aligned teeth reduce the risk of tooth decay and gum disease.",
-                        "Enhanced Speech: Proper alignment significantly improves speech clarity.",
-                        "Increased Confidence: A beautiful smile boosts self-esteem in personal and professional interactions.",
-                        "Better Chewing Function: Well-aligned teeth enhance chewing efficiency and digestion."
+                        "تحسين صحة الفم: يقلل ترتيب الأسنان الصحيح من خطر التسوس وأمراض اللثة.",
+                        "تحسين النطق: يساعد في تصحيح مخارج الحروف وتحسين وضوح الكلام.",
+                        "زيادة الثقة بالنفس: ابتسامة متناسقة تعزز من تفاعلاتك الشخصية والمهنية.",
+                        "تحسين وظيفة المضغ: يساهم ترتيب الأسنان الصحيح في تحسين عملية المضغ والهضم."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Orthodontic Treatment Options at Karisma Specialist Medical Center",
-                    "description": "At Karisma Specialist Medical Center, we offer a range of premier orthodontic solutions, carefully designed to suit your lifestyle and preferences:",
+                    "title": "خيارات علاج تقويم الأسنان في مركز كاريزما الطبي التخصصي",
+                    "description": "في مركز كاريزما الطبي التخصصي، نقدم مجموعة متنوعة من حلول تقويم الأسنان التي تتناسب مع أسلوب حياتك:",
                     "features": [
                         {
-                            "title": "Traditional Metal Braces",
-                            "item": [
-                                "A time-tested solution, metal braces use a sophisticated system of brackets, wires, and bands to shift your teeth into perfect alignment gradually."
+                            "title": "تقويم الأسنان المعدني التقليدي:",
+                            "items": [
+                                "يُعتبر أحد أكثر العلاجات فعالية، حيث يعتمد على نظام متطور من الدعامات والأسلاك لتصحيح محاذاة الأسنان تدريجيًا."
                             ]
                         },
                         {
-                            "title": "Invisible (Clear) Aligners",
-                            "item": [
-                                "For a discreet alternative and a less impactful one on your daily lifestyle, clear aligners are custom-made, removable devices that straighten your teeth with minimal impact on your daily activities."
+                            "title": "تقويم الأسنان الشفاف (غير المرئي):",
+                            "items": [
+                                "خيار مثالي لمن يبحثون عن حل غير ملحوظ، حيث يتم استخدام تقويم شفاف وقابل للإزالة، مما يوفر راحة أكبر أثناء العلاج."
                             ]
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Start Your Journey to a Flawless Smile and Healthier Oral Health",
-                    "description": "Why settle for anything less than exceptional? Begin your journey to the smile you’ve always envisioned with Karisma Specialist Medical Center."
-                },
-                {
-                    "type": "center-content",
-                    "title": "Schedule Your Orthodontic Consultation Today",
-                    "features": [
-                        "Contact us now to book your personalized consultation with our expert orthodontists. During your visit, we’ll conduct a thorough assessment of your dental needs and present tailored treatment options to help you achieve your ideal smile.",
-                        "Experience the superior care and cutting-edge techniques that define Karisma Specialist Medical Center. Let us craft a timeless smile that reflects your charm and confidence."
-                    ]
+                    "title": "ابدأ رحلتك نحو ابتسامة مثالية وصحة فموية أفضل",
+                    "description": "لماذا تكتفي بالقليل عندما يمكنك الحصول على الأفضل؟ ابدأ رحلتك نحو الابتسامة التي لطالما حلمت بها مع مركز كاريزما الطبي التخصصي."
                 },
                 {
                     "type": "color-content",
-                    "title": "Your Radiant Smile Awaits",
-                    "description": "Embrace the transformative journey to a healthier, more confident you. Contact Karisma Specialist Medical Center today, and take the first step toward a lifetime of smiles."
+                    "title": "احجز استشارتك لتقويم الأسنان اليوم",
+                    "features": [
+                        "اتصل بنا الآن لحجز موعدك مع أطباء تقويم الأسنان المتخصصين لدينا. خلال الاستشارة، سنجري تقييماً شاملاً لحالتك ونقدم لك خطة علاج مخصصة تناسب احتياجاتك.",
+                        "اكتشف مستوى الرعاية المتميزة والتقنيات الحديثة التي يقدمها مركز كاريزما الطبي التخصصي. دعنا نصمم لك ابتسامة تدوم مدى الحياة وتعكس جاذبيتك وثقتك بنفسك."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "ابتسامتك المشرقة بانتظارك",
+                    "description": "ابدأ اليوم رحلة التغيير نحو صحة أفضل وثقة أكبر. تواصل مع مركز كاريزما الطبي التخصصي الآن واتخذ الخطوة الأولى نحو مستقبل مليء بالابتسامات الجميلة."
+                },
+                {
+                    "type": "content",
+                    "title": "أطباؤنا المتخصصون",
+                    "description": "تعرف على فريقنا المتميز من الخبراء، المكرسين لمنحك ابتسامة صحية ومتناسقة."
+                },
+                {
+                    "type": "slider-doctors",
+                    "title": "تعرف على أطبائنا",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 1,
+                            "name": "د. هشام نافع",
+                            "designation": "أخصائي زراعة الأسنان",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": "dr-hesham-nafei"
+                        },
+                        {
+                            "id": 2,
+                            "name": "د. عادل الأسود",
+                            "designation": "أخصائي جراحة الفم",
+                            "image": "/assets/Images/doctors/Adel.png",
+                            "link": "dr-adel-al-aswad"
+                        },
+                        {
+                            "id": 3,
+                            "name": "د. رانيا غانم",
+                            "designation": "أخصائية التعويضات السنية",
+                            "image": "/assets/Images/doctors/Rania.png",
+                            "link": "dr-rania-ghanem"
+                        },
+                        {
+                            "id": 4,
+                            "name": "د. أمير مجدي",
+                            "designation": "طبيب أسنان عام",
+                            "image": "/assets/Images/doctors/Amir.png",
+                            "link": "dr-amir-magdy"
+                        }
+                    ]
                 }
             ]
         },
@@ -453,84 +644,132 @@
             "sections": [
                 {
                     "type": "banner",
-                    "deptName": "Dental",
-                    "serviceName": "Teeth Whitening",
+                    "deptName": "الأسنان",
+                    "serviceName": "تبييض الأسنان",
                     "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
                 },
                 {
                     "type": "image-content",
                     "imageUrl": "../assets/Images/banner/about_dept/dental.png",
-                    "imageAlt": "Teeth Whitening",
-                    "title": "Teeth Whitening",
+                    "imageAlt": "تبييض الأسنان",
+                    "title": "تبييض الأسنان",
                     "content": [
                         {
                             "type": "heading",
-                            "text": "Karisma Specialist Medical Center Provides Professional Teeth Whitening Services in the UAE"
+                            "text": "مركز كاريزما الطبي التخصصي يقدم خدمات تبييض الأسنان الاحترافية في الإمارات"
                         },
                         {
                             "type": "heading",
-                            "text": "Achieve a Radiant Smile That Exudes Confidence and Sophistication"
+                            "text": "احصل على ابتسامة مشرقة تشعّ بالثقة والأناقة"
                         },
                         {
                             "type": "paragraph",
-                            "text": "At Karisma Specialist Medical Center, located in the heart of the UAE, we understand that a dazzling smile is a hallmark of confidence and elegance, especially for our discerning clientele. Over time, indulgences like coffee, tea, and wine, combined with the natural aging process, can dull the brilliance of your teeth. Our luxurious professional teeth whitening services in the UAE offer a safe, effective, and lasting solution to help you regain the radiant smile you deserve."
+                            "text": "في مركز كاريزما الطبي التخصصي، من قلب الإمارات، ندرك أن الابتسامة المشرقة هي مفتاح الثقة والجاذبية، خاصةً لعملائنا المميزين. مع مرور الوقت، يمكن أن تؤدي القهوة، والشاي، والنبيذ، وعوامل التقدم في العمر إلى فقدان الأسنان بريقها الطبيعي. لهذا، نقدم خدمات تبييض الأسنان الاحترافية والفاخرة في الإمارات، والتي توفر حلاً آمناً، فعالاً، وطويل الأمد لاستعادة إشراقة ابتسامتك."
                         },
                         {
                             "type": "heading",
-                            "text": "What Is Teeth Whitening?"
+                            "text": "ما هو تبييض الأسنان؟"
                         },
                         {
                             "type": "paragraph",
-                            "text": "Teeth whitening is a cutting-edge cosmetic dental procedure designed to lighten the color of your teeth by removing deep stains and discoloration. Over the years, external factors and lifestyle habits can tarnish your smile, but our advanced whitening treatments in the UAE break down staining molecules to restore the natural brilliance of your teeth."
+                            "text": "تبييض الأسنان هو إجراء تجميلي متطور يهدف إلى تفتيح لون الأسنان عن طريق إزالة التصبغات العميقة والبقع السطحية. بفضل تقنياتنا الحديثة في الإمارات، نقوم بتحليل ومعالجة أسباب تغير لون الأسنان لاستعادة لمعانها الطبيعي ومنحك ابتسامة أكثر إشراقًا."
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Why Choose Professional Teeth Whitening in the UAE?",
-                    "description": "Opting for professional teeth whitening at Karisma Specialist Medical Center comes with a wealth of benefits, including:",
+                    "title": "لماذا تختار تبييض الأسنان الاحترافي في الإمارات؟",
+                    "description": "يوفر تبييض الأسنان الاحترافي في مركز كاريزما الطبي التخصصي العديد من المزايا، بما في ذلك:",
                     "features": [
-                        "Superior Results: Our advanced whitening agents deliver faster and more noticeable results than over-the-counter alternatives.",
-                        "Safety & Comfort: Procedures are performed by seasoned dentists, ensuring minimal gum sensitivity and protection of enamel integrity.",
-                        "Personalized Plans: Each treatment is tailored to your dental needs and goals, guaranteeing a bespoke whitening experience.",
-                        "Long-Lasting Brightness: With proper oral care, the results of our treatments can keep your smile luminous for years."
+                        "نتائج فورية وملحوظة: بفضل تقنياتنا المتقدمة، ستلاحظ فرقًا واضحًا بعد جلسة واحدة فقط مقارنة بالمنتجات المنزلية.",
+                        "سلامة وراحة فائقة: يتم إجراء التبييض تحت إشراف أطباء أسنان متخصصين لضمان حماية اللثة والحفاظ على مينا الأسنان.",
+                        "علاج مخصص: يتم تصميم كل جلسة بناءً على حالتك وأهدافك الجمالية للحصول على تجربة مميزة.",
+                        "نتائج تدوم طويلاً: مع العناية الفموية الجيدة، يمكنك الاستمتاع بابتسامتك المضيئة لسنوات عديدة."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Discover the Best Whitening Solution for You in the UAE",
-                    "description": "During your Session at Karisma Specialist Medical Center, conveniently located in the UAE, our cosmetic dental experts will thoroughly evaluate your teeth and discuss your goals to recommend the most suitable whitening solution."
+                    "title": "اكتشف أفضل حل لتبييض أسنانك في الإمارات",
+                    "description": "خلال جلستك في مركز كاريزما الطبي التخصصي، سيقوم أخصائيو التجميل لدينا بإجراء فحص شامل لأسنانك، ومناقشة أهدافك، واقتراح أنسب حلول التبييض لضمان تحقيق النتائج المرجوة."
                 },
                 {
                     "type": "content",
-                    "heading": "In-Clinic Whitening",
-                    "description": "This premium option is ideal for:",
+                    "heading": "التبييض داخل العيادة",
+                    "description": "هذا الخيار المتميز مثالي لـ:",
                     "features": [
-                        "Individuals seeking immediate, dramatic results in just one visit.",
-                        "Clients dealing with persistent stains or discoloration resistant to at-home treatments.",
-                        "Those who value a luxurious, professional experience guided by expert care."
+                        "الأشخاص الذين يبحثون عن نتائج فورية وملحوظة خلال جلسة واحدة فقط.",
+                        "المرضى الذين يعانون من بقع صعبة أو تصبغات لا تستجيب للعلاجات المنزلية.",
+                        "من يفضلون تجربة فاخرة تتم تحت إشراف خبراء تجميل الأسنان."
                     ]
                 },
                 {
                     "type": "content",
-                    "heading": "Home Teeth Whitening Kits",
-                    "description": "We are with you everywhere:",
+                    "heading": "قوالب تبييض الأسنان المنزلية",
+                    "description": "نحن معك أينما كنت:",
                     "features": [
-                        "We offer professional-grade home whitening kits, with customized trays and whitening gel for convenient at-home treatment.",
-                        "We also provide clear instructions and monitor your progress to ensure premium results."
+                        "نوفر لك مجموعات تبييض احترافية تشمل قوالب مخصصة وجل تبييض عالي الجودة للحصول على نتائج رائعة وأنت في منزلك.",
+                        "نقدم لك إرشادات واضحة لمساعدتك على تحقيق أفضل النتائج، مع متابعة دقيقة لضمان نجاح العلاج."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "The Karisma Specialist Medical Center Difference in the UAE",
-                    "description": "At Karisma Specialist Medical Center, we are committed to helping clients across the UAE achieve their dream smiles. Our experienced team combines expertise with compassionate care to ensure your teeth whitening journey is seamless and comfortable and delivers outstanding results."
+                    "title": "ما الذي يميز مركز كاريزما الطبي التخصصي في الإمارات؟",
+                    "description": "في مركز كاريزما الطبي التخصصي، نحن ملتزمون بمساعدة عملائنا في جميع أنحاء الإمارات على تحقيق ابتسامتهم المثالية. يجمع فريقنا بين الخبرة الطبية والرعاية الفائقة لضمان تجربة مريحة وتحقيق نتائج مذهلة في تبييض الأسنان."
                 },
                 {
                     "type": "color-content",
-                    "title": "Book Your Teeth Whitening Session now at Karism Medical Center Your Premier Destination For Teeth Whitening in UAE!",
+                    "title": "احجز جلسة تبييض الأسنان الآن في مركز كاريزما الطبي – وجهتك الأولى لتبييض الأسنان في الإمارات!",
                     "features": [
-                        "Don’t let discolored teeth dim your confidence or sophistication. Contact Karisma Specialist Medical Center now, your Premier destination for teeth whitening in UAE to schedule a personalized Session with our expert cosmetic dentist.",
-                        "Let us craft the perfect whitening plan to illuminate your smile, Make them Shine."
+                        "لا تدع تصبغات الأسنان تخفي ثقتك أو تقلل من أناقتك. تواصل معنا اليوم لحجز جلستك الشخصية مع أطباء التجميل المتخصصين لدينا.",
+                        "دعنا نصمم خطة التبييض المثالية لتستعيد إشراقة ابتسامتك، واجعلها تلمع من جديد!"
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "أطباؤنا المتخصصون",
+                    "description": "تعرف على فريقنا من أطباء الأسنان الخبراء، الذين كرسوا حياتهم لمساعدتك في الحصول على ابتسامة أكثر إشراقًا وجاذبية."
+                },
+                {
+                    "type": "slider-doctors",
+                    "title": "تعرف على أطبائنا",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 1,
+                            "name": "د. هشام نافع",
+                            "designation": "أخصائي زراعة الأسنان",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": "dr-hesham-nafei"
+                        },
+                        {
+                            "id": 2,
+                            "name": "د. عادل الأسود",
+                            "designation": "أخصائي جراحة الفم",
+                            "image": "/assets/Images/doctors/Adel.png",
+                            "link": "dr-adel-al-aswad"
+                        },
+                        {
+                            "id": 3,
+                            "name": "د. رانيا غانم",
+                            "designation": "أخصائية التعويضات السنية",
+                            "image": "/assets/Images/doctors/Rania.png",
+                            "link": "dr-rania-ghanem"
+                        },
+                        {
+                            "id": 4,
+                            "name": "د. أمير مجدي",
+                            "designation": "طبيب أسنان عام",
+                            "image": "/assets/Images/doctors/Amir.png",
+                            "link": "dr-amir-magdy"
+                        }
                     ]
                 }
             ]
@@ -541,94 +780,142 @@
             "sections": [
                 {
                     "type": "banner",
-                    "deptName": "Dental",
-                    "serviceName": "Mouth Rehabilitation",
+                    "deptName": "الأسنان",
+                    "serviceName": "إعادة تأهيل الفم",
                     "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
                 },
                 {
                     "type": "image-content",
                     "imageUrl": "../assets/Images/banner/about_dept/dental.png",
-                    "imageAlt": "Mouth Rehabilitation",
-                    "title": "Mouth Rehabilitation",
+                    "imageAlt": "إعادة تأهيل الفم",
+                    "title": "إعادة تأهيل الفم",
                     "content": [
                         {
                             "type": "heading",
-                            "text": "Full Mouth Rehabilitation in UAE at Karisma Specialist Medical Center"
+                            "text": "إعادة تأهيل الفم الشاملة في الإمارات في مركز كاريزما الطبي التخصصي"
                         },
                         {
                             "type": "heading",
-                            "text": "The UAE’s Premier Destination for Comprehensive Dental Care"
+                            "text": "الوجهة الرائدة في الرعاية الشاملة للأسنان في الإمارات"
                         },
                         {
                             "type": "paragraph",
-                            "text": "At Karisma Specialist Medical Center in the UAE, we understand that the elegance of your smile is crucial to your confidence and overall well-being. Our Full Mouth Rehabilitation services offer bespoke treatment plans meticulously designed to restore both the functionality and aesthetics of your entire smile, enhancing your quality of life. Our esteemed team of highly skilled dentists and specialists collaborates seamlessly to curate a personalized treatment experience tailored to your unique desires and intricate needs."
+                            "text": "في مركز كاريزما الطبي التخصصي في الإمارات، ندرك أن جمال ابتسامتك يلعب دورًا كبيرًا في ثقتك بنفسك ورفاهيتك الصحية. تقدم خدمات إعادة تأهيل الفم لدينا خطط علاجية مخصصة لاستعادة وظائف وجماليات ابتسامتك بالكامل، مما يعزز جودة حياتك. يتعاون فريقنا المتميز من أطباء الأسنان والخبراء لتقديم تجربة علاجية شاملة ومصممة خصيصًا لتلبية احتياجاتك الفريدة."
                         },
                         {
                             "type": "heading",
-                            "text": "What Are The Full Mouth Rehabilitation Solutions?"
+                            "text": "ما هي حلول إعادة تأهيل الفم الشاملة؟"
                         },
                         {
                             "type": "paragraph",
-                            "text": "Full Mouth Rehabilitation is more than just a dental procedure; it is a comprehensive journey tailored specifically for you. This holistic approach incorporates a range of advanced dental solutions meticulously catered to your individual circumstances, including:"
+                            "text": "إعادة تأهيل الفم الشاملة ليست مجرد إجراء طبي، بل هي رحلة علاجية متكاملة مصممة خصيصًا لك. يشمل هذا النهج مجموعة من الحلول المتقدمة التي تناسب احتياجاتك الفردية، بما في ذلك:"
                         },
                         {
                             "type": "list",
                             "items": [
-                                "Dental Crowns: Custom-crafted caps affixed to damaged or weakened teeth, restoring their strength, shape, and appearance while enhancing your overall smile.",
-                                "Dental Bridges: Elegant replacements for one or more missing teeth, anchored to neighboring healthy teeth and constructed from high-quality, natural-looking materials for impeccable integration with your smile.",
-                                "Dental Implants: State-of-the-art titanium posts surgically embedded within the jawbone, functioning as durable artificial tooth roots, providing a robust foundation for crowns, bridges, or dentures, thereby optimizing both functionality and aesthetics."
+                                "تيجان الأسنان: تيجان مخصصة تُوضع على الأسنان التالفة لاستعادة قوتها وشكلها الطبيعي وتحسين مظهر الابتسامة.",
+                                "جسور الأسنان: تعويضات أنيقة للأسنان المفقودة يتم تثبيتها على الأسنان المجاورة، مصنوعة من مواد عالية الجودة لمظهر طبيعي متكامل.",
+                                "زراعة الأسنان: أعمدة تيتانيوم متطورة تُزرع في عظم الفك لتعمل كأساس متين للتيجان والجسور وأطقم الأسنان، مما يعزز الوظيفة والجماليات."
                             ]
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Denture Solutions Tailored for Discerning Clients",
-                    "description": "At Karisma Specialist Medical Center in the UAE, we pride ourselves on offering a range of exceptional denture options, ensuring that your needs and lifestyle are elegantly addressed:",
+                    "title": "خيارات أطقم الأسنان المصممة خصيصًا للعملاء المميزين",
+                    "description": "نقدم في مركز كاريزما الطبي التخصصي في الإمارات مجموعة من أطقم الأسنان الاستثنائية، المصممة لتلبية احتياجاتك بأسلوب راقٍ:",
                     "features": [
-                        "Immediate Dentures: Refined temporary dentures placed on the same day or shortly after tooth extraction, allowing you to maintain a flawless smile while you heal.",
-                        "Partial Dentures: Sophisticated removable appliances that restore several missing teeth, comfortably supported by clasps attached to your remaining healthy teeth, enabling optimal chewing function and enhanced speech.",
-                        "Complete Dentures: Perfectly crafted to replace all teeth in the upper or lower jaw (or both), designed for easy removal and cleaning, ensuring a seamless fit that exudes comfort and sophistication."
+                        "الأطقم الفورية: تركيبات مؤقتة توضع في نفس اليوم أو بعد القلع بفترة وجيزة للحفاظ على ابتسامة مثالية أثناء مرحلة الشفاء.",
+                        "الأطقم الجزئية: تعويضات متحركة تعيد عدة أسنان مفقودة، مدعومة بمشابك متصلة بالأسنان الطبيعية لضمان الراحة والكفاءة.",
+                        "الأطقم الكاملة: بديل مثالي لجميع الأسنان في الفك العلوي أو السفلي، سهلة الإزالة والتنظيف، مع تصميم مريح يعزز الثقة بالنفس."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "The Transformative Benefits of Full Mouth Rehabilitation",
-                    "description": "Indulging in Full Mouth Rehabilitation at Karisma Specialist Medical Center offers a wide array of benefits designed to enrich your oral health and enhance your overall lifestyle:",
+                    "title": "الفوائد المذهلة لإعادة تأهيل الفم الشاملة",
+                    "description": "خوض تجربة إعادة تأهيل الفم في مركز كاريزما الطبي المتخصص يوفر لك العديد من الفوائد التي تعزز صحتك الفموية ونوعية حياتك:",
                     "features": [
-                        "Restored Functionality: Experience the freedom to chew, speak, and smile with absolute confidence and grace.",
-                        "Enhanced Aesthetics: Elevate the beauty of your smile, fostering a significant boost in self-esteem and personal confidence.",
-                        "Superior Oral Health: Achieve improved dental hygiene and prevent oral complications through expertly restored teeth and a balanced bite.",
-                        "Increased Comfort: Say goodbye to the discomfort associated with damaged or missing teeth, ensuring a pleasant dental experience.",
-                        "Refined Speech: Enjoy clearer speech with perfectly aligned teeth, promoting effective communication."
+                        "استعادة الوظائف الفموية: استمتع بالمضغ والتحدث والابتسام بثقة وراحة.",
+                        "تحسين المظهر الجمالي: تعزيز جمال ابتسامتك مما يزيد من ثقتك بنفسك.",
+                        "صحة فموية أفضل: استعادة الأسنان المفقودة بشكل احترافي للوقاية من المضاعفات الفموية.",
+                        "راحة مثالية: القضاء على الانزعاج المرتبط بالأسنان التالفة أو المفقودة.",
+                        "نطق واضح: تحسين النطق والكلام مع محاذاة مثالية للأسنان."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Crafting Your Bespoke Smile Experience",
-                    "description": "At Karisma Specialist Medical Center in the UAE, we prioritize your personal journey and aspirations. Through an individualized consultation and comprehensive examination, we meticulously develop a tailored Full Mouth Rehabilitation plan that aligns with your esteemed expectations and lifestyle."
+                    "title": "تصميم ابتسامتك الفريدة",
+                    "description": "نحن في مركز كاريزما الطبي التخصصي نولي أهمية كبرى لرغباتك الشخصية. من خلال استشارة فردية وفحص دقيق، نعمل على وضع خطة علاجية مخصصة تتماشى مع توقعاتك وأسلوب حياتك الفريد."
                 },
                 {
                     "type": "center-content",
-                    "title": "Book Your Exclusive Full Mouth Rehabilitation Consultation Today!",
-                    "description": "Don’t let missing or damaged teeth undermine your exceptional smile and lifestyle. Contact Karisma Specialist Medical Center in the UAE today to arrange a consultation with our distinguished Full Mouth Rehabilitation specialists. Join us in crafting a personalized treatment plan designed to restore the functionality, elegance, and confidence that your smile deserves."
+                    "title": "احجز استشارتك الحصرية لإعادة تأهيل الفم اليوم!",
+                    "description": "لا تدع الأسنان التالفة أو المفقودة تؤثر على ابتسامتك وحياتك. تواصل معنا اليوم في مركز كاريزما الطبي التخصصي بالإمارات لحجز استشارتك مع أطباء تأهيل الفم المتميزين لدينا، واتخذ الخطوة الأولى نحو استعادة وظيفة وجمال ابتسامتك بثقة تامة."
                 },
                 {
                     "type": "content",
-                    "title": "Meet Our Exceptional Team: The Architects of Your Smile",
-                    "description": "What makes a dental visit extraordinary? At Karisma Specialist Medical Center, it’s our expert team that transforms routine appointments into memorable experiences.",
+                    "title": "تعرف على فريق الخبراء الذين يصممون ابتسامتك",
+                    "description": "ما الذي يجعل زيارتك لطبيب الأسنان تجربة استثنائية؟ في مركز كاريزما الطبي التخصصي، فريقنا الخبير يضمن لك تجربة علاجية فريدة لا تُنسى.",
                     "features": [
-                        "Exemplary Care: Our highly trained dentists go beyond traditional dental practices; they are passionate professionals committed to helping you achieve the smile you’ve always desired whether it’s a simple cleaning or a comprehensive makeover.",
-                        "Innovative Technology: Our clinic is equipped with the latest advancements, from digital imaging to precision laser treatments, ensuring a comfortable and efficient experience.",
-                        "Personalized Approach: We listen to your concerns and aspirations, creating customized treatment plans that align with your goals."
+                        "رعاية استثنائية: أطباؤنا ليسوا فقط خبراء، بل شغوفون بمساعدتك في تحقيق الابتسامة المثالية.",
+                        "أحدث التقنيات: نستخدم تقنيات متقدمة مثل التصوير الرقمي والعلاجات بالليزر لضمان تجربة مريحة وفعالة.",
+                        "نهج شخصي: نأخذ بعين الاعتبار تطلعاتك لنضع خطة علاجية مخصصة تلبي احتياجاتك الفريدة."
                     ]
                 },
                 {
                     "type": "color-content",
-                    "title": "A Comprehensive Dental Experience Under One Roof",
+                    "title": "تجربة أسنان متكاملة تحت سقف واحد",
                     "features": [
-                        "Why juggle multiple appointments at different clinics? At Karisma Specialist Medical Center, we offer a wide range of services, from preventive care to advanced cosmetic procedures. We are your one-stop destination for all your dental needs in the UAE.",
-                        "Schedule your Consultation Now and Start Your Journey."
+                        "لماذا تحتاج إلى زيارة عدة عيادات بينما يمكنك الحصول على كل العلاجات في مكان واحد؟ في مركز كاريزما الطبي التخصصي، نوفر لك مجموعة شاملة من الخدمات العلاجية والتجميلية لتلبية جميع احتياجاتك السنية.",
+                        "احجز موعدك الآن وابدأ رحلتك نحو ابتسامة مثالية وصحة فموية متميزة."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "أطباؤنا المتخصصون",
+                    "description": "تعرف على نخبة من أطباء الأسنان الخبراء لدينا، الذين يكرسون مهاراتهم لابتسامتك المثالية."
+                },
+                {
+                    "type": "slider-doctors",
+                    "title": "تعرف على أطبائنا",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 1,
+                            "name": "د. هشام نافع",
+                            "designation": "أخصائي زراعة الأسنان",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": "dr-hesham-nafei"
+                        },
+                        {
+                            "id": 2,
+                            "name": "د. عادل الأسود",
+                            "designation": "أخصائي جراحة الفم",
+                            "image": "/assets/Images/doctors/Adel.png",
+                            "link": "dr-adel-al-aswad"
+                        },
+                        {
+                            "id": 3,
+                            "name": "د. رانيا غانم",
+                            "designation": "أخصائية التعويضات السنية",
+                            "image": "/assets/Images/doctors/Rania.png",
+                            "link": "dr-rania-ghanem"
+                        },
+                        {
+                            "id": 4,
+                            "name": "د. أمير مجدي",
+                            "designation": "طبيب أسنان عام",
+                            "image": "/assets/Images/doctors/Amir.png",
+                            "link": "dr-amir-magdy"
+                        }
                     ]
                 }
             ]
@@ -639,100 +926,144 @@
             "sections": [
                 {
                     "type": "banner",
-                    "deptName": "Dental",
-                    "serviceName": "Root Canal Treatment",
+                    "deptName": "الأسنان",
+                    "serviceName": "علاج قناة الجذر",
                     "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
                 },
                 {
                     "type": "image-content",
                     "imageUrl": "../assets/Images/banner/about_dept/dental.png",
-                    "imageAlt": "Root Canal Treatment",
-                    "title": "Root Canal Treatment",
+                    "imageAlt": "علاج قناة الجذر",
+                    "title": "علاج قناة الجذر",
                     "content": [
                         {
                             "type": "heading",
-                            "text": "Root Canal Treatment in UAE At Karisma Specialist Medical Center"
+                            "text": "علاج قناة الجذر في الإمارات في مركز كاريزما الطبي التخصصي"
                         },
                         {
                             "type": "heading",
-                            "text": "Your Oral Health Is Our Priority with Root Canal Treatment at Karisma Specialist Medical Center"
+                            "text": "صحتك الفموية هي أولويتنا مع علاج قناة الجذر في مركز كاريزما الطبي التخصصي"
                         },
                         {
                             "type": "paragraph",
-                            "text": "At Karisma Specialist Medical Center in the UAE, we understand the importance of preserving your natural teeth for a healthy, radiant smile. Root canal treatment (RCT) is a key procedure that can save an infected or damaged tooth, allowing you to maintain optimal oral health and smile confidently. Our team of expert dentists is committed to providing a pain-free, comfortable treatment, using the latest technologies to restore the health and beauty of your teeth."
+                            "text": "في مركز كاريزما الطبي التخصصي في الإمارات، ندرك أهمية الحفاظ على أسنانك الطبيعية للحصول على ابتسامة صحية ومشرقة. علاج قناة الجذر هو إجراء أساسي يمكن أن ينقذ السن المصاب أو التالف، مما يسمح لك بالحفاظ على صحة الفم المثلى والابتسام بثقة. يلتزم فريقنا من أطباء الأسنان الخبراء بتوفير علاج مريح وخالٍ من الألم، باستخدام أحدث التقنيات لاستعادة صحة وجمال أسنانك."
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "What is Root Canal Treatment?",
-                    "description": "Your tooth’s inner pulp containing nerves, blood vessels, and connective tissue can become infected due to decay, trauma, or cracks. This infection can lead to severe pain and swelling if not addressed. Root canal treatment is designed to remove the infected pulp, prevent further damage, and restore your tooth to full function.",
-                    "heading": "How does Root Canal work?",
+                    "title": "ما هو علاج قناة الجذر؟",
+                    "description": "يحتوي لب السن الداخلي على الأعصاب والأوعية الدموية والأنسجة الضامة، وقد يتعرض للعدوى بسبب التسوس، الصدمات، أو التشققات. يمكن أن تؤدي هذه العدوى إلى ألم شديد وتورم إذا لم تُعالج. علاج قناة الجذر مصمم لإزالة اللب المصاب، منع انتشار العدوى، واستعادة وظيفة السن بشكل كامل.",
+                    "heading2": "كيف يعمل علاج قناة الجذر؟",
                     "features": [
-                        "Removing Infected Pulp: We gently remove the damaged pulp from the tooth’s root canals.",
-                        "Cleaning and Disinfecting: The canals are thoroughly cleaned and disinfected to eliminate harmful bacteria and reduce the risk of reinfection.",
-                        "Sealing the Canals: The cleaned canals are filled with a biocompatible material to prevent future issues.",
-                        "Restoring the Tooth: Finally, we place a durable crown or filling on the tooth, restoring both its strength and natural appearance."
+                        "إزالة اللب المصاب: نقوم بإزالة اللب التالف بلطف من قنوات الجذر.",
+                        "التنظيف والتطهير: يتم تنظيف القنوات وتعقيمها جيدًا للقضاء على البكتيريا ومنع العدوى المستقبلية.",
+                        "ختم القنوات: يتم ملء القنوات بمادة حيوية متوافقة لضمان عدم تعرضها للعدوى مرة أخرى.",
+                        "ترميم السن: يتم وضع تاج أو حشوة دائمة لاستعادة قوة السن ومظهره الطبيعي."
                     ]
                 },
                 {
                     "type": "color-content",
-                    "title": "Why Choose Root Canal Treatment At Karisma Specialist Medical Center?",
-                    "description": "Opting for root canal treatment at Karisma Specialist Medical Center offers several long-term benefits:",
+                    "title": "لماذا تختار علاج قناة الجذر في مركز كاريزما الطبي التخصصي؟",
+                    "description": "يقدم علاج قناة الجذر في مركز كاريزما الطبي التخصصي العديد من الفوائد طويلة الأمد:",
                     "features": [
-                        "Save Your Natural Tooth: Avoid extractions or costly replacements, preserving your tooth for a lifetime.",
-                        "Eliminate Pain and Discomfort: Say goodbye to the throbbing pain caused by infections, and restore your comfort.",
-                        "Prevent Further Damage: Root canal treatment stops the spread of infection, protecting both your tooth and surrounding tissue.",
-                        "Maintain a Complete Smile: Keep your smile intact, functional, and aesthetically pleasing with a restored tooth."
+                        "الحفاظ على السن الطبيعي: تجنب قلع السن أو الحاجة إلى بدائل مكلفة، مع الحفاظ على أسنانك مدى الحياة.",
+                        "التخلص من الألم وعدم الراحة: قل وداعًا للألم الناتج عن العدوى واستعد راحتك.",
+                        "منع تفاقم الحالة: علاج قناة الجذر يمنع انتشار العدوى ويحمي الأسنان المحيطة.",
+                        "الحفاظ على جمال ابتسامتك: يساعد على إبقاء أسنانك سليمة ووظيفية ومظهرها جمالي طبيعي."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Root Canal Retreatment: When Is It Necessary?",
-                    "description": "Occasionally, root canal retreatment is required if the initial procedure fails or if new issues arise. Some common reasons for retreatment include:",
+                    "title": "إعادة علاج قناة الجذر: متى يكون ضروريًا؟",
+                    "description": "في بعض الحالات، قد يكون هناك حاجة إلى إعادة علاج قناة الجذر إذا لم تنجح العملية الأولى أو ظهرت مشكلات جديدة، ومن الأسباب الأكثر شيوعًا:",
                     "features": [
-                        "Incomplete Initial Treatment: If infected material was not fully removed during the first procedure, reinfection may occur.",
-                        "New Infection: Cavities, cracks, or fractures can expose treated canals to new bacteria, requiring additional treatment.",
-                        "Post-Treatment Damage: Damage to the crown or filling can provide bacteria with an entry point into the tooth."
+                        "علاج غير مكتمل: في حال لم تتم إزالة جميع الأنسجة المصابة خلال الإجراء الأولي.",
+                        "عدوى جديدة: قد تتعرض القنوات التي تم علاجها مسبقًا للتسوس، الشقوق، أو الكسور.",
+                        "ضرر ما بعد العلاج: تعرض التاج أو الحشوة للتلف قد يفتح المجال للبكتيريا لدخول السن مرة أخرى."
                     ]
                 },
                 {
                     "type": "content",
-                    "heading": "Symptoms Indicating the Need for Retreatment:",
+                    "heading": "أعراض تدل على الحاجة لإعادة العلاج:",
                     "features": [
-                        "Persistent pain or sensitivity in the tooth.",
-                        "Swelling around the treated tooth.",
-                        "Discomfort or drainage (pus or discharge) from the tooth or gums."
+                        "ألم مستمر أو حساسية في السن المعالج.",
+                        "تورم أو التهاب حول السن.",
+                        "إفرازات أو تصريف صديدي من السن أو اللثة."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Root Canal Treatment at Karisma Specialist Medical Center: Your Premier Choice in UAE",
-                    "description": "At Karisma Specialist Medical Center, we go beyond basic dental care to offer a truly premium root canal treatment experience. Our UAE-based clinic is equipped with the latest dental technology, ensuring that you receive the most efficient, comfortable, and effective treatment.",
-                    "heading": "Here’s what you can expect from us:",
+                    "title": "علاج قناة الجذر في مركز كاريزما الطبي التخصصي: خيارك الأول في الإمارات",
+                    "description": "في مركز كاريزما الطبي التخصصي، نقدم تجربة علاج قناة الجذر بمستوى راقٍ يتجاوز العناية الأساسية، حيث نوفر أحدث التقنيات لضمان علاج أكثر راحة وكفاءة.",
+                    "heading2": "ما الذي يميزنا؟",
                     "features": [
-                        "State-of-the-Art Technology: Our advanced equipment allows for precise and efficient root canal treatments, ensuring better outcomes with less discomfort.",
-                        "Experienced Dental Team: Our highly skilled specialists are dedicated to delivering top-notch care with a combined experience of 50 years in dental care, they will make the entire process seamless and stress-free.",
-                        "Luxurious Comfort: Your comfort is our number one priority, that is why we always aim that your visit to your dentist is pain and stress-free.",
-                        "Clear Communication: Our dentists will explain every step of your treatment plan, ensuring you fully understand the process and feel confident in your care. we aim to satisfy and relieve our customers while adding a touch of extra beauty to their smiles."
+                        "أحدث التقنيات: نستخدم تقنيات متطورة لضمان علاجات دقيقة وفعالة بأقل قدر من الانزعاج.",
+                        "فريق طبي متميز: أطباؤنا من ذوي الخبرة العالية لديهم أكثر من 50 عامًا من الخبرة في طب الأسنان.",
+                        "راحة لا مثيل لها: نضمن لك تجربة علاج خالية من التوتر والألم.",
+                        "تواصل شفاف: نشرح لك كل خطوة من العلاج لضمان فهمك التام للإجراء والشعور بالراحة التامة."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Embrace a Pain-Free Future with Root Canal Treatment At Karisma Specialist Medical Center in UAE",
-                    "description": "Don’t let tooth pain or infection compromise your quality of life. Root canal treatment at Karisma Specialist Medical Center in UAE will help restore your oral health and allow you to smile confidently again. Schedule a consultation today with our expert team to discuss how we can address your tooth concerns and help you achieve a healthier, pain-free smile."
+                    "title": "استعد لمستقبل خالٍ من الألم مع علاج قناة الجذر في مركز كاريزما الطبي التخصصي",
+                    "description": "لا تدع آلام الأسنان تؤثر على حياتك اليومية. احجز استشارتك اليوم في مركز كاريزما الطبي التخصصي بالإمارات لاستعادة صحة فمك والحصول على ابتسامة خالية من الألم."
                 },
                 {
                     "type": "color-content",
-                    "title": "Contact Us Today for Root Canal Treatment in the UAE",
+                    "title": "اتصل بنا اليوم لحجز موعد علاج قناة الجذر في الإمارات",
                     "features": [
-                        "Whether you’re experiencing tooth pain or need a routine root canal procedure, Karisma Specialist Medical Center is your go-to destination for exceptional dental care in the UAE.",
-                        "Contact us now to schedule your consultation, and let our expert team provide you with the best root canal treatment tailored to your needs."
+                        "سواء كنت تعاني من ألم الأسنان أو تحتاج إلى إجراء قناة جذر روتيني، فإن مركز كاريزما الطبي التخصصي هو وجهتك المثالية للعناية السنية المتكاملة.",
+                        "اتصل بنا الآن لحجز موعد استشارتك، ودع فريقنا المتميز يساعدك في استعادة صحة أسنانك."
                     ]
                 },
                 {
                     "type": "content",
-                    "description": ""
+                    "title": "أطباؤنا",
+                    "description": "تعرف على فريق الخبراء المتخصصين في مركز كاريزما الطبي التخصصي، الذين يكرسون خبراتهم لتقديم رعاية سنية متميزة."
+                },
+                {
+                    "type": "slider-doctors",
+                    "title": "تعرف على أطبائنا",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 1,
+                            "name": "د. هشام نافع",
+                            "designation": "أخصائي زراعة الأسنان",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": "dr-hesham-nafei"
+                        },
+                        {
+                            "id": 2,
+                            "name": "د. عادل الأسود",
+                            "designation": "أخصائي جراحة الفم",
+                            "image": "/assets/Images/doctors/Adel.png",
+                            "link": "dr-adel-al-aswad"
+                        },
+                        {
+                            "id": 3,
+                            "name": "د. رانيا غانم",
+                            "designation": "أخصائية التعويضات السنية",
+                            "image": "/assets/Images/doctors/Rania.png",
+                            "link": "dr-rania-ghanem"
+                        },
+                        {
+                            "id": 4,
+                            "name": "د. أمير مجدي",
+                            "designation": "طبيب أسنان عام",
+                            "image": "/assets/Images/doctors/Amir.png",
+                            "link": "dr-amir-magdy"
+                        }
+                    ]
                 }
             ]
         },
@@ -783,7 +1114,7 @@
                     "type": "content",
                     "title": "1. Halitosis Management: Restoring Freshness and Confidence",
                     "description": "Chronic bad breath is caused by (halitosis)and can affect social interactions and self-confidence. Often linked to periodontal disease, it requires a precise approach. Our experts use advanced diagnostic tools to identify the root cause and craft a personalized treatment plan, including professional periodontal therapy and disease management.",
-                    "heading": "Benefits of Halitosis Management:",
+                    "heading2": "Benefits of Halitosis Management:",
                     "features": [
                         "Eliminates persistent bad breath, enhancing social confidence",
                         "Targets the underlying cause to prevent recurrence",
@@ -794,7 +1125,7 @@
                     "type": "content",
                     "title": "2. Deep Scaling and Polishing: Non-Surgical Gum Therapy",
                     "description": "Ideal for mild to moderate gum concerns, this non-invasive procedure removes plaque and tartar both above and below the gumline. It leaves teeth and gums refreshed, clean, and healthy.",
-                    "heading": "Advantages of Deep Scaling and Polishing:",
+                    "heading2": "Advantages of Deep Scaling and Polishing:",
                     "features": [
                         "Removes harmful biofilm and calcified deposits",
                         "Enhances gum health and reduces recession risks",
@@ -805,7 +1136,7 @@
                     "type": "content",
                     "title": "3. Deep Scaling & Root Planing: Advanced Periodontal Refreshness",
                     "description": "For patients with moderate to advanced periodontal disease, this intensive treatment involves the thorough removal of plaque and tartar from the teeth. The roots are also smoothed to discourage bacteria from recolonizing, promoting gum reattachment and healing.",
-                    "heading": "Key Benefits:",
+                    "heading2": "Key Benefits:",
                     "features": [
                         "Arrests disease progression by eliminating pathogens",
                         "Encourages gum healing and reattachment to tooth surfaces",
@@ -816,10 +1147,11 @@
                     "type": "content",
                     "title": "Why Choose Karisma Specialist Medical Center?",
                     "description": "At Karisma Specialist Medical Center, we combine advanced periodontal expertise with patient-focused care to deliver outstanding results. Your comfort is our priority, and our treatments are designed to be as smooth and stress-free as possible.",
-                    "heading": "What Sets Us Apart At Karisma Specialist Medical Center?",
+                    "heading2": "What Sets Us Apart At Karisma Specialist Medical Center?",
                     "features": [
                         "State-of-the-Art Technology: Ensuring precision in every procedure",
                         "Highly Skilled Specialists: Dedicated to achieving the best outcomes",
+                        "Patient-Centric Approach: Tailored treatments that address your specific needs",
                         "Compassionate Care: A welcoming environment that prioritizes your well-being"
                     ]
                 },
@@ -829,6 +1161,54 @@
                     "features": [
                         "Don’t let gum issues compromise your smile or oral health. Take the first step toward a healthier, more confident you.",
                         "Contact Karisma Specialist Medical Center today to schedule a consultation with our periodontal specialists and discover the difference in expert gum care."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Our Doctors",
+                    "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+                },
+                {
+                    "type": "slider-doctors",
+                    "title": "Meet Our Specialists",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 1,
+                            "name": "Dr. Hesham Nafei",
+                            "designation": "Implantologist",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": "dr-hesham-nafei"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Dr. Adel Al- Aswad",
+                            "designation": "Specialist Oral Surgeon",
+                            "image": "/assets/Images/doctors/Adel.png",
+                            "link": "dr-adel-al-aswad"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Dr. Rania Ghanem",
+                            "designation": "Prosthodontics Specialist",
+                            "image": "/assets/Images/doctors/Rania.png",
+                            "link": "dr-rania-ghanem"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Dr. Amir Magdy",
+                            "designation": "GP Dentist",
+                            "image": "/assets/Images/doctors/Amir.png",
+                            "link": "dr-amir-magdy"
+                        }
                     ]
                 }
             ]
@@ -872,16 +1252,16 @@
                     "title": "Restorative Dental Treatments: Tailored Solutions for Every Smile",
                     "description": "Explore our comprehensive range of restorative dental services, carefully designed to meet your dental health goals while enhancing the aesthetics of your smile.",
                     "features": [
-                        "Aesthetic Fillings (Composite Resin): Our tooth-colored composite fillings are the perfect solution for repairing cavities, cracks, chips, or worn teeth. Read More",
-                        "Pulp Capping Protecting the Core of Your Tooth: When a tooth has a minor infection or inflammation, pulp capping can save it without resorting to invasive procedures. Read More",
-                        "Post and Core Strengthening Severely Damaged Teeth: When a tooth is severely damaged below the gum line or lacks sufficient structure to support a crown, the post and core procedure provides a reliable solution. Read More"
+                        "Aesthetic Fillings (Composite Resin): Our tooth-colored composite fillings are the perfect solution for repairing cavities, cracks, chips, or worn teeth.",
+                        "Pulp Capping Protecting the Core of Your Tooth: When a tooth has a minor infection or inflammation, pulp capping can save it without resorting to invasive procedures.",
+                        "Post and Core Strengthening Severely Damaged Teeth: When a tooth is severely damaged below the gum line or lacks sufficient structure to support a crown, the post and core procedure provides a reliable solution."
                     ]
                 },
                 {
                     "type": "content",
                     "title": "1. Aesthetic Fillings (Composite Resin)",
                     "description": "Our tooth-colored composite fillings are the perfect solution for repairing cavities, cracks, chips, or worn teeth. These restorations blend seamlessly with your natural teeth, offering durability and an invisible finish for a flawless smile.",
-                    "heading": "Why Choose Aesthetic Fillings At Karisma Specialist Medical Center?",
+                    "heading2": "Why Choose Aesthetic Fillings At Karisma Specialist Medical Center?",
                     "features": [
                         "Preserve Your Teeth: Effectively repairs damage without requiring extraction.",
                         "Protect Against Decay: Prevents further issues by safeguarding your tooth's sensitive inner layers.",
@@ -893,7 +1273,7 @@
                     "type": "content",
                     "title": "2. Pulp Capping: Protecting the Core of Your Tooth",
                     "description": "When a tooth has a minor infection or inflammation, pulp capping can save it without resorting to invasive procedures. This gentle treatment removes the affected pulp tissue, covers the healthy portion with a special material, and allows the tooth to heal naturally.",
-                    "heading": "Why Pulp Capping Matters",
+                    "heading2": "Why Pulp Capping Matters",
                     "features": [
                         "Save Your Tooth: Keeps the natural pulp alive and functional.",
                         "Ease Discomfort: Relieves pain and prevents further infection.",
@@ -905,7 +1285,7 @@
                     "type": "content",
                     "title": "3. Post and Core: Strengthening Severely Damaged Teeth",
                     "description": "When a tooth is severely damaged below the gum line or lacks sufficient structure to support a crown, the post and core procedure provides a reliable solution. A post is inserted into the root canal for stability, and the core is built up around it. A crown is then placed to restore the tooth's strength, function, and aesthetics.",
-                    "heading": "What are the Benefits of Post and Core?",
+                    "heading2": "What are the Benefits of Post and Core?",
                     "features": [
                         "Save the Tooth: Avoid extraction by rebuilding its structure.",
                         "Create a Strong Foundation: Provides stability for your crown.",
@@ -917,7 +1297,7 @@
                     "type": "content",
                     "title": "Why Choose Karisma Specialist Medical Center for Restorative Dentistry?",
                     "description": "At Karisma Specialist Medical Center, we prioritize your comfort and satisfaction, combining advanced technology, innovative techniques, and compassionate care to ensure an exceptional dental experience.",
-                    "heading": "What Sets Us Apart At Karisma Specialist Medical Center?",
+                    "heading2": "What Sets Us Apart At Karisma Specialist Medical Center?",
                     "features": [
                         "State-of-the-Art Equipment: Ensures precision and long-lasting results.",
                         "Highly Skilled Dentists: Experienced professionals dedicated to providing personalized care.",
@@ -927,21 +1307,50 @@
                 },
                 {
                     "type": "content",
-                    "title": "Why Choose Karisma Specialist Medical Center?",
-                    "description": "At Karisma Specialist Medical Center, we combine advanced periodontal expertise with patient-focused care to deliver outstanding results. Your comfort is our priority, and our treatments are designed to be as smooth and stress-free as possible.",
-                    "heading": "What Sets Us Apart At Karisma Specialist Medical Center?",
-                    "features": [
-                        "State-of-the-Art Technology: Ensuring precision in every procedure",
-                        "Highly Skilled Specialists: Dedicated to achieving the best outcomes",
-                        "Compassionate Care: A welcoming environment that prioritizes your well-being"
-                    ]
+                    "title": "Our Doctors",
+                    "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
                 },
                 {
-                    "type": "color-content",
-                    "title": "Start Your Journey to Optimal Gum Health",
-                    "features": [
-                        "Don’t let gum issues compromise your smile or oral health. Take the first step toward a healthier, more confident you.",
-                        "Contact Karisma Specialist Medical Center today to schedule a consultation with our periodontal specialists and discover the difference in expert gum care."
+                    "type": "slider-doctors",
+                    "title": "Meet Our Specialists",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 1,
+                            "name": "Dr. Hesham Nafei",
+                            "designation": "Implantologist",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": "dr-hesham-nafei"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Dr. Adel Al- Aswad",
+                            "designation": "Specialist Oral Surgeon",
+                            "image": "/assets/Images/doctors/Adel.png",
+                            "link": "dr-adel-al-aswad"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Dr. Rania Ghanem",
+                            "designation": "Prosthodontics Specialist",
+                            "image": "/assets/Images/doctors/Rania.png",
+                            "link": "dr-rania-ghanem"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Dr. Amir Magdy",
+                            "designation": "GP Dentist",
+                            "image": "/assets/Images/doctors/Amir.png",
+                            "link": "dr-amir-magdy"
+                        }
                     ]
                 }
             ]
@@ -1002,41 +1411,41 @@
                     "listServices": [
                         {
                             "id": 1,
-                            "name": "E-Max Hollywood Smile",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "",
+                            "name": "E-Max Veneer 6D",
+                            "image": "../assets/Images/banner/about_dept/dental.png",
+                            "link": "dental/hollywood-smile-veneers",
                             "readMore": "Read More",
                             "designation": "Crafted from premium German ceramics, E-Max veneers offer exceptional durability and aesthetic appeal."
                         },
                         {
                             "id": 2,
-                            "name": "Elite (GC - 6D) Hollywood Smile",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "",
+                            "name": "Zircon Veneer",
+                            "image": "../assets/Images/banner/about_dept/dental.png",
+                            "link": "dental/hollywood-smile-veneers",
                             "readMore": "Read More",
                             "designation": "Combining German materials with American innovation, these veneers deliver precision, durability, and artistry."
                         },
                         {
                             "id": 3,
-                            "name": "GC Snow White Hollywood Smile",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "",
+                            "name": "Zircon Snow White Veneer",
+                            "image": "../assets/Images/banner/about_dept/dental.png",
+                            "link": "dental/hollywood-smile-veneers",
                             "readMore": "Read More",
                             "designation": "Experience unmatched brilliance with these revolutionary veneers, designed for captivating smiles."
                         },
                         {
                             "id": 4,
-                            "name": "Karisma Zircon Hollywood Smile",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "",
+                            "name": "Diamond Cut",
+                            "image": "../assets/Images/banner/about_dept/dental.png",
+                            "link": "dental/hollywood-smile-veneers",
                             "readMore": "Read More",
                             "designation": "Durable and stunning, these veneers provide a flawless, natural appearance for a smile that lasts."
                         },
                         {
                             "id": 5,
-                            "name": "Karisma Zircon Elite Hollywood Smile",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "",
+                            "name": "Solitaire Smile",
+                            "image": "../assets/Images/banner/about_dept/dental.png",
+                            "link": "dental/hollywood-smile-veneers",
                             "readMore": "Read More",
                             "designation": "Push the boundaries of modern dentistry with translucent, durable veneers for a dazzling finish."
                         }
@@ -1058,7 +1467,7 @@
                     "description": "Transform your smile today at Karisma Specialist Medical Center, UAE. Schedule your personalized consultation to explore our premium veneer options and let our expert team craft a smile that reflects your confidence and beauty.",
                     "features": [
                         "Location: Al Raha Walk, Al Muntazah Street, Sharjah",
-                        "Contact: +971 06 506 8777, +971 0504525189"
+                        "Contact: +971 06 506 8777"
                     ]
                 },
                 {
@@ -1081,10 +1490,31 @@
                     "doctors": [
                         {
                             "id": 1,
+                            "name": "Dr. Hesham Nafei",
+                            "designation": "Implantologist",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": "dr-hesham-nafei"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Dr. Adel Al- Aswad",
+                            "designation": "Specialist Oral Surgeon",
+                            "image": "/assets/Images/doctors/Adel.png",
+                            "link": "dr-adel-al-aswad"
+                        },
+                        {
+                            "id": 3,
                             "name": "Dr. Rania Ghanem",
                             "designation": "Prosthodontics Specialist",
                             "image": "/assets/Images/doctors/Rania.png",
                             "link": "dr-rania-ghanem"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Dr. Amir Magdy",
+                            "designation": "GP Dentist",
+                            "image": "/assets/Images/doctors/Amir.png",
+                            "link": "dr-amir-magdy"
                         }
                     ]
                 },
