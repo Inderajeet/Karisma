@@ -8,11 +8,11 @@
           "type": "banner",
           "deptName": "Slimming",
           "serviceName": "Machines",
-          "bannerImage": "../assets/Images/banner/dept_banner/slimming.png"
+          "bannerImage": "../assets/Images/depts/slimming/Machines/Machines-banner.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/slimming.png",
+          "imageUrl": "../assets/Images/depts/slimming/Machines/Machines-body-image.png",
           "imageAlt": "machines",
           "title": "Machines",
           "content": [
@@ -141,11 +141,11 @@
           "type": "banner",
           "deptName": "Slimming",
           "serviceName": "Injections",
-          "bannerImage": "../assets/Images/banner/dept_banner/slimming.png"
+          "bannerImage": "../assets/Images/depts/slimming/Injection/Injection-banner.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/slimming.png",
+          "imageUrl": "../assets/Images/depts/slimming/Injection/Injection-body-image.png",
           "imageAlt": "injections",
           "title": "Injections",
           "content": [
@@ -258,11 +258,11 @@
           "type": "banner",
           "deptName": "Slimming",
           "serviceName": "Other Services",
-          "bannerImage": "../assets/Images/banner/dept_banner/slimming.png"
+          "bannerImage": "../assets/Images/depts/slimming/Other-services/Other-services-banner.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/slimming.png",
+          "imageUrl": "../assets/Images/depts/slimming/Other-services/body-image-Other-services.png",
           "imageAlt": "other_services",
           "title": "Other Services",
           "content": [
