@@ -8,11 +8,11 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Pediatric",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/Pediatric/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": ".. /assets/Images/depts/dental/Pediatric/body-image.png",
                     "imageAlt": "Pediatric",
                     "title": "Pediatric",
                     "content": [
@@ -173,11 +173,11 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Dental Surgery",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/Dental-Surgical-Treatment/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/Dental-Surgical-Treatment/body-image.png",
                     "imageAlt": "Dental Surgery",
                     "title": "Dental Surgery",
                     "content": [
@@ -362,11 +362,11 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Implants",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/implant/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/implant/body-image.png",
                     "imageAlt": "Implants",
                     "title": "Implants",
                     "content": [
@@ -480,11 +480,11 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Orthodontics",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/ortho/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/ortho/body-image.png",
                     "imageAlt": "Orthodontics",
                     "title": "Orthodontics",
                     "content": [
@@ -616,11 +616,11 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Teeth Whitening",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/teeth-Whitening/teeth-Whitening-banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/teeth-Whitening/body-image.png",
                     "imageAlt": "Teeth Whitening",
                     "title": "Teeth Whitening",
                     "content": [
@@ -746,11 +746,11 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Mouth Rehabilitation",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/Mouth-Rehabilitation/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/Mouth-Rehabilitation/body-image.png",
                     "imageAlt": "Mouth Rehabilitation",
                     "title": "Mouth Rehabilitation",
                     "content": [
@@ -886,11 +886,11 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Root Canal Treatment",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/root-canal/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/root-canal/body-image.png",
                     "imageAlt": "Root Canal Treatment",
                     "title": "Root Canal Treatment",
                     "content": [
@@ -1027,11 +1027,11 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Oral health (Gum treatment)",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/Oral-Health/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/Oral-Health/body-image.png",
                     "imageAlt": "Oral health (Gum treatment)",
                     "title": "Oral health (Gum treatment)",
                     "content": [
@@ -1167,11 +1167,11 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Restorative Dentistry",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/Restorative-Dentistry/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/Restorative-Dentistry/body-image.png",
                     "imageAlt": "Restorative Dentistry",
                     "title": "Restorative Dentistry",
                     "content": [
@@ -1303,11 +1303,11 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Hollywood Smile (Veneers)",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/hollywood-smile/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/hollywood-smile/body-image.png",
                     "imageAlt": "Hollywood Smile (Veneers)",
                     "title": "Hollywood Smile (Veneers)",
                     "content": [

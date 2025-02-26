@@ -55,7 +55,7 @@ const About = () => {
 
   return (
     <div>
-    <DynamicBanner  deptName="About Us" serviceName="" bannerImage="https://damasmc.com/uploads/banners/bannerimage68e2318425ebbe7d65777d85eb6a11ecbabc116c.jpg" />
+    <DynamicBanner  deptName="About Us" serviceName="" bannerImage="../assets/Images/depts/About-Us/about-us-banner.png" />
   
    
       <div className="our-story-container">
