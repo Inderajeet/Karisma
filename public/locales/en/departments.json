@@ -8,11 +8,11 @@
                     "type": "banner",
                     "deptName": "Gynecology",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
+                    "bannerImage": "../assets/Images/depts/Gyne/Main-Banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
+                    "imageUrl": "../assets/Images/depts/Gyne/body-image.png",
                     "imageAlt": "Gynecology",
                     "title": "Gynecology",
                     "content": [
@@ -78,12 +78,12 @@
                     "title": "Related Services"
                 },
                 {
-                    "type": "list-services-noImage",
+                    "type": "list-services",
                     "listServices": [
                         {
                             "id": 1,
                             "name": "Bikini Whitening & Rejuvenation",
-                            "image": "../assets/Images/banner/about_dept/gyne.png",
+                            "image": "../assets/Images/depts/Gyne/BikiniWhitening&Rejuvenation/body-image.png",
                             "link": "gynecology/bikini-whitening-rejuvenation",
                             "readMore": "Read More",
                             "designation": ""
@@ -91,7 +91,7 @@
                         {
                             "id": 2,
                             "name": "Bikini Tightening - Belladona",
-                            "image": "../assets/Images/banner/about_dept/gyne.png",
+                            "image": "../assets/Images/depts/Gyne/BikiniTightening-Belladona/body-image.png",
                             "link": "gynecology/bikini-tightening-belladona",
                             "readMore": "Read More",
                             "designation": ""
@@ -99,7 +99,7 @@
                         {
                             "id": 3,
                             "name": "Plasma Injection",
-                            "image": "../assets/Images/banner/about_dept/gyne.png",
+                            "image": "../assets/Images/depts/Gyne/Plasma-Injection/body-image.png",
                             "link": "gynecology/plasma-injection",
                             "readMore": "Read More",
                             "designation": ""
@@ -107,7 +107,7 @@
                         {
                             "id": 4,
                             "name": "Gynecological filler",
-                            "image": "../assets/Images/banner/about_dept/gyne.png",
+                            "image": "../assets/Images/depts/Gyne/Gynecological-filler/body-image.png",
                             "link": "gynecology/gynecological-filler",
                             "readMore": "Read More",
                             "designation": ""
@@ -115,7 +115,7 @@
                         {
                             "id": 5,
                             "name": "Vaginal Anti-Aging Treatment",
-                            "image": "../assets/Images/banner/about_dept/gyne.png",
+                            "image": "../assets/Images/depts/Gyne/Vaginal-Anti-AGing-Treatment/body-image.png",
                             "link": "gynecology/vaginal-anti-aging-treatment",
                             "readMore": "Read More",
                             "designation": ""
@@ -123,7 +123,7 @@
                         {
                             "id": 6,
                             "name": "Cosmetic Minor Surgeries",
-                            "image": "../assets/Images/banner/about_dept/gyne.png",
+                            "image": "../assets/Images/depts/Gyne/Cosmetic-Minor-Surgeries/body-image.png",
                             "link": "gynecology/cosmetic-minor-surgeries",
                             "readMore": "Read More",
                             "designation": ""
@@ -131,7 +131,7 @@
                         {
                             "id": 7,
                             "name": "Aesthetic Gynecology",
-                            "image": "../assets/Images/banner/about_dept/gyne.png",
+                            "image": "../assets/Images/depts/Gyne/Gynecology-aesthetic/body-image.png",
                             "link": "gynecology/aesthetic-gynecology",
                             "readMore": "Read More",
                             "designation": ""
@@ -139,7 +139,7 @@
                         {
                             "id": 8,
                             "name": "Medical Gynecology / Obstetric",
-                            "image": "../assets/Images/banner/about_dept/gyne.png",
+                            "image": "../assets/Images/depts/Gyne/MedicalGynecology-Obstetric/body-image.png",
                             "link": "gynecology/obstetric",
                             "readMore": "Read More",
                             "designation": ""
@@ -183,11 +183,11 @@
                     "type": "banner",
                     "deptName": "SkinCare",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
+                    "bannerImage": "../assets/Images/depts/skincare/skincareBanner.jpg"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
+                    "imageUrl": "../assets/Images/depts/skincare/skincare body-image.png",
                     "imageAlt": "Skincare",
                     "title": "Skincare",
                     "content": [
@@ -233,12 +233,12 @@
                     "description": "Unlock the potential of radiant, flawless skin. Schedule your consultation at Karisma today and step into a world of elegance and rejuvenation, where beauty meets excellence."
                 },
                 {
-                    "type": "list-services-noImage",
+                    "type": "list-services",
                     "listServices": [
                         {
                             "id": 1,
                             "name": "Facials",
-                            "image": "../assets/Images/banner/about_dept/skincare.png",
+                            "image": "../assets/Images/depts/skincare/Facial/body-image.png",
                             "link": "skinCare/facials",
                             "readMore": "Read More",
                             "designation": ""
@@ -246,7 +246,7 @@
                         {
                             "id": 2,
                             "name": "Peeling",
-                            "image": "../assets/Images/banner/about_dept/skincare.png",
+                            "image": "../assets/Images/depts/skincare/Peeling/body-image.png",
                             "link": "skinCare/peeling",
                             "readMore": "Read More",
                             "designation": ""
@@ -254,7 +254,7 @@
                         {
                             "id": 3,
                             "name": "Mesotherapy",
-                            "image": "../assets/Images/banner/about_dept/skincare.png",
+                            "image": "../assets/Images/depts/skincare/Mesotherapy/body-image.png",
                             "link": "skinCare/mesotherapy",
                             "readMore": "Read More",
                             "designation": ""
@@ -262,7 +262,7 @@
                         {
                             "id": 4,
                             "name": "Plasma Face",
-                            "image": "../assets/Images/banner/about_dept/skincare.png",
+                            "image": "../assets/Images/depts/skincare/Plasma-Face/body-image.png",
                             "link": "skinCare/plasma-face",
                             "readMore": "Read More",
                             "designation": ""
@@ -270,7 +270,7 @@
                         {
                             "id": 6,
                             "name": "IV DRIP Glowing",
-                            "image": "../assets/Images/banner/about_dept/skincare.png",
+                            "image": "../assets/Images/depts/skincare/IV-Drip/body-image.png",
                             "link": "skinCare/iv-drip-glowing",
                             "readMore": "Read More",
                             "designation": ""
@@ -278,7 +278,7 @@
                         {
                             "id": 7,
                             "name": "Collagen Threads",
-                            "image": "../assets/Images/banner/about_dept/skincare.png",
+                            "image": "../assets/Images/depts/skincare/Collagen/body-image.png",
                             "link": "skinCare/collagen-threads",
                             "readMore": "Read More",
                             "designation": ""
@@ -286,7 +286,7 @@
                         {
                             "id": 8,
                             "name": "Piercing",
-                            "image": "../assets/Images/banner/about_dept/skincare.png",
+                            "image": "../assets/Images/depts/skincare/piercing/Piercing-Banner---Ar.png",
                             "link": "skinCare/piercing",
                             "readMore": "Read More",
                             "designation": ""
@@ -294,7 +294,7 @@
                         {
                             "id": 9,
                             "name": "Facial Machines",
-                            "image": "../assets/Images/banner/about_dept/skincare.png",
+                            "image": "../assets/Images/depts/skincare/facial-machines/Facial-machines-Banner---Ar.png",
                             "link": "skinCare/facial-machines",
                             "readMore": "Read More",
                             "designation": ""
@@ -302,7 +302,7 @@
                         {
                             "id": 10,
                             "name": "Hair Treatment",
-                            "image": "../assets/Images/banner/about_dept/skincare.png",
+                            "image": "../assets/Images/depts/skincare/hair-treatment/Hair-Treatment-Banner-En.png",
                             "link": "skinCare/hair-treatment",
                             "readMore": "Read More",
                             "designation": ""
@@ -347,11 +347,11 @@
                     "type": "banner",
                     "deptName": "Slimming",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/banner/dept_banner/slimming.png"
+                    "bannerImage": "../assets/Images/depts/slimming/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/slimming.png",
+                    "imageUrl": "../assets/Images/depts/slimming/body-image.png",
                     "imageAlt": "Slimming",
                     "title": "Slimming",
                     "content": [
@@ -413,12 +413,12 @@
                     "title": "Related Services"
                 },
                 {
-                    "type": "list-services-noImage",
+                    "type": "list-services",
                     "listServices": [
                         {
                             "id": 1,
                             "name": "Machines",
-                            "image": "../assets/Images/banner/about_dept/slimming.png",
+                            "image": "../assets/Images/depts/slimming/Machines/Machines-body-image.png",
                             "link": "slimming/machines",
                             "readMore": "Read More",
                             "designation": ""
@@ -426,7 +426,7 @@
                         {
                             "id": 2,
                             "name": "Injections",
-                            "image": "../assets/Images/banner/about_dept/slimming.png",
+                            "image": "../assets/Images/depts/slimming/Injection/Injection-body-image.png",
                             "link": "slimming/injections",
                             "readMore": "Read More",
                             "designation": ""
@@ -434,7 +434,7 @@
                         {
                             "id": 3,
                             "name": "Other Services",
-                            "image": "../assets/Images/banner/about_dept/slimming.png",
+                            "image": "../assets/Images/depts/slimming/Other services/body-image-Other-services.png",
                             "link": "slimming/other-services",
                             "readMore": "Read More",
                             "designation": ""

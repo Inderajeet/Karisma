@@ -8,11 +8,11 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Facials",
-          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
+          "bannerImage": "../assets/Images/depts/skincare/Facial/Main-Banner.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
+          "imageUrl": "../assets/Images/depts/skincare/Facial/body-image.png",
           "imageAlt": "Facials",
           "title": "Facials",
           "content": [
@@ -265,11 +265,11 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Peeling",
-          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
+          "bannerImage": "../assets/Images/depts/skincare/Peeling/Main-Banner.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
+          "imageUrl": "../assets/Images/depts/skincare/Peeling/body-image.png",
           "imageAlt": "Peeling Treatments",
           "title": "Peeling Treatments",
           "content": [
@@ -391,11 +391,11 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Mesotherapy",
-          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
+          "bannerImage": "../assets/Images/depts/skincare/Mesotherapy/Main-Banner.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
+          "imageUrl": "../assets/Images/depts/skincare/Mesotherapy/body-image.png",
           "imageAlt": "Mesotherapy",
           "title": "Mesotherapy",
           "content": [
@@ -576,11 +576,11 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Plasma Face",
-          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
+          "bannerImage": "../assets/Images/depts/skincare/Plasma-Face/Main-Banner.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
+          "imageUrl": "../assets/Images/depts/skincare/Plasma-Face/body-image.png",
           "imageAlt": "Plasma Face",
           "title": "Plasma Face",
           "content": [
@@ -779,11 +779,11 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "IV DRIP Glowing",
-          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
+          "bannerImage": "../assets/Images/depts/skincare/IV-Drip/Main-Banner.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
+          "imageUrl": "../assets/Images/depts/skincare/IV-Drip/body-image.png",
           "imageAlt": "IV DRIP Glowing",
           "title": "IV DRIP Glowing",
           "content": [
@@ -876,11 +876,11 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Collagen Threads",
-          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
+          "bannerImage": "../assets/Images/depts/skincare/Collagen/Main-Banner.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
+          "imageUrl": "../assets/Images/depts/skincare/Collagen/body-image.png",
           "imageAlt": "Collagen Threads",
           "title": "Collagen Threads",
           "content": [
@@ -973,7 +973,7 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Piercing",
-          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
+          "bannerImage": "../assets/Images/depts/skincare/piercing/Piercing-Banner---Ar.png"
         },
         {
           "type": "image-content",
@@ -1073,7 +1073,7 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Facial Machines",
-          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
+          "bannerImage": "../assets/Images/depts/skincare/facial-machines/Facial-machines-Banner---Ar.png"
         },
         {
           "type": "image-content",
@@ -1199,7 +1199,7 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Hair Treatment",
-          "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
+          "bannerImage": "../assets/Images/depts/skincare/hair-treatment/Hair-Treatment-Banner-En.png"
         },
         {
           "type": "image-content",

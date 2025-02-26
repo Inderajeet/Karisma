@@ -8,11 +8,11 @@
                     "type": "banner",
                     "deptName": "Laser Hair Removal",
                     "serviceName": "Candela GentleMax Pro",
-                    "bannerImage": "../assets/Images/banner/dept_banner/laser.png"
+                    "bannerImage": "../assets/Images/depts/laser/Candela/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/laser.png",
+                    "imageUrl": "../assets/Images/depts/laser/Candela/body-image.png",
                     "imageAlt": "Candela GentleMax Pro",
                     "title": "Candela GentleMax Pro",
                     "content": [
@@ -64,11 +64,11 @@
                     "type": "banner",
                     "deptName": "Laser Hair Removal",
                     "serviceName": "RevLite SI",
-                    "bannerImage": "../assets/Images/banner/dept_banner/laser.png"
+                    "bannerImage": "../assets/Images/depts/laser/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/laser.png",
+                    "imageUrl": "../assets/Images/depts/laser/Candela/body-image.png",
                     "imageAlt": "RevLite SI",
                     "title": "RevLite SI",
                     "content": [
