@@ -57,7 +57,7 @@ const About = () => {
     <div>
     <DynamicBanner  deptName="About Us" serviceName="" bannerImage="https://damasmc.com/uploads/banners/bannerimage68e2318425ebbe7d65777d85eb6a11ecbabc116c.jpg" />
   
-      {/* Our Story Section (Moved to Top) */}
+   
       <div className="our-story-container">
         <h2 className="title our-story-heading">{about?.our_story?.title}</h2>
         {about?.our_story?.content.map((c,i) =>{
@@ -85,7 +85,7 @@ const About = () => {
               </div>
             ))}
   
-            {/* CEO Message Section (Updated) */}
+      
             <div className="ceo-message-container">
               <div className="ceo-content">
                 <div className="ceo-image-container">
