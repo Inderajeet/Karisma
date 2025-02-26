@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { fetchAllJson } from "../../utils/fetchAllJson";
 import "../../components/Header.css";
 import "../../components/Banner.css";
-const AboutBanner = () => {
+const AboutBanner = (props) => {
   const [jsonData, setJsonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -27,11 +27,12 @@ const AboutBanner = () => {
   }
   const { images } = jsonData;
   const { contact } = images;
+  console.log(props,images)
   return (
     <>
       <div
         className="background-img"
-        style={{ backgroundImage: `url(${contact?.bannerImg})` }}
+        style={{ backgroundImage: `url(${"../assets/Images/depts/About-Us/about-us-banner.png"})` }}
       >
         <div className="img-overlay"></div> 
       </div>

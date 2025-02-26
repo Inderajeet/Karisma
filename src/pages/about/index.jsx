@@ -54,7 +54,7 @@ const About = () => {
 
   return (
     <div>
-      <AboutBanner />
+      <AboutBanner img={images?.about?.bannerImg} />
   
    
       <div className="our-story-container">
