@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 180px; /* Ensure all boxes have the same height */
+    min-height: 180px;
     padding: 10px;
   }
   
