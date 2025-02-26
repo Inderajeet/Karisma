@@ -32,7 +32,7 @@
   font-size: 18px;
   line-height: 1.6;
   /* color: rgb(92, 64, 51); */
-  text-align: justify;
+  /* text-align: justify; */
   padding: 10px;
 }
 
@@ -66,7 +66,7 @@
   font-size: 18px;
   line-height: 1.6;
   /* color: rgb(92, 64, 51); */
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .about-card-container {
@@ -108,11 +108,12 @@
 .ceo-image-container {
   flex: 1;
   text-align: center;
+  height: 100%;
 }
 
 .ceo-image-container img {
-  width: 300px;
-  height: 450px;
+  /* width: 300px; */
+  height: 527px;
   object-fit: cover;
 }
 
@@ -157,7 +158,7 @@
   }
 
   .ceo-image-container img {
-      width: 250px;
+      /* width: 250px; */
       height: 400px;
   }
 }
@@ -176,7 +177,7 @@
   }
 
   .ceo-image-container img {
-      width: 200px;
+      /* width: 200px; */
       height: 350px;
   }
 

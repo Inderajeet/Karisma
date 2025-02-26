@@ -3,7 +3,7 @@ import { fetchAllJson } from "../utils/fetchAllJson";
 import "./HomeSlider.css";
 
 const HomeSlider = () => {
-  const [data, setData] = useState(null); // Store the entire fetched data
+  const [sliderImages, setSliderImages] = useState([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const autoSlideIntervalRef = useRef(null);
   const isMounted = useRef(true);
@@ -12,13 +12,23 @@ const HomeSlider = () => {
     const fetchData = async () => {
       try {
         const fetchedData = await fetchAllJson();
+        console.log("Fetched Data:", fetchedData); // Debugging log
+    
         if (isMounted.current) {
-          setData(fetchedData); // Set the entire data object
+          const images = fetchedData?.images?.home?.sliderImages?.desktop || []; // Select desktop images
+    
+          if (Array.isArray(images) && images.length > 0) {
+            setSliderImages(images);
+          } else {
+            console.error("Invalid sliderImages structure:", images);
+            setSliderImages([]);
+          }
         }
       } catch (err) {
         console.error("Error fetching data:", err);
       }
     };
+    
 
     fetchData();
 
@@ -29,44 +39,50 @@ const HomeSlider = () => {
   }, []);
 
   useEffect(() => {
-    if (data && data.images && data.images.home && data.images.home.sliderImages && data.images.home.sliderImages.length > 0) {
+    if (sliderImages.length > 0) {
       clearInterval(autoSlideIntervalRef.current);
       autoSlideIntervalRef.current = setInterval(() => {
-        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % data.images.home.sliderImages.length);
+        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % sliderImages.length);
       }, 5000);
 
       return () => clearInterval(autoSlideIntervalRef.current);
     }
-  }, [data]); // Depend on the entire data object
+  }, [sliderImages]);
 
   const changeSlide = (direction) => {
-    if (data && data.images && data.images.home && data.images.home.sliderImages) {
+    if (sliderImages.length > 0) {
       clearInterval(autoSlideIntervalRef.current);
-      setCurrentImageIndex((prevIndex) => (prevIndex + direction + data.images.home.sliderImages.length) % data.images.home.sliderImages.length);
+      setCurrentImageIndex(
+        (prevIndex) => (prevIndex + direction + sliderImages.length) % sliderImages.length
+      );
 
       autoSlideIntervalRef.current = setInterval(() => {
-        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % data.images.home.sliderImages.length);
+        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % sliderImages.length);
       }, 5000);
     }
   };
 
-  if (!data || !data.images || !data.images.home || !data.images.home.sliderImages || data.images.home.sliderImages.length === 0) {
-    return <div>Loading...</div>; // Or "No images available"
+  if (sliderImages.length === 0) {
+    return <div>Loading...</div>; // Show loading if no images
   }
 
   return (
     <div className="background-slider">
       <div
-        className="background-image"
-        style={{ backgroundImage: `url(${data.images.home.sliderImages[currentImageIndex] || ''})` }}
+        className="background-image-slider"
+        style={{ backgroundImage: `url(${sliderImages[currentImageIndex] || ""})` }}
       ></div>
       <div className="overlay"></div>
       <div className="slider-arrows">
         <button className="slider-arrow" onClick={() => changeSlide(-1)}>
-          &lt;
+          <svg fill="#000000" height="20px" width="25px" viewBox="70 70 190 190">
+            <path d="M205.606,234.394c5.858,5.857,5.858,15.355,0,21.213C202.678,258.535,198.839,260,195,260s-7.678-1.464-10.606-4.394l-80-79.998 c-2.813-2.813-4.394-6.628-4.394-10.606c0-3.978,1.58-7.794,4.394-10.607l80-80.002c5.857-5.858,15.355-5.858,21.213,0 c5.858,5.857,5.858,15.355,0,21.213l-69.393,69.396L205.606,234.394z"></path>
+          </svg>
         </button>
         <button className="slider-arrow" onClick={() => changeSlide(1)}>
-          &gt;
+          <svg fill="#000000" height="20px" width="25px" viewBox="70 70 190 190">
+            <path d="M225.606,175.605l-80,80.002C142.678,258.535,138.839,260,135,260s-7.678-1.464-10.606-4.394c-5.858-5.857-5.858-15.355,0-21.213l69.393-69.396 l-69.393-69.392c-5.858-5.857-5.858-15.355,0-21.213c5.857-5.858,15.355-5.858,21.213,0l80,79.998 c2.814,2.813,4.394,6.628,4.394,10.606C230,168.976,228.42,172.792,225.606,175.605z"></path>
+          </svg>
         </button>
       </div>
     </div>

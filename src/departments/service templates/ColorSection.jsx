@@ -64,7 +64,7 @@ export const applyFontFallback = (text) => {
   
   
 
-  const ContentSection = ({ title, description, description2, features, heading, heading2 }) => {
+  const ColorSection = ({ title, description, description2, features, heading, heading2 }) => {
     return (
         <div className="custsectionStyle customContainer" style={{ marginTop: '30px', marginBottom: '30px' }}>
             {title &&  <h2 className="title">{applyFontFallback(title)}</h2>}
@@ -81,4 +81,4 @@ export const applyFontFallback = (text) => {
 };
 
 
-export default ContentSection;
+export default ColorSection;

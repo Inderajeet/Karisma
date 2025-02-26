@@ -50,7 +50,7 @@ const VideoSection = () => {
         //   backgroundColor: about_us["background-color"],
         // }}
       >
-        <div className="section" style={{ backgroundImage: `url(${home['video']})` }}>
+        <div className="section" >
             {/* <button className="play-button" onClick={toggleModal}>
         ▶
       </button> */}

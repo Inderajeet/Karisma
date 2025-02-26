@@ -62,7 +62,7 @@ const SliderDoct = () => {
         1200: { slidesPerView: 3 },
         1300: { slidesPerView: 3 },
       }}
-      modules={[Autoplay]}
+      // modules={[Autoplay]}
     >
       {doctors.map((doctor, index) => (
         <SwiperSlide key={doctor.id}>
@@ -70,10 +70,10 @@ const SliderDoct = () => {
             to={`/${i18n.language}/doctor/${encodeURIComponent(doctor.link)}`}
           >
             <div
-              className="service-inner"
+              className="service-inner doctor-inner"
               style={{ backgroundColor: cards["background-color"] }}
             >
-              <div className="entry-title">
+              <div className="entrye-title">
                 <h3 className="post-title-head" style={{paddingBottom: '0'}}>
                   <div
                     className="post-title"
@@ -87,7 +87,7 @@ const SliderDoct = () => {
                 </h3>
               </div>
               <div
-                className="post-excerpt"
+                className="post-excerpt  doctor-post-excerpt"
                 style={{
                   color: cards["desc-color"],
                   fontSize: cards["desc-size"],

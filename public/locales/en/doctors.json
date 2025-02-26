@@ -1,56 +1,6 @@
 {
     "doctors": [
-        {
-            "id": 1,
-            "name": "Dr. Hesham Nafei",
-            "image": "/assets/Images/doctors/hesham nafi.png",
-            "link": "",
-            "designation": "Implantologist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "M",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
-            "overview": {
-                "title": "Overview",
-                "sections": [
-                    {
-                        "subtitle": "",
-                        "items": [
-                            ""
-                        ]
-                    }
-                ]
-            },
-            "workExperience": {
-                "title": "Work Experience",
-                "items": [
-                    ""
-                ]
-            },
-            "qualifications": {
-                "title": "Qualifications",
-                "items": [
-                    ""
-                ]
-            },
-            "workingShifts": {
-                "title": "Working Shifts",
-                "flipFront1": "Sunday to Thursday",
-                "flipFrontDesc1": "10:00 AM to 8:00 PM",
-                "flipBack1": "Saturday",
-               "flipBackDesc1": "10:00 AM to 9:00 PM",
-                "flipFront2": "Address",
-                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
-                "flipBack2": "Address",
-                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
-            }
-        },
+        
         {
             "id": 2,
             "name": "Dr. Yuri Macrino",

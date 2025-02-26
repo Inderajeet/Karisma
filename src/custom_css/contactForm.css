@@ -63,7 +63,12 @@ textarea.cust-form-control {
 .cust-elementor-button span{
   color: #405D53;
 }
-.cust-elementor-button span:hover{
+
+.cea-button-wrapper .cea-button-link:hover{
+  color: white;
+}
+
+.cea-button-wrapper .cea-button-link .cea-button-text:hover{
   color: #fff !important;
 }
 .cea-button-wrapper .cea-button-link:before{

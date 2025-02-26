@@ -8,7 +8,7 @@
     padding-bottom: 0;
     position: relative;
     text-align: start;
-    box-shadow: 0px 0px 13px 0px rgb(6 6 6 / 35%);
+    /* box-shadow: 0px 0px 13px 0px rgb(6 6 6 / 35%); */
     border-radius: 10px;
 }
 
@@ -90,17 +90,18 @@ ul.nav.cust-social-icons.team-social a.social-youtube {
 .doctor-info-body{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    /* align-items: center; */
+    /* text-align: center; */
     padding: 16px 15px;
+    padding-left: 0;
 }
 
 .dd-row {
     display: flex;
     flex-wrap: wrap; /* Wrap items into the next row if they don't fit */
     gap: 20px; /* Add consistent spacing between items */
-    margin: 0 10px;
-    justify-content: space-evenly;
+    padding: 0 20px;
+    /* justify-content: space-evenly; */
   }
   
   .doctor-info-cols {
@@ -116,7 +117,7 @@ ul.nav.cust-social-icons.team-social a.social-youtube {
   @media (min-width: 768px) and (max-width: 1199px) {
     .doctor-info-cols {
         flex: 1 1 24%;
-        max-width: 48%;
+        max-width: 32%;
         padding: 0 6px;
     }
     /* .doctor-name {
@@ -129,7 +130,7 @@ ul.nav.cust-social-icons.team-social a.social-youtube {
   @media (min-width: 1200px) {
     .doctor-info-cols {
       flex: 1 1 30%; /* 3 doctors per row for desktops */
-      max-width: 30%;
+      max-width: 33%;
     }
     /* .doctor-name {
         font-size: 25px;
@@ -167,6 +168,8 @@ ul.nav.cust-social-icons.team-social a.social-youtube {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px 10px 0 10px;
+    box-shadow: 0px 0px 13px 0px rgb(6 6 6 / 35%);
 }
 
 .doctor-thumbnail img {
@@ -260,7 +263,7 @@ ul.nav.cust-social-icons.team-social a.social-youtube {
 }
 
 /* ✅ Apply styles correctly as the screen size decreases */
-@media only screen and (max-width: 1440px) {
+@media only screen and (min-width: 993px) {
     .doctor-name {
         font-size: 20px !important;
     }

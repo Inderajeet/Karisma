@@ -201,8 +201,8 @@ const Index = () => {
                       className="elementor-element elementor-element-93a2172 e-flex e-con-boxed e-con e-child"
                       data-id="93a2172"
                       data-element_type="container"
-                    >
-                      <div className="e-con-inner" style={{ justifyContent: "flex-end" }}>
+                      style={{  padding: "0" }}>
+                      <div className="e-con-inner abtBtn" style={{  padding: "0" }}>
                         <div
                           className="elementor-element elementor-element-3484564e e-con-full e-flex e-con e-child"
                           data-id="3484564e"
@@ -391,9 +391,9 @@ const Index = () => {
         </div>
 
         <div
-          className=""
+          className="home_align"
           data-id="5c6a904c"
-          data-element_type="container" style={{ backgroundColor: department['background-color'], paddingTop: '80px', paddingBottom: '80px' }}
+          data-element_type="container" style={{ backgroundColor: department['background-color'] }}
         >
           <div className="e-con-inner">
             <div
@@ -715,9 +715,9 @@ const Index = () => {
         </div>
         <VideoSection></VideoSection>
         <div
-          className=""
+          className="home_align"
           data-id="5c6a904c"
-          data-element_type="container" style={{ backgroundColor: doctors['background-color'], paddingTop: '100px', paddingBottom: '80px' }}
+          data-element_type="container" style={{ backgroundColor: doctors['background-color']}}
         >
           <div className="e-con-inner">
             <div

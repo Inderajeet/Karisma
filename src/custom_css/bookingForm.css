@@ -59,3 +59,12 @@
     }
 }
 
+#gender {
+    border: none;
+    padding: 0;
+    /* border-bottom: 1px solid; */
+    border-bottom: 2px solid #8C9990;
+
+}
+
+

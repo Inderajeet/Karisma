@@ -7,11 +7,18 @@
       "engIcon": "/assets/Images/lan/engIcon.png"
   },
   "home":{
-    "sliderImages": [
+    "sliderImages": {
+      "desktop": [
       "/assets/Images/home/1.jpeg",
       "/assets/Images/home/2.jpeg",
       "/assets/Images/home/3.jpeg"
-    ],
+      ],
+      "mobile": [
+      "/assets/Images/home/mobile_1.png",
+      "/assets/Images/home/mobile_2.png",
+      "/assets/Images/home/mobile_3.png"
+      ]
+    },
     "about1":"/assets/Images/home/about-us2.png",
     "about2":"/assets/Images/home/about-us1.png",
     "logoAnim":"/assets/Images/logo_main_2.png",
@@ -21,7 +28,7 @@
     "dental": "/assets/Images/home/dept-dental.png",
     "derma": "/assets/Images/home/dept-derma.png",
     "skinning": "/assets/Images/home/dept-skincare.png",
-    "plasticSurgery": "/assets/Images/home/dept-plastic.png",
+    "plasticSurgery": "/assets/Images/department/Plastic.png",
     "gynecology": "/assets/Images/home/dept-gyne.png",
     "slimming": "/assets/Images/home/dept-slimming.png",
     "laser": "/assets/Images/home/dept-laser.png"

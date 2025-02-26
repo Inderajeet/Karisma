@@ -83,7 +83,7 @@ export default function Footer() {
   };
 
   const copyrightText =
-    "© Copyright 2024";
+    "© Copyright 2025";
   const companyLink = { name: "", link: "/" };
 
   return (

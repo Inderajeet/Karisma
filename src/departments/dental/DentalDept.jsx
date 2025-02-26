@@ -11,6 +11,8 @@ import ListServices from "../service templates/ListServices";
 import ListServicesNoImg from "../service templates/ListServicesNoImg";
 import HeaderTitle from "../service templates/HeaderTitle";
 import DentalBanner from "./DentalBanner";
+import ColorHeading from "../service templates/ColorHeading";
+import ColorSection from "../service templates/ColorSection";
 
 const DentalDept = () => {
     const { t, i18n } = useTranslation('dentaldept');
@@ -56,8 +58,20 @@ const DentalDept = () => {
                         );
                     } else if (section.type === "color-content") {
                         return (
-                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '2rem' }}>
-                                <ContentSection
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem', paddingBottom: '1rem' }}>
+                                <ColorSection
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    description={section.description}
+                                    features={section.features}
+                                />
+                            </div>
+                        );
+                    }else if (section.type === "color-heading") {
+                        return (
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem'}}>
+                                <ColorHeading
                                     key={index}
                                     title={section.title}
                                     heading={section.heading}
@@ -132,7 +146,7 @@ const DentalDept = () => {
                 })}
                 {/* <Doctors /> */}
             </div>
-            <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '10px' }}>
+            <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '60px' }}>
                 <hr className="half-line" style={{ width: '50%', border: '0', height: '2px', backgroundColor: '#111', margin: '0' }} />
             </div>
         </>

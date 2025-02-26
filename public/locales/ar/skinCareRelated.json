@@ -363,49 +363,48 @@
                     "type": "card",
                     "cards": [
                         {
-                            "title": "How It Works",
-                            "subtitle": "Ideal for addressing:",
+                            "title": "كيف يعمل؟",
                             "features": [
-                                "Deep Cleanse & Exfoliation: A HydraFacial machine gently removes impurities, including blackheads, whiteheads, excess oil, and dead skin cells, creating a clean slate for enhanced treatment effectiveness.",
-                                "Dermapen Microneedling - Enhanced Absorption: Micro-channels created by Dermapen technology promote cell turnover and boost the absorption of lightening solutions, maximizing results.",
-                                "Melafadin Fluid - Powering Up Lightening: A potent blend of lightening agents and Vitamin C delivers multiple benefits:",
-                                "Hyperpigmentation Targeting: Acids like kojic and azelaic acid gently reduce dark spots and stubborn pigmentation.",
-                                "Brightening Effect: Vitamin C inhibits melanin production and supports cell renewal, enhancing skin brightness.",
-                                "Lasting Hydration & Radiance: The treatment finishes with hydrating serums tailored to your skin type, leaving it plump, moisturized, and glowing."
+                                "التنظيف العميق والتقشير: يزيل جهاز هايدرافيشال  الشوائب بلطف، بما في ذلك الرؤوس السوداء والرؤوس البيضاء والزيوت الزائدة وخلايا الجلد الميتة، مما يخلق أرضية نظيفة لتعزيز فعالية العلاج.",
+                                "الميكرونيدلينج بالديرما بن - امتصاص مُعزّز: تعزز القنوات الدقيقة التي تم إنشاؤها بواسطة تقنية الديرما بن تجدد الخلايا وتعزز امتصاص محلول التفتيح، مما يزيد من فعالية النتائج.",
+                                "محلول ميلافدين Melafadin - تعزيز التفتيح: يوفر مزيج قوي من عوامل التفتيح وفيتامين سي فوائد متعددة:",
+                                "استهداف فرط التصبغ: تقلل الأحماض مثل حمض الكوجيك وحمض الأزيليك البقع الداكنة والتصبغ العنيد بلطف.",
+                                "تأثير التفتيح:  يمنع فيتامين سي إنتاج الميلانين ويدعم تجدد الخلايا، مما يعزز إشراق البشرة.",
+                                "ترطيب وإشراق دائم: ينتهي العلاج باستخدام السيرومات المرطبة المصممة خصيصًا لنوع بشرتك، مما يتركها ممتلئة ورطبة ومتوهجة."
                             ]
                         },
                         {
-                            "title": "Who Can Benefit from the Whitening HydraFacial?",
-                            "subtitle": "This treatment is ideal for individuals dealing with:",
+                            "title": "من يمكنه الاستفادة من هايدرافيشال التبييض",
+                            "subtitle": "هذا العلاج مثالي للأفراد الذين يتعاملون مع:",
                             "features": [
-                                "Sun & Age Spots: Lighten the appearance of sun damage and age-related pigmentation.",
-                                "Uneven Skin Tone: Achieve a balanced, uniform complexion.",
-                                "Dull Skin: Revitalize and brighten for a luminous glow.",
-                                "Melasma: While not a cure, the treatment can help manage its appearance when combined with a proper skincare routine."
+                                "بقع الشمس وبقع الشيخوخة:  قللي ظهور تلف الشمس والتصبغ المرتبط بالعمر.",
+                                "عدم تناسق لون البشرة: احصلي على بشرة متوازنة ومتجانسة.",
+                                "البشرة الباهتة: أنعشي البشرة وأضيئيها للحصول على بريق لامع.",
+                                "الميلازما (الكلف): على الرغم من أنه ليس علاجًا، إلا أنه يمكن أن يساعد في إدارة مظهر الكلف عند دمجه مع روتين مناسب للعناية بالبشرة."
                             ]
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Gentle & Safe Approach",
+                    "title": "نهج لطيف وآمن",
                     "features": [
-                        "Customized Care: Serums and solutions are selected based on your unique skin type and needs.",
-                        "Comfortable Treatment: HydraFacial technology ensures a soothing, non-invasive experience."
+                        "رعاية مُخصّصة: يتم اختيار السيرومات والمحاليل بناءً على نوع بشرتك واحتياجاتك الفريدة.",
+                        "علاج مريح: تضمن تقنية هيدرافشال تجربة مهدئة وغير جراحية."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Precautions",
+                    "title": "احتياطات",
                     "features": [
-                        "Consultation Required: A personalized consultation with our experts will help determine if this treatment suits your needs.",
-                        "Not Suitable for Pregnancy or Breastfeeding: Due to the use of specific acids, this treatment should be avoided during pregnancy and breastfeeding."
+                        "استشارة مطلوبة: ستساعدك استشارة شخصية مع خبرائنا في تحديد ما إذا كان هذا العلاج مناسبًا لاحتياجاتك.",
+                        "غير مناسب للحمل والرضاعة: نظرًا لاستخدام أحماض معينة، يجب تجنب هذا العلاج أثناء الحمل والرضاعة الطبيعية."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Achieve Radiant, Even Skin",
-                    "description": "Discover the path to glowing, brighter skin with the Whitening HydraFacial at Karisma. Book your appointment today and experience the transformation!"
+                    "title": "احصلي على بشرة مشرقة ومتجانسة",
+                    "description": "اكتشفي الحلول لبشرة صافية وأكثر إشراقًا مع هايدرافيشال التبييض في كاريزما. احجزي موعدك اليوم واستمتعي بنقاء جمالك!"
                 }
             ]
         },
@@ -415,50 +414,58 @@
             "sections": [
                 {
                     "type": "content",
-                    "title": "Karisma Signature Facial (Caviar)"
+                    "title": "فيشال كاريزما الخاص (فيشال الكافيار)"
                 },
                 {
                     "type": "content",
-                    "title": "A Luxurious Path to Radiance",
-                    "description": "Pamper yourself with the indulgent Karisma Signature Facial (Caviar), a high-performance treatment designed to rejuvenate, nourish, and brighten normal to combination skin."
+                    "title": "دللي بشرتك وعيشي الفخامة مع كاريزما فيشال الخاص",
+                    "description": "دللي نفسك مع الفيشال الخاص من كاريزما، وهو علاج عالي الفعالية مصمم لتجديد البشرة وتغذيتها وإشراقها للبشرة العادية والمختلطة."
                 },
                 {
                     "type": "content",
-                    "title": "Step-by-Step Luxury Experience",
+                    "title": "تجربة فاخرة خطوة بخطوة:",
                     "features": [
-                        "Deep Cleanse: Begin with a thorough cleansing to remove impurities, makeup, and excess oil, creating the perfect base for enhanced product absorption.",
-                        "The Power of Caviar: HydraFacial technology ensures a soothing, non-invasive experience.A nutrient-rich caviar mask infuses your skin with:",
-                        "Deep Hydration: Caviar extract locks in moisture, leaving skin plump and refreshed.",
-                        "Improved Elasticity: Boost collagen production for firmer, more youthful skin.",
-                        "Antioxidant Protection: Shield your skin from environmental damage with powerful antioxidants.",
-                        "Vitamin C Infusion: Follow with a vitamin C mask, enhancing radiance and delivering:",
-                        "Brightening Effects: Diminish dark spots and even out skin tone.",
-                        "Collagen Boost: Support skin firmness and smoothness.",
-                        "Defense Against Damage: Protect against free radicals and maintain a youthful glow.",
-                        "Lasting Radiance: The treatment concludes with a tailored moisturizer, leaving your skin soft, supple, and luminous."
+                        "التنظيف العميق: ابدأي بتنظيف عميق لإزالة الشوائب والمكياج والزيوت الزائدة، مما يخلق القاعدة المثالية لامتصاص المنتجات المغذية.",
+                        {
+                            "title": "قوة الكافيار:: A nutrient-rich caviar mask infuses your skin with:",
+                            "items": [
+                                "ترطيب عميق: يوفر مستخلص الكافيار ترطيبًا عميقًا، مما يجعل البشرة ممتلئة ومنتعشة.",
+                                "تحسين المرونة: يعزز إنتاج الكولاجين للحصول على بشرة أكثر تماسكاً وشبابًا.",
+                                "الحماية من عوامل الأكسدة: يحمي بشرتك من التلف بفضل مضادات الأكسدة القوية."
+                            ]
+                        },
+                        {
+                            "title": "سيروم فيتامين سي: Follow with a vitamin C mask, enhancing radiance and delivering:",
+                            "items": [
+                                "إضاءة البشرة: يقلل البقع الداكنة ويُوحّد لون البشرة.",
+                                "تعزيز الكولاجين: يدعم سماكة البشرة ونعومتها.",
+                                "حماية ضد التلف: يحمي من الجذور الحرة ويحافظ على توهج الشباب."
+                            ]
+                        },
+                        "إشراق دائم: ينتهي العلاج بمرطب مصمم خصيصًا، مما يجعل بشرتك ناعمة ومرنة ومشرقة."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Who Is It For?",
-                    "description": "The Karisma Signature Facial (Caviar) is ideal for:",
+                    "title": "متى يكون فيشال كاريزما الخاص مناسب لك؟",
+                    "description": "فيشال كاريزما الخاص (فيشال الكافيار) مثالي لـ:",
                     "features": [
-                        "Normal Skin: Maintain hydration and balance for a healthy glow.",
-                        "Combination Skin: Address both dryness and oiliness with targeted, balancing care."
+                        "البشرة العادية: حافظي على الترطيب والتوازن للحصول على رونق صحي.",
+                        "البشرة المختلطة: عالجي الجفاف وزيادة الزيوت مع الرعاية المخصصة والمتوازنة."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Precautions",
+                    "title": "الاحتياطات",
                     "features": [
-                        "Allergy Alert: This treatment is not suitable for individuals with fish or shellfish allergies.",
-                        "Consultation Recommended: Speak with our skincare experts to tailor the facial to your specific needs."
+                        "تحذير الحساسية: هذا العلاج غير مناسب للأفراد الذين يعانون من حساسية للأسماك أو المأكولات البحرية..",
+                        "الاستشارة الموصى بها: تحدثي مع خبراء العناية بالبشرة لتخصيص العلاج وفقًا لاحتياجاتك المحددة."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Elevate Your Skincare Routine",
-                    "description": "Experience the unparalleled caviar and vitamin C for radiant, youthful skin. Book your Karisma Signature Facial (Caviar) at Karisma today!"
+                    "title": "ارتقي بروتين العناية بالبشرة الخاص بك",
+                    "description": "جربي قناع الكافيار الفريد من نوعه مع فيتامين سي للحصول على بشرة مشرقة وشابة. احجزي جلسة فيشال كاريزما الخاص (فيشال الكافيار) في عيادة كاريزما اليوم."
                 }
             ]
         },
@@ -607,7 +614,8 @@
                                         "Collagen Boost: Promotes firmer, smoother skin by triggering the body’s natural healing response.",
                                         "Enhanced Product Absorption: Maximizes the effectiveness of the active ingredients in the treatment."
                                     ]
-                                },{
+                                },
+                                {
                                     "title": "Eye Flash Ampoule: This advanced serum, enriched with hyaluronic acid and peptides, provides intense hydration and revitalization.",
                                     "items": [
                                         "Deep Hydration: Hyaluronic acid locks in moisture, reducing dryness and fine lines.",
@@ -1593,13 +1601,12 @@
                 {
                     "type": "content",
                     "title": "Mesotherapy for Open Pores & Acne Scars at Karisma Specialist Medical Center"
-                }, 
+                },
                 {
                     "type": "content",
                     "title": "Combat Blemishes and Achieve Smoother Skin",
                     "description": "At Karisma Specialist Medical Center, we understand the struggle to achieve a smooth and even complexion after dealing with acne. Mesotherapy for Open Pores & Acne Scars offers a targeted approach to minimize the appearance of acne scars, refine pores, and reveal a healthier, more radiant skin texture. This innovative treatment utilizes Dermapen technology and a powerful meso cocktail to tackle these concerns simultaneously, leading to a noticeably smoother and clearer complexion."
                 },
-
                 {
                     "type": "content",
                     "title": "Achieve Clearer, Smoother Skin",
@@ -1639,7 +1646,7 @@
                     "description": "Mesotherapy for Open Pores & Acne Scars typically requires a series of treatments for optimal results:",
                     "features": [
                         "3-4 Sessions: A series of 3 to 4 sessions spaced two weeks apart is recommended to achieve significant improvements.",
-                        "Maintenance: Regular maintenance sessions may be recommended to maintain results and prevent future breakouts." 
+                        "Maintenance: Regular maintenance sessions may be recommended to maintain results and prevent future breakouts."
                     ]
                 },
                 {
@@ -1665,13 +1672,12 @@
                 {
                     "type": "content",
                     "title": "TPRX Meso"
-                }, 
+                },
                 {
                     "type": "content",
                     "title": "Establishing the Power of Rejuvenation and Science",
                     "description": "At Karisma Specialist Medical Center, we’re committed to providing cutting-edge solutions for achieving a youthful, radiant, and even-toned complexion. TPRX Mesotherapy offers a groundbreaking approach to address aging skin concerns, acne, pigmentation, and fine lines. This targeted treatment utilizes Dermapen technology and a scientifically formulated TPRX solution to gently exfoliate the skin, minimize blemishes, and promote a smoother, firmer, and more youthful appearance."
                 },
-
                 {
                     "type": "content",
                     "title": "Demystifying the Power of the TPRX Formula",
@@ -1711,7 +1717,7 @@
                     "description": "Although TPRX Mesotherapy typically requires a series of treatments for optimal results, its unique composition works quickly and penetrates deep into the dermis to activate skin regeneration without harming the epidermis:",
                     "features": [
                         "3 Sessions: A series of 3 sessions spaced two weeks apart is recommended to achieve significant improvements.",
-                        "Visible Results: Most clients notice immediate changes, with skin appearing smoother, brighter, and more youthful." 
+                        "Visible Results: Most clients notice immediate changes, with skin appearing smoother, brighter, and more youthful."
                     ]
                 },
                 {
@@ -1737,7 +1743,7 @@
                 {
                     "type": "content",
                     "title": "Meso Lift"
-                }, 
+                },
                 {
                     "type": "content",
                     "title": "Reinvigorate Your Radiance",
@@ -1796,7 +1802,7 @@
                     "description": "Mesolifting typically requires an initial series of treatments, followed by maintenance sessions:",
                     "features": [
                         "Initial Sessions: 1-4 week intervals are recommended for the initial 4-6 sessions to achieve optimal results.",
-                        "Maintenance: After the initial series, maintenance sessions can be performed every 3-6 months to maintain results and sustain rejuvenated skin." 
+                        "Maintenance: After the initial series, maintenance sessions can be performed every 3-6 months to maintain results and sustain rejuvenated skin."
                     ]
                 },
                 {
@@ -1822,7 +1828,7 @@
                 {
                     "type": "content",
                     "title": "Meso Gold"
-                }, 
+                },
                 {
                     "type": "content",
                     "title": "Indulge in Luxurious Rejuvenation",
@@ -1847,7 +1853,8 @@
                             "features": [
                                 "Antioxidant Powerhouse: Chocolate is rich in antioxidants, known to combat free radical damage and promote skin health.",
                                 "Hydration Boost: Chocolate masks are packed with hydrating ingredients that leave your skin feeling plump, supple, and nourished.",
-                                "Soothing and Calming: The application of the mask provides a relaxing, spa-like experience, leaving you feeling pampered and rejuvenated."                            ]
+                                "Soothing and Calming: The application of the mask provides a relaxing, spa-like experience, leaving you feeling pampered and rejuvenated."
+                            ]
                         },
                         {
                             "title": "Targeted Eye Care for a Complete Transformation",
@@ -1870,7 +1877,7 @@
                     "description": "For an even more comprehensive approach to achieving a radiant complexion, consider combining this treatment with a HydraFacial:",
                     "features": [
                         "Deep Cleansing and Exfoliation: HydraFacial gently removes dead skin cells and impurities, preparing the skin for optimal absorption of the Meso Gold cocktail and other treatment elements.",
-                        "Enhanced Results: The combination of these treatments can lead to even more dramatic improvements in skin texture, tone, and overall radiance." 
+                        "Enhanced Results: The combination of these treatments can lead to even more dramatic improvements in skin texture, tone, and overall radiance."
                     ]
                 },
                 {
@@ -1887,7 +1894,7 @@
                 {
                     "type": "content",
                     "title": "Meso Eyes"
-                }, 
+                },
                 {
                     "type": "content",
                     "title": "Illuminate and Rejuvenate",
@@ -1932,7 +1939,7 @@
                     "description": "While Meso Eye treatment is generally safe, there are some important precautions to consider:",
                     "features": [
                         "Consultation: A consultation with a qualified dermatologist or skincare expert is essential to determine if Meso Eye is right for you and to discuss potential side effects.",
-                        "Not a One-Time Solution: Multiple sessions may be required for optimal results, and maintenance sessions are recommended to sustain the effects over time." 
+                        "Not a One-Time Solution: Multiple sessions may be required for optimal results, and maintenance sessions are recommended to sustain the effects over time."
                     ]
                 },
                 {
@@ -1949,7 +1956,7 @@
                 {
                     "type": "content",
                     "title": "Meso Lips"
-                }, 
+                },
                 {
                     "type": "content",
                     "title": "Hydrate and Enhance with the Power of Meso Lips at Karisma Specialist Medical Center",
@@ -1995,7 +2002,7 @@
                     "description": "While Meso Lips treatment is generally safe, there are some important considerations to keep in mind:",
                     "features": [
                         "Consultation: A consultation with a qualified dermatologist or skincare expert is necessary to determine if Meso Lips is suitable for you and to discuss potential side effects.",
-                        "Multiple Sessions: A series of Meso Lips sessions, typically 3, may be required to achieve the desired results." 
+                        "Multiple Sessions: A series of Meso Lips sessions, typically 3, may be required to achieve the desired results."
                     ]
                 },
                 {

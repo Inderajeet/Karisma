@@ -1,14 +1,14 @@
-/* Background slider */
-.background-slider {
+  /* Background slider */
+  .background-slider {
     /* position: fixed; */
     /* top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: -1;*/
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      z-index: -1;*/
     background-size: cover;
     background-position: center;
-    transition: background-image 0.5s ease-in-out; 
+    transition: background-image 0.5s ease-in-out;
     position: static;
     top: 0;
     left: 0;
@@ -17,15 +17,15 @@
     overflow: hidden;
     z-index: -1;
   }
-  
-  .background-image {
+
+  .background-image-slider {
     width: 100%;
     height: 118%;
     background-size: cover;
     background-position: center;
     transition: background-image 0.5s ease-in-out;
   }
-  
+
   /* Black overlay */
   .overlay {
     position: absolute;
@@ -33,10 +33,11 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); /* Black color with 50% opacity */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black color with 50% opacity */
     z-index: 1;
   }
-  
+
   /* Slider Arrows */
   .slider-arrows {
     position: sticky;
@@ -46,33 +47,112 @@
     display: flex;
     gap: 10px;
     z-index: 9;
+    justify-content: space-between;
+    padding-right: 45px;
   }
-  
+
   .slider-arrow {
-    background: rgba(0, 0, 0, 0.6);
+    /* background: rgb(64 93 83); */
+    border-radius: 50%;
     color: white;
     border: none;
     font-size: 24px;
-    padding: 10px 15px;
+    padding: 5px 10px;
     cursor: pointer;
     transition: background 0.3s ease;
   }
+
   .slider-arrow:hover {
     background: rgba(255, 255, 255, 0.8);
     color: black;
   }
+
+  /* @media(max-width:1024px) {
+    .background-slider {
+      height: 73vh;
+    }
+
+    .background-image-slider {
+      height: 100%;
+    }
+
+    .overlay {
+      height: 73vh;
+    }
+
+  } */
+  @media (min-width: 1025px) and (max-width: 1200px)  { /* Example - adjust as needed */
+    .background-slider {
+      height: 72vh; /* Adjust as needed */
+    }
+      .overlay {
+      height: 72vh; /* Adjust as needed */
+    }
   
-  @media(max-width:767px) {
-  .background-slider{
-    height: 70vh;
+    .background-image-slider {
+      min-height: 100%;
+    }
   }
-  .background-image{
-    height: 100%;
+  
+  @media (max-width: 992px) { /* Example - adjust as needed */
+    .background-slider {
+      height: 70vh; /* Adjust as needed */
+    }
+      .overlay {
+      height: 70vh; /* Adjust as needed */
+    }
+  
+    .background-image-slider {
+      min-height: 100%;
+    }
   }
-  .overlay {
-    height: 70vh;
+  
+  @media (max-width: 768px) {
+    .background-slider {
+      height: 60vh;
+    }
+      .overlay {
+      height: 60vh; /* Adjust as needed */
+    }
+  
+    .background-image-slider {
+      min-height: 100%;
+    }
   }
-  .slider-arrows {
-    padding-left: 15px;
+  
+  @media (max-width: 576px) { /* Example - adjust as needed */
+    .background-slider {
+      height: 50vh;
+    }
+      .overlay {
+      height: 50vh; /* Adjust as needed */
+    }
+  
+    .background-image-slider {
+      min-height: 100%;
+    }
   }
+  
+  @media(max-width: 555px) {
+    .slider-arrows {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  @media(max-width: 480px) {
+
+    /* Example breakpoint - adjust as needed */
+    .background-slider {
+      height: 50vh;
+      /* Adjust height for very small screens */
+    }
+
+    .overlay {
+      height: 50vh;
+    }
+
+    .background-image-slider {
+      height: 100%;
+    }
   }

@@ -3,6 +3,7 @@ import AboutBanner from "./about_banner";
 import { useTranslation } from "react-i18next";
 import "./about.css";
 import { fetchAboutContent, fetchAllJson } from "../../utils/fetchAllJson";
+import DynamicBanner from "../../components/DynamicBanner";
 
 const About = () => {
   const [loading, setLoading] = useState(true);
@@ -54,7 +55,7 @@ const About = () => {
 
   return (
     <div>
-      <AboutBanner />
+    <DynamicBanner  deptName="About Us" serviceName="" bannerImage="https://damasmc.com/uploads/banners/bannerimage68e2318425ebbe7d65777d85eb6a11ecbabc116c.jpg" />
   
       {/* Our Story Section (Moved to Top) */}
       <div className="our-story-container">
