@@ -83,7 +83,7 @@ export default function Footer() {
   };
 
   const copyrightText =
-    "© Copyright 2025";
+    "© Copyright 2025. Karisma Medical Center";
   const companyLink = { name: "", link: "/" };
 
   return (

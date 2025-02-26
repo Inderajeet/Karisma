@@ -101,7 +101,7 @@
                     "title": "Related Services"
                 },
                 {
-                    "type": "list-services",
+                    "type": "list-services-noImage",
                     "listServices": [
                         {
                             "id": 1,

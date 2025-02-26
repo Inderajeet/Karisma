@@ -11,6 +11,11 @@ import ListServices from "../service templates/ListServices";
 import ListServicesNoImg from "../service templates/ListServicesNoImg";
 import HeaderTitle from "../service templates/HeaderTitle";
 import LaserBanner from "./LaserBanner";
+import ColorHeading from "../service templates/ColorHeading";
+import ContSection from "../service templates/ContSection";
+import SubHeadingColor from "../service templates/SubHeading";
+import SubHeadingColorLast from "../service templates/SubHeadingColorLast";
+import ColorSection from "../service templates/ColorSection";
 
 const LaserDept = () => {
     const { t, i18n } = useTranslation('laserdept');
@@ -38,7 +43,21 @@ const LaserDept = () => {
                                 key={index}
                                 title={section.title}
                                 heading={section.heading}
+                                heading2={section.heading2}
                                 description={section.description}
+                                description2={section.description2}
+                                features={section.features}
+                            />
+                        );
+                    }if (section.type === "cont-content") {
+                        return (
+                            <ContSection
+                                key={index}
+                                title={section.title}
+                                heading={section.heading}
+                                heading2={section.heading2}
+                                description={section.description}
+                                description2={section.description2}
                                 features={section.features}
                             />
                         );
@@ -54,15 +73,85 @@ const LaserDept = () => {
                                 />
                             </div>
                         );
-                    } else if (section.type === "color-content") {
+                    } else if (section.type === "color-heading") {
                         return (
-                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '2rem' }}>
-                                <ContentSection
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem'}}>
+                                <ColorHeading
                                     key={index}
                                     title={section.title}
                                     heading={section.heading}
                                     description={section.description}
                                     features={section.features}
+                                />
+                            </div>
+                        );
+                    } else if (section.type === "color-content") {
+                        return (
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem', paddingBottom: '1rem' }}>
+                                <ColorSection
+                                   key={index}
+                                   title={section.title}
+                                   heading={section.heading}
+                                   heading2={section.heading2}
+                                   description={section.description}
+                                   description2={section.description2}
+                                   features={section.features}
+                                />
+                            </div>
+                        );
+                    } else if (section.type === "sub-heading-color-content") {
+                        return (
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '0rem', paddingBottom: '0rem' }}>
+                                <SubHeadingColor
+                                   key={index}
+                                   title={section.title}
+                                   heading={section.heading}
+                                   heading2={section.heading2}
+                                   description={section.description}
+                                   description2={section.description2}
+                                   features={section.features}
+                                />
+                            </div>
+                        );
+                    }else if (section.type === "sub-heading-color-content-last") {
+                        return (
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '0rem', paddingBottom: '1rem' }}>
+                                <SubHeadingColorLast
+                                   key={index}
+                                   title={section.title}
+                                   heading={section.heading}
+                                   heading2={section.heading2}
+                                   description={section.description}
+                                   description2={section.description2}
+                                   features={section.features}
+                                />
+                            </div>
+                        );
+                    }else if (section.type === "sub-heading-content-last") {
+                        return (
+                            <div style={{ paddingTop: '0rem', paddingBottom: '1rem' }}>
+                                <SubHeadingColorLast
+                                   key={index}
+                                   title={section.title}
+                                   heading={section.heading}
+                                   heading2={section.heading2}
+                                   description={section.description}
+                                   description2={section.description2}
+                                   features={section.features}
+                                />
+                            </div>
+                        );
+                    }else if (section.type === "sub-heading-content") {
+                        return (
+                            <div style={{  paddingTop: '0rem', paddingBottom: '0rem' }}>
+                                <SubHeadingColor
+                                   key={index}
+                                   title={section.title}
+                                   heading={section.heading}
+                                   heading2={section.heading2}
+                                   description={section.description}
+                                   description2={section.description2}
+                                   features={section.features}
                                 />
                             </div>
                         );
@@ -73,6 +162,18 @@ const LaserDept = () => {
                                 title={section.title}
                                 description={section.description}
                             />
+                        );
+                    } else if (section.type === "color-heading") {
+                        return (
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem'}}>
+                                <ColorHeading
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    description={section.description}
+                                    features={section.features}
+                                />
+                            </div>
                         );
                     } else if (section.type === "banner") {
                         return (

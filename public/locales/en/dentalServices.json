@@ -1337,7 +1337,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "The Karisma Touch",
                     "description": "At Karisma Specialist Medical Center, artistry meets innovation. We combine cutting-edge technology with expert craftsmanship to deliver veneers that enhance your natural beauty and reflect your personal taste. With a legacy of excellence and mastery in veneer technology, we bring world-class smile transformations to UAE, helping you radiate confidence and timeless beauty."
                 },
@@ -1451,11 +1451,6 @@
                             "link": "dr-amir-magdy"
                         }
                     ]
-                },
-                {
-                    "type": "content",
-                    "title": "Technical Details and Accessibility",
-                    "description": "Our website is optimized for a seamless user experience, featuring responsive design, fast load times, and secure browsing via HTTPS. Whether you're browsing on mobile or desktop, you’ll find all the information you need at your fingertips."
                 }
             ]
         }

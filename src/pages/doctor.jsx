@@ -18,9 +18,9 @@ export const applyFontFallback = (text) => {
   
   
 export default function Doctors() {
-  const { t, i18n } = useTranslation('doctors');
+  const { t, i18n } = useTranslation('doc');
 
-  const doctors = t('doctors:doctors', { returnObjects: true }); // Fetch the array of doctors
+  const doctors = t('doc:doc', { returnObjects: true }); // Fetch the array of doctors
 
   return (
     <>
@@ -35,7 +35,7 @@ export default function Doctors() {
                     <div className="dd-row">
                       {doctors.map((doctor) => (
                         <Link
-                        to={`/${i18n.language}/doctor/${encodeURIComponent(doctor.link)}`}
+                        to={`/${i18n.language}/${encodeURI(doctor.link)}`}
                         key={doctor.id}
                           className="doctor-info-cols"
                           style={{ cursor: "pointer" }}

@@ -149,7 +149,7 @@
                 {
                     "type": "content",
                     "title": "Our Doctors",
-                    "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+                    "description": ""
                 },
                 {
                     "type": "slider-doctors",
@@ -312,7 +312,7 @@
                 {
                   "type": "content",
                   "title": "Our Doctors",
-                  "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence.",
+                  "description": "",
                   "features": []
                 },
                 {
@@ -444,7 +444,7 @@
                 {
                     "type": "content",
                     "title": "Our Doctors",
-                    "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+                    "description": ""
                 },
                 {
                     "type": "slider-doctors",
@@ -504,11 +504,11 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Our Comprehensive Services"
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content",
                     "heading": "Eye Rejuvenation",
                     "description": "Revitalize your gaze with our specialized eye procedures:",
                     "features": [
@@ -518,7 +518,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content",
                     "heading": "Facial Refinement",
                     "description": "Rediscover your youthful contours:",
                     "features": [
@@ -530,7 +530,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content",
                     "heading": "Body Sculpting",
                     "description": "Achieve your ideal silhouette:",
                     "features": [
@@ -541,7 +541,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content-last",
                     "heading": "Breast Enhancements",
                     "description": "Tailored solutions for every need:",
                     "features": [
@@ -561,7 +561,7 @@
                 {
                     "type": "content",
                     "title": "Our Doctors",
-                    "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+                    "description": ""
                 },
                 {
                     "type": "slider-doctors",

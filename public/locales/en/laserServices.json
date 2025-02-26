@@ -49,7 +49,7 @@
                     "description": "Experience the ultra attention to detail with non-invasive treatment for hair removal solution with (Gentle Max Pro). This non-invasive treatment, enhanced with controlled cooling technology, ensures no damage to surrounding skin, ensuring an overwhelmingly comfortable sensation. As a non-surgical procedure, it requires no downtime you can resume your daily activities immediately, with a simple recommendation to avoid sun exposure post-treatment.​"
                 },
                 {
-                    "type": "center-content",
+                    "type": "color-content",
                     "title": "Take the First Step Toward Smooth Skin",
                     "description": "Schedule your session today to explore how the Candela GentleMax Pro can transform your skincare routine. Achieve lasting smoothness and confidence with our expert team guiding you every step of the way.",
                     "features": []
@@ -152,7 +152,7 @@
                     ]
                 },
                 {
-                    "type": "color-content",
+                    "type": "content",
                     "title": "IQ",
                     "features": [
                         "Innovative Skintel technology and intuitive user interface Power",
@@ -162,7 +162,7 @@
                     ]
                 },
                 {
-                    "type": "color-content",
+                    "type": "sub-heading-color-content",
                     "title": "Benefits",
                     "features": [
                         "Fast treatments to maximize potential ROI",
@@ -172,7 +172,7 @@
                     ]
                 },
                 {
-                    "type": "color-content",
+                    "type": "sub-heading-color-content-last",
                     "title": "What it cures?",
                     "features": [
                         "Hair removal",
