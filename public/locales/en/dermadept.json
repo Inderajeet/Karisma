@@ -44,21 +44,21 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Confidence, Tailored to You",
                     "description": "At Karisma Specialist Medical Center, we understand that confidence is deeply personal. Our personalized approach ensures each client receives a personalized treatment plan that celebrates and enhances their natural beauty, inside and out."
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Beauty Beyond Aesthetics",
                     "description": "We don’t just transform appearances; we empower you to embrace your uniqueness and achieve your goals with unwavering confidence. With state-of-the-art facilities and a passionate team, we’re dedicated to providing the highest standard of care for a truly transformative experience."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content-last",
                     "heading": "Begin your journey to self-discovery and radiant beauty today. Schedule your consultation with Karisma Specialist Medical Center."
                 },
                 {
-                    "type": "color-content",
+                    "type": "color-heading",
                     "title": "Related Services"
                 },
                 {
