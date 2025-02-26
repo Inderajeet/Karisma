@@ -38,7 +38,7 @@ export default function ListServices({ services }) {
 
                               style={{ cursor: "pointer" }}
                             >
-                              <div className="cust-doctor-info-wrap">
+                              <div className="cust-doctor-info-wrap service-info-wrap">
                                 <div className="listServiceImg">
                                   <img
                                     loading="lazy"

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"; // For navigation
 import { useTranslation } from "react-i18next";
 import Banner from "../components/Banner";
 import BannerDoctor from '../components/Bannerdoctor';
+import DynamicBanner from '../components/DynamicBanner';
 
 export const applyFontFallback = (text) => {
     if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
@@ -15,6 +16,7 @@ export const applyFontFallback = (text) => {
     );
   };
   
+  
 export default function Doctors() {
   const { t, i18n } = useTranslation('doctors');
 
@@ -22,8 +24,8 @@ export default function Doctors() {
 
   return (
     <>
-    <BannerDoctor />
-      <div className="docContainer" style={{ marginTop: "50px" }}>
+    <DynamicBanner  deptName="Our Doctors" serviceName="" bannerImage="https://damasmc.com/uploads/banners/bannerimage68e2318425ebbe7d65777d85eb6a11ecbabc116c.jpg" />
+    <div className="docContainer" style={{ marginTop: "50px" }}>
         <div className="col-md-12 order-md-2">
           <div className="post-inner">
             <div className="entry-content">
@@ -33,8 +35,8 @@ export default function Doctors() {
                     <div className="dd-row">
                       {doctors.map((doctor) => (
                         <Link
-                          to={`/${i18n.language}/doctor/${encodeURIComponent(doctor.link)}`}
-                          key={doctor.id}
+                        to={`/${i18n.language}/doctor/${encodeURIComponent(doctor.link)}`}
+                        key={doctor.id}
                           className="doctor-info-cols"
                           style={{ cursor: "pointer" }}
                         >
@@ -68,6 +70,9 @@ export default function Doctors() {
                 </div>
               </div>
             </div>
+            <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center' }}>
+          <hr className="half-line" style={{ width: '50%', border: '0', height: '2px', backgroundColor: '#111', margin: '0' }} />
+        </div>
           </div>
         </div>
       </div>

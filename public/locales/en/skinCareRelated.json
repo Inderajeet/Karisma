@@ -427,14 +427,22 @@
                     "title": "Step-by-Step Luxury Experience",
                     "features": [
                         "Deep Cleanse: Begin with a thorough cleansing to remove impurities, makeup, and excess oil, creating the perfect base for enhanced product absorption.",
-                        "The Power of Caviar: HydraFacial technology ensures a soothing, non-invasive experience.A nutrient-rich caviar mask infuses your skin with:",
-                        "Deep Hydration: Caviar extract locks in moisture, leaving skin plump and refreshed.",
-                        "Improved Elasticity: Boost collagen production for firmer, more youthful skin.",
-                        "Antioxidant Protection: Shield your skin from environmental damage with powerful antioxidants.",
-                        "Vitamin C Infusion: Follow with a vitamin C mask, enhancing radiance and delivering:",
-                        "Brightening Effects: Diminish dark spots and even out skin tone.",
-                        "Collagen Boost: Support skin firmness and smoothness.",
-                        "Defense Against Damage: Protect against free radicals and maintain a youthful glow.",
+                        {
+                            "title": "The Power of Caviar:: A nutrient-rich caviar mask infuses your skin with:",
+                            "items": [
+                                "Deep Hydration: Caviar extract locks in moisture, leaving skin plump and refreshed.",
+                                "Improved Elasticity: Boost collagen production for firmer, more youthful skin.",
+                                "Antioxidant Protection: Shield your skin from environmental damage with powerful antioxidants."
+                            ]
+                        },
+                        {
+                            "title": "Vitamin C Infusion:: Follow with a vitamin C mask, enhancing radiance and delivering:",
+                            "items": [
+                                "Brightening Effects: Diminish dark spots and even out skin tone.",
+                                "Collagen Boost: Support skin firmness and smoothness.",
+                                "Defense Against Damage: Protect against free radicals and maintain a youthful glow."
+                            ]
+                        },
                         "Lasting Radiance: The treatment concludes with a tailored moisturizer, leaving your skin soft, supple, and luminous."
                     ]
                 },
@@ -607,7 +615,8 @@
                                         "Collagen Boost: Promotes firmer, smoother skin by triggering the body’s natural healing response.",
                                         "Enhanced Product Absorption: Maximizes the effectiveness of the active ingredients in the treatment."
                                     ]
-                                },{
+                                },
+                                {
                                     "title": "Eye Flash Ampoule: This advanced serum, enriched with hyaluronic acid and peptides, provides intense hydration and revitalization.",
                                     "items": [
                                         "Deep Hydration: Hyaluronic acid locks in moisture, reducing dryness and fine lines.",
@@ -1005,7 +1014,6 @@
                                 {
                                     "items": [
                                         "Pre-Filled Ampoules: Each treatment uses pre-filled, sterile ampoules containing the exclusive PINK SHOOTER solution for consistent application and maximum efficacy.",
-                                        
                                         {
                                             "title": "Powerful Ingredients",
                                             "items": [
@@ -1594,13 +1602,12 @@
                 {
                     "type": "content",
                     "title": "Mesotherapy for Open Pores & Acne Scars at Karisma Specialist Medical Center"
-                }, 
+                },
                 {
                     "type": "content",
                     "title": "Combat Blemishes and Achieve Smoother Skin",
                     "description": "At Karisma Specialist Medical Center, we understand the struggle to achieve a smooth and even complexion after dealing with acne. Mesotherapy for Open Pores & Acne Scars offers a targeted approach to minimize the appearance of acne scars, refine pores, and reveal a healthier, more radiant skin texture. This innovative treatment utilizes Dermapen technology and a powerful meso cocktail to tackle these concerns simultaneously, leading to a noticeably smoother and clearer complexion."
                 },
-
                 {
                     "type": "content",
                     "title": "Achieve Clearer, Smoother Skin",
@@ -1640,7 +1647,7 @@
                     "description": "Mesotherapy for Open Pores & Acne Scars typically requires a series of treatments for optimal results:",
                     "features": [
                         "3-4 Sessions: A series of 3 to 4 sessions spaced two weeks apart is recommended to achieve significant improvements.",
-                        "Maintenance: Regular maintenance sessions may be recommended to maintain results and prevent future breakouts." 
+                        "Maintenance: Regular maintenance sessions may be recommended to maintain results and prevent future breakouts."
                     ]
                 },
                 {
@@ -1666,13 +1673,12 @@
                 {
                     "type": "content",
                     "title": "TPRX Meso"
-                }, 
+                },
                 {
                     "type": "content",
                     "title": "Establishing the Power of Rejuvenation and Science",
                     "description": "At Karisma Specialist Medical Center, we’re committed to providing cutting-edge solutions for achieving a youthful, radiant, and even-toned complexion. TPRX Mesotherapy offers a groundbreaking approach to address aging skin concerns, acne, pigmentation, and fine lines. This targeted treatment utilizes Dermapen technology and a scientifically formulated TPRX solution to gently exfoliate the skin, minimize blemishes, and promote a smoother, firmer, and more youthful appearance."
                 },
-
                 {
                     "type": "content",
                     "title": "Demystifying the Power of the TPRX Formula",
@@ -1712,7 +1718,7 @@
                     "description": "Although TPRX Mesotherapy typically requires a series of treatments for optimal results, its unique composition works quickly and penetrates deep into the dermis to activate skin regeneration without harming the epidermis:",
                     "features": [
                         "3 Sessions: A series of 3 sessions spaced two weeks apart is recommended to achieve significant improvements.",
-                        "Visible Results: Most clients notice immediate changes, with skin appearing smoother, brighter, and more youthful." 
+                        "Visible Results: Most clients notice immediate changes, with skin appearing smoother, brighter, and more youthful."
                     ]
                 },
                 {
@@ -1738,7 +1744,7 @@
                 {
                     "type": "content",
                     "title": "Meso Lift"
-                }, 
+                },
                 {
                     "type": "content",
                     "title": "Reinvigorate Your Radiance",
@@ -1797,7 +1803,7 @@
                     "description": "Mesolifting typically requires an initial series of treatments, followed by maintenance sessions:",
                     "features": [
                         "Initial Sessions: 1-4 week intervals are recommended for the initial 4-6 sessions to achieve optimal results.",
-                        "Maintenance: After the initial series, maintenance sessions can be performed every 3-6 months to maintain results and sustain rejuvenated skin." 
+                        "Maintenance: After the initial series, maintenance sessions can be performed every 3-6 months to maintain results and sustain rejuvenated skin."
                     ]
                 },
                 {
@@ -1823,7 +1829,7 @@
                 {
                     "type": "content",
                     "title": "Meso Gold"
-                }, 
+                },
                 {
                     "type": "content",
                     "title": "Indulge in Luxurious Rejuvenation",
@@ -1848,7 +1854,8 @@
                             "features": [
                                 "Antioxidant Powerhouse: Chocolate is rich in antioxidants, known to combat free radical damage and promote skin health.",
                                 "Hydration Boost: Chocolate masks are packed with hydrating ingredients that leave your skin feeling plump, supple, and nourished.",
-                                "Soothing and Calming: The application of the mask provides a relaxing, spa-like experience, leaving you feeling pampered and rejuvenated."                            ]
+                                "Soothing and Calming: The application of the mask provides a relaxing, spa-like experience, leaving you feeling pampered and rejuvenated."
+                            ]
                         },
                         {
                             "title": "Targeted Eye Care for a Complete Transformation",
@@ -1871,7 +1878,7 @@
                     "description": "For an even more comprehensive approach to achieving a radiant complexion, consider combining this treatment with a HydraFacial:",
                     "features": [
                         "Deep Cleansing and Exfoliation: HydraFacial gently removes dead skin cells and impurities, preparing the skin for optimal absorption of the Meso Gold cocktail and other treatment elements.",
-                        "Enhanced Results: The combination of these treatments can lead to even more dramatic improvements in skin texture, tone, and overall radiance." 
+                        "Enhanced Results: The combination of these treatments can lead to even more dramatic improvements in skin texture, tone, and overall radiance."
                     ]
                 },
                 {
@@ -1888,7 +1895,7 @@
                 {
                     "type": "content",
                     "title": "Meso Eyes"
-                }, 
+                },
                 {
                     "type": "content",
                     "title": "Illuminate and Rejuvenate",
@@ -1933,7 +1940,7 @@
                     "description": "While Meso Eye treatment is generally safe, there are some important precautions to consider:",
                     "features": [
                         "Consultation: A consultation with a qualified dermatologist or skincare expert is essential to determine if Meso Eye is right for you and to discuss potential side effects.",
-                        "Not a One-Time Solution: Multiple sessions may be required for optimal results, and maintenance sessions are recommended to sustain the effects over time." 
+                        "Not a One-Time Solution: Multiple sessions may be required for optimal results, and maintenance sessions are recommended to sustain the effects over time."
                     ]
                 },
                 {
@@ -1950,7 +1957,7 @@
                 {
                     "type": "content",
                     "title": "Meso Lips"
-                }, 
+                },
                 {
                     "type": "content",
                     "title": "Hydrate and Enhance with the Power of Meso Lips at Karisma Specialist Medical Center",
@@ -1996,7 +2003,7 @@
                     "description": "While Meso Lips treatment is generally safe, there are some important considerations to keep in mind:",
                     "features": [
                         "Consultation: A consultation with a qualified dermatologist or skincare expert is necessary to determine if Meso Lips is suitable for you and to discuss potential side effects.",
-                        "Multiple Sessions: A series of Meso Lips sessions, typically 3, may be required to achieve the desired results." 
+                        "Multiple Sessions: A series of Meso Lips sessions, typically 3, may be required to achieve the desired results."
                     ]
                 },
                 {

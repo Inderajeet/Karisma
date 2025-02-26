@@ -16,7 +16,6 @@
   .home-desc-font{
     font-size: 17px !important;
     line-height: 26px !important;
-    /* text-align: justify !important; */
   }
   .home-head-font{
     font-size: 30px !important;
@@ -29,7 +28,6 @@
   animation: rotateY 3s linear infinite;
   /* Rotate along the Y-axis */
   transform-origin: center;
-  /* Rotate from the center */
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
@@ -41,7 +39,7 @@
 @media(max-width:767px) {
   .about-2 {
     display: flex;
-    align-content: end !important;
+    /* align-content: end !important; */
   }
 }
 
@@ -50,20 +48,27 @@
     display: flex;
     justify-content: center;
   }
+  .abtBtn{
+    justify-content: start !important;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .home-doct{
-    height: 368px;
+    /* height: 368px; */
+  }
+  .abtBtn{
+    justify-content: end !important;
   }
 }
 @media screen and (min-width: 1351px) {
   .home-doct{
     height: auto;
   }
+  .abtBtn{
+    justify-content: end !important;
+  }
 }
-
-
 
 @media screen and (min-width: 1024px) {
   .footer-col{
@@ -81,7 +86,6 @@
   .footer-desc{
     flex-basis: 41%;
   }
-  
 }
 
 .footer-icons{
@@ -124,4 +128,51 @@
 
 .widget ul li:first-child{
   padding-top: 4px;
+}
+
+.footerServTop{
+  padding-top: 144px;
+}
+
+.home_align{
+  padding: 80px 0;
+}
+
+@media (max-width: 549px){
+  .footerServTop{
+    padding-top: 110px;
+  }
+  .home_align{
+    padding: 30px 0;
+  }
+  
+}
+
+.entry-title{
+  height: 72px;
+}
+
+.doctor-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; /* Ensures content is evenly distributed */
+  height: 100%; /* Makes sure all cards take full height */
+}
+
+/* Force title and designation to have fixed height */
+.entrye-title {
+  min-height: 50px; /* Adjust this based on the longest name */
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-align: left;
+  border-bottom: 1px solid #dbe5e2;
+}
+
+.doctor-post-excerpt {
+  min-height: 40px; /* Adjust for longest designation */
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-align: left;
 }

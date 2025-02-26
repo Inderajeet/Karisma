@@ -72,7 +72,7 @@ const SliderDept = () => {
         <SwiperSlide key={index}>
           <div
             className="service-inner"
-            style={{ backgroundColor: cards["background-color"] }}
+            style={{ backgroundColor: cards["background-color"]}}
           >
             <div className="entry-title">
               <h3 className="post-title-head">

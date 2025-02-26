@@ -72,10 +72,10 @@ const SlidingDoct = ({ doctors, cards, isRTL }) => {
                                                             to={`/${i18n.language}/doctor/${encodeURIComponent(doctor.link)}`}
                                                         >
                                                             <div
-                                                                className="service-inner"
+                                                                className="service-inner doctor-inner"
                                                                 style={{ backgroundColor: cards["background-color"] }}
                                                             >
-                                                                <div className="entry-title">
+                                                                <div className="entrye-title">
                                                                     <h3 className="post-title-head" style={{ paddingBottom: '0' }}>
                                                                         <div
                                                                             className="post-title"
@@ -89,7 +89,7 @@ const SlidingDoct = ({ doctors, cards, isRTL }) => {
                                                                     </h3>
                                                                 </div>
                                                                 <div
-                                                                    className="post-excerpt"
+                                                                    className="post-excerpt doctor-post-excerpt"
                                                                     style={{
                                                                         color: cards["desc-color"],
                                                                         fontSize: cards["desc-size"],

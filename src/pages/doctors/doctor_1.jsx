@@ -691,7 +691,7 @@ function DoctorPage() {
                                             <div className="prev-nav-link">
                                                 <Link
                                                     to={`/${i18n.language}/doctor/${encodeURIComponent(prevDoctor.link)}`} >
-                                                    <i className="ti-arrow-left" />
+                                                    <svg width="30" height="24" fill="#000000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400.004 400.004" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"></path> </g> </g></svg>
                                                     <div>{prevDoctor.name}</div>
                                                 </Link>
                                             </div>
@@ -699,7 +699,21 @@ function DoctorPage() {
                                                 <Link
                                                     to={`/${i18n.language}/doctor/${encodeURIComponent(nextDoctor.link)}`} >
                                                     <div>{nextDoctor.name}</div>
-                                                    <i className="ti-arrow-right" />
+                                                    <svg width="30" height="24" fill="#5C4033" viewBox="0 -6.5 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                                        <g id="SVGRepo_iconCarrier">
+                                                            <title>right-arrow</title>
+                                                            <desc>Created with Sketch.</desc>
+                                                            <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                                <g id="ui-gambling-website-lined-icnos-casinoshunter" transform="translate(-1511.000000, -158.000000)" fill="#5C4033" fill-rule="nonzero">
+                                                                    <g id="1" transform="translate(1350.000000, 120.000000)">
+                                                                        <path d="M187.812138,38.5802109 L198.325224,49.0042713 L198.41312,49.0858421 C198.764883,49.4346574 198.96954,49.8946897 199,50.4382227 L198.998248,50.6209428 C198.97273,51.0514917 198.80819,51.4628128 198.48394,51.8313977 L198.36126,51.9580208 L187.812138,62.4197891 C187.031988,63.1934036 185.770571,63.1934036 184.990421,62.4197891 C184.205605,61.6415481 184.205605,60.3762573 184.990358,59.5980789 L192.274264,52.3739093 L162.99947,52.3746291 C161.897068,52.3746291 161,51.4850764 161,50.3835318 C161,49.2819872 161.897068,48.3924345 162.999445,48.3924345 L192.039203,48.3917152 L184.990421,41.4019837 C184.205605,40.6237427 184.205605,39.3584519 184.990421,38.5802109 C185.770571,37.8065964 187.031988,37.8065964 187.812138,38.5802109 Z" id="right-arrow"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
                                                 </Link>
                                             </div>
                                             {/* </div> */}
@@ -716,9 +730,7 @@ function DoctorPage() {
                     {/* .col */}
                 </div>
                 {/* .row */}
-            <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '10px' }}>
-                <hr className="half-line" style={{ width: '50%', border: '0', height: '2px', backgroundColor: '#111', margin: '0' }} />
-            </div>
+
             </div>
         </>
 

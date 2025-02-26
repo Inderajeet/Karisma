@@ -44,7 +44,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Pulpotomy: Preserving Nature’ss Design for Healthy Smiles",
                     "description": "Pulpotomy is a sophisticated nerve treatment for primary (baby) teeth. This procedure delicately addresses inflamed pulp tissue while preserving the tooth’s vital root structure. It is an excellent option for maintaining the integrity of your child’s natural tooth shape.",
                     "heading2": "Benefits of Pulpotomy:",
@@ -66,7 +66,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Dental Fillings for Children: Exploring Composite and Amalgam Solutions",
                     "description": "Fillings are essential for treating cavities and preventing further decay in children's teeth. We offer both composite fillings (tooth-colored) and amalgam fillings (durable, ideal for back teeth). These solutions ensure your child’s smile remains beautiful and aesthetically pleasing while maintaining long-term oral health.",
                     "heading2": "Key Benefits of Fillings:",
@@ -88,7 +88,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Prophylactic Fillings (Sealants): Proactive Cavity Prevention",
                     "description": "Our preventive dental care includes the application of sealants to safeguard vulnerable permanent molars. This advanced procedure creates a protective barrier against bacteria and food particles that cause cavities, helping to prevent dental decay from the start.",
                     "heading2": "Benefits of Dental Sealants:",
@@ -110,13 +110,13 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Advanced Pediatric Care Meets Comfort at Karisma Specialist Medical Center",
                     "description": "At Karisma Specialist Medical Center, we combine cutting-edge dental technology with a child-friendly, comforting environment. Our expert pediatric dentists utilize the latest techniques to ensure that every visit is a positive experience for your child. We make dental care fun, effective, and stress-free for your little one.",
                     "features": []
                 },
                 {
-                    "type": "center-content",
+                    "type": "sub-heading-color-content-last",
                     "title": "Start Your Child’s Journey to Exceptional Oral Health",
                     "description": "Give your child the foundation for a lifetime of healthy, confident smiles. Contact Karisma Specialist Medical Center today to schedule a consultation with our expert pediatric dentists. Let us guide your child towards excellent oral health and a beautiful smile for years to come.",
                     "features": []
@@ -139,13 +139,7 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
+                        
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -215,18 +209,18 @@
                     ]
                 },
                 {
-                    "type": "content",
-                    "title": "1. Precision Tooth Extraction: Simple and Surgical Solutions",
+                    "type": "color-heading",
+                    "title": "Precision Tooth Extraction: Simple and Surgical Solutions",
                     "heading": "Simple Extraction",
                     "description": "For teeth that are easily accessible with minimal root involvement, we use refined techniques combined with advanced local anesthesia to ensure a pain-free and efficient procedure."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-color-content",
                     "heading": "Surgical Extraction",
                     "description": "For cases involving impacted teeth, fractured dental structures, or intricate root systems, our oral surgeons employ minimally invasive surgical techniques. This involves precise incisions in the gum tissue for careful and complete removal."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-color-content-last",
                     "heading": "Key Benefits:",
                     "features": [
                         "Removes compromised dental structures efficiently",
@@ -235,18 +229,18 @@
                     ]
                 },
                 {
-                    "type": "content",
-                    "title": "2. Wisdom Teeth Extraction: Expertly Managed for Your Comfort",
+                    "type": "cont-content",
+                    "title": "Wisdom Teeth Extraction: Expertly Managed for Your Comfort",
                     "heading": "Simple Wisdom Tooth Extraction",
                     "description": "Fully erupted wisdom teeth with minimal complexity are removed using a streamlined, comfortable process."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content",
                     "heading": "Surgical Wisdom Tooth Extraction",
                     "description": "For impacted or partially erupted wisdom teeth, we use advanced surgical techniques. This includes a skillfully crafted incision in the gum and bone to facilitate seamless removal."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content-last",
                     "heading": "Advantages:",
                     "features": [
                         "Prevents complications such as infection and overcrowding",
@@ -255,12 +249,12 @@
                     ]
                 },
                 {
-                    "type": "content",
-                    "title": "3. Apicectomy: Preserving Natural Teeth with Surgical Precision",
+                    "type": "color-heading",
+                    "title": "Apicectomy: Preserving Natural Teeth with Surgical Precision",
                     "description": "An apicectomy is an advanced procedure designed to save teeth with persistent root-tip infections. This involves the removal of the infected apex and surrounding tissue, followed by sealing the root with premium materials to ensure long-term health and stability."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-color-content-last",
                     "heading": "Key Benefits:",
                     "features": [
                         "Preserves your natural tooth structure",
@@ -269,12 +263,12 @@
                     ]
                 },
                 {
-                    "type": "content",
-                    "title": "4. Gingivectomy: Achieving Perfect Gum Aesthetics",
+                    "type": "cont-content",
+                    "title": "Gingivectomy: Achieving Perfect Gum Aesthetics",
                     "description": "A gingivectomy is ideal for improving smile aesthetics by removing excess gum tissue. This procedure reveals more tooth surfaces and creates a balanced, symmetrical gum line for a confident and beautiful smile."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content-last",
                     "heading": "Advantages:",
                     "features": [
                         "Enhances the aesthetics of your smile through precise gum contouring",
@@ -283,12 +277,12 @@
                     ]
                 },
                 {
-                    "type": "content",
-                    "title": "5. Incision and Drainage: Immediate Relief for Dental Abscesses",
+                    "type": "color-heading",
+                    "title": "Incision and Drainage: Immediate Relief for Dental Abscesses",
                     "description": "When dental abscesses occur, our experts use incision and drainage techniques to provide swift relief. A precise incision is made to allow drainage of the abscess, followed by thorough cleaning and disinfection to prevent further complications."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-color-content-last",
                     "heading": "Benefits:",
                     "features": [
                         "Offers immediate relief from pain and swelling",
@@ -334,13 +328,7 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
+                       
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -409,24 +397,20 @@
                         "Unmatched Durability: Dental implants can last a lifetime with proper care, making them a long-term investment.",
                         "Jawbone Preservation: Stimulate your jawbone to prevent bone loss, a common issue with missing teeth.",
                         "Better Oral Health: Protect your remaining teeth by maintaining alignment and preventing neighboring teeth from shifting."
-                    ]
+                    ],
+                    "description2": "By choosing dental implants, you’re investing in a solution that not only restores your smile but also protects your long-term oral health."
+
                 },
                 {
-                    "type": "content",
-                    "description": "By choosing dental implants, you’re investing in a solution that not only restores your smile but also protects your long-term oral health."
-                },
-                {
-                    "type": "center-content",
+                    "type": "color-content",
                     "title": "Why Choose Karisma Specialist Medical Center for Dental Implants?",
-                    "description": "At Karisma Specialist Medical Center, we offer a comprehensive approach to dental implant treatments, catering to individuals with a wide range of needs. Our team of implant specialists provides tailored solutions to help you achieve your dream smile."
-                },
-                {
-                    "type": "content",
-                    "heading": "Who Can Get Dental Implants?",
+                    "description": "At Karisma Specialist Medical Center, we offer a comprehensive approach to dental implant treatments, catering to individuals with a wide range of needs. Our team of implant specialists provides tailored solutions to help you achieve your dream smile.",
+                    "heading2": "Who Can Get Dental Implants?",
                     "features": [
                         "Most adults with missing teeth are excellent candidates for dental implants. While the minimum age for implant placement is typically 18 (when jawbone development is complete), our experienced team will evaluate your specific needs during your consultation to ensure you’re a suitable candidate.",
                         "Take the first step toward a confident smile today. Contact Karisma Specialist Medical Center to schedule your personalized dental implant consultation and begin your journey to a better quality of life."
                     ]
+
                 },
                 {
                     "type": "content",
@@ -438,13 +422,11 @@
                     ]
                 },
                 {
-                    "type": "content",
-                    "title": "Experience the Karisma Difference",
-                    "description": "Choose Karisma Specialist Medical Center for your dental implant needs and experience unparalleled care and advanced technology. Whether you're replacing one tooth or an entire set, our skilled team is here to help you achieve a smile that's beautiful, functional, and built to last."
-                },
-                {
                     "type": "color-content",
-                    "description": "Ready to restore your smile with dental implants? Call Karisma Specialist Medical Center today to schedule your consultation. Let us help you achieve the confident, healthy smile you deserve!"
+                    "title": "Experience the Karisma Difference",
+                    "description": "Choose Karisma Specialist Medical Center for your dental implant needs and experience unparalleled care and advanced technology. Whether you're replacing one tooth or an entire set, our skilled team is here to help you achieve a smile that's beautiful, functional, and built to last.",
+                    "description2": "Ready to restore your smile with dental implants? Call Karisma Specialist Medical Center today to schedule your consultation. Let us help you achieve the confident, healthy smile you deserve!"
+
                 },
                 {
                     "type": "content",
@@ -464,13 +446,7 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
+                       
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -552,7 +528,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Orthodontic Treatment Options at Karisma Specialist Medical Center",
                     "description": "At Karisma Specialist Medical Center, we offer a range of premier orthodontic solutions, carefully designed to suit your lifestyle and preferences:",
                     "features": [
@@ -606,13 +582,7 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
+                        
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -688,12 +658,12 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-heading",
                     "title": "Discover the Best Whitening Solution for You in the UAE",
                     "description": "During your Session at Karisma Specialist Medical Center, conveniently located in the UAE, our cosmetic dental experts will thoroughly evaluate your teeth and discuss your goals to recommend the most suitable whitening solution."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-color-content",
                     "heading": "In-Clinic Whitening",
                     "description": "This premium option is ideal for:",
                     "features": [
@@ -703,7 +673,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-color-content-last",
                     "heading": "Home Teeth Whitening Kits",
                     "description": "We are with you everywhere:",
                     "features": [
@@ -742,13 +712,7 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
+                       
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -831,7 +795,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "The Transformative Benefits of Full Mouth Rehabilitation",
                     "description": "Indulging in Full Mouth Rehabilitation at Karisma Specialist Medical Center offers a wide array of benefits designed to enrich your oral health and enhance your overall lifestyle:",
                     "features": [
@@ -848,7 +812,7 @@
                     "description": "At Karisma Specialist Medical Center in the UAE, we prioritize your personal journey and aspirations. Through an individualized consultation and comprehensive examination, we meticulously develop a tailored Full Mouth Rehabilitation plan that aligns with your esteemed expectations and lifestyle."
                 },
                 {
-                    "type": "center-content",
+                    "type": "color-content",
                     "title": "Book Your Exclusive Full Mouth Rehabilitation Consultation Today!",
                     "description": "Don’t let missing or damaged teeth undermine your exceptional smile and lifestyle. Contact Karisma Specialist Medical Center in the UAE today to arrange a consultation with our distinguished Full Mouth Rehabilitation specialists. Join us in crafting a personalized treatment plan designed to restore the functionality, elegance, and confidence that your smile deserves."
                 },
@@ -888,13 +852,7 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
+                        
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -974,7 +932,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Root Canal Retreatment: When Is It Necessary?",
                     "description": "Occasionally, root canal retreatment is required if the initial procedure fails or if new issues arise. Some common reasons for retreatment include:",
                     "features": [
@@ -984,7 +942,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content-last",
                     "heading": "Symptoms Indicating the Need for Retreatment:",
                     "features": [
                         "Persistent pain or sensitivity in the tooth.",
@@ -993,7 +951,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Root Canal Treatment at Karisma Specialist Medical Center: Your Premier Choice in UAE",
                     "description": "At Karisma Specialist Medical Center, we go beyond basic dental care to offer a truly premium root canal treatment experience. Our UAE-based clinic is equipped with the latest dental technology, ensuring that you receive the most efficient, comfortable, and effective treatment.",
                     "heading2": "Here’s what you can expect from us:",
@@ -1019,10 +977,6 @@
                 },
                 {
                     "type": "content",
-                    "description": ""
-                },
-                {
-                    "type": "content",
                     "title": "Our Doctors",
                     "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
                 },
@@ -1039,13 +993,7 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
+                       
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -1115,8 +1063,8 @@
                     "description": "Discover our range of cutting-edge periodontal treatments, meticulously designed to cater to your unique needs and deliver exceptional results."
                 },
                 {
-                    "type": "content",
-                    "title": "1. Halitosis Management: Restoring Freshness and Confidence",
+                    "type": "color-content",
+                    "title": "Halitosis Management: Restoring Freshness and Confidence",
                     "description": "Chronic bad breath is caused by (halitosis)and can affect social interactions and self-confidence. Often linked to periodontal disease, it requires a precise approach. Our experts use advanced diagnostic tools to identify the root cause and craft a personalized treatment plan, including professional periodontal therapy and disease management.",
                     "heading2": "Benefits of Halitosis Management:",
                     "features": [
@@ -1127,7 +1075,7 @@
                 },
                 {
                     "type": "content",
-                    "title": "2. Deep Scaling and Polishing: Non-Surgical Gum Therapy",
+                    "title": "Deep Scaling and Polishing: Non-Surgical Gum Therapy",
                     "description": "Ideal for mild to moderate gum concerns, this non-invasive procedure removes plaque and tartar both above and below the gumline. It leaves teeth and gums refreshed, clean, and healthy.",
                     "heading2": "Advantages of Deep Scaling and Polishing:",
                     "features": [
@@ -1137,8 +1085,8 @@
                     ]
                 },
                 {
-                    "type": "content",
-                    "title": "3. Deep Scaling & Root Planing: Advanced Periodontal Refreshness",
+                    "type": "color-content",
+                    "title": "Deep Scaling & Root Planing: Advanced Periodontal Refreshness",
                     "description": "For patients with moderate to advanced periodontal disease, this intensive treatment involves the thorough removal of plaque and tartar from the teeth. The roots are also smoothed to discourage bacteria from recolonizing, promoting gum reattachment and healing.",
                     "heading2": "Key Benefits:",
                     "features": [
@@ -1185,13 +1133,7 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
+                        
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -1262,8 +1204,8 @@
                     ]
                 },
                 {
-                    "type": "content",
-                    "title": "1. Aesthetic Fillings (Composite Resin)",
+                    "type": "color-content",
+                    "title": "Aesthetic Fillings (Composite Resin)",
                     "description": "Our tooth-colored composite fillings are the perfect solution for repairing cavities, cracks, chips, or worn teeth. These restorations blend seamlessly with your natural teeth, offering durability and an invisible finish for a flawless smile.",
                     "heading2": "Why Choose Aesthetic Fillings At Karisma Specialist Medical Center?",
                     "features": [
@@ -1275,7 +1217,7 @@
                 },
                 {
                     "type": "content",
-                    "title": "2. Pulp Capping: Protecting the Core of Your Tooth",
+                    "title": "Pulp Capping: Protecting the Core of Your Tooth",
                     "description": "When a tooth has a minor infection or inflammation, pulp capping can save it without resorting to invasive procedures. This gentle treatment removes the affected pulp tissue, covers the healthy portion with a special material, and allows the tooth to heal naturally.",
                     "heading2": "Why Pulp Capping Matters",
                     "features": [
@@ -1286,8 +1228,8 @@
                     ]
                 },
                 {
-                    "type": "content",
-                    "title": "3. Post and Core: Strengthening Severely Damaged Teeth",
+                    "type": "color-content",
+                    "title": "Post and Core: Strengthening Severely Damaged Teeth",
                     "description": "When a tooth is severely damaged below the gum line or lacks sufficient structure to support a crown, the post and core procedure provides a reliable solution. A post is inserted into the root canal for stability, and the core is built up around it. A crown is then placed to restore the tooth's strength, function, and aesthetics.",
                     "heading2": "What are the Benefits of Post and Core?",
                     "features": [
@@ -1327,13 +1269,7 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
+                       
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -1406,7 +1342,7 @@
                     "description": "At Karisma Specialist Medical Center, artistry meets innovation. We combine cutting-edge technology with expert craftsmanship to deliver veneers that enhance your natural beauty and reflect your personal taste. With a legacy of excellence and mastery in veneer technology, we bring world-class smile transformations to UAE, helping you radiate confidence and timeless beauty."
                 },
                 {
-                    "type": "color-content",
+                    "type": "color-heading",
                     "title": "Explore Our Veneer Options",
                     "description": "We offer a range of veneer solutions to suit your preferences:"
                 },
@@ -1466,7 +1402,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Book Your Exclusive Consultation",
                     "description": "Transform your smile today at Karisma Specialist Medical Center, UAE. Schedule your personalized consultation to explore our premium veneer options and let our expert team craft a smile that reflects your confidence and beauty.",
                     "features": [
@@ -1492,13 +1428,7 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
+                        
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",

@@ -55,7 +55,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Comprehensive Dental Care Beyond Aesthetics At Karisma Specialist Medical Center in the UAE",
                     "description": "At Karisma Specialist Medical Center, we focus on both the beauty and health of your smile with a full range of services, including:",
                     "features": [
@@ -66,7 +66,7 @@
                     ]
                 },
                 {
-                    "type": "center-content",
+                    "type": "content",
                     "title": "The Karisma Difference: Why the Elite Trust Us",
                     "description": "At Karisma Specialist Medical Center, we are committed to excellence, making us the premier choice for those who demand the best in dental care. Our dedication to customer satisfaction sets us apart as the ideal destination for exceptional dentistry.",
                     "features": [
@@ -74,7 +74,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Meet the Exceptional Team Behind Your Smile",
                     "description": "What makes your dental visit to us extraordinary and pain-free? At Karisma Specialist Medical Center, it’s our expert team that transforms routine appointments into memorable experiences.",
                     "features": [
@@ -97,11 +97,11 @@
                     ]
                 },
                 {
-                    "type": "color-content",
+                    "type": "color-heading",
                     "title": "Related Services"
                 },
                 {
-                    "type": "list-services-noImage",
+                    "type": "list-services",
                     "listServices": [
                         {
                             "id": 1,
@@ -203,13 +203,7 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
+                       
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",

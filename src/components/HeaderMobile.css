@@ -73,7 +73,7 @@ span.menu-icon {
 }
 
 .mobile-logo {
-    width: 22%;
+    width: 26%;
 }
 .header.sticky .mobile-menu {
     position: sticky;
@@ -128,7 +128,7 @@ span.menu-icon {
 }
 
 .hamburger {
-    color: wheat;
+    color: white;
 }
 
 /* When the menu is hidden during scroll */
@@ -161,5 +161,11 @@ span.menu-icon {
         justify-content: space-around;
         align-items: center;
         z-index: 50;
+    }
+}
+
+@media (min-width: 768px) {
+    .mobile-logo {
+        width: 13%;
     }
 }

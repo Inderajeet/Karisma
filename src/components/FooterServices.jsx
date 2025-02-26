@@ -41,7 +41,7 @@ const FooterServices = () => {
     return (
         <>
             {/* <Banner /> */}
-            <div className="happysmile-content-wrap container page" style={{ paddingTop: '144px' }}>
+            <div className="customContainer footerServTop">
                 {service.sections.map((section, index) => {
                     console.log('Section-services:', section.listServices);  // Debugging: log section
                     if (section.type === "content") {

@@ -31,7 +31,12 @@ textarea::placeholder, select,  input[type=date] {
     /* font-style: italic; */
     font-weight: bold;
 }
-
+input[type=date] {
+    color: #577065;
+    font-size: 16px;
+    font-weight: 700;
+    height: 55px;
+}
 input:focus::placeholder,
 textarea:focus::placeholder{
     color: #8C9990;
@@ -85,7 +90,7 @@ textarea:focus::placeholder{
 
 #gender{
     /* height: 42px; */
-    border: none;
+    /* border: none; */
     padding: 0;
 }
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Modal, Toast, Spinner } from 'react-bootstrap';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '../custom_css/bookingForm.css';
 import axios from 'axios';
 
@@ -96,6 +96,7 @@ function Booking({ showModal, handleClose }) {
                 break;
             case 'phone':
                 newErrors.phone = value && /^\d{10}$/.test(value) ? '' : 'Valid phone number is required';
+                // newErrors.phone = value ? '' : 'Phone number is required';
                 break;
             case 'preferredDate':
                 newErrors.preferredDate = value ? '' : 'Date is required';

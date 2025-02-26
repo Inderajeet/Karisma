@@ -12,6 +12,18 @@
     background-repeat: no-repeat;
   }
   
+  .section {
+    background-image: url('./video.png');
+    background-size: cover;
+    background-position: top;
+}
+
+@media (max-width: 768px) {
+    .section {
+        background-image: url('./video_mobile.png');
+    }
+}
+
   /* Play Button */
   .play-button {
     background-color: rgba(0, 0, 0, 0.6);
@@ -125,4 +137,9 @@
     color: #000;
     background-color: #fff;
   }
-  
+  @media (max-width: 549px){
+    .section{
+        margin-bottom: 0;
+        height: 45vh;
+    }
+}
