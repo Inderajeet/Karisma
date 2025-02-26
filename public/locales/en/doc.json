@@ -1,0 +1,623 @@
+{
+    "doc": [
+        {
+            "id": 1,
+            "name": "Dr. Hesham Nafei",
+            "image": "/assets/Images/doctors/hesham nafi.png",
+            "link": "",
+            "designation": "Implantologist",
+            "email":"",
+            "phone":"",
+            "website":"",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook":"",
+                "twitter":"",
+                "instagram":"",
+                "youtube":""
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "",
+                        "items": [
+                            "Dr. Yuri Macrino is an esteemed aesthetic plastic surgeon with over 3,300 aesthetic and reconstructive surgeries. With a focus on body contouring, facial rejuvenation, and breast surgery, he is renowned for his precision and commitment to natural, long lasting results. Dr. Macrino performs surgeries using advanced techniques such as Vaser and Renuvion, ensuring optimal outcomes for his patients."
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "Currently practicing as a freelance consultant across top clinics in Rome, Milan, Turin, and San Marino, Dr. Macrino has also contributed to humanitarian work with Operation Smile and Aicpe-onlus."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "He holds degrees in Aesthetic Plastic Surgery and Medicine from the University of Catania and \"La Sapienza”, Rome. As an active member of prestigious scientific societies like ISAPS, IPRAS, AICPE, and SICPRE, Dr. Macrino is dedicated to advancing the field through education and research."
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Sunday to Thursday",
+                "flipFrontDesc1": "10:00 AM to 8:00 PM",
+                "flipBack1": "Saturday",
+               "flipBackDesc1": "10:00 AM to 9:00 PM",
+                "flipFront2": "Address",
+                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
+                "flipBack2": "Address",
+                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+            }
+        }, {
+            "id": 2,
+            "name": "Dr. Yuri Macrino",
+            "image": "/assets/Images/doctors/Dr Yuri.png",
+            "link": "doctor/dr-yuri-macrino",
+            "designation": "Aesthetic plastic surgeon & consultant",
+            "email":"",
+            "phone":"",
+            "website":"",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook":"",
+                "twitter":"",
+                "instagram":"",
+                "youtube":""
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "",
+                        "items": [
+                            "Dr. Yuri Macrino is an esteemed aesthetic plastic surgeon with over 3,300 aesthetic and reconstructive surgeries. With a focus on body contouring, facial rejuvenation, and breast surgery, he is renowned for his precision and commitment to natural, long lasting results. Dr. Macrino performs surgeries using advanced techniques such as Vaser and Renuvion, ensuring optimal outcomes for his patients."
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "Currently practicing as a freelance consultant across top clinics in Rome, Milan, Turin, and San Marino, Dr. Macrino has also contributed to humanitarian work with Operation Smile and Aicpe-onlus."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "He holds degrees in Aesthetic Plastic Surgery and Medicine from the University of Catania and \"La Sapienza”, Rome. As an active member of prestigious scientific societies like ISAPS, IPRAS, AICPE, and SICPRE, Dr. Macrino is dedicated to advancing the field through education and research."
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Sunday to Thursday",
+                "flipFrontDesc1": "10:00 AM to 8:00 PM",
+                "flipBack1": "Saturday",
+               "flipBackDesc1": "10:00 AM to 9:00 PM",
+                "flipFront2": "Address",
+                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
+                "flipBack2": "Address",
+                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Dr. Mehdi Shidvash",
+            "image": "/assets/Images/doctors/mahdi.png",
+            "link": "doctor/dr-mehdi-shidvash",
+            "designation": "Aesthetic Physician",
+            "email":"",
+            "phone":"",
+            "website":"",
+            "experience": "More Than 27+ Years",
+            "socialLinks": {
+                "facebook":"",
+                "twitter":"",
+                "instagram":"",
+                "youtube":""
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "",
+                        "items": [
+                            "Dr. Shidvash is known for his patient-centered approach, combining advanced techniques with meticulous attention to detail. His philosophy emphasizes achieving natural, balanced, and long-lasting results. Patients trust him for his ability to deliver personalized care that enhances their confidence and well-being. Fluent in English, Farsi, German, and French, he continues to lead advancements in aesthetic medicine while inspiring confidence and trust among his patients. With his deep commitment to excellence and innovation, Dr. Mehdi Shidvash has become a trusted name in aesthetic medicine, both in the UAE and globally."
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "Dr. Mehdi Shidvash is a highly skilled and dedicated aesthetic physician with over 27 years of experience in cosmetic medicine. His expertise spans a wide range of procedures, tailored to meet the unique needs of his patients while maintaining the highest standards of safety and ethics. Dr. Shidvash’s extensive contributions to the field include authoring a skincare and anti-aging reference book in Iran and speaking at prestigious conferences such as IMCAS (Paris) and AMWC (Monaco)."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "He graduated from Shahid Beheshti Faculty of Medicine in 1997 and has since built an impressive career specializing in non-invasive and minimally invasive aesthetic treatments."
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Sunday to Thursday",
+                "flipFrontDesc1": "10:00 AM to 8:00 PM",
+                "flipBack1": "Saturday",
+               "flipBackDesc1": "10:00 AM to 9:00 PM",
+                "flipFront2": "Address",
+                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
+                "flipBack2": "Address",
+                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Dr. Sandro Ceci",
+            "image": "/assets/Images/doctors/Dr Sandro.png",
+            "link": "doctor/dr-sandro-ceci",
+            "designation": "Dermatologist Specialist",
+            "email":"",
+            "phone":"",
+            "website":"",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook":"",
+                "twitter":"",
+                "instagram":"",
+                "youtube":""
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "",
+                        "items": [
+                            "Dr. Sandro Ceci is a highly accomplished Dermatologist with extensive expertise in both clinical and aesthetic dermatology. Dr. Ceci specializes in a wide range of dermatological services, from diagnosing and treating skin conditions to advanced aesthetic procedures designed to rejuvenate and enhance skin health. His patient-focused approach, combined with a meticulous attention to detail, ensures personalized care that prioritizes both safety and natural results."
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "Currently practicing as a freelance consultant across top clinics in Rome, Milan, Turin, and San Marino, Dr. Macrino has also contributed to humanitarian work with Operation Smile and Aicpe-onlus. With years of experience and a commitment to staying at the forefront of advancements in dermatology, Dr. Sandro Ceci continues to provide exceptional care, inspiring confidence and improving the well-being of his patients."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "He completed his Dermatology Specialization at Fundação Técnico-Educational Souza Marques, Brazil (2006-2009), and further honed his skills in Aesthetic Medicine through an additional program at the same institution (2006-2008). Certified as a Dermatology Specialist by the Brazilian Medical Association since 2011, Dr. Ceci has become a trusted name in the field of dermatological care. In pursuit of academic excellence and research, Dr. Ceci earned a Master’s degree in Biopathology from Universiade de Uberaba, Brazil (2016-2018). His academic background underpins his evidence-based approach to dermatological treatments, ensuring that patients receive the highest standard of care."
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Sunday to Thursday",
+                "flipFrontDesc1": "10:00 AM to 8:00 PM",
+                "flipBack1": "Saturday",
+               "flipBackDesc1": "10:00 AM to 9:00 PM",
+                "flipFront2": "Address",
+                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
+                "flipBack2": "Address",
+                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Dr. Manar Magdy",
+            "image": "/assets/Images/doctors/Dr Manar.png",
+            "link": "doctor/dr-manar-magdy",
+            "designation": "Dermatologist Specialist",
+            "email":"",
+            "phone":"",
+            "website":"",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook":"",
+                "twitter":"",
+                "instagram":"",
+                "youtube":""
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "",
+                        "items": [
+                            "Dr. Manar Magdy Khalil Osman is a highly experienced Dermatology Specialist with over 15 years of expertise in both medical and cosmetic dermatology. She is known for her detailed approach to enhancing natural beauty while prioritizing patient safety and comfort."
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "She is an expert in cosmetic dermatology, offering a range of non-surgical treatments including fillers, anti-aging treatment, fat injections,microneedling, peeling, and anti-aging techniques. She also specializes in advanced non-surgical lifting techniques such as Endo lift, HIFU, and Therapy, as well as fractional laser and radiofrequency treatments. Her areas of expertise include non-surgical face lifting, nose thread lifts, under-eye thread lifts, eyebrow and neck lifting, facial rejuvenation, collagen stimulation, PRP, mesotherapy, and chemical peeling."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "She holds a Master's Degree in Dermatologic Diseases, a Bachelor’s Degree in Medicine from Cairo University, and a Diploma in Aesthetic Medicine from the American Academy."
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Sunday to Thursday",
+                "flipFrontDesc1": "10:00 AM to 8:00 PM",
+                "flipBack1": "Saturday",
+               "flipBackDesc1": "10:00 AM to 9:00 PM",
+                "flipFront2": "Address",
+                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
+                "flipBack2": "Address",
+                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Dr. Ramilia Anarkulova",
+            "image": "/assets/Images/doctors/Dr Ramila.png",
+            "link": "doctor/dr-ramilia-anarkulova",
+            "designation": "Dermatologist-Cosmetologist",
+            "email":"",
+            "phone":"",
+            "website":"",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook":"",
+                "twitter":"",
+                "instagram":"",
+                "youtube":""
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "",
+                        "items": [
+                            "Passionate about enhancing natural beauty, Ramilia specializes in Full Face Anti-Aging Treatment, Lipolytic, Russian Lips Technique, Mesotherapy, Contour Plastic, and Butt Augmentation. Her patient-centered approach, combined with precision and artistry, ensures tailored treatments that deliver safe, effective, and natural-looking results."
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "With multiple certifications in Anti-Aging Treatment, thread lifting, PRP, and other advanced techniques, Ramilia remains committed to staying at the forefront of dermatology and cosmetology. Fluent in Russian, English, Kyrgyz, Uighur, and Turkish, she provides expert care to a diverse clientele, ensuring every patient receives a customized and professional experience. Her expertise, attention to detail, and dedication to innovation have established her as a trusted name in the field of beauty and aesthetics."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "Ramilia Anarkulova is a highly skilled and dedicated Dermatologist-Cosmetologist with extensive experience in facial aesthetic procedures and non-surgical treatments. She holds a Diploma in General Medicine from I.K. Akhunbaev Kyrgyz State Medical Academy and completed her Postgraduate Residency in Dermatocosmetology, equipping her with in-depth expertise in advanced skincare and cosmetic enhancements."
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Sunday to Thursday",
+                "flipFrontDesc1": "10:00 AM to 8:00 PM",
+                "flipBack1": "Saturday",
+               "flipBackDesc1": "10:00 AM to 9:00 PM",
+                "flipFront2": "Address",
+                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
+                "flipBack2": "Address",
+                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+            }
+        },
+        {
+            "id": 7,
+            "name": "DT. Elissa Al- Ahmadieh",
+            "image": "/assets/Images/doctors/Dr Elissa.png",
+            "link": "doctor/dt-elissa-a-ahmadieh",
+            "designation": "Dietician & Nutritionist Specialist",
+            "email":"",
+            "phone":"",
+            "website":"",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook":"",
+                "twitter":"",
+                "instagram":"",
+                "youtube":""
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "",
+                        "items": [
+                            "Known for her empathetic and supportive demeanor, Elissa works closely with her clients to design practical and achievable plans that fit their unique lifestyles. Her dedication to empowering individuals to make informed dietary choices has helped many regain confidence and improve their overall well-being.",
+                            "With her extensive experience and commitment to excellence, Elissa El Ahmadieh continues to inspire positive change, making a lasting impact on the lives of her clients and advancing the field of nutrition and wellness."
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "Elissa El Ahmadieh is a highly skilled Nutritionist and Dietitian with over 7 years of experience in promoting health and wellness through personalized nutrition strategies. Elissa specializes in weight loss and body sculpting programs, combining evidence-based nutrition guidance with advanced slimming devices to help clients achieve sustainable results. Her approach focuses on offering effective, specific diets that address diverse needs, including weight management, health optimization, and lifestyle improvement."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "She holds a Bachelor’s degree in Nutrition and Dietetics from [University Name], Lebanon, and has built a reputation for her expertise in conducting comprehensive nutrition assessments and creating tailored dietary plans to meet individual health goals."
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Sunday to Thursday",
+                "flipFrontDesc1": "10:00 AM to 8:00 PM",
+                "flipBack1": "Saturday",
+               "flipBackDesc1": "10:00 AM to 9:00 PM",
+                "flipFront2": "Address",
+                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
+                "flipBack2": "Address",
+                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Dr. Adel Al- Aswad",
+            "image": "/assets/Images/doctors/Adel.png",
+            "link": "doctor/dr-adel-al-aswad",
+            "designation": "Specialist Oral Surgeon",
+            "email":"",
+            "phone":"",
+            "website":"",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook":"",
+                "twitter":"",
+                "instagram":"",
+                "youtube":""
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "",
+                        "items": [
+                            "Dr. Al-Aswad specializes in a wide range of oral surgical procedures, including dental implantology, wisdom tooth extractions, corrective jaw surgeries, and the management of complex oral conditions. His approach is grounded in a commitment to patient comfort and safety, employing the latest minimally invasive techniques to achieve optimal outcomes.",
+                            "Known for his meticulous attention to detail and empathetic care, Dr. Al-Aswad builds strong relationships with his patients, ensuring they feel confident and well-informed at every step of their treatment journey. His philosophy emphasizes restoring oral health and functionality while enhancing patients' overall quality of life.",
+                            "Dr. Adel Al-Aswad’s dedication to excellence and his patient-centered approach have established him as a trusted name in oral surgery, both regionally and internationally. Whether addressing complex surgical cases or routine procedures, his expertise continues to inspire confidence and improve the lives of his patients."
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "Dr. Adel Al-Aswad is a highly skilled and compassionate Specialist Oral Surgeon with over 24 years of experience in the field of oral and maxillofacial surgery.",
+                    "In addition to his clinical practice, Dr. Al-Aswad has made significant contributions to the field through ongoing education and professional development. He is a frequent speaker at international dental conferences and has authored several articles on advanced oral surgery techniques. Fluent in Arabic and English, he is committed to providing world-class care to patients from diverse backgrounds."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "He earned his B.S of Dental from Damascus University, Syria. laying the foundation for an exceptional career dedicated to precision, patient care, and innovation in oral health."
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Sunday to Thursday",
+                "flipFrontDesc1": "10:00 AM to 8:00 PM",
+                "flipBack1": "Saturday",
+               "flipBackDesc1": "10:00 AM to 9:00 PM",
+                "flipFront2": "Address",
+                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
+                "flipBack2": "Address",
+                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Dr. Amir Magdy",
+            "image": "/assets/Images/doctors/Amir.png",
+            "link": "doctor/dr-amir-magdy",
+            "designation": "GP Dentist",
+            "email":"",
+            "phone":"",
+            "website":"",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook":"",
+                "twitter":"",
+                "instagram":"",
+                "youtube":""
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "",
+                        "items": [
+                            "Known for his patient-centered approach, Dr. Magdy is committed to delivering personalized treatment plans that prioritize comfort and long-lasting results. Whether working with adults or children, his compassionate care and meticulous attention to detail inspire confidence and trust among his patients.",
+                            "With his deep expertise and unwavering commitment to excellence, Dr. Amir Magdy continues to transform smiles and improve oral health, making a lasting impact on his patients' well-being and self-esteem."
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "Currently practicing as a freelance consultant across top clinics in Rome, Milan, Turin, and San Marino, Dr. Macrino has also contributed to humanitarian work with Operation Smile and Aicpe-onlus."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "Licensed by the Ministry of Health (MOH) as a General Dentist, he specializes in restorative and cosmetic dentistry, laser dentistry, and root canal treatments (RCT). Dr. Magdy’s extensive expertise also includes six years of experience in pediatric dentistry and dental implants, allowing him to address a wide range of patient needs with precision and care.",
+                    "A graduate of MSA University, Egypt, with a Bachelor’s degree in Oral and Dental Surgery (BDS), Dr. Magdy is dedicated to continuous professional development. He is an active member of the Arab Society for Continuous Dental Education, where he has honed his skills in veneers, fixed prosthodontics, and laser dentistry. Additionally, as a member of the American Academy of Cosmetic Dentistry, he remains at the forefront of advancements in aesthetic and restorative dental treatments."
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Sunday to Thursday",
+                "flipFrontDesc1": "10:00 AM to 8:00 PM",
+                "flipBack1": "Saturday",
+               "flipBackDesc1": "10:00 AM to 9:00 PM",
+                "flipFront2": "Address",
+                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
+                "flipBack2": "Address",
+                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Dr. Rania Ghanem",
+            "image": "/assets/Images/doctors/Rania.png",
+            "link": "doctor/dr-rania-ghanem",
+            "designation": "Prosthodontics Specialist",
+            "email":"",
+            "phone":"",
+            "website":"",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook":"",
+                "twitter":"",
+                "instagram":"",
+                "youtube":""
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "",
+                        "items": [
+                            "Her approach focuses on combining technical expertise with patient-centered care to deliver high-quality, natural-looking results. With her extensive experience, Dr. Ghanem continues to provide outstanding care in the field of prosthodontics dentistry."
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "Dr. Rania Ahmed Radwan Ghanem is a skilled Prosthodontics Specialist with over 18 years of experience in restorative and prosthodontic dentistry.",
+                    "She is highly proficient in oral and dental treatments, including veneers, cosmetic procedures, and routine dental care. She also specializes in creating personalized oral treatment plans to ensure the best outcomes for her patients."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "She holds a Master’s Degree in Prosthodontics from Cairo University and a Bachelor’s in Dental Surgery (BDS) from Ain Shams University, Egypt. She is highly proficient in oral and dental treatments, including veneers, cosmetic procedures, and routine dental care."
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Sunday to Thursday",
+                "flipFrontDesc1": "10:00 AM to 8:00 PM",
+                "flipBack1": "Saturday",
+               "flipBackDesc1": "10:00 AM to 9:00 PM",
+                "flipFront2": "Address",
+                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
+                "flipBack2": "Address",
+                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+            }
+        },
+        {
+            "id": 11,
+            "name": "Dr. Huda Ebrahim Shaheen",
+            "image": "/assets/Images/doctors/huda.png",
+            "link": "doctor/dr-huda-ebrahim-shaheen",
+            "designation": "Obstetrics and Gynecology Specialist",
+            "email":"",
+            "phone":"",
+            "website":"",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook":"",
+                "twitter":"",
+                "instagram":"",
+                "youtube":""
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "",
+                        "items": [
+                            "As she has a broad range of services includes gynecology cosmetics, tightening, whitening, laser treatments, 2D-4D ultrasound, as well as facial aesthetics such as Anti-Aging Treatment, fillers, PRP, and mesotherapy. Her approach combines medical expertise with cosmetic enhancements to ensure comprehensive care and natural results for her patients."
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "She holds privileges from DHA and MOH for various treatments, including cosmeticgynecology, facial aesthetics, laser treatments, Anti-Aging Treatment, fillers, and mesotherapy."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "Holding a PhD in Obstetrics and Gynecology, Dr. Shaheen is dedicated to providing advanced care in both fields, with a focus on improving her patients' overall well-being and confidence."
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Sunday to Thursday",
+                "flipFrontDesc1": "10:00 AM to 8:00 PM",
+                "flipBack1": "Saturday",
+               "flipBackDesc1": "10:00 AM to 9:00 PM",
+                "flipFront2": "Address",
+                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
+                "flipBack2": "Address",
+                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+            }
+        },
+        {
+            "id": 12,
+            "name": "Naziha Al Tabaa",
+            "image": "/assets/Images/doctors/Naziha.png",
+            "link": "doctor/naziha-al-tabaa",
+            "designation": "Skin Expert & Beauty Therapist",
+            "email":"",
+            "phone":"",
+            "website":"",
+            "experience": "More Than 5+ Years",
+            "socialLinks": {
+                "facebook":"",
+                "twitter":"",
+                "instagram":"",
+                "youtube":""
+            },
+            "overview": {
+                "title": "Overview",
+                "sections": [
+                    {
+                        "subtitle": "",
+                        "items": [
+                            "Naziha Al Tabaa is a skilled and experienced beauty therapist with a strong background in cosmetology and laser treatments.",
+                            "With a passion for enhancing natural beauty, Naziha focuses on delivering personalized treatments that align with her patients’ individual needs. She specializes in a range of advanced skincare services, including HydraFacial, chemical peeling, microneedling, and laser treatments. Her attention to detail and dedication to achieving the best possible results have earned her a reputation for delivering high-quality care that leaves her clients looking and feeling their best."
+                        ]
+                    }
+                ]
+            },
+            "workExperience": {
+                "title": "Work Experience",
+                "items": [
+                    "Since 2021, Naziha has been practicing in the UAE, where shecontinues to refine her skills while staying updated on the latest advancements in aesthetic treatments. Fluent in Arabic, French, English, and basic German, she is committed to providing exceptional patient care in a culturally diverse environment. Naziha’s expertise, combined with her compassionate approach to skincare, has established her as a trusted professional in the beauty and aesthetics industry."
+                ]
+            },
+            "qualifications": {
+                "title": "Qualifications",
+                "items": [
+                    "She holds a Bachelor of Educational Sciences from the Lebanese University and a Diploma in Cosmetology & Laser from Tripoli, Lebanon, further honing her expertise with certifications from renowned institutions in Barcelona."
+                ]
+            },
+            "workingShifts": {
+                "title": "Working Shifts",
+                "flipFront1": "Sunday to Thursday",
+                "flipFrontDesc1": "10:00 AM to 8:00 PM",
+                "flipBack1": "Saturday",
+               "flipBackDesc1": "10:00 AM to 9:00 PM",
+                "flipFront2": "Address",
+                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
+                "flipBack2": "Address",
+                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+            }
+        }
+    ]
+}

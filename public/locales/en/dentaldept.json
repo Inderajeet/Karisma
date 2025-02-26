@@ -101,7 +101,7 @@
                     "title": "Related Services"
                 },
                 {
-                    "type": "list-services",
+                    "type": "list-services-noImage",
                     "listServices": [
                         {
                             "id": 1,
@@ -203,7 +203,13 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                       
+                        {
+                            "id": 1,
+                            "name": "Dr. Hesham Nafei",
+                            "designation": "Implantologist",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": ""
+                        },
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",

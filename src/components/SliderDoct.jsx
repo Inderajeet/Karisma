@@ -62,7 +62,7 @@ const SliderDoct = () => {
         1200: { slidesPerView: 3 },
         1300: { slidesPerView: 3 },
       }}
-      // modules={[Autoplay]}
+      modules={[Autoplay]}
     >
       {doctors.map((doctor, index) => (
         <SwiperSlide key={doctor.id}>

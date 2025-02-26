@@ -139,7 +139,13 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        
+                        {
+                            "id": 1,
+                            "name": "Dr. Hesham Nafei",
+                            "designation": "Implantologist",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": ""
+                        },
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -328,7 +334,13 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                       
+                        {
+                            "id": 1,
+                            "name": "Dr. Hesham Nafei",
+                            "designation": "Implantologist",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": ""
+                        },
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -446,7 +458,13 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                       
+                        {
+                            "id": 1,
+                            "name": "Dr. Hesham Nafei",
+                            "designation": "Implantologist",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": ""
+                        },
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -582,7 +600,13 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        
+                        {
+                            "id": 1,
+                            "name": "Dr. Hesham Nafei",
+                            "designation": "Implantologist",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": ""
+                        },
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -712,7 +736,13 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                       
+                        {
+                            "id": 1,
+                            "name": "Dr. Hesham Nafei",
+                            "designation": "Implantologist",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": ""
+                        },
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -852,7 +882,13 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        
+                        {
+                            "id": 1,
+                            "name": "Dr. Hesham Nafei",
+                            "designation": "Implantologist",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": ""
+                        },
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -993,7 +1029,13 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                       
+                        {
+                            "id": 1,
+                            "name": "Dr. Hesham Nafei",
+                            "designation": "Implantologist",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": ""
+                        },
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -1133,7 +1175,13 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        
+                        {
+                            "id": 1,
+                            "name": "Dr. Hesham Nafei",
+                            "designation": "Implantologist",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": ""
+                        },
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -1269,7 +1317,13 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                       
+                        {
+                            "id": 1,
+                            "name": "Dr. Hesham Nafei",
+                            "designation": "Implantologist",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": ""
+                        },
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
@@ -1326,7 +1380,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "What Are Veneers?",
                     "description": "Veneers are ultra-thin, custom-crafted shells made from high-quality, tooth-colored materials. This transformative cosmetic treatment is designed to address a variety of dental concerns, including:",
                     "features": [
@@ -1337,7 +1391,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content-last",
                     "title": "The Karisma Touch",
                     "description": "At Karisma Specialist Medical Center, artistry meets innovation. We combine cutting-edge technology with expert craftsmanship to deliver veneers that enhance your natural beauty and reflect your personal taste. With a legacy of excellence and mastery in veneer technology, we bring world-class smile transformations to UAE, helping you radiate confidence and timeless beauty."
                 },
@@ -1430,6 +1484,12 @@
                     "doctors": [
                         
                         {
+                            "id": 1,
+                            "name": "Dr. Hesham Nafei",
+                            "designation": "Implantologist",
+                            "image": "/assets/Images/doctors/hesham nafi.png",
+                            "link": ""
+                        },  {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
                             "designation": "Specialist Oral Surgeon",
@@ -1451,11 +1511,6 @@
                             "link": "dr-amir-magdy"
                         }
                     ]
-                },
-                {
-                    "type": "content",
-                    "title": "Technical Details and Accessibility",
-                    "description": "Our website is optimized for a seamless user experience, featuring responsive design, fast load times, and secure browsing via HTTPS. Whether you're browsing on mobile or desktop, you’ll find all the information you need at your fingertips."
                 }
             ]
         }

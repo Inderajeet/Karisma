@@ -30,7 +30,7 @@ export default function ListServicesNoImg({ services }) {
                   <div className="e-con-inner">
                     <div className="listRow" style={{ paddingTop: '10px' }}>
                       {services?.map((doctor) => (
-                        <div className='doctor-info-cols'>
+                        <div className='noImg-info-cols'>
                         <div className="dd-inner">
 
                           <Link
@@ -39,7 +39,7 @@ export default function ListServicesNoImg({ services }) {
                             className=""
                             style={{ cursor: "pointer" }}
                           >
-                            <div className="cust-service-info-wrap">
+                            <div className="cust-noImg-info-wrap">
                               {/* <div className="doctor-thumbnail">
                                 <img
                                   loading="lazy"
@@ -51,7 +51,7 @@ export default function ListServicesNoImg({ services }) {
                                   alt={doctor.name}
                                 />
                               </div> */}
-                              <div className="service-info-body third">
+                              <div className="noImg-info-body third">
                                 <div className="doctor-info-inner">
                                   <div className="service-name">{applyFontFallback(doctor.name)}</div>
                                   <div className="doctor-specialities">

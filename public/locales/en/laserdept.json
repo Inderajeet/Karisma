@@ -45,7 +45,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Who Can Benefit from Laser Hair Removal?",
                     "description": "Thanks to advancements in laser technology, this treatment is effective for a broad range of skin tones and hair types. Our experts will assess your suitability during your consultation and develop a personalized treatment plan."
                 },
@@ -60,12 +60,12 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-heading",
                     "title": "Advanced Laser Technology for Optimal Results",
                     "description": "Our premium laser systems are designed for precision, safety, and effectiveness. During your consultation, our skilled technicians will recommend the ideal technology to meet your needs."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-color-content",
                     "heading": "Full Body Laser Hair Removal:",
                     "description": "Discover the ultimate solution for hair removal, delivering an extraordinary level of smoothness:",
                     "features": [
@@ -90,7 +90,7 @@
                     "description": "Say goodbye to traditional hair removal methods and hello to long-lasting smoothness. Schedule your consultation with our experts today and embrace the confidence of hair-free, radiant skin."
                 },
                 {
-                    "type": "color-content",
+                    "type": "color-heading",
                     "title": "Related Services",
                     "description": "Explore our other advanced treatments:"
                 },
