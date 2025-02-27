@@ -29,7 +29,7 @@
 }
 
 .our-story-text {
-  font-size: 18px;
+  /* font-size: 18px; */
   /* line-height: 1.5; */
   padding: 8px; 
 }
@@ -47,24 +47,24 @@
 }
 
 .about-us-heading {
-  font-size: 40px; /* Slightly reduced */
-  font-weight: bold;
+  /* font-size: 40px; */
+  /* font-weight: bold; */
   text-align: center;
-  margin-bottom: 10px; /* Reduced from 15px */
+  margin-bottom: 10px; 
 }
 
 .section-image {
   width: 100%;
-  height: 230px; /* Reduced from 250px */
+  height: 230px; 
   object-fit: cover;
   border-radius: 10px;
-}
+} 
 
-.about-us-paragraph {
-  font-size: 18px;
-  line-height: 1.5; /* Slightly reduced */
-  padding: 8px; /* Reduced */
-}
+/* .about-us-paragraph {
+  font-size: 18px; 
+  line-height: 1.5; 
+  padding: 8px; 
+} */
 
 .about-card-container {
   display: flex;
@@ -160,13 +160,13 @@
 }
 
 @media (max-width: 768px) {
-  .about-us-heading {
-      font-size: 34px; /* Slightly reduced */
+  /* .about-us-heading {
+      font-size: 34px;
   }
 
   .our-story-heading {
-      font-size: 28px; /* Slightly reduced */
-  }
+      font-size: 28px; 
+  } */
 
   .about-card {
       flex: 1 1 100%;
@@ -177,14 +177,14 @@
   }
 
   .background-container {
-      height: 550px; /* Reduced */
+      height: 550px;
       background-attachment: scroll;
   }
 
   .about-us-section {
       flex-direction: column !important;
       text-align: center;
-      gap: 15px; /* Reduced */
+      gap: 15px; 
   }
 
   .reverse-layout {
@@ -211,13 +211,13 @@
 }
 
 @media (max-width: 480px) {
-  .about-us-heading {
+  /* .about-us-heading {
       font-size: 26px;
   }
 
   .our-story-heading {
       font-size: 22px;
-  }
+  } */
 
   .about-us-container, .our-story-container {
       padding: 15px 10px;

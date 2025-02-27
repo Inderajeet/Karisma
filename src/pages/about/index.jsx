@@ -80,7 +80,7 @@ const About = () => {
                 <div className="sec2">
                   <span className="title about-us-heading">{t(section.title)}</span>
                   <br />
-                  <span className="about-us-paragraph">{t(section.description)}</span>
+                  <p className="about-us-paragraph">{t(section.description)}</p>
                 </div>
               </div>
             ))}
