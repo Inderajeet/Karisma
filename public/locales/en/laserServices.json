@@ -44,15 +44,14 @@
                     "description": "At Karisma Specialist Medical Center, your comfort and satisfaction are our priority. Our certified specialists deliver precise, personalized care using the latest laser technology for optimal results."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content-last",
                     "title": "Don't lose time or effort with Candela (Gentle Max Pro)​",
                     "description": "Experience the ultra attention to detail with non-invasive treatment for hair removal solution with (Gentle Max Pro). This non-invasive treatment, enhanced with controlled cooling technology, ensures no damage to surrounding skin, ensuring an overwhelmingly comfortable sensation. As a non-surgical procedure, it requires no downtime you can resume your daily activities immediately, with a simple recommendation to avoid sun exposure post-treatment.​"
                 },
                 {
                     "type": "color-content",
                     "title": "Take the First Step Toward Smooth Skin",
-                    "description": "Schedule your session today to explore how the Candela GentleMax Pro can transform your skincare routine. Achieve lasting smoothness and confidence with our expert team guiding you every step of the way.",
-                    "features": []
+                    "description": "Schedule your session today to explore how the Candela GentleMax Pro can transform your skincare routine. Achieve lasting smoothness and confidence with our expert team guiding you every step of the way."
                 }
             ]
         },
@@ -101,7 +100,7 @@
                     "description": "Experience a painless non-invasive treatment for hair bleaching solution with RevLite SI. This non-invasive treatment, enhanced with controlled cooling technology, ensures no damage to surrounding skin, offering a comfortable sensation often compared to a warm stone massage. As a non-surgical procedure, it requires no downtime patients can resume daily activities immediately, with a simple recommendation to avoid sun exposure post-treatment."
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Safe for All Skin Types​",
                     "description": "RevLite SI is among the safest laser hair bleaching options, supported by extensive research. It’s even effective for suntanned skin, though patients are advised to avoid sunbeds for a few weeks before treatment."
                 },
@@ -162,7 +161,7 @@
                     ]
                 },
                 {
-                    "type": "sub-heading-color-content",
+                    "type": "color-content",
                     "title": "Benefits",
                     "features": [
                         "Fast treatments to maximize potential ROI",

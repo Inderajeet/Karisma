@@ -1609,7 +1609,7 @@
                     "description": "At Karisma Specialist Medical Center, we understand the struggle to achieve a smooth and even complexion after dealing with acne. Mesotherapy for Open Pores & Acne Scars offers a targeted approach to minimize the appearance of acne scars, refine pores, and reveal a healthier, more radiant skin texture. This innovative treatment utilizes Dermapen technology and a powerful meso cocktail to tackle these concerns simultaneously, leading to a noticeably smoother and clearer complexion."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content",
                     "title": "Achieve Clearer, Smoother Skin",
                     "description": "Mesotherapy for Open Pores & Acne Scars offers a multitude of benefits for those seeking to minimize acne's aftermath:",
                     "features": [
@@ -1642,7 +1642,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "A Course of Treatment for Optimal Results",
                     "description": "Mesotherapy for Open Pores & Acne Scars typically requires a series of treatments for optimal results:",
                     "features": [

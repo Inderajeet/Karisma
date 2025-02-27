@@ -76,7 +76,7 @@ function DoctorPage() {
             <div className="relatedServices customContainer cea-team-template-default 
             single single-cea-team postid-73184 theme-happysmile woocommerce-js 
             elementor-default elementor-kit-5 elementor-page elementor-page-73184 
-            e--ua-blink e--ua-chrome e--ua-webkit page-load-end" style={{ paddingBottom: "5rem" }}>
+            e--ua-blink e--ua-chrome e--ua-webkit page-load-end" style={{ paddingBottom: "1rem" }}>
                 <div className="row">
                     <div className="col-md-12 order-md-2">
                         <div className="wrap cea-content">
@@ -186,50 +186,6 @@ function DoctorPage() {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div className="team-social-wrap" style={{ display: 'none' }}>
-                                            <ul className="nav cust-social-icons team-social">
-                                                <li>
-                                                    <a
-                                                        className="social-facebook"
-                                                        href={doctor.socialLinks.facebook}
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                    >
-                                                        <i className="fa fa-facebook" />
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        className="social-twitter"
-                                                        href={doctor.socialLinks.twitter}
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                    >
-                                                        <i className="fa fa-twitter" />
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        className="social-instagram"
-                                                        href={doctor.socialLinks.instagram}
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                    >
-                                                        <i className="fa fa-instagram" />
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        className="social-youtube"
-                                                        href={doctor.socialLinks.youtube}
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                    >
-                                                        <i className="fa fa-youtube-play" />
-                                                    </a>
-                                                </li>
-                                            </ul>
                                         </div>
                                     </div>
                                 </div>{" "}
@@ -528,7 +484,7 @@ function DoctorPage() {
                                                                                 <div className="elementor-widget-container">
                                                                                     <div className="section-title-wrapper">
                                                                                         <div className="title-wrap">
-                                                                                            <h4 className="section-title">
+                                                                                            <h4 className="section-title work-shift-title">
                                                                                                 {applyFontFallback(doctor.workingShifts.title)}
                                                                                             </h4>
                                                                                         </div>

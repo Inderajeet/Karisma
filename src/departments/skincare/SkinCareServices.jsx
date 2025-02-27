@@ -14,6 +14,12 @@ import ListServicesNoImg from "../service templates/ListServicesNoImg";
 import BannerSkinCare from "../../components/BannerSkinCare";
 import HeaderTitle from "../service templates/HeaderTitle";
 import DynamicBanner from "../../components/DynamicBanner";
+import ColorHeading from "../service templates/ColorHeading";
+import ContSection from "../service templates/ContSection";
+import SubHeadingColor from "../service templates/SubHeading";
+import SubHeadingColorLast from "../service templates/SubHeadingColorLast";
+import ColorSection from "../service templates/ColorSection";
+import SmallListServices from "../service templates/SmallListServices";
 
 const SkinCareServices = () => {
     const { t, i18n } = useTranslation('skinCareServices');
@@ -45,55 +51,172 @@ const SkinCareServices = () => {
     return (
         <>
             {/* <BannerSkinCare /> */}
-            <div key={service.id || serviceName}> 
+            <div key={service.id || serviceName}>
                 {service.sections.map((section, index) => {
-    const uniqueKey = `${section.type}-${index}`;
-    console.log('Rendering section:', section.type, 'Key:', uniqueKey); // Debugging
+                    const uniqueKey = `${section.type}-${index}`;
+                    console.log('Rendering section:', section.type, 'Key:', uniqueKey); // Debugging
 
-    console.log('Section-services:', section.listServices);  // Debugging: log section
+                    console.log('Section-services:', section.listServices);  // Debugging: log section
                     if (section.type === "content") {
                         return (
+                            <div style={{  paddingTop: '1rem', paddingBottom: '1rem' }}>
+
                             <ContentSection
-                                key={uniqueKey}
+                                key={index}
                                 title={section.title}
                                 heading={section.heading}
+                                heading2={section.heading2}
                                 description={section.description}
+                                description2={section.description2}
                                 features={section.features}
                             />
+                            </div>
+                        );
+                    }if (section.type === "cont-content") {
+                        return (
+                            <div style={{  paddingTop: '1rem', paddingBottom: '0rem' }}>
+
+                            <ContSection
+                                key={index}
+                                title={section.title}
+                                heading={section.heading}
+                                heading2={section.heading2}
+                                description={section.description}
+                                description2={section.description2}
+                                features={section.features}
+                            />
+                            </div>
+                        );
+                    } if (section.type === "cont-content-last") {
+                        return (
+                            <div style={{  paddingTop: '0rem', paddingBottom: '1rem' }}>
+
+                            <ContSection
+                                key={index}
+                                title={section.title}
+                                heading={section.heading}
+                                heading2={section.heading2}
+                                description={section.description}
+                                description2={section.description2}
+                                features={section.features}
+                            />
+                            </div>
                         );
                     }else if (section.type === "center-content") {
                         return (
-                            <div style={{textAlign: 'center', backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
-                            <ContentSection
-                                key={uniqueKey}
-                                title={section.title}
-                                heading={section.heading}
-                                description={section.description}
-                                features={section.features}
-                            />
+                            <div style={{ textAlign: 'center', backgroundColor: '#c4a98863', paddingTop: '2rem' }}>
+                                <ContentSection
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    description={section.description}
+                                    features={section.features}
+                                />
                             </div>
                         );
-                    }else if (section.type === "color-content") {
+                    } else if (section.type === "color-heading") {
                         return (
-                            <div style={{backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
-                            <ContentSection
-                                key={uniqueKey}
-                                title={section.title}
-                                heading={section.heading}
-                                description={section.description}
-                                features={section.features}
-                            />
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem'}}>
+                                <ColorHeading
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    description={section.description}
+                                    features={section.features}
+                                />
                             </div>
                         );
-                    }else if (section.type === "header-title") {
+                    } else if (section.type === "color-content") {
+                        return (
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem', paddingBottom: '1rem' }}>
+                                <ColorSection
+                                   key={index}
+                                   title={section.title}
+                                   heading={section.heading}
+                                   heading2={section.heading2}
+                                   description={section.description}
+                                   description2={section.description2}
+                                   features={section.features}
+                                />
+                            </div>
+                        );
+                    } else if (section.type === "sub-heading-color-content") {
+                        return (
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '0rem', paddingBottom: '0rem' }}>
+                                <SubHeadingColor
+                                   key={index}
+                                   title={section.title}
+                                   heading={section.heading}
+                                   heading2={section.heading2}
+                                   description={section.description}
+                                   description2={section.description2}
+                                   features={section.features}
+                                />
+                            </div>
+                        );
+                    }else if (section.type === "sub-heading-color-content-last") {
+                        return (
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '0rem', paddingBottom: '1rem' }}>
+                                <SubHeadingColorLast
+                                   key={index}
+                                   title={section.title}
+                                   heading={section.heading}
+                                   heading2={section.heading2}
+                                   description={section.description}
+                                   description2={section.description2}
+                                   features={section.features}
+                                />
+                            </div>
+                        );
+                    }else if (section.type === "sub-heading-content-last") {
+                        return (
+                            <div style={{ paddingTop: '0rem', paddingBottom: '1rem' }}>
+                                <SubHeadingColorLast
+                                   key={index}
+                                   title={section.title}
+                                   heading={section.heading}
+                                   heading2={section.heading2}
+                                   description={section.description}
+                                   description2={section.description2}
+                                   features={section.features}
+                                />
+                            </div>
+                        );
+                    }else if (section.type === "sub-heading-content") {
+                        return (
+                            <div style={{  paddingTop: '0rem', paddingBottom: '0rem' }}>
+                                <SubHeadingColor
+                                   key={index}
+                                   title={section.title}
+                                   heading={section.heading}
+                                   heading2={section.heading2}
+                                   description={section.description}
+                                   description2={section.description2}
+                                   features={section.features}
+                                />
+                            </div>
+                        );
+                    } else if (section.type === "header-title") {
                         return (
                             <HeaderTitle
-                                key={uniqueKey}
+                                key={index}
                                 title={section.title}
                                 description={section.description}
                             />
                         );
-                    } else if (section.type === "image-content") {
+                    } else if (section.type === "color-heading") {
+                        return (
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem'}}>
+                                <ColorHeading
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    description={section.description}
+                                    features={section.features}
+                                />
+                            </div>
+                        );
+                    }  else if (section.type === "image-content") {
                         console.log('ImageContent Data:', section);  // Debugging: log image-content
 
                         return (
@@ -107,14 +230,14 @@ const SkinCareServices = () => {
                         );
                     } else if (section.type === "banner") {
                         return (
-                           <DynamicBanner 
-                           key={uniqueKey}
-                           deptName={section.deptName} 
-                           serviceName={section.serviceName} 
-                           bannerImage={section.bannerImage}
-                           />
+                            <DynamicBanner
+                                key={uniqueKey}
+                                deptName={section.deptName}
+                                serviceName={section.serviceName}
+                                bannerImage={section.bannerImage}
+                            />
                         );
-                    }else if (section.type === "slider-doctors") {
+                    } else if (section.type === "slider-doctors") {
                         console.log('inside doctors')
                         return (
 
@@ -129,38 +252,46 @@ const SkinCareServices = () => {
                         console.log('inside video')
                         return (
 
-                            <VideoSection 
-                            key={uniqueKey}
+                            <VideoSection
+                                key={uniqueKey}
                             />
                         );
                     }
                     else if (section.type === "offers") {
-                        return <OffersTemplate 
-                        key={uniqueKey} 
-                        offers={section.offers} />;
+                        return <OffersTemplate
+                            key={uniqueKey}
+                            offers={section.offers} />;
                     }
                     else if (section.type === "list-services") {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
                         return (
-                        <div style={{backgroundColor:'#c4a98863'}}>
-                        <ListServices 
-                        key={uniqueKey} 
-                        services={section.listServices} />
-                        </div>);
-                    }else if (section.type === "list-services-noImage") {
+                            <div style={{ backgroundColor: '#c4a98863' }}>
+                                <ListServices
+                                    key={uniqueKey}
+                                    services={section.listServices} />
+                            </div>);
+                    } else if (section.type === "list-services-noImage") {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
                         return (
-                            <div style={{backgroundColor:'#c4a98863'}}>
-                        <ListServicesNoImg 
-                        key={uniqueKey} 
-                        services={section.listServices} />
-                        </div>);
+                            <div style={{ backgroundColor: '#c4a98863' }}>
+                                <ListServicesNoImg
+                                    key={uniqueKey}
+                                    services={section.listServices} />
+                            </div>);
+                    }else if (section.type === "small-list-services-noImage") {
+                        console.log('Related services:', section.listServices);  // Debugging: log related services
+                        return (
+                            <div style={{ backgroundColor: '#c4a98863' }}>
+                                <SmallListServices
+                                    key={uniqueKey}
+                                    services={section.listServices} />
+                            </div>);
                     }
                     return null;  // If no valid section type found
                 })}
                 {/* <Doctors /> */}
             </div>
-            <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '10px' }}>
+            <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '60px' }}>
                 <hr className="half-line" style={{ width: '50%', border: '0', height: '2px', backgroundColor: '#111', margin: '0' }} />
             </div>
         </>

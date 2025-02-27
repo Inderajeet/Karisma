@@ -57,7 +57,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Experience Innovation: The HydraFacial Difference",
           "description": "Step into the future of skincare with HydraFacial, a cutting-edge treatment that combines multiple steps in one seamless, pampering session:",
           "features": [
@@ -69,17 +69,15 @@
         {
           "type": "content",
           "title": "Unlock Timeless Beauty",
-          "description": "Let Karisma guide you on a journey to your most radiant, confident self. Schedule a consultation today and discover a facial or HydraFacial experience crafted exclusively for you.",
-          "features": []
+          "description": "Let Karisma guide you on a journey to your most radiant, confident self. Schedule a consultation today and discover a facial or HydraFacial experience crafted exclusively for you."
         },
         {
-          "type": "center-content",
+          "type": "color-heading",
           "title": "Facial Selections",
-          "description": "At Karisma, we offer a curated range of luxurious facial treatments, each designed to address specific skin concerns and enhance your natural beauty. Discover the perfect facial tailored to your needs",
-          "features": []
+          "description": "At Karisma, we offer a curated range of luxurious facial treatments, each designed to address specific skin concerns and enhance your natural beauty. Discover the perfect facial tailored to your needs"
         },
         {
-          "type": "list-services-noImage",
+          "type": "small-list-services-noImage",
           "listServices": [
             {
               "id": 1,
@@ -230,8 +228,7 @@
         {
           "type": "content",
           "title": "Our Doctors",
-          "description": "",
-          "features": []
+          "description": ""
         },
         {
           "type": "slider-doctors",
@@ -312,7 +309,7 @@
           ]
         },
         {
-          "type": "center-content",
+          "type": "color-heading",
           "title": "Discover the Power of Peeling",
           "description": "Ready to reveal your best skin? Schedule a consultation with our skincare specialists at Karisma today. Let us guide you toward a radiant, rejuvenated complexion."
         },
@@ -356,8 +353,7 @@
         {
           "type": "content",
           "title": "Our Doctors",
-          "description": "",
-          "features": []
+          "description": ""
         },
         {
           "type": "slider-doctors",
@@ -437,7 +433,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "The Versatility of Mesotherapy",
           "description": "Mesotherapy is not limited to facial treatments—it offers a range of possibilities for full-body rejuvenation and restoration:",
           "features": [
@@ -457,12 +453,12 @@
           ]
         },
         {
-          "type": "center-content",
+          "type": "color-heading",
           "title": "Experience Mesotherapy",
           "description": "Explore the world of possibilities that Mesotherapy offers for skin and body rejuvenation. Schedule a consultation at Karisma Specialist Medical Centertoday and discover how this advanced treatment can help you achieve radiant, youthful skin and a rejuvenated appearance."
         },
         {
-          "type": "list-services-noImage",
+          "type": "small-list-services-noImage",
           "listServices": [
             {
               "id": 1,
@@ -541,8 +537,7 @@
         {
           "type": "content",
           "title": "Our Doctors",
-          "description": "",
-          "features": []
+          "description": ""
         },
         {
           "type": "slider-doctors",
@@ -622,7 +617,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Important Considerations Before Your PRP Facial",
           "description": "While generally safe, there are a few precautions to consider with PRP facials:",
           "features": [
@@ -631,7 +626,7 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "content",
           "title": "Stem Cell Therapy: Experience the Power of Cellular Renewal",
           "description": "Stem cell therapy for facial rejuvenation offers a multitude of benefits for those seeking to restore and revitalize their skin:",
           "features": [
@@ -652,7 +647,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Secrets Behind Stem Cell Therapy",
           "description": "Stem cell therapy works through a groundbreaking approach:",
           "features": [
@@ -678,11 +673,9 @@
           "features": [
             "Dermapen: Dermapen technology enhances absorption, improving the results of stem cell",
             "HydraFacial: HydraFacial gently removes dead skin cells and impurities, preparing the skin for optimal absorption of stem cells and other beneficial ingredients."
-          ]
-        },
-        {
-          "type": "content",
-          "description": "These treatments together lead to dramatic improvements in skin texture, tone, and rejuvenation."
+          ],
+          "description2": "These treatments together lead to dramatic improvements in skin texture, tone, and rejuvenation."
+
         },
         {
           "type": "content",
@@ -707,7 +700,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Unlocking the Science Behind RxStem Exosome Therapy",
           "description": "RxStem Exosome therapy works through a targeted and innovative approach:",
           "features": [
@@ -728,7 +721,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Important Considerations Before RxStem Exosome Therapy",
           "description": "While RxStem Exosome therapy holds immense promise, there are a few precautions to consider:",
           "features": [
@@ -737,15 +730,14 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "sub-heading-color-content-last",
           "title": "Book Your Consultation at Karisma Specialist Medical Center",
           "description": "Discover the transformative power of PRP, Stem Cell Therapy, and Exosome treatments. Rejuvenate your skin naturally, restore its youthful glow, and address multiple skin concerns with these cutting-edge therapies. Schedule your consultation today to start your journey to radiant, healthier skin!"
         },
         {
-          "type": "content",
+          "type": "cont-content-last",
           "title": "Our Doctors",
-          "description": "",
-          "features": []
+          "description": ""
         },
         {
           "type": "slider-doctors",
@@ -825,7 +817,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "sub-heading-content-last",
           "title": "Important Considerations Before IV Drip Therapy",
           "features": [
             "Consultation:A consultation with a qualified medical professional is required to determine if IV Drip Therapy is right for you and to assess any potential risks.",
@@ -841,8 +833,7 @@
         {
           "type": "content",
           "title": "Our Doctors",
-          "description": "",
-          "features": []
+          "description": ""
         },
         {
           "type": "slider-doctors",
@@ -922,7 +913,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "sub-heading-content-last",
           "title": "Important Considerations Before Collagen Threads",
           "description": "While collagen threads are generally safe, here are a few things to consider:",
           "features": [
@@ -938,8 +929,7 @@
         {
           "type": "content",
           "title": "Our Doctors",
-          "description": "",
-          "features": []
+          "description": ""
         },
         {
           "type": "slider-doctors",
@@ -1027,7 +1017,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "sub-heading-content-last",
           "title": "Embrace Your Personal Style",
           "description": "A piercing can be a meaningful way to express your unique style and identity. At Karisma Body Art, we’re here to guide you through the process and ensure you get the perfect piercing to reflect who you are."
         },
@@ -1038,8 +1028,7 @@
         {
           "type": "content",
           "title": "Our Doctors",
-          "description": "",
-          "features": []
+          "description": ""
         },
         {
           "type": "slider-doctors",
@@ -1097,7 +1086,7 @@
           "description": "Here’s a closer look at some of our most effective skin treatments:"
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Sciton Fractional Laser",
           "features": [
             "Benefits: This powerful laser treatment effectively addresses acne scars, deep wrinkles, and enlarged pores. The Sciton Fractional Laser utilizes fractional technology to create microscopic columns in the skin, triggering collagen production and promoting skin renewal, leading to a smoother, more even-toned appearance.",
@@ -1117,7 +1106,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Q-Switched Technique (Revlite, Pasttelle, Hella)",
           "features": [
             "Benefits: This targeted laser approach effectively addresses various pigmentation concerns. The Q-Switched technique, utilizing Revlite, Pasttelle, and Hella, removes freckles, melasma, and unwanted pigmentation, revealing a brighter, more even-toned complexion.",
@@ -1137,7 +1126,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Power Shape 2 & Re Fit",
           "features": [
             "Benefits: Power Shape 2 and Re Fit are advanced body contouring machiness utilizing Radiofrequency (RF) technology to promote fat reduction, skin tightening, and body sculpting. These treatments can be used on both the face and body to address skin laxity, reduce cellulite, and achieve a more toned, sculpted appearance.",
@@ -1163,9 +1152,7 @@
         },
         {
           "type": "content",
-          "title": "Our Doctors",
-          "description": "",
-          "features": []
+          "title": "Our Doctors"
         },
         {
           "type": "slider-doctors",
@@ -1223,7 +1210,7 @@
           "description": "Here’s a closer look at some of our most effective treatments:"
         },
         {
-          "type": "content",
+          "type": "sub-heading-content-last",
           "title": "Meso Hair",
           "features": [
             "Benefits: Meso Hair provides a nourishing blend of vitamins directly into the scalp using Dermapen technology. This treatment revitalizes the scalp, stimulates blood circulation, and nourishes hair follicles, encouraging hair growth and reducing hair loss.",
@@ -1233,7 +1220,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Hair Plasma",
           "features": [
             "Benefits: Hair Plasma uses Platelet-Rich Plasma (PRP) derived from your own blood. Injected into the scalp, this treatment rejuvenates the scalp, nourishes hair follicles, and supports hair growth by harnessing your body’s regenerative potential.",
@@ -1253,7 +1240,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Hair Loss Threads",
           "features": [
             "Benefits: Hair Loss Threads are absorbable threads inserted into the scalp to stimulate collagen production and improve circulation. This non-invasive method enhances the scalp environment, helping nourish hair follicles and reduce hair loss.",
@@ -1280,8 +1267,7 @@
         {
           "type": "content",
           "title": "Our Doctors",
-          "description": "",
-          "features": []
+          "description": ""
         },
         {
           "type": "slider-doctors",

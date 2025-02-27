@@ -63,12 +63,12 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Embrace a Renewed You with Karisma Specialist Medical Center",
                     "description": "Our commitment to your safety and satisfaction extends beyond just providing dermal fillers. Our dermatologists utilize the latest techniques to ensure a comfortable, successful experience tailored to your needs."
                 },
                 {
-                    "type": "center-content",
+                    "type": "sub-heading-color-content-last",
                     "title": "Schedule a Consultation Today!",
                     "description": "Unlock your radiance and achieve a youthful, refreshed look with Karisma Specialist Medical Center. Contact us to schedule your consultation and let us guide you through the world of dermal fillers to enhance your natural beauty!"
                 }
@@ -114,7 +114,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "What Are The Uses For PDO Tummy Threads",
                     "features": [
                         "Elevate and firm the skin for a smoother, tighter appearance",
@@ -127,8 +127,8 @@
                     ]
                 },
                 {
-                    "type": "color-content",
-                    "description": "Embark on your journey to a tighter abdomen with PDO Tummy Threads at Karisma Specialist Medical Center. Our skilled specialists will administer this quick, effective treatment in a 45-60-minute session under local anesthesia, providing you with a refreshed, more sculpted look."
+                    "type": "sub-heading-color-content-last",
+                    "heading2": "Embark on your journey to a tighter abdomen with PDO Tummy Threads at Karisma Specialist Medical Center. Our skilled specialists will administer this quick, effective treatment in a 45-60-minute session under local anesthesia, providing you with a refreshed, more sculpted look."
                 }
             ]
         },
@@ -148,7 +148,7 @@
                         "Targeted Areas: Treat the face, neck, nose, cheeks, and smile lines for an all-encompassing rejuvenation effect.",
                         "Customized Lifting: Our skilled dermatologists use threads of varying lengths and sizes to achieve stunning lifts, such as the captivating Cat or elegant Fox eye lifts.",
                         {
-                            "title": "Benefits of Single Needle Threads",
+                            "title": "Benefits of Single Needle Threads:",
                             "items": [
                                 "Comprehensive facial lifting for a more youthful appearance",
                                 "Enhanced facial contours for a sculpted look",
@@ -161,7 +161,7 @@
                 },
                 {
                     "type": "color-content",
-                    "description": "Sessions typically last 30-60 minutes, with results customized to your individual skin needs, ensuring a refreshed, youthful appearance that lasts."
+                    "heading": "Sessions typically last 30-60 minutes, with results customized to your individual skin needs, ensuring a refreshed, youthful appearance that lasts."
                 }
             ]
         }

@@ -39,6 +39,8 @@ const DermaDept = () => {
                     console.log('Section-services:', section.listServices);  // Debugging: log section
                     if (section.type === "content") {
                         return (
+                            <div style={{  paddingTop: '1rem', paddingBottom: '1rem' }}>
+
                             <ContentSection
                                 key={index}
                                 title={section.title}
@@ -48,9 +50,12 @@ const DermaDept = () => {
                                 description2={section.description2}
                                 features={section.features}
                             />
+                            </div>
                         );
                     }if (section.type === "cont-content") {
                         return (
+                            <div style={{  paddingTop: '1rem', paddingBottom: '0rem' }}>
+
                             <ContSection
                                 key={index}
                                 title={section.title}
@@ -60,6 +65,22 @@ const DermaDept = () => {
                                 description2={section.description2}
                                 features={section.features}
                             />
+                            </div>
+                        );
+                    }if (section.type === "cont-content-last") {
+                        return (
+                            <div style={{  paddingTop: '1rem', paddingBottom: '1rem' }}>
+
+                            <ContSection
+                                key={index}
+                                title={section.title}
+                                heading={section.heading}
+                                heading2={section.heading2}
+                                description={section.description}
+                                description2={section.description2}
+                                features={section.features}
+                            />
+                            </div>
                         );
                     } else if (section.type === "center-content") {
                         return (
@@ -175,7 +196,7 @@ const DermaDept = () => {
                                 />
                             </div>
                         );
-                    } else if (section.type === "banner") {
+                    }  else if (section.type === "banner") {
                         return (
                             <DermaBanner
                                 deptName={section.deptName}

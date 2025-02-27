@@ -64,9 +64,9 @@ export const applyFontFallback = (text) => {
   
   
 
-  const ColorHeading = ({ title, description, features, heading, heading2 }) => {
+  const ColorHeading = ({ title, description, description2, features, heading, heading2 }) => {
     return (
-        <div className="custsectionStyle customContainer" style={{ marginTop: '30px' }}>
+        <div className="custsectionStyle customContainer" style={{ marginTop: '0px' }}>
             {title &&  <h2 className="title">{applyFontFallback(title)}</h2>}
 
             {heading && <p style={{ fontFamily: 'The Seasons', fontWeight: '600' }}><strong>{heading}</strong></p>}
@@ -74,6 +74,8 @@ export const applyFontFallback = (text) => {
             {heading2 && <p style={{ fontFamily: 'The Seasons', fontWeight: '600' }}><strong>{heading2}</strong></p>}
 
             {features && <div className="featuresContainer divP">{features.map(renderFeature)}</div>}
+            {description2 && <p>{description2}</p>}
+
         </div>
     );
 };

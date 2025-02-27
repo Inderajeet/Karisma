@@ -55,6 +55,8 @@ const LaserServices = () => {
                     console.log('Section-services:', section.listServices);  // Debugging: log section
                     if (section.type === "content") {
                         return (
+                            <div style={{  paddingTop: '1rem', paddingBottom: '1rem' }}>
+
                             <ContentSection
                                 key={index}
                                 title={section.title}
@@ -64,9 +66,12 @@ const LaserServices = () => {
                                 description2={section.description2}
                                 features={section.features}
                             />
+                            </div>
                         );
                     }if (section.type === "cont-content") {
                         return (
+                            <div style={{  paddingTop: '1rem', paddingBottom: '0rem' }}>
+
                             <ContSection
                                 key={index}
                                 title={section.title}
@@ -76,6 +81,7 @@ const LaserServices = () => {
                                 description2={section.description2}
                                 features={section.features}
                             />
+                            </div>
                         );
                     } else if (section.type === "center-content") {
                         return (
@@ -191,7 +197,7 @@ const LaserServices = () => {
                                 />
                             </div>
                         );
-                    }else if (section.type === "banner") {
+                    } else if (section.type === "banner") {
                         return (
                            <LaserBanner 
                            deptName={section.deptName} 

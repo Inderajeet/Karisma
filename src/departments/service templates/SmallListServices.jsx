@@ -14,7 +14,7 @@ export const applyFontFallback = (text) => {
   );
 };
 
-export default function ListServicesNoImg({ services }) {
+export default function SmallListServices({ services }) {
 
   console.log('inside services:', services);  // Debugging: log services
   const { t, i18n } = useTranslation();
@@ -39,7 +39,7 @@ export default function ListServicesNoImg({ services }) {
                             className=""
                             style={{ cursor: "pointer" }}
                           >
-                            <div className="cust-noImg-info-wrap">
+                            <div className="cust-small-info-wrap">
                               {/* <div className="doctor-thumbnail">
                                 <img
                                   loading="lazy"

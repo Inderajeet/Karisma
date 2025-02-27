@@ -65,7 +65,7 @@
                     "description": "Our premium laser systems are designed for precision, safety, and effectiveness. During your consultation, our skilled technicians will recommend the ideal technology to meet your needs."
                 },
                 {
-                    "type": "sub-heading-color-content",
+                    "type": "sub-heading-color-content-last",
                     "heading": "Full Body Laser Hair Removal:",
                     "description": "Discover the ultimate solution for hair removal, delivering an extraordinary level of smoothness:",
                     "features": [
@@ -85,7 +85,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content-last",
                     "title": "Start Your Journey Today",
                     "description": "Say goodbye to traditional hair removal methods and hello to long-lasting smoothness. Schedule your consultation with our experts today and embrace the confidence of hair-free, radiant skin."
                 },
