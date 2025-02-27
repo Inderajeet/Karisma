@@ -9,13 +9,13 @@
   "home": {
     "sliderImages": {
       "desktop": [
-        "public/assets/Images/home/slider1.jpeg",
-        "public/assets/Images/home/slider2.jpeg",
-        "public/assets/Images/home/slider3.jpeg",
-        "public/assets/Images/home/slider_1_1.PNG",
-        "public/assets/Images/home/slider_1_2.jpeg",
-        "public/assets/Images/home/slider-1.webp",
-        "public/assets/Images/home/Slider-1920-x-1280.png"
+        "/assets/Images/home/slider1.jpeg",
+        "/assets/Images/home/slider2.jpeg",
+        "/assets/Images/home/slider3.jpeg",
+        "/assets/Images/home/slider_1_1.PNG",
+        "/assets/Images/home/slider_1_2.jpeg",
+        "/assets/Images/home/slider-1.webp",
+        "/assets/Images/home/Slider-1920-x-1280.png"
       ],
       "mobile": [
         "/assets/Images/home/mobile_1.png",
