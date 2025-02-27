@@ -9,18 +9,12 @@
   "home": {
     "sliderImages": {
       "desktop": [
-        "/assets/Images/home/slider1.jpeg",
-        "/assets/Images/home/slider2.jpeg",
-        "/assets/Images/home/slider3.jpeg",
-        "/assets/Images/home/slider_1_1.PNG",
-        "/assets/Images/home/slider_1_2.jpeg",
-        "/assets/Images/home/slider-1.webp",
-        "/assets/Images/home/Slider-1920-x-1280.png"
+        "/assets/Images/home/slider1.png",
+        "/assets/Images/home/slider2.png"
       ],
       "mobile": [
-        "/assets/Images/depts/Mobile-Version/1.png",
-        "/assets/Images/depts/Mobile-Version/2.png",
-        "/assets/Images/depts/Mobile-Version/3.png"
+        "/assets/Images/home/mobileslide1.png",
+        "/assets/Images/home/mobileslide2.png"
       ]
     },
     "about1": "/assets/Images/home/about-us2.png",

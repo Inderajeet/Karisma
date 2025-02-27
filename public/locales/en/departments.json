@@ -344,15 +344,15 @@
             "sections": [
                 {
                     "type": "banner",
-                    "deptName": "Slimming",
+                    "deptName": "Nutrition and Slimming",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/depts/slimming/banner.png"
                 },
                 {
                     "type": "image-content",
                     "imageUrl": "../assets/Images/depts/slimming/body-image.png",
-                    "imageAlt": "Slimming",
-                    "title": "Slimming",
+                    "imageAlt": "Nutrition and Slimming",
+                    "title": "Nutrition and Slimming",
                     "content": [
                         {
                             "type": "heading",
