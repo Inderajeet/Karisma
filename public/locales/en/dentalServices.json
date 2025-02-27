@@ -45,7 +45,7 @@
                 },
                 {
                     "type": "color-content",
-                    "title": "Pulpotomy: Preserving Nature’ss Design for Healthy Smiles",
+                    "title": "Pulpotomy: Preserving Nature’s Design for Healthy Smiles",
                     "description": "Pulpotomy is a sophisticated nerve treatment for primary (baby) teeth. This procedure delicately addresses inflamed pulp tissue while preserving the tooth’s vital root structure. It is an excellent option for maintaining the integrity of your child’s natural tooth shape.",
                     "heading2": "Benefits of Pulpotomy:",
                     "features": [
@@ -311,10 +311,9 @@
                 {
                     "type": "color-content",
                     "title": "Start Your Journey to Exceptional Oral Health",
-                    "features": [
-                        "Transform your smile and improve your oral health with our expert oral surgical treatments at Karisma Specialist Medical Center in the UAE.",
-                        "Contact Karisma Specialist Medical Center today to schedule a consultation with our experts in oral surgery. Let us guide you toward a healthier, more confident smile."
-                    ]
+                       "description": "Transform your smile and improve your oral health with our expert oral surgical treatments at Karisma Specialist Medical Center in the UAE.",
+                       "heading2": "Contact Karisma Specialist Medical Center today to schedule a consultation with our experts in oral surgery. Let us guide you toward a healthier, more confident smile."
+                    
                 },
                 {
                     "type": "content",
@@ -411,7 +410,6 @@
                         "Better Oral Health: Protect your remaining teeth by maintaining alignment and preventing neighboring teeth from shifting."
                     ],
                     "description2": "By choosing dental implants, you’re investing in a solution that not only restores your smile but also protects your long-term oral health."
-
                 },
                 {
                     "type": "color-content",
@@ -422,7 +420,6 @@
                         "Most adults with missing teeth are excellent candidates for dental implants. While the minimum age for implant placement is typically 18 (when jawbone development is complete), our experienced team will evaluate your specific needs during your consultation to ensure you’re a suitable candidate.",
                         "Take the first step toward a confident smile today. Contact Karisma Specialist Medical Center to schedule your personalized dental implant consultation and begin your journey to a better quality of life."
                     ]
-
                 },
                 {
                     "type": "content",
@@ -438,7 +435,6 @@
                     "title": "Experience the Karisma Difference",
                     "description": "Choose Karisma Specialist Medical Center for your dental implant needs and experience unparalleled care and advanced technology. Whether you're replacing one tooth or an entire set, our skilled team is here to help you achieve a smile that's beautiful, functional, and built to last.",
                     "description2": "Ready to restore your smile with dental implants? Call Karisma Specialist Medical Center today to schedule your consultation. Let us help you achieve the confident, healthy smile you deserve!"
-
                 },
                 {
                     "type": "content",
@@ -572,10 +568,8 @@
                 {
                     "type": "color-content",
                     "title": "Schedule Your Orthodontic Consultation Today",
-                    "features": [
-                        "Contact us now to book your personalized consultation with our expert orthodontists. During your visit, we’ll conduct a thorough assessment of your dental needs and present tailored treatment options to help you achieve your ideal smile.",
-                        "Experience the superior care and cutting-edge techniques that define Karisma Specialist Medical Center. Let us craft a timeless smile that reflects your charm and confidence."
-                    ]
+                    "description": "Contact us now to book your personalized consultation with our expert orthodontists. During your visit, we’ll conduct a thorough assessment of your dental needs and present tailored treatment options to help you achieve your ideal smile.",
+                    "description2": "Experience the superior care and cutting-edge techniques that define Karisma Specialist Medical Center. Let us craft a timeless smile that reflects your charm and confidence."
                 },
                 {
                     "type": "content",
@@ -859,10 +853,8 @@
                 {
                     "type": "color-content",
                     "title": "A Comprehensive Dental Experience Under One Roof",
-                    "features": [
-                        "Why juggle multiple appointments at different clinics? At Karisma Specialist Medical Center, we offer a wide range of services, from preventive care to advanced cosmetic procedures. We are your one-stop destination for all your dental needs in the UAE.",
-                        "Schedule your Consultation Now and Start Your Journey."
-                    ]
+                    "description": "Why juggle multiple appointments at different clinics? At Karisma Specialist Medical Center, we offer a wide range of services, from preventive care to advanced cosmetic procedures. We are your one-stop destination for all your dental needs in the UAE.",
+                    "heading2": "Schedule your Consultation Now and Start Your Journey."
                 },
                 {
                     "type": "content",
@@ -1006,10 +998,9 @@
                 {
                     "type": "color-content",
                     "title": "Contact Us Today for Root Canal Treatment in the UAE",
-                    "features": [
-                        "Whether you’re experiencing tooth pain or need a routine root canal procedure, Karisma Specialist Medical Center is your go-to destination for exceptional dental care in the UAE.",
-                        "Contact us now to schedule your consultation, and let our expert team provide you with the best root canal treatment tailored to your needs."
-                    ]
+                      "description":  "Whether you’re experiencing tooth pain or need a routine root canal procedure, Karisma Specialist Medical Center is your go-to destination for exceptional dental care in the UAE.",
+                       "heading2": "Contact us now to schedule your consultation, and let our expert team provide you with the best root canal treatment tailored to your needs."
+                    
                 },
                 {
                     "type": "content",
@@ -1152,10 +1143,9 @@
                 {
                     "type": "color-content",
                     "title": "Start Your Journey to Optimal Gum Health",
-                    "features": [
-                        "Don’t let gum issues compromise your smile or oral health. Take the first step toward a healthier, more confident you.",
-                        "Contact Karisma Specialist Medical Center today to schedule a consultation with our periodontal specialists and discover the difference in expert gum care."
-                    ]
+                        "description": "Don’t let gum issues compromise your smile or oral health. Take the first step toward a healthier, more confident you.",
+                        "heading2": "Contact Karisma Specialist Medical Center today to schedule a consultation with our periodontal specialists and discover the difference in expert gum care."
+                    
                 },
                 {
                     "type": "content",
@@ -1391,7 +1381,7 @@
                     ]
                 },
                 {
-                    "type": "sub-heading-content-last",
+                    "type": "cont-content-last",
                     "title": "The Karisma Touch",
                     "description": "At Karisma Specialist Medical Center, artistry meets innovation. We combine cutting-edge technology with expert craftsmanship to deliver veneers that enhance your natural beauty and reflect your personal taste. With a legacy of excellence and mastery in veneer technology, we bring world-class smile transformations to UAE, helping you radiate confidence and timeless beauty."
                 },
@@ -1482,14 +1472,14 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        
                         {
                             "id": 1,
                             "name": "Dr. Hesham Nafei",
                             "designation": "Implantologist",
                             "image": "/assets/Images/doctors/hesham nafi.png",
                             "link": ""
-                        },  {
+                        },
+                        {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
                             "designation": "Specialist Oral Surgeon",

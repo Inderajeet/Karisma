@@ -55,6 +55,8 @@ const DentalServices = () => {
                     console.log('Section-services:', section.listServices);  // Debugging: log section
                     if (section.type === "content") {
                         return (
+                            <div style={{  paddingTop: '1rem', paddingBottom: '1rem' }}>
+
                             <ContentSection
                                 key={index}
                                 title={section.title}
@@ -64,9 +66,12 @@ const DentalServices = () => {
                                 description2={section.description2}
                                 features={section.features}
                             />
+                            </div>
                         );
                     }if (section.type === "cont-content") {
                         return (
+                            <div style={{  paddingTop: '1rem', paddingBottom: '0rem' }}>
+
                             <ContSection
                                 key={index}
                                 title={section.title}
@@ -76,8 +81,24 @@ const DentalServices = () => {
                                 description2={section.description2}
                                 features={section.features}
                             />
+                            </div>
                         );
-                    } else if (section.type === "center-content") {
+                    }  if (section.type === "cont-content-last") {
+                        return (
+                            <div style={{  paddingTop: '0rem', paddingBottom: '1rem' }}>
+
+                            <ContSection
+                                key={index}
+                                title={section.title}
+                                heading={section.heading}
+                                heading2={section.heading2}
+                                description={section.description}
+                                description2={section.description2}
+                                features={section.features}
+                            />
+                            </div>
+                        );
+                    }else if (section.type === "center-content") {
                         return (
                             <div style={{ textAlign: 'center', backgroundColor: '#c4a98863', paddingTop: '2rem' }}>
                                 <ContentSection
@@ -101,7 +122,7 @@ const DentalServices = () => {
                                 />
                             </div>
                         );
-                    }else if (section.type === "color-content") {
+                    } else if (section.type === "color-content") {
                         return (
                             <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem', paddingBottom: '1rem' }}>
                                 <ColorSection
@@ -115,7 +136,7 @@ const DentalServices = () => {
                                 />
                             </div>
                         );
-                    }else if (section.type === "sub-heading-color-content") {
+                    } else if (section.type === "sub-heading-color-content") {
                         return (
                             <div style={{ backgroundColor: '#c4a98863', paddingTop: '0rem', paddingBottom: '0rem' }}>
                                 <SubHeadingColor
@@ -178,6 +199,18 @@ const DentalServices = () => {
                                 title={section.title}
                                 description={section.description}
                             />
+                        );
+                    } else if (section.type === "color-heading") {
+                        return (
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem'}}>
+                                <ColorHeading
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    description={section.description}
+                                    features={section.features}
+                                />
+                            </div>
                         );
                     } else if (section.type === "image-content") {
                         console.log('ImageContent Data:', section);  // Debugging: log image-content

@@ -250,7 +250,7 @@
           "description": "While Anti-Aging Treatment is known for its cosmetic benefits, its versatility extends to various medical indications:"
         },
         {
-          "type": "sub-heading-content",
+          "type": "sub-heading-content-last",
           "heading": "Wrinkle Reduction",
           "description": "Relaxes facial and neck muscles that contribute to wrinkles and fine lines, promoting a smoother appearance. (Duration: 3-6 months).",
           "features": [
@@ -496,7 +496,7 @@
             },
             {
               "id": 2,
-              "name": "Turn Back the Clock with Karisma’s Single Needle Threads",
+              "name": "Single Needle Threads",
               "image": "/assets/Images/home/Doctors.png",
               "link": "derma/cosmetic-threads/single-needle-threads",
               "readMore": "Read More",
@@ -510,22 +510,23 @@
           "description": "At Karisma Specialist Medical Center, we understand the impact deep scars can have on your confidence. Subcision offers a minimally invasive treatment for addressing deep and concave scars, particularly those from acne and wounds. Cause memories place are in your brain not on your body."
         },
         {
-          "type": "color-content",
+          "type": "color-heading",
           "title": "Revitalize Your Face with Single Needle Threads: A Definitive Rejuvenation",
           "description": "Single needle threads offer a targeted solution for lifting and rejuvenating various facial areas:",
           "features": [
             "Targeted Areas: Treat the face, neck, nose, cheeks, and smile lines for a comprehensive rejuvenation effect.",
-            "Customized Lifting: Our skilled dermatologists use threads of varying lengths and sizes to achieve stunning Cat or elegant Fox eye lifts.",
-            {
-              "title": "What Can Single Needle Threads Do For You?",
-              "items": [
-                "Comprehensive facial lifting for a youthful appearance",
-                "Enhanced facial contours",
-                "Captivating eye lifts",
-                "Comfortable procedures with local anesthesia",
-                "Long-lasting results tailored to your unique skin"
-              ]
-            }
+            "Customized Lifting: Our skilled dermatologists use threads of varying lengths and sizes to achieve stunning Cat or elegant Fox eye lifts."
+          ]
+        },
+        {
+          "type": "sub-heading-color-content-last",
+          "heading": "What Can Single Needle Threads Do For You?",
+          "features": [
+            "Comprehensive facial lifting for a youthful appearance",
+            "Enhanced facial contours",
+            "Captivating eye lifts",
+            "Comfortable procedures with local anesthesia",
+            "Long-lasting results tailored to your unique skin"
           ]
         },
         {
@@ -660,7 +661,8 @@
           "type": "sub-heading-content-last",
           "heading": "Skin Whitening Solutions",
           "features": [
-            "Revitalize Your Radiance: Transform your skin's appearance and achieve a luminous, even tone with powerful treatments that effectively target hyperpigmentation and dark spots."          ]
+            "Revitalize Your Radiance: Transform your skin's appearance and achieve a luminous, even tone with powerful treatments that effectively target hyperpigmentation and dark spots."
+          ]
         },
         {
           "type": "color-heading",

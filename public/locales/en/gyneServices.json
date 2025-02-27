@@ -56,14 +56,12 @@
         {
           "type": "color-content",
           "title": "Begin Your Confidence Journey at Karisma Specialist Medical Center",
-          "description": "Empower yourself with expert care designed for your unique needs. Contact Karisma Specialist Medical Center today to schedule a private consultation and explore how cosmetic gynecology can help you embrace your intimate health and confidence.",
-          "features": []
+          "description": "Empower yourself with expert care designed for your unique needs. Contact Karisma Specialist Medical Center today to schedule a private consultation and explore how cosmetic gynecology can help you embrace your intimate health and confidence."
         },
         {
           "type": "content",
           "title": "Our Doctors",
-          "description": "",
-          "features": []
+          "description": ""
         },
         {
           "type": "slider-doctors",
@@ -147,7 +145,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "sub-heading-content-last",
           "title": "Why Choose Karisma Specialist Medical Center?",
           "features": [
             "Specialized Expertise: Our experienced professionals utilize advanced techniques to ensure precise, natural-looking results.",
@@ -247,7 +245,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Women’s Health Services",
           "heading": "Age Range: Adulthood and Beyond",
           "description": "Our team offers a wide range of services to support women through every stage of life:",
@@ -272,7 +270,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Pregnancy Care & Obstetrics",
           "description": "We offer personalized support for every pregnancy journey, including:",
           "features": [
@@ -300,9 +298,14 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Your Health, Our Priority",
           "description": "At Karisma Specialist Medical Center, we are committed to delivering world-class care to women at every stage of life. Schedule a consultation today to take the first step towards optimal health and well-being"
+        },
+        {
+          "type": "content",
+          "title": "Our Doctors",
+          "description": ""
         },
         {
           "type": "slider-doctors",
@@ -399,7 +402,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "sub-heading-content-last",
           "title": "Why Choose Karisma Specialist Medical Center?",
           "features": [
             "Personalized Care: We design tailored treatment plans to meet your unique needs.",
@@ -464,11 +467,11 @@
           ]
         },
         {
-          "type": "content",
+          "type": "cont-content",
           "title": "Advanced Whitening & Rejuvenation Treatments"
         },
         {
-          "type": "content",
+          "type": "sub-heading-content-last",
           "heading": "Laser Bikini Whitening (Laveen Machine)",
           "description": "Experience a non-invasive, painless solution for hyperpigmentation:",
           "features": [
@@ -490,7 +493,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "heading": "Mesotherapy Whitening",
           "description": "A targeted, minimally invasive solution for pigmentation concerns:",
           "features": [
@@ -534,7 +537,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "heading": "TCA Peeling",
           "description": "Targeted exfoliation for brighter skin:",
           "features": [
@@ -650,7 +653,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "sub-heading-content-last",
           "title": "Your Personalized Intimate Care Journey",
           "description": "At Karisma Specialist Medical Center, we prioritize your comfort and privacy, offering a supportive space to discuss your needs:",
           "features": [
@@ -749,7 +752,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Safety and Considerations",
           "features": [
             "Medical History: Our specialists will review your medical history to ensure safety and suitability.",
@@ -887,7 +890,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Important Guidelines",
           "features": [
             {

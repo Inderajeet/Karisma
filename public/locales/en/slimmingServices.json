@@ -39,7 +39,7 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "color-heading",
           "title": "Take the first step toward a healthier, more confident you.",
           "description": "Book a consultation at Karisma Specialist Medical Center today and discover the power of our advanced body contouring technologies."
         },
@@ -99,8 +99,7 @@
         {
           "type": "content",
           "title": "Our Doctors",
-          "description": "",
-          "features": []
+          "description": ""
         },
         {
           "type": "slider-doctors",
@@ -170,7 +169,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "sub-heading-content-last",
           "title": "Your Personalized Weight Management Journey",
           "description": "We understand that achieving a healthier weight can be challenging. Our dedicated team will work with you to develop a comprehensive, personalized plan, combining injections with:",
           "features": [
@@ -180,7 +179,7 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "color-heading",
           "title": "Take the next step towards a more sculpted, confident you.",
           "description": "Schedule a consultation at Karisma Specialist Medical Center today and discover how targeted fat reduction injections can enhance your journey to wellness."
         },
@@ -216,8 +215,7 @@
         {
           "type": "content",
           "title": "Our Doctors",
-          "description": "",
-          "features": []
+          "description": ""
         },
         {
           "type": "slider-doctors",
@@ -283,12 +281,12 @@
           ]
         },
         {
-          "type": "content",
+          "type": "sub-heading-content-last",
           "title": "Dedicated to Your Health and Beauty",
           "description": "At Karisma Specialist Medical Center, our goal is to provide a comprehensive range of services to support your journey to better health and a more confident you. Our medical team will work closely with you to develop a tailored plan that addresses all your wellness needs, ensuring you achieve the results you're looking for."
         },
         {
-          "type": "color-content",
+          "type": "color-heading",
           "title": "Schedule a Consultation Today!",
           "description": "Discover how our variety of services can support your health, beauty, and wellness goals. Our team is ready to assist you every step of the way."
         },
@@ -316,8 +314,7 @@
         {
           "type": "content",
           "title": "Our Doctors",
-          "description": "",
-          "features": []
+          "description": ""
         },
         {
           "type": "slider-doctors",

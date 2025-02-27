@@ -39,7 +39,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Comprehensive Obstetric Care",
                     "description": "We provide compassionate care throughout your pregnancy journey:",
                     "features": [
@@ -59,7 +59,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "A Personalized Approach to Your Care",
                     "description": "At Karisma Specialist Medical Center, we prioritize patient-centered care:",
                     "features": [
@@ -74,7 +74,7 @@
                     "description": "Discover how Karisma Specialist Medical Center can support your health and enhance your confidence. Contact us today to schedule a personalized consultation and explore our gynecology and obstetric care services."
                 },
                 {
-                    "type": "color-content",
+                    "type": "color-heading",
                     "title": "Related Services"
                 },
                 {
@@ -218,7 +218,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content-last",
                     "title": "A Personalized Approach to Timeless Beauty",
                     "description": "At Karisma, we prioritize your unique skincare journey:",
                     "features": [
@@ -228,7 +228,7 @@
                     ]
                 },
                 {
-                    "type": "color-content",
+                    "type": "color-heading",
                     "title": "Restore Your Inner Glow",
                     "description": "Unlock the potential of radiant, flawless skin. Schedule your consultation at Karisma today and step into a world of elegance and rejuvenation, where beauty meets excellence."
                 },
@@ -312,8 +312,7 @@
                 {
                   "type": "content",
                   "title": "Our Doctors",
-                  "description": "",
-                  "features": []
+                  "description": ""
                 },
                 {
                   "type": "slider-doctors",
@@ -371,8 +370,8 @@
                     "description": "Our Slimming Department combines advanced techniques and personalized care to deliver lasting results. Explore our range of services:"
                 },
                 {
-                    "type": "content",
-                    "heading": "Personalized Weight Management Plans",
+                    "type": "color-content",
+                    "title": "Personalized Weight Management Plans",
                     "features": [
                         "Tailored Approach: We begin with an in-depth assessment of your medical history, lifestyle, and weight loss goals. This allows us to design a custom plan that includes dietary changes, exercise recommendations, and if needed, medical interventions.",
                         "Sustainable Strategies: Our focus is on fostering long-term habits, including balanced eating and regular physical activity, ensuring that your progress is not just temporary but sustainable."
@@ -380,7 +379,7 @@
                 },
                 {
                     "type": "content",
-                    "heading": "Non-Surgical Body Contouring Treatments",
+                    "title": "Non-Surgical Body Contouring Treatments",
                     "features": [
                         "Advanced Technologies: Target stubborn fat and tighten sagging skin with cutting-edge non-surgical treatments, such as radiofrequency (RF) therapy, ultrasound cavitation, and cryolipolysis (CoolSculpting).",
                         "Targeted Solutions: These treatments are customized to address specific areas of concern, such as the abdomen, thighs, arms, and buttocks.",
@@ -388,8 +387,8 @@
                     ]
                 },
                 {
-                    "type": "content",
-                    "heading": "Advanced Body Analysis Tools",
+                    "type": "color-content",
+                    "title": "Advanced Body Analysis Tools",
                     "features": [
                         "Accurate Assessment: We measure body fat percentage, muscle mass, and water weight using state-of-the-art body composition analysis. These insights allow us to precisely track your progress and adjust your plan as needed.",
                         "Motivation and Support: Seeing measurable progress helps keep you motivated and committed to your journey."
@@ -397,7 +396,7 @@
                 },
                 {
                     "type": "content",
-                    "heading": "Nutritional Guidance and Support",
+                    "title": "Nutritional Guidance and Support",
                     "features": [
                         "Expert Advice: Our nutritionists provide tailored dietary guidance to suit your lifestyle and preferences, helping you adopt healthier eating habits.",
                         "Sustainable Meal Plans: Enjoy balanced, delicious meal plans that align with your weight loss goals, making it easier to stay on track."
@@ -409,7 +408,7 @@
                     "description": "At Karisma Specialist Medical Center, we’re dedicated to helping you achieve a healthier, more confident version of yourself. Book a consultation with our Slimming Department to start your personalized journey toward lasting transformation."
                 },
                 {
-                    "type": "color-content",
+                    "type": "color-heading",
                     "title": "Related Services"
                 },
                 {
@@ -518,7 +517,7 @@
                     ]
                 },
                 {
-                    "type": "sub-heading-content",
+                    "type": "cont-content-last",
                     "heading": "Facial Refinement",
                     "description": "Rediscover your youthful contours:",
                     "features": [
@@ -530,7 +529,7 @@
                     ]
                 },
                 {
-                    "type": "sub-heading-content",
+                    "type": "sub-heading-content-last",
                     "heading": "Body Sculpting",
                     "description": "Achieve your ideal silhouette:",
                     "features": [

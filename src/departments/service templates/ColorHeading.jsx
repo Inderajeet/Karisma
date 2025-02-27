@@ -66,7 +66,7 @@ export const applyFontFallback = (text) => {
 
   const ColorHeading = ({ title, description, features, heading, heading2 }) => {
     return (
-        <div className="custsectionStyle customContainer" style={{ marginTop: '30px' }}>
+        <div className="custsectionStyle customContainer" style={{ marginTop: '0px' }}>
             {title &&  <h2 className="title">{applyFontFallback(title)}</h2>}
 
             {heading && <p style={{ fontFamily: 'The Seasons', fontWeight: '600' }}><strong>{heading}</strong></p>}

@@ -43,29 +43,29 @@ const DermaRelatedServices = () => {
                                 features={section.features}
                             />
                         );
-                    }else if (section.type === "center-content") {
+                    } else if (section.type === "center-content") {
                         return (
-                            <div style={{textAlign: 'center', backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
-                            <ContentSection
-                                key={index}
-                                title={section.title}
-                                description={section.description}
-                                features={section.features}
-                            />
+                            <div style={{ textAlign: 'center', backgroundColor: '#c4a98863', paddingTop: '2rem' }}>
+                                <ContentSection
+                                    key={index}
+                                    title={section.title}
+                                    description={section.description}
+                                    features={section.features}
+                                />
                             </div>
                         );
-                    }else if (section.type === "color-content") {
+                    } else if (section.type === "color-content") {
                         return (
-                            <div style={{backgroundColor:'#c4a98863', paddingTop:'2rem'}}> 
-                            <ContentSection
-                                key={index}
-                                title={section.title}
-                                description={section.description}
-                                features={section.features}
-                            />
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '2rem' }}>
+                                <ContentSection
+                                    key={index}
+                                    title={section.title}
+                                    description={section.description}
+                                    features={section.features}
+                                />
                             </div>
                         );
-                    }else if (section.type === "header-title") {
+                    } else if (section.type === "header-title") {
                         return (
                             <HeaderTitle
                                 key={index}
