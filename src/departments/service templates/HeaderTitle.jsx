@@ -7,7 +7,6 @@ const HeaderTitle = ({ title, description }) => {
         <div className="custsectionStyle customContainer">
             <h2 className="header-title">{title}</h2>
             <p>{description}</p>
-            <Banner />
         </div>
     );
 };
