@@ -20,7 +20,7 @@ export default function ListServices({ services }) {
 
   return (
     <>
-      <div className="customContainer" style={{ paddingTop: "10px" }}>
+      <div className="customContainer" style={{ paddingTop: "0px" }}>
         <div className="col-md-12 order-md-2">
           <div className="post-inner">
             <div className="entry-content">

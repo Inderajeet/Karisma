@@ -286,7 +286,7 @@
                         {
                             "id": 8,
                             "name": "Piercing",
-                            "image": "../assets/Images/depts/skincare/piercing/Piercing-Banner---Ar.png",
+                            "image": "../assets/Images/depts/skincare/Collagen/body-image.png",
                             "link": "skinCare/piercing",
                             "readMore": "Read More",
                             "designation": ""
@@ -294,7 +294,7 @@
                         {
                             "id": 9,
                             "name": "Facial Machines",
-                            "image": "../assets/Images/depts/skincare/facial-machines/Facial-machines-Banner---Ar.png",
+                            "image": "../assets/Images/depts/skincare/Collagen/body-image.png",
                             "link": "skinCare/facial-machines",
                             "readMore": "Read More",
                             "designation": ""
@@ -302,7 +302,7 @@
                         {
                             "id": 10,
                             "name": "Hair Treatment",
-                            "image": "../assets/Images/depts/skincare/hair-treatment/Hair-Treatment-Banner-En.png",
+                            "image": "../assets/Images/depts/skincare/Collagen/body-image.png",
                             "link": "skinCare/hair-treatment",
                             "readMore": "Read More",
                             "designation": ""
@@ -433,7 +433,7 @@
                         {
                             "id": 3,
                             "name": "Other Services",
-                            "image": "../assets/Images/depts/slimming/Other services/body-image-Other-services.png",
+                            "image": "../assets/Images/depts/slimming/Other-services/body-image-Other-services.png",
                             "link": "slimming/other-services",
                             "readMore": "Read More",
                             "designation": ""
@@ -554,8 +554,8 @@
                 },
                 {
                     "type": "color-content",
-                    "heading": "At Karisma, we understand that each patient's journey is unique. Our approach combines the latest techniques with personalised care, ensuring your comfort and satisfaction every step of the way.",
-                    "description": "Ready for your transformation? Schedule a consultation with our expert doctors today."
+                    "description": "At Karisma, we understand that each patient's journey is unique. Our approach combines the latest techniques with personalised care, ensuring your comfort and satisfaction every step of the way.",
+                    "heading2": "Ready for your transformation? Schedule a consultation with our expert doctors today."
                 },
                 {
                     "type": "content",

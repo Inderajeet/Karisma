@@ -77,7 +77,7 @@
           "description": "At Karisma, we offer a curated range of luxurious facial treatments, each designed to address specific skin concerns and enhance your natural beauty. Discover the perfect facial tailored to your needs"
         },
         {
-          "type": "list-services-noImage",
+          "type": "small-list-services-noImage",
           "listServices": [
             {
               "id": 1,
@@ -458,7 +458,7 @@
           "description": "Explore the world of possibilities that Mesotherapy offers for skin and body rejuvenation. Schedule a consultation at Karisma Specialist Medical Centertoday and discover how this advanced treatment can help you achieve radiant, youthful skin and a rejuvenated appearance."
         },
         {
-          "type": "list-services-noImage",
+          "type": "small-list-services-noImage",
           "listServices": [
             {
               "id": 1,
@@ -730,7 +730,7 @@
           ]
         },
         {
-          "type": "cont-content",
+          "type": "sub-heading-color-content-last",
           "title": "Book Your Consultation at Karisma Specialist Medical Center",
           "description": "Discover the transformative power of PRP, Stem Cell Therapy, and Exosome treatments. Rejuvenate your skin naturally, restore its youthful glow, and address multiple skin concerns with these cutting-edge therapies. Schedule your consultation today to start your journey to radiant, healthier skin!"
         },

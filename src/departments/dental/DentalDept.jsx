@@ -67,6 +67,21 @@ const DentalDept = () => {
                             />
                             </div>
                         );
+                    } if (section.type === "cont-color-content") {
+                        return (
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem', paddingBottom: '0rem' }}>
+
+                            <ContSection
+                                key={index}
+                                title={section.title}
+                                heading={section.heading}
+                                heading2={section.heading2}
+                                description={section.description}
+                                description2={section.description2}
+                                features={section.features}
+                            />
+                            </div>
+                        );
                     } if (section.type === "cont-content-last") {
                         return (
                             <div style={{  paddingTop: '0rem', paddingBottom: '1rem' }}>

@@ -7,19 +7,19 @@ const renderListItem = (item, index) => {
     if (item.includes(":")) {
       const [key, value] = item.split(":");
       return (
-        <p key={index} className="featureItem">
+        <p key={index} className="content-featureItem">
           <strong >{key}:</strong> {value.trim()}
         </p>
       );
     } else {
       // No colon, just render as normal text
-      return <li key={index} className="featureItem">{item}</li>;
+      return <li key={index} className="content-featureItem">{item}</li>;
     }
   } else if (typeof item === "object" && item.title && Array.isArray(item.items)) {
     const [key, value] = item.title.includes(":") ? item.title.split(":") : [item.title, ""];
 
     return (
-      <p key={index} className="featureItem">
+      <p key={index} className="content-featureItem">
         {key ? <strong>{key}:</strong> : ""} {value.trim()}
         <ul className="custom-list" style={{ paddingLeft: "10px" }}>
           {item.items.map((subItem, subIndex) => renderListItem(subItem, subIndex))}

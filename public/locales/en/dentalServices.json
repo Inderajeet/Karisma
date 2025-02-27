@@ -12,7 +12,7 @@
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": ".. /assets/Images/depts/dental/Pediatric/body-image.png",
+                    "imageUrl": "../assets/Images/depts/dental/Pediatric/body-image.png",
                     "imageAlt": "Pediatric",
                     "title": "Pediatric",
                     "content": [
@@ -112,14 +112,12 @@
                 {
                     "type": "color-content",
                     "title": "Advanced Pediatric Care Meets Comfort at Karisma Specialist Medical Center",
-                    "description": "At Karisma Specialist Medical Center, we combine cutting-edge dental technology with a child-friendly, comforting environment. Our expert pediatric dentists utilize the latest techniques to ensure that every visit is a positive experience for your child. We make dental care fun, effective, and stress-free for your little one.",
-                    "features": []
+                    "description": "At Karisma Specialist Medical Center, we combine cutting-edge dental technology with a child-friendly, comforting environment. Our expert pediatric dentists utilize the latest techniques to ensure that every visit is a positive experience for your child. We make dental care fun, effective, and stress-free for your little one."
                 },
                 {
                     "type": "sub-heading-color-content-last",
                     "title": "Start Your Child’s Journey to Exceptional Oral Health",
-                    "description": "Give your child the foundation for a lifetime of healthy, confident smiles. Contact Karisma Specialist Medical Center today to schedule a consultation with our expert pediatric dentists. Let us guide your child towards excellent oral health and a beautiful smile for years to come.",
-                    "features": []
+                    "description": "Give your child the foundation for a lifetime of healthy, confident smiles. Contact Karisma Specialist Medical Center today to schedule a consultation with our expert pediatric dentists. Let us guide your child towards excellent oral health and a beautiful smile for years to come."
                 },
                 {
                     "type": "content",
@@ -311,9 +309,8 @@
                 {
                     "type": "color-content",
                     "title": "Start Your Journey to Exceptional Oral Health",
-                       "description": "Transform your smile and improve your oral health with our expert oral surgical treatments at Karisma Specialist Medical Center in the UAE.",
-                       "heading2": "Contact Karisma Specialist Medical Center today to schedule a consultation with our experts in oral surgery. Let us guide you toward a healthier, more confident smile."
-                    
+                    "description": "Transform your smile and improve your oral health with our expert oral surgical treatments at Karisma Specialist Medical Center in the UAE.",
+                    "description2": "Contact Karisma Specialist Medical Center today to schedule a consultation with our experts in oral surgery. Let us guide you toward a healthier, more confident smile."
                 },
                 {
                     "type": "content",
@@ -572,7 +569,7 @@
                     "description2": "Experience the superior care and cutting-edge techniques that define Karisma Specialist Medical Center. Let us craft a timeless smile that reflects your charm and confidence."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-color-content-last",
                     "title": "Your Radiant Smile Awaits",
                     "description": "Embrace the transformative journey to a healthier, more confident you. Contact Karisma Specialist Medical Center today, and take the first step toward a lifetime of smiles."
                 },
@@ -707,10 +704,8 @@
                 {
                     "type": "color-content",
                     "title": "Book Your Teeth Whitening Session now at Karism Medical Center Your Premier Destination For Teeth Whitening in UAE!",
-                    "features": [
-                        "Don’t let discolored teeth dim your confidence or sophistication. Contact Karisma Specialist Medical Center now, your Premier destination for teeth whitening in UAE to schedule a personalized Session with our expert cosmetic dentist.",
-                        "Let us craft the perfect whitening plan to illuminate your smile, Make them Shine."
-                    ]
+                    "description": "Don’t let discolored teeth dim your confidence or sophistication. Contact Karisma Specialist Medical Center now, your Premier destination for teeth whitening in UAE to schedule a personalized Session with our expert cosmetic dentist.",
+                    "description2": "Let us craft the perfect whitening plan to illuminate your smile, Make them Shine."
                 },
                 {
                     "type": "content",
@@ -854,7 +849,7 @@
                     "type": "color-content",
                     "title": "A Comprehensive Dental Experience Under One Roof",
                     "description": "Why juggle multiple appointments at different clinics? At Karisma Specialist Medical Center, we offer a wide range of services, from preventive care to advanced cosmetic procedures. We are your one-stop destination for all your dental needs in the UAE.",
-                    "heading2": "Schedule your Consultation Now and Start Your Journey."
+                    "description2": "Schedule your Consultation Now and Start Your Journey."
                 },
                 {
                     "type": "content",
@@ -961,8 +956,8 @@
                 },
                 {
                     "type": "cont-content",
-                    "title": "Root Canal Retreatment: When Is It Necessary?",
-                    "description": "Occasionally, root canal retreatment is required if the initial procedure fails or if new issues arise. Some common reasons for retreatment include:",
+                    "title": "Root Canal Treatment: When Is It Necessary?",
+                    "description": "Occasionally, root canal treatment is required if the initial procedure fails or if new issues arise. Some common reasons for retreatment include:",
                     "features": [
                         "Incomplete Initial Treatment: If infected material was not fully removed during the first procedure, reinfection may occur.",
                         "New Infection: Cavities, cracks, or fractures can expose treated canals to new bacteria, requiring additional treatment.",
@@ -998,9 +993,8 @@
                 {
                     "type": "color-content",
                     "title": "Contact Us Today for Root Canal Treatment in the UAE",
-                      "description":  "Whether you’re experiencing tooth pain or need a routine root canal procedure, Karisma Specialist Medical Center is your go-to destination for exceptional dental care in the UAE.",
-                       "heading2": "Contact us now to schedule your consultation, and let our expert team provide you with the best root canal treatment tailored to your needs."
-                    
+                    "description": "Whether you’re experiencing tooth pain or need a routine root canal procedure, Karisma Specialist Medical Center is your go-to destination for exceptional dental care in the UAE.",
+                    "description2": "Contact us now to schedule your consultation, and let our expert team provide you with the best root canal treatment tailored to your needs."
                 },
                 {
                     "type": "content",
@@ -1143,9 +1137,8 @@
                 {
                     "type": "color-content",
                     "title": "Start Your Journey to Optimal Gum Health",
-                        "description": "Don’t let gum issues compromise your smile or oral health. Take the first step toward a healthier, more confident you.",
-                        "heading2": "Contact Karisma Specialist Medical Center today to schedule a consultation with our periodontal specialists and discover the difference in expert gum care."
-                    
+                    "description": "Don’t let gum issues compromise your smile or oral health. Take the first step toward a healthier, more confident you.",
+                    "description2": "Contact Karisma Specialist Medical Center today to schedule a consultation with our periodontal specialists and discover the difference in expert gum care."
                 },
                 {
                     "type": "content",
@@ -1290,7 +1283,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content",
                     "title": "Our Doctors",
                     "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
                 },

@@ -19,6 +19,7 @@ import ContSection from "../service templates/ContSection";
 import SubHeadingColor from "../service templates/SubHeading";
 import SubHeadingColorLast from "../service templates/SubHeadingColorLast";
 import ColorSection from "../service templates/ColorSection";
+import SmallListServices from "../service templates/SmallListServices";
 
 const SkinCareServices = () => {
     const { t, i18n } = useTranslation('skinCareServices');
@@ -274,6 +275,14 @@ const SkinCareServices = () => {
                         return (
                             <div style={{ backgroundColor: '#c4a98863' }}>
                                 <ListServicesNoImg
+                                    key={uniqueKey}
+                                    services={section.listServices} />
+                            </div>);
+                    }else if (section.type === "small-list-services-noImage") {
+                        console.log('Related services:', section.listServices);  // Debugging: log related services
+                        return (
+                            <div style={{ backgroundColor: '#c4a98863' }}>
+                                <SmallListServices
                                     key={uniqueKey}
                                     services={section.listServices} />
                             </div>);

@@ -19,6 +19,7 @@ import ContSection from "../service templates/ContSection";
 import SubHeadingColor from "../service templates/SubHeading";
 import SubHeadingColorLast from "../service templates/SubHeadingColorLast";
 import ColorSection from "../service templates/ColorSection";
+import LargeListServices from "../service templates/LargeListServices";
 
 const SlimmingServices = () => {
     const { t, i18n } = useTranslation('slimmingServices');
@@ -83,7 +84,22 @@ const SlimmingServices = () => {
                             />
                             </div>
                         );
-                    } else if (section.type === "center-content") {
+                    } if (section.type === "cont-content-last") {
+                        return (
+                            <div style={{  paddingTop: '0rem', paddingBottom: '1rem' }}>
+
+                            <ContSection
+                                key={index}
+                                title={section.title}
+                                heading={section.heading}
+                                heading2={section.heading2}
+                                description={section.description}
+                                description2={section.description2}
+                                features={section.features}
+                            />
+                            </div>
+                        );
+                    }else if (section.type === "center-content") {
                         return (
                             <div style={{ textAlign: 'center', backgroundColor: '#c4a98863', paddingTop: '2rem' }}>
                                 <ContentSection
@@ -249,6 +265,12 @@ const SlimmingServices = () => {
                         return (
                             <div style={{ backgroundColor: '#c4a98863', marginBottom: '12px' }}>
                                 <ListServicesNoImg key={index} services={section.listServices} />
+                            </div>);
+                    } else if (section.type === "large-list-services-noImage") {
+                        console.log('Related services:', section.listServices);  // Debugging: log related services
+                        return (
+                            <div style={{ backgroundColor: '#c4a98863', marginBottom: '12px' }}>
+                                <LargeListServices key={index} services={section.listServices} />
                             </div>);
                     }
                     return null;  // If no valid section type found

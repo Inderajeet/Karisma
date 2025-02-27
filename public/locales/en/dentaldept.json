@@ -95,16 +95,16 @@
                     "description2": "Your perfect smile and renewed confidence are just a visit away at Karisma Specialist Medical Center where artistry meets excellence."
                 },
                 {
-                    "type": "color-heading",
+                    "type": "cont-color-content",
                     "title": "Related Services"
                 },
                 {
-                    "type": "list-services-noImage",
+                    "type": "list-services",
                     "listServices": [
                         {
                             "id": 1,
                             "name": "Hollywood Smile (Veneers)",
-                            "image": "../assets/Images/depts/dental/hollywood-smile/body-image.png",
+                            "image": "/assets/Images/depts/dental/hollywood-smile/body-image.png",
                             "link": "dental/hollywood-smile-veneers",
                             "readMore": "Read More",
                             "designation": ""
@@ -112,7 +112,7 @@
                         {
                             "id": 2,
                             "name": "Implant",
-                            "image": "../assets/Images/depts/dental/implant/body-image.png",
+                            "image": "/assets/Images/depts/dental/implant/body-image.png",
                             "link": "dental/implant",
                             "readMore": "Read More",
                             "designation": ""
@@ -120,7 +120,7 @@
                         {
                             "id": 3,
                             "name": "Orthodontics",
-                            "image": "../assets/Images/depts/dental/ortho/body-image.png",
+                            "image": "/assets/Images/depts/dental/ortho/body-image.png",
                             "link": "dental/orthodontics",
                             "readMore": "Read More",
                             "designation": ""
@@ -128,7 +128,7 @@
                         {
                             "id": 4,
                             "name": "Teeth Whitening",
-                            "image": "../assets/Images/depts/dental/teeth-Whitening/body-image.png",
+                            "image": "/assets/Images/depts/dental/teeth-Whitening/body-image.png",
                             "link": "dental/teeth-whitening",
                             "readMore": "Read More",
                             "designation": ""
@@ -136,7 +136,7 @@
                         {
                             "id": 5,
                             "name": "Mouth Rehabilitation",
-                            "image": "../assets/Images/depts/dental/Mouth-Rehabilitation/body-image.png",
+                            "image": "/assets/Images/depts/dental/Mouth-Rehabilitation/body-image.png",
                             "link": "dental/mouth-rehabilitation",
                             "readMore": "Read More",
                             "designation": ""
@@ -144,7 +144,7 @@
                         {
                             "id": 6,
                             "name": "Root Canal Treatment",
-                            "image": "../assets/Images/depts/dental/root-canal/body-image.png",
+                            "image": "/assets/Images/depts/dental/root-canal/body-image.png",
                             "link": "dental/root-canal",
                             "readMore": "Read More",
                             "designation": ""
@@ -152,7 +152,7 @@
                         {
                             "id": 7,
                             "name": "Pediatric",
-                            "image": "../assets/Images/depts/dental/Pediatric/body-image.png",
+                            "image": "/assets/Images/depts/dental/Pediatric/body-image.png",
                             "link": "dental/pediatric",
                             "readMore": "Read More",
                             "designation": ""
@@ -160,7 +160,7 @@
                         {
                             "id": 7,
                             "name": "Dental Surgical Treatment",
-                            "image": "../assets/Images/depts/dental/Dental-Surgical-Treatment/body-image.png",
+                            "image": "/assets/Images/depts/dental/Dental-Surgical-Treatment/body-image.png",
                             "link": "dental/dental-surgery",
                             "readMore": "Read More",
                             "designation": ""
@@ -168,7 +168,7 @@
                         {
                             "id": 7,
                             "name": "Oral Health (Gum Treatment)",
-                            "image": "../assets/Images/depts/dental/Oral-Health/body-image.png",
+                            "image": "/assets/Images/depts/dental/Oral-Health/body-image.png",
                             "link": "dental/oral-health",
                             "readMore": "Read More",
                             "designation": ""
@@ -176,7 +176,7 @@
                         {
                             "id": 8,
                             "name": "Restorative Dentistry",
-                            "image": "../assets/Images/depts/dental/Restorative-Dentistry/body-image.png",
+                            "image": "/assets/Images/depts/dental/Restorative-Dentistry/body-image.png",
                             "link": "dental/restorative-dentistry",
                             "readMore": "Read More",
                             "designation": ""

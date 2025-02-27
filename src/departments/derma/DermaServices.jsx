@@ -104,6 +104,7 @@ const DermaServices = () => {
                                     heading={section.heading}
                                     description={section.description}
                                     features={section.features}
+                                    description2={section.description2}
                                 />
                             </div>
                         );

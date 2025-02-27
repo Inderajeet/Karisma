@@ -281,3 +281,8 @@ ul.nav.cust-social-icons.team-social a.social-youtube {
     }
 }
 
+@media (max-width: 1024px){
+    .work-shift-title{
+        padding-top: 20px;
+    }
+}

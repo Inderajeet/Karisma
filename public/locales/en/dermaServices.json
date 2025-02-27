@@ -93,7 +93,7 @@
           "listServices": [
             {
               "id": 1,
-              "name": "Sculpt Your Dream Face at Karisma Specialist Medical Center",
+              "name": "Face Sculpting",
               "image": "../assets/Images/depts/derma/filler/Sculpting-Your-Dream-Face-banner.png",
               "link": "derma/dermal-fillers/sculpting",
               "readMore": "Read More",
@@ -101,7 +101,7 @@
             },
             {
               "id": 2,
-              "name": "Enhance Your Body Confidence at Karisma Specialist Medical Center",
+              "name": "Body Filler",
               "image": "../assets/Images/depts/derma/filler/Enhancing-Your-Body-Confidence-banner.png",
               "link": "derma/dermal-fillers/body-confidence",
               "readMore": "Read More",
@@ -120,7 +120,7 @@
           "description": "While dermal fillers are generally safe, it’s essential to consider the following precautions:",
           "features": [
             {
-              "title": "Avoid Fillers If",
+              "title": "Avoid Fillers If:",
               "items": [
                 "You are pregnant or breastfeeding.",
                 "You have a history of allergic reactions to filler ingredients.",
@@ -799,11 +799,9 @@
         {
           "type": "color-heading",
           "title": "Ready to Glow Up with Karisma Specialist Medical Center?",
-          "description": "Imagine achieving softer, more luminous, and youthful skin without the need for surgery. Does that sound appealing? That's the essence of what we offer at Karisma."
-        },
-        {
-          "type": "sub-heading-color-content-last",
-          "heading": "Ready to enhance your natural beauty? Call us now and book your consultation with our experts. Let’s discuss how our amazing injections can help you look and feel your best. Together, we’ll create something truly magical!"
+          "description": "Imagine achieving softer, more luminous, and youthful skin without the need for surgery. Does that sound appealing? That's the essence of what we offer at Karisma.",
+          "description2": "Ready to enhance your natural beauty? Call us now and book your consultation with our experts. Let’s discuss how our amazing injections can help you look and feel your best. Together, we’ll create something truly magical!"
+
         },
         {
           "type": "content",

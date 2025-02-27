@@ -44,7 +44,7 @@
           "description": "Book a consultation at Karisma Specialist Medical Center today and discover the power of our advanced body contouring technologies."
         },
         {
-          "type": "list-services-noImage",
+          "type": "large-list-services-noImage",
           "listServices": [
             {
               "id": 1,
@@ -80,7 +80,7 @@
             },
             {
               "id": 5,
-              "name": "lymphatic drainage- Presso",
+              "name": "Lymphatic drainage- Presso",
               "image": "/assets/Images/home/Doctors.png",
               "link": "slimming/machines/lymphatic-drainage-presso",
               "readMore": "Read More",
@@ -184,7 +184,7 @@
           "description": "Schedule a consultation at Karisma Specialist Medical Center today and discover how targeted fat reduction injections can enhance your journey to wellness."
         },
         {
-          "type": "list-services-noImage",
+          "type": "large-list-services-noImage",
           "listServices": [
             {
               "id": 1,
@@ -291,7 +291,7 @@
           "description": "Discover how our variety of services can support your health, beauty, and wellness goals. Our team is ready to assist you every step of the way."
         },
         {
-          "type": "list-services-noImage",
+          "type": "large-list-services-noImage",
           "listServices": [
             {
               "id": 1,
@@ -312,7 +312,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "cont-content-last",
           "title": "Our Doctors",
           "description": ""
         },
