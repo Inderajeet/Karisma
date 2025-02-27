@@ -24,7 +24,7 @@ export default function Doctors() {
 
   return (
     <>
-    <DynamicBanner  deptName="Our Doctors" serviceName="" bannerImage="https://damasmc.com/uploads/banners/bannerimage68e2318425ebbe7d65777d85eb6a11ecbabc116c.jpg" />
+    <DynamicBanner  deptName="Our Doctors" serviceName="" bannerImage="../../../assets/Images/depts/Our-Doctors/our-doctors-banner.png" />
     <div className="docContainer" style={{ marginTop: "50px" }}>
         <div className="col-md-12 order-md-2">
           <div className="post-inner">

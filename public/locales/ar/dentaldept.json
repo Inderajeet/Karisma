@@ -8,11 +8,11 @@
                     "type": "banner",
                     "deptName": "قسم الأسنان",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/dental-banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/dental-body-image.png",
                     "imageAlt": "قسم الأسنان",
                     "title": "قسم الأسنان",
                     "content": [
