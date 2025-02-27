@@ -16,6 +16,7 @@ import ContSection from "../service templates/ContSection";
 import SubHeadingColor from "../service templates/SubHeading";
 import SubHeadingColorLast from "../service templates/SubHeadingColorLast";
 import ColorSection from "../service templates/ColorSection";
+import RelatedServBanner from "../service templates/RelatedSerBanner";
 
 
 const SlimmingRelatedServices = () => {
@@ -44,7 +45,13 @@ const SlimmingRelatedServices = () => {
                 {service.sections.map((section, index) => {
                     console.log('Section-services:', section.listServices);
 
-                    if (section.type === "content") {
+                    if (section.type === "banner") {
+                        return (
+                            <RelatedServBanner 
+                            bannerImage={section.bannerImage}
+                            />
+                        );
+                    } if (section.type === "content") {
                         return (
                             <div style={{  paddingTop: '1rem', paddingBottom: '1rem' }}>
 
