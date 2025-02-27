@@ -30,8 +30,8 @@
 
 .our-story-text {
   font-size: 18px;
-  line-height: 1.5; /* Slightly reduced */
-  padding: 8px; /* Reduced from 10px */
+  /* line-height: 1.5; */
+  padding: 8px; 
 }
 
 .sec1 {
