@@ -8,11 +8,11 @@
                     "type": "banner",
                     "deptName": "Derma",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/banner/dept_banner/derma.png"
+                    "bannerImage": "../assets/Images/depts/derma/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/derma.png",
+                    "imageUrl": "../assets/Images/depts/derma/body-image.png",
                     "imageAlt": "Derma",
                     "title": "Derma",
                     "content": [
@@ -62,12 +62,12 @@
                     "title": "Related Services"
                 },
                 {
-                    "type": "list-services-noImage",
+                    "type": "list-services",
                     "listServices": [
                         {
                             "id": 1,
                             "name": "Dermal Fillers",
-                            "image": "../assets/Images/banner/about_dept/derma.png",
+                            "image": "../assets/Images/depts/derma/filler/body-image.png",
                             "link": "derma/derma-filler",
                             "readMore": "Read More",
                             "designation": ""
@@ -75,7 +75,7 @@
                         {
                             "id": 2,
                             "name": "Anti-Aging Treatments",
-                            "image": "../assets/Images/banner/about_dept/derma.png",
+                            "image": "../assets/Images/depts/derma/anti-aging-treatment/body-image.png",
                             "link": "derma/anti-aging-treatment",
                             "readMore": "Read More",
                             "designation": ""
@@ -83,7 +83,7 @@
                         {
                             "id": 3,
                             "name": "Cosmetic Threads",
-                            "image": "../assets/Images/banner/about_dept/derma.png",
+                            "image": "../assets/Images/depts/derma/Cosmetic-Threads/body-image.png",
                             "link": "derma/cosmetic-threads",
                             "readMore": "Read More",
                             "designation": ""
@@ -91,7 +91,7 @@
                         {
                             "id": 4,
                             "name": "Rejuvenation Injection",
-                            "image": "../assets/Images/banner/about_dept/derma.png",
+                            "image": "../assets/Images/depts/derma/Rejuvenation/body-image1.png",
                             "link": "derma/rejuvenation-injection",
                             "readMore": "Read More",
                             "designation": ""

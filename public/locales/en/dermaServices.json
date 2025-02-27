@@ -8,11 +8,11 @@
           "type": "banner",
           "deptName": "Derma",
           "serviceName": "Dermal Fillers",
-          "bannerImage": "../assets/Images/banner/dept_banner/derma.png"
+          "bannerImage": "../assets/Images/depts/derma/filler/banner.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/derma.png",
+          "imageUrl": "../assets/Images/depts/derma/filler/body-image.png",
           "imageAlt": "Dermal Fillers",
           "title": "Dermal Fillers",
           "content": [
@@ -94,7 +94,7 @@
             {
               "id": 1,
               "name": "Sculpt Your Dream Face at Karisma Specialist Medical Center",
-              "image": "/assets/Images/home/Doctors.png",
+              "image": "../assets/Images/depts/derma/filler/Sculpting-Your-Dream-Face-banner.png",
               "link": "derma/dermal-fillers/sculpting",
               "readMore": "Read More",
               "designation": "Our skilled cosmetic dermatologists use advanced techniques and premium products to sculpt the facial features you've always desired."
@@ -102,7 +102,7 @@
             {
               "id": 2,
               "name": "Enhance Your Body Confidence at Karisma Specialist Medical Center",
-              "image": "/assets/Images/home/Doctors.png",
+              "image": "../assets/Images/depts/derma/filler/Enhancing-Your-Body-Confidence-banner.png",
               "link": "derma/dermal-fillers/body-confidence",
               "readMore": "Read More",
               "designation": "Beyond facial treatments, Karisma Specialist Medical Center offers advanced body enhancement solutions to elevate your confidence and help you feel your best."
@@ -216,11 +216,11 @@
           "type": "banner",
           "deptName": "Derma",
           "serviceName": "Anti-Aging Treatment",
-          "bannerImage": "../assets/Images/banner/dept_banner/derma.png"
+          "bannerImage": "../assets/Images/depts/derma/anti-aging-treatment/banner.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/derma.png",
+          "imageUrl": "../assets/Images/depts/derma/anti-aging-treatment/body-image.png",
           "imageAlt": "Anti-Aging Treatment",
           "title": "Anti-Aging Treatment",
           "content": [
@@ -395,11 +395,11 @@
           "type": "banner",
           "deptName": "Derma",
           "serviceName": "Cosmetic Threads",
-          "bannerImage": "../assets/Images/banner/dept_banner/derma.png"
+          "bannerImage": "../assets/Images/depts/derma/Cosmetic-Threads/banner.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/derma.png",
+          "imageUrl": "../assets/Images/depts/derma/Cosmetic-Threads/body-image.png",
           "imageAlt": "Cosmetic Threads",
           "title": "Cosmetic Threads At Karisma Specialist Medical Center",
           "content": [
@@ -624,11 +624,11 @@
           "type": "banner",
           "deptName": "Derma",
           "serviceName": "Rejuvenation Injection",
-          "bannerImage": "../assets/Images/banner/dept_banner/derma.png"
+          "bannerImage": "../assets/Images/depts/derma/Rejuvenation/banner.png"
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/derma.png",
+          "imageUrl": "../assets/Images/depts/derma/Rejuvenation/body-image1.png",
           "imageAlt": "Rejuvenation Injection",
           "title": "Rejuvenation Injection",
           "content": [

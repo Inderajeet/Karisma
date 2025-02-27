@@ -1,0 +1,43 @@
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 180px;
+    padding: 10px;
+  }
+  
+  .media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .media-icon-part svg {
+    width: 55px;
+    height: 55px;
+  }
+  
+  .feature-box-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .fbox-content {
+    font-size: 16px;
+  }
+  
+
+  @media (min-width: 768px) {
+    .contact-box {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-box {
+     width: 100%;
+     margin: auto;
+    }
+}

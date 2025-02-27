@@ -3,6 +3,7 @@ import phoneIcon from '/assets/wp-content/uploads/2024/05/dental-call.webp';
 import emailIcon from '/assets/wp-content/uploads/2024/05/dental-msg.webp';
 import locationIcon from '/assets/wp-content/uploads/2024/05/dental-location.webp';
 import { useTranslation } from "react-i18next";
+import "../components/contactsDetails.css";
 
 const ContactDetail = () => {
   const { t, i18n } = useTranslation('contact');
@@ -28,7 +29,7 @@ const ContactDetail = () => {
     },
     {
       title: "Current Location",
-      content: "Al Raha Walk, Al Muntazah Street, Sharjah",
+      content: "Al Raha Walk, Al Muntazah Street,Sharjah",
       link: null,
       imgSrc: locationIcon,
       // imgSrc: "./assets/wp-content/uploads/2024/05/dental-location.webp",
@@ -62,7 +63,7 @@ const ContactDetail = () => {
                   data-element_type="widget"
                   data-widget_type="ceafeaturebox.default"
                 >
-                  <div className="elementor-widget-container feature-box-wrapper feature-box-classic">
+                  <div className="elementor-widget-container feature-box-wrapper feature-box-classic contact-box">
                     <div className="media" style={{ display: 'flex' }}>
                       <div className="media-icon-part">
                         {/* <figure className="cea-feature-box-img">
@@ -103,7 +104,7 @@ const ContactDetail = () => {
                   data-element_type="widget"
                   data-widget_type="ceafeaturebox.default"
                 >
-                  <div className="elementor-widget-container feature-box-wrapper feature-box-classic">
+                  <div className="elementor-widget-container feature-box-wrapper feature-box-classic contact-box">
                     <div className="media" style={{ display: 'flex' }}>
                       <div className="media-icon-part">
                         {/* <figure className="cea-feature-box-img">
@@ -148,7 +149,7 @@ const ContactDetail = () => {
                   data-element_type="widget"
                   data-widget_type="ceafeaturebox.default"
                 >
-                  <div className="elementor-widget-container feature-box-wrapper feature-box-classic">
+                  <div className="elementor-widget-container feature-box-wrapper feature-box-classic contact-box">
                     <div className="media" style={{ display: 'flex' }}>
                       <div className="media-icon-part">
                         {/* <figure className="cea-feature-box-img">
