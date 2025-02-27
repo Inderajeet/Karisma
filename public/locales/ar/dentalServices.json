@@ -8,11 +8,11 @@
                     "type": "banner",
                     "deptName": "الأسنان",
                     "serviceName": "طب أسنان الأطفال",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/Pediatric/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/Pediatric/body-image.png",
                     "imageAlt": "طب أسنان الأطفال",
                     "title": "طب أسنان الأطفال",
                     "content": [
@@ -179,11 +179,11 @@
                     "type": "banner",
                     "deptName": "الأسنان",
                     "serviceName": "جراحة الأسنان",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/Dental-Surgical-Treatment/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/Dental-Surgical-Treatment/body-image.png",
                     "imageAlt": "جراحة الأسنان",
                     "title": "جراحة الأسنان",
                     "content": [
@@ -374,11 +374,11 @@
                     "type": "banner",
                     "deptName": "الأسنان",
                     "serviceName": "زراعة الأسنان",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/implant/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/implant/body-image.png",
                     "imageAlt": "زراعة الأسنان",
                     "title": "زراعة الأسنان",
                     "content": [
@@ -504,11 +504,11 @@
                     "type": "banner",
                     "deptName": "الأسنان",
                     "serviceName": "تقويم الأسنان",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/ortho/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/ortho/body-image.png",
                     "imageAlt": "تقويم الأسنان",
                     "title": "تقويم الأسنان",
                     "content": [
@@ -646,11 +646,11 @@
                     "type": "banner",
                     "deptName": "الأسنان",
                     "serviceName": "تبييض الأسنان",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/teeth-Whitening/teeth-Whitening-banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/teeth-Whitening/body-image.png",
                     "imageAlt": "تبييض الأسنان",
                     "title": "تبييض الأسنان",
                     "content": [
@@ -782,11 +782,11 @@
                     "type": "banner",
                     "deptName": "الأسنان",
                     "serviceName": "إعادة تأهيل الفم",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/Mouth-Rehabilitation/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/Mouth-Rehabilitation/body-image.png",
                     "imageAlt": "إعادة تأهيل الفم",
                     "title": "إعادة تأهيل الفم",
                     "content": [
@@ -928,11 +928,11 @@
                     "type": "banner",
                     "deptName": "الأسنان",
                     "serviceName": "علاج قناة الجذر",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/root-canal/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/root-canal/body-image.png",
                     "imageAlt": "علاج قناة الجذر",
                     "title": "علاج قناة الجذر",
                     "content": [
@@ -1075,11 +1075,11 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Oral health (Gum treatment)",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/Oral-Health/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/Oral-Health/body-image.png",
                     "imageAlt": "Oral health (Gum treatment)",
                     "title": "Oral health (Gum treatment)",
                     "content": [
@@ -1221,11 +1221,11 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Restorative Dentistry",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/Restorative-Dentistry/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/Restorative-Dentistry/body-image.png",
                     "imageAlt": "Restorative Dentistry",
                     "title": "Restorative Dentistry",
                     "content": [
@@ -1363,11 +1363,11 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Hollywood Smile (Veneers)",
-                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
+                    "bannerImage": "../assets/Images/depts/dental/hollywood-smile/banner.png"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/dental.png",
+                    "imageUrl": "../assets/Images/depts/dental/hollywood-smile/body-image.png",
                     "imageAlt": "Hollywood Smile (Veneers)",
                     "title": "Hollywood Smile (Veneers)",
                     "content": [
