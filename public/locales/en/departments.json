@@ -402,11 +402,7 @@
                         "Sustainable Meal Plans: Enjoy balanced, delicious meal plans that align with your weight loss goals, making it easier to stay on track."
                     ]
                 },
-                {
-                    "type": "content",
-                    "title": "Schedule a Consultation Today",
-                    "description": "At Karisma Specialist Medical Center, we’re dedicated to helping you achieve a healthier, more confident version of yourself. Book a consultation with our Slimming Department to start your personalized journey toward lasting transformation."
-                },
+               
                 {
                     "type": "color-heading",
                     "title": "Related Services"
@@ -439,6 +435,11 @@
                             "designation": ""
                         }
                     ]
+                },
+                {
+                    "type": "content",
+                    "title": "Schedule a Consultation Today",
+                    "description": "At Karisma Specialist Medical Center, we’re dedicated to helping you achieve a healthier, more confident version of yourself. Book a consultation with our Slimming Department to start your personalized journey toward lasting transformation."
                 },
                 {
                     "type": "content",

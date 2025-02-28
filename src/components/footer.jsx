@@ -382,7 +382,7 @@ export default function Footer() {
                                 fontSize: footer['heading-size'],
                               }}
                             >
-                              Corporate
+                              About Us
                             </h2>
                             <ul className="menu">
                               {corporate.map((link, index) => (
@@ -411,7 +411,7 @@ export default function Footer() {
                                 fontSize: footer['heading-size'],
                               }}
                             >
-                              Service
+                              Information
                             </h2>
                             <ul className="menu">
                               {service.map((link, index) => (
