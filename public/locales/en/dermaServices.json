@@ -695,7 +695,7 @@
         {
           "type": "sub-heading-color-content",
           "heading": "Our injectable treatments offer a non-surgical path to a more sculpted, youthful appearance.",
-          "description": "Tailored Solutions for Every Skin Concern"
+          "features": ["Tailored Solutions for Every Skin Concern"]
         },
         {
           "type": "sub-heading-color-content",
@@ -717,7 +717,7 @@
         {
           "type": "sub-heading-color-content-last",
           "heading": "Sun Damage",
-          "description": "Discover the power of antioxidant-rich skin boosters to combat visible sun damage and achieve healthier, more even-toned skin."
+          "features": ["Discover the power of antioxidant-rich skin boosters to combat visible sun damage and achieve healthier, more even-toned skin."]
         },
         {
           "type": "content",

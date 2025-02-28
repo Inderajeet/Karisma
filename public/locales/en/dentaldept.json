@@ -8,7 +8,7 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/depts/dental/dental-banner.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
                 },
                 {
                     "type": "image-content",
@@ -82,17 +82,6 @@
                         "Innovative Technology: Our clinic is equipped with the latest advancements, from digital imaging to precision laser treatments, ensuring a comfortable and efficient experience.",
                         "Personalized Approach: We listen to your concerns and aspirations, creating customized treatment plans that align with your goals."
                     ]
-                },
-                {
-                    "type": "cont-content",
-                    "title": "A Comprehensive Dental Experience Under One Roof",
-                    "description": "Why juggle multiple appointments at different clinics? At Karisma Specialist Medical Center, we offer a wide range of services, from preventive care to advanced cosmetic procedures. We are your one-stop destination for all your dental needs."
-                },
-                {
-                    "type": "cont-content-last",
-                    "title": "Schedule Your Appointment Today",
-                    "description": "Join the many patients who have discovered the Karisma difference. Contact us now to book your personalized consultation and take the first step toward achieving the smile of your dreams.",
-                    "description2": "Your perfect smile and renewed confidence are just a visit away at Karisma Specialist Medical Center where artistry meets excellence."
                 },
                 {
                     "type": "cont-color-content",
@@ -182,6 +171,17 @@
                             "designation": ""
                         }
                     ]
+                },
+                {
+                    "type": "cont-content",
+                    "title": "A Comprehensive Dental Experience Under One Roof",
+                    "description": "Why juggle multiple appointments at different clinics? At Karisma Specialist Medical Center, we offer a wide range of services, from preventive care to advanced cosmetic procedures. We are your one-stop destination for all your dental needs."
+                },
+                {
+                    "type": "cont-content-last",
+                    "title": "Schedule Your Appointment Today",
+                    "description": "Join the many patients who have discovered the Karisma difference. Contact us now to book your personalized consultation and take the first step toward achieving the smile of your dreams.",
+                    "description2": "Your perfect smile and renewed confidence are just a visit away at Karisma Specialist Medical Center where artistry meets excellence."
                 },
                 {
                     "type": "content",

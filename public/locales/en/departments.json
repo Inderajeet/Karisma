@@ -8,7 +8,7 @@
                     "type": "banner",
                     "deptName": "Gynecology",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/depts/Gyne/Main-Banner.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
                 },
                 {
                     "type": "image-content",
@@ -183,7 +183,7 @@
                     "type": "banner",
                     "deptName": "SkinCare",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/depts/skincare/skincareBanner.jpg"
+                    "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
                 },
                 {
                     "type": "image-content",
@@ -346,7 +346,7 @@
                     "type": "banner",
                     "deptName": "Nutrition and Slimming",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/depts/slimming/banner.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/slimming.png"
                 },
                 {
                     "type": "image-content",
@@ -402,11 +402,7 @@
                         "Sustainable Meal Plans: Enjoy balanced, delicious meal plans that align with your weight loss goals, making it easier to stay on track."
                     ]
                 },
-                {
-                    "type": "content",
-                    "title": "Schedule a Consultation Today",
-                    "description": "At Karisma Specialist Medical Center, we’re dedicated to helping you achieve a healthier, more confident version of yourself. Book a consultation with our Slimming Department to start your personalized journey toward lasting transformation."
-                },
+               
                 {
                     "type": "color-heading",
                     "title": "Related Services"
@@ -439,6 +435,11 @@
                             "designation": ""
                         }
                     ]
+                },
+                {
+                    "type": "content",
+                    "title": "Schedule a Consultation Today",
+                    "description": "At Karisma Specialist Medical Center, we’re dedicated to helping you achieve a healthier, more confident version of yourself. Book a consultation with our Slimming Department to start your personalized journey toward lasting transformation."
                 },
                 {
                     "type": "content",

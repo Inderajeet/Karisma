@@ -8,7 +8,7 @@
                     "type": "banner",
                     "deptName": "Laser Hair Removal",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/depts/laser/banner.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/laser.png"
                 },
                 {
                     "type": "image-content",
