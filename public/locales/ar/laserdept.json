@@ -105,15 +105,25 @@
                         {
                             "id": 1,
                             "name": "كانديلا جنتل ماكس برو",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "إزالة-الشعر-بالليزر/candela",
+                            "image": "../assets/Images/depts/laser/Candela/body-image.png",
+                            "link": "laser-hair-removal/candela",
+                            "readMore": "Read More",
+                            "designation": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "ويك تيليإ ",
+                            "image": "../assets/Images/banner/about_dept/laser.png",
+                            "link": "laser-hair-removal/elite",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 2,
                             "name": "ريف لايت إس آي",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "إزالة-الشعر-بالليزر/revlite",
+                            "image": "../assets/Images/depts/laser/body-image.png",
+                            "link": "laser-hair-removal/revlite",
+                            "readMore": "Read More",
                             "designation": ""
                         }
                     ]
