@@ -8,7 +8,7 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/depts/dental/dental-banner.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png"
                 },
                 {
                     "type": "image-content",

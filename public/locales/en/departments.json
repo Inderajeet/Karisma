@@ -8,7 +8,7 @@
                     "type": "banner",
                     "deptName": "Gynecology",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/depts/Gyne/Main-Banner.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
                 },
                 {
                     "type": "image-content",
@@ -183,7 +183,7 @@
                     "type": "banner",
                     "deptName": "SkinCare",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/depts/skincare/skincareBanner.jpg"
+                    "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
                 },
                 {
                     "type": "image-content",
@@ -346,7 +346,7 @@
                     "type": "banner",
                     "deptName": "Nutrition and Slimming",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/depts/slimming/banner.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/slimming.png"
                 },
                 {
                     "type": "image-content",
