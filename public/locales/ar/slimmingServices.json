@@ -42,8 +42,67 @@
           "type": "color-content",
           "title": "خطوة أولى نحو صحة أفضل وثقة أكبر بنفسك",
           "description": "احجز استشارتك اليوم في مركز كاريزما الطبي التخصصي واكتشف قوة تقنيات نحت الجسم المتطورة لدينا."
-        }
-      ]
+        },
+          {
+            "type": "color-heading",
+            "title": "خطوة أولى نحو صحة أفضل وثقة أكبر بنفسك",
+            "description": "احجز استشارتك اليوم في مركز كاريزما الطبي التخصصي واكتشف قوة تقنيات نحت الجسم المتطورة لدينا."
+          },
+          {
+            "type": "large-list-services-noImage",
+            "listServices": [
+              {
+                "id": 1,
+                "name": "ABAS Fit & ReFit",
+                "image": "/assets/Images/home/Doctors.png",
+                "link": "slimming/machines/abas-fit-refit",
+                "readMore": "اقرأ المزيد",
+                "designation": "تحقق تقنية ABAS Fit & ReFit المبتكرة في مركز كاريزما الطبي التخصصي قوامًا منحوتًا ومتناسقًا."
+              },
+              {
+                "id": 2,
+                "name": "باور شيب 2 – Power Shape 2",
+                "image": "/assets/Images/home/Doctors.png",
+                "link": "slimming/machines/power-shape-2",
+                "readMore": "اقرأ المزيد",
+                "designation": "اكتشف المستوى الفائق لنحت الجسم مع باور شيب 2، وهو علاج متطور متعدد التقنيات مصمم لإذابة الدهون وتقليل السيلوليت وتجديد شباب بشرتك للحصول على مظهر شبابي ومنحوت."
+              },
+              {
+                "id": 3,
+                "name": "حرق الدهون – هيتر Heater",
+                "image": "/assets/Images/home/Doctors.png",
+                "link": "slimming/machines/fat-burning-heater",
+                "readMore": "اقرأ المزيد",
+                "designation": "حقق أهدافك بنحت جسمك بشكل أسرع مع جهاز هيتر، وهو حل متطور لتعزيز حرق الدهون وتعزيز عملية الأيض."
+              },
+              {
+                "id": 4,
+                "name": "تحفيز العضلات - EMS",
+                "image": "/assets/Images/home/Doctors.png",
+                "link": "slimming/machines/stimulate-muscle-ems",
+                "readMore": "اقرأ المزيد",
+                "designation": "احصل على عضلات محددة وقوية وبارزة وتحسينًا لحرق الدهون مع تحفيز العضلات الكهربائي (EMS)، وهي تقنية متطورة تحاكي التمرين الطبيعي من خلال نبضات كهربائية مُستهدِفة."
+              },
+              {
+                "id": 5,
+                "name": "التصريف الليمفاوي – بريسّو Presso",
+                "image": "/assets/Images/home/Doctors.png",
+                "link": "slimming/machines/lymphatic-drainage-presso",
+                "readMore": "اقرأ المزيد",
+                "designation": "بريسّو هو علاج غير جراحي يحفز التصريف الليمفاوي، ويساعد على تقليل الانتفاخ، كما يعزز الراحة ومظهرًا انسيابياً."
+              },
+              {
+                "id": 6,
+                "name": "ماديروثيرابي - التدليك بالأخشاب",
+                "image": "/assets/Images/home/Doctors.png",
+                "link": "slimming/machines/wooden-massage–madero-therapy",
+                "readMore": "اقرأ المزيد",
+                "designation": "استمتع بدمج التقنيات الكولومبية القديمة مع الرفاهية الحديثة في مركز كاريزما الطبي التخصصي من خلال ماديروثيرابي، وهو علاج طبيعي فريد مصمم لنحت جسمك وتقويته وتجديد الجلد."
+              }
+            ]
+          }
+        ]        
+
     },
     {
       "id": "2",
