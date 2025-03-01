@@ -188,22 +188,22 @@
               "name": "Dr. Sandro Ceci",
               "designation": "Dermatologist Specialist",
               "image": "/assets/Images/doctors/Dr Sandro.png",
-              "link": "dr-sandro-ceci"
-            },
-            {
+              "link": "doctor/dr-sandro-ceci"
+          },
+          {
               "id": 2,
               "name": "Dr. Manar Magdy",
               "designation": "Dermatology Specialist",
               "image": "/assets/Images/doctors/Dr Manar.png",
-              "link": "dr-manar-magdy"
-            },
-            {
+              "link": "doctor/dr-manar-magdy"
+          },
+          {
               "id": 3,
               "name": "Dr. Ramilia Anarkulova",
               "designation": "Dermatologist-Cosmetologist",
               "image": "/assets/Images/doctors/Dr Ramila.png",
-              "link": "dr-ramilia-anarkulova"
-            }
+              "link": "doctor/dr-ramilia-anarkulova"
+          }
           ]
         }
       ]
@@ -367,22 +367,22 @@
               "name": "Dr. Sandro Ceci",
               "designation": "Dermatologist Specialist",
               "image": "/assets/Images/doctors/Dr Sandro.png",
-              "link": "dr-sandro-ceci"
-            },
-            {
+              "link": "doctor/dr-sandro-ceci"
+          },
+          {
               "id": 2,
               "name": "Dr. Manar Magdy",
               "designation": "Dermatology Specialist",
               "image": "/assets/Images/doctors/Dr Manar.png",
-              "link": "dr-manar-magdy"
-            },
-            {
+              "link": "doctor/dr-manar-magdy"
+          },
+          {
               "id": 3,
               "name": "Dr. Ramilia Anarkulova",
               "designation": "Dermatologist-Cosmetologist",
               "image": "/assets/Images/doctors/Dr Ramila.png",
-              "link": "dr-ramilia-anarkulova"
-            }
+              "link": "doctor/dr-ramilia-anarkulova"
+          }
           ]
         }
       ]
@@ -596,22 +596,22 @@
               "name": "Dr. Sandro Ceci",
               "designation": "Dermatologist Specialist",
               "image": "/assets/Images/doctors/Dr Sandro.png",
-              "link": "dr-sandro-ceci"
-            },
-            {
+              "link": "doctor/dr-sandro-ceci"
+          },
+          {
               "id": 2,
               "name": "Dr. Manar Magdy",
               "designation": "Dermatology Specialist",
               "image": "/assets/Images/doctors/Dr Manar.png",
-              "link": "dr-manar-magdy"
-            },
-            {
+              "link": "doctor/dr-manar-magdy"
+          },
+          {
               "id": 3,
               "name": "Dr. Ramilia Anarkulova",
               "designation": "Dermatologist-Cosmetologist",
               "image": "/assets/Images/doctors/Dr Ramila.png",
-              "link": "dr-ramilia-anarkulova"
-            }
+              "link": "doctor/dr-ramilia-anarkulova"
+          }
           ]
         }
       ]
@@ -695,7 +695,7 @@
         {
           "type": "sub-heading-color-content",
           "heading": "Our injectable treatments offer a non-surgical path to a more sculpted, youthful appearance.",
-          "description": "Tailored Solutions for Every Skin Concern"
+          "features": ["Tailored Solutions for Every Skin Concern"]
         },
         {
           "type": "sub-heading-color-content",
@@ -717,8 +717,8 @@
         {
           "type": "sub-heading-color-content-last",
           "heading": "Sun Damage",
-          "description": "Discover the power of antioxidant-rich skin boosters to combat visible sun damage and achieve healthier, more even-toned skin."
-        },
+          "features":[ "Discover the power of antioxidant-rich skin boosters to combat visible sun damage and achieve healthier, more even-toned skin."
+      ]},
         {
           "type": "content",
           "title": "Unlocking Youthful Skin: A Guide to Non-Surgical Rejuvenation",
@@ -797,7 +797,7 @@
           ]
         },
         {
-          "type": "color-heading",
+          "type": "color-content",
           "title": "Ready to Glow Up with Karisma Specialist Medical Center?",
           "description": "Imagine achieving softer, more luminous, and youthful skin without the need for surgery. Does that sound appealing? That's the essence of what we offer at Karisma.",
           "description2": "Ready to enhance your natural beauty? Call us now and book your consultation with our experts. Let’s discuss how our amazing injections can help you look and feel your best. Together, we’ll create something truly magical!"
@@ -826,22 +826,22 @@
               "name": "Dr. Sandro Ceci",
               "designation": "Dermatologist Specialist",
               "image": "/assets/Images/doctors/Dr Sandro.png",
-              "link": "dr-sandro-ceci"
-            },
-            {
+              "link": "doctor/dr-sandro-ceci"
+          },
+          {
               "id": 2,
               "name": "Dr. Manar Magdy",
               "designation": "Dermatology Specialist",
               "image": "/assets/Images/doctors/Dr Manar.png",
-              "link": "dr-manar-magdy"
-            },
-            {
+              "link": "doctor/dr-manar-magdy"
+          },
+          {
               "id": 3,
               "name": "Dr. Ramilia Anarkulova",
               "designation": "Dermatologist-Cosmetologist",
               "image": "/assets/Images/doctors/Dr Ramila.png",
-              "link": "dr-ramilia-anarkulova"
-            }
+              "link": "doctor/dr-ramilia-anarkulova"
+          }
           ]
         }
       ]

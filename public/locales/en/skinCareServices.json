@@ -248,7 +248,7 @@
               "name": "Naziha Al Tabaa",
               "designation": "Skin Expert & Beauty Therapist",
               "image": "/assets/Images/doctors/Naziha.png",
-              "link": "naziha-al-tabaa"
+              "link": "doctor/naziha-al-tabaa"
             }
           ]
         }
@@ -373,7 +373,7 @@
               "name": "Naziha Al Tabaa",
               "designation": "Skin Expert & Beauty Therapist",
               "image": "/assets/Images/doctors/Naziha.png",
-              "link": "naziha-al-tabaa"
+              "link": "doctor/naziha-al-tabaa"
             }
           ]
         }
@@ -557,7 +557,7 @@
               "name": "Naziha Al Tabaa",
               "designation": "Skin Expert & Beauty Therapist",
               "image": "/assets/Images/doctors/Naziha.png",
-              "link": "naziha-al-tabaa"
+              "link": "doctor/naziha-al-tabaa"
             }
           ]
         }
@@ -757,7 +757,7 @@
               "name": "Naziha Al Tabaa",
               "designation": "Skin Expert & Beauty Therapist",
               "image": "/assets/Images/doctors/Naziha.png",
-              "link": "naziha-al-tabaa"
+              "link": "doctor/naziha-al-tabaa"
             }
           ]
         }
@@ -853,7 +853,7 @@
               "name": "Naziha Al Tabaa",
               "designation": "Skin Expert & Beauty Therapist",
               "image": "/assets/Images/doctors/Naziha.png",
-              "link": "naziha-al-tabaa"
+              "link": "doctor/naziha-al-tabaa"
             }
           ]
         }
@@ -923,10 +923,6 @@
           ]
         },
         {
-          "type": "color-content",
-          "heading": "Embrace a natural lift and experience a smoother, firmer complexion with collagen threads at Karisma Specialist Medical Center."
-        },
-        {
           "type": "content",
           "title": "Our Doctors",
           "description": ""
@@ -949,111 +945,13 @@
               "name": "Naziha Al Tabaa",
               "designation": "Skin Expert & Beauty Therapist",
               "image": "/assets/Images/doctors/Naziha.png",
-              "link": "naziha-al-tabaa"
+              "link": "doctor/naziha-al-tabaa"
             }
           ]
         }
       ]
     },
-    {
-      "id": "7",
-      "name": "piercing",
-      "sections": [
-        {
-          "type": "banner",
-          "deptName": "SkinCare",
-          "serviceName": "Piercing",
-          "bannerImage": "../assets/Images/depts/skincare/piercing/Piercing-Banner---Ar.png"
-        },
-        {
-          "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
-          "imageAlt": "Piercing",
-          "title": "Piercing",
-          "content": [
-            {
-              "type": "heading",
-              "text": "Explore the World of Body Piercings at Karisma Body Art"
-            },
-            {
-              "type": "paragraph",
-              "text": "At Karisma Body Art, we believe that self-expression is an art form. Body piercings provide a unique and personal way to enhance your look and showcase your individuality. We offer a safe, professional, and welcoming environment for all your piercing needs, ensuring a comfortable and positive experience from start to finish."
-            },
-            {
-              "type": "heading",
-              "text": "Discover Your Personal Expression"
-            },
-            {
-              "type": "paragraph",
-              "text": "We provide a variety of piercing services designed to suit your style, allowing you to adorn your body with exquisite jewelry and celebrate your individuality."
-            },
-            {
-              "type": "heading",
-              "text": "Experience the Karisma Body Art Difference"
-            },
-            {
-              "type": "paragraph",
-              "text": "Here’s what makes us stand out when it comes to piercings:"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Expertise and Experience: Our team consists of highly skilled and certified piercers who prioritize your safety and comfort throughout the process.",
-                "Sterile Environment: We adhere to the highest standards of hygiene and sterilization, using only disposable, single-use equipment to ensure a clean experience.",
-                "Jewelry Selection: We offer a curated selection of high-quality, implant-grade jewelry to perfectly complement your chosen piercing.",
-                "Aftercare Guidance: We provide comprehensive aftercare instructions to ensure proper healing and minimize the risk of infection, helping you get the most out of your piercing."
-              ]
-            }
-          ]
-        },
-        {
-          "type": "content",
-          "title": "Important Considerations Before Getting Pierced",
-          "description": "Before proceeding with your piercing, consider the following:",
-          "features": [
-            "Consultation: We recommend a consultation to discuss your desired piercing, placement options, jewelry selection, and aftercare.",
-            "Age Requirement: We adhere to all age restrictions for piercings. Minors may require parental consent for certain piercings.",
-            "Health Considerations: Some medical conditions may prevent you from getting a piercing. Please disclose any relevant health information during your consultation."
-          ]
-        },
-        {
-          "type": "sub-heading-content-last",
-          "title": "Embrace Your Personal Style",
-          "description": "A piercing can be a meaningful way to express your unique style and identity. At Karisma Body Art, we’re here to guide you through the process and ensure you get the perfect piercing to reflect who you are."
-        },
-        {
-          "type": "color-content",
-          "heading": "Ready to make a statement? Schedule a consultation with our piercing experts today!"
-        },
-        {
-          "type": "content",
-          "title": "Our Doctors",
-          "description": ""
-        },
-        {
-          "type": "slider-doctors",
-          "title": "Meet Our Specialists",
-          "cards": {
-            "background-color": "#f9f9f9",
-            "heading-color": "#577065",
-            "heading-size": "24px",
-            "desc-color": "#5C4033",
-            "desc-size": "16px",
-            "button-text-color": "#577065",
-            "button-text-size": "16px"
-          },
-          "doctors": [
-            {
-              "id": 1,
-              "name": "Naziha Al Tabaa",
-              "designation": "Skin Expert & Beauty Therapist",
-              "image": "/assets/Images/doctors/Naziha.png",
-              "link": "naziha-al-tabaa"
-            }
-          ]
-        }
-      ]
-    },
+   
     {
       "id": "8",
       "name": "facial-machines",
@@ -1172,7 +1070,7 @@
               "name": "Naziha Al Tabaa",
               "designation": "Skin Expert & Beauty Therapist",
               "image": "/assets/Images/doctors/Naziha.png",
-              "link": "naziha-al-tabaa"
+              "link": "doctor/naziha-al-tabaa"
             }
           ]
         }
@@ -1287,7 +1185,7 @@
               "name": "Naziha Al Tabaa",
               "designation": "Skin Expert & Beauty Therapist",
               "image": "/assets/Images/doctors/Naziha.png",
-              "link": "naziha-al-tabaa"
+              "link": "doctor/naziha-al-tabaa"
             }
           ]
         }

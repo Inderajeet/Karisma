@@ -9,7 +9,12 @@
                     "title": "Fat Melting and Body Sculpting with ABAS Fit & ReFit at Karisma Specialist Medical Center"
                 },
                 {
-                    "type": "content",
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/slimming/Machines/ABAS-fit-–-ReFit-banner-.png",
+                    "bannerPosition": "center"
+                },
+                {
+                    "type": "cont-content",
                     "description": "With the innovative ABAS Fit & ReFit technology at Karisma Specialist Medical Center. This non-surgical solution harnesses advanced radiofrequency (RF) energy to deliver impressive body transformation results, it targets g stubborn fat and promotes skin tightening to achieve a sculpted, toned physique."
                 },
                 {
@@ -37,7 +42,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content-last",
                     "title": "Treatment Recommendations & Precautions",
                     "description": "Combine the Basic HydraFacial with other treatments for even more dramatic results:",
                     "features": [
@@ -61,12 +66,17 @@
                     "title": "Power Shape 2"
                 },
                 {
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/slimming/Machines/PowerShape2-banner.png",
+                    "bannerPosition": "center"
+                },
+                {
                     "type": "content",
                     "title": "Transform Your Body with Precision at Karisma Specialist Medical Center",
                     "description": "Discover the next level of body contouring with Power Shape 2, an advanced, multi-technology treatment designed to melt fat, reduce cellulite, and rejuvenate your skin for a youthful, sculpted appearance."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content",
                     "title": "Revolutionary Synergy of Technologies",
                     "description": "Power Shape 2 combines powerful techniques to deliver comprehensive results:",
                     "features": [
@@ -100,7 +110,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content-last",
                     "title": "Enhance Your Results",
                     "description": "For optimal results, Power Shape 2 can be combined with:",
                     "features": [
@@ -124,12 +134,17 @@
                     "title": "Fat Burning - Heater"
                 },
                 {
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/slimming/Machines/heater-banner.png",
+                    "bannerPosition": "center"
+                },
+                {
                     "type": "content",
                     "title": "Fat Burning Made Smarter",
                     "description": "Achieve your body transformation goals faster with Heater Machines, a cutting-edge solution to amplify fat burning and boost metabolism. These innovative devices offer a heat-based approach to support your weight management journey, making every session more effective."
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Why Choose Heater Machines?",
                     "features": [
                         "Effortless Calorie Burn: Experience the power of heat-induced fat burning, each 20-minute session potentially burns 500 to 800 calories. The gentle heat elevates your body’s thermogenic response, encouraging calorie burn through increased sweating."
@@ -159,13 +174,13 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Support, Not a Shortcut",
                     "description": "Heater machines aren’t a standalone solution but an effective complement to your weight loss strategy. Incorporate them into your routine to maximize calorie burn and enhance your body-sculpting results."
                 },
                 {
-                    "type": "color-content",
-                    "heading": "Start your journey towards a fitter, more confident you with Heater Therapy at Karisma Specialist Medical Center!"
+                    "type": "content",
+                    "description": "Start your journey towards a fitter, more confident you with Heater Therapy at Karisma Specialist Medical Center!"
                 }
             ]
         },
@@ -178,12 +193,17 @@
                     "title": "Stimulate Muscle - EMS"
                 },
                 {
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/slimming/Machines/EMS-banner.png",
+                    "bannerPosition": "center"
+                },
+                {
                     "type": "content",
                     "title": "Elevate Your Fitness with EMS at Karisma Specialist Medical Center",
                     "description": "Achieve peak muscle definition and enhanced fat burning with Electrical Muscle Stimulation (EMS), a cutting-edge technology that mimics natural exercise through targeted electrical impulses. Whether you want to tone, sculpt, or maintain muscle mass, EMS offers a powerful, non-invasive solution to complement your body transformation journey."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content",
                     "title": "The Benefits of EMS Therapy",
                     "features": [
                         "Muscle Toning & Definition: EMS stimulates deep muscle contractions, helping you achieve a toned, sculpted physique without the strain of traditional workouts.",
@@ -213,13 +233,13 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content-last",
                     "title": "A Holistic Approach to Fitness",
                     "description": "EMS is a powerful tool for enhancing muscle tone and fat loss, but it works best alongside a balanced diet and regular exercise. For athletes, incorporating rest days ensures optimal muscle recovery."
                 },
                 {
                     "type": "color-content",
-                    "heading": "Achieve your dream physique with the transformative power of EMS at Karisma Specialist Medical Center!"
+                    "description": "Achieve your dream physique with the transformative power of EMS at Karisma Specialist Medical Center!"
                 }
             ]
         },
@@ -232,7 +252,12 @@
                     "title": "Lymphatic drainage - Presso"
                 },
                 {
-                    "type": "content",
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/slimming/Machines/pressotherapy-banner.png",
+                    "bannerPosition": "center"
+                },
+                {
+                    "type": "cont-content",
                     "title": "Lymphatic Drainage with Presso at Karisma Specialist Medical Center",
                     "description": "Fluid retention can be an obstacle to achieving a sculpted, toned body. Pressotherapy is a non-invasive treatment that stimulates lymphatic drainage, helps reduce bloating, enhances recovery, and promotes a streamlined silhouette."
                 },
@@ -259,12 +284,12 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content-last",
                     "title": "Tailored Solutions for Your Body Goals",
                     "description": "While Pressotherapy is excellent for fluid reduction, other treatments like body contouring or mesotherapy may be better suited for fat loss and sculpting. Our team will guide you in selecting the most effective treatment plan."
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Safety & Precautions",
                     "features": [
                         "Avoid During: Menstruation, pregnancy, or early breastfeeding (consult your doctor after six months).",
@@ -272,8 +297,8 @@
                     ]
                 },
                 {
-                    "type": "center-content",
-                    "heading": "Rediscover comfort and confidence with Pressotherapy at Karisma Specialist Medical Center—your partner in beauty and wellness."
+                    "type": "content",
+                    "description": "Rediscover comfort and confidence with Pressotherapy at Karisma Specialist Medical Center—your partner in beauty and wellness."
                 }
             ]
         },
@@ -286,12 +311,17 @@
                     "title": "Wooden Massage – Madero Therapy"
                 },
                 {
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/slimming/Machines/pressotherapy-banner.png",
+                    "bannerPosition": "center"
+                },
+                {
                     "type": "content",
                     "title": "Madero Therapy at Karisma Specialist Medical Center",
                     "description": "Experience the fusion of ancient Colombian techniques with modern wellness at Karisma Specialist Medical Center through Madero Therapy, a unique, all-natural treatment designed to sculpt, tone, and rejuvenate your body."
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Why Choose Madero Therapy?",
                     "features": [
                         {
@@ -317,17 +347,15 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Safety and Suitability",
-                    "description": "Madero Therapy is generally safe but should be tailored to your unique needs. Consult with our experts at Karisma Specialist Medical Center to ensure it’s the right choice for you."
+                    "description": "Madero Therapy is generally safe but should be tailored to your unique needs. Consult with our experts at Karisma Specialist Medical Center to ensure it’s the right choice for you.",
+                    "description2": "Rediscover your natural beauty and boost your confidence with this holistic, effective treatment."
+
                 },
                 {
                     "type": "content",
-                    "description": "Rediscover your natural beauty and boost your confidence with this holistic, effective treatment."
-                },
-                {
-                    "type": "center-content",
-                    "heading": "Book your consultation today and unlock a healthier, more radiant you."
+                    "description": "Book your consultation today and unlock a healthier, more radiant you."
                 }
             ]
         },
@@ -340,12 +368,17 @@
                     "title": "Meso Fat Injections"
                 },
                 {
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/slimming/Injection/Meso-Fat-banner.png",
+                    "bannerPosition": "center"
+                },
+                {
                     "type": "content",
                     "title": "Sculpt Your Body at Karisma Specialist Medical Center",
                     "description": "At Karisma Specialist Medical Center, we understand the desire to eliminate stubborn fat and redefine your physique. Our Meso Fat injections offer a minimally invasive solution to target localized fat deposits, helping you achieve a more sculpted and confident silhouette."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content",
                     "title": "What are Meso Fat Injections?",
                     "description": "Meso Fat injections are designed to target and dissolve fat in specific areas, offering a non-surgical approach to body contouring. Here’s how they work:",
                     "features": [
@@ -377,7 +410,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content-last",
                     "title": "Treatment Schedule and Considerations",
                     "description": "Meso Fat injections are most effective when administered as part of a series of treatments. Here’s what to expect:",
                     "features": [
@@ -388,7 +421,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Safety and Expert Care",
                     "description": "Meso Fat injections are considered safe when administered by trained professionals. However, certain precautions apply:",
                     "features": [
@@ -397,7 +430,7 @@
                     ]
                 },
                 {
-                    "type": "color-content",
+                    "type": "content",
                     "title": "Schedule Your Consultation Today!",
                     "description": "At Karisma Specialist Medical Center, we offer personalized plans to help you achieve your body goals. Book a consultation today and discover how Meso Fat Injections can help you reshape your physique and boost your confidence."
                 }
@@ -412,12 +445,17 @@
                     "title": "Ozempic Injections"
                 },
                 {
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/slimming/Injection/Ozempic-banner.png",
+                    "bannerPosition": "center"
+                },
+                {
                     "type": "content",
                     "title": "Achieve Your Weight Management Goals at Karisma Specialist Medical Center",
                     "description": "At Karisma Specialist Medical Center, we recognize that weight management is a journey that requires both dedication and professional guidance. Our experienced team of doctors is here to help you achieve a healthier weight and sculpted physique. Through our expert-led programs, including Ozempic injections, we offer a safe and effective approach to weight loss and overall health improvement."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content",
                     "title": "What Are Ozempic Injections?",
                     "description": "Ozempic (semaglutide) is a prescription medication primarily used for managing type 2 diabetes but has also shown significant promise in supporting weight loss. Here's how it works:",
                     "features": [
@@ -450,12 +488,12 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content-last",
                     "title": "Combining Ozempic with Other Treatments for Enhanced Results",
                     "description": "While Ozempic is an effective weight loss tool, it may not address specific body contouring concerns. Our team may recommend combining Ozempic with bodysculpting treatments such as EMS, or personalized diet and exercise plans to enhance your results,."
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Long-Term Wellbeing and Sustainable Weight Loss",
                     "description": "At Karisma Specialist Medical Center, we believe that true beauty is a holistic experience. While Ozempic can aid in weight loss, maintaining a balanced lifestyle with healthy habits is essential for long-term success. Our team is committed to supporting you in achieving sustainable results that promote your health and confidence."
                 },
@@ -465,12 +503,12 @@
                     "description": "If you’re ready to take control of your weight loss journey, Karisma Specialist Medical Center is here to guide you every step of the way. Book a consultation today to discover how Ozempic injections can help you achieve your goals in a safe, effective, and supportive environment."
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Disclaimer",
                     "description": "Ozempic is a prescription medication and should only be used under the supervision of a qualified physician. This content is for informational purposes and should not replace medical advice. Always consult with your doctor before starting any new treatment."
                 },
                 {
-                    "type": "color-content",
+                    "type": "content",
                     "title": "Elevate Your Skincare Routine",
                     "description": "Experience the unparalleled caviar and vitamin C for radiant, youthful skin. Book your Karisma Signature Facial (Caviar) at Karisma today!"
                 }
@@ -485,12 +523,17 @@
                     "title": "IV drip solutions"
                 },
                 {
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/slimming/Injection/Ozempic-banner.png",
+                    "bannerPosition": "center"
+                },
+                {
                     "type": "content",
                     "title": "Boost Your Health and Beauty at Karisma Specialist Medical Center",
                     "description": "At Karisma Specialist Medical Center, we understand the importance of feeling and looking your best. Our IV Drip Therapy offers a fast and effective way to deliver essential nutrients directly into your bloodstream, enhancing your health, beauty, and overall well-being."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content",
                     "title": "The Power of IV Drip Therapy",
                     "description": "Unlike traditional oral supplements, IV Drip Therapy bypasses the digestive system and delivers a concentrated blend of nutrients directly into your bloodstream, ensuring optimal absorption. This method offers a more immediate and efficient way to enhance your health and appearance."
                 },
@@ -517,17 +560,17 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content-last",
                     "title": "Enhance Your Results with Combined Treatments",
                     "description": "For enhanced benefits, we can combine IV Drip Therapy with other treatments, such as slimming devices, to further support your wellness and aesthetic goals. Our team will help you create a plan to achieve your best results."
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Book Your Consultation Today",
                     "description": "At Karisma Specialist Medical Center, we are committed to helping you achieve your health and beauty goals. Schedule a consultation today to discuss how IV Drip Therapy can benefit you and explore the tailored options available. Start your journey towards a healthier, more radiant you!"
                 },
                 {
-                    "type": "color-content",
+                    "type": "content",
                     "title": "Disclaimer",
                     "description": "IV Drip Therapy is not a one-size-fits-all solution. While it offers numerous benefits, it should be combined with a balanced lifestyle, proper nutrition, and self-care. Always consult with our experts to determine the best course of action for your needs."
                 }
@@ -543,7 +586,12 @@
                     "description": "Digestive discomfort such as bloating, gas, and abdominal pain can be frustrating and disruptive to daily life. Food sensitivities may be a hidden cause. At Karisma Specialist Medical Center, we are proud to offer Food Print Testing, a simple and effective blood test that helps identify potential food sensitivities and support your digestive health."
                 },
                 {
-                    "type": "content",
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/slimming/Other-services/Food-Print-Testing-banner.png",
+                    "bannerPosition": "center"
+                },
+                {
+                    "type": "cont-content",
                     "title": "Uncover Potential Food Sensitivities",
                     "description": "Unlike food allergies, which trigger severe immune responses, food sensitivities cause more subtle symptoms like bloating, abdominal discomfort, headaches, and fatigue. Identifying these sensitivities can help you make more informed choices about your diet and improve your overall well-being."
                 },
@@ -571,7 +619,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content-last",
                     "title": "Important Considerations",
                     "description": "While Food Print Testing can be an invaluable tool in identifying food sensitivities, please keep the following in mind:",
                     "features": [
@@ -596,6 +644,11 @@
                     "description": "At Karisma Specialist Medical Center, we recognize that nutrition is not one-size-fits-all. Your unique health journey deserves a diet plan tailored specifically to your needs, goals, and preferences. That's why we offer a range of comprehensive, personalized diet plans created by our team of expert nutritionists, designed to help you achieve your optimal health."
                 },
                 {
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/slimming/Other-services/Diet-Plans-banner.png",
+                    "bannerPosition": "center"
+                },
+                {
                     "type": "content",
                     "title": "Unveiling a World of Dietary Options",
                     "description": "Whether you're looking to lose weight, gain weight, or manage a chronic condition, we can design a diet plan that fits your lifestyle. Some examples of our customized plans include:",
@@ -606,7 +659,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Benefits of Working with a Nutritionist",
                     "description": "When you work with our nutrition experts, you gain several advantages that can help you achieve long-term success:",
                     "features": [
@@ -622,7 +675,7 @@
                 },
                 {
                     "type": "color-content",
-                    "title": "Let’s create a diet plan that nourishes your body and empowers your well-being!"
+                    "description": "Let’s create a diet plan that nourishes your body and empowers your well-being!"
                 }
             ]
         }

@@ -16,6 +16,7 @@ import ContSection from "../service templates/ContSection";
 import SubHeadingColor from "../service templates/SubHeading";
 import SubHeadingColorLast from "../service templates/SubHeadingColorLast";
 import ColorSection from "../service templates/ColorSection";
+import RelatedServBanner from "../service templates/RelatedSerBanner";
 
 const DermaRelatedServices = () => {
     const { t, i18n } = useTranslation('dermaRelated');
@@ -39,7 +40,14 @@ const DermaRelatedServices = () => {
                 {service.sections.map((section, index) => {
                     console.log('Section-services:', section.listServices);
 
-                    if (section.type === "content") {
+                    if (section.type === "banner") {
+                        return (
+                            <RelatedServBanner
+                                bannerImage={section.bannerImage}
+                                bannerPosition={section.bannerPosition}
+                            />
+                        );
+                    } if (section.type === "content") {
                         return (
                             <div style={{ paddingTop: '1rem', paddingBottom: '1rem' }}>
 
@@ -241,14 +249,13 @@ const DermaRelatedServices = () => {
                     } else if (section.type === "card") {
                         if (Array.isArray(section.cards)) {
                             return (
-                                <div className="flxBx custsectionStyle customContainer" key={index} style={{paddingTop:'0', paddingBottom:'0'}}>
+                                <div className="flxBx custsectionStyle customContainer" key={index}>
                                     {section.cards.map((card, cardIndex) => (
                                         <CardSection
                                             key={cardIndex}
                                             title={card.title}
                                             subtitle={card.subtitle}
                                             description={card.description}
-                                            title2={card.title2}
                                             subtitle2={card.subtitle2}
                                             description2={card.description2}
                                             features={card.features}
@@ -260,6 +267,9 @@ const DermaRelatedServices = () => {
                     }
                     return null;
                 })}
+            </div>
+            <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '10px' }}>
+                <hr className="half-line" style={{ width: '50%', border: '0', height: '2px', backgroundColor: '#111', margin: '0' }} />
             </div>
         </>
     );

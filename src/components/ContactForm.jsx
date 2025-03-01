@@ -7,13 +7,13 @@ export default function ContactForm() {
         email: '',
         phone: '',
         message: '',
-        contactType: 'Enquiry', // Default selected radio
+        contactType: 'Enquiry',
     });
 
     const [errors, setErrors] = useState({});
-    const [alertMessage, setAlertMessage] = useState(''); // State for handling alert messages
-    const [isSuccess, setIsSuccess] = useState(false); // To differentiate success and error alert styles
-    const [isSubmitting, setIsSubmitting] = useState(false); // To track form submission state
+    const [alertMessage, setAlertMessage] = useState('');
+    const [isSuccess, setIsSuccess] = useState(false);
+    const [isSubmitting, setIsSubmitting] = useState(false);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -21,80 +21,122 @@ export default function ContactForm() {
             ...prevData,
             [name]: value,
         }));
-
-        // Clear error for the field as user types
-        if (value.trim()) {
-            setErrors((prevErrors) => ({
-                ...prevErrors,
-                [name]: '',
-            }));
-        }
+        validateField(name, value);
     };
 
-    const validateField = (name) => {
-        if (!formData[name]?.trim()) {
-            setErrors((prevErrors) => ({
-                ...prevErrors,
-                [name]: `${name.charAt(0).toUpperCase() + name.slice(1)} is required`,
-            }));
+    const validateField = (name, value) => {
+        let newErrors = { ...errors };
+
+        switch (name) {
+            case 'name':
+                if (!value.trim()) {
+                    newErrors.name = 'Name is required';
+                } else if (!/^[A-Za-z\s.]+$/.test(value)) {
+                    newErrors.name = 'Name should only contain alphabets';
+                } else {
+                    newErrors.name = '';
+                }
+                break;
+            case 'email':
+                if (!value.trim()) {
+                    newErrors.email = 'Email is required';
+                } else if (!/^\S+@\S+\.\S+$/.test(value)) {
+                    newErrors.email = 'Invalid email format';
+                } else {
+                    newErrors.email = '';
+                }
+                break;
+            case 'phone':
+                if (!value.trim()) {
+                    newErrors.phone = 'Phone number is required';
+                } else if (!/^\d{10}$/.test(value)) {
+                    newErrors.phone = 'Phone number not valid';
+                } else {
+                    newErrors.phone = '';
+                }
+                break;
+            case 'message':
+                if (!value.trim()) {
+                    newErrors.message = 'Message is required';
+                } else {
+                    newErrors.message = '';
+                }
+                break;
+            default:
+                break;
         }
+
+        setErrors(newErrors);
+    };
+
+    const handleBlur = (e) => {
+        const { name, value } = e.target;
+        validateField(name, value);
     };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
+    
+        // Validate all fields and collect errors
         const newErrors = {};
+        let hasErrors = false;
+    
+        // Validate each field and collect errors
         Object.keys(formData).forEach((field) => {
-            if (!formData[field].trim()) {
+            const value = formData[field];
+            validateField(field, value); // Validate field
+            if (!value.trim() && field !== "contactType") { // Ensure empty fields show error
                 newErrors[field] = `${field.charAt(0).toUpperCase() + field.slice(1)} is required`;
+                hasErrors = true;
             }
         });
-
-        setErrors(newErrors);
-
-        if (Object.keys(newErrors).length === 0) {
-            setIsSubmitting(true);
-            try {
-                // const response = await fetch('', {
-                const response = await fetch('https://dental.dmaksolutions.com/api/contact', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(formData),
+    
+        setErrors(newErrors); // Set all errors at once
+    
+        if (hasErrors) {
+            return; // Stop submission if there are errors
+        }
+    
+        setIsSubmitting(true);
+        try {
+            const response = await fetch('https://dental.dmaksolutions.com/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+    
+            if (response.ok) {
+                setAlertMessage('Message sent successfully!');
+                setIsSuccess(true);
+                setFormData({
+                    name: '',
+                    email: '',
+                    phone: '',
+                    message: '',
+                    contactType: 'Enquiry',
                 });
-
-                if (response.ok) {
-                    setAlertMessage('Message sent successfully!');
-                    setIsSuccess(true);
-
-                    setFormData({
-                        name: '',
-                        email: '',
-                        phone: '',
-                        message: '',
-                        contactType: 'Enquiry',
-                    });
-                } else {
-                    setAlertMessage('Error sending message. Please try again later.');
-                    setIsSuccess(false);
-                }
-            } catch (error) {
+                setErrors({});
+            } else {
                 setAlertMessage('Error sending message. Please try again later.');
                 setIsSuccess(false);
             }
-
-            setTimeout(() => {
-                setAlertMessage('');
-            }, 3000);
-
-            setIsSubmitting(false);
+        } catch (error) {
+            setAlertMessage('Error sending message. Please try again later.');
+            setIsSuccess(false);
         }
+    
+        setTimeout(() => {
+            setAlertMessage('');
+        }, 3000);
+    
+        setIsSubmitting(false);
     };
+    
 
     return (
         <>
-            {/* Conditional rendering of the alert message */}
             {alertMessage && (
                 <div
                     className={`alert ${isSuccess ? 'alert-success' : 'alert-danger'}`}
@@ -133,7 +175,6 @@ export default function ContactForm() {
                             <div className="contact-form-wrapper cf-style-default">
                                 <div className="contact-form">
                                     <form onSubmit={handleSubmit} className="cust-form init">
-                                        {/* Radio buttons */}
                                         <div className="row" style={{ display: 'flex', alignItems: 'center' }}>
                                             <div className="col-md-6" style={{ display: 'flex', alignItems: 'center' }}>
                                                 <p style={{ margin: 0 }}>
@@ -169,7 +210,6 @@ export default function ContactForm() {
                                             </div>
                                         </div>
 
-                                        {/* Form fields */}
                                         <div className="row contact-us-form">
                                             <div className="col-md-12">
                                                 <p>
@@ -181,9 +221,10 @@ export default function ContactForm() {
                                                         placeholder="Name"
                                                         value={formData.name}
                                                         onChange={handleChange}
-                                                        onBlur={() => validateField('name')}
+                                                        onBlur={handleBlur}
                                                         type="text"
                                                         name="name"
+                                                        // required
                                                     />
                                                     {errors.name && <span className="error-text">{errors.name}</span>}
                                                 </p>
@@ -199,7 +240,7 @@ export default function ContactForm() {
                                                         placeholder="Email"
                                                         value={formData.email}
                                                         onChange={handleChange}
-                                                        onBlur={() => validateField('email')}
+                                                        onBlur={handleBlur}
                                                         type="email"
                                                         name="email"
                                                     />
@@ -217,7 +258,7 @@ export default function ContactForm() {
                                                         placeholder="Phone"
                                                         value={formData.phone}
                                                         onChange={handleChange}
-                                                        onBlur={() => validateField('phone')}
+                                                        onBlur={handleBlur}
                                                         type="tel"
                                                         name="phone"
                                                     />
@@ -236,16 +277,13 @@ export default function ContactForm() {
                                                         name="message"
                                                         value={formData.message}
                                                         onChange={handleChange}
-                                                        onBlur={() => validateField('message')}
+                                                        onBlur={handleBlur}
                                                     />
                                                     {errors.message && <span className="error-text">{errors.message}</span>}
                                                 </p>
                                             </div>
                                             <div className="col-md-12 mt-3">
                                                 <input
-                                                data-elementor-type="wp-page"
-                                                data-elementor-id={73397}
-                                                // className="elementor elementor-73397"
                                                     className="wpcf7-form-control wpcf7-submit has-spinner third slidebottomleft"
                                                     type="submit"
                                                     value={isSubmitting ? 'Submitting...' : 'Send Now'}

@@ -138,32 +138,25 @@
                     },
                     "doctors": [
                         {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": ""
-                        },
-                        {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
                             "designation": "Specialist Oral Surgeon",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
                             "name": "Dr. Rania Ghanem",
                             "designation": "Prosthodontics Specialist",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
                             "name": "Dr. Amir Magdy",
                             "designation": "GP Dentist",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -331,32 +324,25 @@
                     },
                     "doctors": [
                         {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": ""
-                        },
-                        {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
                             "designation": "Specialist Oral Surgeon",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
                             "name": "Dr. Rania Ghanem",
                             "designation": "Prosthodontics Specialist",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
                             "name": "Dr. Amir Magdy",
                             "designation": "GP Dentist",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -452,32 +438,25 @@
                     },
                     "doctors": [
                         {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": ""
-                        },
-                        {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
                             "designation": "Specialist Oral Surgeon",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
                             "name": "Dr. Rania Ghanem",
                             "designation": "Prosthodontics Specialist",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
                             "name": "Dr. Amir Magdy",
                             "designation": "GP Dentist",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -592,32 +571,25 @@
                     },
                     "doctors": [
                         {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": ""
-                        },
-                        {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
                             "designation": "Specialist Oral Surgeon",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
                             "name": "Dr. Rania Ghanem",
                             "designation": "Prosthodontics Specialist",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
                             "name": "Dr. Amir Magdy",
                             "designation": "GP Dentist",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -726,32 +698,25 @@
                     },
                     "doctors": [
                         {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": ""
-                        },
-                        {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
                             "designation": "Specialist Oral Surgeon",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
                             "name": "Dr. Rania Ghanem",
                             "designation": "Prosthodontics Specialist",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
                             "name": "Dr. Amir Magdy",
                             "designation": "GP Dentist",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -831,11 +796,6 @@
                     "description": "At Karisma Specialist Medical Center in the UAE, we prioritize your personal journey and aspirations. Through an individualized consultation and comprehensive examination, we meticulously develop a tailored Full Mouth Rehabilitation plan that aligns with your esteemed expectations and lifestyle."
                 },
                 {
-                    "type": "color-content",
-                    "title": "Book Your Exclusive Full Mouth Rehabilitation Consultation Today!",
-                    "description": "Don’t let missing or damaged teeth undermine your exceptional smile and lifestyle. Contact Karisma Specialist Medical Center in the UAE today to arrange a consultation with our distinguished Full Mouth Rehabilitation specialists. Join us in crafting a personalized treatment plan designed to restore the functionality, elegance, and confidence that your smile deserves."
-                },
-                {
                     "type": "content",
                     "title": "Meet Our Exceptional Team: The Architects of Your Smile",
                     "description": "What makes a dental visit extraordinary? At Karisma Specialist Medical Center, it’s our expert team that transforms routine appointments into memorable experiences.",
@@ -870,32 +830,25 @@
                     },
                     "doctors": [
                         {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": ""
-                        },
-                        {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
                             "designation": "Specialist Oral Surgeon",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
                             "name": "Dr. Rania Ghanem",
                             "designation": "Prosthodontics Specialist",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
                             "name": "Dr. Amir Magdy",
                             "designation": "GP Dentist",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -1015,32 +968,25 @@
                     },
                     "doctors": [
                         {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": ""
-                        },
-                        {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
                             "designation": "Specialist Oral Surgeon",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
                             "name": "Dr. Rania Ghanem",
                             "designation": "Prosthodontics Specialist",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
                             "name": "Dr. Amir Magdy",
                             "designation": "GP Dentist",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -1159,32 +1105,25 @@
                     },
                     "doctors": [
                         {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": ""
-                        },
-                        {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
                             "designation": "Specialist Oral Surgeon",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
                             "name": "Dr. Rania Ghanem",
                             "designation": "Prosthodontics Specialist",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
                             "name": "Dr. Amir Magdy",
                             "designation": "GP Dentist",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -1301,32 +1240,25 @@
                     },
                     "doctors": [
                         {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": ""
-                        },
-                        {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
                             "designation": "Specialist Oral Surgeon",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
                             "name": "Dr. Rania Ghanem",
                             "designation": "Prosthodontics Specialist",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
                             "name": "Dr. Amir Magdy",
                             "designation": "GP Dentist",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -1439,15 +1371,6 @@
                     ]
                 },
                 {
-                    "type": "color-content",
-                    "title": "Book Your Exclusive Consultation",
-                    "description": "Transform your smile today at Karisma Specialist Medical Center, UAE. Schedule your personalized consultation to explore our premium veneer options and let our expert team craft a smile that reflects your confidence and beauty.",
-                    "features": [
-                        "Location: Al Raha Walk, Al Muntazah Street, Sharjah",
-                        "Contact: +971 06 506 8777"
-                    ]
-                },
-                {
                     "type": "content",
                     "title": "Meet Our Dental Experts",
                     "description": "Our skilled team includes some of UAE’s top dental professionals, each dedicated to creating smiles that exude sophistication and excellence:"
@@ -1466,34 +1389,26 @@
                     },
                     "doctors": [
                         {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": ""
-                        },
-                        {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
                             "designation": "Specialist Oral Surgeon",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
                             "name": "Dr. Rania Ghanem",
                             "designation": "Prosthodontics Specialist",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
                             "name": "Dr. Amir Magdy",
                             "designation": "GP Dentist",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
-                        }
-                    ]
+                            "link": "doctor/dr-amir-magdy"
+                        }                    ]
                 }
             ]
         }

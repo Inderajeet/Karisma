@@ -4,7 +4,7 @@ import "../dental/DentalBanner.css";
 import { Link } from "react-router-dom";
 
 
-const RelatedServBanner = ({ bannerImage }) => {
+const RelatedServBanner = ({ bannerImage, bannerPosition }) => {
     console.log('Inside banner:', bannerImage);
     const bannerImageUrl = bannerImage.startsWith("http")
         ? bannerImage
@@ -13,12 +13,18 @@ const RelatedServBanner = ({ bannerImage }) => {
     console.log("Final Banner Image URL:", bannerImageUrl); // Debugging
     return (
         <>
-            <div
+            {/* <div
                 className="customContainer dental-background-img"
                 style={{
-                    backgroundImage: `url(${bannerImageUrl})`
-                }}            >
+                    backgroundImage: `url(${bannerImageUrl})`, backgroundPosition: `${bannerPosition}`
+                }} >
                 <div className="img-overlay"></div>
+            </div> */}
+            <div class="customContainer relatedServ">
+                <img
+                    src={bannerImageUrl}
+                    style={{ objectPosition: `${bannerPosition}` }}
+                     />
             </div>
         </>
     );

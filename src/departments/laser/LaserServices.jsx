@@ -255,6 +255,9 @@ const LaserServices = () => {
                 })}
                 {/* <Doctors /> */}
             </div>
+            <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '0px' }}>
+                <hr className="half-line" style={{ width: '50%', border: '0', height: '2px', backgroundColor: '#111', margin: '0' }} />
+            </div>
             
         </>
     );

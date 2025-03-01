@@ -16,6 +16,7 @@ import ContSection from "../service templates/ContSection";
 import SubHeadingColor from "../service templates/SubHeading";
 import SubHeadingColorLast from "../service templates/SubHeadingColorLast";
 import ColorSection from "../service templates/ColorSection";
+import RelatedServBanner from "../service templates/RelatedSerBanner";
 
 
 const SkinCareRelatedServices = () => {
@@ -40,67 +41,74 @@ const SkinCareRelatedServices = () => {
                 {service.sections.map((section, index) => {
                     console.log('Section-services:', section.listServices);
 
-                    if (section.type === "content") {
+                    if (section.type === "banner") {
                         return (
-                            <div style={{  paddingTop: '1rem', paddingBottom: '1rem' }}>
-
-                            <ContentSection
-                                key={index}
-                                title={section.title}
-                                heading={section.heading}
-                                heading2={section.heading2}
-                                description={section.description}
-                                description2={section.description2}
-                                features={section.features}
+                            <RelatedServBanner
+                                bannerImage={section.bannerImage}
+                                bannerPosition={section.bannerPosition}
                             />
+                        );
+                    } if (section.type === "content") {
+                        return (
+                            <div style={{ paddingTop: '1rem', paddingBottom: '1rem' }}>
+
+                                <ContentSection
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    heading2={section.heading2}
+                                    description={section.description}
+                                    description2={section.description2}
+                                    features={section.features}
+                                />
                             </div>
                         );
-                    }if (section.type === "cont-content") {
+                    } if (section.type === "cont-content") {
                         return (
-                            <div style={{  paddingTop: '1rem', paddingBottom: '0rem' }}>
+                            <div style={{ paddingTop: '1rem', paddingBottom: '0rem' }}>
 
-                            <ContSection
-                                key={index}
-                                title={section.title}
-                                heading={section.heading}
-                                heading2={section.heading2}
-                                description={section.description}
-                                description2={section.description2}
-                                features={section.features}
-                            />
+                                <ContSection
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    heading2={section.heading2}
+                                    description={section.description}
+                                    description2={section.description2}
+                                    features={section.features}
+                                />
                             </div>
                         );
                     } if (section.type === "cont-color-content") {
                         return (
                             <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem', paddingBottom: '0rem' }}>
 
-                            <ContSection
-                                key={index}
-                                title={section.title}
-                                heading={section.heading}
-                                heading2={section.heading2}
-                                description={section.description}
-                                description2={section.description2}
-                                features={section.features}
-                            />
+                                <ContSection
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    heading2={section.heading2}
+                                    description={section.description}
+                                    description2={section.description2}
+                                    features={section.features}
+                                />
                             </div>
                         );
                     } if (section.type === "cont-content-last") {
                         return (
-                            <div style={{  paddingTop: '0rem', paddingBottom: '1rem' }}>
+                            <div style={{ paddingTop: '0rem', paddingBottom: '1rem' }}>
 
-                            <ContSection
-                                key={index}
-                                title={section.title}
-                                heading={section.heading}
-                                heading2={section.heading2}
-                                description={section.description}
-                                description2={section.description2}
-                                features={section.features}
-                            />
+                                <ContSection
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    heading2={section.heading2}
+                                    description={section.description}
+                                    description2={section.description2}
+                                    features={section.features}
+                                />
                             </div>
                         );
-                    }else if (section.type === "center-content") {
+                    } else if (section.type === "center-content") {
                         return (
                             <div style={{ textAlign: 'center', backgroundColor: '#c4a98863', paddingTop: '2rem' }}>
                                 <ContentSection
@@ -114,7 +122,7 @@ const SkinCareRelatedServices = () => {
                         );
                     } else if (section.type === "color-heading") {
                         return (
-                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem'}}>
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem' }}>
                                 <ColorHeading
                                     key={index}
                                     title={section.title}
@@ -128,13 +136,13 @@ const SkinCareRelatedServices = () => {
                         return (
                             <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem', paddingBottom: '1rem' }}>
                                 <ColorSection
-                                   key={index}
-                                   title={section.title}
-                                   heading={section.heading}
-                                   heading2={section.heading2}
-                                   description={section.description}
-                                   description2={section.description2}
-                                   features={section.features}
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    heading2={section.heading2}
+                                    description={section.description}
+                                    description2={section.description2}
+                                    features={section.features}
                                 />
                             </div>
                         );
@@ -142,55 +150,55 @@ const SkinCareRelatedServices = () => {
                         return (
                             <div style={{ backgroundColor: '#c4a98863', paddingTop: '0rem', paddingBottom: '0rem' }}>
                                 <SubHeadingColor
-                                   key={index}
-                                   title={section.title}
-                                   heading={section.heading}
-                                   heading2={section.heading2}
-                                   description={section.description}
-                                   description2={section.description2}
-                                   features={section.features}
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    heading2={section.heading2}
+                                    description={section.description}
+                                    description2={section.description2}
+                                    features={section.features}
                                 />
                             </div>
                         );
-                    }else if (section.type === "sub-heading-color-content-last") {
+                    } else if (section.type === "sub-heading-color-content-last") {
                         return (
                             <div style={{ backgroundColor: '#c4a98863', paddingTop: '0rem', paddingBottom: '1rem' }}>
                                 <SubHeadingColorLast
-                                   key={index}
-                                   title={section.title}
-                                   heading={section.heading}
-                                   heading2={section.heading2}
-                                   description={section.description}
-                                   description2={section.description2}
-                                   features={section.features}
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    heading2={section.heading2}
+                                    description={section.description}
+                                    description2={section.description2}
+                                    features={section.features}
                                 />
                             </div>
                         );
-                    }else if (section.type === "sub-heading-content-last") {
+                    } else if (section.type === "sub-heading-content-last") {
                         return (
                             <div style={{ paddingTop: '0rem', paddingBottom: '1rem' }}>
                                 <SubHeadingColorLast
-                                   key={index}
-                                   title={section.title}
-                                   heading={section.heading}
-                                   heading2={section.heading2}
-                                   description={section.description}
-                                   description2={section.description2}
-                                   features={section.features}
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    heading2={section.heading2}
+                                    description={section.description}
+                                    description2={section.description2}
+                                    features={section.features}
                                 />
                             </div>
                         );
-                    }else if (section.type === "sub-heading-content") {
+                    } else if (section.type === "sub-heading-content") {
                         return (
-                            <div style={{  paddingTop: '0rem', paddingBottom: '0rem' }}>
+                            <div style={{ paddingTop: '0rem', paddingBottom: '0rem' }}>
                                 <SubHeadingColor
-                                   key={index}
-                                   title={section.title}
-                                   heading={section.heading}
-                                   heading2={section.heading2}
-                                   description={section.description}
-                                   description2={section.description2}
-                                   features={section.features}
+                                    key={index}
+                                    title={section.title}
+                                    heading={section.heading}
+                                    heading2={section.heading2}
+                                    description={section.description}
+                                    description2={section.description2}
+                                    features={section.features}
                                 />
                             </div>
                         );
@@ -204,7 +212,7 @@ const SkinCareRelatedServices = () => {
                         );
                     } else if (section.type === "color-heading") {
                         return (
-                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem'}}>
+                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem' }}>
                                 <ColorHeading
                                     key={index}
                                     title={section.title}

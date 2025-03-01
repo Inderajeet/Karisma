@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import "./Banner.css";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 export const applyFontFallback = (text) => {
     if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
@@ -14,6 +14,8 @@ export const applyFontFallback = (text) => {
 };
 
 const DynamicBanner = ({ deptName, serviceName, bannerImage }) => {
+    const { lng } = useParams();
+
     console.log('Inside banner:', bannerImage);
     const bannerImageUrl = bannerImage.startsWith("http")
         ? bannerImage
@@ -41,13 +43,13 @@ const DynamicBanner = ({ deptName, serviceName, bannerImage }) => {
                                             <li className="breadcrumb-wrap">
                                                 <ul id="breadcrumb" className="breadcrumb nav">
                                                     <li>
-                                                        <Link to="/">
+                                                        <Link to={`/${lng}`}>
                                                             <span style={{ color: '#fff' }}>Home</span>
                                                         </Link>
                                                     </li>
                                                     {deptName && (
                                                         <li style={{ marginLeft: "4px" }}>
-                                                            <Link to={`/department/${deptName.toLowerCase()}`}
+                                                            <Link to={`/${lng}/${deptName.toLowerCase()}`}
                                                                 style={{ color: '#fff' }}>
                                                                 | {deptName}
                                                             </Link>

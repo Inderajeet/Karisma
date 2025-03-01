@@ -169,7 +169,7 @@
                             "name": "Dr. Huda Ebrahim Shaheen",
                             "designation": "Obstetrics and Gynecology Specialist",
                             "image": "/assets/Images/doctors/huda.png",
-                            "link": "dr-huda-ebrahim-shaheen"
+                            "link": "doctor/dr-huda-ebrahim-shaheen"
                         }
                     ]
                 }
@@ -284,14 +284,6 @@
                             "designation": ""
                         },
                         {
-                            "id": 8,
-                            "name": "Piercing",
-                            "image": "../assets/Images/depts/skincare/Collagen/body-image.png",
-                            "link": "skinCare/piercing",
-                            "readMore": "Read More",
-                            "designation": ""
-                        },
-                        {
                             "id": 9,
                             "name": "Facial Machines",
                             "image": "../assets/Images/depts/skincare/Collagen/body-image.png",
@@ -310,31 +302,31 @@
                     ]
                 },
                 {
-                  "type": "content",
-                  "title": "Our Doctors",
-                  "description": ""
+                    "type": "content",
+                    "title": "Our Doctors",
+                    "description": ""
                 },
                 {
-                  "type": "slider-doctors",
-                  "title": "Meet Our Specialists",
-                  "cards": {
-                    "background-color": "#f9f9f9",
-                    "heading-color": "#577065",
-                    "heading-size": "24px",
-                    "desc-color": "#5C4033",
-                    "desc-size": "16px",
-                    "button-text-color": "#577065",
-                    "button-text-size": "16px"
-                  },
-                  "doctors": [
-                    {
-                      "id": 1,
-                      "name": "Naziha Al Tabaa",
-                      "designation": "Skin Expert & Beauty Therapist",
-                      "image": "/assets/Images/doctors/Naziha.png",
-                      "link": "naziha-al-tabaa"
-                    }
-                  ]
+                    "type": "slider-doctors",
+                    "title": "Meet Our Specialists",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 1,
+                            "name": "Naziha Al Tabaa",
+                            "designation": "Skin Expert & Beauty Therapist",
+                            "image": "/assets/Images/doctors/Naziha.png",
+                            "link": "doctor/naziha-al-tabaa"
+                        }
+                    ]
                 }
             ]
         },
@@ -463,15 +455,15 @@
                             "name": "DT. Elissa Nabil El Ahmadieh",
                             "designation": "Dietician & Nutritionist Specialist",
                             "image": "/assets/Images/doctors/Dr Elissa.png",
-                            "link": "dt-elissa-a-ahmadieh"
-                          }, 
-                          {
+                            "link": "doctor/dt-elissa-a-ahmadieh"
+                        },
+                        {
                             "id": 2,
                             "name": "Dr. Mehdi Shidvash",
                             "designation": "Aesthetic Physician",
                             "image": "/assets/Images/doctors/mahdi.png",
-                            "link": "dr-mehdi-shidvash"
-                          }
+                            "link": "doctor/dr-mehdi-shidvash"
+                        }
                     ]
                 }
             ]
@@ -580,7 +572,7 @@
                             "name": "Dr. Yuri Macrino",
                             "designation": "Aesthetic plastic surgeon & consultant",
                             "image": "/assets/Images/doctors/Dr Yuri.png",
-                            "link": "dr-yuri-macrino"
+                            "link": "doctor/dr-yuri-macrino"
                         }
                     ]
                 }

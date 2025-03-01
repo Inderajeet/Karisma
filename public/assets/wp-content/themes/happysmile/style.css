@@ -1820,6 +1820,19 @@ aside.footer-widget-2:last-child {
     padding-bottom: 8px;
     padding-top: 0;
 }
+/* .widget.widget_nav_menu li a:before {
+    content: "\F287";
+    margin-right: 15px;
+    font-family: 'bootstrap-icons';
+    padding-left: 1px;
+    font-size: 5px;
+    position: relative;
+    top: -3px;
+} */
+.widget.widget_nav_menu li a {
+    display: inline-flex; /* or inline-block if needed */
+}
+
 .widget.widget_nav_menu li a:before {
     content: "\F287";
     margin-right: 15px;
@@ -1828,6 +1841,7 @@ aside.footer-widget-2:last-child {
     font-size: 5px;
     position: relative;
     top: -3px;
+    display: inline; /* or inline-block if needed */
 }
 .widget li.menu-item.menu-item-has-children ul.sub-menu li {
     padding: 0 0 10px 0;
@@ -4942,11 +4956,22 @@ body.rtl {
 .rtl .widget.widget_nav_menu li a {
     position: relative;
 }
-.rtl .widget.widget_nav_menu li a:before {
+/* .rtl .widget.widget_nav_menu li a:before {
     position: absolute;
     right: 0;
     margin-right: 0;
     margin-left: 15px;
+} */
+.rtl .widget.widget_nav_menu li a:before {
+    position: relative; /* Change to relative positioning */
+    right: auto; /* Reset right property */
+    left: 0; /* Position from the left */
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.rtl .widget.widget_nav_menu li a {
+    direction: rtl;
 }
 .rtl .widget-content ul {
     padding-right: 0;
@@ -7168,7 +7193,7 @@ nav.post-nav-links .post-page-numbers:hover {
     border-radius: 10px 10px 0px 10px;
 }
 aside.footer-widget-2 h5, .widget .widgettitle, .widget .widget-title {
-    margin-bottom: 25px;
+    margin-bottom: 9px;
 }
 aside.content-widgets-outer-wrapper .wp-block-group .cat-item {
     display: inline-block;

@@ -119,15 +119,15 @@
               "name": "DT. Elissa Nabil El Ahmadieh",
               "designation": "Dietician & Nutritionist Specialist",
               "image": "/assets/Images/doctors/Dr Elissa.png",
-              "link": "dt-elissa-a-ahmadieh"
-            }, 
-            {
+              "link": "doctor/dt-elissa-a-ahmadieh"
+          },
+          {
               "id": 2,
               "name": "Dr. Mehdi Shidvash",
               "designation": "Aesthetic Physician",
               "image": "/assets/Images/doctors/mahdi.png",
-              "link": "dr-mehdi-shidvash"
-            }
+              "link": "doctor/dr-mehdi-shidvash"
+          }
           ]
         }
       ]
@@ -235,15 +235,15 @@
               "name": "DT. Elissa Nabil El Ahmadieh",
               "designation": "Dietician & Nutritionist Specialist",
               "image": "/assets/Images/doctors/Dr Elissa.png",
-              "link": "dt-elissa-a-ahmadieh"
-            }, 
-            {
+              "link": "doctor/dt-elissa-a-ahmadieh"
+          },
+          {
               "id": 2,
               "name": "Dr. Mehdi Shidvash",
               "designation": "Aesthetic Physician",
               "image": "/assets/Images/doctors/mahdi.png",
-              "link": "dr-mehdi-shidvash"
-            }
+              "link": "doctor/dr-mehdi-shidvash"
+          }
           ]
         }
       ]
@@ -334,15 +334,15 @@
               "name": "DT. Elissa Nabil El Ahmadieh",
               "designation": "Dietician & Nutritionist Specialist",
               "image": "/assets/Images/doctors/Dr Elissa.png",
-              "link": "dt-elissa-a-ahmadieh"
-            }, 
-            {
+              "link": "doctor/dt-elissa-a-ahmadieh"
+          },
+          {
               "id": 2,
               "name": "Dr. Mehdi Shidvash",
               "designation": "Aesthetic Physician",
               "image": "/assets/Images/doctors/mahdi.png",
-              "link": "dr-mehdi-shidvash"
-            }
+              "link": "doctor/dr-mehdi-shidvash"
+          }
           ]
         }
       ]

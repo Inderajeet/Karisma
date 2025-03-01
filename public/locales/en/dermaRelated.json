@@ -9,7 +9,12 @@
                     "title": "Own Your Body Confidence at Karisma Specialist Medical Center"
                 },
                 {
-                    "type": "content",
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/derma/filler/Enhancing-Your-Body-Confidence-banner.png",
+                    "bannerPosition": "center"
+                },
+                {
+                    "type": "cont-content",
                     "description": "Beyond facial treatments, Karisma Specialist Medical Center offers advanced body enhancement solutions to elevate your confidence and help you feel your best.",
                     "features": [
                         "Hands: Rejuvenate the hands by reducing visible veins and tendons, restoring a youthful appearance.",
@@ -51,7 +56,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content-last",
                     "title": "Essential Aftercare Tips for Optimal Results",
                     "description": "Proper aftercare is essential to ensure the longevity and effectiveness of your dermal fillers:",
                     "features": [
@@ -68,7 +73,7 @@
                     "description": "Our commitment to your safety and satisfaction extends beyond just providing dermal fillers. Our dermatologists utilize the latest techniques to ensure a comfortable, successful experience tailored to your needs."
                 },
                 {
-                    "type": "sub-heading-color-content-last",
+                    "type": "content",
                     "title": "Schedule a Consultation Today!",
                     "description": "Unlock your radiance and achieve a youthful, refreshed look with Karisma Specialist Medical Center. Contact us to schedule your consultation and let us guide you through the world of dermal fillers to enhance your natural beauty!"
                 }
@@ -81,6 +86,11 @@
                 {
                     "type": "content",
                     "title": "Craft Your Ideal Charismatic Look at Karisma Specialist Medical Center"
+                },
+                {
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/derma/filler/Sculpting-Your-Dream-Face-banner.png",
+                    "bannerPosition": "center"
                 },
                 {
                     "type": "color-content",
@@ -106,6 +116,11 @@
                     "title": "PDO Tummy Threads"
                 },
                 {
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/derma/Cosmetic-Threads/Body-Thread-banner.png",
+                    "bannerPosition": "center"
+                },
+                {
                     "type": "content",
                     "features": [
                         "Transform Your Stomach For a Fitter Look: Achieve a firmer, more toned abdomen with our PDO Tummy Thread procedures, a non-surgical solution for lifting and tightening the skin.",
@@ -127,8 +142,8 @@
                     ]
                 },
                 {
-                    "type": "sub-heading-color-content-last",
-                    "heading2": "Embark on your journey to a tighter abdomen with PDO Tummy Threads at Karisma Specialist Medical Center. Our skilled specialists will administer this quick, effective treatment in a 45-60-minute session under local anesthesia, providing you with a refreshed, more sculpted look."
+                    "type": "content",
+                    "description": "Embark on your journey to a tighter abdomen with PDO Tummy Threads at Karisma Specialist Medical Center. Our skilled specialists will administer this quick, effective treatment in a 45-60-minute session under local anesthesia, providing you with a refreshed, more sculpted look."
                 }
             ]
         },
@@ -139,6 +154,11 @@
                 {
                     "type": "content",
                     "title": "Single Needle Threads"
+                },
+                {
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/derma/Cosmetic-Threads/Single-Needle-Thread-banner.png",
+                    "bannerPosition": "center"
                 },
                 {
                     "type": "content",
@@ -161,7 +181,7 @@
                 },
                 {
                     "type": "color-content",
-                    "heading": "Sessions typically last 30-60 minutes, with results customized to your individual skin needs, ensuring a refreshed, youthful appearance that lasts."
+                    "description": "Sessions typically last 30-60 minutes, with results customized to your individual skin needs, ensuring a refreshed, youthful appearance that lasts."
                 }
             ]
         }

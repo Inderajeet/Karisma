@@ -1,54 +1,56 @@
 import React from "react";
 import "../../custom_css/serviceTemplate.css";
 
-const renderFeature = (feature, index, level = 1) => {
+const renderFeature = (feature, index) => {
     // If feature is a string (Key-Value pair)
     if (typeof feature === "string") {
         if (feature.includes(":")) {
-            const [key, value] = feature.split(/:(.+)/);
+            const [key, value] = feature.split(/:(.+)/); // Split only at the first colon
             return (
                 <div key={index} className="content-featureItem divP">
                     <strong>{key}</strong>: {value}
                 </div>
             );
         } else {
+            // If no colon, return as normal text
             return <div key={index} className="content-featureItem divP">{feature}</div>;
         }
     }
 
     // If feature is an object with title & items (nested list)
-    if (typeof feature === "object" && feature.title && Array.isArray(feature.items)) {
-        const titleContent = feature.title.includes(":")
-            ? (() => {
-                  const [key, value] = feature.title.split(/:(.+)/);
-                  return (
-                      <>
-                          <strong>{key}</strong>: {value}
-                      </>
-                  );
-              })()
-            : feature.title;
-
-        return (
-            <div key={index} className="divP">
-                {/* ✅ Make sure title is separate */}
-                <div className="content-featureItem">{titleContent}</div>
-
-                <ul className="custom-list">
-                    {feature.items.map((item, subIndex) => (
-                        <li key={subIndex} className="custom-list-item divP">
-                            {/* ✅ If it's a nested object, call renderFeature() to keep list structure */}
-                            {typeof item === "string" ? item : renderFeature(item, subIndex, level + 1)}
-                        </li>
-                    ))}
-                </ul>
-            </div>
-        );
+    else if (typeof feature === "object" && feature.title && Array.isArray(feature.items)) {
+        if (feature.title.includes(":")) {
+            const [key, value] = feature.title.split(/:(.+)/);
+            return (
+                <div key={index} className="content-featureItem divP">
+                    <strong>{key}</strong> {value}
+                    <ul className="custom-list">
+                        {feature.items.map((item, subIndex) => (
+                            <p key={subIndex} className="custom-list-item">
+                                {typeof item === "string" ? item : renderFeature(item, subIndex)}
+                            </p>
+                        ))}
+                    </ul>
+                </div>
+            );
+        } else {
+            return (
+                <div key={index} className="content-featureItem divP">
+                    {feature.title}
+                    <ul className="custom-list">
+                        {feature.items.map((item, subIndex) => (
+                            <p key={subIndex} className="custom-list-item">
+                                {typeof item === "string" ? item : renderFeature(item, subIndex)}
+                            </p>
+                        ))}
+                    </ul>
+                </div>
+            );
+        }
     }
 
     return null;
 };
-
 
 export const applyFontFallback = (text) => {
     if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
@@ -59,10 +61,8 @@ export const applyFontFallback = (text) => {
         : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
     );
   };
-  
-  
 
-  const ContentSection = ({ title, description, description2, features, heading, heading2 }) => {
+  const CommonContent = ({ title, description, description2, features, heading, heading2 }) => {
     return (
         <div className="custsectionStyle customContainer" style={{ marginTop: '0px', marginBottom: '0px' }}>
             {title &&  <h2 className="title">{applyFontFallback(title)}</h2>}
@@ -79,4 +79,4 @@ export const applyFontFallback = (text) => {
 };
 
 
-export default ContentSection;
+export default CommonContent;

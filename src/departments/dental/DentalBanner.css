@@ -1,7 +1,7 @@
 /* Background slider */
 .dental-background-img {
     background-size: cover;
-    background-position: bottom right;
+    /* background-position: bottom right; */
     transition: background-image 0.5s ease-in-out; 
     /* position: relative; */
     top: 0;
@@ -10,6 +10,26 @@
     height: 70vh;
     overflow: hidden;
     z-index: -1;
+  }
+
+  .relatedServ{
+    height: 32vh;
+  }
+  @media (min-width:992px){
+    .relatedServ{
+      height: 50vh;
+    }
+  }
+  @media (min-width:1200px){
+    .relatedServ{
+      height: 70vh;
+    }
+  }
+
+
+   .relatedServ img{
+    width: 100%;
+    height: 100%;
   }
   
   .background-image {
