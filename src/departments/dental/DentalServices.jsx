@@ -19,6 +19,7 @@ import SubHeadingColor from "../service templates/SubHeading";
 import ColorSection from "../service templates/ColorSection";
 import ContSection from "../service templates/ContSection";
 import SubHeadingColorLast from "../service templates/SubHeadingColorLast";
+import CommonServiceBanner from "../CommonServiceBanner";
 
 const DentalServices = () => {
     const { t, i18n } = useTranslation('dentalServices');
@@ -226,10 +227,11 @@ const DentalServices = () => {
                         );
                     } else if (section.type === "banner") {
                         return (
-                            <DentalBanner
+                            <CommonServiceBanner
                                 deptName={section.deptName}
                                 serviceName={section.serviceName}
                                 bannerImage={section.bannerImage}
+                                bannerPosition={section.bannerPosition}
                             />
                         );
                     } else if (section.type === "slider-doctors") {

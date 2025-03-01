@@ -19,6 +19,7 @@ import ContSection from "../service templates/ContSection";
 import SubHeadingColor from "../service templates/SubHeading";
 import SubHeadingColorLast from "../service templates/SubHeadingColorLast";
 import ColorSection from "../service templates/ColorSection";
+import CommonServiceBanner from "../CommonServiceBanner";
 
 const DermaServices = () => {
     const { t, i18n } = useTranslation('dermaServices');
@@ -214,10 +215,11 @@ const DermaServices = () => {
                         console.log("Banner Image Path:", section.bannerImage);
 
                         return (
-                            <DermaBanner
+                            <CommonServiceBanner
                                 deptName={section.deptName}
                                 serviceName={section.serviceName}
                                 bannerImage={section.bannerImage}
+                                bannerPosition={section.bannerPosition}
                             />
                         );
                     } else if (section.type === "slider-doctors") {

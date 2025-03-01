@@ -17,6 +17,7 @@ import ContSection from "../service templates/ContSection";
 import SubHeadingColor from "../service templates/SubHeading";
 import SubHeadingColorLast from "../service templates/SubHeadingColorLast";
 import ColorSection from "../service templates/ColorSection";
+import CommonServiceBanner from "../CommonServiceBanner";
 
 const GynecologyServices = () => {
     const { t, i18n } = useTranslation('gyneServices');
@@ -224,10 +225,11 @@ const GynecologyServices = () => {
                         );
                     } else if (section.type === "banner") {
                         return (
-                            <DynamicBanner
+                            <CommonServiceBanner
                                 deptName={section.deptName}
                                 serviceName={section.serviceName}
                                 bannerImage={section.bannerImage}
+                                bannerPosition={section.bannerPosition}
                             />
                         );
                     } else if (section.type === "slider-doctors") {

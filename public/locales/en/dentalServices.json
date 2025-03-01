@@ -8,7 +8,8 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Pediatric",
-                    "bannerImage": "../assets/Images/depts/dental/Pediatric/banner.png"
+                    "bannerImage": "../assets/Images/depts/dental/Pediatric/banner.png",
+                    "bannerPosition": "center"
                 },
                 {
                     "type": "image-content",
