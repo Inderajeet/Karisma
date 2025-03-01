@@ -88,27 +88,7 @@
           "title": "Let us help you redefine beauty on your terms. Schedule your consultation today!",
           "features": []
         },
-        {
-          "type": "list-services-noImage",
-          "listServices": [
-            {
-              "id": 1,
-              "name": "Face Sculpting",
-              "image": "../assets/Images/depts/derma/filler/Sculpting-Your-Dream-Face-banner.png",
-              "link": "derma/dermal-fillers/sculpting",
-              "readMore": "Read More",
-              "designation": "Our skilled cosmetic dermatologists use advanced techniques and premium products to sculpt the facial features you've always desired."
-            },
-            {
-              "id": 2,
-              "name": "Body Filler",
-              "image": "../assets/Images/depts/derma/filler/Enhancing-Your-Body-Confidence-banner.png",
-              "link": "derma/dermal-fillers/body-confidence",
-              "readMore": "Read More",
-              "designation": "Beyond facial treatments, Karisma Specialist Medical Center offers advanced body enhancement solutions to elevate your confidence and help you feel your best."
-            }
-          ]
-        },
+        
         {
           "type": "content",
           "title": "A Personalized Approach to Your Beauty Goals",
@@ -159,6 +139,27 @@
           "type": "content",
           "title": "Experience a Revitalized You at Karisma Specialist Medical Center.",
           "description": "At Karisma Specialist Medical Center, we’re dedicated to providing a safe, comfortable, and successful filler treatment experience. Our expert team of dermatologists uses advanced techniques and high-quality products to ensure your satisfaction."
+        },
+        {
+          "type": "list-services-noImage",
+          "listServices": [
+            {
+              "id": 1,
+              "name": "Face Sculpting",
+              "image": "../assets/Images/depts/derma/filler/Sculpting-Your-Dream-Face-banner.png",
+              "link": "derma/dermal-fillers/sculpting",
+              "readMore": "Read More",
+              "designation": "Our skilled cosmetic dermatologists use advanced techniques and premium products to sculpt the facial features you've always desired."
+            },
+            {
+              "id": 2,
+              "name": "Body Filler",
+              "image": "../assets/Images/depts/derma/filler/Enhancing-Your-Body-Confidence-banner.png",
+              "link": "derma/dermal-fillers/body-confidence",
+              "readMore": "Read More",
+              "designation": "Beyond facial treatments, Karisma Specialist Medical Center offers advanced body enhancement solutions to elevate your confidence and help you feel your best."
+            }
+          ]
         },
         {
           "type": "color-content",
@@ -483,27 +484,7 @@
           "type": "color-heading",
           "title": "Experience the Revolutionary Benefits of Non-Surgical Thread Lifts at Karisma Specialist Medical Center!"
         },
-        {
-          "type": "list-services-noImage",
-          "listServices": [
-            {
-              "id": 1,
-              "name": "PDO Tummy Threads",
-              "image": "/assets/Images/home/Doctors.png",
-              "link": "derma/cosmetic-threads/pdo-tummy-threads",
-              "readMore": "Read More",
-              "designation": "Achieve your desired athletic look in minutes, a more toned abdomen with our PDO Tummy Thread procedures, a non-surgical solution for lifting and tightening the skin."
-            },
-            {
-              "id": 2,
-              "name": "Single Needle Threads",
-              "image": "/assets/Images/home/Doctors.png",
-              "link": "derma/cosmetic-threads/single-needle-threads",
-              "readMore": "Read More",
-              "designation": "Single needle threads provide a non-surgical solution for lifting and rejuvenating various areas of the face, offering a comprehensive approach to facial rejuvenation."
-            }
-          ]
-        },
+       
         {
           "type": "content",
           "title": "Unveil Smoother Skin: Subcision for Deep Scar Reduction at Karisma",
@@ -566,6 +547,27 @@
           "features": [
             "Multiple Sessions to Be Scar-Free!: 2-3 sessions spaced two weeks apart for optimal results.",
             "Recovery: Expect some swelling and redness, and avoid sun exposure for two weeks after each session."
+          ]
+        },
+        {
+          "type": "list-services-noImage",
+          "listServices": [
+            {
+              "id": 1,
+              "name": "PDO Tummy Threads",
+              "image": "/assets/Images/home/Doctors.png",
+              "link": "derma/cosmetic-threads/pdo-tummy-threads",
+              "readMore": "Read More",
+              "designation": "Achieve your desired athletic look in minutes, a more toned abdomen with our PDO Tummy Thread procedures, a non-surgical solution for lifting and tightening the skin."
+            },
+            {
+              "id": 2,
+              "name": "Single Needle Threads",
+              "image": "/assets/Images/home/Doctors.png",
+              "link": "derma/cosmetic-threads/single-needle-threads",
+              "readMore": "Read More",
+              "designation": "Single needle threads provide a non-surgical solution for lifting and rejuvenating various areas of the face, offering a comprehensive approach to facial rejuvenation."
+            }
           ]
         },
         {
