@@ -1308,6 +1308,17 @@
                     "title": "The Karisma Touch",
                     "description": "At Karisma Specialist Medical Center, artistry meets innovation. We combine cutting-edge technology with expert craftsmanship to deliver veneers that enhance your natural beauty and reflect your personal taste. With a legacy of excellence and mastery in veneer technology, we bring world-class smile transformations to UAE, helping you radiate confidence and timeless beauty."
                 },
+              
+                {
+                    "type": "content",
+                    "title": "Why Choose Karisma Specialist Medical Center for Your Veneers in UAE?",
+                    "features": [
+                        "A Legacy of Excellence: With over 40,000 successful veneer procedures, we are trusted leaders in smile transformations.",
+                        "Tailored Care: Our personalized approach ensures that every aspect of your treatment meets your unique goals.",
+                        "Cutting-Edge Technology: We use the latest equipment to deliver outstanding results with minimal discomfort.",
+                        "Comprehensive Service: From consultation to post-treatment care, we guide you every step of the way."
+                    ]
+                },
                 {
                     "type": "color-heading",
                     "title": "Explore Our Veneer Options",
@@ -1356,16 +1367,6 @@
                             "readMore": "Read More",
                             "designation": "Push the boundaries of modern dentistry with translucent, durable veneers for a dazzling finish."
                         }
-                    ]
-                },
-                {
-                    "type": "content",
-                    "title": "Why Choose Karisma Specialist Medical Center for Your Veneers in UAE?",
-                    "features": [
-                        "A Legacy of Excellence: With over 40,000 successful veneer procedures, we are trusted leaders in smile transformations.",
-                        "Tailored Care: Our personalized approach ensures that every aspect of your treatment meets your unique goals.",
-                        "Cutting-Edge Technology: We use the latest equipment to deliver outstanding results with minimal discomfort.",
-                        "Comprehensive Service: From consultation to post-treatment care, we guide you every step of the way."
                     ]
                 },
                 {
