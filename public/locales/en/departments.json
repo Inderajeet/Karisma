@@ -1,6 +1,227 @@
 {
     "departments": [
         {
+            "id": "1",
+            "name": "dental",
+            "sections": [
+                {
+                    "type": "banner",
+                    "deptName": "Dental",
+                    "serviceName": "",
+                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png",
+                    "bannerPosition": "left"
+                },
+                {
+                    "type": "image-content",
+                    "imageUrl": "../assets/Images/depts/dental/dental-body-image.png",
+                    "imageAlt": "Dental",
+                    "title": "Dental",
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Enhance Your Smile and Boost Your Confidence at Karisma Specialist Medical Center in UAE"
+                        },
+                        {
+                            "type": "heading",
+                            "text": "The UAE’s Premier Dental Destination"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Are you dreaming of a smile that exudes charm and self-assurance? Look no further than Karisma Specialist Medical Center, the UAE’s trusted leader in exceptional dental care. We go beyond traditional dentistry dedicated to transforming lives through the artistry of smiles."
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Why Choose Karisma Specialist Medical Center?",
+                    "description": "We stand apart in delivering world-class dental care, and here’s why:",
+                    "features": [
+                        "Decades of Expertise: With over 50 years of combined experience, our multilingual dental specialists offer care tailored to your unique needs.",
+                        "State-of-the-art technology: We blend cutting-edge techniques with artistic precision to ensure outstanding results."
+                    ]
+                },
+                {
+                    "type": "color-content",
+                    "title": "Our Smile-Transforming Services",
+                    "features": [
+                        "Hollywood Smile: Achieve the flawless smile of celebrities with our Hollywood Smile makeover. Whether it’s a special occasion or you simply want to feel radiant every day, we’ll help you attain red-carpet-worthy teeth.",
+                        "Natural-Looking Dental Implants: Say goodbye to the inconvenience of missing teeth. Like the original dental implants restore your smile, letting you eat, speak, and laugh with renewed confidence.",
+                        "Discreet Aligners and Braces: Achieve perfect alignment discreetly with our invisible aligner technology. Prefer the traditional metal look? We’ve got that too! Our options cater to every style and need."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Comprehensive Dental Care Beyond Aesthetics At Karisma Specialist Medical Center in the UAE",
+                    "description": "At Karisma Specialist Medical Center, we focus on both the beauty and health of your smile with a full range of services, including:",
+                    "features": [
+                        "General Dentistry: Routine check-ups and cleanings to maintain optimal oral health.",
+                        "Restorative Solutions: From crowns to root canals, we enhance both functionality and aesthetics.",
+                        "Gum Health Management: Proactive treatment to combat gum disease and preserve oral health.",
+                        "Preventive Strategies: Guidance to avoid dental issues before they arise."
+                    ]
+                },
+                {
+                    "type": "color-content",
+                    "title": "The Karisma Difference: Why the Elite Trust Us",
+                    "description": "At Karisma Specialist Medical Center, we are committed to excellence, making us the premier choice for those who demand the best in dental care. Our dedication to customer satisfaction sets us apart as the ideal destination for exceptional dentistry.",
+                    "features": [
+                        "Experience the Karisma Difference: Are you ready to transform your smile? Your journey to a healthier, more confident you begins here. Let us turn your dream of a perfect smile into a stunning reality!"
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Meet the Exceptional Team Behind Your Smile",
+                    "description": "What makes your dental visit to us extraordinary and pain-free? At Karisma Specialist Medical Center, it’s our expert team that transforms routine appointments into memorable experiences.",
+                    "features": [
+                        "Exemplary Care: Our highly trained dentists are passionate about helping you achieve the smile you’ve always desired whether it’s a simple cleaning or a complete makeover.",
+                        "Innovative Technology: Our clinic is equipped with the latest advancements, from digital imaging to precision laser treatments, ensuring a comfortable and efficient experience.",
+                        "Personalized Approach: We listen to your concerns and aspirations, creating customized treatment plans that align with your goals."
+                    ]
+                },
+                {
+                    "type": "cont-color-content",
+                    "title": "Related Services"
+                },
+                {
+                    "type": "list-services",
+                    "listServices": [
+                        {
+                            "id": 1,
+                            "name": "Hollywood Smile (Veneers)",
+                            "image": "/assets/Images/depts/dental/hollywood-smile/body-image.png",
+                            "link": "dental/hollywood-smile-veneers",
+                            "readMore": "Read More",
+                            "designation": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "Implant",
+                            "image": "/assets/Images/depts/dental/implant/body-image.png",
+                            "link": "dental/implant",
+                            "readMore": "Read More",
+                            "designation": ""
+                        },
+                        {
+                            "id": 3,
+                            "name": "Orthodontics",
+                            "image": "/assets/Images/depts/dental/ortho/body-image.png",
+                            "link": "dental/orthodontics",
+                            "readMore": "Read More",
+                            "designation": ""
+                        },
+                        {
+                            "id": 4,
+                            "name": "Teeth Whitening",
+                            "image": "/assets/Images/depts/dental/teeth-Whitening/body-image.png",
+                            "link": "dental/teeth-whitening",
+                            "readMore": "Read More",
+                            "designation": ""
+                        },
+                        {
+                            "id": 5,
+                            "name": "Mouth Rehabilitation",
+                            "image": "/assets/Images/depts/dental/Mouth-Rehabilitation/body-image.png",
+                            "link": "dental/mouth-rehabilitation",
+                            "readMore": "Read More",
+                            "designation": ""
+                        },
+                        {
+                            "id": 6,
+                            "name": "Root Canal Treatment",
+                            "image": "/assets/Images/depts/dental/root-canal/body-image.png",
+                            "link": "dental/root-canal",
+                            "readMore": "Read More",
+                            "designation": ""
+                        },
+                        {
+                            "id": 7,
+                            "name": "Pediatric",
+                            "image": "/assets/Images/depts/dental/Pediatric/body-image.png",
+                            "link": "dental/pediatric",
+                            "readMore": "Read More",
+                            "designation": ""
+                        },
+                        {
+                            "id": 7,
+                            "name": "Dental Surgical Treatment",
+                            "image": "/assets/Images/depts/dental/Dental-Surgical-Treatment/body-image.png",
+                            "link": "dental/dental-surgery",
+                            "readMore": "Read More",
+                            "designation": ""
+                        },
+                        {
+                            "id": 7,
+                            "name": "Oral Health (Gum Treatment)",
+                            "image": "/assets/Images/depts/dental/Oral-Health/body-image.png",
+                            "link": "dental/oral-health",
+                            "readMore": "Read More",
+                            "designation": ""
+                        },
+                        {
+                            "id": 8,
+                            "name": "Restorative Dentistry",
+                            "image": "/assets/Images/depts/dental/Restorative-Dentistry/body-image.png",
+                            "link": "dental/restorative-dentistry",
+                            "readMore": "Read More",
+                            "designation": ""
+                        }
+                    ]
+                },
+                {
+                    "type": "cont-content",
+                    "title": "A Comprehensive Dental Experience Under One Roof",
+                    "description": "Why juggle multiple appointments at different clinics? At Karisma Specialist Medical Center, we offer a wide range of services, from preventive care to advanced cosmetic procedures. We are your one-stop destination for all your dental needs."
+                },
+                {
+                    "type": "color-content",
+                    "title": "Schedule Your Appointment Today",
+                    "description": "Join the many patients who have discovered the Karisma difference. Contact us now to book your personalized consultation and take the first step toward achieving the smile of your dreams.",
+                    "description2": "Your perfect smile and renewed confidence are just a visit away at Karisma Specialist Medical Center where artistry meets excellence."
+                },
+                {
+                    "type": "content",
+                    "title": "Our Doctors",
+                    "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+                },
+                {
+                    "type": "slider-doctors",
+                    "title": "Meet Our Specialists",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 2,
+                            "name": "Dr. Adel Al- Aswad",
+                            "designation": "Specialist Oral Surgeon",
+                            "image": "/assets/Images/doctors/Adel.png",
+                            "link": "doctor/dr-adel-al-aswad"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Dr. Rania Ghanem",
+                            "designation": "Prosthodontics Specialist",
+                            "image": "/assets/Images/doctors/Rania.png",
+                            "link": "doctor/dr-rania-ghanem"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Dr. Amir Magdy",
+                            "designation": "GP Dentist",
+                            "image": "/assets/Images/doctors/Amir.png",
+                            "link": "doctor/dr-amir-magdy"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
             "id": "2",
             "name": "gynecology",
             "sections": [
@@ -8,7 +229,8 @@
                     "type": "banner",
                     "deptName": "Gynecology",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/gyne.png",
+                    "bannerPosition": "right"
                 },
                 {
                     "type": "image-content",
@@ -176,6 +398,148 @@
             ]
         },
         {
+            "id": "3",
+            "name": "derma",
+            "sections": [
+                {
+                    "type": "banner",
+                    "deptName": "Derma",
+                    "serviceName": "",
+                    "bannerImage": "../assets/Images/depts/derma/banner.png",
+                    "bannerPosition": "center"
+                },
+                {
+                    "type": "image-content",
+                    "imageUrl": "../assets/Images/depts/derma/body-image.png",
+                    "imageAlt": "Derma",
+                    "title": "Derma",
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Radiate Confidence"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "At Karisma Specialist Medical Center, we redefine beauty as a deeply personal journey. With over 16 years of expertise, our elite cosmetic dermatology team has guided countless individuals toward their most radiant selves."
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Expertise Meets Elegance",
+                    "description": "Our board-certified dermatologists craft personalized treatment plans, blending artistry with precision to meet your unique aesthetic goals.",
+                    "features": [
+                        "Filler Perfection: Sculpt, smooth, and rejuvenate with dermal fillers designed to restore youthful volume and contour.",
+                        "New Level Of Anti-Aging Treatments​: Gently soften fine lines and wrinkles for a refreshed, natural look.",
+                        "Timeless Threads: Lift, tighten, and redefine with advanced cosmetic threads ideal for skin rejuvenation, hair loss solutions, and body contouring.",
+                        {
+                            "title": "Glow-Boosting Injections:",
+                            "items": [
+                                "Revitalize your skin with treatments that enhance texture, tone, and radiance.",
+                                "Experience tailored care and transformative results that celebrate your unique beauty."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "color-content",
+                    "title": "Confidence, Tailored to You",
+                    "description": "At Karisma Specialist Medical Center, we understand that confidence is deeply personal. Our personalized approach ensures each client receives a personalized treatment plan that celebrates and enhances their natural beauty, inside and out."
+                },
+                {
+                    "type": "cont-content",
+                    "title": "Beauty Beyond Aesthetics",
+                    "description": "We don’t just transform appearances; we empower you to embrace your uniqueness and achieve your goals with unwavering confidence. With state-of-the-art facilities and a passionate team, we’re dedicated to providing the highest standard of care for a truly transformative experience."
+                },
+                {
+                    "type": "sub-heading-content-last",
+                    "heading": "Begin your journey to self-discovery and radiant beauty today. Schedule your consultation with Karisma Specialist Medical Center."
+                },
+                {
+                    "type": "color-heading",
+                    "title": "Related Services"
+                },
+                {
+                    "type": "list-services",
+                    "listServices": [
+                        {
+                            "id": 1,
+                            "name": "Dermal Fillers",
+                            "image": "../assets/Images/depts/derma/filler/body-image.png",
+                            "link": "derma/derma-filler",
+                            "readMore": "Read More",
+                            "designation": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "Anti-Aging Treatments",
+                            "image": "../assets/Images/depts/derma/anti-aging-treatment/body-image.png",
+                            "link": "derma/anti-aging-treatment",
+                            "readMore": "Read More",
+                            "designation": ""
+                        },
+                        {
+                            "id": 3,
+                            "name": "Cosmetic Threads",
+                            "image": "../assets/Images/depts/derma/Cosmetic-Threads/body-image.png",
+                            "link": "derma/cosmetic-threads",
+                            "readMore": "Read More",
+                            "designation": ""
+                        },
+                        {
+                            "id": 4,
+                            "name": "Rejuvenation Injection",
+                            "image": "../assets/Images/depts/derma/Rejuvenation/body-image1.png",
+                            "link": "derma/rejuvenation-injection",
+                            "readMore": "Read More",
+                            "designation": ""
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Our Doctors",
+                    "description": ""
+                },
+                {
+                    "type": "slider-doctors",
+                    "title": "Meet Our Specialists",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 1,
+                            "name": "Dr. Sandro Ceci",
+                            "designation": "Dermatologist Specialist",
+                            "image": "/assets/Images/doctors/Dr Sandro.png",
+                            "link": "doctor/dr-sandro-ceci"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Dr. Manar Magdy",
+                            "designation": "Dermatology Specialist",
+                            "image": "/assets/Images/doctors/Dr Manar.png",
+                            "link": "doctor/dr-manar-magdy"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Dr. Ramilia Anarkulova",
+                            "designation": "Dermatologist-Cosmetologist",
+                            "image": "/assets/Images/doctors/Dr Ramila.png",
+                            "link": "doctor/dr-ramilia-anarkulova"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "4",
             "name": "skincare",
             "sections": [
@@ -183,7 +547,8 @@
                     "type": "banner",
                     "deptName": "SkinCare",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/skincare.png",
+                    "bannerPosition": "right"
                 },
                 {
                     "type": "image-content",
@@ -337,7 +702,8 @@
                     "type": "banner",
                     "deptName": "Nutrition and Slimming",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/banner/dept_banner/slimming.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/slimming.png",
+                    "bannerPosition": "right"
                 },
                 {
                     "type": "image-content",
@@ -476,7 +842,8 @@
                     "type": "banner",
                     "deptName": "Plastic Surgery",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/banner/dept_banner/plastic_surgery.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/plastic_surgery.png",
+                    "bannerPosition": "right"
                 },
                 {
                     "type": "image-content",
@@ -573,6 +940,132 @@
                             "designation": "Aesthetic plastic surgeon & consultant",
                             "image": "/assets/Images/doctors/Dr Yuri.png",
                             "link": "doctor/dr-yuri-macrino"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "name": "laser-hair-removal",
+            "sections": [
+                {
+                    "type": "banner",
+                    "deptName": "Laser Hair Removal",
+                    "serviceName": "",
+                    "bannerImage": "../assets/Images/banner/dept_banner/laser.png",
+                    "bannerPosition": "left"
+                },
+                {
+                    "type": "image-content",
+                    "imageUrl": "../assets/Images/depts/laser/body-image.png",
+                    "imageAlt": "Laser Hair Removal",
+                    "title": "Laser Hair Removal",
+                    "content": [
+                        {
+                            "type": "heading",
+                            "text": "Laser Hair Removal at Karisma Specialist Medical Center"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Discover the freedom of smooth, hair-free skin with our advanced laser hair removal treatments. Designed to deliver long-lasting results, our state-of-the-art technology offers a safe, effective, and comfortable solution tailored to your unique needs."
+                        },
+                        {
+                            "type": "heading",
+                            "text": "What is Laser Hair Removal?"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Laser hair removal is a cutting-edge, non-invasive procedure that targets hair follicles using focused light energy. By concentrating on the melanin in hair, the laser disables the follicle, reducing future growth while leaving the surrounding skin untouched."
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Benefits of Laser Hair Removal:",
+                    "features": [
+                        "Long-Lasting Results: Achieve significantly reduced hair growth for months or years.",
+                        "Smooth Skin: Minimize ingrown hairs, razor bumps, and irritation caused by shaving or waxing.",
+                        "Precision Targeting: Treat specific areas with minimal skin impact.",
+                        "Boosted Confidence: Feel confident with silky, hair-free skin."
+                    ]
+                },
+                {
+                    "type": "color-content",
+                    "title": "Who Can Benefit from Laser Hair Removal?",
+                    "description": "Thanks to advancements in laser technology, this treatment is effective for a broad range of skin tones and hair types. Our experts will assess your suitability during your consultation and develop a personalized treatment plan."
+                },
+                {
+                    "type": "content",
+                    "title": "The Karisma Laser Hair Removal Experience",
+                    "description": "At Karisma Specialist Medical Center, patient comfort and satisfaction are our priorities. Here's what to expect:",
+                    "features": [
+                        "Consultation: Discuss your goals and determine the best approach for your skin and hair type..",
+                        "Treatment: Advanced lasers are used to target unwanted hair efficiently. Multiple sessions may be required based on your hair growth cycle.",
+                        "Post-Treatment Care: Receive expert guidance to optimize results and care for your skin."
+                    ]
+                },
+                {
+                    "type": "color-heading",
+                    "title": "Advanced Laser Technology for Optimal Results",
+                    "description": "Our premium laser systems are designed for precision, safety, and effectiveness. During your consultation, our skilled technicians will recommend the ideal technology to meet your needs."
+                },
+                {
+                    "type": "sub-heading-color-content-last",
+                    "heading": "Full Body Laser Hair Removal:",
+                    "description": "Discover the ultimate solution for hair removal, delivering an extraordinary level of smoothness:",
+                    "features": [
+                        "Arms: Feel the comfort of smooth arms.",
+                        "Legs: Enjoy flawless, hair-free legs.",
+                        "Face: A rejuvenated, hair-free complexion.",
+                        "Underarms & Bikini Area: Confidence in every aspect.",
+                        "Back & Chest: Sleek and refined results."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Why Choose Karisma Specialist Medical Center?",
+                    "features": [
+                        "Expertise You Can Trust: Certified technicians specializing in advanced laser treatments.",
+                        "Enhanced Skin: Our lasers not only remove hair but also improve skin texture and tone."
+                    ]
+                },
+                {
+                    "type": "sub-heading-content-last",
+                    "title": "Start Your Journey Today",
+                    "description": "Say goodbye to traditional hair removal methods and hello to long-lasting smoothness. Schedule your consultation with our experts today and embrace the confidence of hair-free, radiant skin."
+                },
+                {
+                    "type": "color-heading",
+                    "title": "Related Services",
+                    "description": "Explore our other advanced treatments:"
+                },
+                {
+                    "type": "list-services",
+                    "listServices": [
+                        {
+                            "id": 1,
+                            "name": "Candela GentleMax Pro",
+                            "image": "../assets/Images/depts/laser/Candela/body-image.png",
+                            "link": "laser-hair-removal/candela",
+                            "readMore": "Read More",
+                            "designation": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "Elite IQ",
+                            "image": "../assets/Images/banner/about_dept/laser.png",
+                            "link": "laser-hair-removal/elite",
+                            "readMore": "Read More",
+                            "designation": ""
+                        },
+                        {
+                            "id": 3,
+                            "name": "RevLite SI",
+                            "image": "../assets/Images/depts/laser/RevLite/body-image.png",
+                            "link": "laser-hair-removal/revlite",
+                            "readMore": "Read More",
+                            "designation": ""
                         }
                     ]
                 }

@@ -8,7 +8,8 @@
           "type": "banner",
           "deptName": "Gynecology",
           "serviceName": "Aesthetic Gynecology",
-          "bannerImage": "../assets/Images/depts/Gyne/Gynecology-aesthetic/Main-Banner.png"
+          "bannerImage": "../assets/Images/depts/Gyne/Gynecology-aesthetic/Main-Banner.png",
+          "bannerPosition": "right"
         },
         {
           "type": "image-content",
@@ -23,29 +24,23 @@
             {
               "type": "paragraph",
               "text": "At Karisma Specialist Medical Center, we celebrate and support women’s health in all its facets. Our expert team of female gynecologists offers a range of cosmetic gynecology services designed to enhance your intimate well-being, boost confidence, and promote a renewed sense of self."
-            },
-            {
-              "type": "heading",
-              "text": "Discover the Power of Cosmetic Gynecology"
-            },
-            {
-              "type": "paragraph",
-              "text": "Cosmetic gynecology focuses on non-surgical and minimally invasive treatments that address aesthetic and functional concerns, helping you feel your best."
-            },
-            {
-              "type": "list",
-              "items": [
-                "Vaginal Tightening: Restore firmness and elasticity with advanced treatments such as laser therapy and radiofrequency, enhancing both comfort and intimacy.",
-                "Whitening Treatments: Achieve a brighter, more even skin tone in the vulvar area, addressing hyperpigmentation for a rejuvenated appearance.",
-                "Plasma Therapy: Harness the healing power of plasma technology to promote tissue rejuvenation, improving laxity and minor pigmentation concerns.",
-                "Fillers: Add volume and definition to the labia majora, creating a more balanced, aesthetically pleasing look and enhancing comfort.",
-                "Anti-Aging Treatment for Intimate Care: Anti-Aging Treatment may be used to address muscle hyperactivity and minimize certain aesthetic concerns. A personalized consultation ensures this option aligns with your needs and safety."
-              ]
             }
           ]
         },
         {
           "type": "content",
+          "title": "Discover the Power of Cosmetic Gynecology",
+          "description": "Cosmetic gynecology focuses on non-surgical and minimally invasive treatments that address aesthetic and functional concerns, helping you feel your best.",
+          "features": [
+            "Vaginal Tightening: Restore firmness and elasticity with advanced treatments such as laser therapy and radiofrequency, enhancing both comfort and intimacy.",
+            "Whitening Treatments: Achieve a brighter, more even skin tone in the vulvar area, addressing hyperpigmentation for a rejuvenated appearance.",
+            "Plasma Therapy: Harness the healing power of plasma technology to promote tissue rejuvenation, improving laxity and minor pigmentation concerns.",
+            "Fillers: Add volume and definition to the labia majora, creating a more balanced, aesthetically pleasing look and enhancing comfort.",
+            "Anti-Aging Treatment for Intimate Care: Anti-Aging Treatment may be used to address muscle hyperactivity and minimize certain aesthetic concerns. A personalized consultation ensures this option aligns with your needs and safety."
+          ]
+        },
+        {
+          "type": "sub-heading-content-last",
           "title": "A Personalized Approach to Intimate Wellness",
           "features": [
             "Discreet Consultations: Our caring, all-female team offers a private, supportive space to discuss your concerns openly and confidently.",
@@ -82,7 +77,7 @@
               "designation": "Obstetrics and Gynecology Specialist",
               "image": "/assets/Images/doctors/huda.png",
               "link": "doctor/dr-huda-ebrahim-shaheen"
-          }
+            }
           ]
         }
       ]
@@ -95,7 +90,8 @@
           "type": "banner",
           "deptName": "Gynecology",
           "serviceName": "Gynecological Filler",
-          "bannerImage": "../assets/Images/depts/Gyne/Gynecological-filler/body-image.png"
+          "bannerImage": "../assets/Images/depts/Gyne/Gynecological-filler/body-image.png",
+          "bannerPosition": "right"
         },
         {
           "type": "image-content",
@@ -110,32 +106,26 @@
             {
               "type": "paragraph",
               "text": "Rejuvenate and enhance your intimate area with gynecological fillers at Karisma Specialist Medical Center. Designed to restore volume, improve symmetry, and elevate your confidence, this non-surgical treatment offers a discreet solution tailored to your unique needs."
-            },
-            {
-              "type": "heading",
-              "text": "What Are Gynecological Fillers?"
-            },
-            {
-              "type": "paragraph",
-              "text": "Gynecological fillers are injectable gels made from hyaluronic acid, a natural substance that hydrates and restores volume. This treatment addresses age-related or postpartum changes, offering aesthetic and functional improvements."
-            },
-            {
-              "type": "heading",
-              "text": "Key Benefits of Gynecological Fillers"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Restored Volume: Rejuvenate the labia majora and address volume loss for a youthful appearance.",
-                "Improved Symmetry: Achieve balance and harmony in the vulvar area.",
-                "Enhanced Confidence: Feel more comfortable and self-assured during intimate moments.",
-                "Non-Surgical Solution: Enjoy immediate results with minimal downtime and a safe, effective procedure."
-              ]
             }
           ]
         },
         {
           "type": "content",
+          "title": "What Are Gynecological Fillers?",
+          "description": "Gynecological fillers are injectable gels made from hyaluronic acid, a natural substance that hydrates and restores volume. This treatment addresses age-related or postpartum changes, offering aesthetic and functional improvements."
+        },
+        {
+          "type": "sub-heading-content-last",
+          "title": "Key Benefits of Gynecological Fillers",
+          "features": [
+            "Restored Volume: Rejuvenate the labia majora and address volume loss for a youthful appearance.",
+            "Improved Symmetry: Achieve balance and harmony in the vulvar area.",
+            "Enhanced Confidence: Feel more comfortable and self-assured during intimate moments.",
+            "Non-Surgical Solution: Enjoy immediate results with minimal downtime and a safe, effective procedure."
+          ]
+        },
+        {
+          "type": "color-content",
           "title": "Your Personalized Treatment Journey",
           "features": [
             "Expert Consultation: Meet with our board-certified gynecologists to discuss your goals and evaluate your suitability for fillers.",
@@ -145,7 +135,7 @@
           ]
         },
         {
-          "type": "sub-heading-content-last",
+          "type": "content",
           "title": "Why Choose Karisma Specialist Medical Center?",
           "features": [
             "Specialized Expertise: Our experienced professionals utilize advanced techniques to ensure precise, natural-looking results.",
@@ -195,7 +185,8 @@
           "type": "banner",
           "deptName": "Gynecology",
           "serviceName": "Medical Gynecology / Obstetric",
-          "bannerImage": "../assets/Images/depts/Gyne/MedicalGynecology-Obstetric/Main-Banner.png"
+          "bannerImage": "../assets/Images/depts/Gyne/MedicalGynecology-Obstetric/Main-Banner.png",
+          "bannerPosition": "right"
         },
         {
           "type": "image-content",
@@ -210,29 +201,23 @@
             {
               "type": "paragraph",
               "text": "At Karisma Specialist Medical Center, we prioritize comprehensive, compassionate care tailored to the unique health needs of women from childhood through adulthood. Our experienced team of gynecologists and obstetricians is dedicated to supporting your well-being every step of the way."
-            },
-            {
-              "type": "heading",
-              "text": "Caring for Girls’ Health"
-            },
-            {
-              "type": "paragraph",
-              "text": "Age Range: Childhood – Adolescence"
-            },
-            {
-              "type": "paragraph",
-              "text": "We address common conditions affecting young girls, focusing on early diagnosis and effective management:"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Hormonal Disorders: Identifying and treating issues like irregular periods, breast development concerns, or growth abnormalities.",
-                "Polycystic Ovary Syndrome (PCOS): Managing symptoms such as irregular cycles, excess body hair, and acne to promote overall well-being.",
-                "Menstrual Disorders: Offering solutions for heavy bleeding, painful periods, and irregular cycles.",
-                "Hirsutism: Providing treatments to manage and reduce excessive hair growth.",
-                "Acne: Developing personalized treatment plans to restore confidence and skin health."
-              ]
             }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Caring for Girls’ Health",
+          "description": "Age Range: Childhood – Adolescence"
+        },
+        {
+          "type": "color-content",
+          "heading": "We address common conditions affecting young girls, focusing on early diagnosis and effective management:",
+          "features": [
+            "Hormonal Disorders: Identifying and treating issues like irregular periods, breast development concerns, or growth abnormalities.",
+            "Polycystic Ovary Syndrome (PCOS): Managing symptoms such as irregular cycles, excess body hair, and acne to promote overall well-being.",
+            "Menstrual Disorders: Offering solutions for heavy bleeding, painful periods, and irregular cycles.",
+            "Hirsutism: Providing treatments to manage and reduce excessive hair growth.",
+            "Acne: Developing personalized treatment plans to restore confidence and skin health."
           ]
         },
         {
@@ -339,7 +324,8 @@
           "type": "banner",
           "deptName": "Gynecology",
           "serviceName": "Plasma Injection",
-          "bannerImage": "../assets/Images/depts/Gyne/Plasma-Injection/Main-Banner.png"
+          "bannerImage": "../assets/Images/depts/Gyne/Plasma-Injection/Main-Banner.png",
+          "bannerPosition": "right"
         },
         {
           "type": "image-content",
@@ -354,44 +340,35 @@
             {
               "type": "paragraph",
               "text": "Revitalize your intimate wellness with PRP Vaginal Injections at Karisma Specialist Medical Center—a natural and effective solution designed to rejuvenate tissues, improve elasticity, and promote overall intimate health."
-            },
-            {
-              "type": "heading",
-              "text": "What is PRP Therapy?"
-            },
-            {
-              "type": "paragraph",
-              "text": "PRP (Platelet-Rich Plasma) therapy harnesses your body’s own healing power. A small amount of your blood is drawn, processed to isolate the plasma rich in growth factors, and injected into vaginal tissues. This stimulates tissue regeneration, enhances blood flow, and promotes collagen production."
-            },
-            {
-              "type": "heading",
-              "text": "How Does PRP Work?"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Tissue Regeneration: PRP stimulates the body’s natural healing process, encouraging new cell growth.",
-                "Collagen Production: The treatment boosts collagen and elastin, improving firmness and elasticity.",
-                "Blood Flow Enhancement: Increased circulation promotes better tissue health and sensitivity."
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Benefits of PRP Vaginal Injections"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Improved Skin Quality: Achieve softer, rejuvenated vulvar skin with a youthful appearance.",
-                "Enhanced Elasticity: Enjoy firmer and tighter tissues for improved comfort and function.",
-                "Natural Rejuvenation: PRP uses your body’s own growth factors, making it a safe and biocompatible solution.",
-                "Potential Increased Sensitivity: Enhanced blood flow may lead to improved sensation and intimacy."
-              ]
             }
           ]
         },
         {
           "type": "content",
+          "title": "What is PRP Therapy?",
+          "description": "PRP (Platelet-Rich Plasma) therapy harnesses your body’s own healing power. A small amount of your blood is drawn, processed to isolate the plasma rich in growth factors, and injected into vaginal tissues. This stimulates tissue regeneration, enhances blood flow, and promotes collagen production."
+        },
+        {
+          "type": "color-content",
+          "title": "How Does PRP Work?",
+          "features": [
+            "Tissue Regeneration: PRP stimulates the body’s natural healing process, encouraging new cell growth.",
+            "Collagen Production: The treatment boosts collagen and elastin, improving firmness and elasticity.",
+            "Blood Flow Enhancement: Increased circulation promotes better tissue health and sensitivity."
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Benefits of PRP Vaginal Injections",
+          "features": [
+            "Improved Skin Quality: Achieve softer, rejuvenated vulvar skin with a youthful appearance.",
+            "Enhanced Elasticity: Enjoy firmer and tighter tissues for improved comfort and function.",
+            "Natural Rejuvenation: PRP uses your body’s own growth factors, making it a safe and biocompatible solution.",
+            "Potential Increased Sensitivity: Enhanced blood flow may lead to improved sensation and intimacy."
+          ]
+        },
+        {
+          "type": "color-content",
           "title": "What to Expect",
           "features": [
             "Consultation: Our expert gynecologists will discuss your goals and assess your suitability for PRP therapy.",
@@ -402,7 +379,7 @@
           ]
         },
         {
-          "type": "sub-heading-content-last",
+          "type": "content",
           "title": "Why Choose Karisma Specialist Medical Center?",
           "features": [
             "Personalized Care: We design tailored treatment plans to meet your unique needs.",
@@ -452,7 +429,8 @@
           "type": "banner",
           "deptName": "Gynecology",
           "serviceName": "Bikini Whitening & Rejuvenation",
-          "bannerImage": "../assets/Images/depts/Gyne/BikiniWhitening&Rejuvenation/Main-Banner.png"
+          "bannerImage": "../assets/Images/depts/Gyne/BikiniWhitening&Rejuvenation/Main-Banner.png",
+          "bannerPosition": "right"
         },
         {
           "type": "image-content",
@@ -608,7 +586,8 @@
           "type": "banner",
           "deptName": "Gynecology",
           "serviceName": "Bikini Tightening - Belladona",
-          "bannerImage": "../assets/Images/depts/Gyne/BikiniTightening-Belladona/Main-Banner.png"
+          "bannerImage": "../assets/Images/depts/Gyne/BikiniTightening-Belladona/Main-Banner.png",
+          "bannerPosition": "right"
         },
         {
           "type": "image-content",
@@ -704,7 +683,8 @@
           "type": "banner",
           "deptName": "Gynecology",
           "serviceName": "Vaginal Anti-Aging Treatment",
-          "bannerImage": "../assets/Images/depts/Gyne/Vaginal-Anti-AGing-Treatment/Main-Banner.png"
+          "bannerImage": "../assets/Images/depts/Gyne/Vaginal-Anti-AGing-Treatment/Main-Banner.png",
+          "bannerPosition": "right"
         },
         {
           "type": "image-content",
@@ -719,27 +699,21 @@
             {
               "type": "paragraph",
               "text": "At Karisma Specialist Medical Center, we recognize the importance of a fulfilling, pain-free intimate life. For women experiencing vaginismus, characterized by involuntary muscle contractions that cause discomfort or pain, Vaginal Anti-Aging Treatment offers a safe, effective solution to restore comfort and confidence."
-            },
-            {
-              "type": "heading",
-              "text": "What Is Vaginal Anti-Aging Treatment?"
-            },
-            {
-              "type": "paragraph",
-              "text": "Vaginal Anti-Aging Treatment involves injecting a neurotoxin into the muscles around the vaginal opening. This relaxes the muscles, easing contractions and alleviating pain associated with vaginismus, enhancing comfort during intimacy."
-            },
-            {
-              "type": "heading",
-              "text": "Benefits of Vaginal Anti-Aging Treatment"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Relief from Vaginismus: Alleviates involuntary muscle spasms, reducing pain and discomfort.",
-                "Enhanced Intimacy: Promotes more comfortable and fulfilling marital relations.",
-                "Quick and Long-Lasting Results: Enjoy relief within days, with effects lasting 6 to 12 months."
-              ]
             }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "What Is Vaginal Anti-Aging Treatment?",
+          "description": "Vaginal Anti-Aging Treatment involves injecting a neurotoxin into the muscles around the vaginal opening. This relaxes the muscles, easing contractions and alleviating pain associated with vaginismus, enhancing comfort during intimacy."
+        },
+        {
+          "type": "color-content",
+          "title": "Benefits of Vaginal Anti-Aging Treatment",
+          "features": [
+            "Relief from Vaginismus: Alleviates involuntary muscle spasms, reducing pain and discomfort.",
+            "Enhanced Intimacy: Promotes more comfortable and fulfilling marital relations.",
+            "Quick and Long-Lasting Results: Enjoy relief within days, with effects lasting 6 to 12 months."
           ]
         },
         {
@@ -811,7 +785,8 @@
           "type": "banner",
           "deptName": "Gynecology",
           "serviceName": "Cosmetic Minor Surgeries",
-          "bannerImage": "../assets/Images/depts/Gyne/Cosmetic-Minor-Surgeries/Main-Banner.png"
+          "bannerImage": "../assets/Images/depts/Gyne/Cosmetic-Minor-Surgeries/Main-Banner.png",
+          "bannerPosition": "right"
         },
         {
           "type": "image-content",
@@ -826,38 +801,35 @@
             {
               "type": "paragraph",
               "text": "At Karisma Specialist Medical Center, we believe that feeling confident and comfortable in your body is essential. Our range of minor cosmetic gynecological surgeries is designed to address specific concerns, enhancing both appearance and intimate wellness with precision and care."
-            },
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "Empowering Your Choices: Procedures We Offer",
+          "features": [
             {
-              "type": "heading",
-              "text": "Empowering Your Choices: Procedures We Offer"
-            },
-            {
-              "type": "list",
+              "title": "Labiaplasty: Focuses on reshaping and reducing the size of the labia minora for aesthetic or functional reasons.",
               "items": [
                 {
-                  "title": "Labiaplasty: Focuses on reshaping and reducing the size of the labia minora for aesthetic or functional reasons.",
+                  "title": "Benefits",
                   "items": [
-                    {
-                      "title": "Benefits",
-                      "items": [
-                        "Enhanced aesthetics and confidence.",
-                        "Reduced discomfort during physical activities.",
-                        "Lowered risk of irritation or infection."
-                      ]
-                    }
+                    "Enhanced aesthetics and confidence.",
+                    "Reduced discomfort during physical activities.",
+                    "Lowered risk of irritation or infection."
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "title": "Perineorrhaphy: A reconstructive procedure targeting vaginal tightening and perineal beautification.",
+              "items": [
                 {
-                  "title": "Perineorrhaphy: A reconstructive procedure targeting vaginal tightening and perineal beautification.",
+                  "title": "Benefits",
                   "items": [
-                    {
-                      "title": "Benefits",
-                      "items": [
-                        "Restored vaginal tightness and elasticity.",
-                        "Improved sensation and satisfaction during intimacy.",
-                        "Renewed self-confidence in intimate moments."
-                      ]
-                    }
+                    "Restored vaginal tightness and elasticity.",
+                    "Improved sensation and satisfaction during intimacy.",
+                    "Renewed self-confidence in intimate moments."
                   ]
                 }
               ]
@@ -865,7 +837,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Your Journey with Karisma: What to Expect",
           "features": [
             {
@@ -890,7 +862,7 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "content",
           "title": "Important Guidelines",
           "features": [
             {
@@ -915,7 +887,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Why Choose Karisma Specialist Medical Center?",
           "features": [
             "Expert Care: Our board-certified gynecologists specialize in intimate wellness, offering compassionate, discreet care.",
@@ -924,7 +896,7 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "sub-heading-color-content-last",
           "title": "Rediscover Confidence and Comfort",
           "description": "Take the first step toward enhanced confidence and intimate well-being. Contact Karisma Specialist Medical Center today to schedule your consultation and explore the transformative benefits of cosmetic gynecological surgery."
         },

@@ -171,7 +171,8 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Dental Surgery",
-                    "bannerImage": "../assets/Images/depts/dental/Dental-Surgical-Treatment/banner.png"
+                    "bannerImage": "../assets/Images/depts/dental/Dental-Surgical-Treatment/banner.png",
+                    "bannerPosition": "right"
                 },
                 {
                     "type": "image-content",
@@ -357,7 +358,8 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Implants",
-                    "bannerImage": "../assets/Images/depts/dental/implant/banner.png"
+                    "bannerImage": "../assets/Images/depts/dental/implant/banner.png",
+                    "bannerPosition": "center"
                 },
                 {
                     "type": "image-content",
@@ -471,7 +473,8 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Orthodontics",
-                    "bannerImage": "../assets/Images/depts/dental/ortho/banner.png"
+                    "bannerImage": "../assets/Images/depts/dental/ortho/banner.png",
+                    "bannerPosition": "right"
                 },
                 {
                     "type": "image-content",
@@ -486,29 +489,23 @@
                         {
                             "type": "paragraph",
                             "text": "Discover the art of achieving a perfectly aligned smile at Karisma Specialist Medical Center, where our elite orthodontic treatments are tailored to meet your unique needs. Designed to enhance both your confidence and overall oral health, our services are delivered by expert orthodontists committed to providing the highest standard of care. Let us redefine your journey to dental excellence."
-                        },
-                        {
-                            "type": "heading",
-                            "text": "What Are the Orthodontic Treatments?"
-                        },
-                        {
-                            "type": "paragraph",
-                            "text": "Orthodontics is a specialized branch of dentistry dedicated to diagnosing, preventing, and treating dental misalignments and jaw irregularities. At Karisma Specialist Medical Center, our skilled orthodontists create customized treatment plans to address various concerns, including:"
-                        },
-                        {
-                            "type": "list",
-                            "items": [
-                                "Crowding: Correcting overlapping teeth for better aesthetics and improved oral hygiene.",
-                                "Spacing: Closing gaps between teeth to enhance speech and facial harmony.",
-                                "Overbite: Aligning upper front teeth for a more balanced and attractive smile.",
-                                "Underbite: Adjusting lower teeth that extend beyond upper teeth for proper alignment.",
-                                "Crossbite: Ensuring correct positioning of upper and lower teeth for optimal functionality."
-                            ]
                         }
                     ]
                 },
                 {
                     "type": "content",
+                    "title": "What Are the Orthodontic Treatments?",
+                    "description": "Orthodontics is a specialized branch of dentistry dedicated to diagnosing, preventing, and treating dental misalignments and jaw irregularities. At Karisma Specialist Medical Center, our skilled orthodontists create customized treatment plans to address various concerns, including:",
+                    "features": [
+                        "Crowding: Correcting overlapping teeth for better aesthetics and improved oral hygiene.",
+                        "Spacing: Closing gaps between teeth to enhance speech and facial harmony.",
+                        "Overbite: Aligning upper front teeth for a more balanced and attractive smile.",
+                        "Underbite: Adjusting lower teeth that extend beyond upper teeth for proper alignment.",
+                        "Crossbite: Ensuring correct positioning of upper and lower teeth for optimal functionality."
+                    ]
+                },
+                {
+                    "type": "color-content",
                     "title": "The Benefits of Orthodontic Treatment",
                     "description": "Choosing orthodontic care at Karisma Specialist Medical Center comes with a wide array of benefits:",
                     "features": [
@@ -519,7 +516,7 @@
                     ]
                 },
                 {
-                    "type": "color-content",
+                    "type": "content",
                     "title": "Orthodontic Treatment Options at Karisma Specialist Medical Center",
                     "description": "At Karisma Specialist Medical Center, we offer a range of premier orthodontic solutions, carefully designed to suit your lifestyle and preferences:",
                     "features": [
@@ -538,18 +535,18 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Start Your Journey to a Flawless Smile and Healthier Oral Health",
                     "description": "Why settle for anything less than exceptional? Begin your journey to the smile you’ve always envisioned with Karisma Specialist Medical Center."
                 },
                 {
-                    "type": "color-content",
+                    "type": "content",
                     "title": "Schedule Your Orthodontic Consultation Today",
                     "description": "Contact us now to book your personalized consultation with our expert orthodontists. During your visit, we’ll conduct a thorough assessment of your dental needs and present tailored treatment options to help you achieve your ideal smile.",
                     "description2": "Experience the superior care and cutting-edge techniques that define Karisma Specialist Medical Center. Let us craft a timeless smile that reflects your charm and confidence."
                 },
                 {
-                    "type": "sub-heading-color-content-last",
+                    "type": "color-content",
                     "title": "Your Radiant Smile Awaits",
                     "description": "Embrace the transformative journey to a healthier, more confident you. Contact Karisma Specialist Medical Center today, and take the first step toward a lifetime of smiles."
                 },
@@ -604,7 +601,8 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Teeth Whitening",
-                    "bannerImage": "../assets/Images/depts/dental/teeth-Whitening/teeth-Whitening-banner.png"
+                    "bannerImage": "../assets/Images/depts/dental/teeth-Whitening/teeth-Whitening-banner.png",
+                    "bannerPosition": "center"
                 },
                 {
                     "type": "image-content",
@@ -731,7 +729,8 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Mouth Rehabilitation",
-                    "bannerImage": "../assets/Images/depts/dental/Mouth-Rehabilitation/banner.png"
+                    "bannerImage": "../assets/Images/depts/dental/Mouth-Rehabilitation/banner.png",
+                    "bannerPosition": "center"
                 },
                 {
                     "type": "image-content",
@@ -750,27 +749,21 @@
                         {
                             "type": "paragraph",
                             "text": "At Karisma Specialist Medical Center in the UAE, we understand that the elegance of your smile is crucial to your confidence and overall well-being. Our Full Mouth Rehabilitation services offer bespoke treatment plans meticulously designed to restore both the functionality and aesthetics of your entire smile, enhancing your quality of life. Our esteemed team of highly skilled dentists and specialists collaborates seamlessly to curate a personalized treatment experience tailored to your unique desires and intricate needs."
-                        },
-                        {
-                            "type": "heading",
-                            "text": "What Are The Full Mouth Rehabilitation Solutions?"
-                        },
-                        {
-                            "type": "paragraph",
-                            "text": "Full Mouth Rehabilitation is more than just a dental procedure; it is a comprehensive journey tailored specifically for you. This holistic approach incorporates a range of advanced dental solutions meticulously catered to your individual circumstances, including:"
-                        },
-                        {
-                            "type": "list",
-                            "items": [
-                                "Dental Crowns: Custom-crafted caps affixed to damaged or weakened teeth, restoring their strength, shape, and appearance while enhancing your overall smile.",
-                                "Dental Bridges: Elegant replacements for one or more missing teeth, anchored to neighboring healthy teeth and constructed from high-quality, natural-looking materials for impeccable integration with your smile.",
-                                "Dental Implants: State-of-the-art titanium posts surgically embedded within the jawbone, functioning as durable artificial tooth roots, providing a robust foundation for crowns, bridges, or dentures, thereby optimizing both functionality and aesthetics."
-                            ]
                         }
                     ]
                 },
                 {
                     "type": "content",
+                    "title": "What Are The Full Mouth Rehabilitation Solutions?",
+                    "description": "Full Mouth Rehabilitation is more than just a dental procedure; it is a comprehensive journey tailored specifically for you. This holistic approach incorporates a range of advanced dental solutions meticulously catered to your individual circumstances, including:",
+                    "features": [
+                        "Dental Crowns: Custom-crafted caps affixed to damaged or weakened teeth, restoring their strength, shape, and appearance while enhancing your overall smile.",
+                        "Dental Bridges: Elegant replacements for one or more missing teeth, anchored to neighboring healthy teeth and constructed from high-quality, natural-looking materials for impeccable integration with your smile.",
+                        "Dental Implants: State-of-the-art titanium posts surgically embedded within the jawbone, functioning as durable artificial tooth roots, providing a robust foundation for crowns, bridges, or dentures, thereby optimizing both functionality and aesthetics."
+            ]
+                },
+                {
+                    "type": "color-content",
                     "title": "Denture Solutions Tailored for Discerning Clients",
                     "description": "At Karisma Specialist Medical Center in the UAE, we pride ourselves on offering a range of exceptional denture options, ensuring that your needs and lifestyle are elegantly addressed:",
                     "features": [
@@ -780,7 +773,7 @@
                     ]
                 },
                 {
-                    "type": "color-content",
+                    "type": "content",
                     "title": "The Transformative Benefits of Full Mouth Rehabilitation",
                     "description": "Indulging in Full Mouth Rehabilitation at Karisma Specialist Medical Center offers a wide array of benefits designed to enrich your oral health and enhance your overall lifestyle:",
                     "features": [
@@ -792,7 +785,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Crafting Your Bespoke Smile Experience",
                     "description": "At Karisma Specialist Medical Center in the UAE, we prioritize your personal journey and aspirations. Through an individualized consultation and comprehensive examination, we meticulously develop a tailored Full Mouth Rehabilitation plan that aligns with your esteemed expectations and lifestyle."
                 },
@@ -863,7 +856,8 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Root Canal Treatment",
-                    "bannerImage": "../assets/Images/depts/dental/root-canal/banner.png"
+                    "bannerImage": "../assets/Images/depts/dental/root-canal/banner.png",
+                    "bannerPosition": "right"
                 },
                 {
                     "type": "image-content",
@@ -1001,7 +995,8 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Oral health (Gum treatment)",
-                    "bannerImage": "../assets/Images/depts/dental/Oral-Health/banner.png"
+                    "bannerImage": "../assets/Images/depts/dental/Oral-Health/banner.png",
+                    "bannerPosition": "center"
                 },
                 {
                     "type": "image-content",
@@ -1138,7 +1133,8 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Restorative Dentistry",
-                    "bannerImage": "../assets/Images/depts/dental/Restorative-Dentistry/banner.png"
+                    "bannerImage": "../assets/Images/depts/dental/Restorative-Dentistry/banner.png",
+                    "bannerPosition": "right"
                 },
                 {
                     "type": "image-content",
@@ -1273,7 +1269,8 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Hollywood Smile (Veneers)",
-                    "bannerImage": "../assets/Images/depts/dental/hollywood-smile/banner.png"
+                    "bannerImage": "../assets/Images/depts/dental/hollywood-smile/banner.png",
+                    "bannerPosition": "right"
                 },
                 {
                     "type": "image-content",
@@ -1410,7 +1407,8 @@
                             "designation": "GP Dentist",
                             "image": "/assets/Images/doctors/Amir.png",
                             "link": "doctor/dr-amir-magdy"
-                        }                    ]
+                        }
+                    ]
                 }
             ]
         }

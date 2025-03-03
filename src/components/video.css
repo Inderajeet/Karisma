@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 70px;
+    /* margin-bottom: 50px; */
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
@@ -139,7 +139,7 @@
   }
   @media (max-width: 549px){
     .section{
-        margin-bottom: 0;
+        /* margin-bottom: 50px; */
         height: 45vh;
     }
 }

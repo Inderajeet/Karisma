@@ -1,9 +1,6 @@
-/* Background slider */
-.derma-background-img {
+.dept-background-img {
     background-size: cover;
-    /* background-position: center; */
     transition: background-image 0.5s ease-in-out; 
-    /* position: relative; */
     top: 0;
     left: 0;
     width: 100%;
@@ -37,7 +34,6 @@
     padding: 0 15px;
     bottom: 50px;
     z-index: 3;
-    /* width: 100%; */
 }
 
 @media only screen and (min-width: 1200px) {

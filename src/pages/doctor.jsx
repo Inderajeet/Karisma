@@ -2,8 +2,6 @@ import '../custom_css/doctor.css';
 import React from "react";
 import { Link } from "react-router-dom"; // For navigation
 import { useTranslation } from "react-i18next";
-import Banner from "../components/Banner";
-import BannerDoctor from '../components/Bannerdoctor';
 import DynamicBanner from '../components/DynamicBanner';
 
 export const applyFontFallback = (text) => {
@@ -24,7 +22,10 @@ export default function Doctors() {
 
   return (
     <>
-    <BannerDoctor  deptName="Our Doctors" serviceName="" bannerImage="../../../assets/Images/depts/Our-Doctors/our-doctors-banner.png" />
+    <DynamicBanner  deptName="Our Doctors" serviceName="" 
+    bannerImage="../../../assets/Images/depts/Our-Doctors/our-doctors-banner.png" 
+    bannerPosition={`center`}
+    />
     <div className="docContainer" style={{ marginTop: "50px" }}>
         <div className="col-md-12 order-md-2">
           <div className="post-inner">
@@ -32,7 +33,7 @@ export default function Doctors() {
               <div className="elementor elementor-73315">
                 <div className="elementor-element elementor-7a321f1b e-flex e-con-boxed e-con e-parent e-lazyloaded">
                   <div className="e-con-inner">
-                    <div className="dd-row">
+                    <div className="dd-row" style={{justifyContent: 'start'}}>
                       {doctors.map((doctor) => (
                         <Link
                         to={`/${i18n.language}/${encodeURI(doctor.link)}`}

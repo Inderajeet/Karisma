@@ -2,9 +2,6 @@ import React from "react";
 import { useCart } from "../components/CartContext";
 import "../custom_css/cart.css";
 import { useNavigate } from "react-router-dom";
-import Footer from "../components/footer";
-import { useEffect } from "react";
-import HeaderCart from "../components/headerCart";
 import Banner from "../components/Banner";
 
 export default function Cart() {
@@ -92,7 +89,6 @@ export default function Cart() {
         )}
         </div>
       </div>
-      <Footer></Footer>
     </>
   );
 }

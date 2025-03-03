@@ -3,21 +3,24 @@
     perspective: 1000px;
     width: 60%;
   }
-  .elementor-73397 .elementor-element.elementor-element-587964da{
+
+  .elementor-73397 .elementor-element.elementor-element-587964da {
     top: 50px;
   }
 }
 
-@media  (max-width:767px){
+@media (max-width:767px) {
   .image-container {
     perspective: 1000px;
     width: 50%;
   }
-  .home-desc-font{
+
+  .home-desc-font {
     font-size: 17px !important;
     line-height: 26px !important;
   }
-  .home-head-font{
+
+  .home-head-font {
     font-size: 30px !important;
   }
 }
@@ -42,57 +45,78 @@
     /* align-content: end !important; */
   }
 }
-
-@media(max-width:1024px){
+.readMore {
+  gap: 26px !important;
+}
+@media(max-width:1024px) {
   .mobile-img-container {
     display: flex;
     justify-content: center;
   }
-  .abtBtn{
+
+  .abtBtn {
     justify-content: start !important;
+
   }
+
+  .readMore {
+    gap: 16px !important;
+  }
+  .abt1{
+    padding-top: 35px !important;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
-  .home-doct{
+  .home-doct {
     /* height: 368px; */
   }
-  .abtBtn{
+
+  .abtBtn {
     justify-content: end !important;
   }
 }
+
 @media screen and (min-width: 1351px) {
-  .home-doct{
+  .home-doct {
     height: auto;
   }
-  .abtBtn{
+
+  .abtBtn {
     justify-content: end !important;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .footer-col{
+  .footer-col {
     flex-basis: 15%;
   }
-  .footer-desc{
+
+  .footer-desc {
     flex-basis: 34%;
   }
-  
+
 }
-@media screen and (min-width: 769px) and (max-width:1023px){
-  .footer-col{
+
+@media screen and (min-width: 769px) and (max-width:1023px) {
+  .footer-col {
     flex-basis: 36%;
   }
-  .footer-desc{
+
+  .footer-desc {
     flex-basis: 41%;
   }
 }
 
-.footer-icons{
-    padding: 11px;
-    color: #555;
+.footer-icons {
+  padding: 11px;
+  color: #555;
 }
-.abtbtn{
+
+
+
+.abtbtn {
   position: relative;
   display: block;
   color: white;
@@ -106,62 +130,67 @@
   overflow: hidden;
   transition: 1s all ease;
 }
-.abtbtn::before{
+
+.abtbtn::before {
   background: #ff7675;
   content: "";
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   z-index: -1;
   transition: all 0.6s ease;
 }
 
-.abtbtn1::before{
+.abtbtn1::before {
   width: 0%;
   height: 100%;
 }
 
-.abtbtn1:hover::before{
+.abtbtn1:hover::before {
   width: 100%;
 }
 
-.widget ul li:first-child{
+.widget ul li:first-child {
   padding-top: 4px;
 }
 
-.footerServTop{
+.footerServTop {
   padding-top: 144px;
 }
 
-.home_align{
-  padding: 80px 0;
+.home_align {
+  padding: 50px 0;
 }
 
-@media (max-width: 549px){
-  .footerServTop{
+@media (max-width: 549px) {
+  .footerServTop {
     padding-top: 110px;
   }
-  .home_align{
+
+  .home_align {
     padding: 30px 0;
   }
-  
+
 }
 
-.entry-title{
+.entry-title {
   height: 72px;
 }
 
 .doctor-inner {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly; /* Ensures content is evenly distributed */
-  height: 100%; /* Makes sure all cards take full height */
+  justify-content: space-evenly;
+  /* Ensures content is evenly distributed */
+  height: 100%;
+  /* Makes sure all cards take full height */
 }
 
 /* Force title and designation to have fixed height */
 .entrye-title {
-  min-height: 50px; /* Adjust this based on the longest name */
+  min-height: 50px;
+  /* Adjust this based on the longest name */
   display: flex;
   align-items: center;
   justify-content: start;
@@ -170,9 +199,34 @@
 }
 
 .doctor-post-excerpt {
-  min-height: 40px; /* Adjust for longest designation */
+  min-height: 40px;
+  /* Adjust for longest designation */
   display: flex;
   align-items: center;
   justify-content: start;
   text-align: left;
+}
+
+.home-desc-font {
+  margin-bottom: 0;
+}
+
+.aboutSec1 {
+  padding-top: 50px !important;
+  padding-bottom: 100px !important;
+}
+
+@media (max-width: 1024px) {
+  .aboutSec1 {
+   padding-bottom: 50px !important;
+  }
+}
+
+.home-services{
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+.home-doctors{
+  padding-bottom: 0px;
+  padding-top: 50px;
 }

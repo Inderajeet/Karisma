@@ -1,0 +1,23 @@
+
+  .relatedServ{
+    height: 32vh;
+  }
+  
+  @media (min-width:992px){
+    .relatedServ{
+      height: 50vh;
+    }
+  }
+
+  @media (min-width:1200px){
+    .relatedServ{
+      height: 70vh;
+    }
+  }
+
+   .relatedServ img{
+    width: 100%;
+    height: 100%;
+  }
+  
+ 

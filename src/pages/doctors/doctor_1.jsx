@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Banner from '../../components/Banner';
 import { fetchAllJson } from "../../utils/fetchAllJson"; // Import the utility function
 import { useTranslation } from "react-i18next";
 import { useParams, Link } from "react-router-dom";
-import BannerDoctor from "../../components/Bannerdoctor";
 
 export const applyFontFallback = (text) => {
     if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
@@ -78,7 +76,7 @@ function DoctorPage() {
             elementor-default elementor-kit-5 elementor-page elementor-page-73184 
             e--ua-blink e--ua-chrome e--ua-webkit page-load-end" style={{ paddingBottom: "1rem" }}>
                 <div className="row">
-                    <div className="col-md-12 order-md-2">
+                    <div className="col-md-12 order-md-2" style={{paddingTop:'2rem'}}>
                         <div className="wrap cea-content">
                             <div className="team-content-area">
                                 <div className="row team">

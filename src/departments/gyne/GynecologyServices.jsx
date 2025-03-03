@@ -1,17 +1,13 @@
 import React, { useEffect, useState } from "react";
 import ContentSection from "../service templates/ContentSection";
-import CardSection from "../service templates/CardSection";
 import { useTranslation } from "react-i18next";
 import { useParams, Link } from "react-router-dom";
 import ImageContent from "../service templates/ImageContent"
 import SlidingDoct from "../service templates/SlidingDoct";
 import VideoSection from "../../components/VideoSection";
 import OffersTemplate from "../service templates/OffersTemplate";
-import Doctors from "../../pages/doctor";
 import ListServices from "../service templates/ListServices";
-import GyneBanner from "../../components/GyneBanner";
 import ListServicesNoImg from "../service templates/ListServicesNoImg";
-import DynamicBanner from "../../components/DynamicBanner";
 import ColorHeading from "../service templates/ColorHeading";
 import ContSection from "../service templates/ContSection";
 import SubHeadingColor from "../service templates/SubHeading";

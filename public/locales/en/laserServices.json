@@ -8,7 +8,8 @@
                     "type": "banner",
                     "deptName": "Laser Hair Removal",
                     "serviceName": "Candela GentleMax Pro",
-                    "bannerImage": "../assets/Images/depts/laser/Candela/banner.png"
+                    "bannerImage": "../assets/Images/depts/laser/Candela/banner.png",
+                    "bannerPosition": "right"
                 },
                 {
                     "type": "image-content",
@@ -63,7 +64,8 @@
                     "type": "banner",
                     "deptName": "Laser Hair Removal",
                     "serviceName": "RevLite SI",
-                    "bannerImage": "../assets/Images/depts/laser/banner.png"
+                    "bannerImage": "../assets/Images/depts/laser/banner.png",
+                    "bannerPosition": "right"
                 },
                 {
                     "type": "image-content",
@@ -74,7 +76,7 @@
                         {
                             "type": "heading",
                             "text": "RevLite SI at Karisma Specialist Medical Center"
-                        }, 
+                        },
                         {
                             "type": "paragraph",
                             "text": "Discover advanced laser technology with RevLite SI, designed for precise, effective, and safe hair bleaching. This innovative system uses high-powered nanosecond pulses to target melanin in hair follicles, disrupting the growth cycle for gradual and lasting hair reduction."
@@ -124,7 +126,8 @@
                     "type": "banner",
                     "deptName": "Laser Hair Removal",
                     "serviceName": "Elite IQ",
-                    "bannerImage": "../assets/Images/banner/dept_banner/laser.png"
+                    "bannerImage": "../assets/Images/depts/laser/Elite/elite-banner.jpg",
+                    "bannerPosition": "center"
                 },
                 {
                     "type": "image-content",
