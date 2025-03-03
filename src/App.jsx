@@ -9,6 +9,7 @@ import {
   useLocation,
 } from 'react-router-dom';
 import i18n from './i18n';
+import lodash from "lodash";
 
 import Modal from 'react-modal';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -50,6 +51,36 @@ Modal.setAppElement('#root'); // For accessibility
 function LanguageWrapper() {
   const { lng } = useParams(); // Extract language from the URL
   const navigate = useNavigate();
+
+ const { pathname } = useLocation();
+ console.log('pathname: ' + pathname);
+ 
+//  useEffect(()=>{
+//   const url = pathname.split("/");
+//  if (url[1]) {
+//    const path = lodash.startCase(lodash.camelCase(url[1]));
+//   //  const path = url[1]
+
+//    document.title = `${path} | Karisma`;
+//  } else {
+//    document.title = "Karisma";
+//  }
+//  },[pathname])
+
+useEffect(() => {
+  const urlSegments = pathname.split("/"); 
+
+  if (urlSegments.length > 2 && urlSegments[2]) {
+    // Extract and format the correct page name
+    const pageName = lodash.startCase(lodash.camelCase(urlSegments[2]));
+    // const pageName = urlSegments[2];
+
+    document.title = `${pageName} | Karisma`;
+  } else {
+    document.title = "Karisma";
+  }
+}, [pathname]);
+
 
   useEffect(() => {
     if (!['en', 'ar'].includes(lng)) {

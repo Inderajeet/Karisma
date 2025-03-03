@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Header.css";
 import "./Banner.css";
 import { Link, useParams } from "react-router-dom";
@@ -15,7 +15,6 @@ export const applyFontFallback = (text) => {
 
 const DynamicBanner = ({ deptName, serviceName, bannerImage, bannerPosition }) => {
     const { lng } = useParams();
-
     console.log('Inside banner:', bannerImage);
     const bannerImageUrl = bannerImage.startsWith("http")
         ? bannerImage
