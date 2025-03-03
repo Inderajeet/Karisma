@@ -27,25 +27,30 @@
                         },
                         {
                             "type": "heading",
-                            "text": "Advanced Laser Technology for Every Need"
+                            "text": ""
                         },
                         {
                             "type": "list",
-                            "items": [
-                                "Dual Wavelengths: Features Alexandrite and Nd YAG lasers for tailored, effective treatments.",
-                                "Skin-Friendly: Safe for lighter and tanned skin tones with minimal risk of side effects.",
-                                "Comfort Redefined: Integrated cooling technology ensures a gentle, comfortable experience."
-                            ]
+                            "items": []
                         }
                     ]
                 },
                 {
                     "type": "content",
+                    "title": "Advanced Laser Technology for Every Need",
+                    "features": [
+                        "Dual Wavelengths: Features Alexandrite and Nd YAG lasers for tailored, effective treatments.",
+                        "Skin-Friendly: Safe for lighter and tanned skin tones with minimal risk of side effects.",
+                        "Comfort Redefined: Integrated cooling technology ensures a gentle, comfortable experience."
+                    ]
+                },
+                {
+                    "type": "color-content",
                     "title": "Why Choose Karisma Specialist Medical Center?",
                     "description": "At Karisma Specialist Medical Center, your comfort and satisfaction are our priority. Our certified specialists deliver precise, personalized care using the latest laser technology for optimal results."
                 },
                 {
-                    "type": "sub-heading-content-last",
+                    "type": "content",
                     "title": "Don't lose time or effort with Candela (Gentle Max Pro)​",
                     "description": "Experience the ultra attention to detail with non-invasive treatment for hair removal solution with (Gentle Max Pro). This non-invasive treatment, enhanced with controlled cooling technology, ensures no damage to surrounding skin, ensuring an overwhelmingly comfortable sensation. As a non-surgical procedure, it requires no downtime you can resume your daily activities immediately, with a simple recommendation to avoid sun exposure post-treatment.​"
                 },
@@ -80,24 +85,21 @@
                         {
                             "type": "paragraph",
                             "text": "Discover advanced laser technology with RevLite SI, designed for precise, effective, and safe hair bleaching. This innovative system uses high-powered nanosecond pulses to target melanin in hair follicles, disrupting the growth cycle for gradual and lasting hair reduction."
-                        },
-                        {
-                            "type": "heading",
-                            "text": "Why Choose RevLite SI?"
-                        },
-                        {
-                            "type": "list",
-                            "items": [
-                                "Effective for All Skin Tones: Safely treats a variety of complexions, including darker skin tones.",
-                                "Versatile Results: Targets fine and vellus hair, which can be challenging for traditional lasers.",
-                                "Gentle Reduction: Gradual hair reduction minimizes discomfort while delivering impressive results.",
-                                "Long-Lasting Smoothness: Multiple sessions promote lasting hair-free skin."
-                            ]
                         }
                     ]
                 },
                 {
                     "type": "content",
+                    "title": "Why Choose RevLite SI?",
+                    "features": [
+                        "Effective for All Skin Tones: Safely treats a variety of complexions, including darker skin tones.",
+                        "Versatile Results: Targets fine and vellus hair, which can be challenging for traditional lasers.",
+                        "Gentle Reduction: Gradual hair reduction minimizes discomfort while delivering impressive results.",
+                        "Long-Lasting Smoothness: Multiple sessions promote lasting hair-free skin."
+                    ]
+                },
+                {
+                    "type": "sub-heading-content-last",
                     "title": "Painless and No Downtime with RevLite SI​",
                     "description": "Experience a painless non-invasive treatment for hair bleaching solution with RevLite SI. This non-invasive treatment, enhanced with controlled cooling technology, ensures no damage to surrounding skin, offering a comfortable sensation often compared to a warm stone massage. As a non-surgical procedure, it requires no downtime patients can resume daily activities immediately, with a simple recommendation to avoid sun exposure post-treatment."
                 },
@@ -138,23 +140,20 @@
                         {
                             "type": "paragraph",
                             "text": "The Elite iQ device is a highly versatile, dual-wavelength aesthetic platform enabling practitioners to perform many of the most requested aesthetic treatments."
-                        },
-                        {
-                            "type": "heading",
-                            "text": "KNOWING A PATIENT’S MELANIN INDEX MATTERS"
-                        },
-                        {
-                            "type": "list",
-                            "items": [
-                                "World’s first FDA-cleared Melanin Reader™",
-                                "Measures melanin content to better guide treatment test spot settings",
-                                "Finds patient’s specific melanin reading on index of 0-99 which corresponds to skin type Provides treatment confidence."
-                            ]
                         }
                     ]
                 },
                 {
                     "type": "content",
+                    "title": "KNOWING A PATIENT’S MELANIN INDEX MATTERS",
+                    "features": [
+                        "World’s first FDA-cleared Melanin Reader™",
+                        "Measures melanin content to better guide treatment test spot settings",
+                        "Finds patient’s specific melanin reading on index of 0-99 which corresponds to skin type Provides treatment confidence."
+                    ]
+                },
+                {
+                    "type": "color-content",
                     "title": "IQ",
                     "features": [
                         "Innovative Skintel technology and intuitive user interface Power",
@@ -164,7 +163,7 @@
                     ]
                 },
                 {
-                    "type": "color-content",
+                    "type": "content",
                     "title": "Benefits",
                     "features": [
                         "Fast treatments to maximize potential ROI",
@@ -174,7 +173,7 @@
                     ]
                 },
                 {
-                    "type": "sub-heading-color-content-last",
+                    "type": "color-content",
                     "title": "What it cures?",
                     "features": [
                         "Hair removal",
