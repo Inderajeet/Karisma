@@ -115,7 +115,7 @@
           "subMenu": [
             {
               "label": "Dermal Fillers",
-              "link": "/derma/derma-filler"
+              "link": "/derma/dermal-filler"
             },
             {
               "label": "Anti-Aging Treatment",
@@ -235,15 +235,15 @@
           "subMenu": [
             {
               "label": "Candela GentleMax Pro",
-              "link": "/laser-hair-removal/candela"
+              "link": "/laser-hair-removal/candela-gentle-max-pro"
             },
             {
               "label": "Elite IQ",
-              "link": "/laser-hair-removal/elite"
+              "link": "/laser-hair-removal/elite-iq"
             },
             {
               "label": "RevLite SI",
-              "link": "/laser-hair-removal/revlite"
+              "link": "/laser-hair-removal/revlite-si"
             }
           ]
         }

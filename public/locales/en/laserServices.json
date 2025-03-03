@@ -2,7 +2,7 @@
     "laserServices": [
         {
             "id": "1",
-            "name": "candela",
+            "name": "candela-gentle-max-pro",
             "sections": [
                 {
                     "type": "banner",
@@ -58,7 +58,7 @@
         },
         {
             "id": "2",
-            "name": "revlite",
+            "name": "revlite-si",
             "sections": [
                 {
                     "type": "banner",
@@ -120,7 +120,7 @@
         },
         {
             "id": "3",
-            "name": "elite",
+            "name": "elite-iq",
             "sections": [
                 {
                     "type": "banner",

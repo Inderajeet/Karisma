@@ -466,7 +466,7 @@
                             "id": 1,
                             "name": "Dermal Fillers",
                             "image": "../assets/Images/depts/derma/filler/body-image.png",
-                            "link": "derma/derma-filler",
+                            "link": "derma/dermal-filler",
                             "readMore": "Read More",
                             "designation": ""
                         },
@@ -1047,7 +1047,7 @@
                             "id": 1,
                             "name": "Candela GentleMax Pro",
                             "image": "../assets/Images/depts/laser/Candela/body-image.png",
-                            "link": "laser-hair-removal/candela",
+                            "link": "laser-hair-removal/candela-gentle-max-pro",
                             "readMore": "Read More",
                             "designation": ""
                         },
@@ -1055,7 +1055,7 @@
                             "id": 2,
                             "name": "Elite IQ",
                             "image": "../assets/Images/banner/about_dept/laser.png",
-                            "link": "laser-hair-removal/elite",
+                            "link": "laser-hair-removal/elite-iq",
                             "readMore": "Read More",
                             "designation": ""
                         },
@@ -1063,7 +1063,7 @@
                             "id": 3,
                             "name": "RevLite SI",
                             "image": "../assets/Images/depts/laser/RevLite/body-image.png",
-                            "link": "laser-hair-removal/revlite",
+                            "link": "laser-hair-removal/revlite-si",
                             "readMore": "Read More",
                             "designation": ""
                         }
