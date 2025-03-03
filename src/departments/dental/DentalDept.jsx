@@ -231,7 +231,9 @@ const DentalDept = () => {
                                 content={section.content} // Pass the content array
                             />
                         );
-                    } else if (section.type === "slider-doctors") {
+                    } else if (section.type === "slider-doctors") {  
+
+                        
                         console.log('inside doctors')
                         return (
 
