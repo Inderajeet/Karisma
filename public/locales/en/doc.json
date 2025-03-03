@@ -3,6 +3,7 @@
 {
             "id": 2,
             "name": "Dr. Yuri Macrino",
+            "department": "Plastic Surgery",
             "image": "/assets/Images/doctors/Dr Yuri.png",
             "link": "doctor/dr-yuri-macrino",
             "designation": "Aesthetic plastic surgeon & consultant",
@@ -54,6 +55,7 @@
         {
             "id": 3,
             "name": "Dr. Mehdi Shidvash",
+            "department": "Nutrition and Slimming",
             "image": "/assets/Images/doctors/mahdi.png",
             "link": "doctor/dr-mehdi-shidvash",
             "designation": "Aesthetic Physician",
@@ -105,6 +107,7 @@
         {
             "id": 4,
             "name": "Dr. Sandro Ceci",
+            "department": "Derma",
             "image": "/assets/Images/doctors/Dr Sandro.png",
             "link": "doctor/dr-sandro-ceci",
             "designation": "Dermatologist Specialist",
@@ -156,6 +159,7 @@
         {
             "id": 5,
             "name": "Dr. Manar Magdy",
+            "department": "Derma",
             "image": "/assets/Images/doctors/Dr Manar.png",
             "link": "doctor/dr-manar-magdy",
             "designation": "Dermatologist Specialist",
@@ -207,6 +211,7 @@
         {
             "id": 6,
             "name": "Dr. Ramilia Anarkulova",
+            "department": "Derma",
             "image": "/assets/Images/doctors/Dr Ramila.png",
             "link": "doctor/dr-ramilia-anarkulova",
             "designation": "Dermatologist-Cosmetologist",
@@ -258,6 +263,7 @@
         {
             "id": 7,
             "name": "DT. Elissa Al- Ahmadieh",
+            "department": "Nutrition and Slimming",
             "image": "/assets/Images/doctors/Dr Elissa.png",
             "link": "doctor/dt-elissa-a-ahmadieh",
             "designation": "Dietician & Nutritionist Specialist",
@@ -310,6 +316,7 @@
         {
             "id": 8,
             "name": "Dr. Adel Al- Aswad",
+            "department": "Dental",
             "image": "/assets/Images/doctors/Adel.png",
             "link": "doctor/dr-adel-al-aswad",
             "designation": "Specialist Oral Surgeon",
@@ -364,6 +371,7 @@
         {
             "id": 9,
             "name": "Dr. Amir Magdy",
+            "department": "Dental",
             "image": "/assets/Images/doctors/Amir.png",
             "link": "doctor/dr-amir-magdy",
             "designation": "GP Dentist",
@@ -417,6 +425,7 @@
         {
             "id": 10,
             "name": "Dr. Rania Ghanem",
+            "department": "Dental",
             "image": "/assets/Images/doctors/Rania.png",
             "link": "doctor/dr-rania-ghanem",
             "designation": "Prosthodontics Specialist",
@@ -469,6 +478,7 @@
         {
             "id": 11,
             "name": "Dr. Huda Ebrahim Shaheen",
+            "department": "Gynecology",
             "image": "/assets/Images/doctors/huda.png",
             "link": "doctor/dr-huda-ebrahim-shaheen",
             "designation": "Obstetrics and Gynecology Specialist",
@@ -521,6 +531,7 @@
             "id": 12,
             "name": "Naziha Al Tabaa",
             "image": "/assets/Images/doctors/Naziha.png",
+            "department": "SkinCare",
             "link": "doctor/naziha-al-tabaa",
             "designation": "Skin Expert & Beauty Therapist",
             "email":"",

@@ -94,9 +94,9 @@ function DoctorPage() {
                                         </div>
                                     </div>
                                     <div className="col-sm-7 team-info">
-                                        <div className="team-title">
+                                        <div className="team-title" style={{marginBottom: '0'}}>
                                             <div style={{ fontSize: "30px" }}>{doctor.name}</div>
-                                            <div className="team-designation-wrap">
+                                            <div className="team-designation-wrap" style={{marginBottom: '0'}}>
                                                 <span className="team-designation">{doctor.designation}</span>
                                             </div>
                                         </div>

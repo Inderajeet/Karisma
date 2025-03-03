@@ -598,30 +598,21 @@
             {
               "type": "paragraph",
               "text": "Rejuvenate your intimate wellness with the Belladona Vaginal Tightening Laser at Karisma Specialist Medical Center. A non-surgical, advanced solution designed to restore tone, comfort, and confidence."
-            },
-            {
-              "type": "heading",
-              "text": "What is the Belladona Vaginal Tightening Laser?"
-            },
-            {
-              "type": "paragraph",
-              "text": "The Belladona Laser is a minimally invasive treatment that uses gentle thermal energy to stimulate collagen production, enhancing vaginal tone and elasticity. This rejuvenating therapy offers a safe and effective way to address concerns related to laxity and improve overall intimate health."
-            },
-            {
-              "type": "heading",
-              "text": "How It Works"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Collagen Stimulation: The laser delivers targeted heat to the vaginal tissue, triggering the body’s natural collagen production.",
-                "Thicker, Tighter Tissue: As collagen levels increase, the vaginal walls become firmer and more elastic, improving both tone and function."
-              ]
             }
           ]
         },
         {
           "type": "content",
+          "title": "What is the Belladona Vaginal Tightening Laser?",
+          "description": "The Belladona Laser is a minimally invasive treatment that uses gentle thermal energy to stimulate collagen production, enhancing vaginal tone and elasticity. This rejuvenating therapy offers a safe and effective way to address concerns related to laxity and improve overall intimate health.",
+          "heading2": "How It Works?",
+          "features": [
+            "Collagen Stimulation: The laser delivers targeted heat to the vaginal tissue, triggering the body’s natural collagen production.",
+            "Thicker, Tighter Tissue: As collagen levels increase, the vaginal walls become firmer and more elastic, improving both tone and function."
+      ]
+        },
+        {
+          "type": "color-content",
           "title": "Benefits of Belladona Vaginal Tightening Laser:",
           "features": [
             "Enhanced Vaginal Tightness: Experience noticeable improvements in tone, leading to increased comfort and satisfaction.",
@@ -632,7 +623,7 @@
           ]
         },
         {
-          "type": "sub-heading-content-last",
+          "type": "content",
           "title": "Your Personalized Intimate Care Journey",
           "description": "At Karisma Specialist Medical Center, we prioritize your comfort and privacy, offering a supportive space to discuss your needs:",
           "features": [

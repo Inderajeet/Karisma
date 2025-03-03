@@ -5,7 +5,10 @@ export default function AppointmentButton() {
     const [showBooking, setShowBooking] = useState(false);
 
     const handleOpen = () => setShowBooking(true);
-    const handleClose = () => setShowBooking(false);
+    const handleClose = () => {
+        setShowBooking(false);
+        document.activeElement.blur(); // Remove focus from the button
+    };
 
     return (
         <>

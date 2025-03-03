@@ -56,6 +56,7 @@ textarea.cust-form-control {
   width: 100%;
   border-bottom: #405D53 solid 1px;
   color: #405D53;
+  font-size: 15px;
 }
 .cea-button-wrapper .cea-button-link:after{
   background-color: #405D53 !important;
@@ -64,6 +65,10 @@ textarea.cust-form-control {
     color: white;
 
 } */
+.cust-elementor-button:focus {
+  outline: none; 
+  color: #405D53 !important;  /* Reset color */
+}
 
 /* .cust-elementor-button span:hover {
   color: white;

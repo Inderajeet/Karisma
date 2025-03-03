@@ -794,12 +794,12 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Schedule a Consultation Today",
                     "description": "At Karisma Specialist Medical Center, we’re dedicated to helping you achieve a healthier, more confident version of yourself. Book a consultation with our Slimming Department to start your personalized journey toward lasting transformation."
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content-last",
                     "title": "Our Doctors",
                     "description": ""
                 },
@@ -978,7 +978,7 @@
                     "description": "Laser hair removal is a cutting-edge, non-invasive procedure that targets hair follicles using focused light energy. By concentrating on the melanin in hair, the laser disables the follicle, reducing future growth while leaving the surrounding skin untouched."
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content-last",
                     "title": "Benefits of Laser Hair Removal:",
                     "features": [
                         "Long-Lasting Results: Achieve significantly reduced hair growth for months or years.",

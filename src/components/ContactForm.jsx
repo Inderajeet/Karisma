@@ -5,6 +5,7 @@ export default function ContactForm() {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
+        countryCode: '', // Default country code
         phone: '',
         message: '',
         contactType: 'Enquiry',
@@ -49,7 +50,7 @@ export default function ContactForm() {
             case 'phone':
                 if (!value.trim()) {
                     newErrors.phone = 'Phone number is required';
-                } else if (!/^\d{10}$/.test(value)) {
+                } else if (!/^\d+$/.test(value)) {
                     newErrors.phone = 'Phone number not valid';
                 } else {
                     newErrors.phone = '';
@@ -85,7 +86,7 @@ export default function ContactForm() {
         Object.keys(formData).forEach((field) => {
             const value = formData[field];
             validateField(field, value); // Validate field
-            if (!value.trim() && field !== "contactType") { // Ensure empty fields show error
+            if (!value.trim() && field !== "contactType" && field !== "countryCode") { // Ensure empty fields show error
                 newErrors[field] = `${field.charAt(0).toUpperCase() + field.slice(1)} is required`;
                 hasErrors = true;
             }
@@ -96,7 +97,7 @@ export default function ContactForm() {
         if (hasErrors) {
             return; // Stop submission if there are errors
         }
-    
+
         setIsSubmitting(true);
         try {
             const response = await fetch('https://dental.dmaksolutions.com/api/contact', {
@@ -113,6 +114,7 @@ export default function ContactForm() {
                 setFormData({
                     name: '',
                     email: '',
+                    countryCode: '+1',
                     phone: '',
                     message: '',
                     contactType: 'Enquiry',
@@ -224,12 +226,11 @@ export default function ContactForm() {
                                                         onBlur={handleBlur}
                                                         type="text"
                                                         name="name"
-                                                        // required
                                                     />
                                                     {errors.name && <span className="error-text">{errors.name}</span>}
                                                 </p>
                                             </div>
-                                            <div className="col-md-6 pr-2">
+                                            <div className="col-md-6 pr-2" style={{width:"45%"}}>
                                                 <p>
                                                     <input
                                                         size={40}
@@ -247,8 +248,23 @@ export default function ContactForm() {
                                                     {errors.email && <span className="error-text">{errors.email}</span>}
                                                 </p>
                                             </div>
-                                            <div className="col-md-6 pl-3">
-                                                <p>
+                                            <div className="col-md-6 pl-3 d-flex gap-3" style={{display: 'flex', width:"55%"}}>
+                                                <p style={{width: '21%'}}>
+                                                    <input
+                                                        size={40}
+                                                        maxLength={400}
+                                                        className="cust-form-control cust-tel"
+                                                        aria-required="true"
+                                                        aria-invalid="false"
+                                                        placeholder="+971"
+                                                        value={formData.countryCode}
+                                                        onChange={handleChange}
+                                                        onBlur={handleBlur}
+                                                        type="text"
+                                                        name="countryCode"
+                                                    />
+                                                </p>
+                                                <p style={{width: '79%'}}>
                                                     <input
                                                         size={40}
                                                         maxLength={400}

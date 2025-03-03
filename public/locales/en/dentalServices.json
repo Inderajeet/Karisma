@@ -374,19 +374,16 @@
                         {
                             "type": "paragraph",
                             "text": "Are you struggling with missing teeth or damaged teeth? Discover the transformative power of dental implants at Karisma Specialist Medical Center. Our state-of-the-art implant solutions provide a permanent, life-enhancing alternative to traditional dentures or dental bridges, revolutionizing your oral health and improving your overall quality of life."
-                        },
-                        {
-                            "type": "heading",
-                            "text": "What Are Dental Implants?"
-                        },
-                        {
-                            "type": "paragraph",
-                            "text": "Dental implants are innovative, biocompatible titanium posts that our expert dentists surgically places into your jawbone. Acting as artificial tooth roots, these implants create a solid foundation for secure, natural-looking tooth replacements. Once the implants are set, we attach custom-made crowns, bridges, or dentures for a complete restoration of your smile's appearance and functionality."
                         }
                     ]
                 },
                 {
                     "type": "content",
+                    "title": "What Are Dental Implants?",
+                    "description": "Dental implants are innovative, biocompatible titanium posts that our expert dentists surgically places into your jawbone. Acting as artificial tooth roots, these implants create a solid foundation for secure, natural-looking tooth replacements. Once the implants are set, we attach custom-made crowns, bridges, or dentures for a complete restoration of your smile's appearance and functionality."
+                },
+                {
+                    "type": "sub-heading-content-last",
                     "title": "Key Benefits of Dental Implants",
                     "features": [
                         "Enhanced Functionality: Regain the ability to eat, speak, and smile confidently, just like with natural teeth.",
@@ -624,16 +621,21 @@
                         },
                         {
                             "type": "heading",
-                            "text": "What Is Teeth Whitening?"
+                            "text": ""
                         },
                         {
                             "type": "paragraph",
-                            "text": "Teeth whitening is a cutting-edge cosmetic dental procedure designed to lighten the color of your teeth by removing deep stains and discoloration. Over the years, external factors and lifestyle habits can tarnish your smile, but our advanced whitening treatments in the UAE break down staining molecules to restore the natural brilliance of your teeth."
+                            "text": ""
                         }
                     ]
                 },
                 {
                     "type": "content",
+                    "title": "What Is Teeth Whitening?",
+                    "description": "Teeth whitening is a cutting-edge cosmetic dental procedure designed to lighten the color of your teeth by removing deep stains and discoloration. Over the years, external factors and lifestyle habits can tarnish your smile, but our advanced whitening treatments in the UAE break down staining molecules to restore the natural brilliance of your teeth."
+                },
+                 {
+                    "type": "sub-heading-content-last",
                     "title": "Why Choose Professional Teeth Whitening in the UAE?",
                     "description": "Opting for professional teeth whitening at Karisma Specialist Medical Center comes with a wealth of benefits, including:",
                     "features": [
@@ -1015,19 +1017,16 @@
                         {
                             "type": "paragraph",
                             "text": "At Karisma Specialist Medical Center, we understand that a healthy, confident smile begins with impeccable gum health. Our team of periodontal specialists offers a comprehensive range of advanced gum treatments tailored to address a variety of concerns. From eliminating bad breath to managing advanced periodontal diseases, we ensure your oral health foundation is strong and radiant."
-                        },
-                        {
-                            "type": "heading",
-                            "text": "Healthy Gums: The Cornerstone of Oral Vitality"
-                        },
-                        {
-                            "type": "paragraph",
-                            "text": "Your gums do more than frame your smile they play a vital role in anchoring your teeth, protecting the underlying bone, and serving as a first-line defense against harmful bacteria. Poor oral hygiene, lifestyle factors, or systemic health conditions can compromise gum health, leading to conditions such as gingivitis or periodontitis if left untreated."
                         }
                     ]
                 },
                 {
                     "type": "content",
+                    "title": "Healthy Gums: The Cornerstone of Oral Vitality",
+                    "description": "Your gums do more than frame your smile they play a vital role in anchoring your teeth, protecting the underlying bone, and serving as a first-line defense against harmful bacteria. Poor oral hygiene, lifestyle factors, or systemic health conditions can compromise gum health, leading to conditions such as gingivitis or periodontitis if left untreated."
+                },
+                {
+                    "type": "sub-heading-content-last",
                     "title": "Our Advanced Gum Treatment Services",
                     "description": "Discover our range of cutting-edge periodontal treatments, meticulously designed to cater to your unique needs and deliver exceptional results."
                 },
@@ -1152,16 +1151,21 @@
                         },
                         {
                             "type": "heading",
-                            "text": "Your Smile, Rebuilt with Care"
+                            "text": ""
                         },
                         {
                             "type": "paragraph",
-                            "text": "Investing in your smile is an investment in yourself. Let us help you restore your teeth, revitalize your confidence, and give you a reason to smile brighter every day."
+                            "text": ""
                         }
                     ]
                 },
                 {
                     "type": "content",
+                    "title": "Your Smile, Rebuilt with Care",
+                    "description": "Investing in your smile is an investment in yourself. Let us help you restore your teeth, revitalize your confidence, and give you a reason to smile brighter every day."
+                },
+                {
+                    "type": "color-content",
                     "title": "Restorative Dental Treatments: Tailored Solutions for Every Smile",
                     "description": "Explore our comprehensive range of restorative dental services, carefully designed to meet your dental health goals while enhancing the aesthetics of your smile.",
                     "features": [
@@ -1171,7 +1175,7 @@
                     ]
                 },
                 {
-                    "type": "color-content",
+                    "type": "content",
                     "title": "Aesthetic Fillings (Composite Resin)",
                     "description": "Our tooth-colored composite fillings are the perfect solution for repairing cavities, cracks, chips, or worn teeth. These restorations blend seamlessly with your natural teeth, offering durability and an invisible finish for a flawless smile.",
                     "heading2": "Why Choose Aesthetic Fillings At Karisma Specialist Medical Center?",
@@ -1183,7 +1187,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Pulp Capping: Protecting the Core of Your Tooth",
                     "description": "When a tooth has a minor infection or inflammation, pulp capping can save it without resorting to invasive procedures. This gentle treatment removes the affected pulp tissue, covers the healthy portion with a special material, and allows the tooth to heal naturally.",
                     "heading2": "Why Pulp Capping Matters",
@@ -1195,7 +1199,7 @@
                     ]
                 },
                 {
-                    "type": "color-content",
+                    "type": "content",
                     "title": "Post and Core: Strengthening Severely Damaged Teeth",
                     "description": "When a tooth is severely damaged below the gum line or lacks sufficient structure to support a crown, the post and core procedure provides a reliable solution. A post is inserted into the root canal for stability, and the core is built up around it. A crown is then placed to restore the tooth's strength, function, and aesthetics.",
                     "heading2": "What are the Benefits of Post and Core?",
@@ -1207,7 +1211,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Why Choose Karisma Specialist Medical Center for Restorative Dentistry?",
                     "description": "At Karisma Specialist Medical Center, we prioritize your comfort and satisfaction, combining advanced technology, innovative techniques, and compassionate care to ensure an exceptional dental experience.",
                     "heading2": "What Sets Us Apart At Karisma Specialist Medical Center?",
@@ -1219,7 +1223,7 @@
                     ]
                 },
                 {
-                    "type": "sub-heading-content",
+                    "type": "cont-content",
                     "title": "Our Doctors",
                     "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
                 },
@@ -1293,7 +1297,7 @@
                     ]
                 },
                 {
-                    "type": "cont-content",
+                    "type": "content",
                     "title": "What Are Veneers?",
                     "description": "Veneers are ultra-thin, custom-crafted shells made from high-quality, tooth-colored materials. This transformative cosmetic treatment is designed to address a variety of dental concerns, including:",
                     "features": [
@@ -1304,7 +1308,7 @@
                     ]
                 },
                 {
-                    "type": "cont-content-last",
+                    "type": "color-content",
                     "title": "The Karisma Touch",
                     "description": "At Karisma Specialist Medical Center, artistry meets innovation. We combine cutting-edge technology with expert craftsmanship to deliver veneers that enhance your natural beauty and reflect your personal taste. With a legacy of excellence and mastery in veneer technology, we bring world-class smile transformations to UAE, helping you radiate confidence and timeless beauty."
                 },
