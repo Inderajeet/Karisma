@@ -69,16 +69,30 @@ function LanguageWrapper() {
 
 useEffect(() => {
   const urlSegments = pathname.split("/"); 
-
-  if (urlSegments.length > 2 && urlSegments[2]) {
-    // Extract and format the correct page name
-    const pageName = lodash.startCase(lodash.camelCase(urlSegments[2]));
-    // const pageName = urlSegments[2];
-
-    document.title = `${pageName} | Karisma`;
-  } else {
-    document.title = "Karisma";
+  console.log('urlSegments: ' + urlSegments)
+  if (urlSegments.length >2){
+    if (urlSegments.length > 4 && urlSegments[4]){
+      const pageName = lodash.startCase(lodash.camelCase(urlSegments[4]));
+      document.title = `Karisma | ${pageName}`;
+    }else if (urlSegments.length > 3 && urlSegments[3]){
+      const pageName = lodash.startCase(lodash.camelCase(urlSegments[3]));
+      document.title = `Karisma | ${pageName}`;
+    }else{
+      const pageName = lodash.startCase(lodash.camelCase(urlSegments[2]));
+      document.title = `Karisma | ${pageName}`;
+    }
+  }else{
+    document.title = "We Brought the World to You";
   }
+  // if (urlSegments.length > 2 && urlSegments[2]) {
+  //   // Extract and format the correct page name
+  //   const pageName = lodash.startCase(lodash.camelCase(urlSegments[2]));
+  //   // const pageName = urlSegments[2];
+
+  //   document.title = `Karisma | ${pageName}`;
+  // } else {
+  //   document.title = "Karisma Specialist Medical Centre";
+  // }
 }, [pathname]);
 
 
