@@ -79,7 +79,7 @@
                     ]
                 },
                 {
-                    "type": "cont-color-content",
+                    "type": "color-heading",
                     "title": "Related Services"
                 },
                 {
@@ -970,16 +970,13 @@
                         {
                             "type": "paragraph",
                             "text": "Discover the freedom of smooth, hair-free skin with our advanced laser hair removal treatments. Designed to deliver long-lasting results, our state-of-the-art technology offers a safe, effective, and comfortable solution tailored to your unique needs."
-                        },
-                        {
-                            "type": "heading",
-                            "text": "What is Laser Hair Removal?"
-                        },
-                        {
-                            "type": "paragraph",
-                            "text": "Laser hair removal is a cutting-edge, non-invasive procedure that targets hair follicles using focused light energy. By concentrating on the melanin in hair, the laser disables the follicle, reducing future growth while leaving the surrounding skin untouched."
                         }
                     ]
+                },
+                {
+                    "type": "content",
+                    "title": "What is Laser Hair Removal?",
+                    "description": "Laser hair removal is a cutting-edge, non-invasive procedure that targets hair follicles using focused light energy. By concentrating on the melanin in hair, the laser disables the follicle, reducing future growth while leaving the surrounding skin untouched."
                 },
                 {
                     "type": "content",
