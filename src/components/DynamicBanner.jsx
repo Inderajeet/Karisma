@@ -13,7 +13,7 @@ export const applyFontFallback = (text) => {
     );
 };
 
-const DynamicBanner = ({ deptName, serviceName, bannerImage }) => {
+const DynamicBanner = ({ deptName, serviceName, bannerImage, bannerPosition }) => {
     const { lng } = useParams();
 
     console.log('Inside banner:', bannerImage);
@@ -27,7 +27,7 @@ const DynamicBanner = ({ deptName, serviceName, bannerImage }) => {
             <div
                 className="background-img"
                 style={{
-                    backgroundImage: `url(${bannerImageUrl})`
+                    backgroundImage: `url(${bannerImageUrl})`, backgroundPosition: `${bannerPosition}`
                 }}            >
                 <div className="img-overlay"></div>
             </div>

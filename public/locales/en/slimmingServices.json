@@ -8,7 +8,8 @@
           "type": "banner",
           "deptName": "Slimming",
           "serviceName": "Machines",
-          "bannerImage": "../assets/Images/depts/slimming/Machines/Machines-banner.png"
+          "bannerImage": "../assets/Images/depts/slimming/Machines/Machines-banner.png",
+          "bannerPosition": "center"
         },
         {
           "type": "image-content",
@@ -140,7 +141,8 @@
           "type": "banner",
           "deptName": "Slimming",
           "serviceName": "Injections",
-          "bannerImage": "../assets/Images/depts/slimming/Injection/Injection-banner.png"
+          "bannerImage": "../assets/Images/depts/slimming/Injection/Injection-banner.png",
+          "bannerPosition": "center"
         },
         {
           "type": "image-content",
@@ -256,7 +258,8 @@
           "type": "banner",
           "deptName": "Slimming",
           "serviceName": "Other Services",
-          "bannerImage": "../assets/Images/depts/slimming/Other-services/Other-services-banner.png"
+          "bannerImage": "../assets/Images/depts/slimming/Other-services/Other-services-banner.png",
+          "bannerPosition": "right"
         },
         {
           "type": "image-content",

@@ -60,9 +60,12 @@ textarea.cust-form-control {
 .cea-button-wrapper .cea-button-link:after{
   background-color: #405D53 !important;
 }
-.cust-elementor-button span{
+/* .cust-elementor-button span{
   color: #405D53;
 }
+.cust-elementor-button span:hover {
+  color: white;
+} */
 
 .cea-button-wrapper .cea-button-link:hover{
   color: white;

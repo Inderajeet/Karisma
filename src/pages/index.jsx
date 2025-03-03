@@ -61,7 +61,7 @@ const Index = () => {
           data-id={23578682}
           data-element_type="container"
         >
-          <div className="e-con-inner">
+          <div className="e-con-inner aboutSec1" style={{padding:'0'}}>
             <div
               className="elementor-element elementor-element-2c3746fc e-flex e-con-boxed e-con e-child"
               data-id="2c3746fc"
@@ -276,7 +276,7 @@ const Index = () => {
               src="https://wordpress.zozothemes.com/happysmile/wp-content/uploads/sites/20/2024/06/home-about-bg.webp"
             />
           </div>
-          <div className="e-con-inner" style={{ padding: '15px 0' }}>
+          <div className="e-con-inner" style={{ padding: '0 0' }}>
             <div
               className="elementor-element elementor-element-42d93607 e-flex e-con-boxed e-con e-child animated fadeInUp"
               data-id="42d93607"
@@ -306,7 +306,7 @@ const Index = () => {
                       </div>
                       {/* .title-wrap */}
                       <div className="section-description">
-                        <p className="section-content home-desc-font" style={{
+                        <p className=" home-desc-font" style={{
                           color: about2["desc-color"], fontSize: about2["desc-size"]
                         }}>
                           {t('about2.about2Desc')}
@@ -433,7 +433,12 @@ const Index = () => {
                                 fontWeight: 'bold',
                                 display: 'block'
                               }}>{t('services.servicesHeading')}</h2>
-                              <div className="section-title home-desc-font" style={{ color: department['heading2-color'], fontSize: department['heading2-size'], fontWeight: 'normal' }}>
+                              <div className="home-desc-font" style={{ 
+                                color: department['heading2-color'], 
+                                fontSize: department['heading2-size'], 
+                                fontWeight: 'normal', 
+                                marginBottom: '20px'
+                                }}>
                                 {t('services.servicesDesc')}
                               </div>
                             </div>

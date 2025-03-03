@@ -4,12 +4,12 @@ import "./ServiceBanner.css";
 import { Link, useParams } from "react-router-dom";
 
 export const applyFontFallback = (text) => {
-    if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
+    if (!text || typeof text !== "string") return text; 
 
     return text.split("").map((char, index) =>
-        /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
+        /[A-Za-z0-9 ]/.test(char) 
             ? char
-            : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
+            : <span key={index} className="fallback-font">{char}</span> 
     );
 };
 
@@ -25,7 +25,7 @@ const CommonServiceBanner = ({ deptName, serviceName, bannerImage, bannerPositio
     return (
         <>
             <div
-                className="derma-background-img"
+                className="dept-background-img"
                 style={{
                     backgroundImage: `url(${bannerImageUrl})`, backgroundPosition: `${bannerPosition}`
                 }}            >

@@ -8,7 +8,8 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Facials",
-          "bannerImage": "../assets/Images/depts/skincare/Facial/Main-Banner.png"
+          "bannerImage": "../assets/Images/depts/skincare/Facial/Main-Banner.png",
+          "bannerPosition": "right"
         },
         {
           "type": "image-content",
@@ -23,29 +24,23 @@
             {
               "type": "paragraph",
               "text": "At Karisma, we believe that radiant, healthy skin begins with a personalized touch. Our range of luxury facial treatments is designed to cater to your unique needs, unveiling a luminous and rejuvenated complexion with every visit."
-            },
-            {
-              "type": "heading",
-              "text": "Beyond the Basics: The Art of Our Signature Facials"
-            },
-            {
-              "type": "paragraph",
-              "text": "Our facials offer more than a standard skincare routine. With expertise and precision, our specialists curate a bespoke experience that transforms your skin:"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Deep Cleansing: Remove impurities and balance excess oil, leaving your skin purified and ready for nourishment.",
-                "Exfoliation: Gently polish away dull skin cells to reveal a fresh, smooth texture that glows.",
-                "Targeted Extractions: Clear congested pores for a refined, blemish-free complexion.",
-                "Advanced Hydration: Infuse your skin with custom-selected serums and masks for deep hydration and a radiant finish.",
-                "Serum Boost: Address specific concerns like fine lines, pigmentation, or dullness with potent, targeted serums."
-              ]
             }
           ]
         },
         {
           "type": "content",
+          "title": "Beyond the Basics: The Art of Our Signature Facials",
+          "description": "Our facials offer more than a standard skincare routine. With expertise and precision, our specialists curate a bespoke experience that transforms your skin:",
+          "features": [
+            "Deep Cleansing: Remove impurities and balance excess oil, leaving your skin purified and ready for nourishment.",
+            "Exfoliation: Gently polish away dull skin cells to reveal a fresh, smooth texture that glows.",
+            "Targeted Extractions: Clear congested pores for a refined, blemish-free complexion.",
+            "Advanced Hydration: Infuse your skin with custom-selected serums and masks for deep hydration and a radiant finish.",
+            "Serum Boost: Address specific concerns like fine lines, pigmentation, or dullness with potent, targeted serums."
+          ]
+        },
+        {
+          "type": "color-content",
           "title": "Tailored Elegance for Every Skin Type",
           "description": "At Karisma, each facial is crafted to reflect your individual skin needs, ensuring a luxurious experience with optimal results:",
           "features": [
@@ -57,7 +52,7 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "content",
           "title": "Experience Innovation: The HydraFacial Difference",
           "description": "Step into the future of skincare with HydraFacial, a cutting-edge treatment that combines multiple steps in one seamless, pampering session:",
           "features": [
@@ -67,7 +62,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "sub-heading-content-last",
           "title": "Unlock Timeless Beauty",
           "description": "Let Karisma guide you on a journey to your most radiant, confident self. Schedule a consultation today and discover a facial or HydraFacial experience crafted exclusively for you."
         },
@@ -262,7 +257,8 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Peeling",
-          "bannerImage": "../assets/Images/depts/skincare/Peeling/Main-Banner.png"
+          "bannerImage": "../assets/Images/depts/skincare/Peeling/Main-Banner.png",
+          "bannerPosition": "right"
         },
         {
           "type": "image-content",
@@ -277,27 +273,21 @@
             {
               "type": "paragraph",
               "text": "At Karisma, we believe every complexion tells a unique story. Our advanced peeling treatments are designed to gently exfoliate, rejuvenate, and restore your skin's natural glow. Whether you're looking to smooth texture, combat pigmentation, or turn back the clock on aging, our personalized peels offer transformative results."
-            },
-            {
-              "type": "heading",
-              "text": "Customized Peeling Solutions for Every Skin Type"
-            },
-            {
-              "type": "paragraph",
-              "text": "We offer a range of peeling options tailored to your specific needs:"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Gentle Exfoliation: Ideal for those seeking a fresh, radiant glow. These peels remove dead skin cells without irritation, enhancing skin texture and boosting product absorption.",
-                "Gentle Exfoliation: Address specific concerns such as acne, hyperpigmentation, and sun damage. These specialized peels focus on clearing blemishes and evening out skin tone.",
-                "Deep Renewal: For a dramatic rejuvenation, our deeper peels promote collagen production and cellular renewal, reducing fine lines, wrinkles, and signs of aging."
-              ]
             }
           ]
         },
         {
           "type": "content",
+          "title": "Customized Peeling Solutions for Every Skin Type",
+          "description": "We offer a range of peeling options tailored to your specific needs:",
+          "features": [
+            "Gentle Exfoliation: Ideal for those seeking a fresh, radiant glow. These peels remove dead skin cells without irritation, enhancing skin texture and boosting product absorption.",
+            "Gentle Exfoliation: Address specific concerns such as acne, hyperpigmentation, and sun damage. These specialized peels focus on clearing blemishes and evening out skin tone.",
+            "Deep Renewal: For a dramatic rejuvenation, our deeper peels promote collagen production and cellular renewal, reducing fine lines, wrinkles, and signs of aging."
+          ]
+        },
+        {
+          "type": "sub-heading-content-last",
           "title": "Benefits of Peeling Treatments",
           "features": [
             "Smoother Skin Texture: Reveal a refined and polished surface by eliminating dead skin cells.",
@@ -387,7 +377,8 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Mesotherapy",
-          "bannerImage": "../assets/Images/depts/skincare/Mesotherapy/Main-Banner.png"
+          "bannerImage": "../assets/Images/depts/skincare/Mesotherapy/Main-Banner.png",
+          "bannerPosition": "right"
         },
         {
           "type": "image-content",
@@ -402,28 +393,22 @@
             {
               "type": "paragraph",
               "text": "At Karisma Specialist Medical Center, we pride ourselves on offering advanced aesthetic treatments that help you achieve your most beautiful skin. Mesotherapy stands as a cutting-edge solution for skin rejuvenation, delivering targeted microinjections of vitamins, minerals, hyaluronic acid, and other revitalizing ingredients to address a wide array of skin concerns. Reveal smoother, healthier, and more youthful skin with this innovative treatment."
-            },
-            {
-              "type": "heading",
-              "text": "Targeted Skin Rejuvenation"
-            },
-            {
-              "type": "paragraph",
-              "text": "Mesotherapy offers a unique approach to a variety of skin concerns, providing personalized treatments to help you achieve your desired look:"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Skin Rejuvenation: Directly delivering essential nutrients to the mesoderm (the middle skin layer) stimulates cellular renewal and collagen production, helping your skin become firmer, smoother, and more youthful.",
-                "Wrinkle Reduction: Collagen stimulation through mesotherapy reduces the appearance of fine lines and wrinkles, promoting a more youthful appearance.",
-                "Pigmentation Control: Customized treatments target hyperpigmentation and uneven skin tone, helping to create a brighter, more even complexion.",
-                "Acne Management: Special formulations can regulate oil production and reduce inflammation, leading to clearer, healthier skin."
-              ]
             }
           ]
         },
         {
           "type": "content",
+          "title": "Targeted Skin Rejuvenation",
+          "description": "Mesotherapy offers a unique approach to a variety of skin concerns, providing personalized treatments to help you achieve your desired look:",
+          "features": [
+            "Skin Rejuvenation: Directly delivering essential nutrients to the mesoderm (the middle skin layer) stimulates cellular renewal and collagen production, helping your skin become firmer, smoother, and more youthful.",
+            "Wrinkle Reduction: Collagen stimulation through mesotherapy reduces the appearance of fine lines and wrinkles, promoting a more youthful appearance.",
+            "Pigmentation Control: Customized treatments target hyperpigmentation and uneven skin tone, helping to create a brighter, more even complexion.",
+            "Acne Management: Special formulations can regulate oil production and reduce inflammation, leading to clearer, healthier skin."
+          ]
+        },
+        {
+          "type": "sub-heading-content-last",
           "title": "Understanding the Power of Microinjections",
           "description": "Mesotherapy works through precise and targeted microinjections, delivering rejuvenating ingredients directly where they’re needed:",
           "features": [
@@ -571,7 +556,8 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Plasma Face",
-          "bannerImage": "../assets/Images/depts/skincare/Plasma-Face/Main-Banner.png"
+          "bannerImage": "../assets/Images/depts/skincare/Plasma-Face/Main-Banner.png",
+          "bannerPosition": "center"
         },
         {
           "type": "image-content",
@@ -586,28 +572,22 @@
             {
               "type": "paragraph",
               "text": "At Karisma Specialist Medical Center, we understand the desire for a youthful and luminous complexion. PRP (Platelet-Rich Plasma) and Stem Cells facials offer groundbreaking approaches to facial rejuvenation, using the natural regenerative power of your own body to deliver stunning results. These treatments utilize the concentration of platelets, growth factors, and the regenerative potential of stem cells to rebuild skin cells, promote rejuvenation, and address a variety of concerns."
-            },
-            {
-              "type": "heading",
-              "text": "PRP: Benefits of Natural Rejuvenation"
-            },
-            {
-              "type": "paragraph",
-              "text": "PRP facials offer a multitude of benefits for those looking to revitalize and enhance their skin:"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Stimulated Collagen Production: PRP is rich in growth factors that trigger the production of collagen, which is responsible for the structure and elasticity of youthful skin. This leads to a firmer, smoother appearance with reduced wrinkles and fine lines.",
-                "Improved Skin Texture: PRP helps refine enlarged pores, minimize acne scars, and promote an overall smoother and more even texture.",
-                "Enhanced Radiance: By promoting cell regeneration and improving circulation, PRP facials leave you with a naturally radiant and revitalized look.",
-                "Reduced Signs of Aging: PRP addresses various signs of aging, including wrinkles, fine lines, loss of volume, and uneven skin tone, promoting a more youthful appearance."
-              ]
             }
           ]
         },
         {
           "type": "content",
+          "title": "PRP: Benefits of Natural Rejuvenation",
+          "description": "PRP facials offer a multitude of benefits for those looking to revitalize and enhance their skin",
+          "features": [
+            "Stimulated Collagen Production: PRP is rich in growth factors that trigger the production of collagen, which is responsible for the structure and elasticity of youthful skin. This leads to a firmer, smoother appearance with reduced wrinkles and fine lines.",
+            "Improved Skin Texture: PRP helps refine enlarged pores, minimize acne scars, and promote an overall smoother and more even texture.",
+            "Enhanced Radiance: By promoting cell regeneration and improving circulation, PRP facials leave you with a naturally radiant and revitalized look.",
+            "Reduced Signs of Aging: PRP addresses various signs of aging, including wrinkles, fine lines, loss of volume, and uneven skin tone, promoting a more youthful appearance."
+          ]
+        },
+        {
+          "type": "color-content",
           "title": "Unlocking the Science Behind PRP Facials",
           "description": "PRP facials work through a targeted and effective approach:",
           "features": [
@@ -617,7 +597,7 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "content",
           "title": "Important Considerations Before Your PRP Facial",
           "description": "While generally safe, there are a few precautions to consider with PRP facials:",
           "features": [
@@ -626,7 +606,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Stem Cell Therapy: Experience the Power of Cellular Renewal",
           "description": "Stem cell therapy for facial rejuvenation offers a multitude of benefits for those seeking to restore and revitalize their skin:",
           "features": [
@@ -647,7 +627,7 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "content",
           "title": "Secrets Behind Stem Cell Therapy",
           "description": "Stem cell therapy works through a groundbreaking approach:",
           "features": [
@@ -657,7 +637,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Important Considerations Before Stem Cell Therapy",
           "description": "While stem cell therapy holds immense promise, there are a few precautions to consider:",
           "features": [
@@ -667,7 +647,7 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "content",
           "title": "A Synergistic Approach: Combining with Dermapen and HydraFacial",
           "description": "For an even more comprehensive approach to facial rejuvenation, consider combining stem cell therapy with:",
           "features": [
@@ -675,10 +655,9 @@
             "HydraFacial: HydraFacial gently removes dead skin cells and impurities, preparing the skin for optimal absorption of stem cells and other beneficial ingredients."
           ],
           "description2": "These treatments together lead to dramatic improvements in skin texture, tone, and rejuvenation."
-
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "RxStem Exosome Therapy: Experience the Power of Cellular Communication",
           "description": "RxStem Exosome therapy offers a multitude of benefits for those seeking to restore and revitalize their skin:",
           "features": [
@@ -700,7 +679,7 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "content",
           "title": "Unlocking the Science Behind RxStem Exosome Therapy",
           "description": "RxStem Exosome therapy works through a targeted and innovative approach:",
           "features": [
@@ -710,7 +689,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Who Can Benefit?",
           "description": "RxStem Exosome therapy is suitable for a variety of skin types and concerns:",
           "features": [
@@ -721,7 +700,7 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "content",
           "title": "Important Considerations Before RxStem Exosome Therapy",
           "description": "While RxStem Exosome therapy holds immense promise, there are a few precautions to consider:",
           "features": [
@@ -730,7 +709,7 @@
           ]
         },
         {
-          "type": "sub-heading-color-content-last",
+          "type": "color-content",
           "title": "Book Your Consultation at Karisma Specialist Medical Center",
           "description": "Discover the transformative power of PRP, Stem Cell Therapy, and Exosome treatments. Rejuvenate your skin naturally, restore its youthful glow, and address multiple skin concerns with these cutting-edge therapies. Schedule your consultation today to start your journey to radiant, healthier skin!"
         },
@@ -771,7 +750,8 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "IV DRIP Glowing",
-          "bannerImage": "../assets/Images/depts/skincare/IV-Drip/Main-Banner.png"
+          "bannerImage": "../assets/Images/depts/skincare/IV-Drip/Main-Banner.png",
+          "bannerPosition": "right"
         },
         {
           "type": "image-content",
@@ -786,29 +766,23 @@
             {
               "type": "paragraph",
               "text": "At Karisma Specialist Medical Center, we believe that true beauty starts from within. Our IV Drip Therapy for Glowing Skin offers a highly effective and targeted approach to achieving radiant, healthy skin. This innovative treatment delivers a personalized blend of essential vitamins, minerals, and antioxidants directly into your bloodstream, ensuring maximum absorption and visible results."
-            },
-            {
-              "type": "heading",
-              "text": "Discover the Benefits from Within, Out"
-            },
-            {
-              "type": "paragraph",
-              "text": "Our IV Drip Therapy for Glowing Skin offers a range of benefits, transforming your complexion and revitalizing your appearance:"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Intense Hydration: The IV drip delivers much-needed fluids directly into your bloodstream, leaving your skin feeling hydrated, plump, and soft.",
-                "Enhanced Nutrition: A custom solution provides vital vitamins (excluding vitamin D) and minerals like zinc and iron, which are essential for maintaining skin health and a glowing complexion.",
-                "Antioxidant Boost: Antioxidants protect skin cells from free radicals, reducing damage and fighting the signs of aging.",
-                "Brighter, Even Skin Tone: By addressing nutritional deficiencies, IV therapy promotes a more uniform skin tone and a naturally brighter appearance.",
-                "Reduced Signs of Aging: Improved hydration and cellular function help reduce fine lines and wrinkles, revealing a smoother, more youthful look."
-              ]
             }
           ]
         },
         {
           "type": "content",
+          "title": "Discover the Benefits from Within, Out",
+          "description": "Our IV Drip Therapy for Glowing Skin offers a range of benefits, transforming your complexion and revitalizing your appearance:",
+          "features": [
+            "Intense Hydration: The IV drip delivers much-needed fluids directly into your bloodstream, leaving your skin feeling hydrated, plump, and soft.",
+            "Enhanced Nutrition: A custom solution provides vital vitamins (excluding vitamin D) and minerals like zinc and iron, which are essential for maintaining skin health and a glowing complexion.",
+            "Antioxidant Boost: Antioxidants protect skin cells from free radicals, reducing damage and fighting the signs of aging.",
+            "Brighter, Even Skin Tone: By addressing nutritional deficiencies, IV therapy promotes a more uniform skin tone and a naturally brighter appearance.",
+            "Reduced Signs of Aging: Improved hydration and cellular function help reduce fine lines and wrinkles, revealing a smoother, more youthful look."
+          ]
+        },
+        {
+          "type": "color-content",
           "title": "The Science Behind IV Drip Therapy",
           "features": [
             "Customized Formula: Based on your specific needs, a tailored IV solution is prepared, packed with vitamins, minerals, and antioxidants that benefit your skin and overall health.​",
@@ -817,7 +791,7 @@
           ]
         },
         {
-          "type": "sub-heading-content-last",
+          "type": "content",
           "title": "Important Considerations Before IV Drip Therapy",
           "features": [
             "Consultation:A consultation with a qualified medical professional is required to determine if IV Drip Therapy is right for you and to assess any potential risks.",
@@ -867,7 +841,8 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Collagen Threads",
-          "bannerImage": "../assets/Images/depts/skincare/Collagen/Main-Banner.png"
+          "bannerImage": "../assets/Images/depts/skincare/Collagen/Main-Banner.png",
+          "bannerPosition": "center"
         },
         {
           "type": "image-content",
@@ -882,29 +857,23 @@
             {
               "type": "paragraph",
               "text": "At Karisma Specialist Medical Center, we believe in unlocking your natural beauty. Collagen Threads provide a groundbreaking method for facial rejuvenation, using biocompatible materials to gently lift, tighten, and refresh your skin. This minimally invasive treatment stimulates collagen production, improves skin texture, and promotes a youthful, revitalized appearance, all without the need for anesthesia."
-            },
-            {
-              "type": "heading",
-              "text": "Experience the Power of Natural Renewal"
-            },
-            {
-              "type": "paragraph",
-              "text": "Collagen threads offer a wide range of benefits for those looking to achieve a refreshed and youthful appearance:"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Subtle Lifting and Tightening: The threads offer immediate support to sagging skin, creating a natural lifting effect for a firmer, more youthful look.",
-                "Improved Skin Texture and Uniformity: Collagen threads promote collagen production and cell renewal, leading to smoother, more even-toned skin and a refined pore appearance.",
-                "Enhanced Elasticity: By stimulating collagen synthesis, the threads improve skin elasticity, helping to restore a firmer, more youthful feel to your face.",
-                "Natural Approach to Rejuvenation: Using biocompatible materials that mimic your body’s natural building blocks, the treatment delivers results that look and feel natural.",
-                "Comfortable and Convenient: A minimally invasive procedure, collagen threads require little to no anesthesia, offering a quick and comfortable experience with minimal downtime."
-              ]
             }
           ]
         },
         {
           "type": "content",
+          "title": "Experience the Power of Natural Renewal",
+          "description": "Collagen threads offer a wide range of benefits for those looking to achieve a refreshed and youthful appearance:",
+          "features": [
+            "Subtle Lifting and Tightening: The threads offer immediate support to sagging skin, creating a natural lifting effect for a firmer, more youthful look.",
+            "Improved Skin Texture and Uniformity: Collagen threads promote collagen production and cell renewal, leading to smoother, more even-toned skin and a refined pore appearance.",
+            "Enhanced Elasticity: By stimulating collagen synthesis, the threads improve skin elasticity, helping to restore a firmer, more youthful feel to your face.",
+            "Natural Approach to Rejuvenation: Using biocompatible materials that mimic your body’s natural building blocks, the treatment delivers results that look and feel natural.",
+            "Comfortable and Convenient: A minimally invasive procedure, collagen threads require little to no anesthesia, offering a quick and comfortable experience with minimal downtime."
+          ]
+        },
+        {
+          "type": "sub-heading-content-last",
           "title": "The Science Behind Collagen Threads",
           "features": [
             "Biocompatible Material: Fine threads made from collagen and elastin-stimulating materials are gently inserted into targeted areas of the skin.​",
@@ -913,7 +882,7 @@
           ]
         },
         {
-          "type": "sub-heading-content-last",
+          "type": "color-content",
           "title": "Important Considerations Before Collagen Threads",
           "description": "While collagen threads are generally safe, here are a few things to consider:",
           "features": [
@@ -922,7 +891,6 @@
             "Temporary Results: Collagen threads provide long-lasting improvements, typically lasting 12-18 months, depending on your skin type and lifestyle."
           ]
         },
-     
         {
           "type": "content",
           "title": "Our Doctors",
@@ -952,7 +920,6 @@
         }
       ]
     },
-   
     {
       "id": "8",
       "name": "facial-machines",
@@ -961,7 +928,8 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Facial Machines",
-          "bannerImage": "../assets/Images/depts/skincare/facial-machines/Facial-machines-Banner---Ar.png"
+          "bannerImage": "../assets/Images/depts/skincare/facial-machines/Facial-machines-Banner---Ar.png",
+          "bannerPosition": "left"
         },
         {
           "type": "image-content",
@@ -1085,7 +1053,8 @@
           "type": "banner",
           "deptName": "SkinCare",
           "serviceName": "Hair Treatment",
-          "bannerImage": "../assets/Images/depts/skincare/hair-treatment/Hair-Treatment-Banner-En.png"
+          "bannerImage": "../assets/Images/depts/skincare/hair-treatment/Hair-Treatment-Banner-En.png",
+          "bannerPosition": "right"
         },
         {
           "type": "image-content",

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import AboutBanner from "./about_banner";
 import { useTranslation } from "react-i18next";
 import "./about.css";
 import { fetchAboutContent, fetchAllJson } from "../../utils/fetchAllJson";
@@ -9,17 +8,17 @@ const About = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const { t, ready } = useTranslation('about');
-  
+
   const [imageData, setImageData] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        
-        const imageData = await fetchAllJson(); 
-       
+
+        const imageData = await fetchAllJson();
+
         setImageData(imageData);
-     
+
       } catch (err) {
         setError(err.message);
       } finally {
@@ -39,33 +38,36 @@ const About = () => {
   }
 
   const about = t('about', { returnObjects: true });
-  
-  const {images} = imageData;
+
+  const { images } = imageData;
   if (!about) {
     return <div>Error: About content is not available.</div>;
   }
 
   console.log(about);
-  
+
   const ceoMessage = about?.ceoMessage;
 
- 
-  
+
+
   const sections = [about.section1, about.section2];
 
   return (
     <div>
-    <DynamicBanner  deptName="About Us" serviceName="" bannerImage="../assets/Images/depts/About-Us/about-us-banner.png" />
-  
-   
+      <DynamicBanner deptName="About Us" serviceName="" 
+      bannerImage="../assets/Images/depts/About-Us/about-us-banner.png" 
+      bannerPosition={`center`}
+      />
+
+
       <div className="our-story-container">
         <h2 className="title our-story-heading">{about?.our_story?.title}</h2>
-        {about?.our_story?.content.map((c,i) =>{
-          return <div><p className="our-story-text" key={i}>{t(c)}</p><br/></div>
+        {about?.our_story?.content.map((c, i) => {
+          return <div><p className="our-story-text" key={i}>{t(c)}</p><br /></div>
         })}
-     
+
       </div>
-  
+
       <div style={{ backgroundColor: "#D9C5AD" }}>
         <div className="main-content-container">
           <div className="about-us-container">
@@ -84,8 +86,8 @@ const About = () => {
                 </div>
               </div>
             ))}
-  
-      
+
+
             <div className="ceo-message-container">
               <div className="ceo-content">
                 <div className="ceo-image-container">
@@ -102,13 +104,13 @@ const About = () => {
                 </div>
               </div>
             </div>
-  
+
           </div>
         </div>
       </div>
     </div>
   );
-  
+
 };
 
 export default About;

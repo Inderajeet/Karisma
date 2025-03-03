@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import { useCart } from "./CartContext";
 import "../custom_css/checkout.css";
-import Footer from "./footer";
-import HeaderContact from "./headercontact";
-import CheckoutForm from "./CheckoutForm";
-import HeaderCheckout from "./headerCheckout";
 
 
 export default function Checkout() {
@@ -64,7 +60,6 @@ export default function Checkout() {
 
   return (
     <>
-      <HeaderCheckout />
       <div className="checkout">
         <div className="checkout-flex container">
           {/* left side form */}
@@ -234,7 +229,6 @@ export default function Checkout() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

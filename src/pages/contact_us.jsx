@@ -20,8 +20,11 @@ export default function ContactPage() {
 
     return (
         <>
-    <DynamicBanner  deptName="Contact Us" serviceName="" bannerImage="https://damasmc.com/uploads/banners/bannerimage68e2318425ebbe7d65777d85eb6a11ecbabc116c.jpg" />
-    <div className="customContainer ">
+            <DynamicBanner deptName="Contact Us" serviceName="" 
+            bannerImage="https://damasmc.com/uploads/banners/bannerimage68e2318425ebbe7d65777d85eb6a11ecbabc116c.jpg" 
+            bannerPosition={`right`}
+            />
+            <div className="customContainer ">
                 <div className="row">
                     <div className="col-md-12 order-md-2">
                         <article

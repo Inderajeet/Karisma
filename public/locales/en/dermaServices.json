@@ -8,7 +8,8 @@
           "type": "banner",
           "deptName": "Derma",
           "serviceName": "Dermal Fillers",
-          "bannerImage": "../assets/Images/depts/derma/filler/banner.png"
+          "bannerImage": "../assets/Images/depts/derma/filler/banner.png",
+          "bannerPosition": "center"
         },
         {
           "type": "image-content",
@@ -84,33 +85,7 @@
           ]
         },
         {
-          "type": "color-heading",
-          "title": "Let us help you redefine beauty on your terms. Schedule your consultation today!",
-          "features": []
-        },
-        {
-          "type": "list-services-noImage",
-          "listServices": [
-            {
-              "id": 1,
-              "name": "Face Sculpting",
-              "image": "../assets/Images/depts/derma/filler/Sculpting-Your-Dream-Face-banner.png",
-              "link": "derma/dermal-fillers/sculpting",
-              "readMore": "Read More",
-              "designation": "Our skilled cosmetic dermatologists use advanced techniques and premium products to sculpt the facial features you've always desired."
-            },
-            {
-              "id": 2,
-              "name": "Body Filler",
-              "image": "../assets/Images/depts/derma/filler/Enhancing-Your-Body-Confidence-banner.png",
-              "link": "derma/dermal-fillers/body-confidence",
-              "readMore": "Read More",
-              "designation": "Beyond facial treatments, Karisma Specialist Medical Center offers advanced body enhancement solutions to elevate your confidence and help you feel your best."
-            }
-          ]
-        },
-        {
-          "type": "content",
+          "type": "sub-heading-content-last",
           "title": "A Personalized Approach to Your Beauty Goals",
           "description": "At Karisma Specialist Medical Center, we understand that every individual’s beauty journey is unique. During your consultation, our expert dermatologists will take the time to listen to your aesthetic goals and concerns, crafting a personalized treatment plan designed specifically to achieve your desired outcomes."
         },
@@ -161,12 +136,37 @@
           "description": "At Karisma Specialist Medical Center, we’re dedicated to providing a safe, comfortable, and successful filler treatment experience. Our expert team of dermatologists uses advanced techniques and high-quality products to ensure your satisfaction."
         },
         {
-          "type": "color-content",
+          "type": "color-heading",
+          "title": "Let us help you redefine beauty on your terms. Schedule your consultation today!"
+        },
+        {
+          "type": "list-services-noImage",
+          "listServices": [
+            {
+              "id": 1,
+              "name": "Face Sculpting",
+              "image": "../assets/Images/depts/derma/filler/Sculpting-Your-Dream-Face-banner.png",
+              "link": "derma/dermal-fillers/sculpting",
+              "readMore": "Read More",
+              "designation": "Our skilled cosmetic dermatologists use advanced techniques and premium products to sculpt the facial features you've always desired."
+            },
+            {
+              "id": 2,
+              "name": "Body Filler",
+              "image": "../assets/Images/depts/derma/filler/Enhancing-Your-Body-Confidence-banner.png",
+              "link": "derma/dermal-fillers/body-confidence",
+              "readMore": "Read More",
+              "designation": "Beyond facial treatments, Karisma Specialist Medical Center offers advanced body enhancement solutions to elevate your confidence and help you feel your best."
+            }
+          ]
+        },
+        {
+          "type": "cont-content",
           "title": "Schedule a Consultation Today!",
           "description": "Discover how dermal fillers can enhance your natural beauty and restore your youthful radiance. Contact Karisma Specialist Medical Center to book your consultation, and let us guide you through the world of dermal fillers with a personalized approach tailored to your needs!"
         },
         {
-          "type": "content",
+          "type": "cont-content-last",
           "title": "Our Doctors",
           "description": ""
         },
@@ -189,21 +189,21 @@
               "designation": "Dermatologist Specialist",
               "image": "/assets/Images/doctors/Dr Sandro.png",
               "link": "doctor/dr-sandro-ceci"
-          },
-          {
+            },
+            {
               "id": 2,
               "name": "Dr. Manar Magdy",
               "designation": "Dermatology Specialist",
               "image": "/assets/Images/doctors/Dr Manar.png",
               "link": "doctor/dr-manar-magdy"
-          },
-          {
+            },
+            {
               "id": 3,
               "name": "Dr. Ramilia Anarkulova",
               "designation": "Dermatologist-Cosmetologist",
               "image": "/assets/Images/doctors/Dr Ramila.png",
               "link": "doctor/dr-ramilia-anarkulova"
-          }
+            }
           ]
         }
       ]
@@ -216,7 +216,8 @@
           "type": "banner",
           "deptName": "Derma",
           "serviceName": "Anti-Aging Treatment",
-          "bannerImage": "../assets/Images/depts/derma/anti-aging-treatment/banner.png"
+          "bannerImage": "../assets/Images/depts/derma/anti-aging-treatment/banner.png",
+          "bannerPosition": "center"
         },
         {
           "type": "image-content",
@@ -368,21 +369,21 @@
               "designation": "Dermatologist Specialist",
               "image": "/assets/Images/doctors/Dr Sandro.png",
               "link": "doctor/dr-sandro-ceci"
-          },
-          {
+            },
+            {
               "id": 2,
               "name": "Dr. Manar Magdy",
               "designation": "Dermatology Specialist",
               "image": "/assets/Images/doctors/Dr Manar.png",
               "link": "doctor/dr-manar-magdy"
-          },
-          {
+            },
+            {
               "id": 3,
               "name": "Dr. Ramilia Anarkulova",
               "designation": "Dermatologist-Cosmetologist",
               "image": "/assets/Images/doctors/Dr Ramila.png",
               "link": "doctor/dr-ramilia-anarkulova"
-          }
+            }
           ]
         }
       ]
@@ -395,7 +396,8 @@
           "type": "banner",
           "deptName": "Derma",
           "serviceName": "Cosmetic Threads",
-          "bannerImage": "../assets/Images/depts/derma/Cosmetic-Threads/banner.png"
+          "bannerImage": "../assets/Images/depts/derma/Cosmetic-Threads/banner.png",
+          "bannerPosition": "right"
         },
         {
           "type": "image-content",
@@ -414,31 +416,22 @@
             {
               "type": "paragraph",
               "text": "Dissolvable sutures made from biocompatible substances like Polydioxanone (PDO) are known as non-surgical threads. These threads are purposely placed in specific locations on the face, scalp, or body to accomplish a range of aesthetic objectives."
-            },
-            {
-              "type": "heading",
-              "text": "What are the Functions of Cosmetic Threads?"
-            },
-            {
-              "type": "paragraph",
-              "text": "Cosmetic Threads provides lifting, tightening, and volumizing effects, and stimulates collagen production for longer-lasting results."
-            },
-            {
-              "type": "paragraph",
-              "text": "At Karisma Specialist Medical Center, we offer advanced cosmetic thread procedures that are minimally invasive, delivering facial rejuvenation, scar reduction, and tummy tightening for a more youthful appearance."
-            },
-            {
-              "type": "list",
-              "items": [
-                "Trusted professionals, you can count on: Our board-certified dermatologists are experts in the latest thread lift techniques. We take a personalized approach to ensure every treatment is designed to enhance your unique features.",
-                "Advanced Techniques and Safety: We use the latest thread lift techniques and premium materials to provide optimal, long-lasting results while ensuring your safety and comfort.",
-                "Personalized Treatment Plans: We understand your aesthetic goals and work closely with you to create a tailored plan to achieve your desired smoother, more youthful appearance."
-              ]
             }
           ]
         },
         {
           "type": "content",
+          "title": "What are the Functions of Cosmetic Threads?",
+          "description": "Cosmetic Threads provides lifting, tightening, and volumizing effects, and stimulates collagen production for longer-lasting results.",
+          "heading2": "At Karisma Specialist Medical Center, we offer advanced cosmetic thread procedures that are minimally invasive, delivering facial rejuvenation, scar reduction, and tummy tightening for a more youthful appearance.",
+          "features": [
+            "Trusted professionals, you can count on: Our board-certified dermatologists are experts in the latest thread lift techniques. We take a personalized approach to ensure every treatment is designed to enhance your unique features.",
+            "Advanced Techniques and Safety: We use the latest thread lift techniques and premium materials to provide optimal, long-lasting results while ensuring your safety and comfort.",
+            "Personalized Treatment Plans: We understand your aesthetic goals and work closely with you to create a tailored plan to achieve your desired smoother, more youthful appearance."
+          ]
+        },
+        {
+          "type": "color-content",
           "title": "What are Cosmic Threads Used For?",
           "description": "At Karisma Specialist Medical Center cosmic threads have various uses, Discover our diverse range of thread lift solutions tailored to meet your unique concerns:",
           "features": [
@@ -448,7 +441,7 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "content",
           "title": "Transformative Results with PDO Lifting Threads",
           "description": "PDO lifting threads are a versatile solution for addressing various skin concerns:",
           "features": [
@@ -456,7 +449,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "What are PDO Lifting Threads used for?",
           "features": [
             "Immediate Rejuvenation: Achieve remarkable results with minimal discomfort and the convenience of no lengthy recovery time.",
@@ -466,7 +459,7 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "content",
           "title": "Transform into a Smoother You with PDO Lifting Threads.",
           "features": [
             "Firmer and Lifted Skin: PDO threads tighten sagging skin on the face, chin, neck, and abdomen.",
@@ -475,34 +468,9 @@
           ]
         },
         {
-          "type": "content",
+          "type": "color-content",
           "title": "Discover the Power of PDO Lifting Threads at Karisma Specialist Medical Center",
           "description": "Schedule your consultation today to explore the transformative benefits of PDO lifting threads and reveal a smoother, more youthful complexion!"
-        },
-        {
-          "type": "color-heading",
-          "title": "Experience the Revolutionary Benefits of Non-Surgical Thread Lifts at Karisma Specialist Medical Center!"
-        },
-        {
-          "type": "list-services-noImage",
-          "listServices": [
-            {
-              "id": 1,
-              "name": "PDO Tummy Threads",
-              "image": "/assets/Images/home/Doctors.png",
-              "link": "derma/cosmetic-threads/pdo-tummy-threads",
-              "readMore": "Read More",
-              "designation": "Achieve your desired athletic look in minutes, a more toned abdomen with our PDO Tummy Thread procedures, a non-surgical solution for lifting and tightening the skin."
-            },
-            {
-              "id": 2,
-              "name": "Single Needle Threads",
-              "image": "/assets/Images/home/Doctors.png",
-              "link": "derma/cosmetic-threads/single-needle-threads",
-              "readMore": "Read More",
-              "designation": "Single needle threads provide a non-surgical solution for lifting and rejuvenating various areas of the face, offering a comprehensive approach to facial rejuvenation."
-            }
-          ]
         },
         {
           "type": "content",
@@ -510,7 +478,7 @@
           "description": "At Karisma Specialist Medical Center, we understand the impact deep scars can have on your confidence. Subcision offers a minimally invasive treatment for addressing deep and concave scars, particularly those from acne and wounds. Cause memories place are in your brain not on your body."
         },
         {
-          "type": "color-heading",
+          "type": "color-content",
           "title": "Revitalize Your Face with Single Needle Threads: A Definitive Rejuvenation",
           "description": "Single needle threads offer a targeted solution for lifting and rejuvenating various facial areas:",
           "features": [
@@ -569,12 +537,37 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "color-heading",
+          "title": "Experience the Revolutionary Benefits of Non-Surgical Thread Lifts at Karisma Specialist Medical Center!"
+        },
+        {
+          "type": "list-services-noImage",
+          "listServices": [
+            {
+              "id": 1,
+              "name": "PDO Tummy Threads",
+              "image": "/assets/Images/home/Doctors.png",
+              "link": "derma/cosmetic-threads/pdo-tummy-threads",
+              "readMore": "Read More",
+              "designation": "Achieve your desired athletic look in minutes, a more toned abdomen with our PDO Tummy Thread procedures, a non-surgical solution for lifting and tightening the skin."
+            },
+            {
+              "id": 2,
+              "name": "Single Needle Threads",
+              "image": "/assets/Images/home/Doctors.png",
+              "link": "derma/cosmetic-threads/single-needle-threads",
+              "readMore": "Read More",
+              "designation": "Single needle threads provide a non-surgical solution for lifting and rejuvenating various areas of the face, offering a comprehensive approach to facial rejuvenation."
+            }
+          ]
+        },
+        {
+          "type": "cont-content",
           "title": "Achieve Radiant, Scar-Free Skin at Karisma",
           "description": "Contact Karisma Specialist Medical Center today to schedule your consultation and discover how subcision can help you achieve smoother, more confident skin. Let us help you feel your best!"
         },
         {
-          "type": "content",
+          "type": "cont-content-last",
           "title": "Our Doctors",
           "description": ""
         },
@@ -597,21 +590,21 @@
               "designation": "Dermatologist Specialist",
               "image": "/assets/Images/doctors/Dr Sandro.png",
               "link": "doctor/dr-sandro-ceci"
-          },
-          {
+            },
+            {
               "id": 2,
               "name": "Dr. Manar Magdy",
               "designation": "Dermatology Specialist",
               "image": "/assets/Images/doctors/Dr Manar.png",
               "link": "doctor/dr-manar-magdy"
-          },
-          {
+            },
+            {
               "id": 3,
               "name": "Dr. Ramilia Anarkulova",
               "designation": "Dermatologist-Cosmetologist",
               "image": "/assets/Images/doctors/Dr Ramila.png",
               "link": "doctor/dr-ramilia-anarkulova"
-          }
+            }
           ]
         }
       ]
@@ -624,7 +617,8 @@
           "type": "banner",
           "deptName": "Derma",
           "serviceName": "Rejuvenation Injection",
-          "bannerImage": "../assets/Images/depts/derma/Rejuvenation/banner.png"
+          "bannerImage": "../assets/Images/depts/derma/Rejuvenation/banner.png",
+          "bannerPosition": "right"
         },
         {
           "type": "image-content",
@@ -695,7 +689,9 @@
         {
           "type": "sub-heading-color-content",
           "heading": "Our injectable treatments offer a non-surgical path to a more sculpted, youthful appearance.",
-          "features": ["Tailored Solutions for Every Skin Concern"]
+          "features": [
+            "Tailored Solutions for Every Skin Concern"
+          ]
         },
         {
           "type": "sub-heading-color-content",
@@ -717,7 +713,9 @@
         {
           "type": "sub-heading-color-content-last",
           "heading": "Sun Damage",
-          "features": ["Discover the power of antioxidant-rich skin boosters to combat visible sun damage and achieve healthier, more even-toned skin."]
+          "features": [
+            "Discover the power of antioxidant-rich skin boosters to combat visible sun damage and achieve healthier, more even-toned skin."
+          ]
         },
         {
           "type": "content",
@@ -801,7 +799,6 @@
           "title": "Ready to Glow Up with Karisma Specialist Medical Center?",
           "description": "Imagine achieving softer, more luminous, and youthful skin without the need for surgery. Does that sound appealing? That's the essence of what we offer at Karisma.",
           "description2": "Ready to enhance your natural beauty? Call us now and book your consultation with our experts. Let’s discuss how our amazing injections can help you look and feel your best. Together, we’ll create something truly magical!"
-
         },
         {
           "type": "content",
@@ -827,21 +824,21 @@
               "designation": "Dermatologist Specialist",
               "image": "/assets/Images/doctors/Dr Sandro.png",
               "link": "doctor/dr-sandro-ceci"
-          },
-          {
+            },
+            {
               "id": 2,
               "name": "Dr. Manar Magdy",
               "designation": "Dermatology Specialist",
               "image": "/assets/Images/doctors/Dr Manar.png",
               "link": "doctor/dr-manar-magdy"
-          },
-          {
+            },
+            {
               "id": 3,
               "name": "Dr. Ramilia Anarkulova",
               "designation": "Dermatologist-Cosmetologist",
               "image": "/assets/Images/doctors/Dr Ramila.png",
               "link": "doctor/dr-ramilia-anarkulova"
-          }
+            }
           ]
         }
       ]
