@@ -247,7 +247,7 @@ function Booking({ showModal, handleClose }) {
                                     {errors.age && <div className="cust-invalid-feedback">{errors.age}</div>}
                                 </div>
 
-                                <div className="d-flex gap-3" style={{ width: '55%' }}>
+                                <div className="d-flex gap-3" style={{ width: '60%' }}>
                                     <div className="mb-1" style={{ width: '14%' }}>
                                         <input
                                             type="text"

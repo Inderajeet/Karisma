@@ -201,7 +201,7 @@ function DoctorPage() {
                                                     data-id="2ce220da"
                                                     data-element_type="container"
                                                 >
-                                                    <div className="e-con-inner">
+                                                    <div className="e-con-inner" style={{paddingBottom:'60px'}}>
                                                         <div
                                                             className="elementor-element elementor-element-6a088048 e-con-full e-flex e-con e-child"
                                                             data-id="6a088048"

@@ -159,43 +159,56 @@ function App() {
   );
 }
 
-// function NavigationWithLoader({ children }) {
-//   const [loading, setLoading] = useState(true);
-//   const location = useLocation();
-
-//   useEffect(() => {
-//     const handlePageLoad = () => setLoading(false);
-//     window.addEventListener('load', handlePageLoad);
-//     return () => {
-//       window.removeEventListener('load', handlePageLoad);
-//     };
-//   }, []);
-
-//   useEffect(() => {
-//     setLoading(true);
-//     const stopLoading = () => setLoading(false);
-//     const timeoutId = setTimeout(stopLoading, 2000);
-//     return () => clearTimeout(timeoutId);
-//   }, [location]);
-
-//   return (
-//     <>
-//       {loading && <PageLoader />} {/* Show loader */}
-//       {!loading && children} {/* Render content */}
-//     </>
-//   );
-// }
 function NavigationWithLoader({ children }) {
   const [loading, setLoading] = useState(true);
   const location = useLocation();
 
   useEffect(() => {
-    const timeoutId = setTimeout(() => setLoading(false), 1500); // Show loader for 1.5 sec
+    const handlePageLoad = () => setLoading(false);
+    window.addEventListener('load', handlePageLoad);
+    return () => {
+      window.removeEventListener('load', handlePageLoad);
+    };
+  }, []);
+
+  useEffect(() => {
+    setLoading(true);
+    const stopLoading = () => setLoading(false);
+    const timeoutId = setTimeout(stopLoading, 2000);
     return () => clearTimeout(timeoutId);
   }, [location]);
 
-  return loading ? <PageLoader /> : children;
+  return (
+    <>
+      {loading && <PageLoader />} {/* Show loader */}
+      {!loading && children} {/* Render content */}
+    </>
+  );
 }
+// function NavigationWithLoader({ children }) {
+//   const [loading, setLoading] = useState(true);
+//   const location = useLocation();
+
+//   useEffect(() => {
+//     const timeoutId = setTimeout(() => setLoading(false), 1500); // Show loader for 1.5 sec
+//     return () => clearTimeout(timeoutId);
+//   }, [location]);
+
+//   return loading ? <PageLoader /> : children;
+// }
+// function NavigationWithLoader({ children }) {
+//   const [loading, setLoading] = useState(false); // Start with false
+//   const location = useLocation();
+
+//   useEffect(() => {
+//     setLoading(true); // Show loader on route change
+//     const timeoutId = setTimeout(() => setLoading(false), 1500); // Hide after 1.5 sec
+//     return () => clearTimeout(timeoutId);
+//   }, [location.pathname]); // Track pathname change
+
+//   return loading ? <PageLoader /> : children;
+// }
+
 
 
 export default App;

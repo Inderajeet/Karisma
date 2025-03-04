@@ -2,43 +2,37 @@ import React from "react";
 import "../../custom_css/serviceTemplate.css";
 
 const renderFeature = (feature, index, level = 1) => {
+    let className = "content-featureItem divP"; 
+
+    if (level === 2) {
+        className = "custom-list-item";
+    } else if (level === 3) {
+        className = "custom-list-item"; 
+    }
+
     // If feature is a string (Key-Value pair)
     if (typeof feature === "string") {
         if (feature.includes(":")) {
             const [key, value] = feature.split(/:(.+)/);
             return (
-                <div key={index} className="content-featureItem divP">
+                <div key={index} className={className}>
                     <strong>{key}</strong>: {value}
                 </div>
             );
         } else {
-            return <div key={index} className="content-featureItem divP">{feature}</div>;
+            return <div key={index} className={className}>{feature}</div>;
         }
     }
 
     // If feature is an object with title & items (nested list)
-    if (typeof feature === "object" && feature.title && Array.isArray(feature.items)) {
-        const titleContent = feature.title.includes(":")
-            ? (() => {
-                  const [key, value] = feature.title.split(/:(.+)/);
-                  return (
-                      <>
-                          <strong>{key}</strong>: {value}
-                      </>
-                  );
-              })()
-            : feature.title;
-
+    else if (typeof feature === "object" && feature.title && Array.isArray(feature.items)) {
         return (
-            <div key={index} className="divP">
-                {/* ✅ Make sure title is separate */}
-                <div className="content-featureItem">{titleContent}</div>
-
-                <ul className="custom-list">
+            <div key={index} className={className}>
+                <strong>{feature.title}</strong>
+                <ul style={{ marginLeft: "15px", paddingLeft: "10px" }}>
                     {feature.items.map((item, subIndex) => (
-                        <li key={subIndex} className="custom-list-item divP">
-                            {/* ✅ If it's a nested object, call renderFeature() to keep list structure */}
-                            {typeof item === "string" ? item : renderFeature(item, subIndex, level + 1)}
+                        <li key={subIndex} style={{ listStyleType: "none" }}>
+                            {renderFeature(item, subIndex, level + 1)}
                         </li>
                     ))}
                 </ul>
@@ -71,7 +65,7 @@ export const applyFontFallback = (text) => {
             {description && <p>{description}</p>}
             {heading2 && <p style={{ fontFamily: 'The Seasons', fontWeight: '600' }}><strong>{heading2}</strong></p>}
 
-            {features && <div className="featuresContainer divP">{features.map(renderFeature)}</div>}
+            {features && <div className="featuresContainer divP">{features.map((feature, index) => renderFeature(feature, index, 1))}</div>}
             {description2 && <p>{description2}</p>}
 
         </div>
