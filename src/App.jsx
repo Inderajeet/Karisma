@@ -55,18 +55,6 @@ function LanguageWrapper() {
  const { pathname } = useLocation();
  console.log('pathname: ' + pathname);
  
-//  useEffect(()=>{
-//   const url = pathname.split("/");
-//  if (url[1]) {
-//    const path = lodash.startCase(lodash.camelCase(url[1]));
-//   //  const path = url[1]
-
-//    document.title = `${path} | Karisma`;
-//  } else {
-//    document.title = "Karisma";
-//  }
-//  },[pathname])
-
 useEffect(() => {
   const urlSegments = pathname.split("/"); 
   console.log('urlSegments: ' + urlSegments)
@@ -82,7 +70,7 @@ useEffect(() => {
       document.title = `Karisma | ${pageName}`;
     }
   }else{
-    document.title = "We Brought the World to You";
+    document.title = "Karisma Specialist Medical Center";
   }
   // if (urlSegments.length > 2 && urlSegments[2]) {
   //   // Extract and format the correct page name
