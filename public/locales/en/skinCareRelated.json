@@ -718,7 +718,7 @@
                 },
                 {
                     "type": "banner",
-                    "bannerImage": "../assets/Images/depts/skincare/Facial/Platinum-Facial.png",
+                    "bannerImage": "../assets/Images/depts/skincare/Facial/Platinum-HydraFacial.png",
                     "bannerPosition": "center right"
                 },
                 {
@@ -1066,8 +1066,8 @@
                     ]
                 },
                 {
-                    "type": "content",
-                    "description": "Glow Effortlessly Revel in the gentle power of the Bubble Facial at Karisma Specialist Medical Centerand let your skin shine with renewed clarity and radiance."
+                    "type": "sub-heading-color-content-last",
+                    "heading": "Glow Effortlessly Revel in the gentle power of the Bubble Facial at Karisma Specialist Medical Centerand let your skin shine with renewed clarity and radiance."
                 }
             ]
         },

@@ -5,7 +5,7 @@ const renderFeature = (feature, index, level = 1) => {
     let className = "content-featureItem divP";
 
     if (level === 2 || level === 3) {
-        className = "custom-list-item";
+        className = "custom-list-item divP";
     }
 
     if (typeof feature === "string") {
