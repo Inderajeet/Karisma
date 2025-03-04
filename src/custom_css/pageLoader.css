@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     z-index: 9999;
-    background-color: #577065;
+    background-color: #577065;a
   }
   
   .loader-container p {
@@ -52,6 +52,10 @@
     }
   }
   
-  
+  .logo {
+    pointer-events: none; /* Prevents cursor interactions */
+    user-select: none; /* Prevents text/image selection */
+}
+
   
   

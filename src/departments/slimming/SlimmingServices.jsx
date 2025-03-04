@@ -260,13 +260,13 @@ const SlimmingServices = () => {
                     } else if (section.type === "list-services-noImage") {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
                         return (
-                            <div style={{ backgroundColor: '#c4a98863', marginBottom: '12px' }}>
+                            <div style={{ backgroundColor: '#c4a98863' }}>
                                 <ListServicesNoImg key={index} services={section.listServices} />
                             </div>);
                     } else if (section.type === "large-list-services-noImage") {
                         console.log('Related services:', section.listServices);  // Debugging: log related services
                         return (
-                            <div style={{ backgroundColor: '#c4a98863', marginBottom: '12px' }}>
+                            <div style={{ backgroundColor: '#c4a98863' }}>
                                 <LargeListServices key={index} services={section.listServices} />
                             </div>);
                     }

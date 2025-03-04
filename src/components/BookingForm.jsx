@@ -5,72 +5,58 @@ import '../custom_css/bookingForm.css';
 import axios from 'axios';
 
 function Booking({ showModal, handleClose }) {
-    const [departments, setDepartments] = useState([]);
     const [error, setError] = useState('');
     const [success, setSuccess] = useState('');
-    const [formLoading, setFormLoading] = useState(false); // Only for form submission
+    const [formLoading, setFormLoading] = useState(false);
+    const [minDate, setMinDate] = useState('');
+
+    // Local Departments List
+    const departments = [
+        "Dental",
+        "Derma",
+        "SkinCare",
+        "Gynecology",
+        "Nutrition and Slimming",
+        "Plastic Surgery",
+        "Laser Hair Removal"
+    ];
+
     const [formData, setFormData] = useState({
         name: '',
         email: '',
         age: '',
         gender: '',
+        countryCode: '',
         phone: '',
         preferredDate: '',
-        departments: '',
+        departmentId: '',
         message: '',
-
     });
 
     const [errors, setErrors] = useState({});
-    const [minDate, setMinDate] = useState(''); // State for minimum date
 
     useEffect(() => {
         if (showModal) {
-            fetchDepartments();
-            setMinDate(getTodayDate()); // Set minDate when the modal is shown
+            setMinDate(getTodayDate());
         }
     }, [showModal]);
 
     const getTodayDate = () => {
         const today = new Date();
-        const year = today.getFullYear();
-        const month = String(today.getMonth() + 1).padStart(2, '0');
-        const day = String(today.getDate()).padStart(2, '0');
-        return `${year}-${month}-${day}`;
-    };
-
-    useEffect(() => {
-        if (showModal) {
-            fetchDepartments(); // Fetch departments only when modal is shown
-        }
-    }, [showModal]);
-
-    const fetchDepartments = async () => {
-        try {
-            const response = await fetch('https://dental.dmaksolutions.com/api/departments');
-            // const response = await fetch('http://localhost:5000/api/departments');
-            if (!response.ok) {
-                throw new Error(`Failed to fetch departments. Status: ${response.status}`);
-            }
-            const data = await response.json();
-            setDepartments(data);
-            setError('');
-        } catch (error) {
-            console.error('Error fetching departments:', error);
-            setError('Unable to load departments. Please try again later.');
-        }
+        return today.toISOString().split('T')[0]; // Format as YYYY-MM-DD
     };
 
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({ ...formData, [name]: value });
-        validateField(name, value); // Validate field as the value changes
+        validateField(name, value);
     };
 
     const handleBlur = (e) => {
         const { name, value } = e.target;
         validateField(name, value);
     };
+
 
     const validateField = (name, value) => {
         let newErrors = { ...errors };
@@ -91,9 +77,10 @@ function Booking({ showModal, handleClose }) {
             case 'gender':
                 newErrors.gender = value ? '' : 'Gender is required';
                 break;
-            case 'departments':
-                newErrors.departmentId = value ? '' : 'Departments is required';
+            case 'departmentId':
+                newErrors.departmentId = value ? '' : 'Department is required';
                 break;
+
             case 'phone':
                 newErrors.phone = value && /^\d{10}$/.test(value) ? '' : 'Valid phone number is required';
                 // newErrors.phone = value ? '' : 'Phone number is required';
@@ -138,6 +125,7 @@ function Booking({ showModal, handleClose }) {
                 email: '',
                 age: '',
                 gender: '',
+                countryCode: '',
                 phone: '',
                 preferredDate: '',
                 departmentId: '',
@@ -245,8 +233,8 @@ function Booking({ showModal, handleClose }) {
                             </div>
 
                             {/* Age and Phone no */}
-                            <div className="d-flex gap-3">
-                                <div className="mb-1 flex-grow-1">
+                            <div className="d-flex gap-3" >
+                                <div className="mb-1 flex-grow-1" style={{ width: '30%' }}>
                                     <input
                                         type="text"
                                         placeholder="Age*"
@@ -259,17 +247,31 @@ function Booking({ showModal, handleClose }) {
                                     {errors.age && <div className="cust-invalid-feedback">{errors.age}</div>}
                                 </div>
 
-                                <div className="mb-1 flex-grow-1">
-                                    <input
-                                        type="tel"
-                                        placeholder="Phone No*"
-                                        name="phone"
-                                        value={formData.phone}
-                                        onChange={handleChange}
-                                        onBlur={handleBlur}
-                                        className={`input ${errors.phone ? 'is-invalid' : ''}`}
-                                    />
-                                    {errors.phone && <div className="cust-invalid-feedback">{errors.phone}</div>}
+                                <div className="d-flex gap-3" style={{ width: '60%' }}>
+                                    <div className="mb-1" style={{ width: '14%' }}>
+                                        <input
+                                            type="text"
+                                            placeholder="+971"
+                                            name="countryCode"
+                                            value={formData.countryCode}
+                                            onChange={handleChange}
+                                            onBlur={handleBlur}
+                                            className={`input ${errors.countryCode ? 'is-invalid' : ''}`}
+                                        />
+                                        {errors.countryCode && <div className="cust-invalid-feedback">{errors.countryCode}</div>}
+                                    </div>
+                                    <div className="mb-1 flex-grow-1">
+                                        <input
+                                            type="tel"
+                                            placeholder="Phone No*"
+                                            name="phone"
+                                            value={formData.phone}
+                                            onChange={handleChange}
+                                            onBlur={handleBlur}
+                                            className={`input ${errors.phone ? 'is-invalid' : ''}`}
+                                        />
+                                        {errors.phone && <div className="cust-invalid-feedback">{errors.phone}</div>}
+                                    </div>
                                 </div>
                             </div>
 
@@ -307,23 +309,17 @@ function Booking({ showModal, handleClose }) {
                             </div>
 
                             {/* Departments */}
-                            <div className='mb-3'>
+                            <div className="mb-3">
                                 <select
                                     name="departmentId"
-                                    defaultValue=""
                                     value={formData.departmentId}
                                     onChange={handleChange}
                                     onBlur={handleBlur}
-                                    className={`input ${errors.gender ? 'is-invalid' : ''}`}
-                                    required
+                                    className={`input ${errors.departmentId ? 'is-invalid' : ''}`}
                                 >
-                                    <option value="" disabled>
-                                        Select Department*
-                                    </option>
-                                    {departments.map((dept) => (
-                                        <option key={dept.id} value={dept.id}>
-                                            {dept.name}
-                                        </option>
+                                    <option value="" disabled>Select Department*</option>
+                                    {departments.map((dept, index) => (
+                                        <option className="" key={index} value={dept}>{dept}</option>
                                     ))}
                                 </select>
                                 {errors.departmentId && <div className="cust-invalid-feedback">{errors.departmentId}</div>}

@@ -60,6 +60,7 @@ export default function Doctors() {
                                   <div className="doctor-specialities">
                                     <p className="">{doctor.designation}</p>
                                   </div>
+                                  <p className=""><strong>{doctor.department}</strong></p>
                                 </div>
                               </div>
                             </div>

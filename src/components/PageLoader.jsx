@@ -22,7 +22,6 @@ const PageLoader = () => {
     <div className="loader-container">
       <div className="logo-wrapper">
         <img src={logo} alt="Logo" className="logo" />
-        {/* <div className="shimmer-effect"></div> */}
       </div>
     </div>
   );
