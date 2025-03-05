@@ -384,23 +384,24 @@ b, strong{
 
 .customContainer {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
+    padding-right: 10px; 
+    padding-left: 10px; 
+    margin-right: auto; 
     margin-left: auto;
-    max-width: 100%;
+    max-width: 95%;  
 }
+
 
 /* Larger screens first to avoid conflicts */
 @media screen and (min-width: 1441px) {
     .customContainer {
-        max-width: 1350px;
+        max-width: 1650px;
     }
 }
 
 @media screen and (min-width: 1351px) and (max-width: 1440px) {
     .customContainer {
-        max-width: 1280px;
+        max-width: 1580px;
     }
 }
 

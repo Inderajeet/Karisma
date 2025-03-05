@@ -405,7 +405,7 @@
                     "type": "banner",
                     "deptName": "Derma",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/depts/derma/banner.png",
+                    "bannerImage": "../assets/Images/banner/dept_banner/derma.png",
                     "bannerPosition": "center"
                 },
                 {
