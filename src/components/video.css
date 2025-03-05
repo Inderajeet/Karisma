@@ -20,7 +20,7 @@
 
 @media (max-width: 768px) {
     .section {
-        background-image: url('./video_mobile.png');
+        background-image: url('./video.png');
     }
 }
 

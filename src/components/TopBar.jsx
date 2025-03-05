@@ -1,13 +1,11 @@
-import SampleHeader2 from "./SampleHead";
-import MobileHeader from "./SampleMobileHead";
-import SampleTabHeader from "./SampleTabHeader";
+import MainMenu from "./MainMenu";
+import MobileMenu from "./MobileMenu";
 
 const TopBar = () => { 
     return(
         <>
-        <SampleHeader2/>
-        {/* <SampleTabHeader/> */}
-        <MobileHeader></MobileHeader>
+        <MainMenu/>
+        <MobileMenu></MobileMenu>
         </>
     );
 }

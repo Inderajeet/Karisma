@@ -179,7 +179,7 @@
                     "description": "Heater machines aren’t a standalone solution but an effective complement to your weight loss strategy. Incorporate them into your routine to maximize calorie burn and enhance your body-sculpting results."
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "description": "Start your journey towards a fitter, more confident you with Heater Therapy at Karisma Specialist Medical Center!"
                 }
             ]
@@ -297,7 +297,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "description": "Rediscover comfort and confidence with Pressotherapy at Karisma Specialist Medical Center—your partner in beauty and wellness."
                 }
             ]
@@ -354,7 +354,7 @@
 
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "description": "Book your consultation today and unlock a healthier, more radiant you."
                 }
             ]
@@ -430,7 +430,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Schedule Your Consultation Today!",
                     "description": "At Karisma Specialist Medical Center, we offer personalized plans to help you achieve your body goals. Book a consultation today and discover how Meso Fat Injections can help you reshape your physique and boost your confidence."
                 }
@@ -508,7 +508,7 @@
                     "description": "Ozempic is a prescription medication and should only be used under the supervision of a qualified physician. This content is for informational purposes and should not replace medical advice. Always consult with your doctor before starting any new treatment."
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Elevate Your Skincare Routine",
                     "description": "Experience the unparalleled caviar and vitamin C for radiant, youthful skin. Book your Karisma Signature Facial (Caviar) at Karisma today!"
                 }
@@ -570,7 +570,7 @@
                     "description": "At Karisma Specialist Medical Center, we are committed to helping you achieve your health and beauty goals. Schedule a consultation today to discuss how IV Drip Therapy can benefit you and explore the tailored options available. Start your journey towards a healthier, more radiant you!"
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Disclaimer",
                     "description": "IV Drip Therapy is not a one-size-fits-all solution. While it offers numerous benefits, it should be combined with a balanced lifestyle, proper nutrition, and self-care. Always consult with our experts to determine the best course of action for your needs."
                 }

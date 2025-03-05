@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import SocialIcons from "./SocialIcons";
 import { fetchAllJson } from "../utils/fetchAllJson"; // Import the utility
 
-const MobileHeader = () => {
+const MobileMenu = () => {
     const { t, i18n } = useTranslation();
     const { lng } = useParams();
     const location = useLocation();
@@ -21,8 +21,8 @@ const MobileHeader = () => {
     const [isSticky, setIsSticky] = useState(false);
     const [lastScrollY, setLastScrollY] = useState(0);
 
-      const [logo, setLogo] = useState(null); 
-    
+    const [logo, setLogo] = useState(null);
+
 
     useEffect(() => {
         document.body.dir = i18n.dir();
@@ -72,26 +72,26 @@ const MobileHeader = () => {
         navigate(newPath);
     };
     useEffect(() => {
-          if (!data || !data.images || !data.images.header) return; // Check if data is loaded
-      
-          const { header } = data.images;
-          // Set initial logo
-          setLogo(header.logo);
-      
-        }, [data]);
-        useEffect(() => {
-          if (!data || !data.images || !data.images.header) return; // Check if data is loaded
-      
-          const { header } = data.images;
-      
-          if(isSticky){
+        if (!data || !data.images || !data.images.header) return; // Check if data is loaded
+
+        const { header } = data.images;
+        // Set initial logo
+        setLogo(header.logo);
+
+    }, [data]);
+    useEffect(() => {
+        if (!data || !data.images || !data.images.header) return; // Check if data is loaded
+
+        const { header } = data.images;
+
+        if (isSticky) {
             setLogo(header.stickyLogo || header.logo); // Use stickyLogo if available, fallback to regular logo
-          }else{
+        } else {
             setLogo(header.logo)
-          }
-      
-        }, [isSticky, data]);
-        
+        }
+
+    }, [isSticky, data]);
+
     const { images } = data;
     const menuItems = t("menuItems", { returnObjects: true }) || []; // Translation for menu items
     if (loading) return;
@@ -112,7 +112,7 @@ const MobileHeader = () => {
     };
 
     const renderSubMenu = (subMenu, parentIndex) => (
-<ul
+        <ul
             className={`mobile-sub-menu ${submenuStates[parentIndex] ? "open" : ""}`}
             style={{ display: submenuStates[parentIndex] ? "block" : "none" }}
         >
@@ -128,23 +128,18 @@ const MobileHeader = () => {
                             }}
                         >
                             {item.label}
+                        </span>
+                        {item.subMenu && (
+                            <span className="menu-icon" onClick={(event) => toggleSubmenu(event, currentIndex)}>
+                                {submenuStates[currentIndex] ? "▼" : "▶"}
                             </span>
-                            {item.subMenu && (
-                                <span className="menu-icon" onClick={(event) => toggleSubmenu(event, currentIndex)}>
-                                    {submenuStates[currentIndex] ? "▼" : "▶"}
-                                </span>
-                            )}
+                        )}
                         {item.subMenu && renderSubMenu(item.subMenu, currentIndex)} {/* Recursive call with correct index */}
                     </li>
                 );
             })}
         </ul>
     );
-
-
-
-
-
 
     return (
         <header className={`mobile-header`}>
@@ -154,7 +149,7 @@ const MobileHeader = () => {
                 <button className="hamburger" onClick={toggleMenu}>
                     ☰
                 </button>
-                <div className="mobile-logo"style={{padding: "11px 0"}}>
+                <div className="mobile-logo" style={{ padding: "11px 0" }}>
                     <Link to={`/${lng}`}>
                         <img
                             src={logo}
@@ -221,4 +216,4 @@ const MobileHeader = () => {
     );
 };
 
-export default MobileHeader;
+export default MobileMenu;

@@ -362,7 +362,7 @@ b, strong{
 .custom-list-item:before {
     content: "-";
     position: absolute;
-    left: 0;
+    left: -14px;
     top: 0;
     color: green;
     font-size: 28px;
@@ -375,7 +375,7 @@ b, strong{
 .custom-list-item{
     margin-bottom: 8px;
     position: relative;
-    padding-left: 25px;
+    padding-left: 15px;
 }
 
 .custsectionStyle {

@@ -475,54 +475,71 @@
             "sections": [
                 {
                     "type": "content",
-                    "title": "Karisma Signature Plus Facial (Cleopatra HydraFacial)"
+                    "title": "هايدرافيشال كاريزما الحصري (كليوباترا هايدرافيشال)"
+                },
+                {
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/skincare/Facial/Damas-Signature-Plus-Facial-(Cleopatra-HydraFacial).png",
+                    "bannerPosition": "center right"
                 },
                 {
                     "type": "content",
-                    "title": "Unveil Radiance Fit for a Queen",
-                    "description": "Indulge in the luxurious Karisma Signature Plus Facial (Cleopatra HydraFacial)—a comprehensive treatment that combines cutting-edge technology and opulent ingredients for complete rejuvenation, brighter skin, and lasting radiance."
+                    "title": "احتضني بشرة الملكات المشرقة",
+                    "description": "استمتعي بالعلاج الفاخر المميز الخاص من كاريزما (كليوباترا هايدرافيشال)، وهو علاج شامل يجمع بين تقنية الهايدرافيشال المتطورة والمكونات الفاخرة لتجديد شباب شامل، وبشرة أكثر إشراقًا، ونضارة تدوم طويلاً."
                 },
                 {
-                    "type": "content",
-                    "title": "A Multi-Step Journey to Perfection",
+                    "type": "color-content",
+                    "title": "رحلة مكونة من عدة خطوات لتحقيق الكمال",
                     "features": [
-                        "Deep Cleanse: Start with a thorough cleansing to remove impurities, leaving a pristine foundation for the transformative treatments ahead.",
-                        "Stem Cell Power: Plant-derived stem cells are applied, offering potential benefits like:",
-                        "Cell Renewal: Stimulates healthy skin cell production for a smoother, revitalized look.",
-                        "Collagen Boost: Enhances collagen levels, improving skin structure and elasticity.",
-                        "Eye Flash Treatment: A focused treatment for the delicate eye area, helping to:",
-                        "Reduce Fine Lines: Smooth out wrinkles for a youthful appearance.",
-                        "Lighten Dark Circles: Improve circulation and brighten under-eye skin.",
-                        "Vitamin C Boost: A potent vitamin C serum brightens and protects, offering:",
-                        "Even Skin Tone: It inhibits melanin production to fade dark spots.",
-                        "Collagen Stimulation: Supports firmer, smoother skin.",
-                        "Antioxidant Defense: Shields against environmental damage.",
-                        "Dermapen Microneedling: This advanced technique creates micro-channels in the skin, enhancing the absorption of active ingredients and stimulating collagen production for a plump, youthful glow."
+                        "التنظيف العميق:  ابدئي بتنظيف عميق لإزالة الشوائب، مما يوفر أساسًا نقيًا للعلاجات الفائقة القادمة.",
+                        {
+                            "title": "قوة الخلايا الجذعية: يتم تطبيق خلايا جذعية نباتية حيوية، مما يوفر فوائد محتملة مثل:",
+                            "items": [
+                                "تجديد الخلايا: يحفز إنتاج خلايا الجلد الصحية للحصول على مظهر أكثر نعومة وتجددًا.",
+                                "تعزيز الكولاجين:  يعزز مستويات الكولاجين، مما يحسن بنية الجلد ومرونته."
+                            ]
+                        },
+                        {
+                            "title": "سيروم آي فلاش للعينين: علاج مُركّز لمنطقة العينين الحساسة، يساعد على:",
+                            "items": [
+                                "تقليل الخطوط الدقيقة:  ينعم التجاعيد للحصول على مظهر أكثر شباباً.",
+                                "تفتيح الهالات السوداء: يحسن الدورة الدموية ويضيء بشرة تحت العينين."
+                            ]
+                        },
+                        {
+                            "title": "تعزيز فيتامين سي: سيرةم فيتامين سي القوي يضيء الجلد ويحمي البشرة ، مما يوفر:",
+                            "items": [
+                                "لون بشرة متجانس: يمنع إنتاج الميلانين ويمحو البقع الداكنة.",
+                                "تحفيز الكولاجين: يدعم بشرة أكثر تماسكًا وأكثر نعومة.",
+                                "الحماية المضادة للأكسدة: يحمي من الأضرار البيئية."
+                            ]
+                        },
+                        "الميكرونيدلينج بالديرما بن: تخلق هذه التقنية المتقدمة قنوات دقيقة في الجلد، مما يعزز امتصاص المكونات النشطة ويحفز إنتاج الكولاجين للحصول على بشرة ممتلئة وشابة."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Tailored Results for Your Unique Needs",
-                    "description": "The Karisma Signature Plus Facial addresses a variety of concerns, making it ideal for:",
+                    "title": "نتائج مُخصّصة لاحتياجاتك الفريدة",
+                    "description": "يعالج هايدرافيشال كاريزما الحصري (كليوباترا هايدرافيشال) مجموعة متنوعة من المشكلات، مما يجعله مثاليًا:",
                     "features": [
-                        "Freshness & Revitalization: Deep clean and restore your skin’s natural glow.",
-                        "Lightening: Reduce dark spots and under-eye circles for a more luminous complexion.",
-                        "Skin Rejuvenation: Boost cell renewal and collagen for youthful, smooth skin.",
-                        "Fine Line Reduction: Minimize wrinkles and promote a firmer, lifted appearance."
+                        "الانتعاش والتجديد: نظّفي بشرتك بعمق واستعيدي توهجها الطبيعي.",
+                        "التفتيح: قللي البقع الداكنة والهالات السوداء تحت العينين للحصول على بشرة أكثر إشراقًا.",
+                        "تجديد شباب البشرة: عزّزي تجديد الخلايا والكولاجين للحصول على بشرة ناعمة وشابة.",
+                        "تقليل الخطوط الدقيقة: قلّلي التجاعيد وعزّزي مظهرًا مشدوداً وأكثر تماسكًا."
+                    ]
+                },
+                {
+                    "type": "color-content",
+                    "title": "الاحتياطات",
+                    "features": [
+                        "الاستشارة: على الرغم من ملاءمته لمعظم أنواع البشرة، سيقوم خبرائنا بتخصيص العلاج وفقًا لاحتياجاتك.",
+                        "نصائح للحوامل والمرضعات:  قد لا تكون بعض العناصر المستخدمة مناسبة للنساء الحوامل أو المرضعات. استشيري فريقنا للحصول على الإرشادات."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Safety & Recommendations",
-                    "features": [
-                        "Consultation Required: While suitable for most skin types, our experts will tailor the treatment to your needs.",
-                        "Pregnancy Advisory: Some elements may not be suitable for pregnant or breastfeeding women. Consult our team for personalized advice."
-                    ]
-                },
-                {
-                    "type": "content",
-                    "title": "Glow Like Royalty",
-                    "description": "Book your Karisma Signature Plus Facial (Cleopatra HydraFacial) at Karisma for an indulgent journey to radiant, youthful skin."
+                    "title": "تألقي كالأميرات!",
+                    "description": "احجزي هايدرافيشال كاريزما الحصري (كليوباترا هايدرافيشال) في مركز كاريزما الطبي التخصصي واستمتعي برحلة فاخرة إلى بشرة مشرقة وشابة."
                 }
             ]
         },
@@ -532,58 +549,62 @@
             "sections": [
                 {
                     "type": "content",
-                    "title": "Detox HydraFacial"
+                    "title": "هايدرافيشال الديتوكس"
                 },
                 {
                     "type": "content",
-                    "title": "Detoxify, Refresh and Renew Naturally",
-                    "description": "The Detox HydraFacial is a powerful yet gentle treatment designed to cleanse, rejuvenate, and restore your skin using the benefits of natural ingredients."
+                    "title": "إزالة السموم، الانتعاش والتجديد بشكل طبيعي",
+                    "description": "هايدرافيشال ديتوكس هو علاج قوي ولكنه لطيف مصمم لتنظيف بشرتك وتجديدها واستعادة نضارتها باستخدام خلاصات النباتات والمواد الطبيعية."
                 },
                 {
                     "type": "card",
                     "cards": [
                         {
-                            "title": "A Deep-Cleaning, Revitalizing Experience",
+                            "title": "تجربة تنظيف وتنشيط عميقين",
                             "features": [
-                                "Deep Cleanse & Exfoliation: Using specialized HydraFacial machines, this step removes impurities like blackheads, whiteheads, excess oil, and dead skin cells, creating a fresh, clean canvas.",
-                                "Green Peel Power: A soothing green peel mask, enriched with natural herbal extracts, provides targeted benefits:",
-                                "Cell Renewal: Stimulates turnover, revealing smoother, brighter skin.",
-                                "Pigmentation Reduction: Lightens dark spots and evens skin tone.",
-                                "Acne Treatment: It clears impurities and helps prevent future breakouts."
+                                "التنظيف العميق والتقشير: باستخدام أجهزة الهايدرافيشال المتطورة، تزيل هذه الخطوة الشوائب مثل الرؤوس السوداء والرؤوس البيضاء والزيوت الزائدة وخلايا الجلد الميتة، مما يخلق بشرة ناعمة نظيفة ومنتعشة.",
+                                {
+                                    "title": "قوة التقشير الأخضر: يوفر قناع التقشير الأخضر المهدئ، الغني بمستخلصات الأعشاب الطبيعية، فوائد متنوعة:",
+                                    "items": [
+                                        "تجديد الخلايا: يحفّز تجدّد الخلايا، ويكشف عن بشرة أكثر نعومة وإشراقًا.",
+                                        "تقليل التصبغ: يفتّح البقع الداكنة ويُوحّد لون البشرة.",
+                                        "علاج حب الشباب: يزيل الشوائب ويساعد على منع ظهور البثور في المستقبل."
+                                    ]
+                                }
                             ]
                         },
                         {
-                            "title": "Ideal Candidates for Detox HydraFacial",
-                            "subtitle": "This treatment benefits individuals with a variety of skin concerns:",
+                            "title": "المرشحون المثاليون لهيدرافشال ديتوكس",
+                            "subtitle": "يفيد هذا العلاج الأفراد الذين يعانون من مجموعة متنوعة من مشاكل البشرة:",
                             "features": [
-                                "Dullness & Uneven Tone: Achieve a refreshed, radiant glow.",
-                                "Hyperpigmentation & Dark Spots: Reduce pigmentation for a more balanced complexion.",
-                                "Acne-Prone Skin: Purify and rejuvenate to minimize blemishes.",
-                                "Natural Skincare Enthusiasts: Enjoy gentle, plant-based exfoliation without harsh chemicals."
+                                "البشرة الباهتة وعدم تناسق اللون: احصلي على بشرة منتعشة ومشرقة.",
+                                "فرط التصبغ والبقع الداكنة: عالجي التصبغات للحصول على بشرة أكثر توازناً.",
+                                "البشرة المعرضة لحب الشباب: تنقية وتجديد البشرة لتقليل البثور.",
+                                "العناية الطبيعية بالبشرة: استمتعي بالتقشير اللطيف النباتي دون مواد كيميائية قاسية."
                             ]
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "How Natural Exfoliation Works",
+                    "title": "كيف يعمل التقشير الأخضر الطبيعي",
                     "features": [
-                        "Plant-Based Enzymes: Loosen and remove dead skin cells for a refined texture.",
-                        "Boosted Circulation: Improves blood flow, delivering essential nutrients for glowing, healthy skin."
+                        "الإنزيمات النباتية: تفكك وتزيل خلايا الجلد الميتة للحصول على ملمس مُحسّن.",
+                        "تحسين الدورة الدموية: يحسّن تدفق الدم، مما يوفر العناصر الغذائية الأساسية لبشرة متوهجة وصحية."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Precautions & Recommendations",
+                    "title": "احتياطات وتوصيات",
                     "features": [
-                        "Consultation Advised: While suitable for most, a personalized consultation ensures the best results for your skin type.",
-                        "Sensitive Skin Alert: Individuals with sensitive skin or allergies to herbal extracts should seek expert advice before booking."
+                        "يُنصح باستشارة: في حين أنه مناسب لمعظم أنواع البشرة، فإن الاستشارة الشخصية تضمن أفضل النتائج لنوع بشرتك.",
+                        "تنبيه للبشرة الحساسة: يجب على الأشخاص ذوي البشرة الحساسة أو الحساسية تجاه مستخلصات الأعشاب طلب المشورة من الخبراء قبل الحجز."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Refresh Your Skin Naturally",
-                    "description": "Book your Detox HydraFacial at Karisma and enjoy a renewed, radiant complexion that feels as fresh as it looks."
+                    "title": "جددي بشرتك بشكل طبيعي",
+                    "description": "احجزي هايدرافيشال ديتوكس في كاريزما واستمتعي ببشرة متجددة ومشرقة لتشعري بالانتعاش الدائم من الداخل والخارج."
                 }
             ]
         },
@@ -593,30 +614,30 @@
             "sections": [
                 {
                     "type": "content",
-                    "title": "Under Eye Facial"
+                    "title": "فيشال تحت العين"
                 },
                 {
                     "type": "content",
-                    "title": "Illuminate and Rejuvenate the Delicate Eye Area",
-                    "description": "The Under Eye Facial is designed to target the unique concerns of the under-eye area, restoring brightness, smoothness, and firmness through a luxurious, multi-step approach."
+                    "title": "أضيئي وجددي منطقة تحت العينين الحساسة",
+                    "description": "تم تصميم  فيشال تحت العين لاستهداف العيوب والمشاكل  في منطقة تحت العين، واستعادة الإشراق والنعومة والتجانس من خلال نهج مركّز ومتعدد الخطوات."
                 },
                 {
                     "type": "card",
                     "cards": [
                         {
-                            "title": "Steps to Radiant Eyes",
+                            "title": "خطوات لمنطقة تحت العين صحيّة ومشرقة:",
                             "features": [
-                                "Gentle Cleansing: The treatment begins with a thorough cleanse, removing makeup and impurities to prepare the skin for enhanced absorption and optimal results.",
-                                "Targeted Rejuvenation",
+                                "التنظيف اللطيف: يبدأ العلاج بتنظيف عميق، لإزالة المكياج والشوائب، وإعداد البشرة لامتصاص مُحسّن ونتائج مثالية.",
+                                "التجديد المستهدف:",
                                 {
-                                    "title": "Dermapen Microneedling: Tiny micro-channels are created to stimulate collagen production and allow deeper penetration of nourishing products.",
+                                    "title": "تقنية الديرمابن: يتم إنشاء قنوات مجهرية لتحفيز إنتاج الكولاجين وتعزيز اختراق المنتجات المغذية بشكل أعمق.",
                                     "items": [
-                                        "Collagen Boost: Promotes firmer, smoother skin by triggering the body’s natural healing response.",
-                                        "Enhanced Product Absorption: Maximizes the effectiveness of the active ingredients in the treatment."
+                                        "تعزيز الكولاجين: يعزز استجابة الشفاء الطبيعية للجسم، مما يعزز إنتاج الكولاجين وتجدّد الخلايا.",
+                                        "امتصاص محسّن: يعزز الامتصاص مما يزيد من فعالية المكونات النشطة في العلاج."
                                     ]
                                 },
                                 {
-                                    "title": "Eye Flash Ampoule: This advanced serum, enriched with hyaluronic acid and peptides, provides intense hydration and revitalization.",
+                                    "title": "أمبول آي فلاش لتحت العين:  This advanced serum, enriched with hyaluronic acid and peptides, provides intense hydration and revitalization.",
                                     "items": [
                                         "Deep Hydration: Hyaluronic acid locks in moisture, reducing dryness and fine lines.",
                                         "Peptide Power: Stimulates cell renewal and collagen production, improving firmness and brightness."

@@ -136,6 +136,11 @@
           "description": "At Karisma Specialist Medical Center, we’re dedicated to providing a safe, comfortable, and successful filler treatment experience. Our expert team of dermatologists uses advanced techniques and high-quality products to ensure your satisfaction."
         },
         {
+          "type": "sub-heading-content-last",
+          "title": "Schedule a Consultation Today!",
+          "description": "Discover how dermal fillers can enhance your natural beauty and restore your youthful radiance. Contact Karisma Specialist Medical Center to book your consultation, and let us guide you through the world of dermal fillers with a personalized approach tailored to your needs!"
+        },
+        {
           "type": "color-heading",
           "title": "Let us help you redefine beauty on your terms. Schedule your consultation today!"
         },
@@ -161,12 +166,7 @@
           ]
         },
         {
-          "type": "cont-content",
-          "title": "Schedule a Consultation Today!",
-          "description": "Discover how dermal fillers can enhance your natural beauty and restore your youthful radiance. Contact Karisma Specialist Medical Center to book your consultation, and let us guide you through the world of dermal fillers with a personalized approach tailored to your needs!"
-        },
-        {
-          "type": "cont-content-last",
+          "type": "content",
           "title": "Our Doctors",
           "description": ""
         },
@@ -537,6 +537,11 @@
           ]
         },
         {
+          "type": "sub-heading-content-last",
+          "title": "Achieve Radiant, Scar-Free Skin at Karisma",
+          "description": "Contact Karisma Specialist Medical Center today to schedule your consultation and discover how subcision can help you achieve smoother, more confident skin. Let us help you feel your best!"
+        },
+        {
           "type": "color-heading",
           "title": "Experience the Revolutionary Benefits of Non-Surgical Thread Lifts at Karisma Specialist Medical Center!"
         },
@@ -562,12 +567,7 @@
           ]
         },
         {
-          "type": "cont-content",
-          "title": "Achieve Radiant, Scar-Free Skin at Karisma",
-          "description": "Contact Karisma Specialist Medical Center today to schedule your consultation and discover how subcision can help you achieve smoother, more confident skin. Let us help you feel your best!"
-        },
-        {
-          "type": "cont-content-last",
+          "type": "content",
           "title": "Our Doctors",
           "description": ""
         },

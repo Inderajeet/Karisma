@@ -1273,7 +1273,7 @@
                     "type": "banner",
                     "deptName": "Dental",
                     "serviceName": "Hollywood Smile (Veneers)",
-                    "bannerImage": "../assets/Images/depts/dental/hollywood-smile/banner.png",
+                    "bannerImage": "../assets/Images/banner/dept_banner/dental.png",
                     "bannerPosition": "right"
                 },
                 {

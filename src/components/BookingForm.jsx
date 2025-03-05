@@ -48,8 +48,22 @@ function Booking({ showModal, handleClose }) {
 
     const handleChange = (e) => {
         const { name, value } = e.target;
-        setFormData({ ...formData, [name]: value });
-        validateField(name, value);
+        let updatedValue = value;
+
+        if (name === "phone") {
+            updatedValue = value.replace(/\D/g, "").slice(0, 15); // Allow only numbers & limit to 15 digits
+        }
+        else if (name === "countryCode") {
+            updatedValue = value.replace(/[^+\d]/g, ""); // Allow only "+" and numbers
+        }
+        else if (name === "age") {
+            updatedValue = value.replace(/[^+\d]/g, ""); // Allow only "+" and numbers
+        }
+        else if (name === "name") {
+            updatedValue = value.replace(/[^A-Za-z.\s]/g, ""); // Allow only alphabets, spaces, and dots
+        }
+        setFormData({ ...formData, [name]: updatedValue });
+        validateField(name, updatedValue);
     };
 
     const handleBlur = (e) => {
@@ -63,13 +77,22 @@ function Booking({ showModal, handleClose }) {
 
         switch (name) {
             case 'name':
-                newErrors.name = value.trim() ? '' : 'Name is required';
+                if (!value.trim()) {
+                    newErrors.name = 'Name is required';
+                } else if (!/^[A-Za-z\s.]+$/.test(value)) {
+                    newErrors.name = 'Name should only contain alphabets';
+                } else {
+                    newErrors.name = '';
+                }
                 break;
             case 'email':
-                newErrors.email =
-                    value.trim() && /^\S+@\S+\.\S+$/.test(value)
-                        ? ''
-                        : 'Valid email is required';
+                if (!value.trim()) {
+                    newErrors.email = 'Email is required';
+                } else if (!/^\S+@\S+\.\S+$/.test(value)) {
+                    newErrors.email = 'Invalid email format';
+                } else {
+                    newErrors.email = '';
+                }
                 break;
             case 'age':
                 newErrors.age = value && !isNaN(value) && value > 0 ? '' : 'Valid age is required';
@@ -80,10 +103,14 @@ function Booking({ showModal, handleClose }) {
             case 'departmentId':
                 newErrors.departmentId = value ? '' : 'Department is required';
                 break;
-
             case 'phone':
-                newErrors.phone = value && /^\d{10}$/.test(value) ? '' : 'Valid phone number is required';
-                // newErrors.phone = value ? '' : 'Phone number is required';
+                if (!value.trim()) {
+                    newErrors.phone = 'Phone number is required';
+                } else if (!/^\d{10,15}$/.test(value)) {
+                    newErrors.phone = 'Phone number not valid';
+                } else {
+                    newErrors.phone = '';
+                }
                 break;
             case 'preferredDate':
                 newErrors.preferredDate = value ? '' : 'Date is required';
@@ -95,26 +122,35 @@ function Booking({ showModal, handleClose }) {
         setErrors(newErrors);
     };
 
-    const validate = () => {
-        let newErrors = {};
-        if (!formData.name.trim()) newErrors.name = 'Name is required';
-        if (!formData.email.trim() || !/^\S+@\S+\.\S+$/.test(formData.email)) newErrors.email = 'Valid email is required';
-        if (!formData.age || isNaN(formData.age) || formData.age <= 0) newErrors.age = 'Valid age is required';
-        if (!formData.gender) newErrors.gender = 'Gender is required';
-        if (!formData.departmentId) newErrors.departmentId = 'Deparment is required';
-        if (!formData.phone || !/^\d{10}$/.test(formData.phone)) newErrors.phone = 'Valid phone number is required';
-        if (!formData.preferredDate) newErrors.preferredDate = 'Date is required';
+    const submitBooking = async (e) => {
+        e.preventDefault();
+        console.log('submitBooking function called');
+
+        const newErrors = {};
+        let hasErrors = false;
+
+        Object.keys(formData).forEach((field) => {
+            const value = formData[field];
+            validateField(field, value); // Validate field
+            console.log(`Field: ${field}, Value: ${value}, Errors:`, errors[field]);
+
+            if (errors[field]) { // Check for validation errors only
+                newErrors[field] = errors[field];
+                hasErrors = true;
+            }
+        });
 
         setErrors(newErrors);
-        return Object.keys(newErrors).length === 0;
-    };
-    const submitBooking = async (e) => {
-        if (!validate()) return;
-        e.preventDefault();
-        setFormLoading(true); // Start loader for submission
+        console.log("NewErrors:", newErrors);
+
+        if (hasErrors) {
+            console.log("Validation Errors Found");
+            return; // Stop submission if there are errors
+        }
+
+        setFormLoading(true);
         try {
             const response = await axios.post('https://dental.dmaksolutions.com/api/book-appointment', {
-                // const response = await axios.post('http://localhost:5000/api/book-appointment', {
                 ...formData,
             });
 
@@ -136,11 +172,9 @@ function Booking({ showModal, handleClose }) {
             console.error('Error booking appointment:', error);
             setError('Unable to book appointment. Please try again later.');
         } finally {
-            setFormLoading(false); // End loader for submission
+            setFormLoading(false);
         }
-
     };
-
     const closeModal = () => {
         setError(''); // Clear errors when modal is closed
         setSuccess(''); // Clear success state
@@ -236,6 +270,7 @@ function Booking({ showModal, handleClose }) {
                             <div className="d-flex gap-3" >
                                 <div className="mb-1 flex-grow-1" style={{ width: '30%' }}>
                                     <input
+                                        maxLength={3}
                                         type="text"
                                         placeholder="Age*"
                                         name="age"
@@ -250,6 +285,7 @@ function Booking({ showModal, handleClose }) {
                                 <div className="d-flex gap-3" style={{ width: '60%' }}>
                                     <div className="mb-1" style={{ width: '14%' }}>
                                         <input
+                                            maxLength={4}
                                             type="text"
                                             placeholder="+971"
                                             name="countryCode"
@@ -258,11 +294,12 @@ function Booking({ showModal, handleClose }) {
                                             onBlur={handleBlur}
                                             className={`input ${errors.countryCode ? 'is-invalid' : ''}`}
                                         />
-                                        {errors.countryCode && <div className="cust-invalid-feedback">{errors.countryCode}</div>}
+                                        {/* {errors.countryCode && <div className="cust-invalid-feedback">{errors.countryCode}</div>} */}
                                     </div>
                                     <div className="mb-1 flex-grow-1">
                                         <input
                                             type="tel"
+                                            maxLength={15}
                                             placeholder="Phone No*"
                                             name="phone"
                                             value={formData.phone}

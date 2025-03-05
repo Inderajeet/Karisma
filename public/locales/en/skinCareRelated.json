@@ -62,7 +62,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Achieve Radiant, Healthy Skin",
                     "description": "Book your consultation at Karisma today, and let our experts help you achieve your skincare goals with a customized HydraFacial experience."
                 }
@@ -127,7 +127,7 @@
                     "description": "While HydraFacial Clear Skin is safe for most skin types, we recommend consulting our skin care experts to assess the best treatment for your needs and determine suitability."
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Reveal Clear, Smooth Skin",
                     "description": "Book your HydraFacial Clear Skin session today and let our specialists help you achieve a blemish-free, radiant complexion."
                 }
@@ -178,7 +178,7 @@
                     "description": "While safe for most skin types, we recommend a consultation to ensure the Magic Facial aligns with your skincare needs."
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Embrace Natural Elegance",
                     "description": "Step into a world of gentle transformation. Schedule your Magic Facial at Karisma and unlock the secret to glowing, healthy skin."
                 }
@@ -296,7 +296,7 @@
                     "description": "While suitable for most, we recommend consulting with our skincare experts to determine the best approach for your skin type."
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Embrace Radiance and Comfort",
                     "description": "Book your Dry Skin HydraFacial at Karisma today and experience deep hydration and rejuvenation tailored to your skin’s needs!"
                 }
@@ -438,7 +438,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Achieve Radiant, Even Skin",
                     "description": "Discover the path to glowing, brighter skin with the Whitening HydraFacial at Karisma. Book your appointment today and experience the transformation!"
                 }
@@ -504,7 +504,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Elevate Your Skincare Routine",
                     "description": "Experience the unparalleled caviar and vitamin C for radiant, youthful skin. Book your Karisma Signature Facial (Caviar) at Karisma today!"
                 }
@@ -533,16 +533,28 @@
                     "title": "A Multi-Step Journey to Perfection",
                     "features": [
                         "Deep Cleanse: Start with a thorough cleansing to remove impurities, leaving a pristine foundation for the transformative treatments ahead.",
-                        "Stem Cell Power: Plant-derived stem cells are applied, offering potential benefits like:",
-                        "Cell Renewal: Stimulates healthy skin cell production for a smoother, revitalized look.",
-                        "Collagen Boost: Enhances collagen levels, improving skin structure and elasticity.",
-                        "Eye Flash Treatment: A focused treatment for the delicate eye area, helping to:",
-                        "Reduce Fine Lines: Smooth out wrinkles for a youthful appearance.",
-                        "Lighten Dark Circles: Improve circulation and brighten under-eye skin.",
-                        "Vitamin C Boost: A potent vitamin C serum brightens and protects, offering:",
-                        "Even Skin Tone: It inhibits melanin production to fade dark spots.",
-                        "Collagen Stimulation: Supports firmer, smoother skin.",
-                        "Antioxidant Defense: Shields against environmental damage.",
+                        {
+                            "title": "Stem Cell Power: Plant-derived stem cells are applied, offering potential benefits like:",
+                            "items": [
+                                "Cell Renewal: Stimulates healthy skin cell production for a smoother, revitalized look.",
+                                "Collagen Boost: Enhances collagen levels, improving skin structure and elasticity."
+                            ]
+                        },
+                        {
+                            "title": "Eye Flash Treatment: A focused treatment for the delicate eye area, helping to:",
+                            "items": [
+                                "Reduce Fine Lines: Smooth out wrinkles for a youthful appearance.",
+                                "Lighten Dark Circles: Improve circulation and brighten under-eye skin."
+                            ]
+                        },
+                        {
+                            "title": "Vitamin C Boost: A potent vitamin C serum brightens and protects, offering:",
+                            "items": [
+                                "Even Skin Tone: It inhibits melanin production to fade dark spots.",
+                                "Collagen Stimulation: Supports firmer, smoother skin.",
+                                "Antioxidant Defense: Shields against environmental damage."
+                            ]
+                        },
                         "Dermapen Microneedling: This advanced technique creates micro-channels in the skin, enhancing the absorption of active ingredients and stimulating collagen production for a plump, youthful glow."
                     ]
                 },
@@ -566,7 +578,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Glow Like Royalty",
                     "description": "Book your Karisma Signature Plus Facial (Cleopatra HydraFacial) at Karisma for an indulgent journey to radiant, youthful skin."
                 }
@@ -581,12 +593,7 @@
                     "title": "Detox HydraFacial"
                 },
                 {
-                    "type": "banner",
-                    "bannerImage": "../assets/Images/depts/skincare/Facial/Detox-HydraFacial.png",
-                    "bannerPosition": "center right"
-                },
-                {
-                    "type": "cont-content",
+                    "type": "content",
                     "title": "Detoxify, Refresh and Renew Naturally",
                     "description": "The Detox HydraFacial is a powerful yet gentle treatment designed to cleanse, rejuvenate, and restore your skin using the benefits of natural ingredients."
                 },
@@ -597,10 +604,14 @@
                             "title": "A Deep-Cleaning, Revitalizing Experience",
                             "features": [
                                 "Deep Cleanse & Exfoliation: Using specialized HydraFacial machines, this step removes impurities like blackheads, whiteheads, excess oil, and dead skin cells, creating a fresh, clean canvas.",
-                                "Green Peel Power: A soothing green peel mask, enriched with natural herbal extracts, provides targeted benefits:",
-                                "Cell Renewal: Stimulates turnover, revealing smoother, brighter skin.",
-                                "Pigmentation Reduction: Lightens dark spots and evens skin tone.",
-                                "Acne Treatment: It clears impurities and helps prevent future breakouts."
+                                {
+                                    "title": "Green Peel Power: A soothing green peel mask, enriched with natural herbal extracts, provides targeted benefits:",
+                                    "items": [
+                                        "Cell Renewal: Stimulates turnover, revealing smoother, brighter skin.",
+                                        "Pigmentation Reduction: Lightens dark spots and evens skin tone.",
+                                        "Acne Treatment: It clears impurities and helps prevent future breakouts."
+                                    ]
+                                }
                             ]
                         },
                         {
@@ -616,7 +627,7 @@
                     ]
                 },
                 {
-                    "type": "cont-content-last",
+                    "type": "content",
                     "title": "How Natural Exfoliation Works",
                     "features": [
                         "Plant-Based Enzymes: Loosen and remove dead skin cells for a refined texture.",
@@ -624,7 +635,7 @@
                     ]
                 },
                 {
-                    "type": "color-content",
+                    "type": "content",
                     "title": "Precautions & Recommendations",
                     "features": [
                         "Consultation Advised: While suitable for most, a personalized consultation ensures the best results for your skin type.",
@@ -632,7 +643,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Refresh Your Skin Naturally",
                     "description": "Book your Detox HydraFacial at Karisma and enjoy a renewed, radiant complexion that feels as fresh as it looks."
                 }
@@ -767,18 +778,21 @@
                     ]
                 },
                 {
-                    "type": "Treatment Duration",
+                    "type": "color-content",
+                    "title": "Treatment Duration",
                     "description": "The Platinum HydraFacial provides a complete treatment experience in approximately 45 minutes."
                 },
                 {
-                    "type": "Precautions",
+                    "type": "content",
+                    "title": "Precautions",
                     "description": "While safe for most skin types, we recommend a consultation with our skincare experts to discuss your unique needs and suitability. Pregnant and breastfeeding women may need to avoid certain aspects of the treatment (please consult with our experts for more details).",
                     "features": [
                         "Note: This treatment does not include lymphatic drainage."
                     ]
                 },
                 {
-                    "type": "Experience the Ultimate in Skin Rejuvenation",
+                    "type": "color-content",
+                    "title": "Experience the Ultimate in Skin Rejuvenation",
                     "description": "Book your Platinum HydraFacial today at Karisma Specialist Medical Center and unlock the secret to radiant, youthful skin."
                 }
             ]
@@ -995,7 +1009,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Glow Beyond Limits",
                     "description": "Elevate your skincare routine with LED Light Therapy at Karisma Specialist Medical Center. Illuminate your skin’s full potential with this innovative, light-powered treatment."
                 }
@@ -1149,7 +1163,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Glow Beyond Limits",
                     "description": "Unlock the secret to flawless skin with the PINK SHOOTER Facial at Karisma. Schedule your consultation today and take the first step toward a more radiant, youthful complexion."
                 }
@@ -1219,7 +1233,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Treat Yourself to Delicious Skincare",
                     "description": "Experience the ultimate indulgence with the Chocolate Facial at Karisma. Schedule your consultation today and let your skin bask in the luxurious nourishment it deserves."
                 }
@@ -1453,7 +1467,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Glow with Confidence",
                     "description": "Reclaim your skin’s natural beauty with Salicylic Acid Peeling at Karisma. Book a consultation today and let our experts design a personalized plan to help you achieve a clear, radiant complexion."
                 }
@@ -1520,7 +1534,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Unlock the Natural Beauty of Your Skin",
                     "description": "Ready to experience the rejuvenating power of the Green Peel? Schedule a consultation at Karisma today and let us help you reveal your skin’s true radiance naturally."
                 }
@@ -1653,7 +1667,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Experience Meso Face",
                     "description": "Book a consultation at Karisma Specialist Medical Centertoday and discover the revitalizing benefits of Mesotherapy for Face—a personalized, non-invasive treatment that enhances your skin's natural beauty."
                 }
@@ -1796,7 +1810,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Experience Mesotherapy for Open Pores & Acne Scars",
                     "description": "Book your consultation at Karisma Specialist Medical Centertoday and discover how Mesotherapy can transform your skin, helping you achieve a clearer, smoother complexion."
                 }
@@ -1872,7 +1886,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Experience TPRX Mesotherapy at Karisma Specialist Medical Center",
                     "description": "Book your consultation today to discover how TPRX Mesotherapy can rejuvenate your skin, leaving you with a smooth, youthful, and radiant complexion."
                 }
@@ -1962,7 +1976,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Experience Mesolifting at Karisma Specialist Medical Center",
                     "description": "Book your consultation today to discover how Mesolifting can reinvigorate your complexion, restoring firmness, brightness, and a youthful glow."
                 }

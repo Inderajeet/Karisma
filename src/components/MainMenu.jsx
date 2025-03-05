@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import SocialIcons from "./SocialIcons";
 import { fetchAllJson } from "../utils/fetchAllJson"; // Import the utility
 
-const SampleHeader2 = () => {
+const MainMenu = () => {
   const { t, i18n } = useTranslation();
   const { lng } = useParams();
   const location = useLocation();
@@ -193,4 +193,4 @@ const SampleHeader2 = () => {
   );
 };
 
-export default SampleHeader2;
+export default MainMenu;

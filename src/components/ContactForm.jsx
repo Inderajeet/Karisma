@@ -18,11 +18,25 @@ export default function ContactForm() {
 
     const handleChange = (e) => {
         const { name, value } = e.target;
+
+        let updatedValue = value;
+
+        if (name === "phone") {
+            updatedValue = value.replace(/\D/g, "").slice(0, 15); // Allow only numbers & limit to 15 digits
+        }
+        else if (name === "countryCode") {
+            updatedValue = value.replace(/[^+\d]/g, ""); // Allow only "+" and numbers
+        }
+        else if (name === "name") {
+            updatedValue = value.replace(/[^A-Za-z.\s]/g, ""); // Allow only alphabets, spaces, and dots
+        }
+
         setFormData((prevData) => ({
             ...prevData,
-            [name]: value,
+            [name]: updatedValue,
         }));
-        validateField(name, value);
+
+        validateField(name, updatedValue);
     };
 
     const validateField = (name, value) => {
@@ -50,7 +64,7 @@ export default function ContactForm() {
             case 'phone':
                 if (!value.trim()) {
                     newErrors.phone = 'Phone number is required';
-                } else if (!/^\d+$/.test(value)) {
+                } else if (!/^\d{10,15}$/.test(value)) {
                     newErrors.phone = 'Phone number not valid';
                 } else {
                     newErrors.phone = '';
@@ -78,26 +92,34 @@ export default function ContactForm() {
     const handleSubmit = async (e) => {
         e.preventDefault();
     
-        // Validate all fields and collect errors
         const newErrors = {};
         let hasErrors = false;
     
-        // Validate each field and collect errors
         Object.keys(formData).forEach((field) => {
             const value = formData[field];
-            validateField(field, value); // Validate field
-            if (!value.trim() && field !== "contactType" && field !== "countryCode") { // Ensure empty fields show error
+            validateField(field, value); // Run validation
+    
+            if (!value.trim() && field !== "contactType" && field !== "countryCode") { // Check for empty fields
                 newErrors[field] = `${field.charAt(0).toUpperCase() + field.slice(1)} is required`;
+                hasErrors = true;
+            }
+    
+            if (errors[field]) { // Check for validation errors
+                newErrors[field] = errors[field];
                 hasErrors = true;
             }
         });
     
-        setErrors(newErrors); // Set all errors at once
-    
-        if (hasErrors) {
-            return; // Stop submission if there are errors
-        }
+        setErrors(newErrors);
+    console.log("NewErrors:", newErrors);
+    console.log('Current Errors State:', errors);
 
+    if (hasErrors) {
+        console.log("Validation Errors Found");
+        return;
+    }
+
+    
         setIsSubmitting(true);
         try {
             const response = await fetch('https://dental.dmaksolutions.com/api/contact', {
@@ -114,7 +136,7 @@ export default function ContactForm() {
                 setFormData({
                     name: '',
                     email: '',
-                    countryCode: '+1',
+                    countryCode: '',
                     phone: '',
                     message: '',
                     contactType: 'Enquiry',
@@ -136,6 +158,7 @@ export default function ContactForm() {
         setIsSubmitting(false);
     };
     
+
 
     return (
         <>
@@ -230,7 +253,7 @@ export default function ContactForm() {
                                                     {errors.name && <span className="error-text">{errors.name}</span>}
                                                 </p>
                                             </div>
-                                            <div className="col-md-6 pr-2" style={{width:"45%"}}>
+                                            <div className="col-md-6 pr-2" style={{ width: "45%" }}>
                                                 <p>
                                                     <input
                                                         size={40}
@@ -242,17 +265,17 @@ export default function ContactForm() {
                                                         value={formData.email}
                                                         onChange={handleChange}
                                                         onBlur={handleBlur}
-                                                        type="email"
+                                                        type="text"
                                                         name="email"
                                                     />
                                                     {errors.email && <span className="error-text">{errors.email}</span>}
                                                 </p>
                                             </div>
-                                            <div className="col-md-6 pl-3 d-flex gap-3" style={{display: 'flex', width:"55%"}}>
-                                                <p style={{width: '21%'}}>
+                                            <div className="col-md-6 pl-3 d-flex gap-3" style={{ display: 'flex', width: "55%" }}>
+                                                <p style={{ width: '21%' }}>
                                                     <input
                                                         size={40}
-                                                        maxLength={400}
+                                                        maxLength={4}
                                                         className="cust-form-control cust-tel"
                                                         aria-required="true"
                                                         aria-invalid="false"
@@ -264,10 +287,11 @@ export default function ContactForm() {
                                                         name="countryCode"
                                                     />
                                                 </p>
-                                                <p style={{width: '79%'}}>
+                                                <p style={{ width: '79%' }}>
                                                     <input
                                                         size={40}
-                                                        maxLength={400}
+                                                        maxLength={15}
+                                                        // maxLength={400}
                                                         className="cust-form-control cust-tel"
                                                         aria-required="true"
                                                         aria-invalid="false"
