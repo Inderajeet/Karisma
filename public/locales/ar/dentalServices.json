@@ -1262,123 +1262,115 @@
             "sections": [
                 {
                     "type": "banner",
-                    "deptName": "Dental",
-                    "serviceName": "Hollywood Smile (Veneers)",
-                    "bannerImage": "../assets/Images/depts/dental/hollywood-smile/banner.png"
+                    "deptName": "طب الأسنان",
+                    "serviceName": "ابتسامة هوليوود (الفينير)",
+                    "bannerImage": "../assets/Images/depts/dental/hollywood-smile/banner.png",
+                    "bannerPosition": "right"
                 },
                 {
                     "type": "image-content",
                     "imageUrl": "../assets/Images/depts/dental/hollywood-smile/body-image.png",
-                    "imageAlt": "Hollywood Smile (Veneers)",
-                    "title": "Hollywood Smile (Veneers)",
+                    "imageAlt": "ابتسامة هوليوود (الفينير)",
+                    "title": "ابتسامة هوليوود (الفينير)",
                     "content": [
                         {
                             "type": "heading",
-                            "text": "Veneers in UAE | Hollywood Smile Transformation at Karisma Specialist Medical Center"
+                            "text": "الفينير في الإمارات | صياغة ابتسامة هوليوود في مركز كاريزما الطبي التخصصي"
                         },
                         {
                             "type": "heading",
-                            "text": "Your Smile, Perfected"
+                            "text": "ابتسامتك، بأجمل حلة"
                         },
                         {
                             "type": "paragraph",
-                            "text": "Your smile is your signature, radiating charm, confidence, and charisma. At Karisma Specialist Medical Center, located in the heart of UAE, we specialize in crafting stunning, custom veneers to elevate your smile to new heights. Whether you're seeking a subtle enhancement or a show-stopping Hollywood smile, our advanced techniques and meticulous attention to detail ensure exceptional results tailored to your unique style."
+                            "text": "ابتسامتك هي علامتك الفريدة التي تعكس السحر والثقة والكاريزما. في مركز كاريزما الطبي التخصصي، الواقع في قلب الإمارات، نحن متخصصون في صناعة الفينير المخصص ليمنحك ابتسامة مذهلة. سواء كنت تبحث عن تحسين بسيط أو ابتسامة هوليوود متكاملة، فإن تقنياتنا المتقدمة واهتمامنا بأدق التفاصيل تضمن لك نتائج رائعة تتناسب مع ذوقك الفريد."
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "What Are Veneers?",
-                    "description": "Veneers are ultra-thin, custom-crafted shells made from high-quality, tooth-colored materials. This transformative cosmetic treatment is designed to address a variety of dental concerns, including:",
+                    "title": "ما هو الفينير؟",
+                    "description": "الفينير هو قشرة رقيقة للغاية مصنوعة خصيصًا من مواد عالية الجودة بلون الأسنان. وهو علاج تجميلي مثالي لمجموعة من مشاكل الأسنان، مثل:",
                     "features": [
-                        "Chips and Cracks: Conceal minor imperfections for a smooth, polished look.",
-                        "Discoloration: Cover stains or natural discoloration for a brighter smile.",
-                        "Uneven Spacing or Gaps: Achieve symmetry by closing gaps and correcting irregularities.",
-                        "Worn-Down Teeth: Restore the natural shape and structure of teeth affected by wear over time."
+                        "الشقوق والتصدعات: إخفاء العيوب الطفيفة للحصول على أسنان ملساء ومتناسقة.",
+                        "التصبغات: تغطية البقع والتصبغات الطبيعية للحصول على ابتسامة أكثر إشراقًا.",
+                        "عدم تناسق الأسنان أو الفراغات: تحقيق تناسق مثالي عبر سد الفراغات وتصحيح الاختلالات.",
+                        "الأسنان المتآكلة: استعادة الشكل الطبيعي للأسنان التي تعرضت للتآكل مع مرور الزمن."
                     ]
                 },
                 {
-                    "type": "content",
-                    "title": "The Karisma Touch",
-                    "description": "At Karisma Specialist Medical Center, artistry meets innovation. We combine cutting-edge technology with expert craftsmanship to deliver veneers that enhance your natural beauty and reflect your personal taste. With a legacy of excellence and mastery in veneer technology, we bring world-class smile transformations to UAE, helping you radiate confidence and timeless beauty."
+                    "type": "color-content",
+                    "title": "لمسة كاريزما",
+                    "description": "في مركز كاريزما الطبي التخصصي، ندمج بين الفن والابتكار. باستخدام أحدث التقنيات وخبرة متقدمة، نقدم لك فينيرًا يعزز جمال ابتسامتك بشكل طبيعي ويتناسب مع ذوقك الشخصي."
                 },
                 {
-                    "type": "color-content",
-                    "title": "Explore Our Veneer Options",
-                    "description": "We offer a range of veneer solutions to suit your preferences:"
+                    "type": "content",
+                    "title": "لماذا تختار مركز كاريزما الطبي التخصصي للفينير في الإمارات؟",
+                    "features": [
+                        "إرث من التميز: مع أكثر من 40,000 إجراء ناجح للفينير، نحن رواد في تجميل الابتسامة.",
+                        "رعاية مخصصة: نضمن أن كل تفصيل في علاجك يعكس أهدافك الشخصية.",
+                        "تقنيات متطورة: نستخدم أحدث الأجهزة للحصول على نتائج مذهلة بأقل قدر من الانزعاج.",
+                        "خدمة متكاملة: من الاستشارة حتى المتابعة، نرشدك خلال رحلتك نحو ابتسامة مثالية."
+                    ]
+                },
+                {
+                    "type": "color-heading",
+                    "title": "استكشف خيارات الفينير لدينا",
+                    "description": "نوفر لك مجموعة متنوعة من حلول الفينير لتناسب احتياجاتك:"
                 },
                 {
                     "type": "list-services-noImage",
                     "listServices": [
                         {
                             "id": 1,
-                            "name": "E-Max Veneer 6D",
+                            "name": "فينير E-Max 6D",
                             "image": "../assets/Images/banner/about_dept/dental.png",
                             "link": "dental/hollywood-smile-veneers",
-                            "readMore": "Read More",
-                            "designation": "Crafted from premium German ceramics, E-Max veneers offer exceptional durability and aesthetic appeal."
+                            "readMore": "اقرأ المزيد",
+                            "designation": "مصنوع من السيراميك الألماني عالي الجودة، مما يوفر متانة ومظهرًا رائعًا."
                         },
                         {
                             "id": 2,
-                            "name": "Zircon Veneer",
+                            "name": "فينير زيركون",
                             "image": "../assets/Images/banner/about_dept/dental.png",
                             "link": "dental/hollywood-smile-veneers",
-                            "readMore": "Read More",
-                            "designation": "Combining German materials with American innovation, these veneers deliver precision, durability, and artistry."
+                            "readMore": "اقرأ المزيد",
+                            "designation": "يجمع بين المواد الألمانية والابتكار الأمريكي، مما يوفر دقة فائقة وجمال طبيعي."
                         },
                         {
                             "id": 3,
-                            "name": "Zircon Snow White Veneer",
+                            "name": "فينير زيركون الأبيض الناصع",
                             "image": "../assets/Images/banner/about_dept/dental.png",
                             "link": "dental/hollywood-smile-veneers",
-                            "readMore": "Read More",
-                            "designation": "Experience unmatched brilliance with these revolutionary veneers, designed for captivating smiles."
+                            "readMore": "اقرأ المزيد",
+                            "designation": "استمتع بابتسامة براقة بفضل هذه القشرة الثورية المصممة للحصول على مظهر مذهل."
                         },
                         {
                             "id": 4,
-                            "name": "Diamond Cut",
+                            "name": "فينير دياموند كت",
                             "image": "../assets/Images/banner/about_dept/dental.png",
                             "link": "dental/hollywood-smile-veneers",
-                            "readMore": "Read More",
-                            "designation": "Durable and stunning, these veneers provide a flawless, natural appearance for a smile that lasts."
+                            "readMore": "اقرأ المزيد",
+                            "designation": "قشرة متينة وطبيعية تمنحك ابتسامة تدوم طويلاً."
                         },
                         {
                             "id": 5,
-                            "name": "Solitaire Smile",
+                            "name": "فينير سوليتير سمايل",
                             "image": "../assets/Images/banner/about_dept/dental.png",
                             "link": "dental/hollywood-smile-veneers",
-                            "readMore": "Read More",
-                            "designation": "Push the boundaries of modern dentistry with translucent, durable veneers for a dazzling finish."
+                            "readMore": "اقرأ المزيد",
+                            "designation": "قشرة شفافة ومتينة تمنحك إشراقة طبيعية لا مثيل لها."
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Why Choose Karisma Specialist Medical Center for Your Veneers in UAE?",
-                    "features": [
-                        "A Legacy of Excellence: With over 40,000 successful veneer procedures, we are trusted leaders in smile transformations.",
-                        "Tailored Care: Our personalized approach ensures that every aspect of your treatment meets your unique goals.",
-                        "Cutting-Edge Technology: We use the latest equipment to deliver outstanding results with minimal discomfort.",
-                        "Comprehensive Service: From consultation to post-treatment care, we guide you every step of the way."
-                    ]
-                },
-                {
-                    "type": "content",
-                    "title": "Book Your Exclusive Consultation",
-                    "description": "Transform your smile today at Karisma Specialist Medical Center, UAE. Schedule your personalized consultation to explore our premium veneer options and let our expert team craft a smile that reflects your confidence and beauty.",
-                    "features": [
-                        "Location: Al Raha Walk, Al Muntazah Street, Sharjah",
-                        "Contact: +971 06 506 8777"
-                    ]
-                },
-                {
-                    "type": "content",
-                    "title": "Meet Our Dental Experts",
-                    "description": "Our skilled team includes some of UAE’s top dental professionals, each dedicated to creating smiles that exude sophistication and excellence:"
+                    "title": "التقِ بأطبائنا المتخصصين",
+                    "description": "يضم فريقنا نخبة من أطباء الأسنان المتميزين في الإمارات، المتخصصين في تجميل الابتسامة بدقة واحترافية."
                 },
                 {
                     "type": "slider-doctors",
-                    "title": "Meet Our Specialists",
+                    "title": "تعرف على أطبائنا",
                     "cards": {
                         "background-color": "#f9f9f9",
                         "heading-color": "#577065",
@@ -1390,39 +1382,20 @@
                     },
                     "doctors": [
                         {
-                            "id": 1,
-                            "name": "Dr. Hesham Nafei",
-                            "designation": "Implantologist",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
-                        {
                             "id": 2,
-                            "name": "Dr. Adel Al- Aswad",
-                            "designation": "Specialist Oral Surgeon",
+                            "name": "د. عادل الأسود",
+                            "designation": "أخصائي جراحة الفم",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
-                            "name": "Dr. Rania Ghanem",
-                            "designation": "Prosthodontics Specialist",
+                            "name": "د. رانيا غانم",
+                            "designation": "أخصائية التركيبات السنية",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
-                        },
-                        {
-                            "id": 4,
-                            "name": "Dr. Amir Magdy",
-                            "designation": "GP Dentist",
-                            "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-rania-ghanem"
                         }
                     ]
-                },
-                {
-                    "type": "content",
-                    "title": "Technical Details and Accessibility",
-                    "description": "Our website is optimized for a seamless user experience, featuring responsive design, fast load times, and secure browsing via HTTPS. Whether you're browsing on mobile or desktop, you’ll find all the information you need at your fingertips."
                 }
             ]
         }
