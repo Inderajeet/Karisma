@@ -1843,6 +1843,9 @@ aside.footer-widget-2:last-child {
     top: -3px;
     display: inline; /* or inline-block if needed */
 }
+.arabic .widget.widget_nav_menu li a:before {
+    padding-left: 10px;
+}
 .widget li.menu-item.menu-item-has-children ul.sub-menu li {
     padding: 0 0 10px 0;
 }

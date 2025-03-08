@@ -67,7 +67,7 @@ const SliderDoct = () => {
       {doctors.map((doctor, index) => (
         <SwiperSlide key={doctor.id}>
           <Link
-            to={`/${i18n.language}/doctor/${encodeURIComponent(doctor.link)}`}
+            to={`/${i18n.language}/${encodeURI(doctor.link)}`}
           >
             <div
               className="service-inner doctor-inner"
@@ -118,7 +118,7 @@ const SliderDoct = () => {
                           fontSize: cards["button-text-size"],
                         }}
                       >
-                        READ MORE
+                        {doctor.readMore}
                       </div>
                     </div>
                   </li>

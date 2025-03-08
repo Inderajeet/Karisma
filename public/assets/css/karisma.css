@@ -21286,12 +21286,18 @@ td span svg.sDeactivate {
         right: 30px;
         padding: 20px 10px;
     }
+    .arabic .fixedRit {
+        left: 30px;
+        padding: 20px 10px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
     .fixedRit {
-        bottom: 0;
         right: 0px;
+    }
+    .arabic .fixedRit {
+        left: 0px;
     }
 }
 
@@ -21306,6 +21312,14 @@ td span svg.sDeactivate {
     right: 0;
     margin: auto;
     margin-right: 4px;
+}
+
+.arabic .fixedRit{
+    left: 0;
+    right: auto;
+}
+.arabic .fixedRit ul{
+    padding-left: 1rem;
 }
 
 .fixedRit ul li .bookNow {
@@ -21381,7 +21395,7 @@ td span svg.sDeactivate {
     }
     
     .fixedRit{
-        bottom: 13%;
+        bottom: 11%;
     }
     .mobile-book-now .imgAlign{
         width: 18%;

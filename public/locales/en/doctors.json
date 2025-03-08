@@ -4,8 +4,10 @@
         {
             "id": 2,
             "name": "Dr. Yuri Macrino",
+            "department": "Plastic Surgery",
             "image": "/assets/Images/doctors/Dr Yuri.png",
-            "link": "dr-yuri-macrino",
+            "link": "doctor/dr-yuri-macrino",
+            "readMore": "Read More",
             "designation": "Aesthetic plastic surgeon & consultant",
             "overview": {
                 "title": "Overview",
@@ -45,8 +47,10 @@
         {
             "id": 3,
             "name": "Dr. Mehdi Shidvash",
+            "department": "Nutrition and Slimming",
             "image": "/assets/Images/doctors/mahdi.png",
-            "link": "dr-mehdi-shidvash",
+            "link": "doctor/dr-mehdi-shidvash",
+            "readMore": "Read More",
             "designation": "Aesthetic Physician",
             "overview": {
                 "title": "Overview",
@@ -86,8 +90,10 @@
         {
             "id": 4,
             "name": "Dr. Sandro Ceci",
+            "department": "Derma",
             "image": "/assets/Images/doctors/Dr Sandro.png",
-            "link": "dr-sandro-ceci",
+            "link": "doctor/dr-sandro-ceci",
+            "readMore": "Read More",
             "designation": "Dermatologist Specialist",
             "overview": {
                 "title": "Overview",
@@ -127,8 +133,10 @@
         {
             "id": 5,
             "name": "Dr. Manar Magdy",
+            "department": "Derma",
             "image": "/assets/Images/doctors/Dr Manar.png",
-            "link": "dr-manar-magdy",
+            "link": "doctor/dr-manar-magdy",
+            "readMore": "Read More",
             "designation": "Dermatologist Specialist",
             "overview": {
                 "title": "Overview",
@@ -168,8 +176,10 @@
         {
             "id": 6,
             "name": "Dr. Ramilia Anarkulova",
+            "department": "Derma",
             "image": "/assets/Images/doctors/Dr Ramila.png",
-            "link": "dr-ramilia-anarkulova",
+            "link": "doctor/dr-ramilia-anarkulova",
+            "readMore": "Read More",
             "designation": "Dermatologist-Cosmetologist",
             "overview": {
                 "title": "Overview",
@@ -209,8 +219,10 @@
         {
             "id": 7,
             "name": "DT. Elissa Al- Ahmadieh",
+            "department": "Nutrition and Slimming",
             "image": "/assets/Images/doctors/Dr Elissa.png",
-            "link": "dt-elissa-a-ahmadieh",
+            "link": "doctor/dt-elissa-a-ahmadieh",
+            "readMore": "Read More",
             "designation": "Dietician & Nutritionist Specialist",
             "overview": {
                 "title": "Overview",
@@ -251,8 +263,10 @@
         {
             "id": 8,
             "name": "Dr. Adel Al- Aswad",
+            "department": "Dental",
             "image": "/assets/Images/doctors/Adel.png",
-            "link": "dr-adel-al-aswad",
+            "link": "doctor/dr-adel-al-aswad",
+            "readMore": "Read More",
             "designation": "Specialist Oral Surgeon",
             "overview": {
                 "title": "Overview",
@@ -295,8 +309,10 @@
         {
             "id": 9,
             "name": "Dr. Amir Magdy",
+            "department": "Dental",
             "image": "/assets/Images/doctors/Amir.png",
-            "link": "dr-amir-magdy",
+            "link": "doctor/dr-amir-magdy",
+            "readMore": "Read More",
             "designation": "GP Dentist",
             "overview": {
                 "title": "Overview",
@@ -337,8 +353,10 @@
         {
             "id": 10,
             "name": "Dr. Rania Ghanem",
+            "department": "Dental",
             "image": "/assets/Images/doctors/Rania.png",
-            "link": "dr-rania-ghanem",
+            "link": "doctor/dr-rania-ghanem",
+            "readMore": "Read More",
             "designation": "Prosthodontics Specialist",
             "overview": {
                 "title": "Overview",
@@ -379,8 +397,10 @@
         {
             "id": 11,
             "name": "Dr. Huda Ebrahim Shaheen",
+            "department": "Gynecology",
             "image": "/assets/Images/doctors/huda.png",
-            "link": "dr-huda-ebrahim-shaheen",
+            "link": "doctor/dr-huda-ebrahim-shaheen",
+            "readMore": "Read More",
             "designation": "Obstetrics and Gynecology Specialist",
             "overview": {
                 "title": "Overview",
@@ -420,8 +440,10 @@
         {
             "id": 12,
             "name": "Naziha Al Tabaa",
+            "department": "SkinCare",
             "image": "/assets/Images/doctors/Naziha.png",
-            "link": "naziha-al-tabaa",
+            "link": "doctor/naziha-al-tabaa",
+            "readMore": "Read More",
             "designation": "Skin Expert & Beauty Therapist",
             "overview": {
                 "title": "Overview",

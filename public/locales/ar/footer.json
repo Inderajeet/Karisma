@@ -1,0 +1,70 @@
+{
+    "footer": {
+        "description": "تتمثل فلسفة كاريزما في أن الجمال الحقيقي يكمن في داخل كل شخص، ومن خلال علاجاتنا المبتكرة والفاخرة، فإنها تساعد الأفراد على احتضان جاذبيتهم الطبيعية والتألق بطريقتهم الخاصة.",
+        "deptName": "الأقسام",
+        "abtName": "معلومات عنا",
+        "infoName": "Information",
+        "departments": [
+            {
+                "name": "طب الأسنان",
+                "link": "/dental"
+            },
+            {
+                "name": "طب الجلدية",
+                "link": "/derma"
+            },
+            {
+                "name": "العناية بالبشرة",
+                "link": "/skincare"
+            },
+            {
+                "name": "جراحة تجميلية ",
+                "link": "/plastic-surgery"
+            },
+            {
+                "name": "طب النساء ",
+                "link": "/gynecology"
+            },
+            {
+                "name": "التغذية والتخسيس",
+                "link": "/slimming"
+            },
+            {
+                "name": "إزالة الشعر بالليزر",
+                "link": "/laser-hair-removal"
+            }
+        ],
+        "corporate": [
+            {
+                "name": "معلومات عنا",
+                "link": "/about_us"
+            },
+            {
+                "name": "أطباؤنا",
+                "link": "/doctors"
+            },
+            {
+                "name": "Careers",
+                "link": "/careers"
+            },
+            {
+                "name": "تواصلوا معنا",
+                "link": "/contact_us"
+            }
+        ],
+        "service": [
+            {
+                "name": "سياسة الخصوصية",
+                "link": "/policies/privacy-policy"
+            },
+            {
+                "name": "سياسة الكوكيز",
+                "link": "/policies/cookie-policy"
+            },
+            {
+                "name": "البنود و الظروف",
+                "link": "/policies/terms-conditions"
+            }
+        ]
+    }
+}

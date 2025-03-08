@@ -120,7 +120,7 @@ const SlidingDoct = ({ doctors, cards, isRTL }) => {
                                                                                         fontSize: cards["button-text-size"],
                                                                                     }}
                                                                                 >
-                                                                                    READ MORE
+                                                                                    {doctor.readMore}
                                                                                 </div>
                                                                             </div>
                                                                         </li>

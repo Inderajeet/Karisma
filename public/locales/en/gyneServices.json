@@ -55,8 +55,7 @@
         },
         {
           "type": "content",
-          "title": "Our Doctors",
-          "description": ""
+          "title": "Our Doctors"
         },
         {
           "type": "slider-doctors",
@@ -150,8 +149,7 @@
         },
         {
           "type": "content",
-          "title": "Our Doctors",
-          "description": ""
+          "title": "Our Doctors"
         },
         {
           "type": "slider-doctors",
@@ -609,7 +607,7 @@
           "features": [
             "Collagen Stimulation: The laser delivers targeted heat to the vaginal tissue, triggering the body’s natural collagen production.",
             "Thicker, Tighter Tissue: As collagen levels increase, the vaginal walls become firmer and more elastic, improving both tone and function."
-      ]
+          ]
         },
         {
           "type": "color-content",
