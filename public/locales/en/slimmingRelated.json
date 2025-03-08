@@ -176,11 +176,8 @@
                 {
                     "type": "color-content",
                     "title": "Support, Not a Shortcut",
-                    "description": "Heater machines aren’t a standalone solution but an effective complement to your weight loss strategy. Incorporate them into your routine to maximize calorie burn and enhance your body-sculpting results."
-                },
-                {
-                    "type": "cont-content",
-                    "description": "Start your journey towards a fitter, more confident you with Heater Therapy at Karisma Specialist Medical Center!"
+                    "description": "Heater machines aren’t a standalone solution but an effective complement to your weight loss strategy. Incorporate them into your routine to maximize calorie burn and enhance your body-sculpting results.",
+                    "heading": "Start your journey towards a fitter, more confident you with Heater Therapy at Karisma Specialist Medical Center!"
                 }
             ]
         },
@@ -294,11 +291,9 @@
                     "features": [
                         "Avoid During: Menstruation, pregnancy, or early breastfeeding (consult your doctor after six months).",
                         "Health Conditions: Not recommended for those with heart conditions, diabetes, high blood pressure, blood clots, fractures, or varicose veins without medical clearance."
-                    ]
-                },
-                {
-                    "type": "cont-content",
-                    "description": "Rediscover comfort and confidence with Pressotherapy at Karisma Specialist Medical Center—your partner in beauty and wellness."
+                    ],
+                    "description2": "Rediscover comfort and confidence with Pressotherapy at Karisma Specialist Medical Center—your partner in beauty and wellness."
+
                 }
             ]
         },
@@ -350,12 +345,8 @@
                     "type": "color-content",
                     "title": "Safety and Suitability",
                     "description": "Madero Therapy is generally safe but should be tailored to your unique needs. Consult with our experts at Karisma Specialist Medical Center to ensure it’s the right choice for you.",
-                    "description2": "Rediscover your natural beauty and boost your confidence with this holistic, effective treatment."
+                    "description2": "Rediscover your natural beauty and boost your confidence with this holistic, effective treatment. Book your consultation today and unlock a healthier, more radiant you."
 
-                },
-                {
-                    "type": "cont-content",
-                    "description": "Book your consultation today and unlock a healthier, more radiant you."
                 }
             ]
         },
@@ -669,13 +660,11 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "Taking the First Step Towards a Healthier You",
-                    "description": "Are you ready to take the next step in your health journey? Schedule a consultation with our expert nutritionists today. We will discuss your goals, answer your questions, and create a personalized diet plan that helps you become the healthiest version of yourself."
-                },
-                {
-                    "type": "color-content",
-                    "description": "Let’s create a diet plan that nourishes your body and empowers your well-being!"
+                    "description": "Are you ready to take the next step in your health journey? Schedule a consultation with our expert nutritionists today. We will discuss your goals, answer your questions, and create a personalized diet plan that helps you become the healthiest version of yourself.",
+                    "heading2": "Let’s create a diet plan that nourishes your body and empowers your well-being!"
+
                 }
             ]
         }

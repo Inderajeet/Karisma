@@ -130,6 +130,10 @@
           "description": "اكتشف كيف يمكن للفيلر الجلدي تعزيز جمالك الطبيعي واستعادة نضارة بشرتك. تواصل معنا لحجز استشارتك في مركز كارزما التخصصي الطبي، ودعنا نرشدك في رحلتك التجميلية بأسلوب شخصي ومميز!"
         },
         {
+          "type": "content",
+          "title": "أطباؤنا"
+        },
+        {
           "type": "slider-doctors",
           "title": "تعرف على أطبائنا المتخصصين",
           "cards": {
@@ -144,10 +148,27 @@
           "doctors": [
             {
               "id": 1,
-              "name": "د. منار مجدي",
-              "designation": "أخصائية الأمراض الجلدية",
+              "name": " ساندرو سيسي ",
+              "readMore": " اقرأ المزيد",
+              "designation": " أخصائي أمراض جلدية ",
+              "image": "/assets/Images/doctors/Dr Sandro.png",
+              "link": "doctor/dr-sandro-ceci"
+            },
+            {
+              "id": 2,
+              "name": " دكتورة منار مجدي ",
+              "readMore": " اقرأ المزيد",
+              "designation": " أخصائية أمراض جلدية ",
               "image": "/assets/Images/doctors/Dr Manar.png",
-              "link": "dr-manar-magdy"
+              "link": "doctor/dr-manar-magdy"
+            },
+            {
+              "id": 3,
+              "name": " دكتورة راميليا اناركولوفا ",
+              "readMore": " اقرأ المزيد",
+              "designation": "أخصائية أمراض جلدية وتجميل ",
+              "image": "/assets/Images/doctors/Dr Ramila.png",
+              "link": "doctor/dr-ramilia-anarkulova"
             }
           ]
         }
@@ -227,9 +248,52 @@
           "type": "color-content",
           "title": "احصل على مظهر أكثر شبابًا مع علاج مكافحة الشيخوخة اليوم في مركز كاريزما الطبي التخصصي!",
           "description": "يقدم علاج مكافحة الشيخوخة حلاً غير جراحي لمظهر أكثر نعومة وإشراقًا وشبابًا. حجز استشارة مع متخصصي علاج مكافحة الشيخوخة لدينا اليوم لمعرفة المزيد عن كيفية تحسين جمالك الطبيعي بهذا العلاج. سنناقش أهدافك، نجيب على أسئلتك، ونضع خطة علاج مخصصة لمساعدتك في تحقيق المظهر الذي تريده."
+        },
+        {
+          "type": "content",
+          "title": "أطباؤنا"
+        },
+        {
+          "type": "slider-doctors",
+          "title": "قابل أطباؤنا المتخصصين",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": " ساندرو سيسي ",
+              "readMore": " اقرأ المزيد",
+              "designation": " أخصائي أمراض جلدية ",
+              "image": "/assets/Images/doctors/Dr Sandro.png",
+              "link": "doctor/dr-sandro-ceci"
+            },
+            {
+              "id": 2,
+              "name": " دكتورة منار مجدي ",
+              "readMore": " اقرأ المزيد",
+              "designation": " أخصائية أمراض جلدية ",
+              "image": "/assets/Images/doctors/Dr Manar.png",
+              "link": "doctor/dr-manar-magdy"
+            },
+            {
+              "id": 3,
+              "name": " دكتورة راميليا اناركولوفا ",
+              "readMore": " اقرأ المزيد",
+              "designation": "أخصائية أمراض جلدية وتجميل ",
+              "image": "/assets/Images/doctors/Dr Ramila.png",
+              "link": "doctor/dr-ramilia-anarkulova"
+            }
+          ]
         }
       ]
-    },    
+    },
     {
       "id": "3",
       "name": "cosmetic-threads",
@@ -344,8 +408,12 @@
           ]
         },
         {
+          "type": "content",
+          "title": "أطباؤنا"
+        },
+        {
           "type": "slider-doctors",
-          "title": "قابل أطبائنا المتخصصين",
+          "title": "قابل أطباؤنا المتخصصين",
           "cards": {
             "background-color": "#f9f9f9",
             "heading-color": "#577065",
@@ -358,24 +426,27 @@
           "doctors": [
             {
               "id": 1,
-              "name": "د. ساندرو سيشي",
-              "designation": "أخصائي أمراض جلدية",
+              "name": " ساندرو سيسي ",
+              "readMore": " اقرأ المزيد",
+              "designation": " أخصائي أمراض جلدية ",
               "image": "/assets/Images/doctors/Dr Sandro.png",
-              "link": "dr-sandro-ceci"
+              "link": "doctor/dr-sandro-ceci"
             },
             {
               "id": 2,
-              "name": "د. منار مجدي",
-              "designation": "أخصائية الأمراض الجلدية",
+              "name": " دكتورة منار مجدي ",
+              "readMore": " اقرأ المزيد",
+              "designation": " أخصائية أمراض جلدية ",
               "image": "/assets/Images/doctors/Dr Manar.png",
-              "link": "dr-manar-magdy"
+              "link": "doctor/dr-manar-magdy"
             },
             {
               "id": 3,
-              "name": "د. رامليا أناركولوفا",
-              "designation": "طبيبة جلدية وتجميلية",
+              "name": " دكتورة راميليا اناركولوفا ",
+              "readMore": " اقرأ المزيد",
+              "designation": "أخصائية أمراض جلدية وتجميل ",
               "image": "/assets/Images/doctors/Dr Ramila.png",
-              "link": "dr-ramilia-anarkulova"
+              "link": "doctor/dr-ramilia-anarkulova"
             }
           ]
         }
@@ -540,6 +611,49 @@
             "الحمل والرضاعة: تأجيل العلاجات خلال هذه الفترات",
             "الحماية من الشمس: حماية البشرة بعد العلاج",
             "الرعاية بعد العلاج: تجنب الأنشطة العنيفة ولمس المناطق المعالجة فورًا"
+          ]
+        },
+        {
+          "type": "content",
+          "title": "أطباؤنا"
+        },
+        {
+          "type": "slider-doctors",
+          "title": "قابل أطباؤنا المتخصصين",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
+          },
+          "doctors": [
+            {
+              "id": 1,
+              "name": " ساندرو سيسي ",
+              "readMore": " اقرأ المزيد",
+              "designation": " أخصائي أمراض جلدية ",
+              "image": "/assets/Images/doctors/Dr Sandro.png",
+              "link": "doctor/dr-sandro-ceci"
+            },
+            {
+              "id": 2,
+              "name": " دكتورة منار مجدي ",
+              "readMore": " اقرأ المزيد",
+              "designation": " أخصائية أمراض جلدية ",
+              "image": "/assets/Images/doctors/Dr Manar.png",
+              "link": "doctor/dr-manar-magdy"
+            },
+            {
+              "id": 3,
+              "name": " دكتورة راميليا اناركولوفا ",
+              "readMore": " اقرأ المزيد",
+              "designation": "أخصائية أمراض جلدية وتجميل ",
+              "image": "/assets/Images/doctors/Dr Ramila.png",
+              "link": "doctor/dr-ramilia-anarkulova"
+            }
           ]
         }
       ]

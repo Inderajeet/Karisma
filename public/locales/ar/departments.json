@@ -93,8 +93,8 @@
                 },
                 {
                     "type": "content",
-                    "title": "Our Doctors",
-                    "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+                    "title": "أطباؤنا المتخصصون",
+                    "description": "تعرف على فريقنا المتميز من الأطباء المتخصصين، الذين يكرسون جهودهم لتقديم أفضل العلاجات وتحقيق ابتسامات صحية للأطفال."
                 },
                 {
                     "type": "slider-doctors",
@@ -716,6 +716,7 @@
                         {
                             "id": 2,
                             "name": " دكتور مهدي شيدفش ",
+                            "readMore": " اقرأ المزيد",
                             "designation": " طبيب تجميل ",
                             "image": "/assets/Images/doctors/mahdi.png",
                             "link": "doctor/dr-mehdi-shidvash"

@@ -118,17 +118,19 @@
             {
               "id": 1,
               "name": "DT. Elissa Nabil El Ahmadieh",
+              "readMore": "Read More",
               "designation": "Dietician & Nutritionist Specialist",
               "image": "/assets/Images/doctors/Dr Elissa.png",
               "link": "doctor/dt-elissa-a-ahmadieh"
-          },
-          {
+            },
+            {
               "id": 2,
               "name": "Dr. Mehdi Shidvash",
+              "readMore": "Read More",
               "designation": "Aesthetic Physician",
               "image": "/assets/Images/doctors/mahdi.png",
               "link": "doctor/dr-mehdi-shidvash"
-          }
+            }
           ]
         }
       ]
@@ -235,17 +237,19 @@
             {
               "id": 1,
               "name": "DT. Elissa Nabil El Ahmadieh",
+              "readMore": "Read More",
               "designation": "Dietician & Nutritionist Specialist",
               "image": "/assets/Images/doctors/Dr Elissa.png",
               "link": "doctor/dt-elissa-a-ahmadieh"
-          },
-          {
+            },
+            {
               "id": 2,
               "name": "Dr. Mehdi Shidvash",
+              "readMore": "Read More",
               "designation": "Aesthetic Physician",
               "image": "/assets/Images/doctors/mahdi.png",
               "link": "doctor/dr-mehdi-shidvash"
-          }
+            }
           ]
         }
       ]
@@ -335,17 +339,19 @@
             {
               "id": 1,
               "name": "DT. Elissa Nabil El Ahmadieh",
+              "readMore": "Read More",
               "designation": "Dietician & Nutritionist Specialist",
               "image": "/assets/Images/doctors/Dr Elissa.png",
               "link": "doctor/dt-elissa-a-ahmadieh"
-          },
-          {
+            },
+            {
               "id": 2,
               "name": "Dr. Mehdi Shidvash",
+              "readMore": "Read More",
               "designation": "Aesthetic Physician",
               "image": "/assets/Images/doctors/mahdi.png",
               "link": "doctor/dr-mehdi-shidvash"
-          }
+            }
           ]
         }
       ]

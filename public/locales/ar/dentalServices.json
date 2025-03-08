@@ -112,14 +112,12 @@
                 {
                     "type": "content",
                     "title": "رعاية متقدمة لأسنان الأطفال في مركز كاريزما التخصصي",
-                    "description": "في مركز كاريزما الطبي التخصصي، نجمع بين أحدث تقنيات طب الأسنان وبيئة مريحة للأطفال، لضمان تجربة ممتعة ومريحة في كل زيارة.",
-                    "features": []
+                    "description": "في مركز كاريزما الطبي التخصصي، نجمع بين أحدث تقنيات طب الأسنان وبيئة مريحة للأطفال، لضمان تجربة ممتعة ومريحة في كل زيارة."
                 },
                 {
                     "type": "center-content",
                     "title": "ابدأ رحلة طفلك نحو صحة فموية مثالية",
-                    "description": "امنح طفلك ابتسامة صحية وواثقة مدى الحياة. احجز موعدك الآن في مركز كاريزما التخصصي لطب أسنان الأطفال.",
-                    "features": []
+                    "description": "امنح طفلك ابتسامة صحية وواثقة مدى الحياة. احجز موعدك الآن في مركز كاريزما التخصصي لطب أسنان الأطفال."
                 },
                 {
                     "type": "content",
@@ -141,24 +139,27 @@
                     "doctors": [
                         {
                             "id": 2,
-                            "name": "د. عادل الأسود",
-                            "designation": "أخصائي جراحة الفم",
+                            "name":  " دكتور عادل األسود ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " جراح فم متخصص ",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
-                            "name": "د. رانيا غانم",
-                            "designation": "أخصائية تعويضات سنية",
+                            "name":  " د. رانيا غانم ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " أخصائية تركيبات األسنان ",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
-                            "name": "د. أمير مجدي",
-                            "designation": "طبيب أسنان عام",
+                            "name": " دكتور أمير مجدي",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " طبيب أسنان عام ",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -329,24 +330,27 @@
                     "doctors": [
                         {
                             "id": 2,
-                            "name": "د. عادل الأسود",
-                            "designation": "أخصائي جراحة الفم",
+                            "name":  " دكتور عادل األسود ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " جراح فم متخصص ",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
-                            "name": "د. رانيا غانم",
-                            "designation": "أخصائية تعويضات سنية",
+                            "name":  " د. رانيا غانم ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " أخصائية تركيبات األسنان ",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
-                            "name": "د. أمير مجدي",
-                            "designation": "طبيب أسنان عام",
+                            "name": " دكتور أمير مجدي",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " طبيب أسنان عام ",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -449,24 +453,27 @@
                     "doctors": [
                         {
                             "id": 2,
-                            "name": "د. عادل الأسود",
-                            "designation": "أخصائي جراحة الفم",
+                            "name":  " دكتور عادل األسود ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " جراح فم متخصص ",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
-                            "name": "د. رانيا غانم",
-                            "designation": "أخصائية التعويضات السنية",
+                            "name":  " د. رانيا غانم ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " أخصائية تركيبات األسنان ",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
-                            "name": "د. أمير مجدي",
-                            "designation": "طبيب أسنان عام",
+                            "name": " دكتور أمير مجدي",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " طبيب أسنان عام ",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -584,24 +591,27 @@
                     "doctors": [
                         {
                             "id": 2,
-                            "name": "د. عادل الأسود",
-                            "designation": "أخصائي جراحة الفم",
+                            "name":  " دكتور عادل األسود ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " جراح فم متخصص ",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
-                            "name": "د. رانيا غانم",
-                            "designation": "أخصائية التعويضات السنية",
+                            "name":  " د. رانيا غانم ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " أخصائية تركيبات األسنان ",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
-                            "name": "د. أمير مجدي",
-                            "designation": "طبيب أسنان عام",
+                            "name": " دكتور أمير مجدي",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " طبيب أسنان عام ",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -713,24 +723,27 @@
                     "doctors": [
                         {
                             "id": 2,
-                            "name": "د. عادل الأسود",
-                            "designation": "أخصائي جراحة الفم",
+                            "name":  " دكتور عادل األسود ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " جراح فم متخصص ",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
-                            "name": "د. رانيا غانم",
-                            "designation": "أخصائية التعويضات السنية",
+                            "name":  " د. رانيا غانم ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " أخصائية تركيبات األسنان ",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
-                            "name": "د. أمير مجدي",
-                            "designation": "طبيب أسنان عام",
+                            "name": " دكتور أمير مجدي",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " طبيب أسنان عام ",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -850,27 +863,29 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                      
                         {
                             "id": 2,
-                            "name": "د. عادل الأسود",
-                            "designation": "أخصائي جراحة الفم",
+                            "name":  " دكتور عادل األسود ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " جراح فم متخصص ",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
-                            "name": "د. رانيا غانم",
-                            "designation": "أخصائية التعويضات السنية",
+                            "name":  " د. رانيا غانم ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " أخصائية تركيبات األسنان ",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
-                            "name": "د. أمير مجدي",
-                            "designation": "طبيب أسنان عام",
+                            "name": " دكتور أمير مجدي",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " طبيب أسنان عام ",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -991,27 +1006,29 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                       
                         {
                             "id": 2,
-                            "name": "د. عادل الأسود",
-                            "designation": "أخصائي جراحة الفم",
+                            "name":  " دكتور عادل األسود ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " جراح فم متخصص ",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
-                            "name": "د. رانيا غانم",
-                            "designation": "أخصائية التعويضات السنية",
+                            "name":  " د. رانيا غانم ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " أخصائية تركيبات األسنان ",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
-                            "name": "د. أمير مجدي",
-                            "designation": "طبيب أسنان عام",
+                            "name": " دكتور أمير مجدي",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " طبيب أسنان عام ",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -1097,6 +1114,50 @@
                         "لا تدع مشاكل اللثة تؤثر على ابتسامتك أو صحة فمك. اتخذ الخطوة الأولى نحو صحة أفضل وثقة أكبر.",
                         "اتصل بمركز كاريزما الطبي التخصصي اليوم لتحديد موعد استشارة مع أخصائيي اللثة لدينا واكتشف الفرق في رعاية اللثة الشاملة."
                     ]
+                },
+                {
+                    "type": "content",
+                    "title": "أطباؤنا",
+                    "description": "تعرف على فريق الخبراء المتخصصين في مركز كاريزما الطبي التخصصي، الذين يكرسون خبراتهم لتقديم رعاية سنية متميزة."
+                },
+                {
+                    "type": "slider-doctors",
+                    "title": "تعرف على أطبائنا",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 2,
+                            "name":  " دكتور عادل األسود ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " جراح فم متخصص ",
+                            "image": "/assets/Images/doctors/Adel.png",
+                            "link": "doctor/dr-adel-al-aswad"
+                        },
+                        {
+                            "id": 3,
+                            "name":  " د. رانيا غانم ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " أخصائية تركيبات األسنان ",
+                            "image": "/assets/Images/doctors/Rania.png",
+                            "link": "doctor/dr-rania-ghanem"
+                        },
+                        {
+                            "id": 4,
+                            "name": " دكتور أمير مجدي",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " طبيب أسنان عام ",
+                            "image": "/assets/Images/doctors/Amir.png",
+                            "link": "doctor/dr-amir-magdy"
+                        }
+                    ]
                 }
             ]
         },        
@@ -1174,27 +1235,29 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                     
                         {
                             "id": 2,
-                            "name": "د. عادل الأسود",
-                            "designation": "أخصائي جراحة الفم",
+                            "name":  " دكتور عادل األسود ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " جراح فم متخصص ",
                             "image": "/assets/Images/doctors/Adel.png",
-                            "link": "dr-adel-al-aswad"
+                            "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
-                            "name": "د. رانيا غانم",
-                            "designation": "أخصائية تركيبات الأسنان",
+                            "name":  " د. رانيا غانم ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " أخصائية تركيبات األسنان ",
                             "image": "/assets/Images/doctors/Rania.png",
-                            "link": "dr-rania-ghanem"
+                            "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
-                            "name": "د. أمير مجدي",
-                            "designation": "طبيب أسنان عام",
+                            "name": " دكتور أمير مجدي",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " طبيب أسنان عام ",
                             "image": "/assets/Images/doctors/Amir.png",
-                            "link": "dr-amir-magdy"
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -1269,7 +1332,7 @@
                             "id": 1,
                             "name": "فينير E-Max 6D",
                             "image": "../assets/Images/banner/about_dept/dental.png",
-                            "link": "dental/hollywood-smile-veneers",
+                            "link": "dental/hollywood-smile-veneers/e-max-hollywood-smile",
                             "readMore": "اقرأ المزيد",
                             "designation": "مصنوع من السيراميك الألماني عالي الجودة، مما يوفر متانة ومظهرًا رائعًا."
                         },
@@ -1293,7 +1356,7 @@
                             "id": 4,
                             "name": "فينير دياموند كت",
                             "image": "../assets/Images/banner/about_dept/dental.png",
-                            "link": "dental/hollywood-smile-veneers",
+                            "link": "dental/hollywood-smile-veneers/diamond-cut-smile",
                             "readMore": "اقرأ المزيد",
                             "designation": "قشرة متينة وطبيعية تمنحك ابتسامة تدوم طويلاً."
                         },
@@ -1301,7 +1364,7 @@
                             "id": 5,
                             "name": "فينير سوليتير سمايل",
                             "image": "../assets/Images/banner/about_dept/dental.png",
-                            "link": "dental/hollywood-smile-veneers",
+                            "link": "dental/hollywood-smile-veneers/solitare-smile",
                             "readMore": "اقرأ المزيد",
                             "designation": "قشرة شفافة ومتينة تمنحك إشراقة طبيعية لا مثيل لها."
                         }
@@ -1327,17 +1390,27 @@
                     "doctors": [
                         {
                             "id": 2,
-                            "name": "د. عادل الأسود",
-                            "designation": "أخصائي جراحة الفم",
+                            "name":  " دكتور عادل األسود ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " جراح فم متخصص ",
                             "image": "/assets/Images/doctors/Adel.png",
                             "link": "doctor/dr-adel-al-aswad"
                         },
                         {
                             "id": 3,
-                            "name": "د. رانيا غانم",
-                            "designation": "أخصائية التركيبات السنية",
+                            "name":  " د. رانيا غانم ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " أخصائية تركيبات األسنان ",
                             "image": "/assets/Images/doctors/Rania.png",
                             "link": "doctor/dr-rania-ghanem"
+                        },
+                        {
+                            "id": 4,
+                            "name": " دكتور أمير مجدي",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " طبيب أسنان عام ",
+                            "image": "/assets/Images/doctors/Amir.png",
+                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
