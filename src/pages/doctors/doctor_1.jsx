@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { fetchAllJson } from "../../utils/fetchAllJson"; // Import the utility function
 import { useTranslation } from "react-i18next";
 import { useParams, Link } from "react-router-dom";
+import "../../custom_css/doctor.css"
 
 export const applyFontFallback = (text) => {
     if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
@@ -48,7 +49,10 @@ function DoctorPage() {
     // Find the current doctor
     useEffect(() => {
         if (doctors.length > 0) {
-            const foundDoctor = doctors.find((doc) => doc.link === decodeURIComponent(doctorName));
+            const foundDoctor = doctors.find((doc) => {
+                const fullLink = `doctor/${decodeURIComponent(doctorName)}`;
+                return doc.link === fullLink;
+            });
             setDoctor(foundDoctor);
         }
     }, [doctors, doctorName]);
@@ -131,60 +135,6 @@ function DoctorPage() {
                                                 ))}
                                             </div>
                                         </div>
-                                        <div className="team-other-details" style={{ display: 'none' }}>
-                                            <div className="row">
-                                                <div className="col-md-6 team-email-wrap">
-                                                    <div className="team-media media">
-                                                        <div className="cust-team-details-icon">
-                                                            <i className="fa fa-envelope" />
-                                                        </div>
-                                                        <div className="media-body">
-                                                            <span className="team-email-label">Email</span>
-                                                            <a href={`mailto:${doctor.email}`} className="team-email">
-                                                                {doctor.email}
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6 team-phone-wrap">
-                                                    <div className="team-media media">
-                                                        <div className="cust-team-details-icon">
-                                                            <i className="fa fa-phone" />
-                                                        </div>
-                                                        <div className="media-body">
-                                                            <span className="team-phone-label">Phone</span>
-                                                            <a href={`tel:${doctor.phone}`} className="team-phone">
-                                                                {doctor.phone}
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6 team-website-wrap">
-                                                    <div className="team-media media">
-                                                        <div className="cust-team-details-icon">
-                                                            <i className="fa fa-link" />
-                                                        </div>
-                                                        <div className="media-body">
-                                                            <span className="team-website-label">Website</span>
-                                                            <a href={doctor.website} className="team-website">
-                                                                {doctor.website}
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6 team-experience-wrap">
-                                                    <div className="team-media media">
-                                                        <div className="cust-team-details-icon">
-                                                            <i className="fa fa-user" />
-                                                        </div>
-                                                        <div className="media-body">
-                                                            <span className="team-details-label">Experience</span>
-                                                            <span className="team-experience">{doctor.experience}</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>{" "}
                                 {/* .team */}
@@ -215,62 +165,6 @@ function DoctorPage() {
                                                             >
                                                                 <div className="e-con-inner">
                                                                     {/* Overview */}
-                                                                    <div
-                                                                        className="elementor-element elementor-element-2b718853 e-flex e-con-boxed e-con e-child"
-                                                                        data-id="2b718853"
-                                                                        data-element_type="container"
-                                                                        style={{ display: 'none' }}
-                                                                    >
-
-                                                                        <div className="e-con-inner">
-                                                                            <div
-                                                                                className="elementor-element elementor-element-2ef812fa cea-align-left elementor-widget elementor-widget-ceasectiontitle"
-                                                                                data-id="2ef812fa"
-                                                                                data-element_type="widget"
-                                                                                data-widget_type="ceasectiontitle.default"
-                                                                            >
-                                                                                <div className="elementor-widget-container">
-                                                                                    <div className="section-title-wrapper">
-                                                                                        <div className="title-wrap">
-                                                                                            <h4 className="section-title">
-                                                                                                {applyFontFallback(doctor.overview.title)}
-                                                                                            </h4>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            {/* Overview sections*/}
-                                                                            {doctor.overview.sections.map((section, sectionIndex) => (
-                                                                                <div className="section-description" key={sectionIndex} style={{ fontWeight: "600" }}>
-                                                                                    {section.subtitle}
-                                                                                    <div
-                                                                                        className="elementor-element elementor-element-653e731 elementor-widget__width-initial elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                                                        data-id="653e731"
-                                                                                        data-element_type="widget"
-                                                                                        data-widget_type="icon-list.default"
-                                                                                    >
-                                                                                        <div className="elementor-widget-container">
-                                                                                            <ul className="elementor-icon-list-items">
-                                                                                                {section.items.map((detail, index) => (
-                                                                                                    <li className="elementor-icon-list-item" key={index}>
-                                                                                                        <span className="elementor-icon-list-icon">
-                                                                                                            <i
-                                                                                                                aria-hidden="true"
-                                                                                                                className=" bi-check2-circle"
-                                                                                                            />{" "}
-                                                                                                        </span>
-                                                                                                        <span className="elementor-cust-icon-list-text">
-                                                                                                            {detail}
-                                                                                                        </span>
-                                                                                                    </li>
-                                                                                                ))}
-                                                                                            </ul>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            ))}
-                                                                        </div>
-                                                                    </div>
                                                                     <div
                                                                         className="elementor-element elementor-element-2b718853 e-flex e-con-boxed e-con e-child"
                                                                         data-id="2b718853"
@@ -323,47 +217,6 @@ function DoctorPage() {
                                                                         </div>
                                                                     </div>
                                                                     {/* Qualifications */}
-                                                                    <div
-                                                                        className="elementor-element elementor-element-87e3501 e-flex e-con-boxed e-con e-child"
-                                                                        data-id="87e3501"
-                                                                        data-element_type="container"
-                                                                        style={{ display: 'none' }}
-                                                                    >
-                                                                        <div className="e-con-inner">
-                                                                            <div
-                                                                                className="elementor-element elementor-element-74ff4f40 cea-align-left elementor-widget elementor-widget-ceasectiontitle"
-                                                                                data-id="74ff4f40"
-                                                                                data-element_type="widget"
-                                                                                data-widget_type="ceasectiontitle.default"
-                                                                            >
-                                                                                <div className="elementor-widget-container">
-                                                                                    <div className="section-title-wrapper">
-                                                                                        <div className="title-wrap">
-                                                                                            <h4 className="section-title">
-                                                                                                {applyFontFallback(doctor.qualifications.title)}
-                                                                                            </h4>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div className="elementor-element elementor-element-653e731 elementor-widget__width-initial elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="653e731" data-element_type="widget" data-widget_type="icon-list.default">
-                                                                                <div className="elementor-widget-container">
-                                                                                    <ul className="elementor-icon-list-items">
-                                                                                        {doctor.qualifications.items.map((detail, index) => (
-                                                                                            <li className="elementor-icon-list-item">
-                                                                                                <span className="elementor-icon-list-icon">
-                                                                                                    <i aria-hidden="true" className=" bi-check2-circle">
-                                                                                                    </i>
-                                                                                                </span>
-                                                                                                <span className="elementor-cust-icon-list-text">{detail}</span
-                                                                                                >
-                                                                                            </li>
-                                                                                        ))}
-                                                                                    </ul>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
                                                                 </div>
                                                             </div>
 
@@ -374,58 +227,6 @@ function DoctorPage() {
                                                                 style={{ marginTop: "2rem" }}
                                                             >
                                                                 <div className="e-con-inner">
-                                                                    <div
-                                                                        className="elementor-element elementor-element-2b718853 e-flex e-con-boxed e-con e-child"
-                                                                        data-id="2b718853"
-                                                                        data-element_type="container"
-                                                                        style={{ display: 'none' }}
-                                                                    >
-                                                                        <div className="e-con-inner">
-                                                                            <div
-                                                                                className="elementor-element elementor-element-2ef812fa cea-align-left elementor-widget elementor-widget-ceasectiontitle"
-                                                                                data-id="2ef812fa"
-                                                                                data-element_type="widget"
-                                                                                data-widget_type="ceasectiontitle.default"
-                                                                            >
-                                                                                <div className="elementor-widget-container">
-                                                                                    <div className="section-title-wrapper">
-                                                                                        <div className="title-wrap">
-                                                                                            <h4 className="section-title">
-                                                                                                {applyFontFallback(doctor.workExperience.title)}
-                                                                                            </h4>
-                                                                                        </div>
-                                                                                        {/* .title-wrap */}
-                                                                                        <div className="section-description" />
-                                                                                        {/* .section-description */}
-                                                                                    </div>
-                                                                                    {/* .section-title-wrapper */}{" "}
-                                                                                </div>
-                                                                            </div>
-                                                                            <div
-                                                                                className="elementor-element elementor-element-653e731 elementor-widget__width-initial elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                                                data-id="653e731"
-                                                                                data-element_type="widget"
-                                                                                data-widget_type="icon-list.default"
-                                                                            >
-                                                                                <div className="elementor-widget-container">
-                                                                                    <ul className="elementor-icon-list-items">
-                                                                                        {doctor.workExperience.items.map((detail, index) => (
-                                                                                            <li className="elementor-icon-list-item">
-                                                                                                <span className="elementor-icon-list-icon">
-                                                                                                    <i
-                                                                                                        aria-hidden="true"
-                                                                                                        className=" bi-check2-circle"
-                                                                                                    />
-                                                                                                </span>
-                                                                                                <span className="elementor-cust-icon-list-text">{detail}
-                                                                                                </span>
-                                                                                            </li>
-                                                                                        ))}
-                                                                                    </ul>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
                                                                     <div
                                                                         className="elementor-element elementor-element-87e3501 e-flex e-con-boxed e-con e-child"
                                                                         data-id="87e3501"
@@ -644,14 +445,18 @@ function DoctorPage() {
                                         <div className="custom-post-nav">
                                             <div className="prev-nav-link">
                                                 <Link
-                                                    to={`/${i18n.language}/doctor/${encodeURIComponent(prevDoctor.link)}`} >
+                                                    to={`/${i18n.language}/${encodeURI(prevDoctor.link)}`} 
+                                                    className="doc-nav-arrows"
+                                                    >
                                                     <svg width="30" height="24" fill="#000000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400.004 400.004" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"></path> </g> </g></svg>
                                                     <div>{prevDoctor.name}</div>
                                                 </Link>
                                             </div>
                                             <div className="next-nav-link">
                                                 <Link
-                                                    to={`/${i18n.language}/doctor/${encodeURIComponent(nextDoctor.link)}`} >
+                                                     to={`/${i18n.language}/${encodeURI(nextDoctor.link)}`}
+                                                    className="doc-nav-arrows"
+                                                    >
                                                     <div>{nextDoctor.name}</div>
                                                     <svg width="30" height="24" fill="#5C4033" viewBox="0 -6.5 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>

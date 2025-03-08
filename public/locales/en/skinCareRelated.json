@@ -593,7 +593,12 @@
                     "title": "Detox HydraFacial"
                 },
                 {
-                    "type": "content",
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/skincare/Facial/Detox-HydraFacial.png",
+                    "bannerPosition": "center right"
+                },
+                {
+                    "type": "cont-content",
                     "title": "Detoxify, Refresh and Renew Naturally",
                     "description": "The Detox HydraFacial is a powerful yet gentle treatment designed to cleanse, rejuvenate, and restore your skin using the benefits of natural ingredients."
                 },
@@ -627,7 +632,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content-last",
                     "title": "How Natural Exfoliation Works",
                     "features": [
                         "Plant-Based Enzymes: Loosen and remove dead skin cells for a refined texture.",
@@ -635,7 +640,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "Precautions & Recommendations",
                     "features": [
                         "Consultation Advised: While suitable for most, a personalized consultation ensures the best results for your skin type.",

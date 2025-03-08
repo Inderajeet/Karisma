@@ -16,9 +16,9 @@ export const applyFontFallback = (text) => {
   
   
 export default function Doctors() {
-  const { t, i18n } = useTranslation('doc');
+  const { t, i18n } = useTranslation('doctors');
 
-  const doctors = t('doc:doc', { returnObjects: true }); // Fetch the array of doctors
+  const doctors = t('doctors:doctors', { returnObjects: true }); // Fetch the array of doctors
 
   return (
     <>

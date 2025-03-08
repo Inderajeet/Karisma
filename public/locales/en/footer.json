@@ -1,0 +1,70 @@
+{
+    "footer": {
+        "description": "Karisma's philosophy is that true beauty lies within everyone, and through their innovative, luxurious treatments, they help individuals embrace their natural allure and shine in their own way.",
+        "deptName": "Department",
+        "abtName": "About Us",
+        "infoName": "Information",
+        "departments": [
+            {
+                "name": "Dental",
+                "link": "/dental"
+            },
+            {
+                "name": "Derma",
+                "link": "/derma"
+            },
+            {
+                "name": "Skin Care",
+                "link": "/skincare"
+            },
+            {
+                "name": "Plastic Surgery",
+                "link": "/plastic-surgery"
+            },
+            {
+                "name": "Gynecology",
+                "link": "/gynecology"
+            },
+            {
+                "name": "Nutrition and Slimming",
+                "link": "/slimming"
+            },
+            {
+                "name": "Laser Hair Removal",
+                "link": "/laser-hair-removal"
+            }
+        ],
+        "corporate": [
+            {
+                "name": "About Us",
+                "link": "/about_us"
+            },
+            {
+                "name": "Our Doctors",
+                "link": "/doctors"
+            },
+            {
+                "name": "Careers",
+                "link": "/careers"
+            },
+            {
+                "name": "Contact Us",
+                "link": "/contact_us"
+            }
+        ],
+        "service": [
+            {
+                "name": "Privacy Policy",
+                "link": "/policies/privacy-policy"
+            },
+            {
+                "name": "Cookie Policy",
+                "link": "/policies/cookie-policy"
+            },
+            {
+                "name": "Terms and conditions",
+                "link": "/policies/terms-conditions"
+            }
+        ]
+    }
+}

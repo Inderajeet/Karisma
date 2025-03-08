@@ -198,6 +198,10 @@
   border-bottom: 1px solid #dbe5e2;
 }
 
+.arabic .entrye-title{
+  text-align: right;
+}
+
 .doctor-post-excerpt {
   min-height: 40px;
   /* Adjust for longest designation */

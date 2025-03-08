@@ -3,15 +3,17 @@
     "about1Heading": "من نحن:",
     "about1Desc1": "لأن الكاريزما هبة إلهية تعني الثقة والتمكين والتعبير عن الذات. صممنا علامتنا التجارية الفاخرة للعناية بالجمال، لنساعدك في إبراز كاريزما جمالك الداخلي من خلال تقديم علاجات استثنائية مصممة خصيصًا لتناسب احتياجاتك الفريدة باستخدام أحدث التقنيات.",
     "about1Desc2": "",
-    "about1Btn": "READ MORE"
+    "about1Btn": " اقرأ المزيد",
+    "about1Link": "/about_us"
   },
   "about2": {
     "about2Heading1": "",
     "about2Heading2": "لماذا تختارنا؟",
     "about2Desc": "في كاريزما، نرتقي بثقتك بنفسك وجاذبيتك من خلال تقديم علاجات جمالية فاخرة وشخصية تعزز الجمال الطبيعي والثقة بالنفس. نحن نجمع بين التكنولوجيا المتقدمة وفن الاهتمام  بالتفاصيل لخلق تجارب تجميلية تعكس الكاريزما الداخلية لكل عميل من عملائنا.",
-    "about2Btn": "READ MORE"
+    "about2Btn": " اقرأ المزيد",
+    "about1Link": "/about_us"
   },
-  "services":{
+  "services": {
     "servicesHeading": "الخدمات:",
     "servicesDesc": "نعمل على تعزيز ثقتك بنفسك وجاذبيتك من خالل الجمع بين العلوم الطبية المتقدمة والفن من خالل تقديم الخدمات في األقسام التالية: -"
   },
@@ -59,7 +61,7 @@
     },
     {
       "label": "Department",
-      "link": "/",
+      "link": "/departments",
       "subMenu": [
         {
           "label": "Dental",
@@ -113,7 +115,7 @@
           "subMenu": [
             {
               "label": "Dermal Fillers",
-              "link": "/derma/derma-filler"
+              "link": "/derma/dermal-filler"
             },
             {
               "label": "Anti-Aging Treatment",
@@ -125,25 +127,7 @@
             },
             {
               "label": "Rejuvenation Injection",
-              "link": "/derma/rejuvenation"
-            }
-          ]
-        },
-        {
-          "label": "Laser Hair Removal",
-          "link": "/laser-hair-removal",
-          "subMenu": [
-            {
-              "label": "Candela GentleMax Pro",
-              "link": "/laser-hair-removal/candela"
-            },
-            {
-              "label": "Elite IQ",
-              "link": "/laser-hair-removal/elite"
-            },
-            {
-              "label": "RevLite SI",
-              "link": "/laser-hair-removal/revlite"
+              "link": "/derma/rejuvenation-injection"
             }
           ]
         },
@@ -176,10 +160,6 @@
               "link": "/skincare/collagen-threads"
             },
             {
-              "label": "Piercing",
-              "link": "/skincare/piercing"
-            },
-            {
               "label": "Facial machines",
               "link": "/skincare/facial-machines"
             },
@@ -188,6 +168,10 @@
               "link": "/skincare/hair-treatment"
             }
           ]
+        },
+        {
+          "label": "Plastic Surgery",
+          "link": "/plastic-surgery"
         },
         {
           "label": "Gynecology",
@@ -228,7 +212,7 @@
           ]
         },
         {
-          "label": "Slimming",
+          "label": "Nutrition and Slimming",
           "link": "/slimming",
           "subMenu": [
             {
@@ -246,8 +230,22 @@
           ]
         },
         {
-          "label": "Plastic Surgery",
-          "link": "/plastic-surgery"
+          "label": "Laser Hair Removal",
+          "link": "/laser-hair-removal",
+          "subMenu": [
+            {
+              "label": "Candela GentleMax Pro",
+              "link": "/laser-hair-removal/candela-gentle-max-pro"
+            },
+            {
+              "label": "Elite IQ",
+              "link": "/laser-hair-removal/elite-iq"
+            },
+            {
+              "label": "RevLite SI",
+              "link": "/laser-hair-removal/revlite-si"
+            }
+          ]
         }
       ]
     },

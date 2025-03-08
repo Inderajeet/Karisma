@@ -1,9 +1,15 @@
 import { fetchAllJson } from "../utils/fetchAllJson"; // Import the utility function
 import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
 import i18n from "../i18n";
 
 export default function Footer() {
+  const { t, i18n } = useTranslation('footer');
+  const footers = t('footer:footer', { returnObjects: true }); // Fetch the array of doctors
+
+
   const logoAlt = "Karisma Logo";
   const logoStyle = { width: 115 };
 
@@ -106,7 +112,7 @@ export default function Footer() {
                         <div
                           className="wp-block-column footer-desc">
                           <figure className="wp-block-image size-full">
-                            <Link to={`/${lng}`} style={{display:'inline-block'}}>
+                            <Link to={`/${lng}`} style={{ display: 'inline-block' }}>
                               <img
                                 loading="lazy"
                                 decoding="async"
@@ -124,7 +130,7 @@ export default function Footer() {
                               fontSize: footer['about-size'],
                             }}
                           >
-                            {footerDescription}
+                            {footers.description}
                           </p>
                           <ul style={{ display: "flex", flexWrap: 'wrap' }}>
                             <li>
@@ -353,10 +359,10 @@ export default function Footer() {
                                 fontSize: footer['heading-size'],
                               }}
                             >
-                              Department
+                              {footers.deptName}
                             </h2>
                             <ul className="menu">
-                              {departments.map((dept, index) => (
+                              {footers.departments.map((dept, index) => (
                                 <li key={index}>
                                   <Link to={`/${lng}${dept.link}`}
                                     style={{
@@ -382,10 +388,10 @@ export default function Footer() {
                                 fontSize: footer['heading-size'],
                               }}
                             >
-                              About Us
+                              {footers.abtName}
                             </h2>
                             <ul className="menu">
-                              {corporate.map((link, index) => (
+                              {footers.corporate.map((link, index) => (
                                 <li key={index}>
                                   <Link to={`/${lng}${link.link}`}
                                     style={{
@@ -411,10 +417,10 @@ export default function Footer() {
                                 fontSize: footer['heading-size'],
                               }}
                             >
-                              Information
+                              {footers.infoName}
                             </h2>
                             <ul className="menu">
-                              {service.map((link, index) => (
+                              {footers.service.map((link, index) => (
                                 <li key={index}>
                                   <Link to={`/${lng}${link.link}`}
                                     style={{

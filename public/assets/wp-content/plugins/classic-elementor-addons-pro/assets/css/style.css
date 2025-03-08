@@ -3276,6 +3276,9 @@ body .row>* {
 .custom-post-nav .next-nav-link {
     display: inline-flex;
 }
+.arabic .custom-post-nav{
+    direction: ltr;
+}
 .custom-post-nav .prev-nav-link > a,
 .custom-post-nav .next-nav-link > a {
     line-height: 1;
