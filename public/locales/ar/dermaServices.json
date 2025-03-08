@@ -2,7 +2,7 @@
   "dermaServices": [
     {
       "id": "1",
-      "name": "derma-filler",
+      "name": "dermal-filler",
       "sections": [
         {
           "type": "banner",

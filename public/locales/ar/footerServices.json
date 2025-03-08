@@ -6,89 +6,88 @@
             "sections": [
                 {
                     "type": "content",
-                    "title": "Privacy Policy",
-                    "description": "At Karisma Specialist Medical Center, we prioritize protecting your privacy and security. This Privacy Policy outlines the information we collect, how we utilize it, and the choices available to you when interacting with our services."
+                    "title": "سياسة الخصوصية",
+                    "description": "في مركز كاريزما الطبي التخصصي، نعطي الأولوية لحماية خصوصيتك وأمانك. تحدد سياسة الخصوصية هذه المعلومات التي نجمعها، وكيفية استخدامها، والخيارات المتاحة لك عند التفاعل مع خدماتنا."
                 },
                 {
                     "type": "content",
-                    "title": "Important Notice",
-                    "description": "This Privacy Policy pertains to personally identifiable information you provide when seeking medical care or making inquiries through our services. If any part of this policy conflicts with applicable laws, regulations, or government notices, the relevant legal provisions shall take precedence within the respective jurisdiction.",
+                    "title": "إشعار مهم",
+                    "description": "تتعلق سياسة الخصوصية هذه بالمعلومات الشخصية التي تقدمها عند طلب الرعاية الطبية أو الاستفسار من خلال خدماتنا. إذا تعارض أي جزء من هذه السياسة مع القوانين أو اللوائح أو الإشعارات الحكومية المعمول بها، فإن الأحكام القانونية ذات الصلة لها الأولوية في الولاية القضائية المعنية.",
                     "features": [
                         {
-                            "title": "Privacy Protection Measures:",
+                            "title": "تدابير حماية الخصوصية:",
                             "items": [
-                                "All credit/debit card details and personally identifiable information will not be stored, sold, shared, rented, or leased to third parties.",
-                                "We do not share debit/credit card information with third parties.",
-                                "Karisma Specialist Medical Center employs appropriate security measures, including hardware and software protocols, to protect data privacy. However, we cannot guarantee complete security for information disclosed online.",
-                                "We are not responsible for the privacy policies of external websites linked to our platform. If you provide information to third parties, their data collection and usage policies will apply. It is advisable to contact them directly for details on their data practices.",
-                                "Our Website Policies and Terms & Conditions may be updated periodically to comply with legal and regulatory requirements. Customers are encouraged to review these sections frequently for updates. Any changes will take effect on the date they are posted."
+                                "لن يتم تخزين أو بيع أو مشاركة أو تأجير جميع تفاصيل بطاقات الائتمان/الخصم والمعلومات الشخصية لأطراف ثالثة.",
+                                "لا نشارك معلومات بطاقات الخصم/الائتمان مع أطراف ثالثة.",
+                                "يستخدم مركز كاريزما الطبي التخصصي تدابير أمنية مناسبة، بما في ذلك بروتوكولات الأجهزة والبرامج، لحماية خصوصية البيانات. ومع ذلك، لا يمكننا ضمان الأمان الكامل للمعلومات التي يتم الكشف عنها عبر الإنترنت.",
+                                "لسنا مسؤولين عن سياسات الخصوصية للمواقع الخارجية المرتبطة بمنصتنا. إذا قدمت معلومات لأطراف ثالثة، فسوف تنطبق سياسات جمع البيانات واستخدامها الخاصة بهم.",
+                                "قد يتم تحديث سياسات وأحكام موقعنا الإلكتروني بشكل دوري للامتثال للمتطلبات القانونية والتنظيمية. يتم تشجيع العملاء على مراجعة هذه الأقسام بشكل متكرر للحصول على التحديثات."
                             ]
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Information We Collect?",
-                    "description": "When using our services, we may collect the following types of information:",
+                    "title": "المعلومات التي نجمعها",
+                    "description": "عند استخدام خدماتنا، قد نجمع الأنواع التالية من المعلومات:",
                     "features": [
                         {
-                            "title": "Information You Provide Directly:",
+                            "title": "المعلومات التي تقدمها مباشرة:",
                             "items": [
-                                "Contact details, including full name, email address, mobile number, and physical address.",
-                                "Username and password.",
-                                "Personal health details, such as diagnosis, medical history, general health status, and insurance information.",
-                                "Doctor reviews and any additional information you choose to share.",
-                                "We may combine this data with existing records."
+                                "تفاصيل الاتصال، بما في ذلك الاسم الكامل، عنوان البريد الإلكتروني، رقم الهاتف المحمول، والعنوان الفعلي.",
+                                "اسم المستخدم وكلمة المرور.",
+                                "تفاصيل الصحة الشخصية، مثل التشخيص، التاريخ الطبي، الحالة الصحية العامة، ومعلومات التأمين.",
+                                "مراجعات الأطباء وأي معلومات إضافية تختار مشاركتها.",
+                                "قد نجمع هذه البيانات مع السجلات الموجودة."
                             ]
                         },
                         {
-                            "title": "Automatically Collected Information:",
+                            "title": "المعلومات التي يتم جمعها تلقائيًا:",
                             "items": [
-                                "Internet protocol (IP) address, device identifiers, browser type, operating system, and Internet service provider.",
-                                "Pages visited before and after accessing our services, timestamps, clicked links, and viewed content.",
-                                "Location information, such as GPS signals, WiFi access points, and cell tower data."
+                                "عنوان بروتوكول الإنترنت (IP)، معرفات الجهاز، نوع المتصفح، نظام التشغيل، ومزود خدمة الإنترنت.",
+                                "الصفحات التي تمت زيارتها قبل وبعد الوصول إلى خدماتنا، الطوابع الزمنية، الروابط التي تم النقر عليها، والمحتوى الذي تمت مشاهدته.",
+                                "معلومات الموقع، مثل إشارات GPS، نقاط وصول WiFi، وبيانات برج الهاتف الخلوي."
                             ]
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Use of Cookies",
-                    "description": "We may utilize cookies and similar technologies to enhance your browsing experience. This information may be combined with existing records to personalize your interactions with our services.",
+                    "title": "استخدام ملفات تعريف الارتباط",
+                    "description": "قد نستخدم ملفات تعريف الارتباط والتقنيات المماثلة لتحسين تجربة التصفح الخاصة بك. قد يتم دمج هذه المعلومات مع السجلات الموجودة لتخصيص تفاعلاتك مع خدماتنا.",
                     "features": [
                         {
-                            "title": "Third-Party Information Sources:",
+                            "title": "مصادر معلومات الجهات الخارجية:",
                             "items": [
-                                "If you access our services via advertisements on third-party websites, we may receive information from those platforms.",
-                                "For medical-related services, we may obtain relevant records from your healthcare providers, including medical history, lab results, and other necessary details.",
-                                "We may also receive data from third-party services such as Facebook, Google, or Twitter if you choose to integrate these platforms with our services."
-                            ]
-                        }
-                    ]
-                }, 
-                {
-                    "type": "content",
-                    "title": "How We Use Your Information",
-                    "description": "The information collected is utilized for the following purposes:",
-                    "features": [
-                        {
-                            "title": "Third-Party Information Sources:",
-                            "items": [
-                                "Providing and improving our services.",
-                                "Communicating with you.",
-                                "Fulfilling requests for products, services, and information.",
-                                "Fulfilling requests for products, services, and information.",
-                                "Analyzing user data to enhance service quality.",
-                                "Conducting research with appropriate authorization.",
-                                "Preventing prohibited or illegal activities in compliance with our Terms of Use.",
-                                "Any other purposes disclosed at the time of data collection, are subject to your consent."
+                                "إذا قمت بالوصول إلى خدماتنا عبر الإعلانات على مواقع الطرف الثالث، فقد نتلقى معلومات من تلك المنصات.",
+                                "بالنسبة للخدمات الطبية، قد نحصل على سجلات ذات صلة من مقدمي الرعاية الصحية لديك، بما في ذلك التاريخ الطبي ونتائج المختبر وغيرها من التفاصيل الضرورية.",
+                                "قد نتلقى أيضًا بيانات من خدمات الجهات الخارجية مثل فيسبوك، جوجل، أو تويتر إذا اخترت دمج هذه المنصات مع خدماتنا."
                             ]
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "description": "By using our services, you acknowledge and agree to the terms outlined in this Privacy Policy."
+                    "title": "كيف نستخدم معلوماتك",
+                    "description": "يتم استخدام المعلومات التي تم جمعها للأغراض التالية:",
+                    "features": [
+                        {
+                            "title": "استخدام المعلومات:",
+                            "items": [
+                                "تقديم وتحسين خدماتنا.",
+                                "التواصل معك.",
+                                "تلبية طلبات المنتجات، الخدمات، والمعلومات.",
+                                "تحليل بيانات المستخدم لتحسين جودة الخدمة.",
+                                "إجراء البحوث مع الترخيص المناسب.",
+                                "منع الأنشطة المحظورة أو غير القانونية وفقًا لشروط الاستخدام الخاصة بنا.",
+                                "أي أغراض أخرى يتم الكشف عنها في وقت جمع البيانات، خاضعة لموافقتك."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "description": "باستخدام خدماتنا، فإنك تقر وتوافق على الشروط الموضحة في سياسة الخصوصية هذه."
                 }
             ]
         },
@@ -98,73 +97,73 @@
             "sections": [
                 {
                     "type": "content",
-                    "title": "Terms & Conditions",
-                    "description": "At Karisma Specialist Medical Center, we are committed to maintaining transparency and ensuring the best experience for our visitors and patients. These Terms & Conditions outline the rules and regulations governing the use of our services."
+                    "title": "الشروط والأحكام",
+                    "description": "في مركز كاريزما الطبي التخصصي، نحن ملتزمون بالحفاظ على الشفافية وضمان أفضل تجربة لزوارنا ومرضانا. تحدد هذه الشروط والأحكام القواعد واللوائح التي تحكم استخدام خدماتنا."
                 },
                 {
                     "type": "content",
-                    "title": "Important Notice",
-                    "description": "By accessing and using our services, you agree to comply with these Terms & Conditions. If any provisions in these Terms & Conditions conflict with applicable laws, regulations, or government notices, the relevant legal provisions shall take precedence within the respective jurisdiction."
+                    "title": "إشعار مهم",
+                    "description": "من خلال الوصول إلى خدماتنا واستخدامها، فإنك توافق على الامتثال لهذه الشروط والأحكام. إذا تعارضت أي أحكام في هذه الشروط والأحكام مع القوانين أو اللوائح أو الإشعارات الحكومية المعمول بها، فإن الأحكام القانونية ذات الصلة لها الأسبقية في الولاية القضائية المعنية."
                 },
                 {
                     "type": "content",
-                    "title": "General Terms",
+                    "title": "الشروط العامة",
                     "features": [
-                        "Our services are intended for lawful purposes only. Any misuse, fraudulent activity, or violation of laws while using our platform is strictly prohibited.",
-                        "We reserve the right to modify, suspend, or discontinue any part of our services without prior notice.",
-                        "Unauthorized use of our website, including attempting to gain access to restricted sections, interfering with security features, or engaging in activities that disrupt service functionality, is prohibited."
+                        "خدماتنا مخصصة للأغراض القانونية فقط. يُحظر تمامًا أي إساءة استخدام أو نشاط احتيالي أو انتهاك للقوانين أثناء استخدام منصتنا.",
+                        "نحتفظ بالحق في تعديل أو تعليق أو إيقاف أي جزء من خدماتنا دون إشعار مسبق.",
+                        "يُحظر الاستخدام غير المصرح به لموقعنا الإلكتروني، بما في ذلك محاولة الوصول إلى الأقسام المقيدة، أو التدخل في ميزات الأمان، أو المشاركة في أنشطة تعطل وظائف الخدمة."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "User Responsibilities",
+                    "title": "مسؤوليات المستخدم",
                     "features": [
-                        "Users must provide accurate and up-to-date information when engaging with our services.",
-                        "Any content shared through our platform must not violate any intellectual property rights, privacy laws, or regulations.",
-                        "Users are responsible for maintaining the confidentiality of their account credentials and must notify us immediately of any unauthorized use."
+                        "يجب على المستخدمين تقديم معلومات دقيقة ومحدثة عند التعامل مع خدماتنا.",
+                        "يجب ألا ينتهك أي محتوى تتم مشاركته عبر منصتنا أي حقوق ملكية فكرية أو قوانين أو لوائح خاصة بالخصوصية.",
+                        "يتحمل المستخدمون مسؤولية الحفاظ على سرية بيانات اعتماد حساباتهم ويجب عليهم إخطارنا فورًا بأي استخدام غير مصرح به."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Payment & Transactions",
+                    "title": "الدفع والمعاملات",
                     "features": [
-                        "Credit/debit card details will not be stored, sold, shared, rented, or leased to third parties.",
-                        "We do not disclose debit/credit card details to any external parties.",
-                        "All payments made through our platform are subject to secure transaction protocols, but we cannot guarantee absolute security for online transactions."
+                        "لن يتم تخزين أو بيع أو مشاركة أو تأجير تفاصيل بطاقات الائتمان/الخصم لأطراف ثالثة.",
+                        "لا نفصح عن تفاصيل بطاقات الخصم/الائتمان لأي أطراف خارجية.",
+                        "تخضع جميع المدفوعات التي تتم عبر منصتنا لبروتوكولات المعاملات الآمنة، ولكن لا يمكننا ضمان الأمان المطلق للمعاملات عبر الإنترنت."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Third-Party Links & Services",
+                    "title": "روابط وخدمات الجهات الخارجية",
                     "features": [
-                        "Our website may contain links to third-party websites for informational or service-related purposes. These external sites operate independently, and we are not responsible for their privacy policies or terms of use.",
-                        "Users engaging with third-party services should review their respective policies before providing any personal information."
+                        "قد يحتوي موقعنا على روابط لمواقع ويب تابعة لجهات خارجية لأغراض إعلامية أو متعلقة بالخدمة. تعمل هذه المواقع الخارجية بشكل مستقل، ونحن لسنا مسؤولين عن سياسات الخصوصية أو شروط الاستخدام الخاصة بها.",
+                        "يجب على المستخدمين المتعاملين مع خدمات الجهات الخارجية مراجعة سياساتهم الخاصة قبل تقديم أي معلومات شخصية."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Amendments to Terms & Conditions",
+                    "title": "تعديلات الشروط والأحكام",
                     "features": [
-                        "We may update or revise these Terms & Conditions periodically to reflect changes in legal and regulatory requirements.",
-                        "Users are encouraged to check this section regularly for any updates. Any modifications will take effect upon posting."
+                        "يجوز لنا تحديث أو مراجعة هذه الشروط والأحكام بشكل دوري لتعكس التغييرات في المتطلبات القانونية والتنظيمية.",
+                        "نشجع المستخدمين على مراجعة هذا القسم بانتظام بحثًا عن أي تحديثات. وستدخل أي تعديلات حيز التنفيذ فور نشرها."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Limitation of Liability",
+                    "title": "حدود المسؤولية",
                     "features": [
-                        "Karisma Specialist Medical Center is not liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use our services.",
-                        "We do not guarantee uninterrupted, error-free service and shall not be held responsible for any technical issues beyond our control."
+                        "لا يتحمل مركز كاريزما الطبي التخصصي المسؤولية عن أي أضرار مباشرة أو غير مباشرة أو عرضية أو تبعية ناجمة عن استخدام خدماتنا أو عدم القدرة على استخدامها.",
+                        "لا نضمن خدمة متواصلة وخالية من الأخطاء ولن نتحمل المسؤولية عن أي مشكلات فنية خارجة عن سيطرتنا."
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "Governing Law",
-                    "description": "These Terms & Conditions are governed by the laws of the applicable jurisdiction. Any disputes arising from the use of our services shall be subject to the exclusive jurisdiction of the respective legal authorities."
+                    "title": "القانون الحاكم",
+                    "description": "تخضع هذه الشروط والأحكام لقوانين الولاية القضائية المعمول بها. تخضع أي نزاعات تنشأ عن استخدام خدماتنا للاختصاص الحصري للسلطات القانونية المعنية."
                 },
                 {
                     "type": "content",
-                    "description": "By using our services, you acknowledge and agree to these Terms & Conditions. If you do not agree with any part of these terms, you should discontinue using our services immediately."
+                    "description": "من خلال استخدام خدماتنا، فإنك تقر وتوافق على هذه الشروط والأحكام. إذا كنت لا توافق على أي جزء من هذه الشروط، فيجب عليك التوقف عن استخدام خدماتنا على الفور."
                 }
             ]
         },
@@ -174,8 +173,8 @@
             "sections": [
                 {
                     "type": "content",
-                    "title": "Website Cookies",
-                    "description": "We may combine such information with information we already have about you. Information we collect automatically: We may collect certain information automatically when you use our Services, such as your computer’s Internet protocol (IP) address, device and advertising identifiers, browser type, operating system, Internet service provider, pages that you visit before and after using the Services, the date and time of your visit, information about the links you click and pages you view within the Services, and other standard server log information. We may also collect certain location information when you use our Services, such as your mobile device’s GPS signal, or information about nearby WiFi access points and cell towers."
+                    "title": "ملفات تعريف الارتباط الخاصة بالموقع الإلكتروني",
+                    "description": "قد نجمع هذه المعلومات مع المعلومات التي لدينا بالفعل عنك. المعلومات التي نجمعها تلقائيًا: قد نجمع معلومات معينة تلقائيًا عند استخدامك لخدماتنا، مثل عنوان بروتوكول الإنترنت (IP) لجهاز الكمبيوتر الخاص بك، ومعرفات الجهاز والإعلان، ونوع المتصفح، ونظام التشغيل، ومزود خدمة الإنترنت، والصفحات التي تزورها قبل وبعد استخدام الخدمات، وتاريخ ووقت زيارتك، ومعلومات حول الروابط التي تنقر عليها والصفحات التي تشاهدها داخل الخدمات، ومعلومات سجل الخادم القياسية الأخرى. قد نجمع أيضًا معلومات معينة حول الموقع عند استخدامك لخدماتنا، مثل إشارة نظام تحديد المواقع العالمي (GPS) لجهازك المحمول، أو معلومات حول نقاط وصول WiFi القريبة وأبراج الهاتف المحمول."
                 }
             ]
         }

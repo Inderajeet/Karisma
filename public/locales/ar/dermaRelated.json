@@ -9,7 +9,12 @@
                     "title": "عزز ثقتك بجسمك في مركز كاريزما الطبي التخصصي"
                 },
                 {
-                    "type": "content",
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/derma/filler/Enhancing-Your-Body-Confidence-banner.png",
+                    "bannerPosition": "center"
+                },
+                {
+                    "type": "cont-content",
                     "description": "إلى جانب علاجات الوجه، يوفر مركز كاريزما الطبي التخصصي حلولاً متقدمة لتحسين مظهر الجسم، مما يعزز ثقتك بنفسك ويساعدك على الشعور بأفضل حال.",
                     "features": [
                         "اليدين: تجديد شباب اليدين عن طريق تقليل الأوردة البارزة والأوتار، واستعادة مظهر أكثر شبابًا.",
@@ -51,7 +56,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content-last",
                     "title": "نصائح أساسية للعناية بعد العلاج لضمان أفضل النتائج",
                     "description": "العناية السليمة بعد العلاج ضرورية لضمان فعالية واستمرارية نتائج الفيلر:",
                     "features": [
@@ -63,12 +68,12 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "تمتع بجمال متجدد مع مركز كاريزما الطبي التخصصي",
                     "description": "يمتد التزامنا بسلامتك ورضاك إلى ما بعد توفير الفيلر. يستخدم أطباؤنا أحدث التقنيات لضمان تجربة مريحة وناجحة مصممة خصيصًا لتلبية احتياجاتك."
                 },
                 {
-                    "type": "center-content",
+                    "type": "content",
                     "title": "احجز استشارتك اليوم!",
                     "description": "أطلق العنان لإشراقتك واحصل على مظهر شبابي ومتجدد مع مركز كاريزما الطبي التخصصي. اتصل بنا لحجز استشارتك وسنرشدك عبر عالم الفيلر لتعزيز جمالك الطبيعي!"
                 }
@@ -83,7 +88,12 @@
                     "title": "صمم مظهرك الساحر المثالي في مركز كاريسما التخصصي الطبي"
                 },
                 {
-                    "type": "color-content",
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/derma/filler/Sculpting-Your-Dream-Face-banner.png",
+                    "bannerPosition": "center"
+                },
+                {
+                    "type": "content",
                     "description": "يستخدم أطباؤنا المهرة في التجميل الجلدي تقنيات متقدمة ومنتجات عالية الجودة لنحت ملامح الوجه التي تحلم بها.",
                     "features": [
                         "الشفاه: تعزيز الحجم وتحديد شكل الشفاه للحصول على ابتسامة أكثر امتلاءً وتوازنًا.",
@@ -106,6 +116,11 @@
                     "title": "طويخ PDO لشد البطن"
                 },
                 {
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/derma/Cosmetic-Threads/Body-Thread-banner.png",
+                    "bannerPosition": "center"
+                },
+                {
                     "type": "content",
                     "features": [
                         "تحول مذهل لمظهر البطن: احصل على بطن مشدود وأكثر تناسقًا مع إجراءات طويخ PDO للبطن، وهو حل غير جراحي لشد وتثبيت الجلد.",
@@ -114,7 +129,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content",
                     "title": "ما هي استخدامات طويخ PDO للبطن؟",
                     "features": [
                         "رفع وتثبيت الجلد للحصول على مظهر أكثر نعومة وشدًا",
@@ -127,7 +142,7 @@
                     ]
                 },
                 {
-                    "type": "color-content",
+                    "type": "sub-heading-content-last",
                     "description": "ابدأ رحلتك نحو بطن أكثر رشاقة مع طويخ PDO للبطن في مركز كاريسما التخصصي الطبي. سيقوم خبراؤنا المهرة بإجراء هذا العلاج السريع والفعال خلال جلسة مدتها 45-60 دقيقة تحت تأثير التخدير الموضعي، مما يمنحك مظهرًا مشدودًا وأكثر تناسقًا."
                 }
             ]
@@ -139,6 +154,11 @@
                 {
                     "type": "content",
                     "title": "طويخ الإبرة الواحدة"
+                },
+                {
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/derma/Cosmetic-Threads/Single-Needle-Thread-banner.png",
+                    "bannerPosition": "center"
                 },
                 {
                     "type": "content",
@@ -160,7 +180,7 @@
                     ]
                 },
                 {
-                    "type": "color-content",
+                    "type": "sub-heading-content-last",
                     "description": "تستغرق الجلسات عادةً ما بين 30 إلى 60 دقيقة، حيث يتم تخصيص النتائج وفقًا لاحتياجات بشرتك الفريدة، مما يضمن لك مظهرًا أكثر إشراقًا وشبابًا يدوم طويلاً."
                 }
             ]
