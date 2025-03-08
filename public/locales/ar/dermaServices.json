@@ -8,11 +8,12 @@
           "type": "banner",
           "deptName": "الأمراض الجلدية",
           "serviceName": "الفيلر الجلدي",
-          "bannerImage": "../assets/Images/banner/dept_banner/derma.png"
+         "bannerImage": "../assets/Images/depts/derma/filler/banner.png",
+          "bannerPosition": "center"
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/derma.png",
+          "imageUrl": "../assets/Images/depts/derma/filler/body-image.png",
           "imageAlt": "الفيلر الجلدي",
           "title": "الفيلر الجلدي",
           "content": [
@@ -71,12 +72,12 @@
           ]
         },
         {
-          "type": "content",
+        "type": "color-content",
           "title": "اختيار الفيلر المناسب لتحقيق نتائج مثالية",
           "description": "في مركز كارزما، نخصص خطة علاجية تتماشى مع أهدافك الجمالية. سواء كنت ترغب في تحسين طفيف أو تحديد جريء، فإن تقنياتنا المتقدمة تضمن لك إشراقة وثقة دائمة."
         },
         {
-          "type": "center-content",
+          "type": "content",
           "title": "دعنا نساعدك في إعادة تعريف الجمال بطريقتك الخاصة. احجز استشارتك اليوم!",
           "features": []
         },
