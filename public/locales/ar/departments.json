@@ -90,6 +90,50 @@
                         "انضم إلى العديد من المرضى الذين اكتشفوا الفرق في كاريزما. اتصل بنا الآن لحجز استشارة شخصية واتخاذ الخطوة الأولى نحو تحقيق ابتسامة أحلامك.",
                         "ابتسامتك المثالية وثقتك المتجددة على بعد زيارة واحدة في مركز كاريزما الطبي التخصصي حيث يلتقي الفن والتميز بالخبرة والأصالة."
                     ]
+                },
+                {
+                    "type": "content",
+                    "title": "Our Doctors",
+                    "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
+                },
+                {
+                    "type": "slider-doctors",
+                    "title": "Meet Our Specialists",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 2,
+                            "name":  " دكتور عادل األسود ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " جراح فم متخصص ",
+                            "image": "/assets/Images/doctors/Adel.png",
+                            "link": "doctor/dr-adel-al-aswad"
+                        },
+                        {
+                            "id": 3,
+                            "name":  " د. رانيا غانم ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " أخصائية تركيبات األسنان ",
+                            "image": "/assets/Images/doctors/Rania.png",
+                            "link": "doctor/dr-rania-ghanem"
+                        },
+                        {
+                            "id": 4,
+                            "name": " دكتور أمير مجدي",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " طبيب أسنان عام ",
+                            "image": "/assets/Images/doctors/Amir.png",
+                            "link": "doctor/dr-amir-magdy"
+                        }
+                    ]
                 }
             ]
         },
@@ -158,6 +202,7 @@
                             "name": "حقن الفيلر",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "derma/derma-filler",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -165,6 +210,7 @@
                             "name": "علاجات مكافحة الشيخوخة",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "derma/gynecology/vaginal-anti-aging-treatment",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -172,6 +218,7 @@
                             "name": "الخيوط التجميلية",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "derma/cosmetic-threads",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -179,14 +226,14 @@
                             "name": "حقن تجديد الشباب",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "derma/rejuvenation-injection",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "أطباؤنا",
-                    "description": "تعرف على فريقنا النخبة من الخبراء الملتزمين بتقديم أعلى مستويات الجودة والتميز."
+                    "title": "أطباؤنا"
                 },
                 {
                     "type": "slider-doctors",
@@ -203,10 +250,27 @@
                     "doctors": [
                         {
                             "id": 1,
-                            "name": "د. منار مجدي",
-                            "designation": "أخصائية الأمراض الجلدية",
+                            "name": " ساندرو سيسي ",
+                            "readMore": " اقرأ المزيد",
+                            "designation":" أخصائي أمراض جلدية ",
+                            "image": "/assets/Images/doctors/Dr Sandro.png",
+                            "link": "doctor/dr-sandro-ceci"
+                        },
+                        {
+                            "id": 2,
+                            "name": " دكتورة منار مجدي ",
+                            "readMore": " اقرأ المزيد",
+                            "designation":  " أخصائية أمراض جلدية ",
                             "image": "/assets/Images/doctors/Dr Manar.png",
-                            "link": "dr-manar-magdy"
+                            "link": "doctor/dr-manar-magdy"
+                        },
+                        {
+                            "id": 3,
+                            "name": " دكتورة راميليا اناركولوفا ",
+                            "readMore": " اقرأ المزيد",
+                            "designation":  "أخصائية أمراض جلدية وتجميل ",
+                            "image": "/assets/Images/doctors/Dr Ramila.png",
+                            "link": "doctor/dr-ramilia-anarkulova"
                         }
                     ]
                 }
@@ -292,6 +356,7 @@
                             "name": "تبييض وتجديد المنطقة الحساسة",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "gynecology/bikini-whitening-rejuvenation",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -299,6 +364,7 @@
                             "name": "شد المنطقة الحساسة - بيلادونا",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "gynecology/bikini-tightening-belladona",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -306,6 +372,7 @@
                             "name": "حقن البلازما",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "gynecology/plasma-injection",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -313,6 +380,7 @@
                             "name": "فيلر نسائي",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "gynecology/gynecological-filler",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -320,14 +388,14 @@
                             "name": "بوتوكس مهبلي",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "gynecology/vaginal-anti-aging-treatment",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "أطباؤنا",
-                    "description": "تعرف على فريقنا المتميز من الخبراء، الملتزمين بتقديم أعلى مستويات الرعاية."
+                    "title": "أطباؤنا"
                 },
                 {
                     "type": "slider-doctors",
@@ -345,6 +413,7 @@
                         {
                             "id": 1,
                             "name": "د. هدى إبراهيم شاهين",
+                            "readMore": " اقرأ المزيد",
                             "designation": "أخصائية طب النساء والتوليد",
                             "image": "/assets/Images/doctors/huda.png",
                             "link": "dr-huda-ebrahim-shaheen"
@@ -418,6 +487,7 @@
                             "name": "علاجات الوجه",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "العناية-بالبشرة/علاجات-الوجه",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -425,6 +495,7 @@
                             "name": "التقشير",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "العناية-بالبشرة/التقشير",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -432,6 +503,7 @@
                             "name": "الميزوثيرابي",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "العناية-بالبشرة/الميزوثيرابي",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -439,6 +511,7 @@
                             "name": "بلازما الوجه",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "العناية-بالبشرة/بلازما-الوجه",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -446,6 +519,7 @@
                             "name": "علاج المحلول الوريدي",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "العناية-بالبشرة/المحلول-الوريدي",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -453,6 +527,7 @@
                             "name": "خيوط الكولاجين",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "العناية-بالبشرة/خيوط-الكولاجين",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -460,6 +535,7 @@
                             "name": "الثقب",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "العناية-بالبشرة/الثقب",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -467,6 +543,7 @@
                             "name": "أجهزة العناية بالبشرة",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "العناية-بالبشرة/أجهزة-العناية-بالبشرة",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -474,7 +551,36 @@
                             "name": "علاجات الشعر",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "العناية-بالبشرة/علاجات-الشعر",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
+                        }
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Our Doctors",
+                    "description": ""
+                },
+                {
+                    "type": "slider-doctors",
+                    "title": "Meet Our Specialists",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 1,
+                            "name": " نزيهة الطباع ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " خبيرة بشرة ومعالجة تجميل ",
+                            "image": "/assets/Images/doctors/Naziha.png",
+                            "link": "doctor/naziha-al-tabaa"
                         }
                     ]
                 }
@@ -561,6 +667,7 @@
                             "name": "الأجهزة",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "التغذية-والتنحيف/الأجهزة",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -568,6 +675,7 @@
                             "name": "الحقن",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "التغذية-والتنحيف/الحقن",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -575,14 +683,14 @@
                             "name": "خدمات أخرى",
                             "image": "/assets/Images/home/Doctors.png",
                             "link": "التغذية-والتنحيف/خدمات-أخرى",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         }
                     ]
                 },
                 {
                     "type": "content",
-                    "title": "أطباؤنا",
-                    "description": "التقِ بفريق خبرائنا المتميز، الملتزم بمساعدتك على تحقيق أفضل نتائج تعكس لياقتك وصحتك."
+                    "title": "أطباؤنا"
                 },
                 {
                     "type": "slider-doctors",
@@ -599,10 +707,18 @@
                     "doctors": [
                         {
                             "id": 1,
-                            "name": "الدكتور مهدي شيدفاش",
-                            "designation": "أخصائي الطب العام والتغذية واللياقة",
-                            "image": "/assets/Images/doctors/Dr Mehdi.png",
-                            "link": "dr-mehdi-sheidvash"
+                            "name": " د. إليسا األحمدية ",
+                            "readMore": " اقرأ المزيد",
+                            "designation": " أخصائية تغذية ",
+                            "image": "/assets/Images/doctors/Dr Elissa.png",
+                            "link": "doctor/dt-elissa-a-ahmadieh"
+                        },
+                        {
+                            "id": 2,
+                            "name": " دكتور مهدي شيدفش ",
+                            "designation": " طبيب تجميل ",
+                            "image": "/assets/Images/doctors/mahdi.png",
+                            "link": "doctor/dr-mehdi-shidvash"
                         }
                     ]
                 }
@@ -688,6 +804,34 @@
                     "type": "color-content",
                     "heading": "في كاريزما، نحن ندرك أن رحلة كل مريض فريدة من نوعها. يجمع نهجنا بين أحدث التقنيات والرعاية الشخصية لضمان راحتك ورضاك في كل خطوة.",
                     "description": "هل أنت مستعد للتحول؟ احجز استشارة مع أطبائنا الخبراء اليوم."
+                },
+                {
+                    "type": "content",
+                    "title": "Our Doctors",
+                    "description": ""
+                },
+                {
+                    "type": "slider-doctors",
+                    "title": "Meet Our Specialists",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 1,
+                            "name": " دكتور يوري ماكرينو ",
+                            "readMore": " اقرأ المزيد",
+                            "designation":  " جراح تجميل واستشاري ",
+                            "image": "/assets/Images/doctors/Dr Yuri.png",
+                            "link": "doctor/dr-yuri-macrino"
+                        }
+                    ]
                 }
             ]
         },
@@ -797,7 +941,7 @@
                             "name": "كانديلا جنتل ماكس برو",
                             "image": "../assets/Images/depts/laser/Candela/body-image.png",
                             "link": "laser-hair-removal/candela",
-                            "readMore": "Read More",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -805,7 +949,7 @@
                             "name": "ويك تيليإ ",
                             "image": "../assets/Images/banner/about_dept/laser.png",
                             "link": "laser-hair-removal/elite",
-                            "readMore": "Read More",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -813,7 +957,7 @@
                             "name": "ريف لايت إس آي",
                             "image": "../assets/Images/depts/laser/body-image.png",
                             "link": "laser-hair-removal/revlite",
-                            "readMore": "Read More",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         }
                     ]
