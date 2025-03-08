@@ -140,13 +140,6 @@
                     },
                     "doctors": [
                         {
-                            "id": 1,
-                            "name": "د. هشام نافع",
-                            "designation": "أخصائي زراعة الأسنان",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
-                        {
                             "id": 2,
                             "name": "د. عادل الأسود",
                             "designation": "أخصائي جراحة الفم",
@@ -335,13 +328,6 @@
                     },
                     "doctors": [
                         {
-                            "id": 1,
-                            "name": "د. هشام نافع",
-                            "designation": "أخصائي زراعة الأسنان",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
-                        {
                             "id": 2,
                             "name": "د. عادل الأسود",
                             "designation": "أخصائي جراحة الفم",
@@ -389,19 +375,16 @@
                         {
                             "type": "paragraph",
                             "text": "هل تعاني من فقدان الأسنان أو تلفها؟ اكتشف الحلول الحديثة لزراعة الأسنان في مركز كاريزما الطبي التخصصي. توفر تقنياتنا المتطورة بديلاً دائماً وفعالاً لأطقم الأسنان التقليدية أو الجسور السنية، مما يحسن صحتك الفموية ونوعية حياتك بشكل عام."
-                        },
-                        {
-                            "type": "heading",
-                            "text": "ما هي زراعة الأسنان؟"
-                        },
-                        {
-                            "type": "paragraph",
-                            "text": "زراعة الأسنان عبارة عن دعامات تيتانيوم متطورة يتم زرعها جراحياً في عظم الفك بواسطة أطبائنا الخبراء. تعمل هذه الزرعات كجذور أسنان صناعية قوية لدعم التيجان أو الجسور أو أطقم الأسنان المخصصة، مما يضمن استعادة كاملة لوظيفة الأسنان الطبيعية ومظهرها الجمالي."
                         }
                     ]
                 },
                 {
                     "type": "content",
+                    "title": "ما هي زراعة الأسنان؟",
+                    "description":  "زراعة الأسنان عبارة عن دعامات تيتانيوم متطورة يتم زرعها جراحياً في عظم الفك بواسطة أطبائنا الخبراء. تعمل هذه الزرعات كجذور أسنان صناعية قوية لدعم التيجان أو الجسور أو أطقم الأسنان المخصصة، مما يضمن استعادة كاملة لوظيفة الأسنان الطبيعية ومظهرها الجمالي."
+                },
+                {
+                    "type": "sub-heading-content-last",
                     "title": "الفوائد الرئيسية لزراعة الأسنان",
                     "features": [
                         "وظيفة محسنة: استعد قدرتك على الأكل والتحدث والابتسام بثقة، كما لو كانت لديك أسنان طبيعية.",
@@ -464,13 +447,6 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        {
-                            "id": 1,
-                            "name": "د. هشام نافع",
-                            "designation": "أخصائي زراعة الأسنان",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
                         {
                             "id": 2,
                             "name": "د. عادل الأسود",
@@ -607,13 +583,6 @@
                     },
                     "doctors": [
                         {
-                            "id": 1,
-                            "name": "د. هشام نافع",
-                            "designation": "أخصائي زراعة الأسنان",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
-                        {
                             "id": 2,
                             "name": "د. عادل الأسود",
                             "designation": "أخصائي جراحة الفم",
@@ -742,13 +711,6 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        {
-                            "id": 1,
-                            "name": "د. هشام نافع",
-                            "designation": "أخصائي زراعة الأسنان",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
                         {
                             "id": 2,
                             "name": "د. عادل الأسود",
@@ -888,13 +850,7 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        {
-                            "id": 1,
-                            "name": "د. هشام نافع",
-                            "designation": "أخصائي زراعة الأسنان",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
+                      
                         {
                             "id": 2,
                             "name": "د. عادل الأسود",
@@ -1035,13 +991,7 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        {
-                            "id": 1,
-                            "name": "د. هشام نافع",
-                            "designation": "أخصائي زراعة الأسنان",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
+                       
                         {
                             "id": 2,
                             "name": "د. عادل الأسود",
@@ -1224,13 +1174,7 @@
                         "button-text-size": "16px"
                     },
                     "doctors": [
-                        {
-                            "id": 1,
-                            "name": "د. هشام نافع",
-                            "designation": "أخصائي زراعة الأسنان",
-                            "image": "/assets/Images/doctors/hesham nafi.png",
-                            "link": "dr-hesham-nafei"
-                        },
+                     
                         {
                             "id": 2,
                             "name": "د. عادل الأسود",
