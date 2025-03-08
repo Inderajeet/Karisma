@@ -40,7 +40,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "خدماتنا لتحويل ابتسامتك",
                     "description": "في كاريزما، نخصص كل علاج ليناسب احتياجاتك الفردية، مما يضمن تجربة فاخرة ونتائج مثالية:",
                     "features": [
@@ -61,7 +61,7 @@
                     ]
                 },
                 {
-                    "type": "center-content",
+                    "type": "color-content",
                     "title": "الفرق الذي يجعل كاريزما الاختيار الأمثل، لماذا يثق بنا النخبة؟",
                     "description": "في مركز كاريزما الطبي المتخصص، نحن ملتزمون بالتميّز، مما يجعلنا الخيار الأول لمن يطمحون لأفضل رعاية صحية لأسنانهم. كما أن تفانينا في إرضاء العملاء يميزنا كوجهة مثالية لخدمات طب الأسنان الاستثنائية.",
                     "features": [
@@ -79,7 +79,96 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-heading",
+                    "title": "الخدمات ذات الصلة"
+                },
+                {
+                    "type": "list-services",
+                    "listServices": [
+                        {
+                            "id": 1,
+                            "name": "ابتسامة هوليوود (الفينير)",
+                            "image": "/assets/Images/depts/dental/hollywood-smile/body-image.png",
+                            "link": "dental/hollywood-smile-veneers",
+                            "readMore": "اقرأ المزيد",
+                            "designation": ""
+                        },
+                        {
+                            "id": 2,
+                            "name": "زراعة الأسنان",
+                            "image": "/assets/Images/depts/dental/implant/body-image.png",
+                            "link": "dental/implant",
+                            "readMore": "اقرأ المزيد",
+                            "designation": ""
+                        },
+                        {
+                            "id": 3,
+                            "name": "تقويم الأسنان",
+                            "image": "/assets/Images/depts/dental/ortho/body-image.png",
+                            "link": "dental/orthodontics",
+                            "readMore": "اقرأ المزيد",
+                            "designation": ""
+                        },
+                        {
+                            "id": 4,
+                            "name": "تبييض الأسنان",
+                            "image": "/assets/Images/depts/dental/teeth-Whitening/body-image.png",
+                            "link": "dental/teeth-whitening",
+                            "readMore": "اقرأ المزيد",
+                            "designation": ""
+                        },
+                        {
+                            "id": 5,
+                            "name": "إعادة تأهيل الفم",
+                            "image": "/assets/Images/depts/dental/Mouth-Rehabilitation/body-image.png",
+                            "link": "dental/mouth-rehabilitation",
+                            "readMore": "اقرأ المزيد",
+                            "designation": ""
+                        },
+                        {
+                            "id": 6,
+                            "name": "علاج قناة الجذر",
+                            "image": "/assets/Images/depts/dental/root-canal/body-image.png",
+                            "link": "dental/root-canal",
+                            "readMore": "اقرأ المزيد",
+                            "designation": ""
+                        },
+                        {
+                            "id": 7,
+                            "name": "طب أسنان الأطفال",
+                            "image": "/assets/Images/depts/dental/Pediatric/body-image.png",
+                            "link": "dental/pediatric",
+                            "readMore": "اقرأ المزيد",
+                            "designation": ""
+                        },
+                        {
+                            "id": 8,
+                            "name": "العلاج الجراحي للأسنان",
+                            "image": "/assets/Images/depts/dental/Dental-Surgical-Treatment/body-image.png",
+                            "link": "dental/dental-surgery",
+                            "readMore": "اقرأ المزيد",
+                            "designation": ""
+                        },
+                        {
+                            "id": 9,
+                            "name": "صحة الفم (علاج اللثة)",
+                            "image": "/assets/Images/depts/dental/Oral-Health/body-image.png",
+                            "link": "dental/oral-health",
+                            "readMore": "اقرأ المزيد",
+                            "designation": ""
+                        },
+                        {
+                            "id": 10,
+                            "name": "طب الأسنان الترميمي",
+                            "image": "/assets/Images/depts/dental/Restorative-Dentistry/body-image.png",
+                            "link": "dental/restorative-dentistry",
+                            "readMore": "اقرأ المزيد",
+                            "designation": ""
+                        }
+                    ]
+                },
+                {
+                    "type": "cont-content",
                     "title": "تجربة شاملة في طب الأسنان تحت سقف واحد",
                     "description": "لماذا تتشتت بين مواعيد متعددة في عيادات مختلفة؟ في مركز كاريزما الطبي المتخصص، نقدم مجموعة واسعة من الخدمات، من الرعاية الوقائية إلى الإجراءات التجميلية المتقدمة. نحن وجهتك الشاملة لجميع احتياجاتك في مجال صحة الفم والأسنان."
                 },
@@ -89,6 +178,47 @@
                     "features": [
                         "انضم إلى العديد من المرضى الذين اكتشفوا الفرق في كاريزما. اتصل بنا الآن لحجز استشارة شخصية واتخاذ الخطوة الأولى نحو تحقيق ابتسامة أحلامك.",
                         "ابتسامتك المثالية وثقتك المتجددة على بعد زيارة واحدة في مركز كاريزما الطبي التخصصي حيث يلتقي الفن والتميز بالخبرة والأصالة."
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "أطباؤنا",
+                    "description": "تعرف على فريقنا النخبوي من الخبراء، المكرسين لصنع ابتسامات تعكس الأناقة والتميز."
+                },
+                {
+                    "type": "slider-doctors",
+                    "title": "تعرف على أخصائيينا",
+                    "cards": {
+                        "background-color": "#f9f9f9",
+                        "heading-color": "#577065",
+                        "heading-size": "24px",
+                        "desc-color": "#5C4033",
+                        "desc-size": "16px",
+                        "button-text-color": "#577065",
+                        "button-text-size": "16px"
+                    },
+                    "doctors": [
+                        {
+                            "id": 2,
+                            "name": "د. عادل الأسود",
+                            "designation": "أخصائي جراحة الفم",
+                            "image": "/assets/Images/doctors/Adel.png",
+                            "link": "doctor/dr-adel-al-aswad"
+                        },
+                        {
+                            "id": 3,
+                            "name": "د. رانيا غانم",
+                            "designation": "أخصائية تعويضات الأسنان",
+                            "image": "/assets/Images/doctors/Rania.png",
+                            "link": "doctor/dr-rania-ghanem"
+                        },
+                        {
+                            "id": 4,
+                            "name": "د. أمير مجدي",
+                            "designation": "طبيب أسنان عام",
+                            "image": "/assets/Images/doctors/Amir.png",
+                            "link": "doctor/dr-amir-magdy"
+                        }
                     ]
                 }
             ]
@@ -137,17 +267,17 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "ثقة مصممة خصيصًا لك",
                     "description": "في مركز كاريسما الطبي التخصصي، ندرك أن الثقة مسألة شخصية للغاية. نهجنا الشخصي يضمن أن يحصل كل عميل على خطة علاج مخصصة تعزز جماله الطبيعي من الداخل والخارج."
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "الجمال يتجاوز المظهر",
                     "description": "لا نهدف فقط إلى تغيير المظهر، بل نسعى إلى تمكينك من احتضان تفردك وتحقيق أهدافك بثقة لا تتزعزع. مع مرافق متطورة وفريق شغوف، نحن ملتزمون بتقديم أعلى معايير الرعاية لتجربة تحولية حقيقية."
                 },
                 {
-                    "type": "color-content",
+                    "type": "color-heading",
                     "title": "الخدمات ذات الصلة"
                 },
                 {
@@ -156,29 +286,33 @@
                         {
                             "id": 1,
                             "name": "حقن الفيلر",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "derma/derma-filler",
+                           "image": "../assets/Images/depts/derma/filler/body-image.png",
+                            "link": "derma/dermal-filler",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 2,
                             "name": "علاجات مكافحة الشيخوخة",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "derma/gynecology/vaginal-anti-aging-treatment",
+                            "image": "../assets/Images/depts/derma/anti-aging-treatment/body-image.png",
+                            "link": "derma/anti-aging-treatment",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 3,
                             "name": "الخيوط التجميلية",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/depts/derma/Cosmetic-Threads/body-image.png",
                             "link": "derma/cosmetic-threads",
+                            "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 4,
                             "name": "حقن تجديد الشباب",
-                            "image": "/assets/Images/home/Doctors.png",
+                            "image": "../assets/Images/depts/derma/Rejuvenation/body-image1.png",
                             "link": "derma/rejuvenation-injection",
+                            "readMore": "Read More",
                             "designation": ""
                         }
                     ]
@@ -203,10 +337,24 @@
                     "doctors": [
                         {
                             "id": 1,
+                            "name": "د. ساندرو سيسي",
+                            "designation": "أخصائي الأمراض الجلدية",
+                            "image": "/assets/Images/doctors/Dr Sandro.png",
+                            "link": "doctor/dr-sandro-ceci"
+                        },
+                        {
+                            "id": 2,
                             "name": "د. منار مجدي",
                             "designation": "أخصائية الأمراض الجلدية",
                             "image": "/assets/Images/doctors/Dr Manar.png",
-                            "link": "dr-manar-magdy"
+                            "link": "doctor/dr-manar-magdy"
+                        },
+                        {
+                            "id": 3,
+                            "name": "د. رامليا أناركولوفا",
+                            "designation": "أخصائية الأمراض الجلدية والتجميل",
+                            "image": "/assets/Images/doctors/Dr Ramila.png",
+                            "link": "doctor/dr-ramilia-anarkulova"
                         }
                     ]
                 }
@@ -699,11 +847,13 @@
                     "type": "banner",
                     "deptName": "إزالة الشعر بالليزر",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/banner/dept_banner/laser.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/laser.png",
+                     "bannerPosition": "left"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/laser.png",
+                    "imageUrl": "../assets/Images/depts/laser/body-image.png",
+                    "imageAlt": "Laser Hair Removal",
                     "title": "إزالة الشعر بالليزر",
                     "content": [
                         {
@@ -713,19 +863,16 @@
                         {
                             "type": "paragraph",
                             "text": "اكتشف الحرية في التمتع ببشرة ناعمة وخالية من الشعر مع علاجات إزالة الشعر بالليزر المتقدمة لدينا. نقدم تقنيات متطورة توفر نتائج طويلة الأمد بأمان وفعالية، لتناسب احتياجاتك الفريدة."
-                        },
-                        {
-                            "type": "heading",
-                            "text": "ما هي إزالة الشعر بالليزر؟"
-                        },
-                        {
-                            "type": "paragraph",
-                            "text": "إزالة الشعر بالليزر هي إجراء متطور وغير جراحي يستهدف بصيلات الشعر باستخدام طاقة ضوئية مركزة. يعمل الليزر على تعطيل نمو الشعر المستقبلي من خلال استهداف الميلانين داخل الشعر، دون التأثير على الجلد المحيط."
                         }
                     ]
                 },
                 {
                     "type": "content",
+                    "title": "ما هي إزالة الشعر بالليزر؟",
+                    "description": "إزالة الشعر بالليزر هي إجراء متطور وغير جراحي يستهدف بصيلات الشعر باستخدام طاقة ضوئية مركزة. يعمل الليزر على تعطيل نمو الشعر المستقبلي من خلال استهداف الميلانين داخل الشعر، دون التأثير على الجلد المحيط."
+                },
+                {
+                    "type": "sub-heading-content-last",
                     "title": "فوائد إزالة الشعر بالليزر:",
                     "features": [
                         "نتائج طويلة الأمد: انخفاض نمو الشعر بشكل ملحوظ لعدة أشهر أو حتى سنوات.",
@@ -735,7 +882,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "من يمكنه الاستفادة من إزالة الشعر بالليزر؟",
                     "description": "بفضل التقدم في تقنية الليزر، أصبح هذا العلاج فعالًا لمجموعة واسعة من ألوان البشرة وأنواع الشعر. سيقوم خبراؤنا بتقييم حالتك خلال الاستشارة ووضع خطة علاج مخصصة لك."
                 },
@@ -750,7 +897,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-color-content-last",
                     "title": "تقنيات الليزر المتقدمة لنتائج مثالية",
                     "description": "نوفر لك أنظمة ليزر متطورة تضمن الدقة والسلامة والفعالية. خلال استشارتك، سيحدد خبراؤنا التقنية المثلى لتحقيق أفضل النتائج.",
                     "features": [
@@ -785,7 +932,7 @@
                     "description": "تخلص من الطرق التقليدية لإزالة الشعر وابدأ تجربة طويلة الأمد من النعومة. حدد موعد استشارتك اليوم مع خبرائنا واستمتع ببشرة خالية من الشعر تنبض بالثقة والجمال."
                 },
                 {
-                    "type": "color-content",
+                    "type": "color-heading",
                     "title": "الخدمات ذات الصلة",
                     "description": "اكتشف العلاجات المتطورة الأخرى لدينا:"
                 },
@@ -796,7 +943,7 @@
                             "id": 1,
                             "name": "كانديلا جنتل ماكس برو",
                             "image": "../assets/Images/depts/laser/Candela/body-image.png",
-                            "link": "laser-hair-removal/candela",
+                            "link": "laser-hair-removal/candela-gentle-max-pro",
                             "readMore": "Read More",
                             "designation": ""
                         },
@@ -804,15 +951,15 @@
                             "id": 2,
                             "name": "ويك تيليإ ",
                             "image": "../assets/Images/banner/about_dept/laser.png",
-                            "link": "laser-hair-removal/elite",
+                            "link": "laser-hair-removal/elite-iq",
                             "readMore": "Read More",
                             "designation": ""
                         },
                         {
                             "id": 2,
                             "name": "ريف لايت إس آي",
-                            "image": "../assets/Images/depts/laser/body-image.png",
-                            "link": "laser-hair-removal/revlite",
+                            "image": "../assets/Images/depts/laser/RevLite/body-image.png",
+                            "link": "laser-hair-removal/revlite-si",
                             "readMore": "Read More",
                             "designation": ""
                         }
