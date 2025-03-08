@@ -1335,7 +1335,7 @@
                             "id": 1,
                             "name": "E-Max Veneer 6D",
                             "image": "../assets/Images/banner/about_dept/dental.png",
-                            "link": "dental/hollywood-smile-veneers",
+                            "link": "dental/hollywood-smile-veneers/e-max-hollywood-smile",
                             "readMore": "Read More",
                             "designation": "Crafted from premium German ceramics, E-Max veneers offer exceptional durability and aesthetic appeal."
                         },
@@ -1359,7 +1359,7 @@
                             "id": 4,
                             "name": "Diamond Cut",
                             "image": "../assets/Images/banner/about_dept/dental.png",
-                            "link": "dental/hollywood-smile-veneers",
+                            "link": "dental/hollywood-smile-veneers/diamond-cut-smile",
                             "readMore": "Read More",
                             "designation": "Durable and stunning, these veneers provide a flawless, natural appearance for a smile that lasts."
                         },
@@ -1367,7 +1367,7 @@
                             "id": 5,
                             "name": "Solitaire Smile",
                             "image": "../assets/Images/banner/about_dept/dental.png",
-                            "link": "dental/hollywood-smile-veneers",
+                            "link": "dental/hollywood-smile-veneers/solitare-smile",
                             "readMore": "Read More",
                             "designation": "Push the boundaries of modern dentistry with translucent, durable veneers for a dazzling finish."
                         }

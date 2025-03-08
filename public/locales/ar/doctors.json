@@ -1,79 +1,19 @@
 {
     "doctors": [
-        {
-            "id": 1,
-            "name": "Dr. Hesham Nafei",
-            "image": "/assets/Images/doctors/hesham nafi.png",
-            "link": "",
-            "designation": "Implantologist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "M",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
-            "overview": {
-                "title": "Overview",
-                "sections": [
-                    {
-                        "subtitle": "",
-                        "items": [
-                            ""
-                        ]
-                    }
-                ]
-            },
-            "workExperience": {
-                "title": "Work Experience",
-                "items": [
-                    ""
-                ]
-            },
-            "qualifications": {
-                "title": "Qualifications",
-                "items": [
-                    ""
-                ]
-            },
-            "workingShifts": {
-                "title": "Working Shifts",
-                "flipFront1": "Sunday to Thursday",
-                "flipFrontDesc1": "10:00 AM to 8:00 PM",
-                "flipBack1": "Saturday",
-               "flipBackDesc1": "10:00 AM to 9:00 PM",
-                "flipFront2": "Address",
-                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
-                "flipBack2": "Address",
-                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
-            }
-        },
+        
         {
             "id": 2,
-            "name": "Dr. Yuri Macrino",
+            "name": "االسم: - دكتور يوري ماكرينو ",
             "image": "/assets/Images/doctors/Dr Yuri.png",
             "link": "dr-yuri-macrino",
-            "designation": "Aesthetic plastic surgeon & consultant",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
+            "designation": "الوظيفة: - جراح تجميل واستشاري ",
             "overview": {
                 "title": "Overview",
                 "sections": [
                     {
                         "subtitle": "",
                         "items": [
-                            "Dr. Yuri Macrino is an esteemed aesthetic plastic surgeon with over 3,300 aesthetic and reconstructive surgeries. With a focus on body contouring, facial rejuvenation, and breast surgery, he is renowned for his precision and commitment to natural, long lasting results. Dr. Macrino performs surgeries using advanced techniques such as Vaser and Renuvion, ensuring optimal outcomes for his patients."
+                            "الدكتور يوري ماكرينو هو جراح تجميل مرموق أجرى أكثر من 3300 عملية تجميل وترميم. مع التركيز على تحديد شكل الجسم وتجديد الوجه وجراحة الثدي، فهو مشهور بدقته والتزامه بالنتائج الطبيعية طويلة األمد. يجري الدكتور ماكرينو الجراحات باستخدام تقنيات متقدمة مثل Vaser وRenuvion، مما يضمن النتائج المثلى لمرضاه. "
                         ]
                     }
                 ]
@@ -81,50 +21,40 @@
             "workExperience": {
                 "title": "Work Experience",
                 "items": [
-                    "Currently practicing as a freelance consultant across top clinics in Rome, Milan, Turin, and San Marino, Dr. Macrino has also contributed to humanitarian work with Operation Smile and Aicpe-onlus."
+                    "يمارس الدكتور ماكرينو حالًيا مهنة استشاري مستقل في أفضل العيادات في روما وميالنو وتورينو وسان مارينو، كما ساهم أي ًضا في العمل اإلنساني مع Smile Operation وonlus-Aicpe"
                 ]
             },
             "qualifications": {
                 "title": "Qualifications",
                 "items": [
-                    "He holds degrees in Aesthetic Plastic Surgery and Medicine from the University of Catania and \"La Sapienza”, Rome. As an active member of prestigious scientific societies like ISAPS, IPRAS, AICPE, and SICPRE, Dr. Macrino is dedicated to advancing the field through education and research."
+                    "حصل على درجات علمية في جراحة التجميل والطب من جامعة كاتانيا و \"ا سابينزا \" بروما. وبصفته عضًو ISAPS وIPRAS وAICPE وSICPRE، يكرس الدكتور ا نش ًطا في الجمعيات العلمية المرموقة مثل ماكرينو نفسه لتطوير هذا المجال من خالل التعليم والبحث. "
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
-                "flipFront1": "Sunday to Thursday",
+                "title": "ساعات العمل",
+                "flipFront1": "األحد - الخميس من الساعة",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
-                "flipBack1": "Saturday",
+                "flipBack1": "السبت من الساعة",
                "flipBackDesc1": "10:00 AM to 9:00 PM",
-                "flipFront2": "Address",
-                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
-                "flipBack2": "Address",
-                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+                "flipFront2": "العنوان",
+                "flipFrontDesc2": "ممشى الراحة، شارع المنتزه، الشارقة ",
+                "flipBack2": "العنوان",
+                "flipBackDesc2": "ممشى الراحة، شارع المنتزه، الشارقة "
             }
         },
         {
             "id": 3,
-            "name": "Dr. Mehdi Shidvash",
+            "name": "االسم: - دكتور مهدي شيدفش ",
             "image": "/assets/Images/doctors/mahdi.png",
             "link": "dr-mehdi-shidvash",
-            "designation": "Aesthetic Physician",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 27+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
+            "designation": "اللقب: - طبيب تجميل ",
             "overview": {
                 "title": "Overview",
                 "sections": [
                     {
                         "subtitle": "",
                         "items": [
-                            "Dr. Shidvash is known for his patient-centered approach, combining advanced techniques with meticulous attention to detail. His philosophy emphasizes achieving natural, balanced, and long-lasting results. Patients trust him for his ability to deliver personalized care that enhances their confidence and well-being. Fluent in English, Farsi, German, and French, he continues to lead advancements in aesthetic medicine while inspiring confidence and trust among his patients. With his deep commitment to excellence and innovation, Dr. Mehdi Shidvash has become a trusted name in aesthetic medicine, both in the UAE and globally."
+                            "يشتهر الدكتور شيدفش بعالجه الذي يركز على المريض النهج، الذي يجمع بين التقنيات المتقدمة واالهتمام الدقيق بالتفاصيل. وتؤكد فلسفته على تحقيق نتائج طبيعية ومتوازنة وطويلة األمد. يثق به المرضى لقدرته على تقديم رعاية شخصية تعزز ثقتهم ورفاهيتهم. ويواصل إتقانه للغة اإلنجليزية والفارسية واأللمانية والفرنسية، قيادة التطورات في الطب التجميلي مع إلهام الثقة بين مرضاه. مع التزامه العميق بالتميز واإلبداع، أصبح الدكتور مهدي شيدفاش اس ًما موثوا به في الطب التجميلي، سواء في اإلمارات العربية المتحدة أو على مستوى العالم. "
                         ]
                     }
                 ]
@@ -132,50 +62,40 @@
             "workExperience": {
                 "title": "Work Experience",
                 "items": [
-                    "Dr. Mehdi Shidvash is a highly skilled and dedicated aesthetic physician with over 27 years of experience in cosmetic medicine. His expertise spans a wide range of procedures, tailored to meet the unique needs of his patients while maintaining the highest standards of safety and ethics. Dr. Shidvash’s extensive contributions to the field include authoring a skincare and anti-aging reference book in Iran and speaking at prestigious conferences such as IMCAS (Paris) and AMWC (Monaco)."
+                    "الدكتور مهدي شيدفش هو طبيب تجميل ماهر ومخلص يتمتع بخبرة تزيد عن 27 عا ًما في الطب التجميلي. تمتد خبرته إلى مجموعة واسعة من اإلجراءات المصممة لتلبية االحتياجات الفريدة لمرضاه مع الحفاظ على أعلى معايير السالمة واألخالق. وتشمل مساهمات الدكتور شيدفاش الواسعة في هذا المجال تأليف كتاب مرجعي للعناية بالبشرة ومكافحة الشيخوخة في إيران والتحدث في مؤتمرات مرموقة مثل IMCAS( باريس( وAMWC( موناكو(. "
                 ]
             },
             "qualifications": {
                 "title": "Qualifications",
                 "items": [
-                    "He graduated from Shahid Beheshti Faculty of Medicine in 1997 and has since built an impressive career specializing in non-invasive and minimally invasive aesthetic treatments."
+                    "تخرج من كلية الطب شهيد بهشتي عام 1997 ومنذ ذلك الحين بنى مهنة رائعة متخصصة في العالجات التجميلية غير الجراحية واألقل تدخال.ً"
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
-                "flipFront1": "Sunday to Thursday",
+                "title": "ساعات العمل",
+                "flipFront1": "األحد - الخميس من الساعة",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
-                "flipBack1": "Saturday",
+                "flipBack1": "السبت من الساعة",
                "flipBackDesc1": "10:00 AM to 9:00 PM",
-                "flipFront2": "Address",
-                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
-                "flipBack2": "Address",
-                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+                "flipFront2": "العنوان",
+                "flipFrontDesc2": "ممشى الراحة، شارع المنتزه، الشارقة ",
+                "flipBack2": "العنوان",
+                "flipBackDesc2": "ممشى الراحة، شارع المنتزه، الشارقة "
             }
         },
         {
             "id": 4,
-            "name": "Dr. Sandro Ceci",
+            "name": "االسم: - ساندرو سيسي ",
             "image": "/assets/Images/doctors/Dr Sandro.png",
             "link": "dr-sandro-ceci",
-            "designation": "Dermatologist Specialist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
+            "designation": "اللقب: - أخصائي أمراض جلدية ",
             "overview": {
                 "title": "Overview",
                 "sections": [
                     {
                         "subtitle": "",
                         "items": [
-                            "Dr. Sandro Ceci is a highly accomplished Dermatologist with extensive expertise in both clinical and aesthetic dermatology. Dr. Ceci specializes in a wide range of dermatological services, from diagnosing and treating skin conditions to advanced aesthetic procedures designed to rejuvenate and enhance skin health. His patient-focused approach, combined with a meticulous attention to detail, ensures personalized care that prioritizes both safety and natural results."
+                            "الدكتور ساندرو سيسي هو طبيب أمراض جلدية بارع يتمتع بخبرة واسعة في كل من األمراض الجلدية السريرية والتجميلية. أكمل تخصصه في األمراض الجلدية في Educational-Técnico Fundação Marques Souza، البرازيل )2009-2006(، وصقل مهاراته في الطب التجميلي من خالل برنامج إضافي في نفس المؤسسة )-2006 2008(. بعد حصوله على شهادة أخصائي أمراض جلدية من الجمعية الطبية البرازيلية منذ عام ،2011 أصبح الدكتور سيسي س ًما موثوقا به في مجال الرعاية الجلدية."
                         ]
                     }
                 ]
@@ -183,50 +103,40 @@
             "workExperience": {
                 "title": "Work Experience",
                 "items": [
-                    "Currently practicing as a freelance consultant across top clinics in Rome, Milan, Turin, and San Marino, Dr. Macrino has also contributed to humanitarian work with Operation Smile and Aicpe-onlus. With years of experience and a commitment to staying at the forefront of advancements in dermatology, Dr. Sandro Ceci continues to provide exceptional care, inspiring confidence and improving the well-being of his patients."
+                    "يتخصص الدكتور سيسي في مجموعة واسعة من الخدمات الجلدية، من تشخيص وعالج حاالت الجلد إلى اإلجراءات التجميلية المتقدمة المصممة لتجديد وتعزيز صحة الجلد. إن نهجه الذي يركز على المريض، جنًبا إلى جنب مع االهتمام الدقيق بالتفاصيل، يضمن رعاية شخصية تعطي األولوية للسالمة والنتائج الطبيعية. مع سنوات من الخبرة وااللتزام بالبقاء في طليعة التطورات في األمراض الجلدية، يواصل الدكتور ساندرو سيسي تقديم رعاية استثنائية، وإلهام الثقة وتحسين رفاهية مرضاه. "
                 ]
             },
             "qualifications": {
                 "title": "Qualifications",
                 "items": [
-                    "He completed his Dermatology Specialization at Fundação Técnico-Educational Souza Marques, Brazil (2006-2009), and further honed his skills in Aesthetic Medicine through an additional program at the same institution (2006-2008). Certified as a Dermatology Specialist by the Brazilian Medical Association since 2011, Dr. Ceci has become a trusted name in the field of dermatological care. In pursuit of academic excellence and research, Dr. Ceci earned a Master’s degree in Biopathology from Universiade de Uberaba, Brazil (2016-2018). His academic background underpins his evidence-based approach to dermatological treatments, ensuring that patients receive the highest standard of care."
+                    "وفي سعيه إلى التميز األكاديمي والبحث، حصل الدكتور سيسي على درجة الماجستير في علم األمراض الحيوية من جامعة أوبيرابا، البرازيل ) 2018-2016(. وتدعم خلفيته األكاديمية نهجه القائم على األدلة في عالج األمراض الجلدية، مما يضمن حصول المرضى على أعلى مستوى من الرعاية. "
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
-                "flipFront1": "Sunday to Thursday",
+                "title": "ساعات العمل",
+                "flipFront1": "األحد - الخميس من الساعة",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
-                "flipBack1": "Saturday",
+                "flipBack1": "السبت من الساعة",
                "flipBackDesc1": "10:00 AM to 9:00 PM",
-                "flipFront2": "Address",
-                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
-                "flipBack2": "Address",
-                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+                "flipFront2": "العنوان",
+                "flipFrontDesc2": "ممشى الراحة، شارع المنتزه، الشارقة ",
+                "flipBack2": "العنوان",
+                "flipBackDesc2": "ممشى الراحة، شارع المنتزه، الشارقة "
             }
         },
         {
             "id": 5,
-            "name": "Dr. Manar Magdy",
+            "name": "االسم: - دكتورة منار مجدي ",
             "image": "/assets/Images/doctors/Dr Manar.png",
             "link": "dr-manar-magdy",
-            "designation": "Dermatologist Specialist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
+            "designation": "اللقب: - أخصائية أمراض جلدية ",
             "overview": {
                 "title": "Overview",
                 "sections": [
                     {
                         "subtitle": "",
                         "items": [
-                            "Dr. Manar Magdy Khalil Osman is a highly experienced Dermatology Specialist with over 15 years of expertise in both medical and cosmetic dermatology. She is known for her detailed approach to enhancing natural beauty while prioritizing patient safety and comfort."
+                            "الدكتورة منار مجدي خليل عثمان هي أخصائية أمراض جلدية تتمتع بخبرة عالية ألكثر من 15 عا ًما في كل من األمراض الجلدية الطبية والتجميلية. وهي معروفة بنهجها التفصيلي لتعزيز الجمال الطبيعي مع إعطاء األولوية لسالمة المريض وراحته. "
                         ]
                     }
                 ]
@@ -234,50 +144,40 @@
             "workExperience": {
                 "title": "Work Experience",
                 "items": [
-                    "She is an expert in cosmetic dermatology, offering a range of non-surgical treatments including fillers, anti-aging treatment, fat injections,microneedling, peeling, and anti-aging techniques. She also specializes in advanced non-surgical lifting techniques such as Endo lift, HIFU, and Therapy, as well as fractional laser and radiofrequency treatments. Her areas of expertise include non-surgical face lifting, nose thread lifts, under-eye thread lifts, eyebrow and neck lifting, facial rejuvenation, collagen stimulation, PRP, mesotherapy, and chemical peeling."
+                    "وهي خبيرة في طب الجلد التجميلي، وتقدم مجموعة من العالجات غير الجراحية بما في ذلك الحشوات والبوتوكس وحقن الدهون والوخز باإلبر الدقيقة والتقشير وتقنيات مكافحة الشيخوخة. كما أنها تتخصص في تقنيات الرفع غير الجراحية المتقدمة مثل الشد الداخلي، وتقنية الموجات فوق الصوتية عالية الكثافة، والعالج، باإلضافة إلى الليزر الجزئي وعالجات الترددات الراديوية. وتشمل مجاالت خبرتها شد الوجه غير الجراحي، وشد األنف بالخيوط، وشد أسفل العين بالخيوط، وشد الحاجب والرقبة، وتجديد الوجه، وتحفيز الكوالجين، والبالزما الغنية بالصفائح الدموية، والعالج بالحقن الموضعي، والتقشير الكيميائي. "
                 ]
             },
             "qualifications": {
                 "title": "Qualifications",
                 "items": [
-                    "She holds a Master's Degree in Dermatologic Diseases, a Bachelor’s Degree in Medicine from Cairo University, and a Diploma in Aesthetic Medicine from the American Academy."
+                    "حصلت على ماجستير في األمراض الجلدية، وبكالوريوس في الطب من جامعة القاهرة، ودبلوم في الطب التجميلي من األكاديمية األمريكية. "
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
-                "flipFront1": "Sunday to Thursday",
+                "title": "ساعات العمل",
+                "flipFront1": "األحد - الخميس من الساعة",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
-                "flipBack1": "Saturday",
+                "flipBack1": "السبت من الساعة",
                "flipBackDesc1": "10:00 AM to 9:00 PM",
-                "flipFront2": "Address",
-                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
-                "flipBack2": "Address",
-                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+                "flipFront2": "العنوان",
+                "flipFrontDesc2": "ممشى الراحة، شارع المنتزه، الشارقة ",
+                "flipBack2": "العنوان",
+                "flipBackDesc2": "ممشى الراحة، شارع المنتزه، الشارقة "
             }
         },
         {
             "id": 6,
-            "name": "Dr. Ramilia Anarkulova",
+            "name": "االسم: - دكتورة راميليا اناركولوفا ",
             "image": "/assets/Images/doctors/Dr Ramila.png",
             "link": "dr-ramilia-anarkulova",
-            "designation": "Dermatologist-Cosmetologist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
+            "designation": "أخصائية أمراض جلدية وتجميل ",
             "overview": {
                 "title": "Overview",
                 "sections": [
                     {
                         "subtitle": "",
                         "items": [
-                            "Passionate about enhancing natural beauty, Ramilia specializes in Full Face Anti-Aging Treatment, Lipolytic, Russian Lips Technique, Mesotherapy, Contour Plastic, and Butt Augmentation. Her patient-centered approach, combined with precision and artistry, ensures tailored treatments that deliver safe, effective, and natural-looking results."
+                            "راميليا شغوفة بتعزيز الجمال الطبيعي، وتتخصص في حقن البوتوكس للوجه بالكامل، وتفتيت الدهون، وتقنية الشفاه الروسية، والميزوثيرابي، وتجميل الكنتوري، وتكبير المؤخرة. يضمن نهجها الذي يركز على المريض، جنًبا إلى جنب مع الدقة والفن، عالجات مخصصة تقدم نتائج آمنة وفعالة وطبيعية المظهر. "
                         ]
                     }
                 ]
@@ -285,51 +185,41 @@
             "workExperience": {
                 "title": "Work Experience",
                 "items": [
-                    "With multiple certifications in Anti-Aging Treatment, thread lifting, PRP, and other advanced techniques, Ramilia remains committed to staying at the forefront of dermatology and cosmetology. Fluent in Russian, English, Kyrgyz, Uighur, and Turkish, she provides expert care to a diverse clientele, ensuring every patient receives a customized and professional experience. Her expertise, attention to detail, and dedication to innovation have established her as a trusted name in the field of beauty and aesthetics."
+                    "مع شهادات متعددة في البوتوكس، وشد الخيوط، والبالزما الغنية بالصفائح الدموية، وغيرها من التقنيات المتقدمة، تظل راميليا ملتزمة بالبقاء في طليعة طب األمراض الجلدية والتجميل. بفضل إتقانها للغات الروسية واإلنجليزية والقيرغيزية واألويغورية والتركية، تقدم الدكتورة رينولدز رعاية متخصصة لعمالء متنوعين، مما يضمن حصول كل مريض على تجربة مخصصة ومهنية. لقد أثبتت خبرتها واهتمامها بالتفاصيل وتفانيها في االبتكار أنها اسم موثوق به في مجال التجميل والجماليات. "
                 ]
             },
             "qualifications": {
                 "title": "Qualifications",
                 "items": [
-                    "Ramilia Anarkulova is a highly skilled and dedicated Dermatologist-Cosmetologist with extensive experience in facial aesthetic procedures and non-surgical treatments. She holds a Diploma in General Medicine from I.K. Akhunbaev Kyrgyz State Medical Academy and completed her Postgraduate Residency in Dermatocosmetology, equipping her with in-depth expertise in advanced skincare and cosmetic enhancements."
+                    "راميليا أناركولووفا هي أخصائية أمراض جلدية وتجميل ماهرة ولديها خبرة واسعة في إجراءات تجميل الوجه والعالجات غير الجراحية. حصلت على دبلومة في الطب العام من أكاديمية آي كيه أخونباييف الطبية الحكومية القرغيزية وأكملت إقامتها العليا في طب األمراض الجلدية والتجميل، مما زودها بخبرة متعمقة في العناية بالبشرة المتقدمة والتحسينات التجميلية. "
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
-                "flipFront1": "Sunday to Thursday",
+                "title": "ساعات العمل",
+                "flipFront1": "األحد - الخميس من الساعة",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
-                "flipBack1": "Saturday",
+                "flipBack1": "السبت من الساعة",
                "flipBackDesc1": "10:00 AM to 9:00 PM",
-                "flipFront2": "Address",
-                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
-                "flipBack2": "Address",
-                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+                "flipFront2": "العنوان",
+                "flipFrontDesc2": "ممشى الراحة، شارع المنتزه، الشارقة ",
+                "flipBack2": "العنوان",
+                "flipBackDesc2": "ممشى الراحة، شارع المنتزه، الشارقة "
             }
         },
         {
             "id": 7,
-            "name": "DT. Elissa Al- Ahmadieh",
+            "name": "االسم: - د. إليسا األحمدية ",
             "image": "/assets/Images/doctors/Dr Elissa.png",
             "link": "dt-elissa-a-ahmadieh",
-            "designation": "Dietician & Nutritionist Specialist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
+            "designation": "الوظيفة: - أخصائية تغذية ",
             "overview": {
                 "title": "Overview",
                 "sections": [
                     {
                         "subtitle": "",
                         "items": [
-                            "Known for her empathetic and supportive demeanor, Elissa works closely with her clients to design practical and achievable plans that fit their unique lifestyles. Her dedication to empowering individuals to make informed dietary choices has helped many regain confidence and improve their overall well-being.",
-                            "With her extensive experience and commitment to excellence, Elissa El Ahmadieh continues to inspire positive change, making a lasting impact on the lives of her clients and advancing the field of nutrition and wellness."
+                            "تشتهر إليسا بسلوكها المتعاطف والداعم، وتعمل عن كثب مع عمالئها لتصميم خطط عملية وقابلة للتحقيق تناسب أنماط حياتهم الفريدة. لقد ساعد تفانيها في تمكين األفراد من اتخاذ خيارات غذائية مستنيرة العديد من األشخاص على استعادة الثقة وتحسين صحتهم العامة. ",
+                            "وبفضل خبرتها الواسعة والتزامها بالتميز، تواصل إليسا األحمدية إلهام التغيير اإليجابي، مما يترك تأثي ًرا دائ ًما على حياة عمالئها ويعزز مجال التغذية والعافية. "
                         ]
                     }
                 ]
@@ -337,52 +227,42 @@
             "workExperience": {
                 "title": "Work Experience",
                 "items": [
-                    "Elissa El Ahmadieh is a highly skilled Nutritionist and Dietitian with over 7 years of experience in promoting health and wellness through personalized nutrition strategies. Elissa specializes in weight loss and body sculpting programs, combining evidence-based nutrition guidance with advanced slimming devices to help clients achieve sustainable results. Her approach focuses on offering effective, specific diets that address diverse needs, including weight management, health optimization, and lifestyle improvement."
+                    "إليسا األحمدية هي أخصائية تغذية وأخصائية تغذية ماهرة للغاية ولديها أكثر من 7 سنوات من الخبرة في تعزيز الصحة والعافية من خالل استراتيجيات التغذية الشخصية. تتخصص إليسا في برامج إنقاص الوزن ونحت الجسم، وتجمع بين التوجيه الغذائي القائم على األدلة وأجهزة التخسيس المتقدمة لمساعدة العمالء على تحقيق نتائج مستدامة. يركز نهجها على تقديم أنظمة غذائية فعالة ومحددة تلبي احتياجات متنوعة، بما في ذلك إدارة الوزن، وتحسين الصحة، وتحسين نمط الحياة. "
                 ]
             },
             "qualifications": {
                 "title": "Qualifications",
                 "items": [
-                    "She holds a Bachelor’s degree in Nutrition and Dietetics from [University Name], Lebanon, and has built a reputation for her expertise in conducting comprehensive nutrition assessments and creating tailored dietary plans to meet individual health goals."
+                    "وهي حاصلة على درجة البكالوريوس في التغذية وعلم التغذية من لبنان، وقد بنت سمعة طيبة لخبرتها في إجراء تقييمات التغذية الشاملة وإنشاء خطط غذائية مخصصة لتلبية أهداف الصحة الفردية. "
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
-                "flipFront1": "Sunday to Thursday",
+                "title": "ساعات العمل",
+                "flipFront1": "األحد - الخميس من الساعة",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
-                "flipBack1": "Saturday",
+                "flipBack1": "السبت من الساعة",
                "flipBackDesc1": "10:00 AM to 9:00 PM",
-                "flipFront2": "Address",
-                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
-                "flipBack2": "Address",
-                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+                "flipFront2": "العنوان",
+                "flipFrontDesc2": "ممشى الراحة، شارع المنتزه، الشارقة ",
+                "flipBack2": "العنوان",
+                "flipBackDesc2": "ممشى الراحة، شارع المنتزه، الشارقة "
             }
         },
         {
             "id": 8,
-            "name": "Dr. Adel Al- Aswad",
+            "name": "االسم: - دكتور عادل األسود ",
             "image": "/assets/Images/doctors/Adel.png",
             "link": "dr-adel-al-aswad",
-            "designation": "Specialist Oral Surgeon",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
+            "designation": "اللقب: - جراح فم متخصص ",
             "overview": {
                 "title": "Overview",
                 "sections": [
                     {
                         "subtitle": "",
                         "items": [
-                            "Dr. Al-Aswad specializes in a wide range of oral surgical procedures, including dental implantology, wisdom tooth extractions, corrective jaw surgeries, and the management of complex oral conditions. His approach is grounded in a commitment to patient comfort and safety, employing the latest minimally invasive techniques to achieve optimal outcomes.",
-                            "Known for his meticulous attention to detail and empathetic care, Dr. Al-Aswad builds strong relationships with his patients, ensuring they feel confident and well-informed at every step of their treatment journey. His philosophy emphasizes restoring oral health and functionality while enhancing patients' overall quality of life.",
-                            "Dr. Adel Al-Aswad’s dedication to excellence and his patient-centered approach have established him as a trusted name in oral surgery, both regionally and internationally. Whether addressing complex surgical cases or routine procedures, his expertise continues to inspire confidence and improve the lives of his patients."
+                            "يتخصص الدكتور عادل األسود في مجموعة واسعة من اإلجراءات الجراحية الفموية، بما في ذلك زراعة األسنان، وخلع ضرس العقل، وجراحات الفك التصحيحية، وإدارة الحاالت الفموية المعقدة. ويستند نهجه إلى االلتزام براحة المريض وسالمته، وتوظيف أحدث التقنيات األقل توغالً يق نتائج مثالية. لتحق",
+                            "يُعرف الدكتور عادل األسود باهتمامه الدقيق بالتفاصيل والعناية المتعاطفة، ويبني عالقات قوية مع مرضاه، مما يضمن شعورهم بالثقة والمعرفة الجيدة في كل خطوة من رحلة عالجهم. تؤكد فلسفته على استعادة صحة الفم ووظائفه مع تعزيز جودة حياة المرضى بشكل عام",
+                            "إن تفاني الدكتور عادل األسود في التميز ونهجه الذي يركز على المريض قد جعله اس ًما موثوقا به في جراحة الفم، سواء على المستوى اإلقليمي أو الدولي. سواء كان يعالج حاالت جراحية معقدة أو إجراءات روتينية، فإن خبرته تستمر في إلهام الثقة وتحسين حياة مرضاه. "
                         ]
                     }
                 ]
@@ -390,52 +270,40 @@
             "workExperience": {
                 "title": "Work Experience",
                 "items": [
-                    "Dr. Adel Al-Aswad is a highly skilled and compassionate Specialist Oral Surgeon with over 24 years of experience in the field of oral and maxillofacial surgery.",
-                    "In addition to his clinical practice, Dr. Al-Aswad has made significant contributions to the field through ongoing education and professional development. He is a frequent speaker at international dental conferences and has authored several articles on advanced oral surgery techniques. Fluent in Arabic and English, he is committed to providing world-class care to patients from diverse backgrounds."
+                    "الدكتور عادل األسود هو جراح فم متخصص يتمتع بمهارة عالية وتعاطف كبير ولديه أكثر من 24 عا ًما من الخبرة في مجال جراحة الفم باإلضافة إلى ممارسته السريرية، قدم الدكتور عادل األسود مساهمات كبيرة في هذا المجال من خالل التعليم المستمر والتطوير المهني. وهو متحدث متكرر في مؤتمرات طب األسنان الدولية وقد ألف العديد من المقاالت حول تقنيات جراحة الفم المتقدمة. يتقن اللغتين العربية واإلنجليزية، وهو ملتزم بتقديم رعاية عالمية المستوى للمرضى من خلفيات متنوعة. "
                 ]
             },
             "qualifications": {
                 "title": "Qualifications",
                 "items": [
-                    "He earned his B.S of Dental from Damascus University, Syria. laying the foundation for an exceptional career dedicated to precision, patient care, and innovation in oral health."
+                    "حصل على درجة البكالوريوس في طب األسنان من جامعة دمشق، سوريا. مما وضع األساس لمهنة استثنائية مكرسة للدقة ورعاية المرضى وا البتكار في صحة الفم. "
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
-                "flipFront1": "Sunday to Thursday",
+                "title": "ساعات العمل",
+                "flipFront1": "األحد - الخميس من الساعة",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
-                "flipBack1": "Saturday",
+                "flipBack1": "السبت من الساعة",
                "flipBackDesc1": "10:00 AM to 9:00 PM",
-                "flipFront2": "Address",
-                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
-                "flipBack2": "Address",
-                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+                "flipFront2": "العنوان",
+                "flipFrontDesc2": "ممشى الراحة، شارع المنتزه، الشارقة ",
+                "flipBack2": "العنوان",
+                "flipBackDesc2": "ممشى الراحة، شارع المنتزه، الشارقة "
             }
         },
         {
             "id": 9,
-            "name": "Dr. Amir Magdy",
+            "name": "االسم: - دكتور أمير مجدي",
             "image": "/assets/Images/doctors/Amir.png",
             "link": "dr-amir-magdy",
-            "designation": "GP Dentist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
+            "designation": "العنوان: - طبيب أسنان عام ",
             "overview": {
                 "title": "Overview",
                 "sections": [
                     {
                         "subtitle": "",
                         "items": [
-                            "Known for his patient-centered approach, Dr. Magdy is committed to delivering personalized treatment plans that prioritize comfort and long-lasting results. Whether working with adults or children, his compassionate care and meticulous attention to detail inspire confidence and trust among his patients.",
-                            "With his deep expertise and unwavering commitment to excellence, Dr. Amir Magdy continues to transform smiles and improve oral health, making a lasting impact on his patients' well-being and self-esteem."
+                            "يشتهر الدكتور مجدي بنهجه الذي يركز على المريض، وهو ملتزم بتقديم خطط عالج شخصية تعطي األولوية للراحة والنتائج طويلة األمد. سواء كان يعمل مع البالغين أو األطفال، فإن رعايته الرحيمة واهتمامه الدقيق بالتفاصيل يلهم الثقة بين مرضاه بخبرته العميقة والتزامه الثابت بالتميز، يواصل الدكتور أمير مجدي تحويل االبتسامات وتحسين صحة الفم، مما يترك تأثي ًرا دائ ًما على رفاهية مرضاه واحترامهم لذاتهم. "
                         ]
                     }
                 ]
@@ -443,51 +311,40 @@
             "workExperience": {
                 "title": "Work Experience",
                 "items": [
-                    "Currently practicing as a freelance consultant across top clinics in Rome, Milan, Turin, and San Marino, Dr. Macrino has also contributed to humanitarian work with Operation Smile and Aicpe-onlus."
+                    "الدكتور أمير مجدي هو طبيب أسنان عام ماهر يتمتع بخبرة تزيد عن 10 سنوات في تقديم رعاية أسنان عالية الجودة. حاصل على ترخيص من وزارة الصحة كطبيب أسنان عام، وهو متخصص في طب األسنان الترميمي والتجميلي، وطب األسنان بالليزر، وعالجات قناة الجذر )RCT). تشمل خبرة الدكتور مجدي الواسعة أي ًضا ست سنوات من الخبرة في طب أسنان األطفال وزراعة األسنان، مما يسمح له بمعالجة مجموعة واسعة من احتياجات المرضى بدقة وعناية. "
                 ]
             },
             "qualifications": {
                 "title": "Qualifications",
                 "items": [
-                    "Licensed by the Ministry of Health (MOH) as a General Dentist, he specializes in restorative and cosmetic dentistry, laser dentistry, and root canal treatments (RCT). Dr. Magdy’s extensive expertise also includes six years of experience in pediatric dentistry and dental implants, allowing him to address a wide range of patient needs with precision and care.",
-                    "A graduate of MSA University, Egypt, with a Bachelor’s degree in Oral and Dental Surgery (BDS), Dr. Magdy is dedicated to continuous professional development. He is an active member of the Arab Society for Continuous Dental Education, where he has honed his skills in veneers, fixed prosthodontics, and laser dentistry. Additionally, as a member of the American Academy of Cosmetic Dentistry, he remains at the forefront of advancements in aesthetic and restorative dental treatments."
+                    "بعد تخرجه من جامعة MSA، مصر، بدرجة البكالوريوس في جراحة الفم واألسنان )BDS)، يكرس الدكتور مجدي نفسه للتطوير المهني المستمر. وهو عضو فعال في الجمعية العربية للتعليم المستمر لطب األسنان، حيث صقل مهاراته في القشور واألطقم الثابتة وطب األسنان بالليزر. باإلضافة إلى ذلك، بصفته عضًو ظل في طليعة التطورات في ا في األكاديمية األمريكية لطب األسنان التجميلي، فإنه ي عالجات األسنان التجميلية والترميمية. "
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
-                "flipFront1": "Sunday to Thursday",
+                "title": "ساعات العمل",
+                "flipFront1": "األحد - الخميس من الساعة",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
-                "flipBack1": "Saturday",
+                "flipBack1": "السبت من الساعة",
                "flipBackDesc1": "10:00 AM to 9:00 PM",
-                "flipFront2": "Address",
-                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
-                "flipBack2": "Address",
-                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+                "flipFront2": "العنوان",
+                "flipFrontDesc2": "ممشى الراحة، شارع المنتزه، الشارقة ",
+                "flipBack2": "العنوان",
+                "flipBackDesc2": "ممشى الراحة، شارع المنتزه، الشارقة "
             }
         },
         {
             "id": 10,
-            "name": "Dr. Rania Ghanem",
+            "name": "االسم: - د. رانيا غانم ",
             "image": "/assets/Images/doctors/Rania.png",
             "link": "dr-rania-ghanem",
-            "designation": "Prosthodontics Specialist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
+            "designation": "الوظيفة: - أخصائية تركيبات األسنان ",
             "overview": {
                 "title": "Overview",
                 "sections": [
                     {
                         "subtitle": "",
                         "items": [
-                            "Her approach focuses on combining technical expertise with patient-centered care to deliver high-quality, natural-looking results. With her extensive experience, Dr. Ghanem continues to provide outstanding care in the field of prosthodontics dentistry."
+                            "كما أنها متخصصة في وضع خطط عالج فموية شخصية لضمان أفضل النتائج لمرضاها ويركز نهجها على الجمع بين الخبرة الفنية والرعاية التي تركز على المريض لتقديم نتائج عالية الجودة وطبيعية المظهر. وبفضل خبرتها الواسعة، تواصل الدكتورة غانم تقديم رعاية متميزة في مجال طب األسنان وتركيبات األسنان. "
                         ]
                     }
                 ]
@@ -495,51 +352,40 @@
             "workExperience": {
                 "title": "Work Experience",
                 "items": [
-                    "Dr. Rania Ahmed Radwan Ghanem is a skilled Prosthodontics Specialist with over 18 years of experience in restorative and prosthodontic dentistry.",
-                    "She is highly proficient in oral and dental treatments, including veneers, cosmetic procedures, and routine dental care. She also specializes in creating personalized oral treatment plans to ensure the best outcomes for her patients."
+                    "الدكتورة رانيا أحمد رضوان غانم هي أخصائية تركيبات أسنان ماهرة ولديها أكثر من 18 عا ًما من الخبرة في طب األسنان الترميمي وتركيبات األسنان. وهي بارعة للغاية في عالجات الفم واألسنان، بما في ذلك قشور األسنان واإلجراءات التجميلية والعناية الروتينية باألسنان."
                 ]
             },
             "qualifications": {
                 "title": "Qualifications",
                 "items": [
-                    "She holds a Master’s Degree in Prosthodontics from Cairo University and a Bachelor’s in Dental Surgery (BDS) from Ain Shams University, Egypt. She is highly proficient in oral and dental treatments, including veneers, cosmetic procedures, and routine dental care."
+                    "وهي حاصلة على درجة الماجستير في تركيبات األسنان من جامعة القاهرة وبكالوريوس في جراحة األسنان ) BDS من جامعة عين شمس، مصر. "
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
-                "flipFront1": "Sunday to Thursday",
+                "title": "ساعات العمل",
+                "flipFront1": "األحد - الخميس من الساعة",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
-                "flipBack1": "Saturday",
+                "flipBack1": "السبت من الساعة",
                "flipBackDesc1": "10:00 AM to 9:00 PM",
-                "flipFront2": "Address",
-                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
-                "flipBack2": "Address",
-                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+                "flipFront2": "العنوان",
+                "flipFrontDesc2": "ممشى الراحة، شارع المنتزه، الشارقة ",
+                "flipBack2": "العنوان",
+                "flipBackDesc2": "ممشى الراحة، شارع المنتزه، الشارقة "
             }
         },
         {
             "id": 11,
-            "name": "Dr. Huda Ebrahim Shaheen",
+            "name": "االسم: - د. هدى شاهين ",
             "image": "/assets/Images/doctors/huda.png",
             "link": "dr-huda-ebrahim-shaheen",
-            "designation": "Obstetrics and Gynecology Specialist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
+            "designation": "الوظيفة: - أخصائية أمراض النساء والتوليد ",
             "overview": {
                 "title": "Overview",
                 "sections": [
                     {
                         "subtitle": "",
                         "items": [
-                            "As she has a broad range of services includes gynecology cosmetics, tightening, whitening, laser treatments, 2D-4D ultrasound, as well as facial aesthetics such as Anti-Aging Treatment, fillers, PRP, and mesotherapy. Her approach combines medical expertise with cosmetic enhancements to ensure comprehensive care and natural results for her patients."
+                            "كما أن لديها مجموعة واسعة من الخدمات تشمل مستحضرات التجميل النسائية، والشد، والتبييض، والعالجات بالليزر، والموجات فوق الصوتية ثنائية األبعاد ورباعية األبعاد، باإلضافة إلى جماليات الوجه مثل البوتوكس والحشو، والبالزما الغنية بالصفائح الدموية، والميزوثيرابي. يجمع نهجها بين الخبرة الطبية والتحسينات التجميلية لضمان الرعاية الشاملة والنتائج الطبيعية لمرضاها. "
                         ]
                     }
                 ]
@@ -547,25 +393,25 @@
             "workExperience": {
                 "title": "Work Experience",
                 "items": [
-                    "She holds privileges from DHA and MOH for various treatments, including cosmeticgynecology, facial aesthetics, laser treatments, Anti-Aging Treatment, fillers, and mesotherapy."
+                    "الدكتورة هدى إبراهيم شاهين أخصائية أمراض النساء والتوليد ذات خبرة عالية تبلغ 25 عا ًما في كل من اإلجراءات النسائية والتجميلية.وهي حاصلة على امتيازات من هيئة الصحة بدبي ووزارة الصحة للعديد من العالجات، بما في ذلك طب النساء التجميلي، وجماليات الوجه، والعالجا ت بالليزر، والبوتوكس، والحشو، والميزوثيرابي. "
                 ]
             },
             "qualifications": {
                 "title": "Qualifications",
                 "items": [
-                    "Holding a PhD in Obstetrics and Gynecology, Dr. Shaheen is dedicated to providing advanced care in both fields, with a focus on improving her patients' overall well-being and confidence."
+                    "حصلت الدكتورة شاهين على درجة الدكتوراه في أمراض النساء والتوليد، وهي ملتزمة بتقديم الرعاية المتقدمة في كال المجالين، مع التركيز على تحسين الصحة العامة والثقة لدى مرضاها. "
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
-                "flipFront1": "Sunday to Thursday",
+                "title": "ساعات العمل",
+                "flipFront1": "األحد - الخميس من الساعة",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
-                "flipBack1": "Saturday",
+                "flipBack1": "السبت من الساعة",
                "flipBackDesc1": "10:00 AM to 9:00 PM",
-                "flipFront2": "Address",
-                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
-                "flipBack2": "Address",
-                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+                "flipFront2": "العنوان",
+                "flipFrontDesc2": "ممشى الراحة، شارع المنتزه، الشارقة ",
+                "flipBack2": "العنوان",
+                "flipBackDesc2": "ممشى الراحة، شارع المنتزه، الشارقة "
             }
         },
         {
@@ -574,24 +420,14 @@
             "image": "/assets/Images/doctors/Naziha.png",
             "link": "naziha-al-tabaa",
             "designation": "Skin Expert & Beauty Therapist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
             "overview": {
                 "title": "Overview",
                 "sections": [
                     {
                         "subtitle": "",
                         "items": [
-                            "Naziha Al Tabaa is a skilled and experienced beauty therapist with a strong background in cosmetology and laser treatments.",
-                            "With a passion for enhancing natural beauty, Naziha focuses on delivering personalized treatments that align with her patients’ individual needs. She specializes in a range of advanced skincare services, including HydraFacial, chemical peeling, microneedling, and laser treatments. Her attention to detail and dedication to achieving the best possible results have earned her a reputation for delivering high-quality care that leaves her clients looking and feeling their best."
+                            "نزيهة الطباع معالجة تجميل ماهرة وذات خبرة مع خلفية قوية في التجميل والعالجات بالليزر. ",
+                            "مع شغفها بتعزيز الجمال الطبيعي، تركز نزيهة على تقديم عالجات شخصية تتوافق مع االحتياجات الفردية لمرضاها. وهي متخصصة في مجموعة من خدمات العناية بالبشرة المتقدمة، بما في ذلك HydraFacial والتقشير الكيميائي و الوخز باإلبر الدقيقة وعالجات الليزر. لقد اكتسبت سمعة طيبة في تقديم رعاية عالية الجودة تجعل عمالئها يبدون ويشعرون بأفضل حال بفضل اهتمامها بالتفاصيل وتفانيها في تحقيق أفضل النتائج الممكنة."
                         ]
                     }
                 ]
@@ -599,25 +435,25 @@
             "workExperience": {
                 "title": "Work Experience",
                 "items": [
-                    "Since 2021, Naziha has been practicing in the UAE, where shecontinues to refine her skills while staying updated on the latest advancements in aesthetic treatments. Fluent in Arabic, French, English, and basic German, she is committed to providing exceptional patient care in a culturally diverse environment. Naziha’s expertise, combined with her compassionate approach to skincare, has established her as a trusted professional in the beauty and aesthetics industry."
+                    "منذ عام ،2021 تمارس نزيهة عملها في اإلمارات العربية المتحدة، حيث تواصل صقل مهاراتها مع البقاء على اطالع بأحدث التطورات في العالجات التجميلية. وهي تتقن اللغة العربية والفرنسية واإلنجليزية واأللمانية األساسية، وهي ملتزمة بتقديم رعاية استثنائية للمرضى في بيئة متنوعة ثقافًيا. لقد أثبتت خبرة نزيهة، جنًبا إلى جنب مع نهجها الحنون في العناية بالبشرة، أنها محترفة موثوقة في صناعة التجميل والجمال. "
                 ]
             },
             "qualifications": {
                 "title": "Qualifications",
                 "items": [
-                    "She holds a Bachelor of Educational Sciences from the Lebanese University and a Diploma in Cosmetology & Laser from Tripoli, Lebanon, further honing her expertise with certifications from renowned institutions in Barcelona."
+                    "حاصلة على بكالوريوس العلوم التربوية من الجامعة اللبنانية ودبلومة في التجميل والليزر من طرابلس، لبنان، وصقلت خبرتها أكثر بشهادات من مؤسسات مرموقة في برشلونة. "
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
-                "flipFront1": "Sunday to Thursday",
+                "title": "ساعات العمل",
+                "flipFront1": "األحد - الخميس من الساعة",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
-                "flipBack1": "Saturday",
+                "flipBack1": "السبت من الساعة",
                "flipBackDesc1": "10:00 AM to 9:00 PM",
-                "flipFront2": "Address",
-                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
-                "flipBack2": "Address",
-                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
+                "flipFront2": "العنوان",
+                "flipFrontDesc2": "ممشى الراحة، شارع المنتزه، الشارقة ",
+                "flipBack2": "العنوان",
+                "flipBackDesc2": "ممشى الراحة، شارع المنتزه، الشارقة "
             }
         }
     ]

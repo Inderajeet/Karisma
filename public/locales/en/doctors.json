@@ -7,16 +7,6 @@
             "image": "/assets/Images/doctors/Dr Yuri.png",
             "link": "dr-yuri-macrino",
             "designation": "Aesthetic plastic surgeon & consultant",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
             "overview": {
                 "title": "Overview",
                 "sections": [
@@ -41,7 +31,7 @@
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
+                "title": "Working hours",
                 "flipFront1": "Sunday to Thursday",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
                 "flipBack1": "Saturday",
@@ -58,16 +48,6 @@
             "image": "/assets/Images/doctors/mahdi.png",
             "link": "dr-mehdi-shidvash",
             "designation": "Aesthetic Physician",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 27+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
             "overview": {
                 "title": "Overview",
                 "sections": [
@@ -92,7 +72,7 @@
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
+                "title": "Working hours",
                 "flipFront1": "Sunday to Thursday",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
                 "flipBack1": "Saturday",
@@ -109,23 +89,13 @@
             "image": "/assets/Images/doctors/Dr Sandro.png",
             "link": "dr-sandro-ceci",
             "designation": "Dermatologist Specialist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
             "overview": {
                 "title": "Overview",
                 "sections": [
                     {
                         "subtitle": "",
                         "items": [
-                            "Dr. Sandro Ceci is a highly accomplished Dermatologist with extensive expertise in both clinical and aesthetic dermatology. Dr. Ceci specializes in a wide range of dermatological services, from diagnosing and treating skin conditions to advanced aesthetic procedures designed to rejuvenate and enhance skin health. His patient-focused approach, combined with a meticulous attention to detail, ensures personalized care that prioritizes both safety and natural results."
+                            "Dr. Sandro Ceci is a highly accomplished Dermatologist with extensive expertise in both clinical and aesthetic dermatology. He completed his Dermatology Specialization at Fundação Técnico-Educational Souza Marques, Brazil (2006-2009), and further honed his skills in Aesthetic Medicine through an additional program at the same institution (2006-2008). Certified as a Dermatology Specialist by the Brazilian Medical Association since 2011, Dr. Ceci has become a trusted name in the field of dermatological care."
                         ]
                     }
                 ]
@@ -133,17 +103,17 @@
             "workExperience": {
                 "title": "Work Experience",
                 "items": [
-                    "Currently practicing as a freelance consultant across top clinics in Rome, Milan, Turin, and San Marino, Dr. Macrino has also contributed to humanitarian work with Operation Smile and Aicpe-onlus. With years of experience and a commitment to staying at the forefront of advancements in dermatology, Dr. Sandro Ceci continues to provide exceptional care, inspiring confidence and improving the well-being of his patients."
+                    "Dr. Ceci specializes in a wide range of dermatological services, from diagnosing and treating skin conditions to advanced aesthetic procedures designed to rejuvenate and enhance skin health. His patient-focused approach, combined with a meticulous attention to detail, ensures personalized care that prioritizes both safety and natural results. With years of experience and a commitment to staying at the forefront of advancements in dermatology, Dr. Sandro Ceci continues to provide exceptional care, inspiring confidence and improving the well-being of his patients."
                 ]
             },
             "qualifications": {
                 "title": "Qualifications",
                 "items": [
-                    "He completed his Dermatology Specialization at Fundação Técnico-Educational Souza Marques, Brazil (2006-2009), and further honed his skills in Aesthetic Medicine through an additional program at the same institution (2006-2008). Certified as a Dermatology Specialist by the Brazilian Medical Association since 2011, Dr. Ceci has become a trusted name in the field of dermatological care. In pursuit of academic excellence and research, Dr. Ceci earned a Master’s degree in Biopathology from Universiade de Uberaba, Brazil (2016-2018). His academic background underpins his evidence-based approach to dermatological treatments, ensuring that patients receive the highest standard of care."
+                    "In pursuit of academic excellence and research, Dr. Ceci earned a Master’s degree in Biopathology from Universiade de Uberaba, Brazil (2016-2018). His academic background underpins his evidence-based approach to dermatological treatments, ensuring that patients receive the highest standard of care."
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
+                "title": "Working hours",
                 "flipFront1": "Sunday to Thursday",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
                 "flipBack1": "Saturday",
@@ -160,16 +130,6 @@
             "image": "/assets/Images/doctors/Dr Manar.png",
             "link": "dr-manar-magdy",
             "designation": "Dermatologist Specialist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
             "overview": {
                 "title": "Overview",
                 "sections": [
@@ -194,7 +154,7 @@
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
+                "title": "Working hours",
                 "flipFront1": "Sunday to Thursday",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
                 "flipBack1": "Saturday",
@@ -211,16 +171,6 @@
             "image": "/assets/Images/doctors/Dr Ramila.png",
             "link": "dr-ramilia-anarkulova",
             "designation": "Dermatologist-Cosmetologist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
             "overview": {
                 "title": "Overview",
                 "sections": [
@@ -245,7 +195,7 @@
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
+                "title": "Working hours",
                 "flipFront1": "Sunday to Thursday",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
                 "flipBack1": "Saturday",
@@ -262,16 +212,6 @@
             "image": "/assets/Images/doctors/Dr Elissa.png",
             "link": "dt-elissa-a-ahmadieh",
             "designation": "Dietician & Nutritionist Specialist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
             "overview": {
                 "title": "Overview",
                 "sections": [
@@ -293,11 +233,11 @@
             "qualifications": {
                 "title": "Qualifications",
                 "items": [
-                    "She holds a Bachelor’s degree in Nutrition and Dietetics from [University Name], Lebanon, and has built a reputation for her expertise in conducting comprehensive nutrition assessments and creating tailored dietary plans to meet individual health goals."
+                    "She holds a Bachelor’s degree in Nutrition and Dietetics and has built a reputation for her expertise in conducting comprehensive nutrition assessments and creating tailored dietary plans to meet individual health goals."
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
+                "title": "Working hours",
                 "flipFront1": "Sunday to Thursday",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
                 "flipBack1": "Saturday",
@@ -314,16 +254,6 @@
             "image": "/assets/Images/doctors/Adel.png",
             "link": "dr-adel-al-aswad",
             "designation": "Specialist Oral Surgeon",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
             "overview": {
                 "title": "Overview",
                 "sections": [
@@ -351,7 +281,7 @@
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
+                "title": "Working hours",
                 "flipFront1": "Sunday to Thursday",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
                 "flipBack1": "Saturday",
@@ -368,16 +298,6 @@
             "image": "/assets/Images/doctors/Amir.png",
             "link": "dr-amir-magdy",
             "designation": "GP Dentist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
             "overview": {
                 "title": "Overview",
                 "sections": [
@@ -393,18 +313,17 @@
             "workExperience": {
                 "title": "Work Experience",
                 "items": [
-                    "Currently practicing as a freelance consultant across top clinics in Rome, Milan, Turin, and San Marino, Dr. Macrino has also contributed to humanitarian work with Operation Smile and Aicpe-onlus."
+                    "Dr. Amir Magdy is an accomplished General Dentist with over 10 years of experience in providing high-quality dental care. Licensed by the Ministry of Health (MOH) as a General Dentist, he specializes in restorative and cosmetic dentistry, laser dentistry, and root canal treatments (RCT). Dr. Magdy’s extensive expertise also includes six years of experience in pediatric dentistry and dental implants, allowing him to address a wide range of patient needs with precision and care."
                 ]
             },
             "qualifications": {
                 "title": "Qualifications",
                 "items": [
-                    "Licensed by the Ministry of Health (MOH) as a General Dentist, he specializes in restorative and cosmetic dentistry, laser dentistry, and root canal treatments (RCT). Dr. Magdy’s extensive expertise also includes six years of experience in pediatric dentistry and dental implants, allowing him to address a wide range of patient needs with precision and care.",
                     "A graduate of MSA University, Egypt, with a Bachelor’s degree in Oral and Dental Surgery (BDS), Dr. Magdy is dedicated to continuous professional development. He is an active member of the Arab Society for Continuous Dental Education, where he has honed his skills in veneers, fixed prosthodontics, and laser dentistry. Additionally, as a member of the American Academy of Cosmetic Dentistry, he remains at the forefront of advancements in aesthetic and restorative dental treatments."
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
+                "title": "Working hours",
                 "flipFront1": "Sunday to Thursday",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
                 "flipBack1": "Saturday",
@@ -421,16 +340,6 @@
             "image": "/assets/Images/doctors/Rania.png",
             "link": "dr-rania-ghanem",
             "designation": "Prosthodontics Specialist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
             "overview": {
                 "title": "Overview",
                 "sections": [
@@ -456,7 +365,7 @@
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
+                "title": "Working hours",
                 "flipFront1": "Sunday to Thursday",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
                 "flipBack1": "Saturday",
@@ -473,16 +382,6 @@
             "image": "/assets/Images/doctors/huda.png",
             "link": "dr-huda-ebrahim-shaheen",
             "designation": "Obstetrics and Gynecology Specialist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
             "overview": {
                 "title": "Overview",
                 "sections": [
@@ -497,7 +396,7 @@
             "workExperience": {
                 "title": "Work Experience",
                 "items": [
-                    "She holds privileges from DHA and MOH for various treatments, including cosmeticgynecology, facial aesthetics, laser treatments, Anti-Aging Treatment, fillers, and mesotherapy."
+                    "Dr. Huda Ebrahim Shaheen is a highly experienced Obstetrics and Gynecology Specialist with 25 years of expertise in both gynecological and aesthetic procedures. She holds privileges from DHA and MOH for various treatments, including cosmeticgynecology, facial aesthetics, laser treatments, Botox, fillers, and mesotherapy."
                 ]
             },
             "qualifications": {
@@ -507,7 +406,7 @@
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
+                "title": "Working hours",
                 "flipFront1": "Sunday to Thursday",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
                 "flipBack1": "Saturday",
@@ -524,16 +423,6 @@
             "image": "/assets/Images/doctors/Naziha.png",
             "link": "naziha-al-tabaa",
             "designation": "Skin Expert & Beauty Therapist",
-            "email":"",
-            "phone":"",
-            "website":"",
-            "experience": "More Than 5+ Years",
-            "socialLinks": {
-                "facebook":"",
-                "twitter":"",
-                "instagram":"",
-                "youtube":""
-            },
             "overview": {
                 "title": "Overview",
                 "sections": [
@@ -559,7 +448,7 @@
                 ]
             },
             "workingShifts": {
-                "title": "Working Shifts",
+                "title": "Working hours",
                 "flipFront1": "Sunday to Thursday",
                 "flipFrontDesc1": "10:00 AM to 8:00 PM",
                 "flipBack1": "Saturday",

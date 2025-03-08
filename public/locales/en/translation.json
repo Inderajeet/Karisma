@@ -61,7 +61,7 @@
     },
     {
       "label": "Department",
-      "link": "#",
+      "link": "/departments",
       "subMenu": [
         {
           "label": "Dental",

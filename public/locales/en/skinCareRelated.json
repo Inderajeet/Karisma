@@ -972,10 +972,10 @@
                         {
                             "title": "Science-Backed Light Therapy: Post-HydraFacial, LED Light Therapy uses specific wavelengths of light to deliver targeted results:",
                             "items": [
-                                "Red Light Therapy",
                                 {
-                                    "title": "Diminishes Wrinkles and Fine Lines: Stimulates collagen production to smooth and firm the skin.",
+                                    "title": "Red Light Therapy",
                                     "items": [
+                                        "Diminishes Wrinkles and Fine Lines: Stimulates collagen production to smooth and firm the skin.",
                                         "Boosts Collagen: Enhances skin structure and elasticity for a youthful appearance.",
                                         "Fades Sun Damage: Promotes an even skin tone by reducing signs of sun exposure."
                                     ]
@@ -1730,7 +1730,7 @@
                     "description": "For an even more comprehensive approach to achieving a luminous complexion, consider combining Whitening Mesotherapy with a HydraFacial treatment:",
                     "features": [
                         "Deep Exfoliation and Hydration: HydraFacial gently exfoliates dead skin cells and impurities while delivering deep hydration. This prepares the skin for optimal absorption of the lightening ingredients in the meso cocktail.",
-                        "Enhanced Results: Book your consultation at Karisma Specialist Medical Centertoday and discover how Whitening Mesotherapy can transform your skin, bringing you closer to your goal of a radiant, even-toned complexion."
+                        "Enhanced Results: The combination of these treatments can lead to dramatic improvements in skin texture, tone, and overall radiance."
                     ]
                 },
                 {
@@ -2028,17 +2028,20 @@
                             "features": [
                                 "Targeted Ingredients: Eye creams or serums formulated for the sensitive under-eye area can reduce puffiness, diminish dark circles, and provide essential hydration.",
                                 "Improved Appearance: By addressing specific concerns around the eyes, this treatment contributes to a brighter, more youthful overall look."
-                            ],
-                            "title2": "Dermapen Technology: The Key to Enhanced Absorption",
-                            "subtitle2": "Dermapen technology plays a crucial role in this treatment:",
-                            "features2": [
-                                "Microneedling: The Dermapen creates tiny channels in the skin, enhancing the absorption of the beneficial ingredients delivered by the Meso Gold treatment and the eye care products, ensuring maximum effectiveness."
                             ]
                         }
                     ]
                 },
                 {
                     "type": "cont-content-last",
+                    "title": "Dermapen Technology: The Key to Enhanced Absorption",
+                    "description": "Dermapen technology plays a crucial role in this treatment:",
+                    "features": [
+                        "Microneedling: The Dermapen creates tiny channels in the skin, enhancing the absorption of the beneficial ingredients delivered by the Meso Gold treatment and the eye care products, ensuring maximum effectiveness."
+                    ]
+                },
+                {
+                    "type": "color-content",
                     "title": "The Perfect Combination with HydraFacial",
                     "description": "For an even more comprehensive approach to achieving a radiant complexion, consider combining this treatment with a HydraFacial:",
                     "features": [
@@ -2047,7 +2050,7 @@
                     ]
                 },
                 {
-                    "type": "color-content",
+                    "type": "cont-content",
                     "title": "Experience the Meso Gold Facial at Karisma Specialist Medical Center",
                     "description": "Book your consultation today and indulge in this luxurious rejuvenation treatment designed to bring out your skin's natural beauty and youthful glow."
                 }
@@ -2097,7 +2100,7 @@
                             "title": "The Science Behind the Treatment",
                             "subtitle": "Meso Eye works through a combination of carefully selected ingredients and advanced delivery methods:",
                             "features": [
-                                "Personalized Meso Cocktail: Eye creams or serums formulated for the sensitive under-eye area can reduce puffiness, diminish dark circles, and provide essential hydration.",
+                                "Personalized Meso Cocktail: A blend of vitamins, hyaluronic acid, and other beneficial ingredients is tailored to your specific concerns, ensuring the best possible results.",
                                 "Enhanced Absorption: Dermapen microneedling or doctor-administered injections ensure that the meso cocktail reaches the deeper layers of the skin, maximizing its effectiveness.",
                                 "Stimulated Collagen Production: Microneedling with Dermapen enhances collagen production, improving skin elasticity and reducing the appearance of fine lines around the eyes."
                             ]

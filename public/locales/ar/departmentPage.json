@@ -1,0 +1,86 @@
+{
+    "departmentPage": [
+        {
+            "link": "dental",
+            "imageUrl": "../assets/Images/depts/dental/dental-body-image.png",
+            "imageAlt": "Dental",
+            "title": "Dental",
+            "listItems": [
+                "Hollywood Smile (Veneers)",
+                "Implant",
+                "Orthodontics",
+                "Root Canal Treatment",
+                "Pediatric",
+                "Dental Surgical Treatment",
+                "Oral Heimagealth (Gum Treatment)",
+                "Teeth Whitening",
+                "Mouth Rehabilitation",
+                "Restorative Dentistry"
+            ]
+        },
+        {
+            "link": "derma",
+            "imageUrl": "../assets/Images/depts/derma/body-image.png",
+            "imagealt": "Derma",
+            "title": "Derma",
+            "listItems": [
+                "Dermal Fillers",
+                "Anti-Aging Treatments",
+                "Rejuvenation injection",
+                "Cosmetic Threads"
+            ]
+        },
+        {
+            "link": "laser-hair-removal",
+            "imageUrl": "../assets/Images/depts/laser/body-image.png",
+            "imagealt": "Laser Hair Removal",
+            "title": "Laser Hair Removal",
+            "listItems": ["Candela GentleMax Pro", "Cynosure Elite+", "RevLite SI"]
+        },
+        {
+            "link": "skincare",
+            "imageUrl": "../assets/Images/depts/skincare/skincare body-image.png",
+            "imagealt": "Skincare",
+            "title": "Skincare",
+            "listItems": [
+                "Facials",
+                "Mesotherapy",
+                "Plasma face",
+                "IV DRIP Glowing",
+                "Hair Treatment",
+                "Peeling",
+                "Facial machines",
+                "Collagen Threads"
+            ]
+        },
+        {
+            "link": "gynecology",
+            "imageUrl": "../assets/Images/depts/Gyne/body-image.png",
+            "imagealt": "Gynecology",
+            "title": "Gynecology",
+            "listItems": [
+                "Cosmetic Minor Surgeries",
+                "Gynecology aesthetic",
+                "Medical Gynecology / Obstetric",
+                "Bikini Whitening & Rejuvenation",
+                "Bikini Tightening - Belladona",
+                "Plasma Injection",
+                "Gynecological filler",
+                "Anti-Aging Treatments Vaginal Area"
+            ]
+        },
+        {
+            "link": "slimming",
+            "imageUrl": "../assets/Images/depts/slimming/body-image.png",
+            "imagealt": "Slimming",
+            "title": "Slimming",
+            "listItems": ["Machines", "Injections", "Other services"]
+        },
+        {
+            "link": "plastic-surgery",
+            "imageUrl": "../assets/Images/banner/about_dept/plastic_surgery.png",
+            "imagealt": "Plastic Surgery",
+            "title": "Plastic Surgery"
+        }
+    ]
+}

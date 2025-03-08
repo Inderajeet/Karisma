@@ -1,0 +1,331 @@
+ .depts {
+     padding: 40px 0;
+ }
+
+ .dFlex {
+     display: flex;
+     flex-wrap: wrap;
+     margin: -7.5px;
+ }
+
+ .dFlex .item {
+     padding: 7.5px;
+     width: 100%;
+ }
+
+ .dFlex .item .imgBx {
+     position: relative;
+     width: 100%;
+     overflow: hidden;
+     display: block;
+ }
+
+ .dFlex .item .imgBx img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ .dFlex .item .imgBx::after {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     bottom: 0;
+     left: 0;
+     transform: matrix(-1, 0, 0, -1, 0, 0);
+     background: rgba(0, 0, 0, 0.5);
+ }
+
+ .dFlex .item .imgBx .cont {
+     position: absolute;
+     z-index: 1;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     padding: 15px 10px;
+     overflow: hidden;
+     height: 100%;
+     /* Make the cont container the same height as the image */
+ }
+
+ .dFlex .item .imgBx .cont .tle {
+     font-size: 14px;
+     color: #fff;
+     text-align: center;
+     line-height: 1.5;
+     font-weight: 500;
+     transition: all 0.3s ease;
+ }
+
+ .dFlex .item .imgBx .cont .innerCnt {
+     position: absolute;
+     top: 100%;
+     /* Initially hidden below */
+     left: 0;
+     width: 100%;
+     opacity: 0;
+     visibility: hidden;
+     transition: all 0.4s ease;
+     text-align: center;
+     padding-top: 20px;
+     max-height: 300px;
+     overflow-y: auto;
+ }
+
+ .dFlex .item .imgBx .cont .innerCnt::-webkit-scrollbar {
+     width: 8px;
+ }
+
+ .dFlex .item .imgBx .cont .innerCnt::-webkit-scrollbar-track {
+     background: rgba(0, 0, 0, 0.1);
+ }
+
+ .dFlex .item .imgBx .cont .innerCnt::-webkit-scrollbar-thumb {
+     background: rgba(255, 255, 255, 0.5);
+     border-radius: 4px;
+ }
+
+ .dFlex .item .imgBx .cont .innerCnt .icon {
+     margin-bottom: 10px;
+     width: 35px;
+     height: 35px;
+ }
+
+ .dFlex .item .imgBx .cont .innerCnt .icon img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+ }
+
+ .dFlex .item .imgBx .cont .innerCnt .hd {
+     font-size: 16px;
+     color: #fff;
+     line-height: 1;
+     font-weight: 500;
+     /* max-width: 219px; */
+     margin-bottom: 10px;
+ }
+
+ .dFlex .item .imgBx .cont .innerCnt ul li {
+     font-size: 14px;
+     position: relative;
+     font-weight: 500;
+     padding-left: 15px;
+     color: #fff;
+     text-align: left;
+ }
+
+ /*  .dFlex .item .imgBx .cont .innerCnt ul li::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    background-image: url(https://damasmc.com/images/arrIcon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 9px;
+} */
+
+ /* Hover Effect */
+ .dFlex .item .imgBx:hover .cont .innerCnt {
+     top: 0;
+     /* Slide up to the top */
+     opacity: 1;
+     visibility: visible;
+ }
+
+ .dFlex .item .imgBx:hover .cont .tle {
+     opacity: 0;
+     visibility: hidden;
+ }
+
+ /* Media Queries */
+
+ @media only screen and (min-width: 500px) {
+     .dFlex .item {
+         width: 50%;
+     }
+ }
+
+ @media only screen and (min-width: 768px) {
+       .depts  {
+         padding: 50px 0;
+     }
+
+     .dFlex {
+         margin: -10px;
+     }
+
+     .dFlex .item {
+         width: 33.3333333333%;
+         padding: 10px;
+     }
+
+     .dFlex .item .imgBx {
+         height: 230px;
+     }
+
+     .dFlex .item .imgBx .cont {
+         padding: 20px 15px;
+     }
+
+     .dFlex .item .imgBx .cont .tle {
+         font-size: 16px;
+     }
+
+     .dFlex .item .imgBx .cont .innerCnt .icon {
+         margin-bottom: 15px;
+         width: 40px;
+         height: 40px;
+     }
+
+     .dFlex .item .imgBx .cont .innerCnt .hd {
+         margin-bottom: 15px;
+         font-size: 17px;
+     }
+
+     .dFlex .item .imgBx .cont .innerCnt ul li:not(:last-of-type) {
+         margin-bottom: 12px;
+     }
+
+     .dFlex .item .imgBx .cont .innerCnt ul li {
+         font-size: 16px;
+         padding-left: 20px;
+     }
+ }
+
+ @media only screen and (min-width: 992px) {
+    .depts {
+         padding: 50px 0;
+     }
+
+     .dFlex {
+         margin: -12px;
+     }
+
+     .dFlex .item {
+         width: 25%;
+         padding: 12px;
+     }
+
+     .dFlex .item .imgBx {
+         height: 245px;
+     }
+
+     .dFlex .item .imgBx .cont {
+         padding: 25px 20px;
+     }
+
+     .dFlex .item .imgBx .cont .tle {
+         font-size: 18px;
+     }
+
+     .dFlex .item .imgBx .cont .innerCnt .icon {
+         width: 45px;
+         height: 45px;
+     }
+
+     .dFlex .item .imgBx .cont .innerCnt .hd {
+         font-size: 18px;
+     }
+
+     .dFlex .item .imgBx .cont .innerCnt ul li:not(:last-of-type) {
+         margin-bottom: 15px;
+     }
+ }
+
+ @media only screen and (min-width: 1200px) {
+
+    .depts  {
+         padding: 60px 0;
+     }
+
+     .dFlex {
+         margin: -15px;
+     }
+
+     .dFlex .item {
+         padding: 15px;
+     }
+
+     .dFlex .item .imgBx {
+         height: 300px;
+     }
+
+     .dFlex .item .imgBx .cont {
+         padding: 30px 25px;
+     }
+
+     .dFlex .item .imgBx .cont .tle {
+         font-size: 20px;
+     }
+
+     .dFlex .item .imgBx .cont .innerCnt .icon {
+         margin-bottom: 20px;
+         width: 50px;
+         height: 50px;
+     }
+
+     .dFlex .item .imgBx .cont .innerCnt .hd {
+         font-size: 20px;
+         margin-bottom: 20px;
+     }
+
+     .dFlex .item .imgBx .cont .innerCnt ul li {
+         padding-left: 24px;
+         font-size: 18px;
+     }
+
+     .dFlex .item .imgBx .cont .innerCnt ul li:not(:last-of-type) {
+         margin-bottom: 20px;
+     }
+ }
+
+ @media only screen and (min-width: 1441px) {
+    .depts  {
+             padding: 60px 0;
+     }
+
+     .dFlex .item .imgBx {
+         height: 345px;
+     }
+
+     .dFlex .item .imgBx .cont {
+         padding: 30px;
+     }
+
+     .dFlex .item .imgBx .cont .tle {
+         font-size: 22px;
+     }
+
+     .dFlex .item .imgBx .cont .innerCnt .hd {
+         font-size: 22px;
+         margin-bottom: 25px;
+     }
+ }
+
+ @media only screen and (min-width: 1551px) {
+    .depts  {
+         padding: 60px 0;
+     }
+ }
+
+ @media only screen and (min-width: 1661px) {
+    .depts {
+         padding: 70px 0;
+     }
+
+     .dFlex .item .imgBx {
+         height: 452px;
+     }
+
+     .dFlex .item .imgBx .cont .tle {
+         font-size: 24px;
+     }
+
+     .dFlex .item .imgBx .cont .innerCnt .hd {
+         font-size: 24px;
+     }
+ }
