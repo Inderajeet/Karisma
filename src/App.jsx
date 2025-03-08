@@ -45,6 +45,7 @@ import DentalServices from './departments/dental/DentalServices';
 import Departments from './departments/Departments';
 import Careers from './pages/careers';
 import Department from './pages/department';
+import DentalRelatedServices from './departments/dental/DentalRelatedServices';
 
 
 Modal.setAppElement('#root'); // For accessibility
@@ -119,6 +120,7 @@ useEffect(() => {
           <Route path="/slimming/:serviceName/:subService" element={<SlimmingRelatedServices />} />
           <Route path="/derma/:serviceName" element={<DermaServices />} />
           <Route path="/derma/:serviceName/:subService" element={<DermaRelatedServices />} />
+          <Route path="/dental/:serviceName/:subService" element={<DentalRelatedServices />} />
 
           <Route path="/policies/:footSerName" element={<FooterServices />} />  
           <Route path="/treatments" element={<TreatmentImages />} />  
