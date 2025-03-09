@@ -64,185 +64,185 @@
       "link": "/departments",
       "subMenu": [
         {
-          "label": "Dental",
+          "label": "قسم الأسنان",
           "link": "/dental",
           "subMenu": [
             {
-              "label": "Hollywood Smile (Veneers)",
+              "label": "ابتسامة هوليوود (الفينير)",
               "link": "/dental/hollywood-smile-veneers"
             },
             {
-              "label": "Implant",
+              "label": "زراعة الأسنان",
               "link": "/dental/implant"
             },
             {
-              "label": "Orthodontics",
+              "label":  "تقويم الأسنان",
               "link": "/dental/orthodontics"
             },
             {
-              "label": "Teeth Whitening",
+              "label": "تبييض الأسنان",
               "link": "/dental/teeth-whitening"
             },
             {
-              "label": "Mouth Rehabilitation",
+              "label": "إعادة تأهيل الفم",
               "link": "/dental/mouth-rehabilitation"
             },
             {
-              "label": "Root Canal Treatment",
+              "label": "علاج قناة الجذر",
               "link": "/dental/root-canal"
             },
             {
-              "label": "Pediatric",
+              "label": "طب أسنان الأطفال",
               "link": "/dental/pediatric"
             },
             {
-              "label": "Dental Surgical Treatment",
+              "label": "العلاج الجراحي للأسنان",
               "link": "/dental/dental-surgery"
             },
             {
-              "label": "Oral Health (Gum Treatment)",
+              "label": "صحة الفم (علاج اللثة)",
               "link": "/dental/oral-health"
             },
             {
-              "label": "Restorative Dentistry",
+              "label": "طب الأسنان الترميمي",
               "link": "/dental/restorative-dentistry"
             }
           ]
         },
         {
-          "label": "Derma",
+          "label": "الأمراض الجلدية",
           "link": "/derma",
           "subMenu": [
             {
-              "label": "Dermal Fillers",
+              "label":  "حقن الفيلر",
               "link": "/derma/dermal-filler"
             },
             {
-              "label": "Anti-Aging Treatment",
+              "label": "علاجات مكافحة الشيخوخة",
               "link": "/derma/anti-aging-treatment"
             },
             {
-              "label": "Cosmetic Threads",
+              "label": "الخيوط التجميلية",
               "link": "/derma/cosmetic-threads"
             },
             {
-              "label": "Rejuvenation Injection",
+              "label": "حقن تجديد الشباب",
               "link": "/derma/rejuvenation-injection"
             }
           ]
         },
         {
-          "label": "Skin Care",
+          "label": "العناية بالبشرة",
           "link": "/skincare",
           "subMenu": [
             {
-              "label": "Facials",
+              "label": "علاجات الوجه",
               "link": "/skincare/facials"
             },
             {
-              "label": "Peeling",
+              "label": "التقشير",
               "link": "/skincare/peeling"
             },
             {
-              "label": "Mesotherapy",
+              "label": "الميزوثيرابي",
               "link": "/skincare/mesotherapy"
             },
             {
-              "label": "Plasma face",
+              "label": "بلازما الوجه",
               "link": "/skincare/plasma-face"
             },
             {
-              "label": "IV DRIP Glowing",
+              "label": "علاج المحلول الوريدي",
               "link": "/skincare/iv-drip-glowing"
             },
             {
-              "label": "Collagen Threads",
+              "label": "خيوط الكولاجين",
               "link": "/skincare/collagen-threads"
             },
             {
-              "label": "Facial machines",
+              "label": "أجهزة العناية بالبشرة",
               "link": "/skincare/facial-machines"
             },
             {
-              "label": "Hair Treatment",
+              "label":  "علاجات الشعر",
               "link": "/skincare/hair-treatment"
             }
           ]
         },
         {
-          "label": "Plastic Surgery",
+          "label": "الجراحة التجميلية",
           "link": "/plastic-surgery"
         },
         {
-          "label": "Gynecology",
+          "label": "طب النساء ",
           "link": "/gynecology",
           "subMenu": [
             {
-              "label": "Bikini Whitening & Rejuvenation",
+              "label": "تبييض وتجديد منطقة البكيني ",
               "link": "/gynecology/bikini-whitening-rejuvenation"
             },
             {
-              "label": "Bikini Tightening - Belladona",
+              "label": "تضييق البكيني - بيال دونا ",
               "link": "/gynecology/bikini-tightening-belladona"
             },
             {
-              "label": "Plasma Injection",
+              "label": "حقن البالزما ",
               "link": "/gynecology/plasma-injection"
             },
             {
-              "label": "Gynecological filler",
+              "label": "الحشو النسائي ",
               "link": "/gynecology/gynecological-filler"
             },
             {
-              "label": "Vaginal Anti-Aging Treatment",
+              "label": "السن تقدم علاجات المهبلي ",
               "link": "/gynecology/vaginal-anti-aging-treatment"
             },
             {
-              "label": "Cosmetic Minor Surgeries",
+              "label": "جراحات التجميل البسيطة",
               "link": "/gynecology/cosmetic-minor-surgeries"
             },
             {
-              "label": "Gynecology aesthetic",
+              "label": "طب النساء التجميلي ",
               "link": "/gynecology/aesthetic-gynecology"
             },
             {
-              "label": "Medical Gynecology / Obstetric",
+              "label": "طب النساء والتوليد ",
               "link": "/gynecology/obstetric"
             }
           ]
         },
         {
-          "label": "Nutrition and Slimming",
+          "label":"التغذية والتنحيف",
           "link": "/slimming",
           "subMenu": [
             {
-              "label": "Machines",
+              "label":  "الأجهزة",
               "link": "/slimming/machines"
             },
             {
-              "label": "Injections",
+              "label": "الحقن",
               "link": "/slimming/injections"
             },
             {
-              "label": "Other Services",
+              "label": "خدمات أخرى",
               "link": "/slimming/other-services"
             }
           ]
         },
         {
-          "label": "Laser Hair Removal",
+          "label": "إزالة الشعر بالليزر",
           "link": "/laser-hair-removal",
           "subMenu": [
             {
-              "label": "Candela GentleMax Pro",
+              "label": "كانديلا جنتل ماكس برو",
               "link": "/laser-hair-removal/candela-gentle-max-pro"
             },
             {
-              "label": "Elite IQ",
+              "label": "ويك تيليإ ",
               "link": "/laser-hair-removal/elite-iq"
             },
             {
-              "label": "RevLite SI",
+              "label": "ريف لايت إس آي",
               "link": "/laser-hair-removal/revlite-si"
             }
           ]
@@ -250,7 +250,7 @@
       ]
     },
     {
-      "label": "Our Doctors",
+      "label": "أطباؤنا ",
       "link": "/doctors"
     },
     {
@@ -258,7 +258,7 @@
       "link": "/careers"
     },
     {
-      "label": "Contact Us",
+      "label": "اتصل بنا ",
       "link": "/contact_us"
     }
   ],

@@ -20,9 +20,9 @@ export default function ContactPage() {
 
     return (
         <>
-            <DynamicBanner deptName="Contact Us" serviceName="" 
-            bannerImage="https://damasmc.com/uploads/banners/bannerimage68e2318425ebbe7d65777d85eb6a11ecbabc116c.jpg" 
-            bannerPosition={`right`}
+            <DynamicBanner deptName={contact.deptName}
+                bannerImage={contact.bannerImage}
+                bannerPosition={contact.bannerPosition}
             />
             <div className="customContainer ">
                 <div className="row">

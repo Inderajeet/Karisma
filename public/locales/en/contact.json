@@ -4,6 +4,9 @@
         "workingHours": "Working Hours",
         "workingHoursDesc1": "Sunday- Thursday 10:00 AM to 8:00 PM",
         "workingHoursDesc2": "Saturday from 10:00 AM to 9:00 PM",
+        "deptName": "Contact Us",
+        "bannerImage": "../assets/Images/depts/contact/contact_banner.jpg",
+        "bannerPosition": "right",
         "contactInfo": [
             {
                 "title": "Phone",

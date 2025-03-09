@@ -38,6 +38,12 @@
     z-index: 1;
   }
 
+  .arabic .slider-arrows {
+    direction: ltr;
+    padding-right: 25px;
+    padding-left: 45px;
+  }
+
   /* Slider Arrows */
   .slider-arrows {
     position: sticky;

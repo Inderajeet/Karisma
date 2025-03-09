@@ -4,6 +4,9 @@
         "workingHours": "ساعات العمل",
         "workingHoursDesc1": "األحد - الخميس من الساعة 10:00 صبا ًحا إلى 8:00 مسا ًء",
         "workingHoursDesc2": "السبت من الساعة 10:00 صبا ًحا إلى 9:00 مسا ًء",
+        "deptName": "اتصل بنا ",
+        "bannerImage": "../assets/Images/depts/contact/contact_banner.jpg",
+        "bannerPosition": "right",
         "contactInfo": [
             {
                 "title": "الهاتف",

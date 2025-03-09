@@ -1,5 +1,6 @@
  .depts {
-     padding: 40px 0;
+     padding-top: 40px;
+     padding-bottom: 40px;
  }
 
  .dFlex {
@@ -116,22 +117,14 @@
      text-align: left;
  }
 
- /*  .dFlex .item .imgBx .cont .innerCnt ul li::after {
-    content: "";
-    position: absolute;
-    top: 5px;
-    left: 0;
-    background-image: url(https://damasmc.com/images/arrIcon.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 5px;
-    height: 9px;
-} */
+ .arabic .dFlex .item .imgBx .cont .innerCnt ul li {
+     text-align: right;
+     margin-right: 10px;
+ }
 
  /* Hover Effect */
  .dFlex .item .imgBx:hover .cont .innerCnt {
      top: 0;
-     /* Slide up to the top */
      opacity: 1;
      visibility: visible;
  }
@@ -141,8 +134,6 @@
      visibility: hidden;
  }
 
- /* Media Queries */
-
  @media only screen and (min-width: 500px) {
      .dFlex .item {
          width: 50%;
@@ -150,7 +141,7 @@
  }
 
  @media only screen and (min-width: 768px) {
-       .depts  {
+     .depts {
          padding: 50px 0;
      }
 
@@ -197,7 +188,7 @@
  }
 
  @media only screen and (min-width: 992px) {
-    .depts {
+     .depts {
          padding: 50px 0;
      }
 
@@ -238,7 +229,7 @@
 
  @media only screen and (min-width: 1200px) {
 
-    .depts  {
+     .depts {
          padding: 60px 0;
      }
 
@@ -284,8 +275,8 @@
  }
 
  @media only screen and (min-width: 1441px) {
-    .depts  {
-             padding: 60px 0;
+     .depts {
+         padding: 60px 0;
      }
 
      .dFlex .item .imgBx {
@@ -307,13 +298,13 @@
  }
 
  @media only screen and (min-width: 1551px) {
-    .depts  {
+     .depts {
          padding: 60px 0;
      }
  }
 
  @media only screen and (min-width: 1661px) {
-    .depts {
+     .depts {
          padding: 70px 0;
      }
 

@@ -11,46 +11,47 @@ const Departments = () => {
 
     return (
         <>
-            <DynamicBanner deptName="Departments" serviceName=""
-                bannerImage="../assets/Images/depts/depts-banner.png" 
-                bannerPosition={`right`}
+            <DynamicBanner
+                deptName={departmentsData[0].deptName}
+                bannerImage={departmentsData[0].bannerImage}
+                bannerPosition={departmentsData[0].bannerPosition}
             />
-                <div className="customContainer depts">
-                    <div className="dFlex">
-                        {departmentsData.map((department, index) => (
-                            <div className="item" key={index}>
-                                <a href={department.link} className="imgBx">
-                                    <img
-                                        src={department.imageUrl}
-                                        alt={department.imageAlt}
-                                        width={315}
-                                        height={452}
-                                        className="lazy entered loaded"
-                                        loading="lazy"
-                                        data-ll-status="loaded"
-                                    />
-                                    <div className="cont">
-                                        <div className="tle">{department.title}</div>
-                                        <div className="innerCnt">
-                                            {/* <div className="icon">
+            <div className="customContainer depts">
+                <div className="dFlex">
+                {departmentsData.slice(1).map((department, index) => (
+                        <div className="item" key={index}>
+                            <a href={department.link} className="imgBx">
+                                <img
+                                    src={department.imageUrl}
+                                    alt={department.imageAlt}
+                                    width={315}
+                                    height={452}
+                                    className="lazy entered loaded"
+                                    loading="lazy"
+                                    data-ll-status="loaded"
+                                />
+                                <div className="cont">
+                                    <div className="tle">{department.title}</div>
+                                    <div className="innerCnt">
+                                        {/* <div className="icon">
 
                                             </div> */}
 
-                                            <div className="hd">{department.title}</div>
-                                            <ul>
-                                                {(department.listItems || []).map((item, i) => (
-                                                    <li className="content-featureItem-dept" key={i}>{item}</li>
-                                                ))}
-                                            </ul>
+                                        <div className="hd">{department.title}</div>
+                                        <ul>
+                                            {(department.listItems || []).map((item, i) => (
+                                                <li className="content-featureItem-dept" key={i}>{item}</li>
+                                            ))}
+                                        </ul>
 
-                                        </div>
                                     </div>
-                                </a>
-                            </div>
-                        ))}
-                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    ))}
                 </div>
-                <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '10px' }}>
+            </div>
+            <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '10px' }}>
                 <hr className="half-line" style={{ width: '50%', border: '0', height: '2px', backgroundColor: '#111', margin: '0' }} />
             </div>
 

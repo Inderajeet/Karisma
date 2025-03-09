@@ -80,7 +80,7 @@ const SocialIcons = () => {
                     </li>
                     <li>
                         <a
-                            href="https://api.whatsapp.com/send?phone=+971564223807&text=Help Me ?"
+                            href="https://api.whatsapp.com/send?phone=+971504525189&text=Help Me ?"
                             target="_blank"
                             id="whatsapp"
                             className="socialLink"

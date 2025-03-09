@@ -1,6 +1,10 @@
 {
     "doctors": [
-        
+        {
+            "deptName": "أطباؤنا ",
+            "bannerImage": "../assets/Images/depts/Our-Doctors/our-doctors-banner.png" ,
+            "bannerPosition": "center"
+        },
         {
             "id": 2,
             "name": " دكتور يوري ماكرينو ",

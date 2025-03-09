@@ -1,6 +1,11 @@
 {
     "departmentPage": [
         {
+            "deptName": "Departments",
+            "bannerImage": "../assets/Images/depts/depts-banner.png",
+            "bannerPosition": "right"
+        },
+        {
             "link": "dental",
             "imageUrl": "../assets/Images/depts/dental/dental-body-image.png",
             "imageAlt": "Dental",
@@ -9,12 +14,13 @@
                 "Hollywood Smile (Veneers)",
                 "Implant",
                 "Orthodontics",
+                "Teeth Whitening",
+                "Mouth Rehabilitation",
                 "Root Canal Treatment",
                 "Pediatric",
                 "Dental Surgical Treatment",
                 "Oral Health (Gum Treatment)",
-                "Teeth Whitening",
-                "Mouth Rehabilitation",
+                
                 "Restorative Dentistry"
             ]
         },

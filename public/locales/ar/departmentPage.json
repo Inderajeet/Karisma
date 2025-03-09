@@ -1,86 +1,99 @@
 {
     "departmentPage": [
         {
+            "deptName": "Departments",
+            "bannerImage": "../assets/Images/depts/depts-banner.png",
+            "bannerPosition": "right"
+        },
+        {
             "link": "dental",
             "imageUrl": "../assets/Images/depts/dental/dental-body-image.png",
-            "imageAlt": "Dental",
-            "title": "Dental",
+            "imageAlt": "قسم الأسنان",
+            "title": "قسم الأسنان",
             "listItems": [
-                "Hollywood Smile (Veneers)",
-                "Implant",
-                "Orthodontics",
-                "Root Canal Treatment",
-                "Pediatric",
-                "Dental Surgical Treatment",
-                "Oral Heimagealth (Gum Treatment)",
-                "Teeth Whitening",
-                "Mouth Rehabilitation",
-                "Restorative Dentistry"
+                "ابتسامة هوليوود (الفينير)",
+                "زراعة الأسنان",
+                "تقويم الأسنان",
+                "تبييض الأسنان",
+                "إعادة تأهيل الفم",
+                "علاج قناة الجذر",
+                "طب أسنان الأطفال",
+                "العلاج الجراحي للأسنان",
+                "صحة الفم (علاج اللثة)",
+                "طب الأسنان الترميمي"
             ]
         },
         {
             "link": "derma",
             "imageUrl": "../assets/Images/depts/derma/body-image.png",
-            "imagealt": "Derma",
-            "title": "Derma",
+            "imagealt": "الأمراض الجلدية",
+            "title": "الأمراض الجلدية",
             "listItems": [
-                "Dermal Fillers",
-                "Anti-Aging Treatments",
-                "Rejuvenation injection",
-                "Cosmetic Threads"
+                "حقن الفيلر",
+                "علاجات مكافحة الشيخوخة",
+                "الخيوط التجميلية",
+                "حقن تجديد الشباب"
             ]
         },
         {
             "link": "laser-hair-removal",
             "imageUrl": "../assets/Images/depts/laser/body-image.png",
-            "imagealt": "Laser Hair Removal",
-            "title": "Laser Hair Removal",
-            "listItems": ["Candela GentleMax Pro", "Cynosure Elite+", "RevLite SI"]
+            "imagealt": "إزالة الشعر بالليزر",
+            "title": "إزالة الشعر بالليزر",
+            "listItems": [
+                "كانديلا جنتل ماكس برو",
+                "ويك تيليإ ",
+                "ريف لايت إس آي"
+            ]
         },
         {
             "link": "skincare",
             "imageUrl": "../assets/Images/depts/skincare/skincare body-image.png",
-            "imagealt": "Skincare",
-            "title": "Skincare",
+            "imagealt": "العناية بالبشرة",
+            "title": "العناية بالبشرة",
             "listItems": [
-                "Facials",
-                "Mesotherapy",
-                "Plasma face",
-                "IV DRIP Glowing",
-                "Hair Treatment",
-                "Peeling",
-                "Facial machines",
-                "Collagen Threads"
+                "علاجات الوجه",
+                "التقشير",
+                "الميزوثيرابي",
+                "بلازما الوجه",
+                "علاج المحلول الوريدي",
+                "خيوط الكولاجين",
+                "أجهزة العناية بالبشرة",
+                "علاجات الشعر"
             ]
         },
         {
             "link": "gynecology",
             "imageUrl": "../assets/Images/depts/Gyne/body-image.png",
-            "imagealt": "Gynecology",
-            "title": "Gynecology",
+            "imagealt": "طب النساء ",
+            "title": "طب النساء ",
             "listItems": [
-                "Cosmetic Minor Surgeries",
-                "Gynecology aesthetic",
-                "Medical Gynecology / Obstetric",
-                "Bikini Whitening & Rejuvenation",
-                "Bikini Tightening - Belladona",
-                "Plasma Injection",
-                "Gynecological filler",
-                "Anti-Aging Treatments Vaginal Area"
+                "تبييض وتجديد منطقة البكيني ",
+                "تضييق البكيني - بيال دونا ",
+                "حقن البالزما ",
+               "الحشو النسائي ",
+               "السن تقدم علاجات المهبلي ",
+                "جراحات التجميل البسيطة",
+                "طب النساء التجميلي ",
+                "طب النساء والتوليد "
             ]
         },
         {
             "link": "slimming",
             "imageUrl": "../assets/Images/depts/slimming/body-image.png",
-            "imagealt": "Slimming",
-            "title": "Slimming",
-            "listItems": ["Machines", "Injections", "Other services"]
+            "imagealt": "التغذية والتنحيف",
+            "title": "التغذية والتنحيف",
+            "listItems": [
+                "الأجهزة",
+                "الحقن",
+                "خدمات أخرى"
+            ]
         },
         {
             "link": "plastic-surgery",
             "imageUrl": "../assets/Images/banner/about_dept/plastic_surgery.png",
-            "imagealt": "Plastic Surgery",
-            "title": "Plastic Surgery"
+            "imagealt": "الجراحة التجميلية",
+            "title": "الجراحة التجميلية"
         }
     ]
 }

@@ -6,7 +6,7 @@
       "sections": [
         {
           "type": "banner",
-          "deptName": "Gynecology",
+          "deptName": "طب النساء ",
           "serviceName": "طب النساء التجميلي ",
           "bannerImage": "../assets/Images/depts/Gyne/Gynecology-aesthetic/Main-Banner.png",
           "bannerPosition": "right"
@@ -88,7 +88,7 @@
       "sections": [
         {
           "type": "banner",
-          "deptName": "Gynecology",
+          "deptName": "طب النساء ",
           "serviceName": "الحشو النسائي ",
           "bannerImage": "../assets/Images/depts/Gyne/Gynecological-filler/body-image.png",
           "bannerPosition": "right"
@@ -183,7 +183,7 @@
       "sections": [
         {
           "type": "banner",
-          "deptName": "Gynecology",
+          "deptName": "طب النساء ",
           "serviceName": "طب النساء والتوليد ",
           "bannerImage": "../assets/Images/depts/Gyne/MedicalGynecology-Obstetric/Main-Banner.png",
           "bannerPosition": "right"
@@ -322,8 +322,8 @@
       "sections": [
         {
           "type": "banner",
-          "deptName": "Gynecology",
-          "serviceName": "Plasma Injection",
+          "deptName": "طب النساء ",
+          "serviceName": "حقن البالزما ",
           "bannerImage": "../assets/Images/depts/Gyne/Plasma-Injection/Main-Banner.png",
           "bannerPosition": "right"
         },
@@ -427,7 +427,7 @@
       "sections": [
         {
           "type": "banner",
-          "deptName": "Gynecology",
+          "deptName": "طب النساء ",
           "serviceName": "تبييض وتجديد منطقة البكيني ",
           "bannerImage": "../assets/Images/depts/Gyne/BikiniWhitening&Rejuvenation/Main-Banner.png",
           "bannerPosition": "right"
@@ -584,7 +584,7 @@
       "sections": [
         {
           "type": "banner",
-          "deptName": "Gynecology",
+          "deptName": "طب النساء ",
           "serviceName": "تضييق البكيني - بيال دونا ",
           "bannerImage": "../assets/Images/depts/Gyne/BikiniTightening-Belladona/Main-Banner.png",
           "bannerPosition": "right"
@@ -672,7 +672,7 @@
       "sections": [
         {
           "type": "banner",
-          "deptName": "Gynecology",
+          "deptName": "طب النساء ",
           "serviceName": "السن تقدم علاجات المهبلي ",
           "bannerImage": "../assets/Images/depts/Gyne/Vaginal-Anti-AGing-Treatment/Main-Banner.png",
           "bannerPosition": "right"
@@ -774,7 +774,7 @@
       "sections": [
         {
           "type": "banner",
-          "deptName": "Gynecology",
+          "deptName": "طب النساء ",
           "serviceName": "جراحات التجميل البسيطة",
           "bannerImage": "../assets/Images/depts/Gyne/Cosmetic-Minor-Surgeries/Main-Banner.png",
           "bannerPosition": "right"
