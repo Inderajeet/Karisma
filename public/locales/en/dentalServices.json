@@ -1172,14 +1172,6 @@
                         {
                             "type": "paragraph",
                             "text": "At Karisma Specialist Medical Center, we believe a healthy, complete smile is integral to your confidence and overall well-being. That’s why we provide advanced restorative dental treatments to repair damaged or decayed teeth, restoring their strength, beauty, and functionality. With a focus on comfort and personalization, our skilled dentists use the latest techniques and premium materials to deliver exceptional results tailored to your unique needs."
-                        },
-                        {
-                            "type": "heading",
-                            "text": ""
-                        },
-                        {
-                            "type": "paragraph",
-                            "text": ""
                         }
                     ]
                 },
@@ -1247,7 +1239,7 @@
                     ]
                 },
                 {
-                    "type": "cont-content",
+                    "type": "content",
                     "title": "Our Doctors",
                     "description": "Meet our elite team of experts, dedicated to crafting smiles that define sophistication and excellence."
                 },
