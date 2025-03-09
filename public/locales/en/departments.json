@@ -199,6 +199,7 @@
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
+                            "readMore": "Read More",
                             "designation": "Specialist Oral Surgeon",
                             "image": "/assets/Images/doctors/Adel.png",
                             "link": "doctor/dr-adel-al-aswad"
@@ -206,6 +207,7 @@
                         {
                             "id": 3,
                             "name": "Dr. Rania Ghanem",
+                            "readMore": "Read More",
                             "designation": "Prosthodontics Specialist",
                             "image": "/assets/Images/doctors/Rania.png",
                             "link": "doctor/dr-rania-ghanem"
@@ -213,6 +215,7 @@
                         {
                             "id": 4,
                             "name": "Dr. Amir Magdy",
+                            "readMore": "Read More",
                             "designation": "GP Dentist",
                             "image": "/assets/Images/doctors/Amir.png",
                             "link": "doctor/dr-amir-magdy"
@@ -389,6 +392,7 @@
                         {
                             "id": 1,
                             "name": "Dr. Huda Ebrahim Shaheen",
+                            "readMore": "Read More",
                             "designation": "Obstetrics and Gynecology Specialist",
                             "image": "/assets/Images/doctors/huda.png",
                             "link": "doctor/dr-huda-ebrahim-shaheen"
@@ -517,6 +521,7 @@
                         {
                             "id": 1,
                             "name": "Dr. Sandro Ceci",
+                            "readMore": "Read More",
                             "designation": "Dermatologist Specialist",
                             "image": "/assets/Images/doctors/Dr Sandro.png",
                             "link": "doctor/dr-sandro-ceci"
@@ -524,6 +529,7 @@
                         {
                             "id": 2,
                             "name": "Dr. Manar Magdy",
+                            "readMore": "Read More",
                             "designation": "Dermatology Specialist",
                             "image": "/assets/Images/doctors/Dr Manar.png",
                             "link": "doctor/dr-manar-magdy"
@@ -531,6 +537,7 @@
                         {
                             "id": 3,
                             "name": "Dr. Ramilia Anarkulova",
+                            "readMore": "Read More",
                             "designation": "Dermatologist-Cosmetologist",
                             "image": "/assets/Images/doctors/Dr Ramila.png",
                             "link": "doctor/dr-ramilia-anarkulova"
@@ -632,7 +639,7 @@
                             "designation": ""
                         },
                         {
-                            "id": 6,
+                            "id": 5,
                             "name": "IV DRIP Glowing",
                             "image": "../assets/Images/depts/skincare/IV-Drip/body-image.png",
                             "link": "skinCare/iv-drip-glowing",
@@ -640,7 +647,7 @@
                             "designation": ""
                         },
                         {
-                            "id": 7,
+                            "id": 6,
                             "name": "Collagen Threads",
                             "image": "../assets/Images/depts/skincare/Collagen/body-image.png",
                             "link": "skinCare/collagen-threads",
@@ -648,7 +655,7 @@
                             "designation": ""
                         },
                         {
-                            "id": 9,
+                            "id": 7,
                             "name": "Facial Machines",
                             "image": "../assets/Images/depts/skincare/Collagen/body-image.png",
                             "link": "skinCare/facial-machines",
@@ -656,7 +663,7 @@
                             "designation": ""
                         },
                         {
-                            "id": 10,
+                            "id": 8,
                             "name": "Hair Treatment",
                             "image": "../assets/Images/depts/skincare/Collagen/body-image.png",
                             "link": "skinCare/hair-treatment",
@@ -686,6 +693,7 @@
                         {
                             "id": 1,
                             "name": "Naziha Al Tabaa",
+                            "readMore": "Read More",
                             "designation": "Skin Expert & Beauty Therapist",
                             "image": "/assets/Images/doctors/Naziha.png",
                             "link": "doctor/naziha-al-tabaa"
@@ -818,6 +826,7 @@
                         {
                             "id": 1,
                             "name": "DT. Elissa Nabil El Ahmadieh",
+                            "readMore": "Read More",
                             "designation": "Dietician & Nutritionist Specialist",
                             "image": "/assets/Images/doctors/Dr Elissa.png",
                             "link": "doctor/dt-elissa-a-ahmadieh"
@@ -825,6 +834,7 @@
                         {
                             "id": 2,
                             "name": "Dr. Mehdi Shidvash",
+                            "readMore": "Read More",
                             "designation": "Aesthetic Physician",
                             "image": "/assets/Images/doctors/mahdi.png",
                             "link": "doctor/dr-mehdi-shidvash"
@@ -936,6 +946,7 @@
                         {
                             "id": 1,
                             "name": "Dr. Yuri Macrino",
+                            "readMore": "Read More",
                             "designation": "Aesthetic plastic surgeon & consultant",
                             "image": "/assets/Images/doctors/Dr Yuri.png",
                             "link": "doctor/dr-yuri-macrino"

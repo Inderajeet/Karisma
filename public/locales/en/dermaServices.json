@@ -186,6 +186,7 @@
             {
               "id": 1,
               "name": "Dr. Sandro Ceci",
+              "readMore": "Read More",
               "designation": "Dermatologist Specialist",
               "image": "/assets/Images/doctors/Dr Sandro.png",
               "link": "doctor/dr-sandro-ceci"
@@ -193,6 +194,7 @@
             {
               "id": 2,
               "name": "Dr. Manar Magdy",
+              "readMore": "Read More",
               "designation": "Dermatology Specialist",
               "image": "/assets/Images/doctors/Dr Manar.png",
               "link": "doctor/dr-manar-magdy"
@@ -200,6 +202,7 @@
             {
               "id": 3,
               "name": "Dr. Ramilia Anarkulova",
+              "readMore": "Read More",
               "designation": "Dermatologist-Cosmetologist",
               "image": "/assets/Images/doctors/Dr Ramila.png",
               "link": "doctor/dr-ramilia-anarkulova"
@@ -366,6 +369,7 @@
             {
               "id": 1,
               "name": "Dr. Sandro Ceci",
+              "readMore": "Read More",
               "designation": "Dermatologist Specialist",
               "image": "/assets/Images/doctors/Dr Sandro.png",
               "link": "doctor/dr-sandro-ceci"
@@ -373,6 +377,7 @@
             {
               "id": 2,
               "name": "Dr. Manar Magdy",
+              "readMore": "Read More",
               "designation": "Dermatology Specialist",
               "image": "/assets/Images/doctors/Dr Manar.png",
               "link": "doctor/dr-manar-magdy"
@@ -380,6 +385,7 @@
             {
               "id": 3,
               "name": "Dr. Ramilia Anarkulova",
+              "readMore": "Read More",
               "designation": "Dermatologist-Cosmetologist",
               "image": "/assets/Images/doctors/Dr Ramila.png",
               "link": "doctor/dr-ramilia-anarkulova"
@@ -587,6 +593,7 @@
             {
               "id": 1,
               "name": "Dr. Sandro Ceci",
+              "readMore": "Read More",
               "designation": "Dermatologist Specialist",
               "image": "/assets/Images/doctors/Dr Sandro.png",
               "link": "doctor/dr-sandro-ceci"
@@ -594,6 +601,7 @@
             {
               "id": 2,
               "name": "Dr. Manar Magdy",
+              "readMore": "Read More",
               "designation": "Dermatology Specialist",
               "image": "/assets/Images/doctors/Dr Manar.png",
               "link": "doctor/dr-manar-magdy"
@@ -601,6 +609,7 @@
             {
               "id": 3,
               "name": "Dr. Ramilia Anarkulova",
+              "readMore": "Read More",
               "designation": "Dermatologist-Cosmetologist",
               "image": "/assets/Images/doctors/Dr Ramila.png",
               "link": "doctor/dr-ramilia-anarkulova"
@@ -821,6 +830,7 @@
             {
               "id": 1,
               "name": "Dr. Sandro Ceci",
+              "readMore": "Read More",
               "designation": "Dermatologist Specialist",
               "image": "/assets/Images/doctors/Dr Sandro.png",
               "link": "doctor/dr-sandro-ceci"
@@ -828,6 +838,7 @@
             {
               "id": 2,
               "name": "Dr. Manar Magdy",
+              "readMore": "Read More",
               "designation": "Dermatology Specialist",
               "image": "/assets/Images/doctors/Dr Manar.png",
               "link": "doctor/dr-manar-magdy"
@@ -835,6 +846,7 @@
             {
               "id": 3,
               "name": "Dr. Ramilia Anarkulova",
+              "readMore": "Read More",
               "designation": "Dermatologist-Cosmetologist",
               "image": "/assets/Images/doctors/Dr Ramila.png",
               "link": "doctor/dr-ramilia-anarkulova"

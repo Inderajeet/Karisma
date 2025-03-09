@@ -8,7 +8,8 @@
           "type": "banner",
           "deptName": "التخسيس",
           "serviceName": "الأجهزة",
-          "bannerImage": "../assets/Images/banner/dept_banner/slimming.png"
+          "bannerImage": "../assets/Images/depts/slimming/Machines/Machines-banner.png",
+          "bannerPosition": "center"
         },
         {
           "type": "image-content",
@@ -39,70 +40,99 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "color-heading",
           "title": "خطوة أولى نحو صحة أفضل وثقة أكبر بنفسك",
           "description": "احجز استشارتك اليوم في مركز كاريزما الطبي التخصصي واكتشف قوة تقنيات نحت الجسم المتطورة لدينا."
         },
-          {
-            "type": "color-heading",
-            "title": "خطوة أولى نحو صحة أفضل وثقة أكبر بنفسك",
-            "description": "احجز استشارتك اليوم في مركز كاريزما الطبي التخصصي واكتشف قوة تقنيات نحت الجسم المتطورة لدينا."
+        {
+          "type": "large-list-services-noImage",
+          "listServices": [
+            {
+              "id": 1,
+              "name": "ABAS Fit & ReFit",
+              "image": "/assets/Images/home/Doctors.png",
+              "link": "slimming/machines/abas-fit-refit",
+              "readMore": "اقرأ المزيد",
+              "designation": "تحقق تقنية ABAS Fit & ReFit المبتكرة في مركز كاريزما الطبي التخصصي قوامًا منحوتًا ومتناسقًا."
+            },
+            {
+              "id": 2,
+              "name": "باور شيب 2 – Power Shape 2",
+              "image": "/assets/Images/home/Doctors.png",
+              "link": "slimming/machines/power-shape-2",
+              "readMore": "اقرأ المزيد",
+              "designation": "اكتشف المستوى الفائق لنحت الجسم مع باور شيب 2، وهو علاج متطور متعدد التقنيات مصمم لإذابة الدهون وتقليل السيلوليت وتجديد شباب بشرتك للحصول على مظهر شبابي ومنحوت."
+            },
+            {
+              "id": 3,
+              "name": "حرق الدهون – هيتر Heater",
+              "image": "/assets/Images/home/Doctors.png",
+              "link": "slimming/machines/fat-burning-heater",
+              "readMore": "اقرأ المزيد",
+              "designation": "حقق أهدافك بنحت جسمك بشكل أسرع مع جهاز هيتر، وهو حل متطور لتعزيز حرق الدهون وتعزيز عملية الأيض."
+            },
+            {
+              "id": 4,
+              "name": "تحفيز العضلات - EMS",
+              "image": "/assets/Images/home/Doctors.png",
+              "link": "slimming/machines/stimulate-muscle-ems",
+              "readMore": "اقرأ المزيد",
+              "designation": "احصل على عضلات محددة وقوية وبارزة وتحسينًا لحرق الدهون مع تحفيز العضلات الكهربائي (EMS)، وهي تقنية متطورة تحاكي التمرين الطبيعي من خلال نبضات كهربائية مُستهدِفة."
+            },
+            {
+              "id": 5,
+              "name": "التصريف الليمفاوي – بريسّو Presso",
+              "image": "/assets/Images/home/Doctors.png",
+              "link": "slimming/machines/lymphatic-drainage-presso",
+              "readMore": "اقرأ المزيد",
+              "designation": "بريسّو هو علاج غير جراحي يحفز التصريف الليمفاوي، ويساعد على تقليل الانتفاخ، كما يعزز الراحة ومظهرًا انسيابياً."
+            },
+            {
+              "id": 6,
+              "name": "ماديروثيرابي - التدليك بالأخشاب",
+              "image": "/assets/Images/home/Doctors.png",
+              "link": "slimming/machines/wooden-massage–madero-therapy",
+              "readMore": "اقرأ المزيد",
+              "designation": "استمتع بدمج التقنيات الكولومبية القديمة مع الرفاهية الحديثة في مركز كاريزما الطبي التخصصي من خلال ماديروثيرابي، وهو علاج طبيعي فريد مصمم لنحت جسمك وتقويته وتجديد الجلد."
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "title": "أطباؤنا"
+        },
+        {
+          "type": "slider-doctors",
+          "title": "التقِ بأطبائنا المتخصصين",
+          "cards": {
+            "background-color": "#f9f9f9",
+            "heading-color": "#577065",
+            "heading-size": "24px",
+            "desc-color": "#5C4033",
+            "desc-size": "16px",
+            "button-text-color": "#577065",
+            "button-text-size": "16px"
           },
-          {
-            "type": "large-list-services-noImage",
-            "listServices": [
-              {
-                "id": 1,
-                "name": "ABAS Fit & ReFit",
-                "image": "/assets/Images/home/Doctors.png",
-                "link": "slimming/machines/abas-fit-refit",
-                "readMore": "اقرأ المزيد",
-                "designation": "تحقق تقنية ABAS Fit & ReFit المبتكرة في مركز كاريزما الطبي التخصصي قوامًا منحوتًا ومتناسقًا."
-              },
-              {
-                "id": 2,
-                "name": "باور شيب 2 – Power Shape 2",
-                "image": "/assets/Images/home/Doctors.png",
-                "link": "slimming/machines/power-shape-2",
-                "readMore": "اقرأ المزيد",
-                "designation": "اكتشف المستوى الفائق لنحت الجسم مع باور شيب 2، وهو علاج متطور متعدد التقنيات مصمم لإذابة الدهون وتقليل السيلوليت وتجديد شباب بشرتك للحصول على مظهر شبابي ومنحوت."
-              },
-              {
-                "id": 3,
-                "name": "حرق الدهون – هيتر Heater",
-                "image": "/assets/Images/home/Doctors.png",
-                "link": "slimming/machines/fat-burning-heater",
-                "readMore": "اقرأ المزيد",
-                "designation": "حقق أهدافك بنحت جسمك بشكل أسرع مع جهاز هيتر، وهو حل متطور لتعزيز حرق الدهون وتعزيز عملية الأيض."
-              },
-              {
-                "id": 4,
-                "name": "تحفيز العضلات - EMS",
-                "image": "/assets/Images/home/Doctors.png",
-                "link": "slimming/machines/stimulate-muscle-ems",
-                "readMore": "اقرأ المزيد",
-                "designation": "احصل على عضلات محددة وقوية وبارزة وتحسينًا لحرق الدهون مع تحفيز العضلات الكهربائي (EMS)، وهي تقنية متطورة تحاكي التمرين الطبيعي من خلال نبضات كهربائية مُستهدِفة."
-              },
-              {
-                "id": 5,
-                "name": "التصريف الليمفاوي – بريسّو Presso",
-                "image": "/assets/Images/home/Doctors.png",
-                "link": "slimming/machines/lymphatic-drainage-presso",
-                "readMore": "اقرأ المزيد",
-                "designation": "بريسّو هو علاج غير جراحي يحفز التصريف الليمفاوي، ويساعد على تقليل الانتفاخ، كما يعزز الراحة ومظهرًا انسيابياً."
-              },
-              {
-                "id": 6,
-                "name": "ماديروثيرابي - التدليك بالأخشاب",
-                "image": "/assets/Images/home/Doctors.png",
-                "link": "slimming/machines/wooden-massage–madero-therapy",
-                "readMore": "اقرأ المزيد",
-                "designation": "استمتع بدمج التقنيات الكولومبية القديمة مع الرفاهية الحديثة في مركز كاريزما الطبي التخصصي من خلال ماديروثيرابي، وهو علاج طبيعي فريد مصمم لنحت جسمك وتقويته وتجديد الجلد."
-              }
-            ]
-          }
-        ]        
-
+          "doctors": [
+            {
+              "id": 1,
+              "name": " د. إليسا األحمدية ",
+              "readMore": " اقرأ المزيد",
+              "designation": " أخصائية تغذية ",
+              "image": "/assets/Images/doctors/Dr Elissa.png",
+              "link": "doctor/dt-elissa-a-ahmadieh"
+            },
+            {
+              "id": 2,
+              "name": " دكتور مهدي شيدفش ",
+              "readMore": " اقرأ المزيد",
+              "designation": " طبيب تجميل ",
+              "image": "/assets/Images/doctors/mahdi.png",
+              "link": "doctor/dr-mehdi-shidvash"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "2",
@@ -112,7 +142,8 @@
           "type": "banner",
           "deptName": "التنحيف",
           "serviceName": "الحقن",
-          "bannerImage": "../assets/Images/banner/dept_banner/slimming.png"
+          "bannerImage": "../assets/Images/depts/slimming/Injection/Injection-banner.png",
+          "bannerPosition": "center"
         },
         {
           "type": "image-content",
@@ -141,7 +172,7 @@
           ]
         },
         {
-          "type": "content",
+          "type": "sub-heading-content-last",
           "title": "رحلتك الشخصية لإدارة الوزن",
           "description": "نحن ندرك أن تحقيق وزن صحي يمكن أن يكون تحديًا. سيعمل فريقنا المتخصص معك لوضع خطة شاملة، تجمع بين الحقن والتغذية السليمة وتعديلات نمط الحياة.",
           "features": [
@@ -151,12 +182,12 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "color-heading",
           "title": "اتخذ الخطوة التالية نحو قوام منحوت وأكثر ثقة.",
           "description": "احجز استشارتك اليوم في مركز كاريزما الطبي التخصصي واكتشف كيف يمكن أن تساعدك حقن تذويب الدهون المُستهدِفة على دعم رحلتك نحو الرشاقة."
         },
         {
-          "type": "list-services-noImage",
+          "type": "large-list-services-noImage",
           "listServices": [
             {
               "id": 1,
@@ -186,9 +217,7 @@
         },
         {
           "type": "content",
-          "title": "أطباؤنا",
-          "description": "التقِ بفريق خبرائنا المتميز، الملتزم بمساعدتك على تحقيق أفضل نتائج تعكس لياقتك وصحتك ورقي وتميّز عياداتنا.",
-          "features": []
+          "title": "أطباؤنا"
         },
         {
           "type": "slider-doctors",
@@ -205,17 +234,19 @@
           "doctors": [
             {
               "id": 1,
-              "name": "د. إليسا نبيل الأحمدية",
-              "designation": "أخصائية تغذية وتغذية علاجية",
+              "name": " د. إليسا األحمدية ",
+              "readMore": " اقرأ المزيد",
+              "designation": " أخصائية تغذية ",
               "image": "/assets/Images/doctors/Dr Elissa.png",
-              "link": "dt-elissa-a-ahmadieh"
+              "link": "doctor/dt-elissa-a-ahmadieh"
             },
             {
               "id": 2,
-              "name": "د. مهدي شيدفاش",
-              "designation": "طبيب تجميل",
+              "name": " دكتور مهدي شيدفش ",
+              "readMore": " اقرأ المزيد",
+              "designation": " طبيب تجميل ",
               "image": "/assets/Images/doctors/mahdi.png",
-              "link": "dr-mehdi-shidvash"
+              "link": "doctor/dr-mehdi-shidvash"
             }
           ]
         }
@@ -229,7 +260,8 @@
           "type": "banner",
           "deptName": "التنحيف",
           "serviceName": "خدمات أخرى",
-          "bannerImage": "../assets/Images/banner/dept_banner/slimming.png"
+          "bannerImage": "../assets/Images/depts/slimming/Other-services/Other-services-banner.png",
+          "bannerPosition": "right"
         },
         {
           "type": "image-content",
@@ -254,17 +286,17 @@
           ]
         },
         {
-          "type": "content",
+          "type": "sub-heading-content-last",
           "title": "مُكرّسون لدعم صحتك وجمالك",
           "description": "في مركز كاريزما الطبي التخصصي، هدفنا هو تقديم مجموعة شاملة من الخدمات لدعم رحلتك نحو صحة أفضل وثقة أكبر بنفسك. سيعمل فريقنا الطبي عن كثب معك لوضع خطة مخصصة تلبي جميع احتياجاتك الصحية، مما يضمن تحقيق النتائج التي تطمح إليها."
         },
         {
-          "type": "color-content",
+          "type": "color-heading",
           "title": "احجز استشارتك اليوم!",
           "description": "اكتشف كيف يمكن لمجموعة خدماتنا أن تدعم أهدافك الصحية والجمالية وعافيتك البدنية. فريقنا جاهز لمساعدتك في كل خطوة على الطريق."
         },
         {
-          "type": "list-services-noImage",
+          "type": "large-list-services-noImage",
           "listServices": [
             {
               "id": 1,
@@ -286,8 +318,7 @@
         },
         {
           "type": "content",
-          "title": "أطباؤنا",
-          "description": "التقِ بفريق خبرائنا المتميز، الملتزم بمساعدتك على تحقيق أفضل نتائج تعكس لياقتك وصحتك ورقي وتمّز عياداتنا."
+          "title": "أطباؤنا"
         },
         {
           "type": "slider-doctors",
@@ -304,17 +335,19 @@
           "doctors": [
             {
               "id": 1,
-              "name": "د. إليسا نبيل الأحمدية",
-              "designation": "أخصائية تغذية وتغذية علاجية",
+              "name": " د. إليسا األحمدية ",
+              "readMore": " اقرأ المزيد",
+              "designation": " أخصائية تغذية ",
               "image": "/assets/Images/doctors/Dr Elissa.png",
-              "link": "dt-elissa-a-ahmadieh"
+              "link": "doctor/dt-elissa-a-ahmadieh"
             },
             {
               "id": 2,
-              "name": "د. مهدي شيدفاش",
-              "designation": "طبيب تجميل",
+              "name": " دكتور مهدي شيدفش ",
+              "readMore": " اقرأ المزيد",
+              "designation": " طبيب تجميل ",
               "image": "/assets/Images/doctors/mahdi.png",
-              "link": "dr-mehdi-shidvash"
+              "link": "doctor/dr-mehdi-shidvash"
             }
           ]
         }

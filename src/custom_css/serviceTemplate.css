@@ -362,17 +362,15 @@ strong {
 .content-featureItem-dept {
     margin-bottom: 8px;
     position: relative;
-    padding-left: 25px;
-    /* Ensure space for the tick mark */
+    padding-left: 25px; /* Space for tick mark in LTR */
+    padding-right: 0; /* Reset in LTR */
 }
 
 .content-featureItem-dept::before {
     content: "✓";
     position: absolute;
-    /* Keep the tick separate from text flow */
-    left: 0;
+    left: 0; /* Tick on the left in LTR */
     top: 3px;
-    /* Adjust alignment if needed */
     color: white;
     font-size: large;
     font-weight: 600;
@@ -380,20 +378,29 @@ strong {
     height: 11px;
 }
 
+.arabic .content-featureItem-dept {
+    padding-left: 0; /* Reset padding in Arabic */
+    padding-right: 25px; /* Space for tick mark in RTL */
+}
+
+.arabic .content-featureItem-dept::before {
+    left: unset; /* Remove left positioning */
+    right: 0; /* Move tick to the right in Arabic */
+}
+
+
 .content-featureItem {
     margin-bottom: 8px;
     position: relative;
-    padding-left: 25px;
-    /* Ensure space for the tick mark */
+    padding-left: 25px; /* Space for tick mark in LTR */
+    padding-right: 0; /* Reset in LTR */
 }
 
 .content-featureItem::before {
     content: "✓";
     position: absolute;
-    /* Keep the tick separate from text flow */
-    left: 0;
+    left: 0; /* Keep tick on the left in LTR */
     top: 3px;
-    /* Adjust alignment if needed */
     color: green;
     font-size: large;
     font-weight: 600;
@@ -401,10 +408,17 @@ strong {
     height: 11px;
 }
 
-.arabic .content-featureItem::before {
-    position: relative;
-    margin-left: 10px;
+.arabic .content-featureItem {
+    padding-left: 0; /* Reset padding in Arabic */
+    padding-right: 25px; /* Space for tick mark in RTL */
 }
+
+.arabic .content-featureItem::before {
+    left: unset; /* Remove left positioning */
+    right: 0; /* Move tick to the right in Arabic */
+}
+
+
 
 .custom-list-item {
     margin-bottom: 8px;
@@ -428,12 +442,12 @@ strong {
 
 .arabic .custom-list-item {
     padding-left: unset;
-    padding-right: 49px;
+    padding-right: 40px;
 }
 
 .arabic .custom-list-item:before {
     left: unset;
-    right: 28px;
+    right: 20px;
     margin-right: 0px;
 }
 

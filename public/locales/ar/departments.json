@@ -44,9 +44,9 @@
                     "title": "خدماتنا لتحويل ابتسامتك",
                     "description": "في كاريزما، نخصص كل علاج ليناسب احتياجاتك الفردية، مما يضمن تجربة فاخرة ونتائج مثالية:",
                     "features": [
-                        "1. ابتسامة هوليوود: احصل على ابتسامة النجوم والمشاهير المثالية مع ابتسامة هوليوود الفريدة في كاريزما. سواء كنت تستعدّ لمناسبة خاصة أو ترغب ببساطة في الشعور بالإشراق كل يوم، سنساعدك في الحصول على ابتسامة جذابة تعيش معها أجواء السجادة الحمراء.",
-                        "2. غرسات الأسنان الطبيعية المظهر: وداعًا لإنزعاجك من الأسنان المفقودة. تعيد زرعات الأسنان الشبيهة بالطبيعية حيوية ابتسامتك، مما يسمح لك بالأكل والتحدث والضحك بثقة دائمة ومتجددة.",
-                        "3. تقويم الأسنان الشفاف والدعامات الخفيّة: حقق تناسقًا مثاليًا لأسنانك بشكل غير محسوس مع تقنيتنا الأحدث تقويم الأسنان الشفاف. تفضل المظهر المعدني التقليدي؟ لدينا ذلك أيضًا! تلائم خياراتنا كل الحالات والاحتياجات."
+                        " ابتسامة هوليوود: احصل على ابتسامة النجوم والمشاهير المثالية مع ابتسامة هوليوود الفريدة في كاريزما. سواء كنت تستعدّ لمناسبة خاصة أو ترغب ببساطة في الشعور بالإشراق كل يوم، سنساعدك في الحصول على ابتسامة جذابة تعيش معها أجواء السجادة الحمراء.",
+                        " غرسات الأسنان الطبيعية المظهر: وداعًا لإنزعاجك من الأسنان المفقودة. تعيد زرعات الأسنان الشبيهة بالطبيعية حيوية ابتسامتك، مما يسمح لك بالأكل والتحدث والضحك بثقة دائمة ومتجددة.",
+                        " تقويم الأسنان الشفاف والدعامات الخفيّة: حقق تناسقًا مثاليًا لأسنانك بشكل غير محسوس مع تقنيتنا الأحدث تقويم الأسنان الشفاف. تفضل المظهر المعدني التقليدي؟ لدينا ذلك أيضًا! تلائم خياراتنا كل الحالات والاحتياجات."
                     ]
                 },
                 {
@@ -201,6 +201,7 @@
                         {
                             "id": 2,
                             "name": "د. عادل الأسود",
+                            "readMore": " اقرأ المزيد",
                             "designation": "أخصائي جراحة الفم",
                             "image": "/assets/Images/doctors/Adel.png",
                             "link": "doctor/dr-adel-al-aswad"
@@ -208,6 +209,7 @@
                         {
                             "id": 3,
                             "name": "د. رانيا غانم",
+                            "readMore": " اقرأ المزيد",
                             "designation": "أخصائية تعويضات الأسنان",
                             "image": "/assets/Images/doctors/Rania.png",
                             "link": "doctor/dr-rania-ghanem"
@@ -215,6 +217,7 @@
                         {
                             "id": 4,
                             "name": "د. أمير مجدي",
+                            "readMore": " اقرأ المزيد",
                             "designation": "طبيب أسنان عام",
                             "image": "/assets/Images/doctors/Amir.png",
                             "link": "doctor/dr-amir-magdy"
@@ -288,7 +291,7 @@
                             "name": "حقن الفيلر",
                            "image": "../assets/Images/depts/derma/filler/body-image.png",
                             "link": "derma/dermal-filler",
-                            "readMore": "Read More",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -296,7 +299,7 @@
                             "name": "علاجات مكافحة الشيخوخة",
                             "image": "../assets/Images/depts/derma/anti-aging-treatment/body-image.png",
                             "link": "derma/anti-aging-treatment",
-                            "readMore": "Read More",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -304,7 +307,7 @@
                             "name": "الخيوط التجميلية",
                             "image": "../assets/Images/depts/derma/Cosmetic-Threads/body-image.png",
                             "link": "derma/cosmetic-threads",
-                            "readMore": "Read More",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
@@ -312,7 +315,7 @@
                             "name": "حقن تجديد الشباب",
                             "image": "../assets/Images/depts/derma/Rejuvenation/body-image1.png",
                             "link": "derma/rejuvenation-injection",
-                            "readMore": "Read More",
+                            "readMore": " اقرأ المزيد",
                             "designation": ""
                         }
                     ]
@@ -337,6 +340,7 @@
                         {
                             "id": 1,
                             "name": "د. ساندرو سيسي",
+                            "readMore": " اقرأ المزيد",
                             "designation": "أخصائي الأمراض الجلدية",
                             "image": "/assets/Images/doctors/Dr Sandro.png",
                             "link": "doctor/dr-sandro-ceci"
@@ -344,6 +348,7 @@
                         {
                             "id": 2,
                             "name": "د. منار مجدي",
+                            "readMore": " اقرأ المزيد",
                             "designation": "أخصائية الأمراض الجلدية",
                             "image": "/assets/Images/doctors/Dr Manar.png",
                             "link": "doctor/dr-manar-magdy"
@@ -351,6 +356,7 @@
                         {
                             "id": 3,
                             "name": "د. رامليا أناركولوفا",
+                            "readMore": " اقرأ المزيد",
                             "designation": "أخصائية الأمراض الجلدية والتجميل",
                             "image": "/assets/Images/doctors/Dr Ramila.png",
                             "link": "doctor/dr-ramilia-anarkulova"
@@ -568,72 +574,64 @@
                         {
                             "id": 1,
                             "name": "علاجات الوجه",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "العناية-بالبشرة/علاجات-الوجه",
+                            "image": "../assets/Images/depts/skincare/Facial/body-image.png",
+                            "link": "skinCare/facials",
                             "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
                             "id": 2,
                             "name": "التقشير",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "العناية-بالبشرة/التقشير",
+                            "image": "../assets/Images/depts/skincare/Peeling/body-image.png",
+                            "link": "skinCare/peeling",
                             "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
                             "id": 3,
                             "name": "الميزوثيرابي",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "العناية-بالبشرة/الميزوثيرابي",
+                            "image": "../assets/Images/depts/skincare/Mesotherapy/body-image.png",
+                            "link": "skinCare/mesotherapy",
                             "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
                             "id": 4,
                             "name": "بلازما الوجه",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "العناية-بالبشرة/بلازما-الوجه",
+                            "image": "../assets/Images/depts/skincare/Plasma-Face/body-image.png",
+                            "link": "skinCare/plasma-face",
+                            "readMore": " اقرأ المزيد",
+                            "designation": ""
+                        },
+                        {
+                            "id": 5,
+                            "name": "علاج المحلول الوريدي",
+                            "image": "../assets/Images/depts/skincare/IV-Drip/body-image.png",
+                            "link": "skinCare/iv-drip-glowing",
                             "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
                             "id": 6,
-                            "name": "علاج المحلول الوريدي",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "العناية-بالبشرة/المحلول-الوريدي",
-                            "readMore": " اقرأ المزيد",
-                            "designation": ""
-                        },
-                        {
-                            "id": 7,
                             "name": "خيوط الكولاجين",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "العناية-بالبشرة/خيوط-الكولاجين",
+                            "image": "../assets/Images/depts/skincare/Collagen/body-image.png",
+                            "link": "skinCare/collagen-threads",
                             "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
                             "id": 8,
-                            "name": "الثقب",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "العناية-بالبشرة/الثقب",
+                            "name": "أجهزة العناية بالبشرة",
+                            "image": "../assets/Images/depts/skincare/Collagen/body-image.png",
+                            "link": "skinCare/facial-machines",
                             "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
                             "id": 9,
-                            "name": "أجهزة العناية بالبشرة",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "العناية-بالبشرة/أجهزة-العناية-بالبشرة",
-                            "readMore": " اقرأ المزيد",
-                            "designation": ""
-                        },
-                        {
-                            "id": 10,
                             "name": "علاجات الشعر",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "العناية-بالبشرة/علاجات-الشعر",
+                            "image": "../assets/Images/depts/skincare/Collagen/body-image.png",
+                            "link": "skinCare/hair-treatment",
                             "readMore": " اقرأ المزيد",
                             "designation": ""
                         }
@@ -748,24 +746,24 @@
                         {
                             "id": 1,
                             "name": "الأجهزة",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "التغذية-والتنحيف/الأجهزة",
+                            "image": "../assets/Images/depts/slimming/Machines/Machines-body-image.png",
+                            "link": "slimming/machines",
                             "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
                             "id": 2,
                             "name": "الحقن",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "التغذية-والتنحيف/الحقن",
+                            "image": "../assets/Images/depts/slimming/Injection/Injection-body-image.png",
+                            "link": "slimming/injections",
                             "readMore": " اقرأ المزيد",
                             "designation": ""
                         },
                         {
                             "id": 3,
                             "name": "خدمات أخرى",
-                            "image": "/assets/Images/home/Doctors.png",
-                            "link": "التغذية-والتنحيف/خدمات-أخرى",
+                            "image": "../assets/Images/depts/slimming/Other-services/body-image-Other-services.png",
+                            "link": "slimming/other-services",
                             "readMore": " اقرأ المزيد",
                             "designation": ""
                         }
@@ -799,6 +797,7 @@
                         {
                             "id": 2,
                             "name": " دكتور مهدي شيدفش ",
+                            "readMore": " اقرأ المزيد",
                             "designation": " طبيب تجميل ",
                             "image": "/assets/Images/doctors/mahdi.png",
                             "link": "doctor/dr-mehdi-shidvash"

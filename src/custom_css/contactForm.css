@@ -17,6 +17,10 @@ textarea::placeholder {
   font-weight: bold;
   margin-right: 10px;
 }
+.arabic input::placeholder,
+.arabic ::placeholder {
+  padding-right: 10px;
+}
 
 input:focus::placeholder,
 textarea:focus::placeholder {
