@@ -23,6 +23,7 @@ export default function ContactPage() {
             <DynamicBanner deptName={contact.deptName}
                 bannerImage={contact.bannerImage}
                 bannerPosition={contact.bannerPosition}
+                deptLink={contact.deptLink}
             />
             <div className="customContainer ">
                 <div className="row">

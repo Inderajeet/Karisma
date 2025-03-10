@@ -215,6 +215,7 @@ const Departments = () => {
                                 deptName={section.deptName}
                                 serviceName={section.serviceName}
                                 bannerImage={section.bannerImage}
+                                deptLink={section.deptLink}
                                 bannerPosition={section.bannerPosition}
                             />
                         );

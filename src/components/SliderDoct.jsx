@@ -64,7 +64,7 @@ const SliderDoct = () => {
       }}
       modules={[Autoplay]}
     >
-      {doctors.map((doctor, index) => (
+      {doctors.slice(1).map((doctor, index) => (
         <SwiperSlide key={doctor.id}>
           <Link
             to={`/${i18n.language}/${encodeURI(doctor.link)}`}
@@ -74,7 +74,7 @@ const SliderDoct = () => {
               style={{ backgroundColor: cards["background-color"] }}
             >
               <div className="entrye-title">
-                <h3 className="post-title-head" style={{paddingBottom: '0'}}>
+                <h3 className="post-title-head" style={{ paddingBottom: '0' }}>
                   <div
                     className="post-title"
                     style={{

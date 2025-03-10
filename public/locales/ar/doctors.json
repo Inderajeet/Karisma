@@ -3,12 +3,13 @@
         {
             "deptName": "أطباؤنا ",
             "bannerImage": "../assets/Images/depts/Our-Doctors/our-doctors-banner.png" ,
-            "bannerPosition": "center"
+            "bannerPosition": "center",
+            "deptLink": "doctors"
         },
         {
             "id": 2,
             "name": " دكتور يوري ماكرينو ",
-            "department": "Plastic Surgery",
+            "department":  "الجراحة التجميلية",
             "image": "/assets/Images/doctors/Dr Yuri.png",
             "link": "doctor/dr-yuri-macrino",
             "designation": " جراح تجميل واستشاري ",
@@ -51,7 +52,7 @@
         {
             "id": 3,
             "name": " دكتور مهدي شيدفش ",
-            "department": "Nutrition and Slimming",
+            "department": "التغذية والتنحيف",
             "image": "/assets/Images/doctors/mahdi.png",
             "link": "doctor/dr-mehdi-shidvash",
             "designation": " طبيب تجميل ",
@@ -94,7 +95,7 @@
         {
             "id": 4,
             "name": " ساندرو سيسي ",
-            "department": "Derma",
+            "department": "الأمراض الجلدية",
             "image": "/assets/Images/doctors/Dr Sandro.png",
             "link": "doctor/dr-sandro-ceci",
             "designation": " أخصائي أمراض جلدية ",
@@ -137,7 +138,7 @@
         {
             "id": 5,
             "name": " دكتورة منار مجدي ",
-            "department": "Derma",
+            "department": "الأمراض الجلدية",
             "image": "/assets/Images/doctors/Dr Manar.png",
             "link": "doctor/dr-manar-magdy",
             "designation": " أخصائية أمراض جلدية ",
@@ -180,7 +181,7 @@
         {
             "id": 6,
             "name": " دكتورة راميليا اناركولوفا ",
-            "department": "Derma",
+            "department": "الأمراض الجلدية",
             "image": "/assets/Images/doctors/Dr Ramila.png",
             "link": "doctor/dr-ramilia-anarkulova",
             "designation": "أخصائية أمراض جلدية وتجميل ",
@@ -223,7 +224,7 @@
         {
             "id": 7,
             "name": " د. إليسا األحمدية ",
-            "department": "Nutrition and Slimming",
+            "department": "التغذية والتنحيف",
             "image": "/assets/Images/doctors/Dr Elissa.png",
             "link": "doctor/dt-elissa-a-ahmadieh",
             "designation": " أخصائية تغذية ",
@@ -267,7 +268,7 @@
         {
             "id": 8,
             "name": " دكتور عادل األسود ",
-            "department": "Dental",
+            "department": "قسم الأسنان",
             "image": "/assets/Images/doctors/Adel.png",
             "link": "doctor/dr-adel-al-aswad",
             "designation": " جراح فم متخصص ",
@@ -312,7 +313,7 @@
         {
             "id": 9,
             "name": " دكتور أمير مجدي",
-            "department": "Dental",
+            "department": "قسم الأسنان",
             "image": "/assets/Images/doctors/Amir.png",
             "link": "doctor/dr-amir-magdy",
             "designation": " طبيب أسنان عام ",
@@ -355,7 +356,7 @@
         {
             "id": 10,
             "name": " د. رانيا غانم ",
-            "department": "Dental",
+            "department": "قسم الأسنان",
             "image": "/assets/Images/doctors/Rania.png",
             "link": "doctor/dr-rania-ghanem",
             "designation": " أخصائية تركيبات األسنان ",
@@ -398,7 +399,7 @@
         {
             "id": 11,
             "name": " د. هدى شاهين ",
-            "department": "Gynecology",
+            "department": "طب النساء ",
             "image": "/assets/Images/doctors/huda.png",
             "link": "doctor/dr-huda-ebrahim-shaheen",
             "designation": " أخصائية أمراض النساء والتوليد ",
@@ -441,7 +442,7 @@
         {
             "id": 12,
             "name": " نزيهة الطباع ",
-            "department": "SkinCare",
+            "department": "العناية بالبشرة",
             "image": "/assets/Images/doctors/Naziha.png",
             "link": "doctor/naziha-al-tabaa",
             "designation": " خبيرة بشرة ومعالجة تجميل ",

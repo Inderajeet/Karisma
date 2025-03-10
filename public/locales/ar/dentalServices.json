@@ -7,8 +7,10 @@
                 {
                     "type": "banner",
                     "deptName": "الأسنان",
+                    "deptLink": "dental",
                     "serviceName": "طب أسنان الأطفال",
-                    "bannerImage": "../assets/Images/depts/dental/Pediatric/banner.png"
+                    "bannerImage": "../assets/Images/depts/dental/Pediatric/banner.png",
+                    "bannerPosition": "center"
                 },
                 {
                     "type": "image-content",
@@ -172,9 +174,11 @@
                 {
                     "type": "banner",
                     "deptName": "الأسنان",
+                    "deptLink": "dental",
                     "serviceName": "جراحة الأسنان",
                     "bannerImage": "../assets/Images/depts/dental/Dental-Surgical-Treatment/banner.png",
-                    "bannerPosition": "right"                },
+                    "bannerPosition": "right"
+                },
                 {
                     "type": "image-content",
                     "imageUrl": "../assets/Images/depts/dental/Dental-Surgical-Treatment/body-image.png",
@@ -296,19 +300,17 @@
                     "description": "نحن نقدم أحدث تقنيات الجراحة الفموية في بيئة طبية متكاملة، حيث يتم تنفيذ جميع الإجراءات بدقة وفقًا لاحتياجات المريض.",
                     "heading2": "ما الذي يميزنا في مركز كاريزما الطبي التخصصي؟",
                     "features": [
-                        "تقنيات حديثة ومتطورة لتحقيق أفضل النتائج.",
-                        "فريق من جراحي الفم ذوي الخبرة، بخبرة إجمالية تتجاوز 50 عامًا.",
-                        "نهج يركز على راحة المريض ورضاه من الاستشارة إلى الشفاء.",
-                        "بيئة مريحة وداعمة لضمان تجربة خالية من التوتر."
+                        "أحدث التقنيات: الاستفادة من الأساليب الجراحية المتقدمة والتكنولوجيا لتحقيق نتائج مثالية.",
+                        "جراحو الفم الخبراء: يلتزم أخصائيو الجراحة ذوو الخبرة لدينا، والذين يمتلكون خبرة طويلة تبلغ 50 عامًا، بضمان السلامة والدقة والراحة.",
+                        "نهج يركز على المريض: من الاستشارة إلى مرحلة التعافي، نُعطي الأولوية لراحتك ورضاك.",
+                        "رعاية استثنائية و راحة: بيئتنا المريحة وفريقنا المتفاني يجعلان كل زيارة خالية من التوتر، وسوف يضمن جراحونا الخبيرون أيضًا أنها زيارة خالية من الألم."
                     ]
                 },
                 {
                     "type": "color-content",
                     "title": "ابدأ رحلتك نحو صحة فم استثنائية",
-                    "features": [
-                        "تحسين صحة الفم والابتسامة من خلال علاجاتنا الجراحية المتخصصة.",
-                        "اتصل بنا اليوم لحجز استشارة مع خبرائنا في جراحة الفم بمركز كاريزما الطبي التخصصي."
-                    ]
+                    "description": "تحسين صحة الفم والابتسامة من خلال علاجاتنا الجراحية المتخصصة.",
+                    "description2": "اتصل بنا اليوم لحجز استشارة مع خبرائنا في جراحة الفم بمركز كاريزما الطبي التخصصي."
                 },
                 {
                     "type": "content",
@@ -363,6 +365,7 @@
                 {
                     "type": "banner",
                     "deptName": "الأسنان",
+                    "deptLink": "dental",
                     "serviceName": "زراعة الأسنان",
                     "bannerImage": "../assets/Images/depts/dental/implant/banner.png",
                     "bannerPosition": "center"
@@ -477,9 +480,11 @@
             "sections": [
                 {
                     "type": "banner",
+                    "deptLink": "dental",
                     "deptName": "الأسنان",
                     "serviceName": "تقويم الأسنان",
-                    "bannerImage": "../assets/Images/depts/dental/ortho/banner.png"
+                    "bannerImage": "../assets/Images/depts/dental/ortho/banner.png",
+                    "bannerPosition": "right"
                 },
                 {
                     "type": "image-content",
@@ -610,6 +615,7 @@
                 {
                     "type": "banner",
                     "deptName": "الأسنان",
+                    "deptLink": "dental",
                     "serviceName": "تبييض الأسنان",
                     "bannerImage": "../assets/Images/depts/dental/teeth-Whitening/teeth-Whitening-banner.png",
                     "bannerPosition": "center"
@@ -740,6 +746,7 @@
                 {
                     "type": "banner",
                     "deptName": "الأسنان",
+                    "deptLink": "dental",
                     "serviceName": "إعادة تأهيل الفم",
                     "bannerImage": "../assets/Images/depts/dental/Mouth-Rehabilitation/banner.png",
                     "bannerPosition": "center"
@@ -870,6 +877,7 @@
                 {
                     "type": "banner",
                     "deptName": "الأسنان",
+                    "deptLink": "dental",
                     "serviceName": "علاج قناة الجذر",
                     "bannerImage": "../assets/Images/depts/dental/root-canal/banner.png",
                     "bannerPosition": "right"
@@ -1014,6 +1022,7 @@
                 {
                     "type": "banner",
                     "deptName": "الأسنان",
+                    "deptLink": "dental",
                     "serviceName": "صحة الفم (علاج اللثة)",
                     "bannerImage": "../assets/Images/depts/dental/Oral-Health/banner.png",
                     "bannerPosition": "center"
@@ -1096,10 +1105,8 @@
                 {
                     "type": "color-content",
                     "title": "ابدأ رحلتك نحو صحة اللثة المثلى",
-                    "features": [
-                        "لا تدع مشاكل اللثة تؤثر على ابتسامتك أو صحة فمك. اتخذ الخطوة الأولى نحو صحة أفضل وثقة أكبر.",
-                        "اتصل بمركز كاريزما الطبي التخصصي اليوم لتحديد موعد استشارة مع أخصائيي اللثة لدينا واكتشف الفرق في رعاية اللثة الشاملة."
-                    ]
+                    "description": "لا تدع مشاكل اللثة تؤثر على ابتسامتك أو صحة فمك. اتخذ الخطوة الأولى نحو صحة أفضل وثقة أكبر.",
+                    "description2": "اتصل بمركز كاريزما الطبي التخصصي اليوم لتحديد موعد استشارة مع أخصائيي اللثة لدينا واكتشف الفرق في رعاية اللثة الشاملة."
                 },
                 {
                     "type": "content",
@@ -1122,7 +1129,7 @@
                         {
                             "id": 2,
                             "name": "Dr. Adel Al- Aswad",
-                            "readMore":"Read More",
+                            "readMore": "Read More",
                             "designation": "Specialist Oral Surgeon",
                             "image": "/assets/Images/doctors/Adel.png",
                             "link": "doctor/dr-adel-al-aswad"
@@ -1131,14 +1138,14 @@
                             "id": 3,
                             "name": "Dr. Rania Ghanem",
                             "designation": "Prosthodontics Specialist",
-                            "readMore":"Read More",
+                            "readMore": "Read More",
                             "image": "/assets/Images/doctors/Rania.png",
                             "link": "doctor/dr-rania-ghanem"
                         },
                         {
                             "id": 4,
                             "name": "Dr. Amir Magdy",
-                            "readMore":"Read More",
+                            "readMore": "Read More",
                             "designation": "GP Dentist",
                             "image": "/assets/Images/doctors/Amir.png",
                             "link": "doctor/dr-amir-magdy"
@@ -1154,6 +1161,7 @@
                 {
                     "type": "banner",
                     "deptName": "طب الأسنان",
+                    "deptLink": "dental",
                     "serviceName": "طب الأسنان الترميمي",
                     "bannerImage": "../assets/Images/depts/dental/Restorative-Dentistry/banner.png",
                     "bannerPosition": "right"
@@ -1290,6 +1298,7 @@
                 {
                     "type": "banner",
                     "deptName": "طب الأسنان",
+                    "deptLink": "dental",
                     "serviceName": "ابتسامة هوليوود (الفينير)",
                     "bannerImage": "../assets/Images/banner/dept_banner/dental.png",
                     "bannerPosition": "right"

@@ -44,7 +44,6 @@
                 {
                     "type": "cont-content-last",
                     "title": "Treatment Recommendations & Precautions",
-                    "description": "Combine the Basic HydraFacial with other treatments for even more dramatic results:",
                     "features": [
                         "Recommended Sessions: 5-10 sessions of 30 minutes per area for optimal results, with noticeable improvements after three sessions.",
                         "Precautions: A consultation is required for those who are pregnant, breastfeeding, or have conditions like skin diseases, heart issues, or hernias."
@@ -177,7 +176,7 @@
                     "type": "color-content",
                     "title": "Support, Not a Shortcut",
                     "description": "Heater machines aren’t a standalone solution but an effective complement to your weight loss strategy. Incorporate them into your routine to maximize calorie burn and enhance your body-sculpting results.",
-                    "heading": "Start your journey towards a fitter, more confident you with Heater Therapy at Karisma Specialist Medical Center!"
+                    "description2": "Start your journey towards a fitter, more confident you with Heater Therapy at Karisma Specialist Medical Center!"
                 }
             ]
         },

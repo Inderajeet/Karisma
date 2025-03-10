@@ -938,8 +938,7 @@
                     "title": "Treatment Duration & Important Considerations",
                     "features": [
                         "Duration: Approximately 45 minutes.",
-                        "Precautions: Safe for most skin types; however, those with sensitive skin or prior retinoid use should consult with our experts.",
-                        "Pregnant and breastfeeding women should avoid Retinol-based treatments.",
+                        "Precautions: Safe for most skin types, though a consultation with our skincare experts is advised to tailor the treatment to your needs. Pregnant and breastfeeding women should consult with our specialists to understand any limitations.",
                         "Note: Lymphatic drainage is not included in this treatment."
                     ]
                 },
@@ -1043,7 +1042,6 @@
                     "cards": [
                         {
                             "title": "How the Bubble Facial Works",
-                            "subtitle": "This premium treatment is designed to restore vitality and enhance your skin’s youthful glow through targeted steps:",
                             "features": [
                                 "Gentle Cleansing: The treatment begins with a thorough yet gentle cleanse, removing makeup, dirt, and surface impurities without stripping essential moisture.",
                                 {
@@ -1086,7 +1084,7 @@
                 },
                 {
                     "type": "sub-heading-color-content-last",
-                    "heading": "Glow Effortlessly Revel in the gentle power of the Bubble Facial at Karisma Specialist Medical Centerand let your skin shine with renewed clarity and radiance."
+                    "description": "Glow Effortlessly Revel in the gentle power of the Bubble Facial at Karisma Specialist Medical Centerand let your skin shine with renewed clarity and radiance."
                 }
             ]
         },
@@ -1109,36 +1107,37 @@
                     "description": "At Karisma, innovation meets luxury with the PINK SHOOTER Facial, a groundbreaking microneedling treatment designed to brighten, even skin tone, combat signs of aging, and restore your skin’s natural barrier. This advanced facial harnesses the power of a potent, multi-action formula delivered through microneedling for remarkable, long-lasting results."
                 },
                 {
-                    "type": "card",
-                    "cards": [
+                    "type": "sub-heading-content",
+                    "title": "How the PINK SHOOTER Facial Works",
+                    "heading": "Microneedling + PINK SHOOTER Ampoule",
+                    "features": [
                         {
-                            "title": "How the PINK SHOOTER Facial Works",
-                            "features": [
-                                "Microneedling + PINK SHOOTER Ampoule",
+                            "title": "Pre-Filled Ampoules: Each treatment uses pre-filled, sterile ampoules containing the exclusive PINK SHOOTER solution for consistent application and maximum efficacy.",
+                            "items": [
                                 {
+                                    "title": "Powerful Ingredients",
                                     "items": [
-                                        "Pre-Filled Ampoules: Each treatment uses pre-filled, sterile ampoules containing the exclusive PINK SHOOTER solution for consistent application and maximum efficacy.",
-                                        {
-                                            "title": "Powerful Ingredients",
-                                            "items": [
-                                                "PDRN (Polydeoxyribonucleotide): Promotes cell regeneration, accelerating skin repair and rejuvenation.",
-                                                "14 Peptides: Stimulate collagen production, improve elasticity, and target signs of aging.",
-                                                "17 Amino Acids: Support skin repair and strengthen the skin's structure.",
-                                                "10 Vitamins: Nourish and energize the skin for a healthy glow."
-                                            ]
-                                        },
-                                        "Enhanced Delivery System",
-                                        {
-                                            "items": [
-                                                "Micro-Channeling: The microneedling machines creates tiny channels in the skin, allowing for deeper penetration of the PINK SHOOTER solution.",
-                                                "Collagen Boost: The micro-channels stimulate your body’s natural healing response, enhancing collagen production and cellular renewal.",
-                                                "Comfortable Treatment: Designed for a virtually painless experience with ultra-fine needles."
-                                            ]
-                                        }
+                                        "PDRN (Polydeoxyribonucleotide): Promotes cell regeneration, accelerating skin repair and rejuvenation.",
+                                        "14 Peptides: Stimulate collagen production, improve elasticity, and target signs of aging.",
+                                        "17 Amino Acids: Support skin repair and strengthen the skin's structure.",
+                                        "10 Vitamins: Nourish and energize the skin for a healthy glow."
                                     ]
                                 }
                             ]
                         },
+                        {
+                            "title": "Enhanced Delivery System",
+                            "items": [
+                                "Micro-Channeling: The microneedling machines creates tiny channels in the skin, allowing for deeper penetration of the PINK SHOOTER solution.",
+                                "Collagen Boost: The micro-channels stimulate your body’s natural healing response, enhancing collagen production and cellular renewal.",
+                                "Comfortable Treatment: Designed for a virtually painless experience with ultra-fine needles."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "card",
+                    "cards": [
                         {
                             "title": "Benefits of the PINK SHOOTER Facial",
                             "features": [
@@ -1147,20 +1146,19 @@
                                 "Skin Barrier Repair: Strengthens the skin’s protective barrier, safeguarding against environmental stressors.",
                                 "Youthful Glow: Leaves your skin radiant, plump, and revitalized."
                             ]
+                        },
+                        {
+                            "title": "Why Choose the PINK SHOOTER Facial?",
+                            "features": [
+                                "Convenient & Efficient: Pre-filled ampoules streamline the treatment process, ensuring precision and effectiveness.",
+                                "Maximized Results: Microneedling enhances the absorption of active ingredients, delivering superior outcomes compared to traditional facials.",
+                                "Comfortable & Safe: The procedure is designed to be well-tolerated, with minimal discomfort."
+                            ]
                         }
                     ]
                 },
                 {
                     "type": "cont-content-last",
-                    "title": "Why Choose the PINK SHOOTER Facial?",
-                    "features": [
-                        "Convenient & Efficient: Pre-filled ampoules streamline the treatment process, ensuring precision and effectiveness.",
-                        "Maximized Results: Microneedling enhances the absorption of active ingredients, delivering superior outcomes compared to traditional facials.",
-                        "Comfortable & Safe: The procedure is designed to be well-tolerated, with minimal discomfort."
-                    ]
-                },
-                {
-                    "type": "color-content",
                     "title": "Precautions and Suitability",
                     "features": [
                         "Consultation Required: A personalized consultation with our skincare experts will ensure the treatment is tailored to your skin’s unique needs.",
@@ -1168,7 +1166,7 @@
                     ]
                 },
                 {
-                    "type": "cont-content",
+                    "type": "color-content",
                     "title": "Glow Beyond Limits",
                     "description": "Unlock the secret to flawless skin with the PINK SHOOTER Facial at Karisma. Schedule your consultation today and take the first step toward a more radiant, youthful complexion."
                 }

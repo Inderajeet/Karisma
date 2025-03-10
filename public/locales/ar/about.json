@@ -1,5 +1,9 @@
 {
     "about": {
+        "bannerImage":"../assets/Images/depts/About-Us/about-us-banner.png",
+        "bannerPosition": "center",
+        "deptLink": "about_us",
+        "deptName": "About Us",
         "section1": {
             "title": "رؤيتنا",
             "description": "أن نكون روادًا في مجال الجمال الفاخر من خلال تقديم علاجات مبتكرة وشخصية تمكّن الأفراد من احتضان جاذبيتهم الداخلية وإعادة تعريف جمالهم وفقًا لشروطهم الخاصة.",

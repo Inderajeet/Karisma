@@ -7,6 +7,7 @@
                 {
                     "type": "banner",
                     "deptName": "قسم الأسنان",
+                    "deptLink": "dental",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/banner/dept_banner/dental.png",
                     "bannerPosition": "left"
@@ -234,12 +235,14 @@
                 {
                     "type": "banner",
                     "deptName": "الأمراض الجلدية",
+                    "deptLink": "derma",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/banner/dept_banner/derma.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/derma.png",
+                    "bannerPosition": "center"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/derma.png",
+                    "imageUrl": "../assets/Images/depts/derma/body-image.png",
                     "imageAlt": "الأمراض الجلدية",
                     "title": "الأمراض الجلدية",
                     "content": [
@@ -279,6 +282,10 @@
                     "type": "cont-content",
                     "title": "الجمال يتجاوز المظهر",
                     "description": "لا نهدف فقط إلى تغيير المظهر، بل نسعى إلى تمكينك من احتضان تفردك وتحقيق أهدافك بثقة لا تتزعزع. مع مرافق متطورة وفريق شغوف، نحن ملتزمون بتقديم أعلى معايير الرعاية لتجربة تحولية حقيقية."
+                },
+                {
+                    "type": "sub-heading-content-last",
+                    "heading": "ابدأ رحلتك نحو اكتشاف الذات والجمال المتألق اليوم. حدد موعدًا الستشارتك مع مركز كاريزما الطبي المتخصص"
                 },
                 {
                     "type": "color-heading",
@@ -373,12 +380,14 @@
                 {
                     "type": "banner",
                     "deptName": "طب النساء ",
+                    "deptLink": "gynecology",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/banner/dept_banner/gyne.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/gyne.png",
+                    "bannerPosition": "right"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/gyne.png",
+                    "imageUrl": "../assets/Images/depts/Gyne/body-image.png",
                     "imageAlt": "طب النساء ",
                     "title": "طب النساء ",
                     "content": [
@@ -405,7 +414,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "رعاية التوليد الشاملة",
                     "description": "نقدم رعاية حنونة طوال رحلة الحمل:",
                     "features": [
@@ -425,7 +434,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "color-content",
                     "title": "نهج شخصي لرعايتك",
                     "description": "في مركز كاريزما التخصصي الطبي، نعطي الأولوية للرعاية التي تركز على المريض:",
                     "features": [
@@ -435,7 +444,12 @@
                     ]
                 },
                 {
-                    "type": "center-content",
+                    "type": "content",
+                    "title": "احتضن رحلتك بثقة ",
+                    "description": "اكتشف كيف يمكن لمركز كاريزما الطبي المتخصص دعم صحتك وتعزيز ثقتك بنفسك. اتصل بنا اليوم لتحديد موعد استشارة شخصية واستكشف خدمات رعاية أمراض النساء والتوليد لدينا. "
+                },
+                {
+                    "type": "color-heading",
                     "title": "الخدمات ذات الصلة"
                 },
                 {
@@ -543,12 +557,14 @@
                 {
                     "type": "banner",
                     "deptName": "العناية بالبشرة",
+                    "deptLink": "skincare",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/banner/dept_banner/skincare.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/skincare.png",
+                    "bannerPosition": "right"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
+                    "imageUrl": "../assets/Images/depts/skincare/skincare body-image.png",
                     "imageAlt": "العناية بالبشرة",
                     "title": "العناية بالبشرة",
                     "content": [
@@ -579,7 +595,7 @@
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content-last",
                     "title": "نهج مخصص لجمال يدوم",
                     "description": "في كاريزما، نركز على رحلتك الخاصة للعناية بالبشرة:",
                     "features": [
@@ -589,7 +605,7 @@
                     ]
                 },
                 {
-                    "type": "color-content",
+                    "type": "color-heading",
                     "title": "استعيدي إشراقتك الطبيعية",
                     "description": "اكتشفي سر البشرة المتألقة والخالية من العيوب. احجزي استشارتك في كاريزما اليوم وانطلقي في رحلة من الجمال والتجديد حيث تلتقي الفخامة بالتميز."
                 },
@@ -699,12 +715,14 @@
                 {
                     "type": "banner",
                     "deptName": "التغذية والتنحيف",
+                    "deptLink": "slimming",
                     "serviceName": "",
-                    "bannerImage": "../assets/Images/banner/dept_banner/slimming.png"
+                    "bannerImage": "../assets/Images/banner/dept_banner/slimming.png",
+                    "bannerPosition": "right"
                 },
                 {
                     "type": "image-content",
-                    "imageUrl": "../assets/Images/banner/about_dept/slimming.png",
+                    "imageUrl": "../assets/Images/depts/slimming/body-image.png",
                     "imageAlt": "التغذية والتنحيف",
                     "title": "التغذية والتنحيف",
                     "content": [
@@ -724,8 +742,8 @@
                     "description": "يجمع قسم التغذية والتنحيف لدينا بين التقنيات المتقدمة والرعاية الشخصية لتقديم نتائج تدوم طويلاً. استكشف مجموعة خدماتنا:"
                 },
                 {
-                    "type": "content",
-                    "heading": "خطط إدارة الوزن - الأنظمة الغذائية",
+                    "type": "color-content",
+                    "title": "خطط إدارة الوزن - الأنظمة الغذائية",
                     "features": [
                         "نظام مخصص: نبدأ بتقييم شامل لتاريخك الطبي، ونمط حياتك، وأهدافك في إنقاص وزنك. يتيح لنا ذلك تصميم خطة مخصصة تتضمن تغييرات في العادات الغذائية، وتوصيات ممارسة الرياضة، والتدخلات الطبية عند الحاجة.",
                         "استراتيجيات مستدامة: نركز على تعزيز عادات طويلة الأمد، بما في ذلك تناول الطعام المتوازن والنشاط البدني المنتظم، مما يضمن أن تقدمك ليس مؤقتًا ولكنه مستدام."
@@ -733,7 +751,7 @@
                 },
                 {
                     "type": "content",
-                    "heading": "علاجات نحت الجسم غير الجراحية",
+                    "title": "علاجات نحت الجسم غير الجراحية",
                     "features": [
                         "تقنيات متقدمة: استهداف الدهون العنيدة وشدّ الجلد المترهل باستخدام علاجات غير جراحية متطورة، مثل ترددات الراديو (RF)، والتحليل بالموجات فوق الصوتية، وتحليل الدهون بالتبريد.",
                         "حلول مستهدفة: تُخصّص هذه العلاجات لمعالجة المناطق العنيدة المحددة، مثل البطن والفخذين والذراعين والأرداف.",
@@ -741,8 +759,8 @@
                     ]
                 },
                 {
-                    "type": "content",
-                    "heading": "أدوات تحليل الجسم المتطورة",
+                    "type": "color-content",
+                    "title": "أدوات تحليل الجسم المتطورة",
                     "features": [
                         "تقييم دقيق: قياس نسبة الدهون في الجسم، وكتلة العضلات، ووزن الماء باستخدام تحليل تكوين الجسم المتطور. تسمح لنا هذه الرؤى بتتبع تقدمك بدقة وتعديل خطتك حسب الحاجة.",
                         "التشجيع والدعم: تساعدك رؤية مستوى التقدم القابل للقياس على البقاء متحمسًا وملتزمًا بخطتك."
@@ -750,14 +768,14 @@
                 },
                 {
                     "type": "content",
-                    "heading": "التوجيه والدعم الغذائي",
+                    "title": "التوجيه والدعم الغذائي",
                     "features": [
                         "مشورة الخبراء: يوفر خبراء التغذية لدينا إرشادات غذائية مخصصة لتناسب نمط حياتك وتفضيلاتك، مما يساعدك على تبني عادات الأكل الصحية.",
                         "أنظمة غذائية مستدامة: استمتع بخطط الوجبات المتوازنة واللذيذة التي تتماشى مع أهداف إنقاص وزنك، مما يسهل عليك البقاء على المسار الصحيح."
                     ]
                 },
                 {
-                    "type": "content",
+                    "type": "sub-heading-content-last",
                     "title": "احجز استشارتك اليوم!",
                     "description": "في مركز كاريزما الطبي التخصصي، نحن ملتزمون بمساعدتك على تحقيق نسختك الصحية الأكثر لياقة وثقة. احجز استشارة مع قسم التغذية والتنحيف لدينا لبدء رحلتك الشخصية نحو صحة ورشاقة دائمة."
                 },
@@ -838,6 +856,7 @@
                 {
                     "type": "banner",
                     "deptName": "الجراحة التجميلية",
+                    "deptLink": "plastic-surgery",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/banner/dept_banner/plastic_surgery.png",
                     "bannerPosition": "right"
@@ -950,6 +969,7 @@
                 {
                     "type": "banner",
                     "deptName": "إزالة الشعر بالليزر",
+                    "deptLink": "laser-hair-removal",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/banner/dept_banner/laser.png",
                     "bannerPosition": "left"

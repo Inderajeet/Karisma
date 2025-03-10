@@ -7,6 +7,7 @@
                 {
                     "type": "banner",
                     "deptName": "إزالة الشعر بالليزر",
+                    "deptLink": "laser-hair-removal",
                     "serviceName": "كانديلا جنتل ماكس برو",
                     "bannerImage": "../assets/Images/depts/laser/Candela/banner.png",
                     "bannerPosition": "right"
@@ -60,6 +61,7 @@
                 {
                     "type": "banner",
                     "deptName": "إزالة الشعر بالليزر",
+                    "deptLink": "laser-hair-removal",
                     "serviceName": "RevLite SI",
                     "bannerImage": "../assets/Images/depts/laser/banner.png",
                     "bannerPosition": "right"
@@ -119,6 +121,7 @@
                 {
                     "type": "banner",
                     "deptName": "ويك تيليإ ",
+                    "deptLink": "laser-hair-removal",
                     "serviceName": "Elite IQ",
                     "bannerImage": "../assets/Images/depts/laser/Elite/elite-banner.jpg",
                     "bannerPosition": "center"

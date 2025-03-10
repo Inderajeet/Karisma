@@ -6,7 +6,8 @@
       "sections": [
         {
           "type": "banner",
-          "deptName": "SkinCare",
+          "deptName": "العناية بالبشرة",
+          "deptLink": "skincare",
           "serviceName": "علاجات البشرة",
           "bannerImage": "../assets/Images/depts/skincare/Facial/Main-Banner.png",
           "bannerPosition": "right"
@@ -52,7 +53,7 @@
           ]
         },
         {
-          "type": "color-content",
+          "type": "content",
           "title": "علاجاتنا المبتكرة: الهايدرافيشال المختلف",
           "description": "اكتشف عالم العناية بالبشرة مع الهايدرافيشال، وهو علاج متطور يجمع بين خطوات متعددة في جلسة واحدة فاخرة ومريحة:",
           "features": [
@@ -256,7 +257,8 @@
       "sections": [
         {
           "type": "banner",
-          "deptName": "SkinCare",
+          "deptName": "العناية بالبشرة",
+          "deptLink": "skincare",
           "serviceName": "Peeling",
           "bannerImage": "../assets/Images/depts/skincare/Peeling/Main-Banner.png",
           "bannerPosition": "right"
@@ -377,7 +379,8 @@
       "sections": [
         {
           "type": "banner",
-          "deptName": "SkinCare",
+          "deptName": "العناية بالبشرة",
+          "deptLink": "skincare",
           "serviceName": "العالج بالحقن الموضعي ",
           "bannerImage": "../assets/Images/depts/skincare/Mesotherapy/Main-Banner.png",
           "bannerPosition": "right"
@@ -557,7 +560,8 @@
       "sections": [
         {
           "type": "banner",
-          "deptName": "SkinCare",
+          "deptName": "العناية بالبشرة",
+          "deptLink": "skincare",
           "serviceName": "البلازما للوجه",
           "bannerImage": "../assets/Images/depts/skincare/Plasma-Face/Main-Banner.png",
           "bannerPosition": "center"
@@ -752,7 +756,8 @@
       "sections": [
         {
           "type": "banner",
-          "deptName": "SkinCare",
+          "deptName": "العناية بالبشرة",
+          "deptLink": "skincare",
           "serviceName": "IV DRIP Glowing",
           "bannerImage": "../assets/Images/depts/skincare/IV-Drip/Main-Banner.png",
           "bannerPosition": "right"
@@ -844,7 +849,8 @@
       "sections": [
         {
           "type": "banner",
-          "deptName": "SkinCare",
+          "deptName": "العناية بالبشرة",
+          "deptLink": "skincare",
           "serviceName": "خيوط الكولاجين",
           "bannerImage": "../assets/Images/depts/skincare/Collagen/Main-Banner.png",
           "bannerPosition": "center"
@@ -933,7 +939,8 @@
       "sections": [
         {
           "type": "banner",
-          "deptName": "SkinCare",
+          "deptName": "العناية بالبشرة",
+          "deptLink": "skincare",
           "serviceName": "الأجهزة والتقنيّات لعلاج البشرة",
           "bannerImage": "../assets/Images/depts/skincare/facial-machines/Facial-machines-Banner---Ar.png",
           "bannerPosition": "left"
@@ -1059,7 +1066,8 @@
       "sections": [
         {
           "type": "banner",
-          "deptName": "SkinCare",
+          "deptName": "العناية بالبشرة",
+          "deptLink": "skincare",
           "serviceName": "علاجات الشعر",
           "bannerImage": "../assets/Images/depts/skincare/hair-treatment/Hair-Treatment-Banner-En.png",
           "bannerPosition": "right"

@@ -7,13 +7,14 @@
         {
           "type": "banner",
           "deptName": "التخسيس",
+          "deptLink": "slimming",
           "serviceName": "الأجهزة",
           "bannerImage": "../assets/Images/depts/slimming/Machines/Machines-banner.png",
           "bannerPosition": "center"
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/slimming.png",
+          "imageUrl": "../assets/Images/depts/slimming/Machines/Machines-body-image.png",
           "imageAlt": "الأجهزة",
           "title": "الأجهزة",
           "content": [
@@ -141,13 +142,14 @@
         {
           "type": "banner",
           "deptName": "التنحيف",
+          "deptLink": "slimming",
           "serviceName": "الحقن",
           "bannerImage": "../assets/Images/depts/slimming/Injection/Injection-banner.png",
           "bannerPosition": "center"
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/slimming.png",
+          "imageUrl": "../assets/Images/depts/slimming/Injection/Injection-body-image.png",
           "imageAlt": "الحقن",
           "title": "الحقن",
           "content": [
@@ -259,13 +261,14 @@
         {
           "type": "banner",
           "deptName": "التنحيف",
+          "deptLink": "slimming",
           "serviceName": "خدمات أخرى",
           "bannerImage": "../assets/Images/depts/slimming/Other-services/Other-services-banner.png",
           "bannerPosition": "right"
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/slimming.png",
+          "imageUrl": "../assets/Images/depts/slimming/Other-services/body-image-Other-services.png",
           "imageAlt": "خدمات أخرى",
           "title": "خدمات أخرى",
           "content": [

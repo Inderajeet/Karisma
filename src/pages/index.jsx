@@ -758,7 +758,9 @@ const Index = () => {
                                 color: doctors['heading1-color'], fontSize: doctors['heading1-size'],
                                 fontWeight: 'bold',
                                 display: 'block'
-                              }}>Our Doctors</h2>
+                              }}>
+                                {t('doctors.heading')}
+                              </h2>
                               <h2 className="section-title" style={{ color: doctors['heading2-color'], fontSize: doctors['heading2-size'], fontWeight: 'bold' }}>
                               </h2>
                             </div>

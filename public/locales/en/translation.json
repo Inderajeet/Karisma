@@ -17,6 +17,9 @@
     "servicesHeading": "Services",
     "servicesDesc": "We are elevating your confidence and attractiveness by combining advanced medical science with artistry by offering services in below departments"
   },
+  "doctors": {
+    "heading": "Our Doctors"
+  },
   "departments": [
     {
       "title": "Dental Department",

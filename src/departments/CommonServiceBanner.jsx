@@ -4,16 +4,16 @@ import "./ServiceBanner.css";
 import { Link, useParams } from "react-router-dom";
 
 export const applyFontFallback = (text) => {
-    if (!text || typeof text !== "string") return text; 
+    if (!text || typeof text !== "string") return text;
 
     return text.split("").map((char, index) =>
-        /[A-Za-z0-9 ]/.test(char) 
+        /[A-Za-z0-9 ]/.test(char)
             ? char
-            : <span key={index} className="fallback-font">{char}</span> 
+            : <span key={index} className="fallback-font">{char}</span>
     );
 };
 
-const CommonServiceBanner = ({ deptName, serviceName, bannerImage, bannerPosition }) => {
+const CommonServiceBanner = ({ deptName, serviceName, bannerImage, bannerPosition, deptLink }) => {
     const { lng } = useParams();
 
     console.log('Inside banner:', bannerImage);
@@ -49,8 +49,10 @@ const CommonServiceBanner = ({ deptName, serviceName, bannerImage, bannerPositio
                                                     </li>
                                                     {deptName && (
                                                         <li style={{ marginLeft: "4px" }}>
-                                                            <Link to={`/${lng}/${deptName.toLowerCase()}`}
-                                                                style={{ color: '#fff' }}>
+                                                            <Link
+                                                                to={`/${lng}/${lng === 'ar' ? deptLink : deptName.toLowerCase()}`}
+                                                                style={{ color: '#fff' }}
+                                                            >
                                                                 | {deptName}
                                                             </Link>
                                                         </li>
