@@ -1,0 +1,8 @@
+{
+    "career": {
+        "deptName": "Careers",
+        "bannerImage": "../assets/Images/banner/careers.jpg",
+        "bannerPosition": "right",
+        "home": "Home"
+    }
+}

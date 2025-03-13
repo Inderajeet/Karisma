@@ -10,7 +10,8 @@
                     "deptLink": "dental",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/banner/dept_banner/dental.png",
-                    "bannerPosition": "left"
+                    "bannerPosition": "left",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",
@@ -238,7 +239,8 @@
                     "deptLink": "derma",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/banner/dept_banner/derma.png",
-                    "bannerPosition": "center"
+                    "bannerPosition": "center",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",
@@ -383,7 +385,8 @@
                     "deptLink": "gynecology",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/banner/dept_banner/gyne.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",
@@ -560,7 +563,8 @@
                     "deptLink": "skincare",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/banner/dept_banner/skincare.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",
@@ -718,7 +722,8 @@
                     "deptLink": "slimming",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/banner/dept_banner/slimming.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",
@@ -859,7 +864,8 @@
                     "deptLink": "plastic-surgery",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/banner/dept_banner/plastic_surgery.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",
@@ -972,7 +978,8 @@
                     "deptLink": "laser-hair-removal",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/banner/dept_banner/laser.png",
-                    "bannerPosition": "left"
+                    "bannerPosition": "left",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",

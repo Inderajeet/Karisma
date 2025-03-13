@@ -457,7 +457,7 @@ export default function Footer() {
                       color: footer['desc-color'],
                       fontSize: footer['desc-size'],
                     }}>
-                    {copyrightText}
+                    {footers.copyrightText}
                     <a href={companyLink.link}
                       style={{
                         color: footer['desc-color'],

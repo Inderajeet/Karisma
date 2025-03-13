@@ -7,6 +7,7 @@
         "deptName": "Contact Us",
         "bannerImage": "../assets/Images/depts/contact/contact_banner.jpg",
         "bannerPosition": "right",
+        "home": "Home",
         "contactInfo": [
             {
                 "title": "Phone",

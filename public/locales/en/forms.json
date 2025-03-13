@@ -1,0 +1,28 @@
+{
+    "forms": {
+        "name": "Name *",
+        "age": "Age *",
+        "email": "Email *",
+        "phone": "Phone *",
+        "messageOpt": "Message (optional)",
+        "message": "Message *",
+        "enquiry": "Enquiry",
+        "feedback": "Feedback",
+        "selectDepartment": "Select Department *",
+        "sendNow": "Send now",
+        "bookHeader": "Book An Appointment",
+        "selectGender": "Gender *",
+        "genderMale": "Male",
+        "genderFemale": "Female",
+        "departments": [
+            "Dental",
+            "Derma",
+            "SkinCare",
+            "Gynecology",
+            "Nutrition and Slimming",
+            "Plastic Surgery",
+            "Laser Hair Removal"
+        ],
+        "appointment": "APPOINTMENT"
+    }
+}

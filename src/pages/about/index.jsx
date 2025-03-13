@@ -64,6 +64,8 @@ const About = () => {
         bannerImage={about.bannerImage}
         bannerPosition={about.bannerPosition}
         deptLink={about.deptLink}
+        home={about.home}
+
       />
 
       <div className="our-story-container">

@@ -10,7 +10,8 @@
                     "deptLink": "laser-hair-removal",
                     "serviceName": "كانديلا جنتل ماكس برو",
                     "bannerImage": "../assets/Images/depts/laser/Candela/banner.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",
@@ -64,7 +65,8 @@
                     "deptLink": "laser-hair-removal",
                     "serviceName": "RevLite SI",
                     "bannerImage": "../assets/Images/depts/laser/banner.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",
@@ -124,7 +126,8 @@
                     "deptLink": "laser-hair-removal",
                     "serviceName": "Elite IQ",
                     "bannerImage": "../assets/Images/depts/laser/Elite/elite-banner.jpg",
-                    "bannerPosition": "center"
+                    "bannerPosition": "center",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",

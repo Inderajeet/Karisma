@@ -1,7 +1,12 @@
 import { useState } from 'react';
 import '.././custom_css/contactForm.css';
+import { useTranslation } from "react-i18next";
+
 
 export default function ContactForm() {
+    const { t, i18n } = useTranslation('forms');
+
+    const forms = t('forms', { returnObjects: true });  // Fetch the entire contact object
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -91,35 +96,35 @@ export default function ContactForm() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-    
+
         const newErrors = {};
         let hasErrors = false;
-    
+
         Object.keys(formData).forEach((field) => {
             const value = formData[field];
             validateField(field, value); // Run validation
-    
+
             if (!value.trim() && field !== "contactType" && field !== "countryCode") { // Check for empty fields
                 newErrors[field] = `${field.charAt(0).toUpperCase() + field.slice(1)} is required`;
                 hasErrors = true;
             }
-    
+
             if (errors[field]) { // Check for validation errors
                 newErrors[field] = errors[field];
                 hasErrors = true;
             }
         });
-    
+
         setErrors(newErrors);
-    console.log("NewErrors:", newErrors);
-    console.log('Current Errors State:', errors);
+        console.log("NewErrors:", newErrors);
+        console.log('Current Errors State:', errors);
 
-    if (hasErrors) {
-        console.log("Validation Errors Found");
-        return;
-    }
+        if (hasErrors) {
+            console.log("Validation Errors Found");
+            return;
+        }
 
-    
+
         setIsSubmitting(true);
         try {
             const response = await fetch('https://dental.dmaksolutions.com/api/contact', {
@@ -129,7 +134,7 @@ export default function ContactForm() {
                 },
                 body: JSON.stringify(formData),
             });
-    
+
             if (response.ok) {
                 setAlertMessage('Message sent successfully!');
                 setIsSuccess(true);
@@ -150,14 +155,14 @@ export default function ContactForm() {
             setAlertMessage('Error sending message. Please try again later.');
             setIsSuccess(false);
         }
-    
+
         setTimeout(() => {
             setAlertMessage('');
         }, 3000);
-    
+
         setIsSubmitting(false);
     };
-    
+
 
 
     return (
@@ -213,7 +218,7 @@ export default function ContactForm() {
                                                             style={{ marginRight: '10px' }}
                                                             id="r1"
                                                         />
-                                                        Enquiry
+                                                        {forms.enquiry}
                                                     </label>
                                                 </p>
                                             </div>
@@ -229,7 +234,7 @@ export default function ContactForm() {
                                                             style={{ marginRight: '10px' }}
                                                             id="r2"
                                                         />
-                                                        Feedback
+                                                        {forms.feedback}
                                                     </label>
                                                 </p>
                                             </div>
@@ -243,7 +248,7 @@ export default function ContactForm() {
                                                         maxLength={400}
                                                         className="cust-form-control cust-text"
                                                         aria-invalid="false"
-                                                        placeholder="Name"
+                                                        placeholder={forms.name}
                                                         value={formData.name}
                                                         onChange={handleChange}
                                                         onBlur={handleBlur}
@@ -261,7 +266,7 @@ export default function ContactForm() {
                                                         className="cust-form-control cust-email"
                                                         aria-required="true"
                                                         aria-invalid="false"
-                                                        placeholder="Email"
+                                                        placeholder={forms.email}
                                                         value={formData.email}
                                                         onChange={handleChange}
                                                         onBlur={handleBlur}
@@ -295,7 +300,7 @@ export default function ContactForm() {
                                                         className="cust-form-control cust-tel"
                                                         aria-required="true"
                                                         aria-invalid="false"
-                                                        placeholder="Phone"
+                                                        placeholder={forms.phone}
                                                         value={formData.phone}
                                                         onChange={handleChange}
                                                         onBlur={handleBlur}
@@ -313,7 +318,7 @@ export default function ContactForm() {
                                                         maxLength={2000}
                                                         className="cust-form-control cust-textarea"
                                                         aria-invalid="false"
-                                                        placeholder="Message"
+                                                        placeholder={forms.message}
                                                         name="message"
                                                         value={formData.message}
                                                         onChange={handleChange}
@@ -326,10 +331,11 @@ export default function ContactForm() {
                                                 <input
                                                     className="wpcf7-form-control wpcf7-submit has-spinner third slidebottomleft"
                                                     type="submit"
-                                                    value={isSubmitting ? 'Submitting...' : 'Send Now'}
+                                                    value={isSubmitting ? "Submitting..." : forms.sendNow}
                                                     disabled={isSubmitting}
                                                 />
                                             </div>
+
                                         </div>
                                     </form>
                                 </div>

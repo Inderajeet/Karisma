@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from "react";
 import Booking from "./BookingForm";
 import { fetchAllJson } from "../utils/fetchAllJson";
+import { useTranslation } from "react-i18next";
 
 
 const SocialIcons = () => {
+
+    const { t, i18n } = useTranslation('forms');
+
+    const forms = t('forms', { returnObjects: true });
     const [showBooking, setShowBooking] = useState(false);
 
     const handleOpen = () => setShowBooking(true);
@@ -48,12 +53,12 @@ const SocialIcons = () => {
             >
                 <div className="imgAlign" >
 
-                    <img src={header['appointmentBtn']} alt="Logo"  />
+                    <img src={header['appointmentBtn']} alt="Logo" />
                 </div>
                 <span style={{
                     fontWeight: 'bold', transformOrigin: 'center',
                     marginLeft: '5px'
-                }}>APPOINTMENT</span>
+                }}>{forms.appointment}</span>
 
             </a>
             <div className="fixedRit ">
@@ -74,7 +79,7 @@ const SocialIcons = () => {
                             <span style={{
                                 fontWeight: 'bold', transform: 'rotate(180deg)', transformOrigin: 'center',
                                 marginLeft: '5px'
-                            }}>APPOINTMENT</span>
+                            }}>{forms.appointment}</span>
 
                         </a>
                     </li>

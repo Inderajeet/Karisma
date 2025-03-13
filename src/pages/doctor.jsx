@@ -31,6 +31,7 @@ export default function Doctors() {
       bannerImage={doctors[0].bannerImage}
       bannerPosition={doctors[0].bannerPosition}
       deptLink={doctors[0].deptLink}
+      home={doctors[0].home}
       />
       <div className="docContainer" style={{ marginTop: "50px" }}>
         <div className="col-md-12 order-md-2">

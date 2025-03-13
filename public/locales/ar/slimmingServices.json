@@ -10,7 +10,8 @@
           "deptLink": "slimming",
           "serviceName": "الأجهزة",
           "bannerImage": "../assets/Images/depts/slimming/Machines/Machines-banner.png",
-          "bannerPosition": "center"
+          "bannerPosition": "center",
+          "home": "الصفحة الرئيسية "
         },
         {
           "type": "image-content",
@@ -145,7 +146,8 @@
           "deptLink": "slimming",
           "serviceName": "الحقن",
           "bannerImage": "../assets/Images/depts/slimming/Injection/Injection-banner.png",
-          "bannerPosition": "center"
+          "bannerPosition": "center",
+          "home": "الصفحة الرئيسية "
         },
         {
           "type": "image-content",
@@ -264,7 +266,8 @@
           "deptLink": "slimming",
           "serviceName": "خدمات أخرى",
           "bannerImage": "../assets/Images/depts/slimming/Other-services/Other-services-banner.png",
-          "bannerPosition": "right"
+          "bannerPosition": "right",
+          "home": "الصفحة الرئيسية "
         },
         {
           "type": "image-content",

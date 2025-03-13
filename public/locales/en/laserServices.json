@@ -9,7 +9,8 @@
                     "deptName": "Laser Hair Removal",
                     "serviceName": "Candela GentleMax Pro",
                     "bannerImage": "../assets/Images/depts/laser/Candela/banner.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",
@@ -62,7 +63,8 @@
                     "deptName": "Laser Hair Removal",
                     "serviceName": "RevLite SI",
                     "bannerImage": "../assets/Images/depts/laser/banner.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",
@@ -121,7 +123,8 @@
                     "deptName": "Laser Hair Removal",
                     "serviceName": "Elite IQ",
                     "bannerImage": "../assets/Images/depts/laser/Elite/elite-banner.jpg",
-                    "bannerPosition": "center"
+                    "bannerPosition": "center",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",

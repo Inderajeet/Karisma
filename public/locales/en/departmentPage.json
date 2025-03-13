@@ -3,7 +3,8 @@
         {
             "deptName": "Departments",
             "bannerImage": "../assets/Images/depts/depts-banner.png",
-            "bannerPosition": "right"
+            "bannerPosition": "right",
+            "home": "Home"
         },
         {
             "link": "dental",
@@ -20,7 +21,6 @@
                 "Pediatric",
                 "Dental Surgical Treatment",
                 "Oral Health (Gum Treatment)",
-                
                 "Restorative Dentistry"
             ]
         },
@@ -41,7 +41,11 @@
             "imageUrl": "../assets/Images/depts/laser/body-image.png",
             "imageAlt": "Laser Hair Removal",
             "title": "Laser Hair Removal",
-            "listItems": ["Candela GentleMax Pro", "Elite IQ", "RevLite SI"]
+            "listItems": [
+                "Candela GentleMax Pro",
+                "Elite IQ",
+                "RevLite SI"
+            ]
         },
         {
             "link": "skincare",
@@ -80,7 +84,11 @@
             "imageUrl": "../assets/Images/depts/slimming/body-image.png",
             "imageAlt": "Slimming",
             "title": "Slimming",
-            "listItems": ["Machines", "Injections", "Other services"]
+            "listItems": [
+                "Machines",
+                "Injections",
+                "Other services"
+            ]
         },
         {
             "link": "plastic-surgery",

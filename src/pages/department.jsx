@@ -15,6 +15,7 @@ const Departments = () => {
                 deptName={departmentsData[0].deptName}
                 bannerImage={departmentsData[0].bannerImage}
                 bannerPosition={departmentsData[0].bannerPosition}
+                home={departmentsData[0].home}
             />
             <div className="customContainer depts">
                 <div className="dFlex">

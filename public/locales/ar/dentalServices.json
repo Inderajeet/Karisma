@@ -10,7 +10,8 @@
                     "deptLink": "dental",
                     "serviceName": "طب أسنان الأطفال",
                     "bannerImage": "../assets/Images/depts/dental/Pediatric/banner.png",
-                    "bannerPosition": "center"
+                    "bannerPosition": "center",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",
@@ -177,7 +178,8 @@
                     "deptLink": "dental",
                     "serviceName": "جراحة الأسنان",
                     "bannerImage": "../assets/Images/depts/dental/Dental-Surgical-Treatment/banner.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",
@@ -368,7 +370,8 @@
                     "deptLink": "dental",
                     "serviceName": "زراعة الأسنان",
                     "bannerImage": "../assets/Images/depts/dental/implant/banner.png",
-                    "bannerPosition": "center"
+                    "bannerPosition": "center",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",
@@ -484,7 +487,8 @@
                     "deptName": "الأسنان",
                     "serviceName": "تقويم الأسنان",
                     "bannerImage": "../assets/Images/depts/dental/ortho/banner.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",
@@ -618,7 +622,8 @@
                     "deptLink": "dental",
                     "serviceName": "تبييض الأسنان",
                     "bannerImage": "../assets/Images/depts/dental/teeth-Whitening/teeth-Whitening-banner.png",
-                    "bannerPosition": "center"
+                    "bannerPosition": "center",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",
@@ -749,7 +754,8 @@
                     "deptLink": "dental",
                     "serviceName": "إعادة تأهيل الفم",
                     "bannerImage": "../assets/Images/depts/dental/Mouth-Rehabilitation/banner.png",
-                    "bannerPosition": "center"
+                    "bannerPosition": "center",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",
@@ -880,7 +886,8 @@
                     "deptLink": "dental",
                     "serviceName": "علاج قناة الجذر",
                     "bannerImage": "../assets/Images/depts/dental/root-canal/banner.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",
@@ -1025,7 +1032,8 @@
                     "deptLink": "dental",
                     "serviceName": "صحة الفم (علاج اللثة)",
                     "bannerImage": "../assets/Images/depts/dental/Oral-Health/banner.png",
-                    "bannerPosition": "center"
+                    "bannerPosition": "center",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",
@@ -1164,7 +1172,8 @@
                     "deptLink": "dental",
                     "serviceName": "طب الأسنان الترميمي",
                     "bannerImage": "../assets/Images/depts/dental/Restorative-Dentistry/banner.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",
@@ -1301,7 +1310,8 @@
                     "deptLink": "dental",
                     "serviceName": "ابتسامة هوليوود (الفينير)",
                     "bannerImage": "../assets/Images/banner/dept_banner/dental.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "الصفحة الرئيسية "
                 },
                 {
                     "type": "image-content",

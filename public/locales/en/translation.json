@@ -24,37 +24,44 @@
     {
       "title": "Dental Department",
       "description": "",
-      "link": "/dental"
+      "link": "/dental",
+      "viewDetails": "View Detials"
     },
     {
       "title": "Dermatology Department",
       "description": "",
-      "link": "/derma"
+      "link": "/derma",
+      "viewDetails": "View Detials"
     },
     {
       "title": "Skin Care Department",
       "description": "",
-      "link": "/skincare"
+      "link": "/skincare",
+      "viewDetails": "View Detials"
     },
     {
       "title": "Plastic Surgery Department",
       "description": "",
-      "link": "/plastic-surgery"
+      "link": "/plastic-surgery",
+      "viewDetails": "View Detials"
     },
     {
       "title": "Gynecology Department",
       "description": "",
-      "link": "/gynecology"
+      "link": "/gynecology",
+      "viewDetails": "View Detials"
     },
     {
       "title": "Nutrition and Slimming Department",
       "description": "",
-      "link": "/slimming"
+      "link": "/slimming",
+      "viewDetails": "View Detials"
     },
     {
       "title": "Laser Department",
       "description": "",
-      "link": "/laser-hair-removal"
+      "link": "/laser-hair-removal",
+      "viewDetails": "View Detials"
     }
   ],
   "menuItems": [

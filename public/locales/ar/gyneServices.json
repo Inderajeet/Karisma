@@ -10,7 +10,8 @@
            "deptLink": "gynecology",
           "serviceName": "طب النساء التجميلي ",
           "bannerImage": "../assets/Images/depts/Gyne/Gynecology-aesthetic/Main-Banner.png",
-          "bannerPosition": "right"
+          "bannerPosition": "right",
+          "home": "الصفحة الرئيسية "
         },
         {
           "type": "image-content",
@@ -93,7 +94,8 @@
           "deptLink": "gynecology",
           "serviceName": "الحشو النسائي ",
           "bannerImage": "../assets/Images/depts/Gyne/Gynecological-filler/body-image.png",
-          "bannerPosition": "right"
+          "bannerPosition": "right",
+          "home": "الصفحة الرئيسية "
         },
         {
           "type": "image-content",
@@ -189,7 +191,8 @@
           "deptLink": "gynecology",
           "serviceName": "طب النساء والتوليد ",
           "bannerImage": "../assets/Images/depts/Gyne/MedicalGynecology-Obstetric/Main-Banner.png",
-          "bannerPosition": "right"
+          "bannerPosition": "right",
+          "home": "الصفحة الرئيسية "
         },
         {
           "type": "image-content",
@@ -329,7 +332,8 @@
           "deptLink": "gynecology",
           "serviceName": "حقن البالزما ",
           "bannerImage": "../assets/Images/depts/Gyne/Plasma-Injection/Main-Banner.png",
-          "bannerPosition": "right"
+          "bannerPosition": "right",
+          "home": "الصفحة الرئيسية "
         },
         {
           "type": "image-content",
@@ -435,7 +439,8 @@
           "deptLink": "gynecology",
           "serviceName": "تبييض وتجديد منطقة البكيني ",
           "bannerImage": "../assets/Images/depts/Gyne/BikiniWhitening&Rejuvenation/Main-Banner.png",
-          "bannerPosition": "right"
+          "bannerPosition": "right",
+          "home": "الصفحة الرئيسية "
         },
         {
           "type": "image-content",
@@ -546,7 +551,7 @@
           "features": [
             "استشارات شخصية: يقدم أطباء أمراض النساء المعتمدون لدينا استشارات شاملة لتقييم احتياجاتك الفريدة والتوصية بأفضل خيارات العالج. ",
             "خطط عالج مخصصة: نصمم خط ًطا مخصصة لتحقيق النتائج المرجوة بأمان وفعالية.",
-            "Supportive Environment: We prioritize your comfort and privacy, ensuring a discreet and supportive experience."
+            "البيئة الداعمة : نحن نعطي األولوية لراحتك وخصوصيتك، مما يضمن تجربة فريدة من نوعها. "
           ]
         },
         {
@@ -593,7 +598,8 @@
           "deptLink": "gynecology",
           "serviceName": "تضييق البكيني - بيال دونا ",
           "bannerImage": "../assets/Images/depts/Gyne/BikiniTightening-Belladona/Main-Banner.png",
-          "bannerPosition": "right"
+          "bannerPosition": "right",
+          "home": "الصفحة الرئيسية "
         },
         {
           "type": "image-content",
@@ -682,7 +688,8 @@
           "deptLink": "gynecology",
           "serviceName": "السن تقدم علاجات المهبلي ",
           "bannerImage": "../assets/Images/depts/Gyne/Vaginal-Anti-AGing-Treatment/Main-Banner.png",
-          "bannerPosition": "right"
+          "bannerPosition": "right",
+          "home": "الصفحة الرئيسية "
         },
         {
           "type": "image-content",
@@ -743,8 +750,8 @@
         },
         {
           "type": "color-content",
-          "title": "Reclaim Comfort and Confidence",
-          "description": "Embrace a life free from discomfort with Vaginal Anti-Aging Treatment at Karisma Specialist Medical Center. Contact us today to schedule your consultation and take the first step toward renewed intimacy and well-being."
+          "title": "استعادة الراحة والثقة ",
+          "description": "استرجعي ثقتك مع عالجات مكافحة الشيخوخة للمنطقة النسائية في مركز كاريزما الطبي المتخصص. تواصلوا معنا األن لتحديد موعد استشارتك واتخاذ الخطوة األولى نحو تجديد ثقتك وراحتك. "
         },
         {
           "type": "content",

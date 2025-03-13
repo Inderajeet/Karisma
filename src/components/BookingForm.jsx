@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Modal, Toast, Spinner } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../custom_css/bookingForm.css';
+import { useTranslation } from "react-i18next";
 import axios from 'axios';
 
 function Booking({ showModal, handleClose }) {
@@ -9,17 +10,9 @@ function Booking({ showModal, handleClose }) {
     const [success, setSuccess] = useState('');
     const [formLoading, setFormLoading] = useState(false);
     const [minDate, setMinDate] = useState('');
+    const { t, i18n } = useTranslation('forms');
 
-    // Local Departments List
-    const departments = [
-        "Dental",
-        "Derma",
-        "SkinCare",
-        "Gynecology",
-        "Nutrition and Slimming",
-        "Plastic Surgery",
-        "Laser Hair Removal"
-    ];
+    const forms = t('forms', { returnObjects: true });  // Fetch the entire contact object
 
     const [formData, setFormData] = useState({
         name: '',
@@ -28,8 +21,8 @@ function Booking({ showModal, handleClose }) {
         gender: '',
         countryCode: '',
         phone: '',
-        preferredDate: '',
-        departmentId: '',
+        date: '',
+        department: '',
         message: '',
     });
 
@@ -100,8 +93,8 @@ function Booking({ showModal, handleClose }) {
             case 'gender':
                 newErrors.gender = value ? '' : 'Gender is required';
                 break;
-            case 'departmentId':
-                newErrors.departmentId = value ? '' : 'Department is required';
+            case 'department':
+                newErrors.department = value ? '' : 'Department is required';
                 break;
             case 'phone':
                 if (!value.trim()) {
@@ -112,8 +105,8 @@ function Booking({ showModal, handleClose }) {
                     newErrors.phone = '';
                 }
                 break;
-            case 'preferredDate':
-                newErrors.preferredDate = value ? '' : 'Date is required';
+            case 'date':
+                newErrors.date = value ? '' : 'Date is required';
                 break;
             default:
                 break;
@@ -126,55 +119,71 @@ function Booking({ showModal, handleClose }) {
         e.preventDefault();
         console.log('submitBooking function called');
 
-        const newErrors = {};
-        let hasErrors = false;
+        let newErrors = {};
 
+        // Validate all fields
         Object.keys(formData).forEach((field) => {
             const value = formData[field];
             validateField(field, value); // Validate field
-            console.log(`Field: ${field}, Value: ${value}, Errors:`, errors[field]);
 
-            if (errors[field]) { // Check for validation errors only
-                newErrors[field] = errors[field];
-                hasErrors = true;
+            if (!value.trim() && field !== "message") { // Required fields check
+                newErrors[field] = `${field.charAt(0).toUpperCase() + field.slice(1)} is required`;
             }
         });
 
-        setErrors(newErrors);
-        console.log("NewErrors:", newErrors);
+        setErrors(newErrors); // Update errors state
 
-        if (hasErrors) {
-            console.log("Validation Errors Found");
+        console.log("Validation Errors:", newErrors);
+
+        if (Object.keys(newErrors).length > 0) {
+            console.log("Validation failed. Form not submitted.");
             return; // Stop submission if there are errors
         }
 
-        setFormLoading(true);
+        setIsSubmitting(true);
+
         try {
-            const response = await axios.post('https://dental.dmaksolutions.com/api/book-appointment', {
-                ...formData,
+            const response = await fetch('https://dental.dmaksolutions.com/api/book-appointment', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
             });
 
-            setSuccess('Appointment booked successfully! Check your email for confirmation.');
-            setError('');
-            setFormData({
-                name: '',
-                email: '',
-                age: '',
-                gender: '',
-                countryCode: '',
-                phone: '',
-                preferredDate: '',
-                departmentId: '',
-                message: '',
-            });
-            handleClose();
+            if (response.ok) {
+                setAlertMessage('Appointment booked successfully!');
+                setIsSuccess(true);
+                setFormData({
+                    name: '',
+                    email: '',
+                    age: '',
+                    gender: '',
+                    countryCode: '',
+                    phone: '',
+                    date: '',
+                    department: '',
+                    message: '',
+                });
+                setErrors({});
+            } else {
+                setAlertMessage('Error booking appointment. Please try again later.');
+                setIsSuccess(false);
+            }
         } catch (error) {
             console.error('Error booking appointment:', error);
-            setError('Unable to book appointment. Please try again later.');
-        } finally {
-            setFormLoading(false);
+            setAlertMessage('Error booking appointment. Please try again later.');
+            setIsSuccess(false);
         }
+
+        setTimeout(() => {
+            setAlertMessage('');
+        }, 3000);
+
+        setIsSubmitting(false);
     };
+
+
     const closeModal = () => {
         setError(''); // Clear errors when modal is closed
         setSuccess(''); // Clear success state
@@ -224,7 +233,7 @@ function Booking({ showModal, handleClose }) {
                 classname="modal"
             >
                 <Modal.Header closeButton>
-                    <div style={{ fontSize: '30px', margin: '8px 0' }}>Book Appointment</div>
+                    <div style={{ fontSize: '30px', margin: '8px 0' }}>{forms.bookHeader}</div>
                 </Modal.Header>
                 <Modal.Body>
                     <div className="d-flex">
@@ -243,12 +252,12 @@ function Booking({ showModal, handleClose }) {
                             <div className='mb-3'>
                                 <input
                                     type="text"
-                                    placeholder='Name*'
+                                    placeholder={forms.name}
                                     name="name"
                                     value={formData.name}
                                     onChange={handleChange}
                                     onBlur={handleBlur}
-                                    className={`input ${errors.name ? 'is-invalid' : ''}`}
+                                    className={`input ${errors. name ? 'is-invalid' : ''}`}
                                 />
                                 {errors.name && <div className='cust-invalid-feedback'>{errors.name}</div>}
                             </div>
@@ -256,7 +265,7 @@ function Booking({ showModal, handleClose }) {
                             <div className="mb-3">
                                 <input
                                     type="email"
-                                    placeholder="Email*"
+                                    placeholder={forms.email}
                                     name="email"
                                     value={formData.email}
                                     onChange={handleChange}
@@ -272,7 +281,7 @@ function Booking({ showModal, handleClose }) {
                                     <input
                                         maxLength={3}
                                         type="text"
-                                        placeholder="Age*"
+                                        placeholder={forms.age}
                                         name="age"
                                         value={formData.age}
                                         onChange={handleChange}
@@ -300,7 +309,7 @@ function Booking({ showModal, handleClose }) {
                                         <input
                                             type="tel"
                                             maxLength={15}
-                                            placeholder="Phone No*"
+                                            placeholder={forms.phone}
                                             name="phone"
                                             value={formData.phone}
                                             onChange={handleChange}
@@ -323,9 +332,9 @@ function Booking({ showModal, handleClose }) {
                                         onBlur={handleBlur}
                                         className={`input ${errors.gender ? 'is-invalid' : ''}`}
                                     >
-                                        <option value="" disabled>Gender*</option>
-                                        <option value="male">Male</option>
-                                        <option value="female">Female</option>
+                                        <option value="" disabled>{forms.selectGender}</option>
+                                        <option value="male">{forms.genderMale}</option>
+                                        <option value="female">{forms.genderFemale}</option>
                                     </select>
                                     {errors.gender && <div className="cust-invalid-feedback">{errors.gender}</div>}
                                 </div>
@@ -334,38 +343,38 @@ function Booking({ showModal, handleClose }) {
                                     <input
                                         type="date"
                                         placeholder="Date*"
-                                        name="preferredDate"
-                                        value={formData.preferredDate}
+                                        name="date"
+                                        value={formData.date}
                                         onChange={handleChange}
                                         onBlur={handleBlur}
-                                        className={`input ${errors.preferredDate ? 'is-invalid' : ''}`}
+                                        className={`input ${errors.date ? 'is-invalid' : ''}`}
                                         min={minDate} // Set the minimum date
                                     />
-                                    {errors.preferredDate && <div className="cust-invalid-feedback">{errors.preferredDate}</div>}
+                                    {errors.date && <div className="cust-invalid-feedback">{errors.date}</div>}
                                 </div>
                             </div>
 
                             {/* Departments */}
                             <div className="mb-3">
                                 <select
-                                    name="departmentId"
-                                    value={formData.departmentId}
+                                    name="department"
+                                    value={formData.department}
                                     onChange={handleChange}
                                     onBlur={handleBlur}
-                                    className={`input ${errors.departmentId ? 'is-invalid' : ''}`}
+                                    className={`input ${errors.department ? 'is-invalid' : ''}`}
                                 >
-                                    <option value="" disabled>Select Department*</option>
-                                    {departments.map((dept, index) => (
+                                    <option value="" disabled>{forms.selectDepartment}</option>
+                                    {forms.departments.map((dept, index) => (
                                         <option className="" key={index} value={dept}>{dept}</option>
                                     ))}
                                 </select>
-                                {errors.departmentId && <div className="cust-invalid-feedback">{errors.departmentId}</div>}
+                                {errors.department && <div className="cust-invalid-feedback">{errors.department}</div>}
                             </div>
                             {/* Messgage */}
                             <div className="mb-3">
                                 <textarea
                                     name="message"
-                                    placeholder="Message (Optional)"
+                                    placeholder={forms.messageOpt}
                                     value={formData.message}
                                     onChange={handleChange}
                                     className="input"
@@ -376,7 +385,7 @@ function Booking({ showModal, handleClose }) {
                                 {formLoading ? (
                                     <Spinner animation="border" size="sm" role="status" className="me-2" />
                                 ) : null}
-                                Book Appointment
+                                {forms.sendNow}
                             </button>
                         </div>
                     </div>

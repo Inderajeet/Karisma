@@ -41,6 +41,7 @@ const SliderDept = () => {
 
   const departments = t("departments", { returnObjects: true });
   const isRTL = i18n.dir() === "rtl";
+  console.log('Departments', departments)
 
   return (
     <Swiper
@@ -72,7 +73,7 @@ const SliderDept = () => {
         <SwiperSlide key={index}>
           <div
             className="service-inner"
-            style={{ backgroundColor: cards["background-color"], marginBottom:'0'}}
+            style={{ backgroundColor: cards["background-color"], marginBottom: '0' }}
           >
             <div className="entry-title">
               <h3 className="post-title-head">
@@ -110,8 +111,8 @@ const SliderDept = () => {
               <ul className="nav bottom-meta-list meta-left">
                 <li>
                   <div>
-                  <Link
-                  to={`/${lng}${service.link}`}
+                    <Link
+                      to={`/${lng}${service.link}`}
                       className="homefont"
                       style={{
                         color: cards["button-text-color"],
@@ -119,7 +120,7 @@ const SliderDept = () => {
                         fontSize: cards["button-text-size"],
                       }}
                     >
-                      VIEW DETAILS
+                      {service.viewDetails}
                     </Link>
                   </div>
                 </li>

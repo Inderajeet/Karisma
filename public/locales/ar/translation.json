@@ -24,46 +24,53 @@
     {
       "title": "قسم طب األسنان",
       "description": "",
-      "link": "/dental"
+      "link": "/dental",
+      "viewDetails": "عرض التفاصيل "
     },
     {
       "title": "قسم األمراض الجلدية",
       "description": "",
-      "link": "/derma"
+      "link": "/derma",
+      "viewDetails": "عرض التفاصيل "
     },
     {
       "title": "قسم العناية بالبشرة",
       "description": "",
-      "link": "/skincare"
+      "link": "/skincare",
+      "viewDetails": "عرض التفاصيل "
     },
     {
       "title": "قسم جراحة التجميل",
       "description": "",
-      "link": "/plastic-surgery"
+      "link": "/plastic-surgery",
+      "viewDetails": "عرض التفاصيل "
     },
     {
       "title": "قسم أمراض النساء",
       "description": "",
-      "link": "/gynecology"
+      "link": "/gynecology",
+      "viewDetails": "عرض التفاصيل "
     },
     {
       "title": "قسم التغذية والتخسيس",
       "description": "",
-      "link": "/slimming"
+      "link": "/slimming",
+      "viewDetails": "عرض التفاصيل "
     },
     {
       "title": "قسم الليزر",
       "description": "",
-      "link": "/laser-hair-removal"
+      "link": "/laser-hair-removal",
+      "viewDetails": "عرض التفاصيل "
     }
   ],
   "menuItems": [
     {
-      "label": "About Us",
+      "label": "معلومات عنا",
       "link": "/about_us"
     },
     {
-      "label": "Department",
+      "label": "األقسام",
       "link": "/departments",
       "subMenu": [
         {
@@ -257,7 +264,7 @@
       "link": "/doctors"
     },
     {
-      "label": "Careers",
+      "label": "المهن",
       "link": "/careers"
     },
     {

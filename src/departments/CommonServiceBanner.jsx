@@ -13,7 +13,7 @@ export const applyFontFallback = (text) => {
     );
 };
 
-const CommonServiceBanner = ({ deptName, serviceName, bannerImage, bannerPosition, deptLink }) => {
+const CommonServiceBanner = ({ deptName, serviceName, bannerImage, bannerPosition, deptLink, home }) => {
     const { lng } = useParams();
 
     console.log('Inside banner:', bannerImage);
@@ -44,7 +44,7 @@ const CommonServiceBanner = ({ deptName, serviceName, bannerImage, bannerPositio
                                                 <ul id="breadcrumb" className="breadcrumb nav">
                                                     <li>
                                                         <Link to={`/${lng}`}>
-                                                            <span style={{ color: '#fff' }}>Home</span>
+                                                            <span style={{ color: '#fff' }}>{home}</span>
                                                         </Link>
                                                     </li>
                                                     {deptName && (

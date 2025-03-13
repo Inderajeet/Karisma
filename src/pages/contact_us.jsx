@@ -24,6 +24,8 @@ export default function ContactPage() {
                 bannerImage={contact.bannerImage}
                 bannerPosition={contact.bannerPosition}
                 deptLink={contact.deptLink}
+                home={contact.home}
+
             />
             <div className="customContainer ">
                 <div className="row">

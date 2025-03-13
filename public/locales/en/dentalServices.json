@@ -9,7 +9,8 @@
                     "deptName": "Dental",
                     "serviceName": "Pediatric",
                     "bannerImage": "../assets/Images/depts/dental/Pediatric/banner.png",
-                    "bannerPosition": "center"
+                    "bannerPosition": "center",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",
@@ -175,7 +176,8 @@
                     "deptName": "Dental",
                     "serviceName": "Dental Surgery",
                     "bannerImage": "../assets/Images/depts/dental/Dental-Surgical-Treatment/banner.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",
@@ -365,7 +367,8 @@
                     "deptName": "Dental",
                     "serviceName": "Implants",
                     "bannerImage": "../assets/Images/depts/dental/implant/banner.png",
-                    "bannerPosition": "center"
+                    "bannerPosition": "center",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",
@@ -480,7 +483,8 @@
                     "deptName": "Dental",
                     "serviceName": "Orthodontics",
                     "bannerImage": "../assets/Images/depts/dental/ortho/banner.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",
@@ -611,7 +615,8 @@
                     "deptName": "Dental",
                     "serviceName": "Teeth Whitening",
                     "bannerImage": "../assets/Images/depts/dental/teeth-Whitening/teeth-Whitening-banner.png",
-                    "bannerPosition": "center"
+                    "bannerPosition": "center",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",
@@ -747,7 +752,8 @@
                     "deptName": "Dental",
                     "serviceName": "Mouth Rehabilitation",
                     "bannerImage": "../assets/Images/depts/dental/Mouth-Rehabilitation/banner.png",
-                    "bannerPosition": "center"
+                    "bannerPosition": "center",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",
@@ -877,7 +883,8 @@
                     "deptName": "Dental",
                     "serviceName": "Root Canal Treatment",
                     "bannerImage": "../assets/Images/depts/dental/root-canal/banner.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",
@@ -1019,7 +1026,8 @@
                     "deptName": "Dental",
                     "serviceName": "Oral health (Gum treatment)",
                     "bannerImage": "../assets/Images/depts/dental/Oral-Health/banner.png",
-                    "bannerPosition": "center"
+                    "bannerPosition": "center",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",
@@ -1157,7 +1165,8 @@
                     "deptName": "Dental",
                     "serviceName": "Restorative Dentistry",
                     "bannerImage": "../assets/Images/depts/dental/Restorative-Dentistry/banner.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",
@@ -1293,7 +1302,8 @@
                     "deptName": "Dental",
                     "serviceName": "Hollywood Smile (Veneers)",
                     "bannerImage": "../assets/Images/banner/dept_banner/dental.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",

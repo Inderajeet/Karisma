@@ -10,7 +10,8 @@
           "deptLink": "derma",
           "serviceName": "الفيلر الجلدي",
           "bannerImage": "../assets/Images/depts/derma/filler/banner.png",
-          "bannerPosition": "center"
+          "bannerPosition": "center",
+          "home": "الصفحة الرئيسية "
         },
         {
           "type": "image-content",
@@ -191,7 +192,8 @@
           "deptLink": "derma",
           "serviceName": "علاج مكافحة الشيخوخة",
           "bannerImage": "../assets/Images/depts/derma/anti-aging-treatment/banner.png",
-          "bannerPosition": "center"
+          "bannerPosition": "center",
+          "home": "الصفحة الرئيسية "
         },
         {
           "type": "image-content",
@@ -374,7 +376,8 @@
           "deptLink": "derma",
           "serviceName": "الخيوط التجميلية  ",
           "bannerImage": "../assets/Images/depts/derma/Cosmetic-Threads/banner.png",
-          "bannerPosition": "right"
+          "bannerPosition": "right",
+          "home": "الصفحة الرئيسية "
         },
         {
           "type": "image-content",
@@ -530,7 +533,7 @@
               "name": "خيوط البطنPDO ",
               "image": "/assets/Images/home/Doctors.png",
               "link": "derma/cosmetic-threads/pdo-tummy-threads",
-              "readMore":" اقرأ المزيد",
+              "readMore": " اقرأ المزيد",
               "designation": "حققي المظهر الرشيق الذي ترغبين فيه في دقائق، واحصلي على بطن مشدودة ومسطحة مع إجراءات خيوط البطنPDO ، وهو حل غير جراحي لشد وتثبيت الجلد."
             },
             {
@@ -598,7 +601,8 @@
           "deptLink": "derma",
           "serviceName": "حقن تجديد الشباب",
           "bannerImage": "../assets/Images/depts/derma/Rejuvenation/banner.png",
-          "bannerPosition": "right"
+          "bannerPosition": "right",
+          "home": "الصفحة الرئيسية "
         },
         {
           "type": "image-content",

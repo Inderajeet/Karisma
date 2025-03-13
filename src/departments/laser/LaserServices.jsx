@@ -201,6 +201,7 @@ const LaserServices = () => {
                                 bannerImage={section.bannerImage}
                                 deptLink={section.deptLink}
                                 bannerPosition={section.bannerPosition}
+                                home={section.home}
                             />
                         );
                     } else if (section.type === "image-content") {

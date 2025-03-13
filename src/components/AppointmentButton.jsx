@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import Booking from "./BookingForm"; // Assuming Booking component exists
+import { useTranslation } from "react-i18next";
 
 export default function AppointmentButton() {
+    const { t, i18n } = useTranslation('forms');
+
+    const forms = t('forms', { returnObjects: true });  // Fetch the entire contact object
     const [showBooking, setShowBooking] = useState(false);
 
     const handleOpen = () => setShowBooking(true);
@@ -42,7 +46,7 @@ export default function AppointmentButton() {
                                         </svg>
                                     </span>
                                     <span className="cea-button-text">
-                                        APPOINTMENT
+                                        {forms.appointment}
                                     </span>
                                 </span>
                             </button>

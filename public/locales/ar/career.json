@@ -1,0 +1,10 @@
+{
+    "career": {
+        "deptName": "المهن",
+        "bannerImage": "../assets/Images/banner/careers.jpg",
+        "bannerPosition": "right",
+        "deptLink": "careers",
+        "home": "الصفحة الرئيسية "
+        
+    }
+}

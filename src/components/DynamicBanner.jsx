@@ -13,7 +13,7 @@ export const applyFontFallback = (text) => {
     );
 };
 
-const DynamicBanner = ({ deptName, serviceName, bannerImage, bannerPosition, deptLink }) => {
+const DynamicBanner = ({ deptName, serviceName, bannerImage, bannerPosition, deptLink, home }) => {
     const { lng } = useParams();
     console.log('Inside banner:', bannerImage);
     const bannerImageUrl = bannerImage.startsWith("http")
@@ -43,7 +43,7 @@ const DynamicBanner = ({ deptName, serviceName, bannerImage, bannerPosition, dep
                                                 <ul id="breadcrumb" className="breadcrumb nav">
                                                     <li>
                                                         <Link to={`/${lng}`}>
-                                                            <span style={{ color: '#fff' }}>Home</span>
+                                                            <span style={{ color: '#fff' }}>{home}</span>
                                                         </Link>
                                                     </li>
                                                     {deptName && (

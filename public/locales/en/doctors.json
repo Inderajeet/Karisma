@@ -3,7 +3,8 @@
         {
             "deptName": "Our Doctors",
             "bannerImage": "../assets/Images/depts/Our-Doctors/our-doctors-banner.png" ,
-            "bannerPosition": "center"
+            "bannerPosition": "center",
+          "home": "Home"
         },
         {
             "id": 2,

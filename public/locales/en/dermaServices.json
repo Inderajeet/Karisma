@@ -9,7 +9,8 @@
           "deptName": "Derma",
           "serviceName": "Dermal Fillers",
           "bannerImage": "../assets/Images/depts/derma/filler/banner.png",
-          "bannerPosition": "center"
+          "bannerPosition": "center",
+          "home": "Home"
         },
         {
           "type": "image-content",
@@ -220,7 +221,8 @@
           "deptName": "Derma",
           "serviceName": "Anti-Aging Treatment",
           "bannerImage": "../assets/Images/depts/derma/anti-aging-treatment/banner.png",
-          "bannerPosition": "center"
+          "bannerPosition": "center",
+          "home": "Home"
         },
         {
           "type": "image-content",
@@ -403,7 +405,8 @@
           "deptName": "Derma",
           "serviceName": "Cosmetic Threads",
           "bannerImage": "../assets/Images/depts/derma/Cosmetic-Threads/banner.png",
-          "bannerPosition": "right"
+          "bannerPosition": "right",
+          "home": "Home"
         },
         {
           "type": "image-content",
@@ -627,7 +630,8 @@
           "deptName": "Derma",
           "serviceName": "Rejuvenation Injection",
           "bannerImage": "../assets/Images/depts/derma/Rejuvenation/banner.png",
-          "bannerPosition": "right"
+          "bannerPosition": "right",
+          "home": "Home"
         },
         {
           "type": "image-content",

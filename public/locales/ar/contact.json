@@ -8,6 +8,7 @@
         "bannerImage": "../assets/Images/depts/contact/contact_banner.jpg",
         "bannerPosition": "right",
         "deptLink": "contact",
+        "home": "الصفحة الرئيسية ",
         "contactInfo": [
             {
                 "title": "الهاتف",
