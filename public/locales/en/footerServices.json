@@ -15,7 +15,7 @@
                     "description": "This Privacy Policy pertains to personally identifiable information you provide when seeking medical care or making inquiries through our services. If any part of this policy conflicts with applicable laws, regulations, or government notices, the relevant legal provisions shall take precedence within the respective jurisdiction.",
                     "features": [
                         {
-                            "title": "Privacy Protection Measures:",
+                            "title": "Privacy Protection Measures",
                             "items": [
                                 "All credit/debit card details and personally identifiable information will not be stored, sold, shared, rented, or leased to third parties.",
                                 "We do not share debit/credit card information with third parties.",
@@ -32,7 +32,7 @@
                     "description": "When using our services, we may collect the following types of information:",
                     "features": [
                         {
-                            "title": "Information You Provide Directly:",
+                            "title": "Information You Provide Directly",
                             "items": [
                                 "Contact details, including full name, email address, mobile number, and physical address.",
                                 "Username and password.",
@@ -42,7 +42,7 @@
                             ]
                         },
                         {
-                            "title": "Automatically Collected Information:",
+                            "title": "Automatically Collected Information",
                             "items": [
                                 "Internet protocol (IP) address, device identifiers, browser type, operating system, and Internet service provider.",
                                 "Pages visited before and after accessing our services, timestamps, clicked links, and viewed content.",
@@ -57,7 +57,7 @@
                     "description": "We may utilize cookies and similar technologies to enhance your browsing experience. This information may be combined with existing records to personalize your interactions with our services.",
                     "features": [
                         {
-                            "title": "Third-Party Information Sources:",
+                            "title": "Third-Party Information Sources",
                             "items": [
                                 "If you access our services via advertisements on third-party websites, we may receive information from those platforms.",
                                 "For medical-related services, we may obtain relevant records from your healthcare providers, including medical history, lab results, and other necessary details.",
@@ -72,7 +72,7 @@
                     "description": "The information collected is utilized for the following purposes:",
                     "features": [
                         {
-                            "title": "Third-Party Information Sources:",
+                            "title": "Third-Party Information Sources",
                             "items": [
                                 "Providing and improving our services.",
                                 "Communicating with you.",
@@ -160,11 +160,9 @@
                 {
                     "type": "content",
                     "title": "Governing Law",
-                    "description": "These Terms & Conditions are governed by the laws of the applicable jurisdiction. Any disputes arising from the use of our services shall be subject to the exclusive jurisdiction of the respective legal authorities."
-                },
-                {
-                    "type": "content",
-                    "description": "By using our services, you acknowledge and agree to these Terms & Conditions. If you do not agree with any part of these terms, you should discontinue using our services immediately."
+                    "description": "These Terms & Conditions are governed by the laws of the applicable jurisdiction. Any disputes arising from the use of our services shall be subject to the exclusive jurisdiction of the respective legal authorities.",
+                    "description2": "By using our services, you acknowledge and agree to these Terms & Conditions. If you do not agree with any part of these terms, you should discontinue using our services immediately."
+
                 }
             ]
         },

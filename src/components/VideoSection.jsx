@@ -50,12 +50,14 @@ const VideoSection = () => {
         //   backgroundColor: about_us["background-color"],
         // }}
       >
-        <div className="section" >
+        <div className="customContainer section" >
             {/* <button className="play-button" onClick={toggleModal}>
         ▶
       </button> */}
+        <img src={home.video}></img>
+
             <div
-                className="elementor-element elementor-element-7d80052a cea-view-framed anim cus-light elementor-widget__width-auto elementor-hidden-mobile cea-shape-circle elementor-widget elementor-widget-ceapopupanything animated zoomIn"
+                className="video-icon elementor-element elementor-element-7d80052a cea-view-framed anim cus-light elementor-widget__width-auto elementor-hidden-mobile cea-shape-circle elementor-widget elementor-widget-ceapopupanything animated zoomIn"
                 data-id="7d80052a"
                 data-element_type="widget"
                 data-settings='{"_animation":"zoomIn","_animation_delay":3}'

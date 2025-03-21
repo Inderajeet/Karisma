@@ -49,7 +49,10 @@ const FooterServices = () => {
                             <ContentSection
                                 key={index}
                                 title={section.title}
+                                heading={section.heading}
+                                heading2={section.heading2}
                                 description={section.description}
+                                description2={section.description2}
                                 features={section.features}
                             />
                         );
@@ -93,10 +96,10 @@ const FooterServices = () => {
                     return null;  // If no valid section type found
                 })}
                 {/* <Doctors /> */}
+            </div >
+            <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '10px' }}>
+                <hr className="half-line" style={{ width: '50%', border: '0', height: '3px', backgroundColor: '#111', margin: '0' }} />
             </div>
-                <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center' , paddingTop:'10px'}}>
-                    <hr className="half-line" style={{ width: '50%', border: '0', height: '3px', backgroundColor: '#111', margin: '0' }} />
-                </div>
         </>
     );
 };

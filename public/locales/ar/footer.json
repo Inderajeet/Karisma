@@ -4,6 +4,7 @@
         "deptName": "الأقسام",
         "abtName": "معلومات عنا",
         "infoName": "المعلومات",
+        "logo": "/assets/Images/Karisma_Logo_green_ar.png",
         "departments": [
             {
                 "name": "طب الأسنان",
@@ -44,7 +45,7 @@
                 "link": "/doctors"
             },
             {
-                "name": "Careers",
+                "name": "المهن",
                 "link": "/careers"
             },
             {
@@ -62,7 +63,7 @@
                 "link": "/policies/cookie-policy"
             },
             {
-                "name": "البنود و الظروف",
+                "name": "الشروط والأحكام",
                 "link": "/policies/terms-conditions"
             }
         ],

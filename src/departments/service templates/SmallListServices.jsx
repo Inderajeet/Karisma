@@ -7,12 +7,13 @@ import { useTranslation } from "react-i18next";
 export const applyFontFallback = (text) => {
   if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
 
-  return text.split("").map((char, index) =>
-    /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
-      ? char
-      : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
+  return text.split(/\b/).map((word, index) => 
+      /^[A-Za-z0-9 ]+$/.test(word) // If word is English/number/space, keep normal font
+          ? word
+          : <span key={index} className="fallback-font">{word}</span> // Apply fallback only for non-English words
   );
 };
+
 
 export default function SmallListServices({ services }) {
 
@@ -54,6 +55,9 @@ export default function SmallListServices({ services }) {
                               <div className="noImg-info-body third">
                                 <div className="doctor-info-inner">
                                   <div className="service-name">{applyFontFallback(doctor.name)}</div>
+                                  {doctor.description && (
+                                    <div className="service-description">{applyFontFallback(doctor.description)}</div>
+                                  )}
                                   <div className="doctor-specialities">
                                     <div className="service-departments">{doctor.designation}</div>
                                   </div>

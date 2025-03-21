@@ -1,7 +1,7 @@
 /* Fullscreen Section */
 .section {
     position: relative;
-    height: 80vh;
+    /* height: 80vh; */
     background-size: cover;
     background-position: top;
     display: flex;
@@ -10,22 +10,72 @@
     /* margin-bottom: 50px; */
     background-attachment: fixed;
     background-repeat: no-repeat;
-  }
-  
-  .section {
-    background-image: url('./video.png');
+    padding: 0;
+}
+
+.section {
+    /* background-image: url('./video.png'); */
     background-size: cover;
     background-position: top;
 }
 
 @media (max-width: 768px) {
-    .section {
-        background-image: url('./video.png');
+
+    .elementor-73397 .elementor-element.elementor-element-7d80052a .popup-trigger-icon {
+        font-size: 21px;
+    }
+
+    .cea-shape-circle .popup-trigger-icon,
+    .cea-shape-square .popup-trigger-icon {
+        padding: 15px;
+    }
+
+    .cea-view-framed .cea-popup-anything.popup-trigger-icon {
+        position: relative;
+        width: 50px;
+        height: 50px;
     }
 }
 
-  /* Play Button */
-  .play-button {
+@media (max-width: 425px) {
+    .elementor-73397 .elementor-element.elementor-element-7d80052a .popup-trigger-icon {
+        font-size: 16px;
+    }
+
+    .cea-view-framed .cea-popup-anything.popup-trigger-icon {
+        position: relative;
+        width: 30px;
+        height: 30px;
+    }
+
+    .cea-view-framed .cea-popup-anything.popup-trigger-icon:after {
+        transform: translateX(-50%) translateY(-50%) scale(0.5);
+    }
+
+    .cea-view-framed .cea-popup-anything.popup-trigger-icon:before {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.video-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Play Button */
+.play-button {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     font-size: 2rem;
@@ -37,14 +87,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .play-button:hover {
+}
+
+.play-button:hover {
     background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Modal */
-  .modal {
+}
+
+/* Modal */
+.modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -55,17 +105,20 @@
     justify-content: center;
     align-items: center;
     z-index: 1000;
-    animation: fadeIn 0.3s forwards; /* Modal fade-in animation */
+    animation: fadeIn 0.3s forwards;
+    /* Modal fade-in animation */
 }
 
 .modal.hide {
-    animation: fadeOut 0.3s forwards; /* Modal fade-out animation */
+    animation: fadeOut 0.3s forwards;
+    /* Modal fade-out animation */
 }
 
 @keyframes fadeIn {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -75,11 +128,12 @@
     from {
         opacity: 1;
     }
+
     to {
         opacity: 0;
     }
 }
-  
+
 .vid-modal-content {
     position: relative;
     width: 90%;
@@ -89,17 +143,20 @@
     border-radius: 8px;
     overflow: hidden;
     transform: scale(0.7);
-    animation: scaleIn 0.3s forwards; /* Content scale-in animation */
+    animation: scaleIn 0.3s forwards;
+    /* Content scale-in animation */
 }
 
 .vid-modal-content.hide {
-    animation: scaleOut 0.3s forwards; /* Content scale-out animation */
+    animation: scaleOut 0.3s forwards;
+    /* Content scale-out animation */
 }
 
 @keyframes scaleIn {
     from {
         transform: scale(0.7);
     }
+
     to {
         transform: scale(1);
     }
@@ -109,20 +166,21 @@
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(0.7);
     }
 }
-  
-  
-  iframe {
+
+
+iframe {
     width: 100%;
     height: 450px;
     border: none;
-  }
-  
-  /* Close Button */
-  .close-button {
+}
+
+/* Close Button */
+.close-button {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -131,15 +189,16 @@
     font-size: 1.5rem;
     color: #fff;
     cursor: pointer;
-  }
-  
-  .close-button:hover {
+}
+
+.close-button:hover {
     color: #000;
     background-color: #fff;
-  }
-  @media (max-width: 549px){
-    .section{
+}
+
+@media (max-width: 549px) {
+    .section {
         /* margin-bottom: 50px; */
-        height: 45vh;
+        /* height: 45vh; */
     }
 }

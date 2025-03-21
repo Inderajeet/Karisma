@@ -30,7 +30,6 @@ body {
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.3s ease;
   z-index: 100;
-
 }
 
 /* When the menu is hidden during scroll */
@@ -115,7 +114,6 @@ body {
   left: 100%;
 }
 
-
 .logoImg {
   height: auto;
   width: 9vw;
@@ -135,6 +133,9 @@ body {
   /* Slight zoom effect */
 }
 
+.arabic .site-logo {
+  max-width: 106px;
+}
 
 @media screen and (max-width: 1023px) {
   .logoImg {
@@ -164,16 +165,60 @@ body {
   }
 }
 
-
 @media screen and (max-width: 1123px) {
   .menu-bar {
     display: none;
   }
 }
 
-
 @media screen and (max-width: 1183px) and (min-width: 1124px) {
   .menu-bar {
     padding: 0 20px;
   }
+}
+
+/* Mobile menu button styles */
+@media screen and (max-width: 991px) {
+  .navbar-toggler {
+    background-color: #d9c5ad !important;
+    border: none !important;
+    padding: 8px !important;
+  }
+
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(87, 112, 101, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+}
+
+/* RTL specific overrides for dropdown menus */
+.arabic ul.nav.wp-menu>li.menu-item-has-children>a:after {
+  left: -15px;
+  right: auto;
+}
+
+.arabic ul.nav.wp-menu>li>a:before {
+  left: 0px;
+}
+
+.arabic header ul.nav.wp-menu li>ul.sub-menu li a:before {
+  right: 0;
+}
+
+.arabic ul.nav.wp-menu>li.menu-item-has-children li.menu-item-has-children>a:after {
+  left: 0;
+  right: auto;
+}
+.arabic .nav.wp-menu > li.menu-item-has-children:not(.menu-item-has-mega-children) > .sub-menu > li > ul.sub-menu{
+  right: 100%;
+}
+
+
+a.h-phone{
+  direction: ltr;
 }

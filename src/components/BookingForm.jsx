@@ -236,20 +236,21 @@ function Booking({ showModal, handleClose }) {
                     <div style={{ fontSize: '30px', margin: '8px 0' }}>{forms.bookHeader}</div>
                 </Modal.Header>
                 <Modal.Body>
-                    <div className="d-flex">
+                    <div className="row contact-us-form">
                         {/* Left Column: Image */}
                         <div className="bookImg" style={{ flex: 1, alignSelf: 'center' }}>
                             <img
                                 src="/assets/wp-content/uploads/appointment-booking.jpg"
-                                alt='Booking Illustration'
+                                alt="Booking Illustration"
                                 className="img-fluid"
-                                style={{ maxWidth: '100%' }}
+                                style={{ maxWidth: "100%" }}
                             />
                         </div>
+
                         {/* Right Column: Form */}
-                        <div style={{ flex: 2, paddingLeft: '20px' }}>
-                            {/* Name */}
-                            <div className='mb-3'>
+                        <div className="col-12 col-md-8">
+                            {/* Name Input */}
+                            <div className="mb-2">
                                 <input
                                     type="text"
                                     placeholder={forms.name}
@@ -257,12 +258,13 @@ function Booking({ showModal, handleClose }) {
                                     value={formData.name}
                                     onChange={handleChange}
                                     onBlur={handleBlur}
-                                    className={`input ${errors. name ? 'is-invalid' : ''}`}
+                                    className={`input ${errors.name ? "is-invalid" : ""}`}
                                 />
-                                {errors.name && <div className='cust-invalid-feedback'>{errors.name}</div>}
+                                {errors.name && <div className="cust-invalid-feedback">{errors.name}</div>}
                             </div>
-                            {/* Email */}
-                            <div className="mb-3">
+
+                            {/* Email Input */}
+                            <div className="mb-2">
                                 <input
                                     type="email"
                                     placeholder={forms.email}
@@ -270,14 +272,14 @@ function Booking({ showModal, handleClose }) {
                                     value={formData.email}
                                     onChange={handleChange}
                                     onBlur={handleBlur}
-                                    className={`input ${errors.email ? 'is-invalid' : ''}`}
+                                    className={`input ${errors.email ? "is-invalid" : ""}`}
                                 />
                                 {errors.email && <div className="cust-invalid-feedback">{errors.email}</div>}
                             </div>
 
-                            {/* Age and Phone no */}
-                            <div className="d-flex gap-3" >
-                                <div className="mb-1 flex-grow-1" style={{ width: '30%' }}>
+                            {/* Age & Phone Number */}
+                            <div className="row">
+                                <div className="col-12 col-md-4 mb-2">
                                     <input
                                         maxLength={3}
                                         type="text"
@@ -286,13 +288,13 @@ function Booking({ showModal, handleClose }) {
                                         value={formData.age}
                                         onChange={handleChange}
                                         onBlur={handleBlur}
-                                        className={`input ${errors.age ? 'is-invalid' : ''}`}
+                                        className={`input ${errors.age ? "is-invalid" : ""}`}
                                     />
                                     {errors.age && <div className="cust-invalid-feedback">{errors.age}</div>}
                                 </div>
 
-                                <div className="d-flex gap-3" style={{ width: '60%' }}>
-                                    <div className="mb-1" style={{ width: '14%' }}>
+                                <div className="col-12 col-md-8 d-flex gap-2">
+                                    <div style={{ flex: "0 0 20%" }}>
                                         <input
                                             maxLength={4}
                                             type="text"
@@ -301,11 +303,10 @@ function Booking({ showModal, handleClose }) {
                                             value={formData.countryCode}
                                             onChange={handleChange}
                                             onBlur={handleBlur}
-                                            className={`input ${errors.countryCode ? 'is-invalid' : ''}`}
+                                            className={`input ${errors.countryCode ? "is-invalid" : ""}`}
                                         />
-                                        {/* {errors.countryCode && <div className="cust-invalid-feedback">{errors.countryCode}</div>} */}
                                     </div>
-                                    <div className="mb-1 flex-grow-1">
+                                    <div style={{ flex: "1" }}>
                                         <input
                                             type="tel"
                                             maxLength={15}
@@ -314,23 +315,23 @@ function Booking({ showModal, handleClose }) {
                                             value={formData.phone}
                                             onChange={handleChange}
                                             onBlur={handleBlur}
-                                            className={`input ${errors.phone ? 'is-invalid' : ''}`}
+                                            className={`input ${errors.phone ? "is-invalid" : ""}`}
                                         />
                                         {errors.phone && <div className="cust-invalid-feedback">{errors.phone}</div>}
                                     </div>
                                 </div>
                             </div>
 
-                            {/* Gender and Date */}
-                            <div className="d-flex gap-3">
-                                <div className="mb-3 flex-grow-1">
+                            {/* Gender & Date */}
+                            <div className="row">
+                                <div className="col-12 col-md-6">
                                     <select
                                         name="gender"
-                                        id='gender'
+                                        id="gender"
                                         value={formData.gender}
                                         onChange={handleChange}
                                         onBlur={handleBlur}
-                                        className={`input ${errors.gender ? 'is-invalid' : ''}`}
+                                        className={`input ${errors.gender ? "is-invalid" : ""}`}
                                     >
                                         <option value="" disabled>{forms.selectGender}</option>
                                         <option value="male">{forms.genderMale}</option>
@@ -339,7 +340,7 @@ function Booking({ showModal, handleClose }) {
                                     {errors.gender && <div className="cust-invalid-feedback">{errors.gender}</div>}
                                 </div>
 
-                                <div className="mb-3 flex-grow-1">
+                                <div className="col-12 col-md-6">
                                     <input
                                         type="date"
                                         placeholder="Date*"
@@ -347,30 +348,31 @@ function Booking({ showModal, handleClose }) {
                                         value={formData.date}
                                         onChange={handleChange}
                                         onBlur={handleBlur}
-                                        className={`input ${errors.date ? 'is-invalid' : ''}`}
-                                        min={minDate} // Set the minimum date
+                                        className={`input ${errors.date ? "is-invalid" : ""}`}
+                                        min={minDate}
                                     />
                                     {errors.date && <div className="cust-invalid-feedback">{errors.date}</div>}
                                 </div>
                             </div>
 
                             {/* Departments */}
-                            <div className="mb-3">
+                            <div className="mb-2">
                                 <select
                                     name="department"
                                     value={formData.department}
                                     onChange={handleChange}
                                     onBlur={handleBlur}
-                                    className={`input ${errors.department ? 'is-invalid' : ''}`}
+                                    className={`input ${errors.department ? "is-invalid" : ""}`}
                                 >
                                     <option value="" disabled>{forms.selectDepartment}</option>
                                     {forms.departments.map((dept, index) => (
-                                        <option className="" key={index} value={dept}>{dept}</option>
+                                        <option key={index} value={dept}>{dept}</option>
                                     ))}
                                 </select>
                                 {errors.department && <div className="cust-invalid-feedback">{errors.department}</div>}
                             </div>
-                            {/* Messgage */}
+
+                            {/* Message */}
                             <div className="mb-3">
                                 <textarea
                                     name="message"
@@ -381,6 +383,8 @@ function Booking({ showModal, handleClose }) {
                                     rows="3"
                                 />
                             </div>
+
+                            {/* Submit Button */}
                             <button className="go-to-offers-btn" onClick={submitBooking} disabled={formLoading}>
                                 {formLoading ? (
                                     <Spinner animation="border" size="sm" role="status" className="me-2" />
@@ -389,6 +393,7 @@ function Booking({ showModal, handleClose }) {
                             </button>
                         </div>
                     </div>
+
                 </Modal.Body>
             </Modal>
         </>

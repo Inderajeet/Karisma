@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import React, { Suspense } from 'react';
 import './i18n'; // Import your i18n setup
+import './custom_css/index.js'; // Import custom CSS fixes
 
 
 createRoot(document.getElementById('root')).render(

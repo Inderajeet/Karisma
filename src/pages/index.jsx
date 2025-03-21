@@ -733,7 +733,7 @@ const Index = () => {
                   data-id="75b52bfa"
                   data-element_type="container"
                 >
-                  <div className="e-con-inner">
+                  <div className="e-con-inner" style={{gap:'0'}}>
                     <div
                       className="elementor-element elementor-element-2164c3aa e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child"
                       data-id="2164c3aa"

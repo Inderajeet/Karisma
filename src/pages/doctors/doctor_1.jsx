@@ -7,12 +7,13 @@ import "../../custom_css/doctor.css"
 export const applyFontFallback = (text) => {
     if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
 
-    return text.split("").map((char, index) =>
-        /[A-Za-z0-9 ]/.test(char) // Keep normal text in Seasons
-            ? char
-            : <span key={index} className="fallback-font">{char}</span> // Force fallback for everything else
+    return text.split(/\b/).map((word, index) => 
+        /^[A-Za-z0-9 ]+$/.test(word) // If word is English/number/space, keep normal font
+            ? word
+            : <span key={index} className="fallback-font">{word}</span> // Apply fallback only for non-English words
     );
 };
+
 
 function DoctorPage() {
 
@@ -43,8 +44,10 @@ function DoctorPage() {
     // Load doctors from translations
     useEffect(() => {
         const doctorsData = t('doctors:doctors', { returnObjects: true });
-        setDoctors(doctorsData);
+        const filteredDoctors = doctorsData.filter(doc => doc.id); // Removes entries without an "id"
+        setDoctors(filteredDoctors);
     }, [t]);
+    
 
     // Find the current doctor
     useEffect(() => {
@@ -80,7 +83,7 @@ function DoctorPage() {
             elementor-default elementor-kit-5 elementor-page elementor-page-73184 
             e--ua-blink e--ua-chrome e--ua-webkit page-load-end" style={{ paddingBottom: "1rem" }}>
                 <div className="row">
-                    <div className="col-md-12 order-md-2" style={{paddingTop:'2rem'}}>
+                    <div className="col-md-12 order-md-2" style={{ paddingTop: '2rem' }}>
                         <div className="wrap cea-content">
                             <div className="team-content-area">
                                 <div className="row team">
@@ -98,9 +101,9 @@ function DoctorPage() {
                                         </div>
                                     </div>
                                     <div className="col-sm-7 team-info">
-                                        <div className="team-title" style={{marginBottom: '0'}}>
+                                        <div className="team-title" style={{ marginBottom: '0' }}>
                                             <div style={{ fontSize: "30px" }}>{doctor.name}</div>
-                                            <div className="team-designation-wrap" style={{marginBottom: '0'}}>
+                                            <div className="team-designation-wrap" style={{ marginBottom: '0' }}>
                                                 <span className="team-designation">{doctor.designation}</span>
                                             </div>
                                         </div>
@@ -151,7 +154,7 @@ function DoctorPage() {
                                                     data-id="2ce220da"
                                                     data-element_type="container"
                                                 >
-                                                    <div className="e-con-inner" style={{paddingBottom:'60px'}}>
+                                                    <div className="e-con-inner" style={{ paddingBottom: '60px' }}>
                                                         <div
                                                             className="elementor-element elementor-element-6a088048 e-con-full e-flex e-con e-child"
                                                             data-id="6a088048"
@@ -445,18 +448,18 @@ function DoctorPage() {
                                         <div className="custom-post-nav">
                                             <div className="prev-nav-link">
                                                 <Link
-                                                    to={`/${i18n.language}/${encodeURI(prevDoctor.link)}`} 
+                                                    to={`/${i18n.language}/${encodeURI(prevDoctor.link)}`}
                                                     className="doc-nav-arrows"
-                                                    >
+                                                >
                                                     <svg width="30" height="24" fill="#000000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400.004 400.004" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"></path> </g> </g></svg>
                                                     <div>{prevDoctor.name}</div>
                                                 </Link>
                                             </div>
                                             <div className="next-nav-link">
                                                 <Link
-                                                     to={`/${i18n.language}/${encodeURI(nextDoctor.link)}`}
+                                                    to={`/${i18n.language}/${encodeURI(nextDoctor.link)}`}
                                                     className="doc-nav-arrows"
-                                                    >
+                                                >
                                                     <div>{nextDoctor.name}</div>
                                                     <svg width="30" height="24" fill="#5C4033" viewBox="0 -6.5 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>

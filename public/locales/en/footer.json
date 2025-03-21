@@ -1,9 +1,10 @@
 {
     "footer": {
         "description": "Karisma's philosophy is that true beauty lies within everyone, and through their innovative, luxurious treatments, they help individuals embrace their natural allure and shine in their own way.",
-        "deptName": "Department",
+        "deptName": "Departments",
         "abtName": "About Us",
         "infoName": "Information",
+        "logo": "/assets/Images/logo_main.png",
         "departments": [
             {
                 "name": "Dental",

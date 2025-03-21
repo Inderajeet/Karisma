@@ -241,102 +241,106 @@ export default function ContactForm() {
                                         </div>
 
                                         <div className="row contact-us-form">
-                                            <div className="col-md-12">
-                                                <p>
-                                                    <input
-                                                        size={40}
-                                                        maxLength={400}
-                                                        className="cust-form-control cust-text"
-                                                        aria-invalid="false"
-                                                        placeholder={forms.name}
-                                                        value={formData.name}
-                                                        onChange={handleChange}
-                                                        onBlur={handleBlur}
-                                                        type="text"
-                                                        name="name"
-                                                    />
-                                                    {errors.name && <span className="error-text">{errors.name}</span>}
-                                                </p>
-                                            </div>
-                                            <div className="col-md-6 pr-2" style={{ width: "45%" }}>
-                                                <p>
-                                                    <input
-                                                        size={40}
-                                                        maxLength={400}
-                                                        className="cust-form-control cust-email"
-                                                        aria-required="true"
-                                                        aria-invalid="false"
-                                                        placeholder={forms.email}
-                                                        value={formData.email}
-                                                        onChange={handleChange}
-                                                        onBlur={handleBlur}
-                                                        type="text"
-                                                        name="email"
-                                                    />
-                                                    {errors.email && <span className="error-text">{errors.email}</span>}
-                                                </p>
-                                            </div>
-                                            <div className="col-md-6 pl-3 d-flex gap-3" style={{ display: 'flex', width: "55%" }}>
-                                                <p style={{ width: '21%' }}>
-                                                    <input
-                                                        size={40}
-                                                        maxLength={4}
-                                                        className="cust-form-control cust-tel"
-                                                        aria-required="true"
-                                                        aria-invalid="false"
-                                                        placeholder="+971"
-                                                        value={formData.countryCode}
-                                                        onChange={handleChange}
-                                                        onBlur={handleBlur}
-                                                        type="text"
-                                                        name="countryCode"
-                                                    />
-                                                </p>
-                                                <p style={{ width: '79%' }}>
-                                                    <input
-                                                        size={40}
-                                                        maxLength={15}
-                                                        // maxLength={400}
-                                                        className="cust-form-control cust-tel"
-                                                        aria-required="true"
-                                                        aria-invalid="false"
-                                                        placeholder={forms.phone}
-                                                        value={formData.phone}
-                                                        onChange={handleChange}
-                                                        onBlur={handleBlur}
-                                                        type="tel"
-                                                        name="phone"
-                                                    />
-                                                    {errors.phone && <span className="error-text">{errors.phone}</span>}
-                                                </p>
-                                            </div>
-                                            <div className="col-md-12">
-                                                <p>
-                                                    <textarea
-                                                        cols={40}
-                                                        rows={10}
-                                                        maxLength={2000}
-                                                        className="cust-form-control cust-textarea"
-                                                        aria-invalid="false"
-                                                        placeholder={forms.message}
-                                                        name="message"
-                                                        value={formData.message}
-                                                        onChange={handleChange}
-                                                        onBlur={handleBlur}
-                                                    />
-                                                    {errors.message && <span className="error-text">{errors.message}</span>}
-                                                </p>
-                                            </div>
-                                            <div className="col-md-12 mt-3">
-                                                <input
-                                                    className="wpcf7-form-control wpcf7-submit has-spinner third slidebottomleft"
-                                                    type="submit"
-                                                    value={isSubmitting ? "Submitting..." : forms.sendNow}
-                                                    disabled={isSubmitting}
-                                                />
-                                            </div>
+    {/* Name Input - Full Width */}
+    <div className="col-12">
+        <p>
+            <input
+                maxLength={400}
+                className="cust-form-control cust-text"
+                aria-invalid="false"
+                placeholder={forms.name}
+                value={formData.name}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                type="text"
+                name="name"
+            />
+            {errors.name && <span className="error-text">{errors.name}</span>}
+        </p>
+    </div>
 
-                                        </div>
+    {/* Email Input - Full Width on Mobile, Half on Desktop */}
+    <div className="col-12 col-md-6">
+        <p>
+            <input
+                maxLength={400}
+                className="cust-form-control cust-email"
+                aria-required="true"
+                aria-invalid="false"
+                placeholder={forms.email}
+                value={formData.email}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                type="text"
+                name="email"
+            />
+            {errors.email && <span className="error-text">{errors.email}</span>}
+        </p>
+    </div>
+
+    {/* Country Code + Phone - Stacked on Mobile, Inline on Desktop */}
+    <div className="col-12 col-md-6 d-flex gap-2">
+        <p style={{ flex: "0 0 25%" }}>
+            <input
+                maxLength={4}
+                className="cust-form-control cust-tel"
+                aria-required="true"
+                aria-invalid="false"
+                placeholder="+971"
+                value={formData.countryCode}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                type="text"
+                name="countryCode"
+            />
+        </p>
+        <p style={{ flex: "1" }}>
+            <input
+                maxLength={15}
+                className="cust-form-control cust-tel"
+                aria-required="true"
+                aria-invalid="false"
+                placeholder={forms.phone}
+                value={formData.phone}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                type="tel"
+                name="phone"
+            />
+            {errors.phone && <span className="error-text">{errors.phone}</span>}
+        </p>
+    </div>
+
+    {/* Message Input - Full Width */}
+    <div className="col-12">
+        <p>
+            <textarea
+                cols={40}
+                rows={10}
+                maxLength={2000}
+                className="cust-form-control cust-textarea"
+                aria-invalid="false"
+                placeholder={forms.message}
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                onBlur={handleBlur}
+            />
+            {errors.message && <span className="error-text">{errors.message}</span>}
+        </p>
+    </div>
+
+    {/* Submit Button */}
+    <div className="col-12 mt-3">
+        <input
+            className="wpcf7-form-control wpcf7-submit has-spinner third slidebottomleft"
+            type="submit"
+            value={isSubmitting ? "Submitting..." : forms.sendNow}
+            disabled={isSubmitting}
+        />
+    </div>
+</div>
+
                                     </form>
                                 </div>
                             </div>

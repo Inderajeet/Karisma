@@ -58,10 +58,14 @@
 
 .menu-item-has-children .menu-icon {
     position: relative;
-    left: 0;
+    right: 0;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 14px;
+    font-size: 20px;
+}
+
+.arabic .menu-item-has-children .menu-icon {
+    margin-right: 8px;
 }
 
 .mobile-sub-menu {
@@ -75,22 +79,23 @@ span.menu-icon {
 .mobile-logo {
     width: 26%;
 }
+
 .header.sticky .mobile-menu {
     position: sticky;
     top: 0;
     z-index: 1000;
-  }
-  
-  .mobile-menu {
+}
+
+.mobile-menu {
     background: #d9c5ad;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     transition: top 0.3s ease-in-out;
-  }
-  
-  .mobile-menu.hidden {
+}
+
+.mobile-menu.hidden {
     top: -100px;
-  }
-  
+}
+
 
 .mobile-menu-logo {
     width: 33%;
@@ -101,7 +106,8 @@ span.menu-icon {
     justify-content: space-between;
     align-items: start;
 }
-.menu-font{
+
+.menu-font {
     color: rgb(87, 112, 101);
     font-size: 16px;
 
@@ -122,13 +128,28 @@ span.menu-icon {
     display: none;
     font-size: 24px;
     cursor: pointer;
-    background: none;
+    background: transparent;
+    /* Initially transparent */
     border: none;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    /* No shadow initially */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    z-index: 50;
 }
 
 .hamburger {
+    background: none;
+    border: none;
+    font-size: 28px;
     color: white;
+    /* White in transparent header */
+    transition: color 0.3s ease;
+}
+
+/* When the menu is sticky/scrolling, change hamburger color */
+.mobile-align.scrolling .hamburger {
+    color: #577065;
+    /* Green color in sticky header */
 }
 
 /* When the menu is hidden during scroll */
@@ -146,9 +167,6 @@ span.menu-icon {
 
 /* When the menu is sticky */
 .mobile-align.scrolling {
-    /* background-color: rgba(255, 255, 255, 0.8);  */
-    border-radius: 0;
-    /* background-color: #577065bd; */
     background-color: #d9c5adb8;
     backdrop-filter: blur(30px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);

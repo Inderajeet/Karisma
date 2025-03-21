@@ -216,14 +216,6 @@
                             "designation": "أخصائية تعويضات الأسنان",
                             "image": "/assets/Images/doctors/Rania.png",
                             "link": "doctor/dr-rania-ghanem"
-                        },
-                        {
-                            "id": 4,
-                            "name": "د. أمير مجدي",
-                            "readMore": " اقرأ المزيد",
-                            "designation": "طبيب أسنان عام",
-                            "image": "/assets/Images/doctors/Amir.png",
-                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -365,9 +357,9 @@
                         },
                         {
                             "id": 3,
-                            "name": "د. رامليا أناركولوفا",
+                            "name": "رامليا أناركولوفا",
                             "readMore": " اقرأ المزيد",
-                            "designation": "أخصائية الأمراض الجلدية والتجميل",
+                            "designation": "مستشارة تجميل ",
                             "image": "/assets/Images/doctors/Dr Ramila.png",
                             "link": "doctor/dr-ramilia-anarkulova"
                         }
@@ -667,7 +659,7 @@
                         {
                             "id": 8,
                             "name": "أجهزة العناية بالبشرة",
-                            "image": "../assets/Images/depts/skincare/Collagen/body-image.png",
+                            "image": "../assets/Images/depts/skincare/facial-machines/facial-machines-body.jpg",
                             "link": "skinCare/facial-machines",
                             "readMore": " اقرأ المزيد",
                             "designation": ""
@@ -675,7 +667,7 @@
                         {
                             "id": 9,
                             "name": "علاجات الشعر",
-                            "image": "../assets/Images/depts/skincare/Collagen/body-image.png",
+                            "image": "../assets/Images/depts/skincare/hair-treatment/hair-treatment-body.jpg",
                             "link": "skinCare/hair-treatment",
                             "readMore": " اقرأ المزيد",
                             "designation": ""
@@ -702,7 +694,7 @@
                     "doctors": [
                         {
                             "id": 1,
-                            "name": " نزيهة الطباع ",
+                            "name": "د. نزيهة الطباع ",
                             "readMore": " اقرأ المزيد",
                             "designation": " خبيرة بشرة ومعالجة تجميل ",
                             "image": "/assets/Images/doctors/Naziha.png",
@@ -841,14 +833,6 @@
                             "designation": " أخصائية تغذية ",
                             "image": "/assets/Images/doctors/Dr Elissa.png",
                             "link": "doctor/dt-elissa-a-ahmadieh"
-                        },
-                        {
-                            "id": 2,
-                            "name": " دكتور مهدي شيدفش ",
-                            "readMore": " اقرأ المزيد",
-                            "designation": " طبيب تجميل ",
-                            "image": "/assets/Images/doctors/mahdi.png",
-                            "link": "doctor/dr-mehdi-shidvash"
                         }
                     ]
                 }
@@ -958,7 +942,7 @@
                     "doctors": [
                         {
                             "id": 1,
-                            "name": " دكتور يوري ماكرينو ",
+                            "name": " د. يوري ماكرينو ",
                             "readMore": " اقرأ المزيد",
                             "designation": " جراح تجميل واستشاري ",
                             "image": "/assets/Images/doctors/Dr Yuri.png",

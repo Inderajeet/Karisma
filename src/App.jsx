@@ -127,7 +127,12 @@ useEffect(() => {
           <Route path="/careers" element={<Careers />} />  
           <Route path="cart" element={<Cart />} />
           <Route path="checkout" element={<Checkout />} />
-          <Route path="/doctor/:doctorName" element={<DoctorPage />} />
+          <Route path="/doctor/:doctorName" element={
+            <React.Fragment>
+              {console.log("Doctor route accessed, param:", window.location.pathname)}
+              <DoctorPage />
+            </React.Fragment>
+          } />
         </Routes>
       </CartProvider>
       <Footer />

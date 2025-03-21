@@ -161,7 +161,7 @@ user agent stylesheet img {
 }
 
 ::selection {
-    background-color: #000;
+    background-color: #466055;
     color: #ffffffb3
 }
 
@@ -21322,6 +21322,11 @@ td span svg.sDeactivate {
     padding-left: 1rem;
 }
 
+.arabic .fixedRit ul li .bookNow {
+    justify-content: center;
+    direction: ltr;
+}
+
 .fixedRit ul li .bookNow {
     display: flex;
     align-items: center;
@@ -21338,7 +21343,18 @@ td span svg.sDeactivate {
     position: relative;
     border: 1px solid #fbf7f0;
     box-shadow: 4px 0px 16px rgba(43, 43, 43, .48);
+    justify-content: space-around;
+}
 
+.appointmentText{
+    font-weight: bold;
+    transform: rotate(180deg);
+    transform-origin: center center;
+    margin-left: 5px;
+}
+
+.arabic .appointmentText{
+    margin-left: 0px;
 }
 
 .hoveranim {

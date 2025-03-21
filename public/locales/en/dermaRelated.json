@@ -143,7 +143,7 @@
                 },
                 {
                     "type": "sub-heading-content-last",
-                    "heading": "Embark on your journey to a tighter abdomen with PDO Tummy Threads at Karisma Specialist Medical Center. Our skilled specialists will administer this quick, effective treatment in a 45-60-minute session under local anesthesia, providing you with a refreshed, more sculpted look."
+                    "description": "Embark on your journey to a tighter abdomen with PDO Tummy Threads at Karisma Specialist Medical Center. Our skilled specialists will administer this quick, effective treatment in a 45-60-minute session under local anesthesia, providing you with a refreshed, more sculpted look."
                 }
             ]
         },
@@ -161,7 +161,7 @@
                     "bannerPosition": "center"
                 },
                 {
-                    "type": "content",
+                    "type": "cont-content",
                     "title": "What is Facial Rejuvenation?",
                     "description": "Facial Rejuvenation Single Needle threads provide a non-surgical solution for lifting and rejuvenating various areas of the face, offering a comprehensive approach to facial rejuvenation.",
                     "features": [
@@ -181,7 +181,7 @@
                 },
                 {
                     "type": "sub-heading-content-last",
-                    "heading": "Sessions typically last 30-60 minutes, with results customized to your individual skin needs, ensuring a refreshed, youthful appearance that lasts."
+                    "description": "Sessions typically last 30-60 minutes, with results customized to your individual skin needs, ensuring a refreshed, youthful appearance that lasts."
                 }
             ]
         }

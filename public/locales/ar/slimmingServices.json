@@ -123,14 +123,6 @@
               "designation": " أخصائية تغذية ",
               "image": "/assets/Images/doctors/Dr Elissa.png",
               "link": "doctor/dt-elissa-a-ahmadieh"
-            },
-            {
-              "id": 2,
-              "name": " دكتور مهدي شيدفش ",
-              "readMore": " اقرأ المزيد",
-              "designation": " طبيب تجميل ",
-              "image": "/assets/Images/doctors/mahdi.png",
-              "link": "doctor/dr-mehdi-shidvash"
             }
           ]
         }
@@ -243,14 +235,6 @@
               "designation": " أخصائية تغذية ",
               "image": "/assets/Images/doctors/Dr Elissa.png",
               "link": "doctor/dt-elissa-a-ahmadieh"
-            },
-            {
-              "id": 2,
-              "name": " دكتور مهدي شيدفش ",
-              "readMore": " اقرأ المزيد",
-              "designation": " طبيب تجميل ",
-              "image": "/assets/Images/doctors/mahdi.png",
-              "link": "doctor/dr-mehdi-shidvash"
             }
           ]
         }
@@ -346,14 +330,6 @@
               "designation": " أخصائية تغذية ",
               "image": "/assets/Images/doctors/Dr Elissa.png",
               "link": "doctor/dt-elissa-a-ahmadieh"
-            },
-            {
-              "id": 2,
-              "name": " دكتور مهدي شيدفش ",
-              "readMore": " اقرأ المزيد",
-              "designation": " طبيب تجميل ",
-              "image": "/assets/Images/doctors/mahdi.png",
-              "link": "doctor/dr-mehdi-shidvash"
             }
           ]
         }

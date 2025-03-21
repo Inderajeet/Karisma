@@ -1,5 +1,5 @@
 .background-img {
-  height: 350px; /* Base height */
+  height: 325px; /* Base height */
   background-size: cover;
   background-position: right;
   transition: background-image 0.5s ease-in-out;
@@ -12,7 +12,7 @@
 
 @media (min-width: 992px) {
   .background-img {
-    height: 50vh;
+    height: 60vh;
   }
 }
 

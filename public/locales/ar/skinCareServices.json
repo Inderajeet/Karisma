@@ -224,7 +224,7 @@
         },
         {
           "type": "content",
-          "title": "Our Doctors",
+          "title": "أطباؤنا",
           "description": ""
         },
         {
@@ -242,7 +242,7 @@
           "doctors": [
             {
               "id": 1,
-              "name": " نزيهة الطباع ",
+              "name": "د. نزيهة الطباع ",
               "readMore": " اقرأ المزيد",
               "designation": " خبيرة بشرة ومعالجة تجميل ",
               "image": "/assets/Images/doctors/Naziha.png",
@@ -260,7 +260,7 @@
           "type": "banner",
           "deptName": "العناية بالبشرة",
           "deptLink": "skincare",
-          "serviceName": "Peeling",
+          "serviceName": "علاجات التقشير",
           "bannerImage": "../assets/Images/depts/skincare/Peeling/Main-Banner.png",
           "bannerPosition": "right",
           "home": "الصفحة الرئيسية "
@@ -347,7 +347,7 @@
         },
         {
           "type": "content",
-          "title": "Our Doctors",
+          "title": "أطباؤنا",
           "description": ""
         },
         {
@@ -365,7 +365,7 @@
           "doctors": [
             {
               "id": 1,
-              "name": " نزيهة الطباع ",
+              "name": "د. نزيهة الطباع ",
               "readMore": " اقرأ المزيد",
               "designation": " خبيرة بشرة ومعالجة تجميل ",
               "image": "/assets/Images/doctors/Naziha.png",
@@ -529,7 +529,7 @@
         },
         {
           "type": "content",
-          "title": "Our Doctors",
+          "title": "أطباؤنا",
           "description": ""
         },
         {
@@ -547,7 +547,7 @@
           "doctors": [
             {
               "id": 1,
-              "name": " نزيهة الطباع ",
+              "name": "د. نزيهة الطباع ",
               "readMore": " اقرأ المزيد",
               "designation": " خبيرة بشرة ومعالجة تجميل ",
               "image": "/assets/Images/doctors/Naziha.png",
@@ -726,7 +726,7 @@
         },
         {
           "type": "content",
-          "title": "Our Doctors",
+          "title": "أطباؤنا",
           "description": ""
         },
         {
@@ -744,7 +744,7 @@
           "doctors": [
             {
               "id": 1,
-              "name": " نزيهة الطباع ",
+              "name": "د. نزيهة الطباع ",
               "readMore": " اقرأ المزيد",
               "designation": " خبيرة بشرة ومعالجة تجميل ",
               "image": "/assets/Images/doctors/Naziha.png",
@@ -820,7 +820,7 @@
         },
         {
           "type": "content",
-          "title": "Our Doctors",
+          "title": "أطباؤنا",
           "description": ""
         },
         {
@@ -838,7 +838,7 @@
           "doctors": [
             {
               "id": 1,
-              "name": " نزيهة الطباع ",
+              "name": "د. نزيهة الطباع ",
               "readMore": " اقرأ المزيد",
               "designation": " خبيرة بشرة ومعالجة تجميل ",
               "image": "/assets/Images/doctors/Naziha.png",
@@ -911,7 +911,7 @@
         },
         {
           "type": "content",
-          "title": "Our Doctors",
+          "title": "أطباؤنا",
           "description": ""
         },
         {
@@ -929,7 +929,7 @@
           "doctors": [
             {
               "id": 1,
-              "name": " نزيهة الطباع ",
+              "name": "د. نزيهة الطباع ",
               "readMore": " اقرأ المزيد",
               "designation": " خبيرة بشرة ومعالجة تجميل ",
               "image": "/assets/Images/doctors/Naziha.png",
@@ -954,7 +954,7 @@
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
+          "imageUrl": "../assets/Images/depts/skincare/facial-machines/facial-machines-body.jpg",
           "imageAlt": "الأجهزة والتقنيّات لعلاج البشرة",
           "title": "الأجهزة والتقنيّات لعلاج البشرة",
           "content": [
@@ -1057,7 +1057,7 @@
           "doctors": [
             {
               "id": 1,
-              "name": " نزيهة الطباع ",
+              "name": "د. نزيهة الطباع ",
               "readMore": " اقرأ المزيد",
               "designation": " خبيرة بشرة ومعالجة تجميل ",
               "image": "/assets/Images/doctors/Naziha.png",
@@ -1082,7 +1082,7 @@
         },
         {
           "type": "image-content",
-          "imageUrl": "../assets/Images/banner/about_dept/skincare.png",
+          "imageUrl": "../assets/Images/depts/skincare/hair-treatment/hair-treatment-body.jpg",
           "imageAlt": "علاجات الشعر",
           "title": "علاجات الشعر",
           "content": [
@@ -1158,7 +1158,7 @@
         },
         {
           "type": "content",
-          "title": "Our Doctors",
+          "title": "أطباؤنا",
           "description": ""
         },
         {
@@ -1176,7 +1176,7 @@
           "doctors": [
             {
               "id": 1,
-              "name": " نزيهة الطباع ",
+              "name": "د. نزيهة الطباع ",
               "readMore": " اقرأ المزيد",
               "designation": " خبيرة بشرة ومعالجة تجميل ",
               "image": "/assets/Images/doctors/Naziha.png",

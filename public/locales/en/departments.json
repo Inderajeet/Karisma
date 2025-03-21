@@ -9,7 +9,8 @@
                     "deptName": "Dental",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/banner/dept_banner/dental.png",
-                    "bannerPosition": "left"
+                    "bannerPosition": "left",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",
@@ -143,7 +144,7 @@
                         },
                         {
                             "id": 7,
-                            "name": "Dental Surgical Treatment",
+                            "name": "Dental Surgery",
                             "image": "/assets/Images/depts/dental/Dental-Surgical-Treatment/body-image.png",
                             "link": "dental/dental-surgery",
                             "readMore": "Read More",
@@ -211,14 +212,6 @@
                             "designation": "Prosthodontics Specialist",
                             "image": "/assets/Images/doctors/Rania.png",
                             "link": "doctor/dr-rania-ghanem"
-                        },
-                        {
-                            "id": 4,
-                            "name": "Dr. Amir Magdy",
-                            "readMore": "Read More",
-                            "designation": "GP Dentist",
-                            "image": "/assets/Images/doctors/Amir.png",
-                            "link": "doctor/dr-amir-magdy"
                         }
                     ]
                 }
@@ -233,7 +226,8 @@
                     "deptName": "Gynecology",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/banner/dept_banner/gyne.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",
@@ -410,7 +404,8 @@
                     "deptName": "Derma",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/banner/dept_banner/derma.png",
-                    "bannerPosition": "center"
+                    "bannerPosition": "center",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",
@@ -536,9 +531,9 @@
                         },
                         {
                             "id": 3,
-                            "name": "Dr. Ramilia Anarkulova",
+                            "name": "Ramilia Anarkulova",
                             "readMore": "Read More",
-                            "designation": "Dermatologist-Cosmetologist",
+                            "designation": "Beauty consultant",
                             "image": "/assets/Images/doctors/Dr Ramila.png",
                             "link": "doctor/dr-ramilia-anarkulova"
                         }
@@ -555,7 +550,8 @@
                     "deptName": "SkinCare",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/banner/dept_banner/skincare.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",
@@ -657,7 +653,7 @@
                         {
                             "id": 7,
                             "name": "Facial Machines",
-                            "image": "../assets/Images/depts/skincare/Collagen/body-image.png",
+                            "image": "../assets/Images/depts/skincare/facial-machines/facial-machines-body.jpg",
                             "link": "skinCare/facial-machines",
                             "readMore": "Read More",
                             "designation": ""
@@ -665,7 +661,7 @@
                         {
                             "id": 8,
                             "name": "Hair Treatment",
-                            "image": "../assets/Images/depts/skincare/Collagen/body-image.png",
+                            "image": "../assets/Images/depts/skincare/hair-treatment/hair-treatment-body.jpg",
                             "link": "skinCare/hair-treatment",
                             "readMore": "Read More",
                             "designation": ""
@@ -711,7 +707,8 @@
                     "deptName": "Nutrition and Slimming",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/banner/dept_banner/slimming.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",
@@ -830,14 +827,6 @@
                             "designation": "Dietician & Nutritionist Specialist",
                             "image": "/assets/Images/doctors/Dr Elissa.png",
                             "link": "doctor/dt-elissa-a-ahmadieh"
-                        },
-                        {
-                            "id": 2,
-                            "name": "Dr. Mehdi Shidvash",
-                            "readMore": "Read More",
-                            "designation": "Aesthetic Physician",
-                            "image": "/assets/Images/doctors/mahdi.png",
-                            "link": "doctor/dr-mehdi-shidvash"
                         }
                     ]
                 }
@@ -852,7 +841,8 @@
                     "deptName": "Plastic Surgery",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/banner/dept_banner/plastic_surgery.png",
-                    "bannerPosition": "right"
+                    "bannerPosition": "right",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",
@@ -964,7 +954,8 @@
                     "deptName": "Laser Hair Removal",
                     "serviceName": "",
                     "bannerImage": "../assets/Images/banner/dept_banner/laser.png",
-                    "bannerPosition": "left"
+                    "bannerPosition": "left",
+                    "home": "Home"
                 },
                 {
                     "type": "image-content",

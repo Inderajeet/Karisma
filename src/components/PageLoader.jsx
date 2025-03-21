@@ -1,27 +1,19 @@
-// import React from 'react';
-// import Lottie from 'lottie-react';
-// import dentalLoaderAnimation from '../custom_css/loader.json'; 
-// import '../custom_css/pageLoader.css';  
-
-// const PageLoader = () => {
-//   return (
-//     <div className="loader-container">
-//       <Lottie animationData={dentalLoaderAnimation} loop={true}  className="lottie-animation" />
-//     </div>
-//   );
-// };
-
-// export default PageLoader;
-
 import React from 'react';
-import '../custom_css/pageLoader.css'; // Ensure this CSS is updated for the animation
-import logo from '../custom_css/logo_main-3.png'; // Replace with the path to your logo
+import { useTranslation } from 'react-i18next';
+import '../custom_css/pageLoader.css'; 
+
+// Import both logos
+import logoEn from '../custom_css/logo_main-3.png';
+import logoAr from '../custom_css/Karisma_Logo_gold_ar.png';
 
 const PageLoader = () => {
+  const { i18n } = useTranslation();
+  const isArabic = i18n.language === 'ar'; // Check if the language is Arabic
+
   return (
     <div className="loader-container">
       <div className="logo-wrapper">
-        <img src={logo} alt="Logo" className="logo" />
+        <img src={isArabic ? logoAr : logoEn} alt="Logo" className="logo" />
       </div>
     </div>
   );

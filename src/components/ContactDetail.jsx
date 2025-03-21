@@ -12,9 +12,9 @@ const ContactDetail = () => {
   const details = [
     {
       title: "Phone Number",
-      content: "06 506 8777",
+      content: contact.contactInfo && contact.contactInfo[0] ? contact.contactInfo[0].content : "+971 6 506 8777",
       content2: "0504525189",
-      link: "tel:06 506 8777",
+      link: contact.contactInfo && contact.contactInfo[0] ? contact.contactInfo[0].link : "tel:+971 6 506 8777",
       imgSrc: phoneIcon,
       // imgSrc: "../assets/wp-content/uploads/2024/05/dental-call.webp",
       imgAlt: "Phone Icon",
@@ -107,8 +107,35 @@ const ContactDetail = () => {
                       <div className="media-body">
                         <h4 className="feature-box-title">{contact.contactInfo[0].title}</h4>
                         <div className="fbox-content">
-                          <a href={contact.contactInfo[0].link}>{contact.contactInfo[0].content}</a><br></br>
-                          <a href={contact.contactInfo[0].link2}>{contact.contactInfo[0].content2}</a>
+                          <a href={contact.contactInfo[0].link} className="h-phone" style={{ display: 'inline-flex', alignItems: 'center' }}>
+                            {i18n.language === "ar" ? (
+                              <>
+                                <span>{contact.contactInfo[0].content}</span>
+                                <i className="bi bi-telephone-forward-fill" style={{ marginLeft: '8px' }} />
+                              </>
+                            ) : (
+                              <>
+                                <i className="bi bi-telephone-forward-fill" style={{ marginRight: '8px' }} />
+                                <span>{contact.contactInfo[0].content}</span>
+                              </>
+                            )}
+                          </a><br></br>
+                          {contact.contactInfo[0].link2 && contact.contactInfo[0].content2 && (
+                            <a href={contact.contactInfo[0].link2} className="h-phone" style={{ display: 'inline-flex', alignItems: 'center' }}>
+                              {i18n.language === "ar" ? (
+                                <>
+                                  <span>{contact.contactInfo[0].content2}</span>
+                                  <i className="bi bi-telephone-forward-fill" style={{ marginLeft: '8px' }} />
+                                </>
+                              ) : (
+                                <>
+                                  <i className="bi bi-telephone-forward-fill" style={{ marginRight: '8px' }} />
+                                  <span>{contact.contactInfo[0].content2}</span>
+                                </>
+                              )}
+                            </a>
+                          )}
+
                         </div>
                       </div>
                     </div>
@@ -161,7 +188,7 @@ const ContactDetail = () => {
                       <div className="media-body">
                         <h4 className="feature-box-title">{contact.contactInfo[1].title}</h4>
                         <div className="fbox-content">
-                          <a href={contact.contactInfo[1].link}>{contact.contactInfo[1].content}</a>
+                          <a href={contact.contactInfo[1].link} style={{ display: 'inline-flex', alignItems: 'center' }}>{contact.contactInfo[1].content}</a>
                         </div>
                       </div>
                     </div>

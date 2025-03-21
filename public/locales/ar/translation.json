@@ -1,4 +1,11 @@
 {
+  "header": {
+    "logo": "/assets/Images/Karisma_Logo_gold_ar.png",
+    "stickyLogo": "/assets/Images/Karisma_Logo_green_ar.png",
+    "appointmentBtn": "/assets/Images/Karisma_Logo_gold_ar.png",
+    "arabIcon": "/assets/Images/lan/arabIcon.png",
+    "engIcon": "/assets/Images/lan/engIcon.png"
+  },
   "about1": {
     "about1Heading": "من نحن:",
     "about1Desc1": "لأن الكاريزما هبة إلهية تعني الثقة والتمكين والتعبير عن الذات. صممنا علامتنا التجارية الفاخرة للعناية بالجمال، لنساعدك في إبراز كاريزما جمالك الداخلي من خلال تقديم علاجات استثنائية مصممة خصيصًا لتناسب احتياجاتك الفريدة باستخدام أحدث التقنيات.",
@@ -70,7 +77,7 @@
       "link": "/about_us"
     },
     {
-      "label": "األقسام",
+      "label": "الأقسام",
       "link": "/departments",
       "subMenu": [
         {

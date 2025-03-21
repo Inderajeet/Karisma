@@ -4,14 +4,15 @@ import "./ServiceBanner.css";
 import { Link, useParams } from "react-router-dom";
 
 export const applyFontFallback = (text) => {
-    if (!text || typeof text !== "string") return text;
+    if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
 
-    return text.split("").map((char, index) =>
-        /[A-Za-z0-9 ]/.test(char)
-            ? char
-            : <span key={index} className="fallback-font">{char}</span>
+    return text.split(/\b/).map((word, index) => 
+        /^[A-Za-z0-9 ]+$/.test(word) // If word is English/number/space, keep normal font
+            ? word
+            : <span key={index} className="fallback-font">{word}</span> // Apply fallback only for non-English words
     );
 };
+
 
 const CommonServiceBanner = ({ deptName, serviceName, bannerImage, bannerPosition, deptLink, home }) => {
     const { lng } = useParams();
@@ -25,7 +26,7 @@ const CommonServiceBanner = ({ deptName, serviceName, bannerImage, bannerPositio
     return (
         <>
             <div
-                className="dept-background-img"
+                className="background-img"
                 style={{
                     backgroundImage: `url(${bannerImageUrl})`, backgroundPosition: `${bannerPosition}`
                 }}            >
@@ -41,25 +42,27 @@ const CommonServiceBanner = ({ deptName, serviceName, bannerImage, bannerPositio
                                         <h1 className="page-title">{applyFontFallback(serviceName || deptName)}</h1>
                                         <div className="breadcrumbs-wrap">
                                             <li className="breadcrumb-wrap">
-                                                <ul id="breadcrumb" className="breadcrumb nav">
+                                                <ul id="breadcrumb" className="breadcrumb nav" style={{ display: 'flex', alignItems: 'center' }}>
                                                     <li>
                                                         <Link to={`/${lng}`}>
                                                             <span style={{ color: '#fff' }}>{home}</span>
                                                         </Link>
                                                     </li>
                                                     {deptName && (
-                                                        <li style={{ marginLeft: "4px" }}>
+                                                        <li>
                                                             <Link
                                                                 to={`/${lng}/${lng === 'ar' ? deptLink : deptName.toLowerCase()}`}
-                                                                style={{ color: '#fff' }}
+                                                                style={{ color: '#fff', marginLeft: '5px' }}
                                                             >
-                                                                | {deptName}
+                                                                <span className="breadcrumb-separator">|</span> {deptName}
                                                             </Link>
                                                         </li>
                                                     )}
                                                     {serviceName && (
-                                                        <li style={{ marginLeft: "4px", color: '#fff' }}>
-                                                            | {serviceName}
+                                                        <li>
+                                                            <span style={{ color: '#fff', marginLeft: '5px' }}>
+                                                                <span className="breadcrumb-separator">|</span> {serviceName}
+                                                            </span>
                                                         </li>
                                                     )}
                                                 </ul>

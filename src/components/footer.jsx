@@ -8,7 +8,7 @@ import i18n from "../i18n";
 export default function Footer() {
   const { t, i18n } = useTranslation('footer');
   const footers = t('footer:footer', { returnObjects: true }); // Fetch the array of doctors
-
+  // const logoSrc = t('header.stickyLogo');
 
   const logoAlt = "Karisma Logo";
   const logoStyle = { width: 115 };
@@ -44,31 +44,6 @@ export default function Footer() {
   const { styles, images } = jsonData;
   const { footer } = styles; // Destructure the JSON as needed
   const { header } = images;
-  const footerDescription =
-    "Karisma's philosophy is that true beauty lies within everyone, and through their innovative, luxurious treatments, they help individuals embrace their natural allure and shine in their own way.";
-
-  const departments = [
-    { name: "Dental", link: "/dental" },
-    { name: "Derma", link: "/derma" },
-    { name: "Skin Care", link: "/skincare" },
-    { name: "Plastic Surgery", link: "/plastic-surgery" },
-    { name: "Gynecology", link: "/gynecology" },
-    { name: "Nutrition and Slimming", link: "/slimming" },
-    { name: "Laser Hair Removal", link: "/laser-hair-removal" },
-  ];
-
-  const corporate = [
-    { name: "About Us", link: "/about_us" },
-    { name: "Our Doctors", link: "/doctors" },
-    { name: "Careers", link: "/careers" },
-    { name: "Contact Us", link: "/contact_us" },
-  ];
-
-  const service = [
-    { name: "Privacy Policy", link: "/policies/privacy-policy" },
-    { name: "Cookie Policy", link: "/policies/cookie-policy" },
-    { name: "Terms and conditions", link: "/policies/terms-conditions" },
-  ];
 
   const socialLinks = [
     { platform: "Facebook", iconClass: "bi-facebook", link: "#" },
@@ -77,19 +52,6 @@ export default function Footer() {
     { platform: "Pinterest", iconClass: "bi-pinterest", link: "#" },
   ];
 
-  const footerContact = {
-    title: "Schedule An Appointment Today",
-    button: {
-      text: "APPOINTMENT",
-      iconClass: "fas fa-tooth",
-      link: "/",
-    },
-    time: "09 : 00 AM - 08 : 00 PM",
-    days: "Monday - Sunday",
-  };
-
-  const copyrightText =
-    "© Copyright 2025. Karisma Medical Center";
   const companyLink = { name: "", link: "/" };
 
   return (
@@ -116,10 +78,15 @@ export default function Footer() {
                               <img
                                 loading="lazy"
                                 decoding="async"
-                                src={header['stickyLogo']}
+                                // src={header['stickyLogo'] || header['logo'] || '/assets/Images/logo_main_3.png'}
+                                src={footers.logo}
                                 alt={logoAlt}
                                 className="wp-image-71634"
                                 style={logoStyle}
+                                onError={(e) => {
+                                  e.target.onerror = null;
+                                  // e.target.src = '/assets/Images/logo_main_3.png';
+                                }}
                               />
                             </Link>
                           </figure>

@@ -15,6 +15,7 @@ const Departments = () => {
                 deptName={departmentsData[0].deptName}
                 bannerImage={departmentsData[0].bannerImage}
                 bannerPosition={departmentsData[0].bannerPosition}
+                deptLink={departmentsData[0].deptLink}
                 home={departmentsData[0].home}
             />
             <div className="customContainer depts">

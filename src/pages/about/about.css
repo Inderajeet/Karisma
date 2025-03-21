@@ -22,16 +22,81 @@
 }
 
 .our-story-heading {
-  font-size: 34px; /* Slightly reduced */
+  font-size: 34px;
   font-weight: bold;
-  margin-bottom: 15px; /* Reduced from 20px */
+  margin-bottom: 40px; /* Increased spacing after heading */
   color: #405D53;
 }
 
 .our-story-text {
-  /* font-size: 18px; */
-  /* line-height: 1.5; */
-  padding: 8px; 
+  padding: 8px 15px;
+  margin-bottom: 30px; /* Regular spacing for paragraphs */
+  line-height: 1.8;
+  /* font-size: 16px; */
+  /* color: #333; */
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Add space ABOVE the second paragraph */
+.second-paragraph {
+  margin-top: 10px; /* Reduced from 20px to 10px for extremely minimal spacing */
+}
+
+.our-story-text:last-child {
+  margin-bottom: 0;
+}
+
+/* Creative divider styles */
+.story-divider {
+  width: 250px; /* Fixed width for the divider */
+  margin: 45px auto 60px; /* Reduced bottom margin from 70px to 60px */
+  height: 20px;
+  position: relative;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story-divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    #405D53,
+    #405D53 42%,
+    transparent 42%,
+    transparent 58%,
+    #405D53 58%,
+    #405D53 100%
+  );
+  z-index: 0;
+}
+
+.diamond-shape {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  transform: rotate(45deg);
+  border: 1px solid #405D53;
+  background: transparent;
+  z-index: 1;
+}
+
+.diamond-inner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background-color: #405D53;
 }
 
 .sec1 {
@@ -109,8 +174,11 @@
 }
 
 .ceo-image-container img {
-  height: 500px; /* Reduced from 527px */
-  object-fit: cover;
+  height: auto; /* Changed from fixed height to auto */
+  max-height: 500px; /* Added max-height instead of fixed height */
+  width: 100%; /* Added width */
+  max-width: 400px; /* Limited maximum width */
+  object-fit: contain; /* Changed from 'cover' to 'contain' to prevent cropping */
 }
 
 .ceo-text-container {
@@ -155,7 +223,8 @@
   }
 
   .ceo-image-container img {
-      height: 380px; /* Reduced */
+    max-height: 380px; /* Changed from fixed height to max-height */
+    max-width: 300px; /* Added max-width for medium screens */
   }
 }
 
@@ -173,7 +242,8 @@
   }
 
   .ceo-image-container img {
-      height: 320px; /* Reduced */
+    max-height: 320px; /* Changed from fixed height to max-height */
+    max-width: 260px; /* Added max-width for small screens */
   }
 
   .background-container {

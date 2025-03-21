@@ -1,4 +1,11 @@
 {
+  "header": {
+    "logo": "/assets/Images/logo_main_3.png",
+    "stickyLogo": "/assets/Images/logo_main.png",
+    "appointmentBtn": "/assets/Images/logo_main_3.png",
+    "arabIcon": "/assets/Images/lan/arabIcon.png",
+    "engIcon": "/assets/Images/lan/engIcon.png"
+  },
   "about1": {
     "about1Heading": "About us",
     "about1Desc1": "Karisma Stands for empowerment and self-expression, it is a luxury aesthetic brand that enhances and brings out your inner charisma by offering transformative treatments tailored to unique needs using latest technologies.",
@@ -70,7 +77,7 @@
       "link": "/about_us"
     },
     {
-      "label": "Department",
+      "label": "Departments",
       "link": "/departments",
       "subMenu": [
         {

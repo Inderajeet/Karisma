@@ -62,6 +62,16 @@ textarea.cust-form-control {
   color: #405D53;
   font-size: 15px;
 }
+
+textarea{
+  height: 70px;
+}
+.arabic input.cust-form-control,
+.arabic textarea.cust-form-control {
+  text-align: right;
+  padding-right: 2px;
+}
+
 .cea-button-wrapper .cea-button-link:after{
   background-color: #405D53 !important;
 }
@@ -101,6 +111,11 @@ input[type="radio"] {
   position: static !important;
   cursor: pointer;
 }
+
+.arabic input[type="radio"] {
+  margin-left: 8px;
+}
+
 
 .elementor-73311 .elementor-element.elementor-element-302573ab:not(.elementor-motion-effects-element-type-background) {
   /* background-color: white; */
@@ -164,6 +179,10 @@ textarea:focus::placeholder{
   border-bottom: 2px solid #8C9990;
   border-radius: 0;   outline: none;
   transition: border-color 0.3s;
+}
+
+.arabic .input{
+  text-align: right;
 }
 
 .input:focus {

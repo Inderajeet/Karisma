@@ -3,10 +3,13 @@ import Booking from "./BookingForm";
 import { fetchAllJson } from "../utils/fetchAllJson";
 import { useTranslation } from "react-i18next";
 
+import logoEn from '../custom_css/logo_main-3.png';
+import logoAr from '../custom_css/Karisma_Logo_gold_ar.png';
 
 const SocialIcons = () => {
 
     const { t, i18n } = useTranslation('forms');
+    const isArabic = i18n.language === 'ar'; // Check if the language is Arabic
 
     const forms = t('forms', { returnObjects: true });
     const [showBooking, setShowBooking] = useState(false);
@@ -53,7 +56,7 @@ const SocialIcons = () => {
             >
                 <div className="imgAlign" >
 
-                    <img src={header['appointmentBtn']} alt="Logo" />
+                    <img src={isArabic ? logoAr : logoEn} alt="Logo" />
                 </div>
                 <span style={{
                     fontWeight: 'bold', transformOrigin: 'center',
@@ -74,12 +77,9 @@ const SocialIcons = () => {
                         >
                             <div className="" style={{ paddingBottom: '10px' }}>
 
-                                <img src={header['appointmentBtn']} alt="Logo" style={{ height: '30px', width: '30.494px' }} />
+                                <img src={isArabic ? logoAr : logoEn} alt="Logo" style={{ height: '30px', width: '30.494px' }} />
                             </div>
-                            <span style={{
-                                fontWeight: 'bold', transform: 'rotate(180deg)', transformOrigin: 'center',
-                                marginLeft: '5px'
-                            }}>{forms.appointment}</span>
+                            <span className="appointmentText">{forms.appointment}</span>
 
                         </a>
                     </li>

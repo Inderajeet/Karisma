@@ -71,7 +71,18 @@ const About = () => {
       <div className="our-story-container">
         <h2 className="title our-story-heading">{about?.our_story?.title}</h2>
         {about?.our_story?.content.map((c, i) => {
-          return <div><p className="our-story-text" key={i}>{t(c)}</p><br /></div>
+          return (
+            <div key={i}>
+              <p className={`our-story-text ${i === 1 ? 'second-paragraph' : ''}`}>{t(c)}</p>
+              {i === 1 && (
+                <div className="story-divider">
+                  <span className="diamond-shape">
+                    <span className="diamond-inner"></span>
+                  </span>
+                </div>
+              )}
+            </div>
+          );
         })}
 
       </div>

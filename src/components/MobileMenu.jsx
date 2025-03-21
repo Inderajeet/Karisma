@@ -71,26 +71,20 @@ const MobileMenu = () => {
         const newPath = location.pathname.replace(`/${lng}`, `/${newLang}`);
         navigate(newPath);
     };
-    useEffect(() => {
-        if (!data || !data.images || !data.images.header) return; // Check if data is loaded
+    const header = t("header", { returnObjects: true });
+ useEffect(() => {
+    const header = t("header", { returnObjects: true });
+    setLogo(header.logo);
+  }, [t]);
 
-        const { header } = data.images;
-        // Set initial logo
-        setLogo(header.logo);
-
-    }, [data]);
-    useEffect(() => {
-        if (!data || !data.images || !data.images.header) return; // Check if data is loaded
-
-        const { header } = data.images;
-
-        if (isSticky) {
-            setLogo(header.stickyLogo || header.logo); // Use stickyLogo if available, fallback to regular logo
-        } else {
-            setLogo(header.logo)
-        }
-
-    }, [isSticky, data]);
+  useEffect(() => {
+    const header = t("header", { returnObjects: true });
+    if (isSticky) {
+      setLogo(header.stickyLogo || header.logo);
+    } else {
+      setLogo(header.logo);
+    }
+  }, [isSticky, t]);
 
     const { images } = data;
     const menuItems = t("menuItems", { returnObjects: true }) || []; // Translation for menu items
@@ -130,8 +124,40 @@ const MobileMenu = () => {
                             {item.label}
                         </span>
                         {item.subMenu && (
-                            <span className="menu-icon" onClick={(event) => toggleSubmenu(event, currentIndex)}>
-                                {submenuStates[currentIndex] ? "▼" : "▶"}
+                            <span
+                                className={`menu-icon ${lng === "ar" ? "right-menu" : null}`}
+                                onClick={(event) => toggleSubmenu(event, currentIndex)}
+                            >
+                                {submenuStates[currentIndex] ? (
+                                    <svg
+                                        width="12"
+                                        height="16"
+                                        viewBox="0 0 12 16"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path d="M0 4L6 12L12 4H0Z" fill="#577065" />
+                                    </svg>
+                                ) : lng === "ar" ? (
+                                    <svg
+                                        width="12"
+                                        height="16"
+                                        viewBox="0 0 12 16"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path d="M8 0L0 8L8 16V0Z" fill="#577065" />
+                                    </svg>
+                                ) : (
+                                    <svg
+                                        width="12"
+                                        height="16"
+                                        viewBox="0 0 12 16"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path d="M4 0L12 8L4 16V0Z" fill="#577065" />
+                                    </svg>
+                                )}
                             </span>
                         )}
                         {item.subMenu && renderSubMenu(item.subMenu, currentIndex)} {/* Recursive call with correct index */}
@@ -146,7 +172,7 @@ const MobileMenu = () => {
             <SocialIcons />
             {/* Mobile Header */}
             <div className={`mobile-align ${isSticky ? "scrolling" : ""} ${isMenuVisible ? "visible" : "hidden"} ${isScrolling ? "scrolling-active" : ""}`}>
-                <button className="hamburger" onClick={toggleMenu}>
+                <button className="hamburger" onClick={toggleMenu} aria-label="Toggle mobile menu">
                     ☰
                 </button>
                 <div className="mobile-logo" style={{ padding: "11px 0" }}>
@@ -174,7 +200,7 @@ const MobileMenu = () => {
                         <div className="mobile-menu-logo">
                             <Link to={`/${lng}`}>
                                 <img
-                                    src={images.header.stickyLogo}
+                                    src={header.stickyLogo}
                                     alt="Logo"
                                 />
                             </Link>
@@ -190,21 +216,58 @@ const MobileMenu = () => {
                                     <span
                                         className="menu-item-text"
                                         onClick={(event) => {
-                                            if (menu.subMenu) {
-                                                event.preventDefault();
-                                                toggleSubmenu(event, index);
-                                            } else {
-                                                handleLinkClick(menu);
+                                            if (menu.link) {
+                                                handleLinkClick(menu); // Navigate when clicking text
                                             }
                                         }}
                                     >
                                         {menu.label}
                                     </span>
+
                                     {menu.subMenu && (
+                                        <span
+                                            className={`menu-icon ${lng === "ar" ? "right-menu" : null
+                                                }`}
+                                            onClick={(event) => toggleSubmenu(event, index)}
+                                        >
+                                            {submenuStates[index] ? (
+                                                <svg
+                                                    width="12"
+                                                    height="16"
+                                                    viewBox="0 0 12 16"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path d="M0 4L6 12L12 4H0Z" fill="#577065" />
+                                                </svg>
+                                            ) : lng === "ar" ? (
+                                                <svg
+                                                    width="12"
+                                                    height="16"
+                                                    viewBox="0 0 12 16"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path d="M8 0L0 8L8 16V0Z" fill="#577065" />
+                                                </svg>
+                                            ) : (
+                                                <svg
+                                                    width="12"
+                                                    height="16"
+                                                    viewBox="0 0 12 16"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                    <path d="M4 0L12 8L4 16V0Z" fill="#577065" />
+                                                </svg>
+                                            )}
+                                        </span>
+                                    )}
+
+                                    {/* {menu.subMenu && (
                                         <span className="menu-icon" onClick={(event) => toggleSubmenu(event, index)}>
                                             {submenuStates[index] ? "▼" : "▶"}
                                         </span>
-                                    )}
+                                    )} */}
                                 </div>
                                 {menu.subMenu && renderSubMenu(menu.subMenu, index)} {/* Start the recursive rendering */}
                             </li>

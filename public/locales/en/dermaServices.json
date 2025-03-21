@@ -202,9 +202,9 @@
             },
             {
               "id": 3,
-              "name": "Dr. Ramilia Anarkulova",
+              "name": "Ramilia Anarkulova",
               "readMore": "Read More",
-              "designation": "Dermatologist-Cosmetologist",
+              "designation": "Beauty consultant",
               "image": "/assets/Images/doctors/Dr Ramila.png",
               "link": "doctor/dr-ramilia-anarkulova"
             }
@@ -386,9 +386,9 @@
             },
             {
               "id": 3,
-              "name": "Dr. Ramilia Anarkulova",
+              "name": "Ramilia Anarkulova",
               "readMore": "Read More",
-              "designation": "Dermatologist-Cosmetologist",
+              "designation": "Beauty consultant",
               "image": "/assets/Images/doctors/Dr Ramila.png",
               "link": "doctor/dr-ramilia-anarkulova"
             }
@@ -611,9 +611,9 @@
             },
             {
               "id": 3,
-              "name": "Dr. Ramilia Anarkulova",
+              "name": "Ramilia Anarkulova",
               "readMore": "Read More",
-              "designation": "Dermatologist-Cosmetologist",
+              "designation": "Beauty consultant",
               "image": "/assets/Images/doctors/Dr Ramila.png",
               "link": "doctor/dr-ramilia-anarkulova"
             }
@@ -630,7 +630,7 @@
           "deptName": "Derma",
           "serviceName": "Rejuvenation Injection",
           "bannerImage": "../assets/Images/depts/derma/Rejuvenation/banner.png",
-          "bannerPosition": "right",
+          "bannerPosition": "center",
           "home": "Home"
         },
         {
@@ -849,9 +849,9 @@
             },
             {
               "id": 3,
-              "name": "Dr. Ramilia Anarkulova",
+              "name": "Ramilia Anarkulova",
               "readMore": "Read More",
-              "designation": "Dermatologist-Cosmetologist",
+              "designation": "Beauty consultant",
               "image": "/assets/Images/doctors/Dr Ramila.png",
               "link": "doctor/dr-ramilia-anarkulova"
             }

@@ -50,49 +50,6 @@
             }
         },
         {
-            "id": 3,
-            "name": "Dr. Mehdi Shidvash",
-            "department": "Nutrition and Slimming",
-            "image": "/assets/Images/doctors/mahdi.png",
-            "link": "doctor/dr-mehdi-shidvash",
-            "readMore": "Read More",
-            "designation": "Aesthetic Physician",
-            "overview": {
-                "title": "Overview",
-                "sections": [
-                    {
-                        "subtitle": "",
-                        "items": [
-                            "Dr. Shidvash is known for his patient-centered approach, combining advanced techniques with meticulous attention to detail. His philosophy emphasizes achieving natural, balanced, and long-lasting results. Patients trust him for his ability to deliver personalized care that enhances their confidence and well-being. Fluent in English, Farsi, German, and French, he continues to lead advancements in aesthetic medicine while inspiring confidence and trust among his patients. With his deep commitment to excellence and innovation, Dr. Mehdi Shidvash has become a trusted name in aesthetic medicine, both in the UAE and globally."
-                        ]
-                    }
-                ]
-            },
-            "workExperience": {
-                "title": "Work Experience",
-                "items": [
-                    "Dr. Mehdi Shidvash is a highly skilled and dedicated aesthetic physician with over 27 years of experience in cosmetic medicine. His expertise spans a wide range of procedures, tailored to meet the unique needs of his patients while maintaining the highest standards of safety and ethics. Dr. Shidvash’s extensive contributions to the field include authoring a skincare and anti-aging reference book in Iran and speaking at prestigious conferences such as IMCAS (Paris) and AMWC (Monaco)."
-                ]
-            },
-            "qualifications": {
-                "title": "Qualifications",
-                "items": [
-                    "He graduated from Shahid Beheshti Faculty of Medicine in 1997 and has since built an impressive career specializing in non-invasive and minimally invasive aesthetic treatments."
-                ]
-            },
-            "workingShifts": {
-                "title": "Working hours",
-                "flipFront1": "Sunday to Thursday",
-                "flipFrontDesc1": "10:00 AM to 8:00 PM",
-                "flipBack1": "Saturday",
-               "flipBackDesc1": "10:00 AM to 9:00 PM",
-                "flipFront2": "Address",
-                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
-                "flipBack2": "Address",
-                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
-            }
-        },
-        {
             "id": 4,
             "name": "Dr. Sandro Ceci",
             "department": "Derma",
@@ -180,12 +137,12 @@
         },
         {
             "id": 6,
-            "name": "Dr. Ramilia Anarkulova",
+            "name": "Ramilia Anarkulova",
             "department": "Derma",
             "image": "/assets/Images/doctors/Dr Ramila.png",
             "link": "doctor/dr-ramilia-anarkulova",
             "readMore": "Read More",
-            "designation": "Dermatologist-Cosmetologist",
+            "designation": "Beauty consultant",
             "overview": {
                 "title": "Overview",
                 "sections": [
@@ -297,50 +254,6 @@
                 "title": "Qualifications",
                 "items": [
                     "He earned his B.S of Dental from Damascus University, Syria. laying the foundation for an exceptional career dedicated to precision, patient care, and innovation in oral health."
-                ]
-            },
-            "workingShifts": {
-                "title": "Working hours",
-                "flipFront1": "Sunday to Thursday",
-                "flipFrontDesc1": "10:00 AM to 8:00 PM",
-                "flipBack1": "Saturday",
-               "flipBackDesc1": "10:00 AM to 9:00 PM",
-                "flipFront2": "Address",
-                "flipFrontDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah",
-                "flipBack2": "Address",
-                "flipBackDesc2": "Al Raha Walk, Al Muntazah Street, Sharjah"
-            }
-        },
-        {
-            "id": 9,
-            "name": "Dr. Amir Magdy",
-            "department": "Dental",
-            "image": "/assets/Images/doctors/Amir.png",
-            "link": "doctor/dr-amir-magdy",
-            "readMore": "Read More",
-            "designation": "GP Dentist",
-            "overview": {
-                "title": "Overview",
-                "sections": [
-                    {
-                        "subtitle": "",
-                        "items": [
-                            "Known for his patient-centered approach, Dr. Magdy is committed to delivering personalized treatment plans that prioritize comfort and long-lasting results. Whether working with adults or children, his compassionate care and meticulous attention to detail inspire confidence and trust among his patients.",
-                            "With his deep expertise and unwavering commitment to excellence, Dr. Amir Magdy continues to transform smiles and improve oral health, making a lasting impact on his patients' well-being and self-esteem."
-                        ]
-                    }
-                ]
-            },
-            "workExperience": {
-                "title": "Work Experience",
-                "items": [
-                    "Dr. Amir Magdy is an accomplished General Dentist with over 10 years of experience in providing high-quality dental care. Licensed by the Ministry of Health (MOH) as a General Dentist, he specializes in restorative and cosmetic dentistry, laser dentistry, and root canal treatments (RCT). Dr. Magdy’s extensive expertise also includes six years of experience in pediatric dentistry and dental implants, allowing him to address a wide range of patient needs with precision and care."
-                ]
-            },
-            "qualifications": {
-                "title": "Qualifications",
-                "items": [
-                    "A graduate of MSA University, Egypt, with a Bachelor’s degree in Oral and Dental Surgery (BDS), Dr. Magdy is dedicated to continuous professional development. He is an active member of the Arab Society for Continuous Dental Education, where he has honed his skills in veneers, fixed prosthodontics, and laser dentistry. Additionally, as a member of the American Academy of Cosmetic Dentistry, he remains at the forefront of advancements in aesthetic and restorative dental treatments."
                 ]
             },
             "workingShifts": {

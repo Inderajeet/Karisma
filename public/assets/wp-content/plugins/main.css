@@ -454,7 +454,7 @@ header.happysmile-page-header:after {
 .full-search-wrapper,
 .elementor-widget-ceaposts .blog-style-classic-pro .blog-inner .post-date a:hover,
 .bottom-meta .post-more:hover:before {
-    background-color: #05071c
+    /* background-color: #05071c */
 }
 
 .blog .happysmile-masonry .post-meta .post-more a:hover:before,
@@ -564,7 +564,7 @@ a.zozo-compare-close:hover,
 a.zozo-sticky-cart-close:hover,
 a.zozo-sticky-wishlist-close:hover {
     color: #ffffff;
-    background-color: #05071c
+    /* background-color: #05071c */
 }
 
 .header-topbar a {

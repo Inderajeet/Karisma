@@ -55,7 +55,7 @@ const SlidingDoct1 = ({ doctors, isRTL }) => {
                             <h3 className="post-title-head">
                               {doctor.name ? (
                                 <Link
-                                  to={`/${i18n.language}/doctor/${encodeURIComponent(doctor.link || "unknown")}`}
+                                  to={`/${i18n.language}/doctor/dr-id-${doctor.id}`}
                                   className="post-title"
                                   style={{
                                     color: cards["heading-color"],
@@ -75,7 +75,7 @@ const SlidingDoct1 = ({ doctors, isRTL }) => {
                             {doctor.designation || "Designation not provided"}
                           </div>
                           <div className="post-thumb">
-                            <Link to={`/${i18n.language}/doctor/${encodeURIComponent(doctor.link || "unknown")}`} className="post-image-link">
+                            <Link to={`/${i18n.language}/doctor/dr-id-${doctor.id}`} className="post-image-link">
                               <img
                                 src={doctor.image}
                                 alt={doctor.name || "Doctor Image"}
@@ -88,7 +88,7 @@ const SlidingDoct1 = ({ doctors, isRTL }) => {
                             <ul className="nav bottom-meta-list meta-left">
                               <li>
                                 <Link
-                                  to={`/${i18n.language}/doctor/${encodeURIComponent(doctor.link || "unknown")}`}
+                                  to={`/${i18n.language}/doctor/dr-id-${doctor.id}`}
                                   className="homefont"
                                   style={{
                                     color: cards["button-text-color"],
@@ -113,4 +113,5 @@ const SlidingDoct1 = ({ doctors, isRTL }) => {
       </>
     );
   };
-  export default SlidingDoct1;
+  
+export default SlidingDoct1;

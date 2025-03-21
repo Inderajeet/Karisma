@@ -1,13 +1,13 @@
-.dept-background-img {
+/* .dept-background-img {
     background-size: cover;
     transition: background-image 0.5s ease-in-out; 
     top: 0;
     left: 0;
     width: 100%;
-    height: 70vh;
+    height: 70vh; 
     overflow: hidden;
     z-index: -1;
-  }
+  } */
   
   .background-image {
     width: 100%;
@@ -45,4 +45,30 @@
         line-height: 45px;
         z-index: 2;
     }
+}
+
+/* Breadcrumb navigation styling */
+.breadcrumb.nav {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0;
+    list-style: none;
+}
+
+.breadcrumb.nav li {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb.nav li a,
+.breadcrumb.nav li span {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+/* Make sure the pipe separator is evenly spaced */
+.breadcrumb-separator {
+    margin: 0 5px;
 }
