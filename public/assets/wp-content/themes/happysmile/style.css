@@ -1373,6 +1373,10 @@ ul.nav.wp-menu>li.menu-item-has-children>a {
     padding-right: 20px;
 }
 
+.arabic ul.nav.wp-menu>li.menu-item-has-children>a {
+    padding-right: 0px;
+}
+
 .overlay-search-form.active .form-control {
     width: 75%;
 }
