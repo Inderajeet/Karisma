@@ -6,6 +6,9 @@ import { useTranslation } from "react-i18next";
 import axios from 'axios';
 
 function Booking({ showModal, handleClose }) {
+    const [alertMessage, setAlertMessage] = useState('');
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [isSuccess, setIsSuccess] = useState(false);
     const [error, setError] = useState('');
     const [success, setSuccess] = useState('');
     const [formLoading, setFormLoading] = useState(false);
@@ -63,7 +66,12 @@ function Booking({ showModal, handleClose }) {
         const { name, value } = e.target;
         validateField(name, value);
     };
-
+    useEffect(() => {
+        // Force re-render on alertMessage change (temporary debugging)
+        if (alertMessage) {
+            console.log("alertMessage changed:", alertMessage);
+        }
+    }, [alertMessage]);
 
     const validateField = (name, value) => {
         let newErrors = { ...errors };
@@ -121,67 +129,81 @@ function Booking({ showModal, handleClose }) {
 
         let newErrors = {};
 
-        // Validate all fields
-        Object.keys(formData).forEach((field) => {
-            const value = formData[field];
-            validateField(field, value); // Validate field
+        // Validation Logic
+        if (!formData.name.trim()) newErrors.name = 'Name is required';
+        else if (!/^[A-Za-z\s.]+$/.test(formData.name)) newErrors.name = 'Name should only contain alphabets';
 
-            if (!value.trim() && field !== "message") { // Required fields check
-                newErrors[field] = `${field.charAt(0).toUpperCase() + field.slice(1)} is required`;
-            }
-        });
+        if (!formData.email.trim()) newErrors.email = 'Email is required';
+        else if (!/^\S+@\S+\.\S+$/.test(formData.email)) newErrors.email = 'Invalid email format';
 
-        setErrors(newErrors); // Update errors state
+        if (!formData.age.trim()) newErrors.age = 'Age is required';
+        else if (isNaN(formData.age) || parseInt(formData.age) <= 0) newErrors.age = 'Valid age is required';
 
+        if (!formData.gender) newErrors.gender = 'Gender is required';
+
+        if (!formData.phone.trim()) newErrors.phone = 'Phone number is required';
+        else if (!/^\d{10,15}$/.test(formData.phone)) newErrors.phone = 'Phone number not valid';
+
+        if (!formData.date) newErrors.date = 'Date is required';
+
+        if (!formData.department) newErrors.department = 'Department is required';
+
+        setErrors(newErrors);
         console.log("Validation Errors:", newErrors);
 
         if (Object.keys(newErrors).length > 0) {
             console.log("Validation failed. Form not submitted.");
-            return; // Stop submission if there are errors
+            return;
         }
 
         setIsSubmitting(true);
+        setAlertMessage("Submitting your form..."); // Set initial message
 
-        try {
-            const response = await fetch('https://dental.dmaksolutions.com/api/book-appointment', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(formData),
-            });
-
-            if (response.ok) {
-                setAlertMessage('Appointment booked successfully!');
-                setIsSuccess(true);
-                setFormData({
-                    name: '',
-                    email: '',
-                    age: '',
-                    gender: '',
-                    countryCode: '',
-                    phone: '',
-                    date: '',
-                    department: '',
-                    message: '',
-                });
-                setErrors({});
-            } else {
-                setAlertMessage('Error booking appointment. Please try again later.');
-                setIsSuccess(false);
-            }
-        } catch (error) {
-            console.error('Error booking appointment:', error);
-            setAlertMessage('Error booking appointment. Please try again later.');
-            setIsSuccess(false);
-        }
-
+        // Force a re-render
         setTimeout(() => {
-            setAlertMessage('');
-        }, 3000);
+            (async () => {
+                try {
+                    const response = await fetch('https://dmaksolutions.com/contact/bookingForm.php', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(formData),
+                    });
 
-        setIsSubmitting(false);
+                    if (response.ok) {
+                        setAlertMessage('Appointment booked successfully!');
+                        setIsSuccess(true);
+                        setFormData({
+                            name: '',
+                            email: '',
+                            age: '',
+                            gender: '',
+                            countryCode: '',
+                            phone: '',
+                            date: '',
+                            department: '',
+                            message: '',
+                        });
+                        setErrors({});
+                    } else {
+                        setAlertMessage('Error booking appointment. Please try again later.');
+                        setIsSuccess(false);
+                    }
+                } catch (error) {
+                    console.error('Error booking appointment:', error);
+                    setAlertMessage('Error booking appointment. Please try again later.');
+                    setIsSuccess(false);
+                }
+
+                setTimeout(() => {
+                    setAlertMessage('');
+                    setIsSubmitting(false);
+                }, 3000);
+            })();
+        }, 10);
     };
+
 
 
     const closeModal = () => {
@@ -192,6 +214,23 @@ function Booking({ showModal, handleClose }) {
 
     return (
         <>
+            {alertMessage && (
+                <div
+                    className={`alert ${isSuccess ? 'alert-success' : 'alert-danger'}`}
+                    role="alert"
+                    style={{
+                        zIndex: 10002, // Very high z-index
+                        position: 'fixed', // Ensure it's fixed in the viewport
+                        top: '20px', // Adjust as needed
+                        left: '50%', // Center horizontally
+                        transform: 'translateX(-50%)', // Center horizontally
+                        width: '80%', // Adjust width as needed
+                        maxWidth: '500px', // Prevent it from becoming too wide
+                    }}
+                >
+                    {alertMessage}
+                </div>
+            )}
             {/* Toasts for Error and Success Messages */}
             <div
                 aria-live="polite"

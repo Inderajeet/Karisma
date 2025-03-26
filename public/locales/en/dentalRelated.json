@@ -10,8 +10,8 @@
                 },
                 {
                     "type": "banner",
-                    "bannerImage": "../assets/Images/depts/skincare/Facial/Basic-HydraFacial.png",
-                    "bannerPosition": "center"
+                    "bannerImage": "../assets/Images/depts/dental/hollywood-smile/Section Banners/E-Max Hollywood smile Group.png",
+                    "bannerPosition": "right"
                 },
                 {
                     "type": "cont-content",
@@ -53,7 +53,7 @@
                 },
                 {
                     "type": "banner",
-                    "bannerImage": "../assets/Images/depts/skincare/Facial/Basic-HydraFacial.png",
+                    "bannerImage": "../assets/Images/depts/dental/hollywood-smile/Section Banners/DAMAS Zircon Hollywood smile.png",
                     "bannerPosition": "center"
                 },
                 {
@@ -94,7 +94,7 @@
                 },
                 {
                     "type": "banner",
-                    "bannerImage": "../assets/Images/depts/skincare/Facial/Basic-HydraFacial.png",
+                    "bannerImage": "../assets/Images/depts/dental/hollywood-smile/Section Banners/DAMAS Zircon Elite Hollywood smile.png",
                     "bannerPosition": "center"
                 },
                 {

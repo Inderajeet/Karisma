@@ -95,6 +95,14 @@
               "link": "slimming/machines/wooden-massage–madero-therapy",
               "readMore": "Read More",
               "designation": "Experience the fusion of ancient Colombian techniques with modern wellness at Karisma Specialist Medical Center through Madero Therapy, a unique, all-natural treatment designed to sculpt, tone, and rejuvenate your body."
+            },
+            {
+              "id": 6,
+              "name": "Onda",
+              "image": "/assets/Images/home/Doctors.png",
+              "link": "slimming/machines/onda",
+              "readMore": "Read More",
+              "designation": "The body contouring revolution. Coolwaves are outstanding microwaves that selectively target fat cells to reduce localized fat deposits in a safe, effective and non-invasive way."
             }
           ]
         },

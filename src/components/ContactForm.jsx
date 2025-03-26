@@ -96,45 +96,45 @@ export default function ContactForm() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
+    
         const newErrors = {};
         let hasErrors = false;
-
+    
         Object.keys(formData).forEach((field) => {
             const value = formData[field];
             validateField(field, value); // Run validation
-
-            if (!value.trim() && field !== "contactType" && field !== "countryCode") { // Check for empty fields
+    
+            if (!value.trim() && field !== "contactType" && field !== "countryCode") { 
                 newErrors[field] = `${field.charAt(0).toUpperCase() + field.slice(1)} is required`;
                 hasErrors = true;
             }
-
-            if (errors[field]) { // Check for validation errors
+    
+            if (errors[field]) { 
                 newErrors[field] = errors[field];
                 hasErrors = true;
             }
         });
-
+    
         setErrors(newErrors);
         console.log("NewErrors:", newErrors);
         console.log('Current Errors State:', errors);
-
+    
         if (hasErrors) {
             console.log("Validation Errors Found");
             return;
         }
-
-
+    
         setIsSubmitting(true);
         try {
-            const response = await fetch('https://dental.dmaksolutions.com/api/contact', {
+            // 🔥 Updated to PHP API endpoint
+            const response = await fetch('https://dmaksolutions.com/contact/contact_form.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify(formData),
             });
-
+    
             if (response.ok) {
                 setAlertMessage('Message sent successfully!');
                 setIsSuccess(true);
@@ -155,13 +155,14 @@ export default function ContactForm() {
             setAlertMessage('Error sending message. Please try again later.');
             setIsSuccess(false);
         }
-
+    
         setTimeout(() => {
             setAlertMessage('');
         }, 3000);
-
+    
         setIsSubmitting(false);
     };
+    
 
 
 
@@ -172,16 +173,13 @@ export default function ContactForm() {
                     className={`alert ${isSuccess ? 'alert-success' : 'alert-danger'}`}
                     role="alert"
                     style={{
-                        position: 'absolute',
-                        top: '20px',
-                        left: '50%',
-                        transform: 'translateX(-50%)',
-                        zIndex: 9999,
-                        padding: '10px 20px',
-                        width: 'auto',
-                        backgroundColor: isSuccess ? '#28a745' : '#dc3545',
-                        color: '#fff',
-                        borderRadius: '5px',
+                        zIndex: 10002, // Very high z-index
+                        position: 'fixed', // Ensure it's fixed in the viewport
+                        top: '20px', // Adjust as needed
+                        left: '50%', // Center horizontally
+                        transform: 'translateX(-50%)', // Center horizontally
+                        width: '80%', // Adjust width as needed
+                        maxWidth: '500px', // Prevent it from becoming too wide
                     }}
                 >
                     {alertMessage}

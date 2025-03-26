@@ -292,7 +292,6 @@
                         "Health Conditions: Not recommended for those with heart conditions, diabetes, high blood pressure, blood clots, fractures, or varicose veins without medical clearance."
                     ],
                     "description2": "Rediscover comfort and confidence with Pressotherapy at Karisma Specialist Medical Center—your partner in beauty and wellness."
-
                 }
             ]
         },
@@ -345,7 +344,6 @@
                     "title": "Safety and Suitability",
                     "description": "Madero Therapy is generally safe but should be tailored to your unique needs. Consult with our experts at Karisma Specialist Medical Center to ensure it’s the right choice for you.",
                     "description2": "Rediscover your natural beauty and boost your confidence with this holistic, effective treatment. Book your consultation today and unlock a healthier, more radiant you."
-
                 }
             ]
         },
@@ -663,7 +661,59 @@
                     "title": "Taking the First Step Towards a Healthier You",
                     "description": "Are you ready to take the next step in your health journey? Schedule a consultation with our expert nutritionists today. We will discuss your goals, answer your questions, and create a personalized diet plan that helps you become the healthiest version of yourself.",
                     "heading2": "Let’s create a diet plan that nourishes your body and empowers your well-being!"
-
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "machines/onda",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Onda"
+                },
+                {
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/slimming/Machines/heater-banner.png",
+                    "bannerPosition": "center"
+                },
+                {
+                    "type": "content",
+                    "title": "Onda’s quick wins: ",
+                    "description": "Localized fat/ Cellulite/ Skin laxity "
+                },
+                {
+                    "type": "sub-heading-content-last",
+                    "title": "What is Onda?",
+                    "heading": "Onda by Deka uses coolwaves, exclusive patented technology.",
+                    "description": "Coolwaves are outstanding microwaves that selectively target fat cells to reduce localized fat deposits in a safe, effective and non-invasive way."
+                },
+                {
+                    "type": "color-content",
+                    "title": "How it works? ",
+                    "features": [
+                        "Localized fat: Deeply destroy the membranes subcutaneous fat cells.",
+                        "Cellulite: Work on the connective tissue among the adipose lobules of cellulite. ",
+                        "Skin tightening: The immediate shrinkage of dermis collagen fibers and new collagen production simulation make tissues compact and toned. "
+                    ]
+                },
+                {
+                    "type": "content",
+                    "title": "Different depth of action for different uses",
+                    "features": [
+                        "The hand pieces deep and shallow differ in their depth of action, each one designed for different body areas like (abdomen, knees, hips, buttocks, underarms, submental) or blemishes types.",
+                        "Deep: Targeting localized fat ",
+                        "Shallow: Best for cellulite, skin laxity and submental fat"
+                    ]
+                },
+                {
+                    "type": "color-content",
+                    "title": "Benefits",
+                    "features": [
+                        "Safety & Effectiveness",
+                        "Selectively target fat cells",
+                        "No damage to skin surface  "
+                    ]
                 }
             ]
         }
