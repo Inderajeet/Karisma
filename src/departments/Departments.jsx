@@ -150,11 +150,11 @@ const Departments = () => {
             <div>
                 <CommonServiceBanner
                     deptName={service.department_name}
-                    serviceName={service.department_name}
+                    serviceName={service.service_name}
                     bannerImage={service.banner_image ? `/uploads/${service.banner_image}` : "/assets/Images/default-banner.png"}
-                    deptLink={`/departments/${service.canonical_name}`}
+                    deptLink={`/${service.canonical_name}`}
                     bannerPosition="center"
-                    home={false}
+                    home="Home"
                 />
                 <ImageContentNew
                     key="combined-banner"
