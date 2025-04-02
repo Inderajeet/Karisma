@@ -165,7 +165,7 @@ const ServicePage = () => {
                 bannerImage={service.banner_image ? `/uploads/${service.banner_image}` : "/assets/Images/default-banner.png"}
                 deptLink={`/departments/${service.department?.canonical_name || ''}`}
                 bannerPosition="center"
-                home={false}
+                home="Home" 
             />
 
             <ImageContentNew
