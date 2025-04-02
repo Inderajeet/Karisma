@@ -15,8 +15,36 @@ const Index = () => {
   const [error, setError] = useState(null); // State for error handling
   const { t, ready } = useTranslation();
   const { lng } = useParams();
+  const [aboutData, setAboutData] = useState(null);
 
 
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/api/aboutuspage");
+        const data = await response.json();
+
+        if (data.success) {
+          setAboutData({
+            deptName: data.data.dept_name,
+            bannerImage: data.data.banner_image,
+            bannerPosition: data.data.banner_position,
+            home: data.data.home,
+            section1: JSON.parse(data.data.section1),
+            section2: JSON.parse(data.data.section2),
+            ceoMessage: data.data.ceo_message ? JSON.parse(data.data.ceo_message) : null,
+            ourStory: data.data.our_story ? JSON.parse(data.data.our_story) : null,
+          });
+        }
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -39,6 +67,20 @@ const Index = () => {
   if (error) {
     return;
   }
+  if (loading) return <div>Loading...</div>;
+  if (error) return <div>Error: {error}</div>;
+  if (!aboutData) return <div>No data found</div>;
+  
+  const getCombinedSentences = (html) => {
+    if (!html) return t('about1.about1Desc1');
+    const text = html.replace(/<[^>]+>/g, '');
+    const sentences = text.split(/(?<=\.)\s+/);
+    return sentences.slice(0, 2).join(' ');
+  };
+
+  const combinedDescription = aboutData.ourStory?.content?.[0] 
+    ? getCombinedSentences(aboutData.ourStory.content[0])
+    : t('about1.about1Desc1');
 
   const { styles, images } = jsonData;
   const { about_us, about2, department, doctors, videoTopSection } = styles; // Destructure the JSON as needed
@@ -184,7 +226,7 @@ const Index = () => {
                             <p className="home-desc-font" style={{
                               color: about_us["font-color"], fontSize: about_us["font-size"]
                             }}>
-                              {t('about1.about1Desc1')}
+                                {combinedDescription}
                             </p>
                             <p className="" style={{
                               color: about_us["font-color"], fontSize: about_us["font-size"]
@@ -306,7 +348,7 @@ const Index = () => {
                         <p className=" home-desc-font" style={{
                           color: about2["desc-color"], fontSize: about2["desc-size"]
                         }}>
-                          {t('about2.about2Desc')}
+                           {aboutData.section2.description.replace(/<[^>]+>/g, '') || t('about2.about2Desc')}
                         </p>
                       </div>
                       {/* .section-description */}
