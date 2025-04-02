@@ -8,7 +8,10 @@ import "swiper/css/pagination";
 import { useTranslation } from "react-i18next";
 import "./slideDoctor.css";
 
-const SlidingDoct = ({ doctors, cards, isRTL }) => {
+const SlidingDoct = ({ doctors, isRTL }) => {
+    console.log("SlidingDoct Doctors Prop:", doctors);
+    console.log("SlidingDoct isRTL Prop:", isRTL);
+
     const { t, i18n } = useTranslation();
 
     return (
@@ -73,15 +76,15 @@ const SlidingDoct = ({ doctors, cards, isRTL }) => {
                                                         >
                                                             <div
                                                                 className="service-inner doctor-inner"
-                                                                style={{ backgroundColor: cards["background-color"] }}
+                                                                style={{ backgroundColor: "#f9f9f9" }}
                                                             >
                                                                 <div className="entrye-title">
                                                                     <h3 className="post-title-head" style={{ paddingBottom: '0' }}>
                                                                         <div
                                                                             className="post-title"
                                                                             style={{
-                                                                                color: cards["heading-color"],
-                                                                                fontSize: cards["heading-size"],
+                                                                                color: "#577065",
+                                                                                fontSize: "24px",
                                                                             }}
                                                                         >
                                                                             {doctor.name}
@@ -91,8 +94,8 @@ const SlidingDoct = ({ doctors, cards, isRTL }) => {
                                                                 <div
                                                                     className="post-excerpt doctor-post-excerpt"
                                                                     style={{
-                                                                        color: cards["desc-color"],
-                                                                        fontSize: cards["desc-size"],
+                                                                        color: "#5C4033",
+                                                                        fontSize: "16px",
                                                                     }}
                                                                 >
                                                                     {doctor.designation}
@@ -115,9 +118,9 @@ const SlidingDoct = ({ doctors, cards, isRTL }) => {
                                                                                     href={doctor.link}
                                                                                     className="homefont"
                                                                                     style={{
-                                                                                        color: cards["button-text-color"],
+                                                                                        color: "#577065",
                                                                                         fontWeight: "600",
-                                                                                        fontSize: cards["button-text-size"],
+                                                                                        fontSize: "16px"
                                                                                     }}
                                                                                 >
                                                                                     {doctor.readMore}

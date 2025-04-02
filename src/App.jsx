@@ -46,6 +46,7 @@ import Departments from './departments/Departments';
 import Careers from './pages/careers';
 import Department from './pages/department';
 import DentalRelatedServices from './departments/dental/DentalRelatedServices';
+import ServicePage from './departments/ServicePage';
 
 
 Modal.setAppElement('#root'); // For accessibility
@@ -107,12 +108,12 @@ useEffect(() => {
           <Route path="service/:slug" element={<OfferDetails />} />
           <Route path="service" element={<Services />} />
           <Route path="/services" element={<ServiceList />} />
-          <Route path="/services/:serviceName" element={<ServiceTemplate />} />
+          <Route path="/:deptName/:serviceName" element={<ServicePage />} />
 
           <Route path="/departments" element={<Department />} />
           <Route path="/:deptName" element={<Departments />} />
-          <Route path="/dental/:serviceName" element={<DentalServices />} />
-          <Route path="/gynecology/:serviceName" element={<GynecologyServices />} />
+          {/* <Route path="/dental/:serviceName" element={<DentalServices />} /> */}
+          {/* <Route path="/gynecology/:serviceName" element={<GynecologyServices />} />
           <Route path="/laser-hair-removal/:serviceName" element={<LaserServices />} />
           <Route path="/skinCare/:serviceName" element={<SkinCareServices />} />
           <Route path="/skinCare/:serviceName/:subService" element={<SkinCareRelatedServices />} />
@@ -120,14 +121,14 @@ useEffect(() => {
           <Route path="/slimming/:serviceName/:subService" element={<SlimmingRelatedServices />} />
           <Route path="/derma/:serviceName" element={<DermaServices />} />
           <Route path="/derma/:serviceName/:subService" element={<DermaRelatedServices />} />
-          <Route path="/dental/:serviceName/:subService" element={<DentalRelatedServices />} />
+          <Route path="/dental/:serviceName/:subService" element={<DentalRelatedServices />} /> */}
 
           <Route path="/policies/:footSerName" element={<FooterServices />} />  
           <Route path="/treatments" element={<TreatmentImages />} />  
           <Route path="/careers" element={<Careers />} />  
           <Route path="cart" element={<Cart />} />
           <Route path="checkout" element={<Checkout />} />
-          <Route path="/doctor/:doctorName" element={
+          <Route path="/doctor/:doctorId" element={
             <React.Fragment>
               {console.log("Doctor route accessed, param:", window.location.pathname)}
               <DoctorPage />

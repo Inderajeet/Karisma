@@ -72,9 +72,17 @@ const ColorSection = ({ title, description, description2, features, heading, hea
         <div className="custsectionStyle customContainer" style={{ marginTop: "0px", marginBottom: "0px" }}>
             {title && <h2 className="title">{applyFontFallback(title)}</h2>}
 
-            {heading && <p style={{ fontFamily: "The Seasons", fontWeight: "600" }}><strong>{heading}</strong></p>}
+            {heading && heading !== title && (
+                <p style={{ fontFamily: 'The Seasons', fontWeight: '600' }}>
+                    <strong>{heading}</strong>
+                </p>
+            )}
             {description && <p>{description}</p>}
-            {heading2 && <p style={{ fontFamily: "The Seasons", fontWeight: "600" }}><strong>{heading2}</strong></p>}
+            {heading2 && heading2 !== title && (
+                <p style={{ fontFamily: 'The Seasons', fontWeight: '600' }}>
+                    <strong>{heading2}</strong>
+                </p>
+            )}
 
             {features && <div className="featuresContainer divP">{features.map((feature, index) => renderFeature(feature, index, 1))}</div>}
             {description2 && <p>{description2}</p>}

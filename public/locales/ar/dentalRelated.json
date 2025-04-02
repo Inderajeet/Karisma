@@ -71,16 +71,6 @@
                         "الدقة والتخصيص باستخدام تقنية CAD/CAM: باستخدام تقنية CAD/CAM المتطورة، يتم تصنيع قشور كاتانا بدقة لتناسب بشكل مريح وتبدو مذهلة. اختر من بين مجموعة متنوعة من الظلال لتحقيق الحيوية المثالية لابتسامة سوليتير الفريدة الخاصة بك."
                     ],
                     "description2": "ثلاث زوايا هي كل ما هو مطلوب لإنشاء أسنان ذات مظهر طبيعي وجمالي تمنحك ابتسامة هوليوود المبهرة المرغوبة وتمهد الطريق لإضافة لمسة من التفرد من خلال وضع بعض وحدات السوليتير عليها إذا لزم الأمر، لذا فإن مرونة وتوافق هذا القطع تجعله الخيار الأفضل لخبرائنا لضمان أن تكون عملية تصميم ابتسامة هوليوود الخاصة بك فريدة من نوعها."
-                },
-                {
-                    "type": "content",
-                    "title": "احجز استشارتك الحصرية",
-                    "description": "حوّل ابتسامتك اليوم في مركز كاريزما الطبي المتخصص، الإمارات العربية المتحدة. حدد موعدًا لاستشارتك الشخصية لاستكشاف خيارات القشور المتميزة لدينا، ودع فريق الخبراء لدينا يصمم ابتسامة تعكس ثقتك بنفسك وجمالك."
-                },
-                {
-                    "type": "color-content",
-                    "title": "تعرف على خبراء الأسنان لدينا",
-                    "description": "يضم فريقنا الماهر بعضًا من أفضل أطباء الأسنان في الإمارات العربية المتحدة، وكل منهم مكرس لخلق ابتسامات تنضح بالرقي والتميز."
                 }
             ]
         },
@@ -94,7 +84,7 @@
                 },
                 {
                     "type": "banner",
-                    "bannerImage": "../assets/Images/depts/dental/hollywood-smile/Section Banners/DAMAS Zircon Elite Hollywood smile.png",
+                    "bannerImage": "../assets/Images/depts/dental/hollywood-smile/Section Banners/Solitare smile banner.png",
                     "bannerPosition": "center"
                 },
                 {
@@ -106,11 +96,11 @@
                     "type": "color-content",
                     "title": "دمج الفن مع التكنولوجيا المتطورة",
                     "features": [
-                        "ملاءمة وراحة دقيقة: تم تصميم ابتسامة سوليتير باستخدام قشور الزركون من نوع كاتانا، والتي تم تفصيلها بدقة. وهذا يضمن ملاءمة مثالية تبدو طبيعية ومريحة، مما يعزز ابتسامتك بسهولة.",
+                        "ملاءمة وراحة دقيقة: تم تصميم ابتسامة سوليتير باستخدام قشور الزركون من نوع كاتانا، والتي تم تفصيلها بدقة. وهذا يضمن ملاءمة مثالية تبدو طبيعية ومريحة، مما يعزز ابتسامتك دون عناء.",
                         "مجموعة ألوان نابضة بالحياة وملمس فريد: تتيح لوحة الألوان المتنوعة لابتسامة سوليتير تخصيصًا شخصيًا، مما يضمن أن تعكس ابتسامتك أسلوبك الفريد وحيويتك المرغوبة، مع ملمس يجعل كل ضوء ينعكس عليها يظهر جمالها بشكل مختلف في كل مرة بطريقة فريدة.",
                         "حرفية متقدمة: باستخدام أحدث التقنيات، تم تصميم ابتسامة سوليتير بدقة استثنائية. إنها توفر لمسة نهائية خالية من العيوب ومظهرًا جماليًا رائعًا يعزز مظهرك العام."
                     ],
-                    "description2": "في كاريزما، يستغل خبراؤنا قوة زركون كاتانا لإنشاء قشور ذات محيط كامل تحاكي الجمال الطبيعي للمينا. وهذا يضمن امتزاجًا سلسًا مع أسنانك، مما يعزز الجاذبية الطبيعية لابتسامتك. جرب الثقة والرقي في ابتسامة سوليتير، حيث يتم تصميم كل التفاصيل بدقة تامة."
+                    "description2": "في كاريزما، يستغل خبراؤنا قوة زركون كاتانا لإنشاء قشور ذات محيط كامل تحاكي الجمال الطبيعي للمينا. وهذا يضمن امتزاجًا سلسًا مع أسنانك، مما يعزز الجاذبية الطبيعية لابتسامتك. جرب الثقة والرقي في ابتسامة سوليتير، حيث يتم تصميم كل التفاصيل بدقة إلى  الكمال. "
                 },
                 {
                     "type": "content",
@@ -119,8 +109,81 @@
                 },
                 {
                     "type": "color-content",
-                    "title": "تعرف على خبراء طب الأسنان لدينا",
-                    "description": "يضم فريقنا الماهر بعضًا من أفضل أطباء الأسنان في الإمارات العربية المتحدة، وكل منهم مكرس لخلق ابتسامات تنضح بالرقي والتميز."
+                    "description": "تعرف على خبراء طب األسنان لدينا يضم فريقنا الماهر بع ًضا من أفضل أطباء األسنان في اإلمارات العربية المتحدة، وكل منهم مكرس لخلق ابتسامات تنضح بالرقي والتميز."
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "hollywood-smile-veneers/zircon-elite-hollywood-smile",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Karisma Zircon Elite Hollywood smile",
+                    "description": "Karisma Zircon Elite Veneers are the perfect blend of exceptional strength, natural beauty, and breathtaking translucency. These revolutionary veneers push the boundaries of modern dentistry, delivering a smile that is as durable as it is dazzling."
+                },
+                {
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/dental/hollywood-smile/Section Banners/Zircon-Smile website.png",
+                    "bannerPosition": "center"
+                },
+                {
+                    "type": "cont-content",
+                    "title": "Unleash Unmatched Strength with Stunning Clarity",
+                    "features": [
+                        "Unrivaled Strength & Enduring Durability: Step into the future of smile perfection with Karisma Zircon Elite veneers. These American-crafted veneers boast a hardness and toughness that is 400% stronger than E-max. They offer superior resistance to chipping, cracking, and wear, providing you with a smile built to last for years to come.",
+                        "Natural Beauty with Brilliant Translucency: Despite their incredible strength, Karisma Zircon Elite veneers maintain an extraordinarily natural look. With a higher level of translucency than traditional Zircon, they blend flawlessly with your existing teeth, delivering a strikingly vibrant and beautifully authentic smile.",
+                        "Precision & Personalization at Its Finest: Thanks to our state-of-the-art CAD/CAM technology, each veneer is crafted with remarkable precision, ensuring a natural shape and perfect fit. Choose from an array of shades to customize the vibrancy of your smile, making it as unique as you are."
+                    ]
+                },
+                {
+                    "type": "color-content",
+                    "title": "Veneers. The Ultimate Smile Makeover",
+                    "description": "At Karisma Medical Center, we go above and beyond veneer placement, offering a full smile makeover experience that includes:",
+                    "features": [
+                        "Consultation: Our expert dentists will thoroughly examine your teeth, listen to your goals, and recommend the ideal veneer solution to achieve your dream smile.",
+                        "Digital Smile Design: Using advanced software, we preview your potential smile outcome, ensuring that you're confident and satisfied with the results before we begin.",
+                        "Meticulous Placement: We combine skillful techniques with precision for a seamless, comfortable veneer placement that results in a beautiful, lasting smile.",
+                        "Post-Treatment Care: We provide guidance on how to care for your veneers, ensuring their longevity and the brilliance of your smile for years to come."
+                    ]
+                },
+                {
+                    "type": "cont-content",
+                    "title": "Why Karisma is The Destination for Your Hollywood Smile",
+                    "features": [
+                        "A Legacy of Excellence: With over 40,000 successful veneer procedures performed, Karisma is a trusted leader in creating Hollywood-quality smiles.",
+                        "Tailored to You: We customize every aspect of your veneer journey, ensuring the treatment is tailored to meet your unique needs and aesthetic goals.",
+                        "Innovating Smiles with Cutting-Edge Technology: We leverage the latest equipment and technology to deliver outstanding results with minimal discomfort, ensuring you experience the highest level of patient care.",
+                        "Natural Beauty, Perfected: Our approach enhances your natural smile, never settling for a generic look. Each smile is as unique as you are.",
+                        "Comprehensive Care: From consultation through post-care, we guide you every step of the way in achieving and maintaining your dream smile."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "hollywood-smile-veneers/zircon-snow-white",
+            "sections": [
+                {
+                    "type": "content",
+                    "title": "Karisma Zircon Elite Hollywood smile",
+                    "description": "Karisma Zircon Veneers are the peak of durability and beauty. Crafted from the most advanced materials and designed using state-of-the-art technology, these veneers offer unmatched resilience, a flawless natural look, and a smile that endures."
+                },
+                {
+                    "type": "banner",
+                    "bannerImage": "../assets/Images/depts/dental/hollywood-smile/Section Banners/GC - Snow white Hollywood smile.png",
+                    "bannerPosition": "center"
+                },
+                {
+                    "type": "cont-content",
+                    "title": "Strength That Shines",
+                    "features": [
+                        "Unrivaled Durability: Experience the ultimate in American veneer technology with Karisma Zircon veneers. Offering a remarkable 400% higher hardness than traditional E-max, these veneers provide exceptional resistance to chipping, cracking, and wear, ensuring a smile that stands the test of time.",
+                        "Natural Radiance: Despite their formidable strength, Karisma Zircon veneers maintain a stunning, natural appearance. Expertly crafted to blend seamlessly with your existing teeth, they create a flawless smile that looks as vibrant as it is resilient.",
+                        "Precision Perfection: Thanks to advanced CAD/CAM technology, these veneers are crafted with remarkable accuracy and natural shape, ensuring a perfect, comfortable fit and exceptional aesthetics.",
+                        "Confidence That Lasts: Benefit from a lifetime warranty on shade and stain resistance.* For additional peace of mind, an extended warranty is available at Karisma Medical Center. "
+                    ],
+                    "description2": "*(with regular cleaning and polishing at Karisma Medical Center 3-4 times a year)."
                 }
             ]
         }

@@ -10,19 +10,43 @@ const MobileMenu = () => {
     const { lng } = useParams();
     const location = useLocation();
     const navigate = useNavigate();
+    
+    // State declarations
     const [data, setData] = useState({ styles: {}, images: {} });
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [currentLang, setCurrentLang] = useState(i18n.language || "en");
     const [menuOpen, setMenuOpen] = useState(false);
-    const [submenuStates, setSubmenuStates] = useState({}); // Tracks submenu open/close states
+    const [submenuStates, setSubmenuStates] = useState({});
     const [isMenuVisible, setIsMenuVisible] = useState(true);
     const [isScrolling, setIsScrolling] = useState(false);
     const [isSticky, setIsSticky] = useState(false);
     const [lastScrollY, setLastScrollY] = useState(0);
-
+    const [departments, setDepartments] = useState([]);
     const [logo, setLogo] = useState(null);
 
+    // Fetch departments
+    useEffect(() => {
+        fetch("/api/departments/")
+            .then((res) => res.json())
+            .then((data) => {
+                if (data.success && data.departmentPage) {
+                    const deptMenu = data.departmentPage.slice(1).map((dept) => ({
+                        label: i18n.language === "ar" ? dept.title_arabic || dept.title : dept.title,
+                        link: `/departments/${dept.link}`,
+                        subMenu: (i18n.language === "ar" ? dept.listItems_arabic || dept.listItems : dept.listItems)?.map((item) => ({
+                            label: item,
+                            link: `/departments/${dept.link}/${item.replace(/\s+/g, "-").toLowerCase()}`
+                        }))
+                    }));
+                    setDepartments(deptMenu);
+                }
+            })
+            .catch((error) => {
+                console.error("Error fetching departments:", error);
+                setError(error);
+            });
+    }, [i18n.language]);
 
     useEffect(() => {
         document.body.dir = i18n.dir();
@@ -88,8 +112,7 @@ const MobileMenu = () => {
 
     const { images } = data;
     const menuItems = t("menuItems", { returnObjects: true }) || []; // Translation for menu items
-    if (loading) return;
-    if (error) return;
+
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
     const toggleSubmenu = (event, index) => {
@@ -99,6 +122,19 @@ const MobileMenu = () => {
             [index]: !prev[index],
         }));
     };
+    const updatedMenu = menuItems.map((menu) => {
+        if (menu.link === "/departments") {
+            return { 
+                ...menu, 
+                subMenu: departments.length > 0 ? departments : menu.subMenu || [] 
+            };
+        }
+        return menu;
+    });
+
+
+    if (loading) return <div>Loading...</div>;
+    if (error) return <div>Error: {error.message}</div>;
 
     const handleLinkClick = (item) => {
         setMenuOpen(false); // Close the mobile menu on navigation
@@ -198,11 +234,8 @@ const MobileMenu = () => {
                 <div className="mobile-menu open">
                     <div className="mobile-menu-header">
                         <div className="mobile-menu-logo">
-                            <Link to={`/${lng}`}>
-                                <img
-                                    src={header.stickyLogo}
-                                    alt="Logo"
-                                />
+                            <Link to={`/${lng}`} onClick={() => setMenuOpen(false)}>
+                                <img src={logo} alt="Logo" />
                             </Link>
                         </div>
                         <button className="close-menu" onClick={toggleMenu}>
@@ -210,66 +243,42 @@ const MobileMenu = () => {
                         </button>
                     </div>
                     <ul className="mobile-menu-list">
-                        {menuItems.map((menu, index) => (
-                            <li key={index} className={`menu-item menu-font ${menu.subMenu ? "menu-item-has-children" : ""}`}>
+                        {updatedMenu.map((menu, index) => (
+                            <li key={index} className={`menu-item menu-font ${menu.subMenu?.length > 0 ? "menu-item-has-children" : ""}`}>
                                 <div className="menu-item-content">
                                     <span
                                         className="menu-item-text"
                                         onClick={(event) => {
                                             if (menu.link) {
-                                                handleLinkClick(menu); // Navigate when clicking text
+                                                handleLinkClick(menu);
                                             }
                                         }}
                                     >
                                         {menu.label}
                                     </span>
 
-                                    {menu.subMenu && (
+                                    {menu.subMenu?.length > 0 && (
                                         <span
-                                            className={`menu-icon ${lng === "ar" ? "right-menu" : null
-                                                }`}
+                                            className={`menu-icon ${lng === "ar" ? "right-menu" : null}`}
                                             onClick={(event) => toggleSubmenu(event, index)}
                                         >
                                             {submenuStates[index] ? (
-                                                <svg
-                                                    width="12"
-                                                    height="16"
-                                                    viewBox="0 0 12 16"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                >
+                                                <svg width="12" height="16" viewBox="0 0 12 16" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M0 4L6 12L12 4H0Z" fill="#577065" />
                                                 </svg>
                                             ) : lng === "ar" ? (
-                                                <svg
-                                                    width="12"
-                                                    height="16"
-                                                    viewBox="0 0 12 16"
-                                                    fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                >
+                                                <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M8 0L0 8L8 16V0Z" fill="#577065" />
                                                 </svg>
                                             ) : (
-                                                <svg
-                                                    width="12"
-                                                    height="16"
-                                                    viewBox="0 0 12 16"
-                                                    fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                >
+                                                <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M4 0L12 8L4 16V0Z" fill="#577065" />
                                                 </svg>
                                             )}
                                         </span>
                                     )}
-
-                                    {/* {menu.subMenu && (
-                                        <span className="menu-icon" onClick={(event) => toggleSubmenu(event, index)}>
-                                            {submenuStates[index] ? "▼" : "▶"}
-                                        </span>
-                                    )} */}
                                 </div>
-                                {menu.subMenu && renderSubMenu(menu.subMenu, index)} {/* Start the recursive rendering */}
+                                {menu.subMenu?.length > 0 && renderSubMenu(menu.subMenu, index)}
                             </li>
                         ))}
                     </ul>

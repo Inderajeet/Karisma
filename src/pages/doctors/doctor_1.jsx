@@ -1,80 +1,113 @@
 import React, { useEffect, useState } from "react";
-import { fetchAllJson } from "../../utils/fetchAllJson"; // Import the utility function
+import axios from "axios";
 import { useTranslation } from "react-i18next";
-import { useParams, Link } from "react-router-dom";
-import "../../custom_css/doctor.css"
+import { Link, useParams } from "react-router-dom";
+import "../../custom_css/doctor.css";
 
-export const applyFontFallback = (text) => {
+// Moved out of component to avoid HMR issues
+const applyFontFallback = (text) => {
     if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
 
-    return text.split(/\b/).map((word, index) => 
+    return text.split(/\b/).map((word, index) =>
         /^[A-Za-z0-9 ]+$/.test(word) // If word is English/number/space, keep normal font
             ? word
             : <span key={index} className="fallback-font">{word}</span> // Apply fallback only for non-English words
     );
 };
+const extractPlainText = (html) => {
+    if (!html) return "";
+    const tempDiv = document.createElement("div");
+    tempDiv.innerHTML = html;
+    return tempDiv.innerText;
+};
+const extractBulletPoints = (html) => {
+    if (!html) return [];
 
+    const tempDiv = document.createElement("div");
+    tempDiv.innerHTML = html;
 
-function DoctorPage() {
+    const bulletPoints = [];
 
-    const { t, i18n } = useTranslation(['translation', 'doctors']);
-    const { doctorName } = useParams();
-    const [data, setData] = useState({ styles: {}, images: {} });
+    tempDiv.querySelectorAll("ul li").forEach((li) => {
+        bulletPoints.push(li.innerText);
+    });
+
+    return bulletPoints;
+};
+const processContent = (html) => {
+    if (!html) return "";
+
+    // Check if the content has <ul> tags (bullet points)
+    const tempDiv = document.createElement("div");
+    tempDiv.innerHTML = html;
+
+    if (tempDiv.querySelector("ul")) {
+        return extractBulletPoints(html); // If <ul> exists, return bullet points
+    }
+    return extractPlainText(html); // Otherwise, return plain text
+};
+const DoctorPage = () => {
+    const { doctorId } = useParams();
+    const [doctor, setDoctor] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const [doctors, setDoctors] = useState([]);
-    const [doctor, setDoctor] = useState(null);
+    const { t, i18n } = useTranslation(['translation', 'doctors']);
+    const [allDoctors, setAllDoctors] = useState([]);
 
-    // Fetch external assets (styles, images)
     useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const allData = await fetchAllJson();
-                setData(allData);
-            } catch (err) {
-                setError(err.message);
-            } finally {
-                setLoading(false);
+        // Set initial state
+        setLoading(true);
+        setError(null);
+
+        console.log("Fetching doctors data from API...");
+
+        // Use fetch with promise chain
+        fetch(`/api/doctor/${doctorId}`, {
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
             }
-        };
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log("Doctor data received:", data);
 
-        fetchData();
-    }, []);
+                if (data && data.id) {
+                    setDoctor(data);
+                } else {
+                    throw new Error("Invalid data format or doctor not found");
+                }
 
-    // Load doctors from translations
-    useEffect(() => {
-        const doctorsData = t('doctors:doctors', { returnObjects: true });
-        const filteredDoctors = doctorsData.filter(doc => doc.id); // Removes entries without an "id"
-        setDoctors(filteredDoctors);
-    }, [t]);
-    
-
-    // Find the current doctor
-    useEffect(() => {
-        if (doctors.length > 0) {
-            const foundDoctor = doctors.find((doc) => {
-                const fullLink = `doctor/${decodeURIComponent(doctorName)}`;
-                return doc.link === fullLink;
+                setLoading(false);
+            })
+            .catch(err => {
+                console.error("Failed to fetch doctor:", err);
+                setError(`Failed to fetch doctor: ${err.message}`);
+                setLoading(false);
             });
-            setDoctor(foundDoctor);
-        }
-    }, [doctors, doctorName]);
+
+    }, []);
 
     if (loading) return <p>Loading...</p>;
     if (error) return <p>Error: {error}</p>;
     if (!doctor) return <p>Doctor not found!</p>;
 
-    // Find current doctor index
-    const currentIndex = doctors.findIndex((doc) => doc.id === doctor.id);
+
+    // Find current doctor index for prev/next navigation
+    const currentIndex = allDoctors.findIndex((doc) => doc.id === doctor.id);
 
     // Calculate previous and next indices with wrapping
-    const prevIndex = (currentIndex - 1 + doctors.length) % doctors.length;
-    const nextIndex = (currentIndex + 1) % doctors.length;
+    const prevIndex = (currentIndex - 1 + allDoctors.length) % allDoctors.length;
+    const nextIndex = (currentIndex + 1) % allDoctors.length;
 
-    const prevDoctor = doctors[prevIndex];
-    const nextDoctor = doctors[nextIndex];
-
-    console.log("Doctor Name:", decodeURIComponent(doctorName));
+    const prevDoctor = allDoctors[prevIndex];
+    const nextDoctor = allDoctors[nextIndex];
 
     return (
         <>
@@ -128,7 +161,7 @@ function DoctorPage() {
                                                                 {section.items.map((detail, index) => (
                                                                     <div className="elementor-icon-list-item" key={index}>
                                                                         <span className="elementor-cust-icon-list-text">
-                                                                            {detail}
+                                                                            {extractPlainText(detail)}
                                                                         </span>
                                                                     </div>
                                                                 ))}
@@ -202,20 +235,27 @@ function DoctorPage() {
                                                                             >
                                                                                 <div className="elementor-widget-container">
                                                                                     <ul className="elementor-icon-list-items">
-                                                                                        {doctor.workExperience.items.map((detail, index) => (
-                                                                                            <li className="elementor-icon-list-item">
-                                                                                                <span className="elementor-icon-list-icon">
-                                                                                                    <i
-                                                                                                        aria-hidden="true"
-                                                                                                        className=" bi-check2-circle"
-                                                                                                    />
-                                                                                                </span>
-                                                                                                <span className="elementor-cust-icon-list-text">{detail}
-                                                                                                </span>
-                                                                                            </li>
-                                                                                        ))}
+                                                                                        {doctor.workExperience.items.map((detail, index) => {
+                                                                                            const processedContent = processContent(detail); // Check if it's a list or paragraph
+
+                                                                                            return Array.isArray(processedContent) ? (
+                                                                                                // If it's a bullet point list, map each item
+                                                                                                processedContent.map((point, idx) => (
+                                                                                                    <li key={`${index}-${idx}`} className="elementor-icon-list-item">
+                                                                                                        <span className="elementor-icon-list-icon">
+                                                                                                            <i aria-hidden="true" className="bi-check2-circle" />
+                                                                                                        </span>
+                                                                                                        <span className="elementor-cust-icon-list-text">{point}</span>
+                                                                                                    </li>
+                                                                                                ))
+                                                                                            ) : (
+                                                                                                // If it's plain text, show it directly in a paragraph
+                                                                                                <p key={index} className="elementor-cust-icon-list-text">{processedContent}</p>
+                                                                                            );
+                                                                                        })}
                                                                                     </ul>
                                                                                 </div>
+
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -255,18 +295,29 @@ function DoctorPage() {
                                                                             <div className="elementor-element elementor-element-653e731 elementor-widget__width-initial elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="653e731" data-element_type="widget" data-widget_type="icon-list.default">
                                                                                 <div className="elementor-widget-container">
                                                                                     <ul className="elementor-icon-list-items">
-                                                                                        {doctor.qualifications.items.map((detail, index) => (
-                                                                                            <li className="elementor-icon-list-item">
-                                                                                                <span className="elementor-icon-list-icon">
-                                                                                                    <i aria-hidden="true" className=" bi-check2-circle">
-                                                                                                    </i>
-                                                                                                </span>
-                                                                                                <span className="elementor-cust-icon-list-text">{detail}</span
-                                                                                                >
-                                                                                            </li>
-                                                                                        ))}
+                                                                                        {doctor.qualifications.items.map((detail, index) => {
+                                                                                            const processedContent = processContent(detail); // Check if it's a list or paragraph
+
+                                                                                            if (Array.isArray(processedContent)) {
+                                                                                                // If it's a bullet point list, map each item
+                                                                                                return processedContent.map((point, idx) => (
+                                                                                                    <li key={`${index}-${idx}`} className="elementor-icon-list-item">
+                                                                                                        <span className="elementor-icon-list-icon">
+                                                                                                            <i aria-hidden="true" className="bi-check2-circle" />
+                                                                                                        </span>
+                                                                                                        <span className="elementor-cust-icon-list-text">{point}</span>
+                                                                                                    </li>
+                                                                                                ));
+                                                                                            } else {
+                                                                                                // If it's plain text, show it directly
+                                                                                                return (
+                                                                                                    <p key={index} className="elementor-cust-icon-list-text">{processedContent}</p>
+                                                                                                );
+                                                                                            }
+                                                                                        })}
                                                                                     </ul>
                                                                                 </div>
+
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -440,45 +491,29 @@ function DoctorPage() {
                                                         </div>
                                                     </div>
                                                 </div>
-
                                             </div>
                                         </div>
                                         {/* .team-content-wrap */}
                                         {/* Navigation Links */}
-                                        <div className="custom-post-nav">
-                                            <div className="prev-nav-link">
+                                        <div className="row" style={{ display: 'flex', justifyContent: 'space-between', margin: '20px 0' }}>
+                                            {prevDoctor && (
                                                 <Link
-                                                    to={`/${i18n.language}/${encodeURI(prevDoctor.link)}`}
-                                                    className="doc-nav-arrows"
+                                                    to={`/${i18n.language}/doctor/${prevDoctor.id}`}
+                                                    className="btn btn-primary"
+                                                    style={{ margin: '10px' }}
                                                 >
-                                                    <svg width="30" height="24" fill="#000000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400.004 400.004" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"></path> </g> </g></svg>
-                                                    <div>{prevDoctor.name}</div>
+                                                    &larr; Previous Doctor
                                                 </Link>
-                                            </div>
-                                            <div className="next-nav-link">
+                                            )}
+                                            {nextDoctor && (
                                                 <Link
-                                                    to={`/${i18n.language}/${encodeURI(nextDoctor.link)}`}
-                                                    className="doc-nav-arrows"
+                                                    to={`/${i18n.language}/doctor/${nextDoctor.id}`}
+                                                    className="btn btn-primary"
+                                                    style={{ margin: '10px', marginLeft: 'auto' }}
                                                 >
-                                                    <div>{nextDoctor.name}</div>
-                                                    <svg width="30" height="24" fill="#5C4033" viewBox="0 -6.5 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                                                        <g id="SVGRepo_iconCarrier">
-                                                            <title>right-arrow</title>
-                                                            <desc>Created with Sketch.</desc>
-                                                            <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                                <g id="ui-gambling-website-lined-icnos-casinoshunter" transform="translate(-1511.000000, -158.000000)" fill="#5C4033" fill-rule="nonzero">
-                                                                    <g id="1" transform="translate(1350.000000, 120.000000)">
-                                                                        <path d="M187.812138,38.5802109 L198.325224,49.0042713 L198.41312,49.0858421 C198.764883,49.4346574 198.96954,49.8946897 199,50.4382227 L198.998248,50.6209428 C198.97273,51.0514917 198.80819,51.4628128 198.48394,51.8313977 L198.36126,51.9580208 L187.812138,62.4197891 C187.031988,63.1934036 185.770571,63.1934036 184.990421,62.4197891 C184.205605,61.6415481 184.205605,60.3762573 184.990358,59.5980789 L192.274264,52.3739093 L162.99947,52.3746291 C161.897068,52.3746291 161,51.4850764 161,50.3835318 C161,49.2819872 161.897068,48.3924345 162.999445,48.3924345 L192.039203,48.3917152 L184.990421,41.4019837 C184.205605,40.6237427 184.205605,39.3584519 184.990421,38.5802109 C185.770571,37.8065964 187.031988,37.8065964 187.812138,38.5802109 Z" id="right-arrow"></path>
-                                                                    </g>
-                                                                </g>
-                                                            </g>
-                                                        </g>
-                                                    </svg>
+                                                    Next Doctor &rarr;
                                                 </Link>
-                                            </div>
-                                            {/* </div> */}
+                                            )}
                                         </div>
                                     </div>
                                     {/* .col */}

@@ -1,36 +1,47 @@
 import React, { useState, useEffect, useRef } from "react";
-import { fetchAllJson } from "../utils/fetchAllJson";
 import "./HomeSlider.css";
 
 const HomeSlider = () => {
   const [sliderImages, setSliderImages] = useState([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   const autoSlideIntervalRef = useRef(null);
   const isMounted = useRef(true);
 
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchBannerImages = async () => {
       try {
-        const fetchedData = await fetchAllJson();
-        console.log("Fetched Data:", fetchedData); // Debugging log
-    
+        const response = await fetch('/api/bannerpage');
+        const data = await response.json();
+        
         if (isMounted.current) {
-          const images = fetchedData?.images?.home?.sliderImages?.desktop || []; // Select desktop images
-    
-          if (Array.isArray(images) && images.length > 0) {
-            setSliderImages(images);
+          if (data.banners && Array.isArray(data.banners)) {
+            // Filter active banners and map to get desktop image URLs
+            const activeBanners = data.banners
+              .filter(banner => banner.status === "active" && banner.desktop)
+              .map(banner => banner.desktop);
+            
+            if (activeBanners.length > 0) {
+              setSliderImages(activeBanners);
+            } else {
+              setError("No active banners found");
+            }
           } else {
-            console.error("Invalid sliderImages structure:", images);
-            setSliderImages([]);
+            setError("Invalid banners data structure");
           }
+          setLoading(false);
         }
       } catch (err) {
-        console.error("Error fetching data:", err);
+        if (isMounted.current) {
+          console.error("Error fetching banner images:", err);
+          setError("Failed to load banner images");
+          setLoading(false);
+        }
       }
     };
-    
 
-    fetchData();
+    fetchBannerImages();
 
     return () => {
       isMounted.current = false;
@@ -62,8 +73,16 @@ const HomeSlider = () => {
     }
   };
 
+  if (loading) {
+    return <div className="loading-placeholder">Loading banners...</div>;
+  }
+
+  if (error) {
+    return <div className="error-placeholder">{error}</div>;
+  }
+
   if (sliderImages.length === 0) {
-    return <div>Loading...</div>; // Show loading if no images
+    return <div className="no-banners-placeholder">No banners available</div>;
   }
 
   return (

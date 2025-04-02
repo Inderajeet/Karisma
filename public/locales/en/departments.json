@@ -585,7 +585,7 @@
                     ]
                 },
                 {
-                    "type": "sub-heading-content-last",
+                    "type": "color-content",
                     "title": "A Personalized Approach to Timeless Beauty",
                     "description": "At Karisma, we prioritize your unique skincare journey:",
                     "features": [
@@ -595,9 +595,13 @@
                     ]
                 },
                 {
-                    "type": "color-heading",
+                    "type": "content",
                     "title": "Restore Your Inner Glow",
                     "description": "Unlock the potential of radiant, flawless skin. Schedule your consultation at Karisma today and step into a world of elegance and rejuvenation, where beauty meets excellence."
+                },
+                {
+                    "type": "color-heading",
+                    "title": "Related Services"
                 },
                 {
                     "type": "list-services",

@@ -16,6 +16,7 @@ const MainMenu = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [logo, setLogo] = useState(null);
+  const [departments, setDepartments] = useState([]);
 
   useEffect(() => {
     document.body.dir = i18n.dir();
@@ -73,6 +74,26 @@ const MainMenu = () => {
     };
   }, [i18n]);
 
+  useEffect(() => {
+    fetch("/api/departments/")
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.success && data.departmentPage) {
+          const deptMenu = data.departmentPage.slice(1).map((dept) => ({
+            label: i18n.language === "ar" ? dept.title_arabic : dept.title,
+            link: `/${dept.link}`,
+            subMenu: (i18n.language === "ar" ? dept.listItems_arabic : dept.listItems)?.map((item) => ({
+              label: item,
+              link: `/${dept.link}/${item.replace(/\s+/g, "-").toLowerCase()}`
+            }))
+          }));
+  
+          setDepartments(deptMenu);
+        }
+      })
+      .catch((error) => console.error("Error fetching departments:", error));
+  }, [i18n.language]); // <-- Added dependency on language
+  
   const changeLanguage = () => {
     const newLang = lng === "en" ? "ar" : "en";
     const newPath = location.pathname.replace(`/${lng}`, `/${newLang}`);
@@ -95,6 +116,15 @@ const MainMenu = () => {
 
   const menuItems = t("menuItems", { returnObjects: true }) || [];
 
+  // Merge API-fetched departments into menu
+  const updatedMenu = menuItems.map((menu) => {
+    if (menu.link === "/departments") { // Check by link instead of label
+      return { ...menu, subMenu: departments };
+    }
+    return menu;
+  });
+  
+
   return (
     <header className={`header`}>
       <SocialIcons />
@@ -115,7 +145,7 @@ const MainMenu = () => {
               <li className="header-navigation-wrapper">
                 <nav className="primary-menu-wrapper" aria-label="Horizontal">
                   <ul className="nav wp-menu primary-menu" style={{ fontSize: "16px" }}>
-                    {menuItems.map((menu, index) => (
+                    {updatedMenu.map((menu, index) => (
                       <li
                         key={index}
                         className={`menu-item menu-item-type-custom menu-item-object-custom ${menu.subMenu ? "menu-item-has-children" : ""}`}
@@ -146,7 +176,6 @@ const MainMenu = () => {
               </li>
               <li className="secondary-toggle-wrapper">
                 <img
-                  // src={t("header.arabIcon")}
                   src={currentLang === "en" ? t("header.arabIcon") : t("header.engIcon")}
                   className="language-icon"
                   alt={currentLang === "en" ? "Arabic" : "English"}

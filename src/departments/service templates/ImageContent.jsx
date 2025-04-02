@@ -42,9 +42,9 @@ export const applyFontFallback = (text) => {
 
 
 const ImageContent = ({ title, imageUrl, imageAlt, content }) => {
-  const finalImageUrl = imageUrl.startsWith("http")
-  ? imageUrl
-  : `${window.location.origin}/assets/${imageUrl.replace(/^(\.\.\/)+assets\//, '')}`;
+  const finalImageUrl = typeof imageUrl === 'string' && imageUrl.startsWith("http")
+    ? imageUrl
+    : `${window.location.origin}/assets/${imageUrl?.replace(/^(\.\.\/)+assets\//, '') || ''}`;
 
 console.log("Final Image URL:", finalImageUrl);
 

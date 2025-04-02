@@ -17,12 +17,40 @@ export const applyFontFallback = (text) => {
 const CommonServiceBanner = ({ deptName, serviceName, bannerImage, bannerPosition, deptLink, home }) => {
     const { lng } = useParams();
 
-    console.log('Inside banner:', bannerImage);
-    const bannerImageUrl = bannerImage.startsWith("http")
-        ? bannerImage
-        : `${window.location.origin}/assets/${bannerImage.replace(/^(\.\.\/)+assets\//, '')}`;
+    const getBannerImageUrl = () => {
+        if (!bannerImage) {
+            return `${window.location.origin}/assets/Images/default-banner.png`;
+        }
 
-    console.log("Final Banner Image URL:", bannerImageUrl); // Debugging
+        // First, clean the input by removing any /uploads/ prefix if it exists
+        const cleanedBannerImage = bannerImage.replace(/^\/?uploads\//, '');
+
+        // Check if it's already a valid URL
+        try {
+            const url = new URL(cleanedBannerImage);
+            if (['http:', 'https:'].includes(url.protocol)) {
+                return cleanedBannerImage;
+            }
+        } catch (e) {
+            // Not a valid URL, continue processing
+        }
+
+        // If it contains your domain name but is malformed
+        if (cleanedBannerImage.includes('karisma.dmaksolutions.com')) {
+            return cleanedBannerImage.startsWith('http') 
+                ? cleanedBannerImage 
+                : `https://${cleanedBannerImage.replace(/^\/+/, '')}`;
+        }
+
+        // Default case - treat as local path
+        return `${window.location.origin}/uploads/${cleanedBannerImage.replace(/^\/+/, '')}`;
+    };
+
+    const bannerImageUrl = getBannerImageUrl();
+    console.log('Final banner URL:', bannerImageUrl);
+
+
+
     return (
         <>
             <div

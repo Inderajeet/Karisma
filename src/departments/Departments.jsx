@@ -1,277 +1,218 @@
 import React, { useEffect, useState } from "react";
 import ContentSection from "./service templates/ContentSection";
-import { useTranslation } from "react-i18next";
-import { useParams, Link } from "react-router-dom";
-import ImageContent from "./service templates/ImageContent"
+import { useParams } from "react-router-dom";
 import SlidingDoct from "./service templates/SlidingDoct";
-import VideoSection from "../components/VideoSection";
-import OffersTemplate from "./service templates/OffersTemplate";
 import ListServices from "./service templates/ListServices";
-import ListServicesNoImg from "./service templates/ListServicesNoImg";
-import HeaderTitle from "./service templates/HeaderTitle";
-import ColorHeading from "./service templates/ColorHeading";
-import ContSection from "./service templates/ContSection";
-import SubHeadingColor from "./service templates/SubHeading";
-import SubHeadingColorLast from "./service templates/SubHeadingColorLast";
-import ColorSection from "./service templates/ColorSection";
 import CommonServiceBanner from "./CommonServiceBanner";
+import i18n from "i18next";
+import ColorSection from "./service templates/ColorSection"; // Make sure to import this
+import ImageContent from "./service templates/ImageContent";
+import ImageContentNew from "./service templates/ImageContentNew";
+
+export const applyFontFallback = (text) => {
+    if (!text || typeof text !== "string") return text;
+    return text.split(/\b/).map((word, index) =>
+        /^[A-Za-z0-9 ]+$/.test(word)
+            ? word
+            : <span key={index} className="fallback-font">{word}</span>
+    );
+};
+
+const extractSections = (html) => {
+    if (!html) return [];
+
+    const tempDiv = document.createElement("div");
+    tempDiv.innerHTML = html;
+
+    const sections = [];
+    let currentSection = {};
+
+    Array.from(tempDiv.childNodes).forEach(node => {
+        if (node.nodeName === 'P') {
+            const text = node.textContent.trim();
+            if (text) {
+                // Check if it's a heading (bold text)
+                if (node.querySelector('b') || node.querySelector('strong')) {
+                    // If we have content in current section, push it before starting new one
+                    if (currentSection.title || currentSection.description || currentSection.imageUrl) {
+                        sections.push(currentSection);
+                        currentSection = {};
+                    }
+
+                    // Check if this is the main title or a sub-heading
+                    if (!currentSection.title) {
+                        currentSection.title = text;
+                    } else if (!currentSection.heading) {
+                        currentSection.heading = text;
+                    } else {
+                        currentSection.heading2 = text;
+                    }
+                } else {
+                    if (!currentSection.description) {
+                        currentSection.description = text;
+                    } else {
+                        currentSection.description2 = text;
+                    }
+                }
+            }
+        }
+        else if (node.nodeName === 'UL') {
+            currentSection.features = Array.from(node.querySelectorAll('li')).map(li => li.textContent);
+        }
+        else if (node.nodeName === 'IMG') {
+            currentSection.imageUrl = node.getAttribute('src');
+            currentSection.imageAlt = node.getAttribute('alt') || '';
+        }
+    });
+
+    // Push the last section if it has content
+    if (currentSection.title || currentSection.description || currentSection.imageUrl) {
+        sections.push(currentSection);
+    }
+
+    return sections;
+};
 
 const Departments = () => {
-    const { t, i18n } = useTranslation('departments');
-    // const services = t('services', { returnObjects: true });
-
     const { deptName } = useParams();
-    const [services, setServices] = useState([]);
     const [service, setService] = useState(null);
-    // Load services from translations
-    useEffect(() => {
-        const servicesData = t('departments:departments', { returnObjects: true });
-        setServices(servicesData);
-    }, [t]);
+    const [doctors, setDoctors] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+    const [sections, setSections] = useState([]);
 
-    // Find the current doctor
     useEffect(() => {
-        if (Array.isArray(services) && services.length > 0) {
-            const foundService = services.find((doc) => doc.name === decodeURIComponent(deptName));
-            setService(foundService);
+        setLoading(true);
+        setError(null);
+
+        const deptId = parseInt(deptName, 10);
+
+        if (isNaN(deptId)) {
+            console.error("Invalid department ID:", deptName);
+            setError("Invalid department ID");
+            setLoading(false);
+            return;
         }
-    }, [services, deptName]);
 
-    console.log('Found Service:', services);  // Debugging: log found service
+        Promise.all([
+            fetch(`/api/departments/${deptId}`).then((res) => res.json()),
+            fetch(`/api/doctors`).then((res) => res.json()),
+        ])
+            .then(([deptData, doctorData]) => {
+                if (deptData && deptData.success && deptData.data) {
+                    setService(deptData.data);
+                    // Extract sections from the HTML content
+                    const extractedSections = extractSections(deptData.data.department_description);
+                    setSections(extractedSections);
+                } else {
+                    throw new Error("Invalid department data format");
+                }
 
-    console.log('Services data:', deptName);  // Debugging: log services
-    console.log("gyne services:", decodeURIComponent(deptName));
+                if (doctorData && doctorData.doctors) {
+                    setDoctors(doctorData.doctors.slice(1));
+                } else {
+                    setDoctors([]);
+                    console.warn("Invalid doctors data format");
+                }
 
-    if (!service) return <p>service not found!</p>;
+                setLoading(false);
+            })
+            .catch((err) => {
+                console.error("Failed to fetch data:", err);
+                setError(`Failed to fetch data: ${err.message}`);
+                setLoading(false);
+            });
+    }, [deptName]);
+
+    if (loading) return <p>Loading department details...</p>;
+    if (error) return <p>Error: {error}</p>;
+    if (!service) return <p>Service not found!</p>;
+
+    const filteredDoctors = doctors.filter(
+        (doctor) => doctor.department.toLowerCase() === service.department_name.toLowerCase()
+    );
+    const bannerSections = extractSections(service.banner_description);
+    const combinedBannerContent = {
+        title: service.department_name, // Use department name as main title
+        imageUrl: service.banner_image ? `/uploads/${service.banner_image}` : "/assets/Images/default-banner.png",
+        imageAlt: service.department_name,
+        heading: bannerSections[0]?.title || '', // First bold text as heading
+        heading2: bannerSections[1]?.title || '', // Second bold text as sub-heading
+        description: bannerSections[0]?.description || '', // First paragraph
+        description2: bannerSections[1]?.description || '', // Second paragraph
+        features: bannerSections.flatMap(section => section.features || []) // Combine all features
+    };
+
+
 
     return (
         <>
-            {/* <BannerSkinCare /> */}
-            <div className="">
-                {service.sections.map((section, index) => {
-                    console.log('Section-services:', section.listServices);  // Debugging: log section
-                    if (section.type === "content") {
-                        return (
-                            <div style={{ paddingTop: '1rem', paddingBottom: '1rem' }}>
+            <div>
+                <CommonServiceBanner
+                    deptName={service.department_name}
+                    serviceName={service.department_name}
+                    bannerImage={service.banner_image ? `/uploads/${service.banner_image}` : "/assets/Images/default-banner.png"}
+                    deptLink={`/departments/${service.canonical_name}`}
+                    bannerPosition="center"
+                    home={false}
+                />
+                <ImageContentNew
+                    key="combined-banner"
+                    title={combinedBannerContent.title}
+                    heading={combinedBannerContent.heading}
+                    heading2={combinedBannerContent.heading2}
+                    description={combinedBannerContent.description}
+                    description2={combinedBannerContent.description2}
+                    features={combinedBannerContent.features}
+                    imageUrl={service.section_image}
+                    imageAlt={service.imageAlt}
+                />
 
-                                <ContentSection
-                                    key={index}
-                                    title={section.title}
-                                    heading={section.heading}
-                                    heading2={section.heading2}
-                                    description={section.description}
-                                    description2={section.description2}
-                                    features={section.features}
-                                />
-                            </div>
-                        );
-                    } if (section.type === "cont-content") {
-                        return (
-                            <div style={{ paddingTop: '1rem', paddingBottom: '0rem' }}>
 
-                                <ContSection
-                                    key={index}
-                                    title={section.title}
-                                    heading={section.heading}
-                                    heading2={section.heading2}
-                                    description={section.description}
-                                    description2={section.description2}
-                                    features={section.features}
-                                />
-                            </div>
-                        );
-                    } if (section.type === "cont-content-last") {
-                        return (
-                            <div style={{ paddingTop: '0rem', paddingBottom: '1rem' }}>
-
-                                <ContSection
-                                    key={index}
-                                    title={section.title}
-                                    heading={section.heading}
-                                    heading2={section.heading2}
-                                    description={section.description}
-                                    description2={section.description2}
-                                    features={section.features}
-                                />
-                            </div>
-                        );
-                    } else if (section.type === "center-content") {
-                        return (
-                            <div style={{ textAlign: 'center', backgroundColor: '#c4a98863', paddingTop: '2rem' }}>
-                                <ContentSection
-                                    key={index}
-                                    title={section.title}
-                                    heading={section.heading}
-                                    description={section.description}
-                                    features={section.features}
-                                />
-                            </div>
-                        );
-                    } else if (section.type === "color-heading") {
-                        return (
-                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem' }}>
-                                <ColorHeading
-                                    key={index}
-                                    title={section.title}
-                                    heading={section.heading}
-                                    description={section.description}
-                                    features={section.features}
-                                />
-                            </div>
-                        );
-                    } else if (section.type === "color-content") {
-                        return (
+                {/* Render alternating sections */}
+                {sections.map((section, index) => (
+                    <React.Fragment key={index}>
+                        {index % 2 === 0 ? (
+                            <ContentSection
+                                title={section.title}
+                                description={section.description}
+                                features={section.features}
+                            />
+                        ) : (
                             <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem', paddingBottom: '1rem' }}>
                                 <ColorSection
                                     key={index}
                                     title={section.title}
-                                    heading={section.heading}
-                                    heading2={section.heading2}
-                                    description={section.description}
-                                    description2={section.description2}
-                                    features={section.features}
-                                />
-                            </div>
-                        );
-                    } else if (section.type === "sub-heading-color-content") {
-                        return (
-                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '0rem', paddingBottom: '0rem' }}>
-                                <SubHeadingColor
-                                    key={index}
-                                    title={section.title}
-                                    heading={section.heading}
-                                    heading2={section.heading2}
-                                    description={section.description}
-                                    description2={section.description2}
-                                    features={section.features}
-                                />
-                            </div>
-                        );
-                    } else if (section.type === "sub-heading-color-content-last") {
-                        return (
-                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '0rem', paddingBottom: '1rem' }}>
-                                <SubHeadingColorLast
-                                    key={index}
-                                    title={section.title}
-                                    heading={section.heading}
-                                    heading2={section.heading2}
-                                    description={section.description}
-                                    description2={section.description2}
-                                    features={section.features}
-                                />
-                            </div>
-                        );
-                    } else if (section.type === "sub-heading-content-last") {
-                        return (
-                            <div style={{ paddingTop: '0rem', paddingBottom: '1rem' }}>
-                                <SubHeadingColorLast
-                                    key={index}
-                                    title={section.title}
-                                    heading={section.heading}
-                                    heading2={section.heading2}
-                                    description={section.description}
-                                    description2={section.description2}
-                                    features={section.features}
-                                />
-                            </div>
-                        );
-                    } else if (section.type === "sub-heading-content") {
-                        return (
-                            <div style={{ paddingTop: '0rem', paddingBottom: '0rem' }}>
-                                <SubHeadingColor
-                                    key={index}
-                                    title={section.title}
-                                    heading={section.heading}
-                                    heading2={section.heading2}
-                                    description={section.description}
-                                    description2={section.description2}
-                                    features={section.features}
-                                />
-                            </div>
-                        );
-                    } else if (section.type === "header-title") {
-                        return (
-                            <HeaderTitle
-                                key={index}
-                                title={section.title}
-                                description={section.description}
-                            />
-                        );
-                    } else if (section.type === "color-heading") {
-                        return (
-                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem' }}>
-                                <ColorHeading
-                                    key={index}
-                                    title={section.title}
-                                    heading={section.heading}
+                                    heading={section.title} // Using title as heading if needed
                                     description={section.description}
                                     features={section.features}
                                 />
                             </div>
-                        );
-                    } else if (section.type === "banner") {
-                        return (
-                            <CommonServiceBanner
-                                deptName={section.deptName}
-                                serviceName={section.serviceName}
-                                bannerImage={section.bannerImage}
-                                deptLink={section.deptLink}
-                                bannerPosition={section.bannerPosition}
-                                home={section.home}
-                            />
-                        );
-                    } else if (section.type === "image-content") {
-                        console.log('ImageContent Data:', section);  // Debugging: log image-content
+                        )}
+                    </React.Fragment>
+                ))}
 
-                        return (
-                            <ImageContent
-                                key={index}
-                                title={section.title} // Pass title
-                                imageUrl={section.imageUrl} // Pass image URL
-                                imageAlt={section.imageAlt} // Pass image alt text
-                                content={section.content} // Pass the content array
-                            />
-                        );
-                    } else if (section.type === "slider-doctors") {
-                        console.log('inside doctors')
-                        return (
-
-                            <SlidingDoct
-                                key={index}
-                                doctors={section.doctors} // Pass doctors array
-                                cards={section.cards} // Pass card styles
-                                isRTL={i18n.dir() === "rtl"} // Pass direction info
-                            />
-                        );
-                    } else if (section.type === "video") {
-                        console.log('inside video')
-                        return (
-
-                            <VideoSection />
-                        );
-                    }
-                    else if (section.type === "offers") {
-                        return <OffersTemplate key={index} offers={section.offers} />;
-                    }
-                    else if (section.type === "list-services") {
-                        console.log('Related services:', section.listServices);  // Debugging: log related services
-                        return (
-                            <div style={{ backgroundColor: '#c4a98863' }}>
-                                <ListServices key={index} services={section.listServices} />
-                            </div>);
-                    } else if (section.type === "list-services-noImage") {
-                        console.log('Related services:', section.listServices);  // Debugging: log related services
-                        return (
-                            <div style={{ backgroundColor: '#c4a98863' }}>
-                                <ListServicesNoImg key={index} services={section.listServices} />
-                            </div>);
-                    }
-                    return null;  // If no valid section type found
-                })}
-                {/* <Doctors /> */}
+                <ListServices
+                    services={service.services?.map(s => ({
+                        id: s.id,
+                        name: s.service_name,
+                        image: s.service_image ? `/uploads/${s.service_image}` : "/assets/Images/default-service.png",
+                        link: `${service.canonical_name}/${s.canonical_name}`,
+                        readMore: "Read More",
+                        designation: ""
+                    }))}
+                />
             </div>
-            <div className="line-container" style={{ display: 'flex', width: '100%', justifyContent: 'center', paddingTop: '60px' }}>
-                <hr className="half-line" style={{ width: '50%', border: '0', height: '2px', backgroundColor: '#111', margin: '0' }} />
+
+            {filteredDoctors.length > 0 && (
+                <SlidingDoct
+                    doctors={filteredDoctors}
+                    isRTL={false}
+                />
+            )}
+
+            <div className="line-container" style={{ display: "flex", width: "100%", justifyContent: "center", paddingTop: "60px" }}>
+                <hr className="half-line" style={{ width: "50%", border: "0", height: "2px", backgroundColor: "#111", margin: "0" }} />
             </div>
         </>
     );

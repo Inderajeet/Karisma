@@ -1300,7 +1300,7 @@
                             "id": 2,
                             "name": "Zircon Veneer",
                             "image": "../assets/Images/banner/about_dept/dental.png",
-                            "link": "dental/hollywood-smile-veneers",
+                            "link": "dental/hollywood-smile-veneers/zircon-elite-hollywood-smile",
                             "readMore": "Read More",
                             "designation": "Combining German materials with American innovation, these veneers deliver precision, durability, and artistry."
                         },
@@ -1308,7 +1308,7 @@
                             "id": 3,
                             "name": "Zircon Snow White Veneer",
                             "image": "../assets/Images/banner/about_dept/dental.png",
-                            "link": "dental/hollywood-smile-veneers",
+                            "link": "dental/hollywood-smile-veneers/zircon-snow-white",
                             "readMore": "Read More",
                             "designation": "Experience unmatched brilliance with these revolutionary veneers, designed for captivating smiles."
                         },

@@ -18,7 +18,55 @@ export default function Footer() {
   const [error, setError] = useState(null);
   const { lng } = useParams();
 
+  const [departments, setDepartments] = useState([]);
 
+  // Add this useEffect near your other useEffect hooks
+  // For Departments API
+  useEffect(() => {
+    fetch('/api/departments/')
+      .then(response => response.json())
+      .then(data => {
+        if (data && data.success && data.departmentPage && Array.isArray(data.departmentPage)) {
+          const formattedDepts = data.departmentPage.slice(1).map(dept => ({
+            name: i18n.language === 'ar' ? dept.title_arabic || dept.title : dept.title,
+            link: `/${dept.link}`
+          }));
+          setDepartments(formattedDepts);
+        }
+      })
+      .catch(err => {
+        console.error("Departments API error:", err);
+        setDepartments(footers.departments || []); // Fallback to JSON data
+      });
+  }, [i18n.language]); // Removed footers.departments from dependencies
+
+  // For ContactPage API (Social Links)
+  useEffect(() => {
+    fetch('/api/contactpage', {
+      method: 'GET',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      }
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        if (data && data.success && data.data && data.data.social_links) {
+          setSocialLinks(data.data.social_links);
+        } else {
+          throw new Error("Invalid contact page data format");
+        }
+      })
+      .catch(err => {
+        console.error("ContactPage API error:", err);
+        // Keep default social links if API fails
+      });
+  }, []);
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -34,6 +82,32 @@ export default function Footer() {
     fetchData();
   }, []);
 
+
+  // const { styles, images } = jsonData;
+  // const { footer } = styles; // Destructure the JSON as needed
+  // const { header } = images;
+
+  const [socialLinks, setSocialLinks] = useState({
+    facebook: "#",
+    instagram: "#",
+    youtube: "#",
+    twitter: "#",
+    linkedin: "#",
+    threads: "#",  // Added threads to match API
+    snapchat: "#"
+  });
+
+  // Add this useEffect near your other useEffect hooks
+  // useEffect(() => {
+  //   fetch('/api/contactpage')
+  //     .then(res => res.json())
+  //     .then(data => {
+  //       if (data.success && data.data.social_links) {
+  //         setSocialLinks(data.data.social_links);
+  //       }
+  //     })
+  //     .catch(err => console.error("Error fetching social links:", err));
+  // }, []);
   if (loading) {
     return;
   }
@@ -41,28 +115,18 @@ export default function Footer() {
   if (error) {
     return;
   }
-  const { styles, images } = jsonData;
-  const { footer } = styles; // Destructure the JSON as needed
-  const { header } = images;
-
-  const socialLinks = [
-    { platform: "Facebook", iconClass: "bi-facebook", link: "#" },
-    { platform: "Twitter", iconClass: "bi-twitter-x", link: "#" },
-    { platform: "Instagram", iconClass: "bi-instagram", link: "#" },
-    { platform: "Pinterest", iconClass: "bi-pinterest", link: "#" },
-  ];
 
   const companyLink = { name: "", link: "/" };
 
   return (
     <>
-      <footer id="site-footer" className="site-footer" style={{ backgroundColor: footer['background-color'] }}>
+      <footer id="site-footer" className="site-footer" style={{ backgroundColor: "#D9C5AD" }}>
         <div className="site-footer-wrap container-fluid p-0">
 
 
           <div
             className="footer-widgets-wrap"
-            style={{ backgroundColor: footer['background-color'], paddingTop: '50px', paddingBottom: '30px', borderRadius: '0' }}
+            style={{ backgroundColor: "#D9C5AD", paddingTop: '50px', paddingBottom: '30px', borderRadius: '0' }}
           >
 
             <div className="container">
@@ -92,17 +156,13 @@ export default function Footer() {
                           </figure>
                           <p
                             className="custom-footer-txt"
-                            style={{
-                              color: footer['about-color'],
-                              fontSize: footer['about-size'],
-                            }}
                           >
                             {footers.description}
                           </p>
                           <ul style={{ display: "flex", flexWrap: 'wrap' }}>
                             <li>
                               <a
-                                href="https://www.facebook.com/profile.php?id=61568136563889&sk=photos"
+                                href={socialLinks.facebook}
                                 target="_blank"
                                 className="links"
                               >
@@ -123,11 +183,7 @@ export default function Footer() {
                               </a>
                             </li>
                             <li>
-                              <a
-                                href="https://www.instagram.com/karismamc_shj/"
-                                target="_blank"
-                                className="links"
-                              >
+                            <a a href={socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="links">
                                 <div className="footer-icons">
                                   <svg
                                     id="instagram"
@@ -181,11 +237,8 @@ export default function Footer() {
                               </a>
                             </li>
                             <li>
-                              <a
-                                href="https://www.youtube.com/@KarismaMC"
-                                target="_blank"
-                                className="links"
-                              >
+                              <a href={socialLinks.youtube} target="_blank" rel="noopener noreferrer" className="links">
+
                                 <div className="footer-icons" id="youtube">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -203,7 +256,7 @@ export default function Footer() {
                               </a>
                             </li>
                             <li>
-                              <a href="https://x.com/karisma_mc14872" target="_blank" className="links">
+                              <a href={socialLinks.twitter} target="_blank" rel="noopener noreferrer" className="links">
                                 <div className="footer-icons">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -223,11 +276,8 @@ export default function Footer() {
                               </a>
                             </li>
                             <li>
-                              <a
-                                href="https://www.tiktok.com/@karisma_mc"
-                                target="_blank"
-                                className="links"
-                              >
+                              <a href={socialLinks.tiktok} target="_blank" rel="noopener noreferrer" className="links">
+
                                 <div className="footer-icons">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -244,11 +294,8 @@ export default function Footer() {
                               </a>
                             </li>
                             <li>
-                              <a
-                                href="https://www.snapchat.com/add/karismamedical?share_id=uzJ2zqgcCcg&locale=en-US"
-                                target="_blank"
-                                className="links"
-                              >
+                              <a href={socialLinks.snapchat} target="_blank" rel="noopener noreferrer" className="links">
+
                                 <div className="footer-icons">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -262,11 +309,8 @@ export default function Footer() {
                               </a>
                             </li>
                             <li>
-                              <a
-                                href="https://www.linkedin.com/in/karisma-mc-6291a0332/"
-                                target="_blank"
-                                className="links"
-                              >
+                              <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="links">
+
                                 <div className="footer-icons">
                                   <svg
                                     id="Group_176"
@@ -322,21 +366,22 @@ export default function Footer() {
                             <h2
                               className="widgettitle"
                               style={{
-                                color: footer['heading-color'],
-                                fontSize: footer['heading-size'],
+                                color: "#577065",
+                                // fontSize: "16px",
                               }}
                             >
                               {footers.deptName}
                             </h2>
                             <ul className="menu">
-                              {footers.departments.map((dept, index) => (
+                              {departments.map((dept, index) => (
                                 <li key={index}>
                                   <Link to={`/${lng}${dept.link}`}
-                                    style={{
-                                      color: footer['desc-color'],
-                                      fontSize: footer['desc-size'],
-                                    }}
+                                  style={{
+                                    color: "#5c4033",
+                                    // fontSize: "16px",
+                                  }}
                                   >
+                                  
                                     {dept.name}
                                   </Link>
                                 </li>
@@ -351,8 +396,8 @@ export default function Footer() {
                             <h2
                               className="widgettitle"
                               style={{
-                                color: footer['heading-color'],
-                                fontSize: footer['heading-size'],
+                                color: "#577065",
+                                // fontSize: "16px",
                               }}
                             >
                               {footers.abtName}
@@ -362,8 +407,8 @@ export default function Footer() {
                                 <li key={index}>
                                   <Link to={`/${lng}${link.link}`}
                                     style={{
-                                      color: footer['desc-color'],
-                                      fontSize: footer['desc-size'],
+                                      color: "#5c4033",
+                                      // fontSize: "16px",
                                     }}
                                   >
                                     {link.name}
@@ -380,8 +425,8 @@ export default function Footer() {
                             <h2
                               className="widgettitle"
                               style={{
-                                color: footer['heading-color'],
-                                fontSize: footer['heading-size'],
+                                color: "#577065",
+                                // fontSize: "16px",
                               }}
                             >
                               {footers.infoName}
@@ -391,8 +436,8 @@ export default function Footer() {
                                 <li key={index}>
                                   <Link to={`/${lng}${link.link}`}
                                     style={{
-                                      color: footer['desc-color'],
-                                      fontSize: footer['desc-size'],
+                                      color: "#5c4033",
+                                      // fontSize: "16px",
                                     }}
                                   >
                                     {link.name}
@@ -411,7 +456,7 @@ export default function Footer() {
           </div>
           <div className="footer-bottom-wrap"
             style={{
-              backgroundColor: footer['background-color'],
+              backgroundColor: "#d9c5ad",
               // borderTop: `1px solid #916F4D` 
             }}
           >
@@ -421,34 +466,19 @@ export default function Footer() {
                 <div className="col-12" style={{ justifyContent: 'center' }}>
                   <p className="footer-copyright"
                     style={{
-                      color: footer['desc-color'],
-                      fontSize: footer['desc-size'],
+                      color: "#5c4033",
+                      fontSize: "16px",
                     }}>
                     {footers.copyrightText}
                     <a href={companyLink.link}
                       style={{
-                        color: footer['desc-color'],
-                        fontSize: footer['desc-size'],
+                        color: "#5c4033",
+                        fontSize: "16px",
                       }}
                     >
                       {companyLink.name}
                     </a>
                   </p>
-                  <ul className="nav social-icons" style={{ display: 'none' }}>
-                    {socialLinks.map((social, index) => (
-                      <li key={index}>
-                        <a
-                          href={social.link}
-                          target="_blank"
-                          rel="noreferrer"
-                          className={`social-${social.platform.toLowerCase()}`}
-                          style={{ backgroundColor: "#405D53" }}
-                        >
-                          <i className={`bi ${social.iconClass}`} />
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
                 </div>
               </div>
             </div>
