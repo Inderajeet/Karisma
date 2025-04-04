@@ -163,7 +163,7 @@ function Booking({ showModal, handleClose }) {
         setTimeout(() => {
             (async () => {
                 try {
-                    const response = await fetch('http://frontend.karismamc.com/contact/bookingForm.php ', {
+                    const response = await fetch('https://demo.karismamc.com/contact/bookingForm.php ', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
