@@ -50,12 +50,18 @@
     z-index: 2;
 }
 
-
 .service-departments {
     font-size: 16px;
     color: #5C4033;
 }
 
+@media (min-width: 1300px) {
+
+    .service-name {
+        font-size: 24px;
+    }
+    
+}
 @media (min-width: 1200px) {
     .service-info-cols {
         flex: 1 1 30%;
@@ -64,13 +70,14 @@
     }
 
     .service-name {
-        font-size: 24px;
+        font-size: 22px;
     }
     
     .service-description {
         font-size: 15px;
     }
 }
+
 
 @media (min-width: 768px) and (max-width: 1199px) {
     .service-info-cols {
@@ -192,9 +199,6 @@
         max-width: 30%;
     }
 
-    .service-name {
-        font-size: 24px;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {

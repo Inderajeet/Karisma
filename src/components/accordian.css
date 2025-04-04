@@ -1,0 +1,108 @@
+/* General container styling */
+.career-page {
+    margin: 0 auto;
+    max-width: 1200px; /* Limit max width */
+    padding: 20px;
+  }
+  
+  /* Accordion container */
+  .accordion-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Accordion Styling */
+  .accordion {
+    width: 100%;
+    max-width: 700px; /* Limit max width for the accordion */
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    margin-top: 25px;
+  }
+  
+  /* Accordion header styling */
+  .accordion-header {
+    padding: 15px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+  }
+  
+  .accordion-header h3 {
+    font-size: 1.2rem; /* Font size adjustment */
+  }
+  
+  .accordion-header span {
+    font-size: 1.5rem; /* Arrow icon size */
+  }
+  
+  /* Accordion content styling */
+  .accordion-content {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 15px;
+  }
+  
+  /* Apply Now Button styling */
+  .apply-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #405d53;
+    color: white;
+    border: none;
+    border-radius: 10px 10px 0px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    
+  }
+  
+  .apply-button:hover {
+    background-color: #d9c5ad;
+  }
+  
+  /* Responsive typography and layout adjustments */
+  @media (max-width: 768px) {
+    .career-page {
+      padding: 15px;
+    }
+  
+    .accordion-header h3 {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+  
+    .apply-button {
+      font-size: 0.9rem; /* Smaller font size for buttons */
+    }
+  
+    .accordion-header span {
+      font-size: 1.2rem; /* Adjust icon size */
+    }
+  
+    .accordion {
+      max-width: 100%; /* Make accordion full width on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .accordion-header h3 {
+      font-size: 0.9rem; /* Further reduce font size for small screens */
+    }
+  
+    .apply-button {
+      font-size: 0.8rem; /* Make the button font even smaller */
+    }
+  
+    .accordion-header span {
+      font-size: 1rem; /* Adjust icon size further */
+    }
+  }
+  

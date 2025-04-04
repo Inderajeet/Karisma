@@ -23,7 +23,7 @@ export default function Footer() {
   // Add this useEffect near your other useEffect hooks
   // For Departments API
   useEffect(() => {
-    fetch('/api/departments/')
+    fetch('https://demo.karismamc.com/api/departments/')
       .then(response => response.json())
       .then(data => {
         if (data && data.success && data.departmentPage && Array.isArray(data.departmentPage)) {
@@ -42,7 +42,7 @@ export default function Footer() {
 
   // For ContactPage API (Social Links)
   useEffect(() => {
-    fetch('/api/contactpage', {
+    fetch('https://demo.karismamc.com/api/contactpage', {
       method: 'GET',
       headers: {
         'Accept': 'application/json',
@@ -183,7 +183,7 @@ export default function Footer() {
                               </a>
                             </li>
                             <li>
-                            <a a href={socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="links">
+                            <a href={socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="links">
                                 <div className="footer-icons">
                                   <svg
                                     id="instagram"

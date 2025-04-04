@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import DynamicBanner from '../components/DynamicBanner';
 
-const API_BASE_URL = 'https://karisma.dmaksolutions.com';
 
 export const applyFontFallback = (text) => {
   if (!text || typeof text !== "string") return text;
@@ -29,7 +28,7 @@ export default function Doctors() {
       console.log("Fetching doctors data from API...");
       
       // Use fetch with promise chain
-      fetch('/api/doctors', {
+      fetch('https://demo.karismamc.com/api/doctors', {
         method: 'GET',
         headers: {
           'Accept': 'application/json',
@@ -59,8 +58,8 @@ export default function Doctors() {
     }, []);
   
 
-  if (loading) return <p>Loading doctors...</p>;
-  if (error) return <p>Error: {error}</p>;
+  if (loading) return <p style={{padding:"140px"}}></p>;
+  if (error) return <p style={{padding:"140px"}}>Error: {error}</p>;
 
   return (
     <>
@@ -83,7 +82,7 @@ export default function Doctors() {
                     <div className="dd-row" style={{ justifyContent: 'start' }}>
                       {doctors.slice(1).map((doctor, index) => (
                         <Link
-                          to={`/${i18n.language}/${encodeURI(doctor.canonicalName)}`}
+                          to={`/${i18n.language}/${encodeURI(doctor.link)}`}
                           key={doctor.id}
                           className="doctor-info-cols"
                           style={{ cursor: "pointer" }}
@@ -102,12 +101,12 @@ export default function Doctors() {
                                 />
                               </div>
                               <div className="doctor-info-body">
-                                <div className="doctor-name">{doctor.name}</div>
+                                <div className="doctor-name">{i18n.language === 'ar' ? doctor.name_arabic : doctor.name}</div>
                                 <div className="doctor-info-inner">
                                   <div className="doctor-specialities">
-                                    <p>{doctor.designation}</p>
+                                    <p>{i18n.language === 'ar' ? doctor.designation_arabic : doctor.designation}</p>
                                   </div>
-                                  <p><strong>{doctor.department}</strong></p>
+                                  <p><strong>{i18n.language === 'ar' ? doctor.department_arabic : doctor.department}</strong></p>
                                 </div>
                               </div>
                             </div>

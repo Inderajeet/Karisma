@@ -15,25 +15,36 @@ const Index = () => {
   const [error, setError] = useState(null); // State for error handling
   const { t, ready } = useTranslation();
   const { lng } = useParams();
-  const [aboutData, setAboutData] = useState(null);
-
+  const [aboutData, setAboutData] = useState({
+    deptName: "",
+    bannerImage: "",
+    aboutUsImage: "",
+    aboutUsImage2: "",
+    whyChooseUsImage: "",
+    aboutUsContent: "",
+    whyChooseUsContent: ""
+  });
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/api/aboutuspage");
+        const response = await fetch("https://demo.karismamc.com/api/homepage");
         const data = await response.json();
 
-        if (data.success) {
+        if (data.banners && Array.isArray(data.banners)) {
+          // Extract About Us content image
+          const aboutUsContent = data.banners.find(b => b.title === "About us content");
+          // Extract About Us title image
+          const aboutUsTitle = data.banners.find(b => b.title === "About us");
+          // Extract Why Choose Us content
+          const whyChooseUs = data.banners.find(b => b.title === "Why choose us?");
+
           setAboutData({
-            deptName: data.data.dept_name,
-            bannerImage: data.data.banner_image,
-            bannerPosition: data.data.banner_position,
-            home: data.data.home,
-            section1: JSON.parse(data.data.section1),
-            section2: JSON.parse(data.data.section2),
-            ceoMessage: data.data.ceo_message ? JSON.parse(data.data.ceo_message) : null,
-            ourStory: data.data.our_story ? JSON.parse(data.data.our_story) : null,
+            aboutUsImage2: aboutUsTitle?.desktop_image || "",
+            aboutUsImage: aboutUsContent?.desktop_image || "",
+            whyChooseUsImage: whyChooseUs?.desktop_image || "",
+            aboutUsContent: aboutUsContent?.description || "",
+            whyChooseUsContent: whyChooseUs?.description || ""
           });
         }
       } catch (err) {
@@ -45,6 +56,8 @@ const Index = () => {
 
     fetchData();
   }, []);
+
+  
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -60,16 +73,10 @@ const Index = () => {
     fetchData();
   }, []);
 
-  if (!ready || loading) {
-    return;
-  }
-
-  if (error) {
-    return;
-  }
-  if (loading) return <div>Loading...</div>;
+  
+  if (loading) return <div></div>;
   if (error) return <div>Error: {error}</div>;
-  if (!aboutData) return <div>No data found</div>;
+  // if (!aboutData) return <div>No data found</div>;
   
   const getCombinedSentences = (html) => {
     if (!html) return t('about1.about1Desc1');
@@ -133,7 +140,7 @@ const Index = () => {
                             <img
                               decoding="async"
                               // src="../assets/Images/home/about-us2.png"
-                              src={home['about1']}
+                              src={aboutData.aboutUsImage2}
                               title="about-3"
                               alt="about-3"
                               loading="lazy"
@@ -160,7 +167,7 @@ const Index = () => {
                           <div className="elementor-widget-container">
                             <img
                               decoding="async"
-                              src={home['about2']}
+                              src={aboutData.aboutUsImage}
                               title="about-2"
                               alt="about-2"
                               loading="lazy"
@@ -213,7 +220,7 @@ const Index = () => {
                       data-element_type="widget"
                       data-widget_type="ceasectiontitle.default"
                     >
-                      <div className="elementor-widget-container">
+                     <div className="elementor-widget-container">
                         <div className="section-title-wrapper">
                           <div className="title-wrap">
                             <h2 className="subtitle-dots sub-title home-head-font" style={{
@@ -226,7 +233,7 @@ const Index = () => {
                             <p className="home-desc-font" style={{
                               color: about_us["font-color"], fontSize: about_us["font-size"]
                             }}>
-                                {combinedDescription}
+                              {aboutData.aboutUsContent}
                             </p>
                             <p className="" style={{
                               color: about_us["font-color"], fontSize: about_us["font-size"]
@@ -348,7 +355,7 @@ const Index = () => {
                         <p className=" home-desc-font" style={{
                           color: about2["desc-color"], fontSize: about2["desc-size"]
                         }}>
-                           {aboutData.section2.description.replace(/<[^>]+>/g, '') || t('about2.about2Desc')}
+                          {aboutData.whyChooseUsContent}
                         </p>
                       </div>
                       {/* .section-description */}

@@ -1,214 +1,206 @@
 import React, { useEffect, useState } from "react";
-import ContentSection from "./service templates/ContentSection";
 import { useParams } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import ContentSection from "./service templates/ContentSection";
 import SlidingDoct from "./service templates/SlidingDoct";
-import ListServices from "./service templates/ListServices";
 import CommonServiceBanner from "./CommonServiceBanner";
-import i18n from "i18next";
-import ColorSection from "./service templates/ColorSection"; // Make sure to import this
 import ImageContent from "./service templates/ImageContent";
-import ImageContentNew from "./service templates/ImageContentNew";
+import ColorSection from "./service templates/ColorSection";
+import ListServices from "./service templates/ListServices";
 
-export const applyFontFallback = (text) => {
-    if (!text || typeof text !== "string") return text;
-    return text.split(/\b/).map((word, index) =>
-        /^[A-Za-z0-9 ]+$/.test(word)
-            ? word
-            : <span key={index} className="fallback-font">{word}</span>
-    );
-};
-
-const extractSections = (html) => {
-    if (!html) return [];
+const parseSectionContent = (html) => {
+    if (!html) return { content: [] };
 
     const tempDiv = document.createElement("div");
     tempDiv.innerHTML = html;
 
-    const sections = [];
-    let currentSection = {};
+    const result = {
+        content: []
+    };
 
     Array.from(tempDiv.childNodes).forEach(node => {
         if (node.nodeName === 'P') {
             const text = node.textContent.trim();
             if (text) {
-                // Check if it's a heading (bold text)
-                if (node.querySelector('b') || node.querySelector('strong')) {
-                    // If we have content in current section, push it before starting new one
-                    if (currentSection.title || currentSection.description || currentSection.imageUrl) {
-                        sections.push(currentSection);
-                        currentSection = {};
-                    }
-
-                    // Check if this is the main title or a sub-heading
-                    if (!currentSection.title) {
-                        currentSection.title = text;
-                    } else if (!currentSection.heading) {
-                        currentSection.heading = text;
-                    } else {
-                        currentSection.heading2 = text;
-                    }
+                const boldElement = node.querySelector('b, strong');
+                if (boldElement) {
+                    result.content.push({
+                        type: 'heading',
+                        text: text
+                    });
                 } else {
-                    if (!currentSection.description) {
-                        currentSection.description = text;
-                    } else {
-                        currentSection.description2 = text;
-                    }
+                    result.content.push({
+                        type: 'paragraph',
+                        text: text
+                    });
                 }
             }
         }
         else if (node.nodeName === 'UL') {
-            currentSection.features = Array.from(node.querySelectorAll('li')).map(li => li.textContent);
-        }
-        else if (node.nodeName === 'IMG') {
-            currentSection.imageUrl = node.getAttribute('src');
-            currentSection.imageAlt = node.getAttribute('alt') || '';
+            result.content.push({
+                type: 'list',
+                items: Array.from(node.querySelectorAll('li')).map(li => li.textContent.trim())
+            });
         }
     });
 
-    // Push the last section if it has content
-    if (currentSection.title || currentSection.description || currentSection.imageUrl) {
-        sections.push(currentSection);
-    }
-
-    return sections;
+    return result;
 };
 
 const Departments = () => {
     const { deptName } = useParams();
-    const [service, setService] = useState(null);
+    const { i18n } = useTranslation();
+    const [department, setDepartment] = useState(null);
     const [doctors, setDoctors] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const [sections, setSections] = useState([]);
 
     useEffect(() => {
         setLoading(true);
         setError(null);
 
-        const deptId = parseInt(deptName, 10);
-
-        if (isNaN(deptId)) {
-            console.error("Invalid department ID:", deptName);
-            setError("Invalid department ID");
-            setLoading(false);
-            return;
-        }
-
         Promise.all([
-            fetch(`/api/departments/${deptId}`).then((res) => res.json()),
-            fetch(`/api/doctors`).then((res) => res.json()),
+            fetch(`https://demo.karismamc.com/api/departments/${deptName}`).then((res) => res.json()),
+            fetch(`https://demo.karismamc.com/api/doctors`).then((res) => res.json()),
         ])
             .then(([deptData, doctorData]) => {
-                if (deptData && deptData.success && deptData.data) {
-                    setService(deptData.data);
-                    // Extract sections from the HTML content
-                    const extractedSections = extractSections(deptData.data.department_description);
-                    setSections(extractedSections);
+                if (deptData?.success && deptData.data) {
+                    setDepartment(deptData.data);
                 } else {
                     throw new Error("Invalid department data format");
                 }
 
-                if (doctorData && doctorData.doctors) {
+                if (doctorData?.doctors) {
                     setDoctors(doctorData.doctors.slice(1));
-                } else {
-                    setDoctors([]);
-                    console.warn("Invalid doctors data format");
                 }
 
                 setLoading(false);
             })
             .catch((err) => {
-                console.error("Failed to fetch data:", err);
-                setError(`Failed to fetch data: ${err.message}`);
+                setError(err.message);
                 setLoading(false);
             });
-    }, [deptName]);
+    }, [deptName, i18n.language]); // Add language to dependencies
 
-    if (loading) return <p>Loading department details...</p>;
-    if (error) return <p>Error: {error}</p>;
-    if (!service) return <p>Service not found!</p>;
+    if (loading) return <p style={{ padding: "140px" }}></p>;
+    if (error) return <p style={{ padding: "140px" }}>Error: {error}</p>;
+    if (!department) return <p style={{ padding: "140px" }}></p>;
 
     const filteredDoctors = doctors.filter(
-        (doctor) => doctor.department.toLowerCase() === service.department_name.toLowerCase()
+        doctor => doctor.department?.toLowerCase() === department.department_name?.toLowerCase()
     );
-    const bannerSections = extractSections(service.banner_description);
-    const combinedBannerContent = {
-        title: service.department_name, // Use department name as main title
-        imageUrl: service.banner_image ? `/uploads/${service.banner_image}` : "/assets/Images/default-banner.png",
-        imageAlt: service.department_name,
-        heading: bannerSections[0]?.title || '', // First bold text as heading
-        heading2: bannerSections[1]?.title || '', // Second bold text as sub-heading
-        description: bannerSections[0]?.description || '', // First paragraph
-        description2: bannerSections[1]?.description || '', // Second paragraph
-        features: bannerSections.flatMap(section => section.features || []) // Combine all features
+
+    const getLocalizedContent = (section) => {
+        const isArabic = i18n.language === 'ar';
+
+        return {
+            title: isArabic && section.section_title_arabic
+                ? section.section_title_arabic
+                : section.section_title,
+            description: isArabic && section.section_description_ar
+                ? section.section_description_ar
+                : section.section_description,
+            imageUrl: section.section_image
+        };
     };
 
+    const getLocalizedDeptName = () => {
+        if (i18n.language === 'ar' && department.department_name_arabic) {
+            return department.department_name_arabic;
+        }
+        return department.department_name || department.title;
+    };
 
+    const getLocalizedServices = () => {
+        if (!department.services && department.listItems) {
+            return department.listItems.map(service => ({
+                id: service.service_name,
+                name: i18n.language === 'ar' && service.service_name_arabic 
+                    ? service.service_name_arabic 
+                    : service.service_name,
+                image: service.service_image || "/assets/Images/default-service.png",
+                link: `${department.canonical_name || department.link}/${service.service_name.toLowerCase().replace(/\s+/g, '-')}`
+            }));
+        }
+        
+        return department.services?.map((service, index) => ({
+            id: index,
+            name: service,
+            image: "/assets/Images/default-service.png",
+            link: `${department.canonical_name || department.link}/${service.toLowerCase().replace(/\s+/g, '-')}`
+        })) || [];
+    };
+
+    // First section handling for ImageContent
+    const firstSection = department.sections?.[0];
+    const firstSectionLocalized = firstSection ? getLocalizedContent(firstSection) : {};
+    const firstSectionContent = firstSection ? parseSectionContent(firstSectionLocalized.description) : { content: [] };
 
     return (
         <>
             <div>
                 <CommonServiceBanner
-                    deptName={service.department_name}
-                    serviceName={service.service_name}
-                    bannerImage={service.banner_image ? `/uploads/${service.banner_image}` : "/assets/Images/default-banner.png"}
-                    deptLink={`/${service.canonical_name}`}
-                    bannerPosition="center"
+                    deptName={getLocalizedDeptName()}
+                    bannerImage={department.banner_image || "/assets/Images/default-banner.png"}
+                    deptLink={`/${department.canonical_name || department.link}`}
                     home="Home"
                 />
-                <ImageContentNew
-                    key="combined-banner"
-                    title={combinedBannerContent.title}
-                    heading={combinedBannerContent.heading}
-                    heading2={combinedBannerContent.heading2}
-                    description={combinedBannerContent.description}
-                    description2={combinedBannerContent.description2}
-                    features={combinedBannerContent.features}
-                    imageUrl={service.section_image}
-                    imageAlt={service.imageAlt}
-                />
 
+                {/* First section with department name as title */}
+                {firstSection && (
+                    <ImageContent
+                        title={getLocalizedDeptName()}
+                        imageUrl={firstSectionLocalized.imageUrl}
+                        imageAlt={department.department_name || department.title}
+                        content={firstSectionContent.content}
+                    />
+                )}
 
-                {/* Render alternating sections */}
-                {sections.map((section, index) => (
-                    <React.Fragment key={index}>
-                        {index % 2 === 0 ? (
-                            <ContentSection
-                                title={section.title}
-                                description={section.description}
-                                features={section.features}
-                            />
-                        ) : (
-                            <div style={{ backgroundColor: '#c4a98863', paddingTop: '1rem', paddingBottom: '1rem' }}>
-                                <ColorSection
-                                    key={index}
-                                    title={section.title}
-                                    heading={section.title} // Using title as heading if needed
-                                    description={section.description}
-                                    features={section.features}
+                {/* Render remaining sections */}
+                {department.sections?.slice(1).map((section, index) => {
+                    const localized = getLocalizedContent(section);
+                    const parsedContent = parseSectionContent(localized.description);
+                    const isColored = index % 2 !== 0;
+                    const hasImage = !!localized.imageUrl;
+
+                    return (
+                        <div key={section.id || index} style={!hasImage && isColored ? { 
+                            backgroundColor: '#c4a98863', 
+                            padding: '1rem 1rem' 
+                        } : { padding: '1rem 1rem' }}>
+                            {hasImage ? (
+                                <ImageContent
+                                    title={localized.title}
+                                    imageUrl={localized.imageUrl}
+                                    imageAlt={localized.title}
+                                    content={parsedContent.content || []}
                                 />
-                            </div>
-                        )}
-                    </React.Fragment>
-                ))}
+                            ) : isColored ? (
+                                <ColorSection
+                                    title={localized.title}
+                                    content={parsedContent.content || []}
+                                />
+                            ) : (
+                                <ContentSection
+                                    title={localized.title}
+                                    content={parsedContent.content || []}
+                                />
+                            )}
+                        </div>
+                    );
+                })}
 
-                <ListServices
-                    services={service.services?.map(s => ({
-                        id: s.id,
-                        name: s.service_name,
-                        image: s.service_image ? `/uploads/${s.service_image}` : "/assets/Images/default-service.png",
-                        link: `${service.canonical_name}/${s.canonical_name}`,
-                        readMore: "Read More",
-                        designation: ""
-                    }))}
-                />
+                {getLocalizedServices().length > 0 && (
+                    <div style={{ backgroundColor: '#c4a98863' }}>
+                        <ListServices
+                            services={getLocalizedServices()}
+                        />
+                    </div>
+                )}
             </div>
 
             {filteredDoctors.length > 0 && (
-                <SlidingDoct
-                    doctors={filteredDoctors}
-                    isRTL={false}
-                />
+                <SlidingDoct doctors={filteredDoctors} />
             )}
 
             <div className="line-container" style={{ display: "flex", width: "100%", justifyContent: "center", paddingTop: "60px" }}>

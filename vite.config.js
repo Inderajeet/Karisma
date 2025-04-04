@@ -3,13 +3,14 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // base: '/frontend/', 
   plugins: [react()],
   server: {
     port: 5173, // Standard Vite port
     cors: true, // Enable CORS explicitly 
     proxy: {
       '/api': {
-        target: 'https://karisma.dmaksolutions.com',
+        target: 'https://demo.karismamc.com',
         changeOrigin: true,
         secure: false,
         rewrite: (path) => path.replace(/^\/api/, '/api'),
@@ -29,7 +30,7 @@ export default defineConfig({
     }
   },
   define: {
-    'process.env.BASE_URL': JSON.stringify('https://karisma.dmaksolutions.com')
+    'process.env.BASE_URL': JSON.stringify('https://demo.karismamc.com')
   },
   resolve: {
     alias: {

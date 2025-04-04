@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import CommonServiceBanner from "../departments/CommonServiceBanner";
 
 const Departments = () => {
-    const { t } = useTranslation('departmentPage');
+    const { t, i18n } = useTranslation('departmentPage');
     const [departmentsData, setDepartmentsData] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -14,7 +14,7 @@ const Departments = () => {
         setLoading(true);
         setError(null);
 
-        fetch('/api/departments', {
+        fetch('https://demo.karismamc.com/api/departments', {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
@@ -42,14 +42,14 @@ const Departments = () => {
         });
     }, []);
 
-    if (loading) return <p>Loading departments...</p>;
-    if (error) return <p>Error: {error}</p>;
+    if (loading) return <p style={{padding:"140px"}}></p>;
+    if (error) return <p style={{padding:"140px"}}>Error: {error}</p>;
 
     return (
         <>
             <CommonServiceBanner
-                deptName={departmentsData[0]?.title}
-                bannerImage={departmentsData[0]?.imageUrl}
+                deptName={departmentsData[0]?.deptName}
+                bannerImage={departmentsData[0]?.bannerImage}
                 bannerPosition="center"
                 deptLink={departmentsData[0]?.link}
                 home="Home"
@@ -74,7 +74,9 @@ const Departments = () => {
                                         <div className="hd">{department.title}</div>
                                         <ul>
                                             {(department.listItems || []).map((item, i) => (
-                                                <li className="content-featureItem-dept" key={i}>{item}</li>
+                                                <li className="content-featureItem-dept" key={i}>
+                                                {i18n.language === 'ar' ? item.service_name_arabic : item.service_name}
+                                              </li>
                                             ))}
                                         </ul>
                                     </div>

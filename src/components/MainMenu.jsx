@@ -75,25 +75,45 @@ const MainMenu = () => {
   }, [i18n]);
 
   useEffect(() => {
-    fetch("/api/departments/")
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.success && data.departmentPage) {
-          const deptMenu = data.departmentPage.slice(1).map((dept) => ({
-            label: i18n.language === "ar" ? dept.title_arabic : dept.title,
-            link: `/${dept.link}`,
-            subMenu: (i18n.language === "ar" ? dept.listItems_arabic : dept.listItems)?.map((item) => ({
-              label: item,
-              link: `/${dept.link}/${item.replace(/\s+/g, "-").toLowerCase()}`
-            }))
-          }));
-  
-          setDepartments(deptMenu);
+    fetch("https://demo.karismamc.com/api/departments/", {
+        method: 'GET',
+        headers: {
+            'Accept': 'application/json'
+            // No need to set 'Content-Type' for GET
         }
-      })
-      .catch((error) => console.error("Error fetching departments:", error));
-  }, [i18n.language]); // <-- Added dependency on language
-  
+    })
+    .then((res) => {
+        if (!res.ok) {
+            throw new Error(`HTTP error! status: ${res.status}`);
+        }
+        return res.json();
+    })
+    .then((data) => {
+        if (data.success && data.departmentPage) {
+            const deptMenu = data.departmentPage.slice(1).map((dept) => ({
+                label: i18n.language === "ar" ? dept.title_arabic || dept.title : dept.title,
+                link: `/departments/${dept.link}`,
+                subMenu: (i18n.language === "ar" ? dept.listItems_arabic : dept.listItems)?.map((item) => {
+                    const label = i18n.language === "ar"
+                        ? item.service_name_arabic || item.service_name
+                        : item.service_name;
+
+                    return {
+                        label,
+                        link: `/departments/${dept.link}/${label.replace(/\s+/g, "-").toLowerCase()}`
+                    };
+                })
+            }));
+
+            setDepartments(deptMenu);
+        }
+    })
+    .catch((error) => {
+        console.error("Error fetching departments:", error);
+    });
+}, [i18n.language]);
+
+
   const changeLanguage = () => {
     const newLang = lng === "en" ? "ar" : "en";
     const newPath = location.pathname.replace(`/${lng}`, `/${newLang}`);

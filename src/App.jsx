@@ -11,6 +11,7 @@ import {
 import i18n from './i18n';
 import lodash from "lodash";
 
+
 import Modal from 'react-modal';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ContactPage from './pages/contact_us';
@@ -144,7 +145,7 @@ useEffect(() => {
 function App() {
   return (
     <Router>
-      <NavigationWithLoader>
+      <NavigationWithLoader>  
         <Routes>
           {/* Redirect root `/` to `/en` */}
           <Route path="/" element={<Navigate to="/en" replace />} />

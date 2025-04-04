@@ -1,51 +1,52 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import { useTranslation } from "react-i18next";
 import { Link, useParams } from "react-router-dom";
 import "../../custom_css/doctor.css";
 
-// Moved out of component to avoid HMR issues
+// Helper functions (moved outside component)
 const applyFontFallback = (text) => {
-    if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
-
+    if (!text || typeof text !== "string") return text;
     return text.split(/\b/).map((word, index) =>
-        /^[A-Za-z0-9 ]+$/.test(word) // If word is English/number/space, keep normal font
+        /^[A-Za-z0-9 ]+$/.test(word)
             ? word
-            : <span key={index} className="fallback-font">{word}</span> // Apply fallback only for non-English words
+            : <span key={index} className="fallback-font">{word}</span>
     );
 };
+
 const extractPlainText = (html) => {
     if (!html) return "";
     const tempDiv = document.createElement("div");
     tempDiv.innerHTML = html;
     return tempDiv.innerText;
 };
+
 const extractBulletPoints = (html) => {
     if (!html) return [];
-
     const tempDiv = document.createElement("div");
     tempDiv.innerHTML = html;
-
-    const bulletPoints = [];
-
-    tempDiv.querySelectorAll("ul li").forEach((li) => {
-        bulletPoints.push(li.innerText);
-    });
-
-    return bulletPoints;
+    return Array.from(tempDiv.querySelectorAll("ul li")).map(li => li.innerText);
 };
+
 const processContent = (html) => {
     if (!html) return "";
-
-    // Check if the content has <ul> tags (bullet points)
     const tempDiv = document.createElement("div");
     tempDiv.innerHTML = html;
-
-    if (tempDiv.querySelector("ul")) {
-        return extractBulletPoints(html); // If <ul> exists, return bullet points
-    }
-    return extractPlainText(html); // Otherwise, return plain text
+    return tempDiv.querySelector("ul") ? extractBulletPoints(html) : extractPlainText(html);
 };
+
+const extractDoctorsArray = (apiResponse) => {
+    if (apiResponse?.doctors && Array.isArray(apiResponse.doctors)) {
+        return apiResponse.doctors.slice(1);
+    }
+    return [];
+};
+
+const getSlugFromLink = (link) => {
+    if (!link) return '';
+    const parts = String(link).split('/');
+    return parts[parts.length - 1];
+};
+
 const DoctorPage = () => {
     const { doctorId } = useParams();
     const [doctor, setDoctor] = useState(null);
@@ -54,60 +55,147 @@ const DoctorPage = () => {
     const { t, i18n } = useTranslation(['translation', 'doctors']);
     const [allDoctors, setAllDoctors] = useState([]);
 
+    // Helper function to get localized content
+    const getLocalizedContent = (section) => {
+        const isArabic = i18n.language === 'ar';
+        
+        if (!section) return null;
+        
+        // Handle simple string fields
+        if (typeof section === 'string') {
+            return section;
+        }
+        
+        // Handle object fields with translations
+        const localized = {
+            ...section,
+            title: isArabic && section.title_arabic ? section.title_arabic : section.title,
+            subtitle: isArabic && section.subtitle_arabic ? section.subtitle_arabic : section.subtitle,
+            flipFront1: isArabic && section.flipFront1_arabic ? section.flipFront1_arabic : section.flipFront1,
+            flipBack1: isArabic && section.flipBack1_arabic ? section.flipBack1_arabic : section.flipBack1,
+            flipFront2: isArabic && section.flipFront2_arabic ? section.flipFront2_arabic : section.flipFront2,
+            flipBack2: isArabic && section.flipBack2_arabic ? section.flipBack2_arabic : section.flipBack2,
+            flipFrontDesc1: isArabic && section.flipFrontDesc1_arabic ? section.flipFrontDesc1_arabic : section.flipFrontDesc1,
+            flipBackDesc1: isArabic && section.flipBackDesc1_arabic ? section.flipBackDesc1_arabic : section.flipBackDesc1,
+            flipFrontDesc2: isArabic && section.flipFrontDesc2_arabic ? section.flipFrontDesc2_arabic : section.flipFrontDesc2,
+            flipBackDesc2: isArabic && section.flipBackDesc2_arabic ? section.flipBackDesc2_arabic : section.flipBackDesc2,
+        };
+
+        // Handle items arrays with translations
+        if (section.items && Array.isArray(section.items)) {
+            localized.items = isArabic && section.items_arabic 
+                ? section.items_arabic 
+                : section.items;
+        }
+
+        return localized;
+    };
+
     useEffect(() => {
-        // Set initial state
-        setLoading(true);
-        setError(null);
+        const fetchData = async () => {
+            try {
+                setLoading(true);
+                setError(null);
 
-        console.log("Fetching doctors data from API...");
+                // 1. Fetch all doctors
+                const doctorsResponse = await fetch('https://demo.karismamc.com/api/doctors');
+                if (!doctorsResponse.ok) throw new Error('Failed to fetch doctors');
+                const responseData = await doctorsResponse.json();
 
-        // Use fetch with promise chain
-        fetch(`/api/doctor/${doctorId}`, {
-            method: 'GET',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
+                // 2. Extract doctors array properly (skip first header item)
+                const doctorsList = extractDoctorsArray(responseData);
+                console.log('Filtered doctors:', doctorsList);
+
+                if (!doctorsList.length) {
+                    throw new Error('No valid doctors found in response');
+                }
+
+                // 3. Find current doctor using slug
+                const currentDoctor = doctorsList.find(doc => {
+                    const slug = getSlugFromLink(doc?.link);
+                    return slug === doctorId;
+                });
+
+                if (!currentDoctor) {
+                    throw new Error(`Doctor ${doctorId} not found`);
+                }
+
+                // 4. Get the slug for the individual API call
+                const doctorSlug = getSlugFromLink(currentDoctor.link);
+
+                // 5. Fetch individual doctor details
+                const doctorResponse = await fetch(`https://demo.karismamc.com/api/doctor/${doctorSlug}`);
+                if (!doctorResponse.ok) throw new Error('Failed to fetch doctor details');
+                const doctorDetails = await doctorResponse.json();
+
+                setDoctor(doctorDetails);
+                setAllDoctors(doctorsList);
+            } catch (err) {
+                console.error('Fetch error:', err);
+                setError(err.message);
+            } finally {
+                setLoading(false);
             }
-        })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`HTTP error! Status: ${response.status}`);
-                }
-                return response.json();
-            })
-            .then(data => {
-                console.log("Doctor data received:", data);
+        };
+        fetchData();
+    }, [doctorId, i18n.language]); // Add language to dependencies
 
-                if (data && data.id) {
-                    setDoctor(data);
-                } else {
-                    throw new Error("Invalid data format or doctor not found");
-                }
+    if (loading) return <p style={{ padding: "140px" }}></p>;
+    if (error) return <p style={{ padding: "140px" }}>Error: {error}</p>;
+    if (!doctor) return <p style={{ padding: "140px" }}></p>;
 
-                setLoading(false);
-            })
-            .catch(err => {
-                console.error("Failed to fetch doctor:", err);
-                setError(`Failed to fetch doctor: ${err.message}`);
-                setLoading(false);
-            });
+    // Find current doctor index safely
+    const currentIndex = allDoctors.findIndex(doc => {
+        const slug = getSlugFromLink(doc?.link);
+        return slug === doctorId;
+    });
+    
+    // Circular Navigation Logic
+    const prevDoctor = 
+        currentIndex > 0 ? 
+            allDoctors[currentIndex - 1] : 
+            allDoctors[allDoctors.length - 1];
+    
+    const nextDoctor = 
+        currentIndex < allDoctors.length - 1 ? 
+            allDoctors[currentIndex + 1] : 
+            allDoctors[0];
 
-    }, []);
+    // Get localized versions of doctor data
+    const localizedDoctor = {
+        ...doctor,
+        name: i18n.language === 'ar' && doctor.name_arabic ? doctor.name_arabic : doctor.name,
+        designation: doctor.designation,
+        overview: doctor.overview ? {
+            ...getLocalizedContent(doctor.overview),
+            sections: doctor.overview.sections?.map(section => ({
+                ...getLocalizedContent(section),
+                items: i18n.language === 'ar' && section.items_arabic 
+                    ? section.items_arabic 
+                    : section.items
+            }))
+        } : null,
+        workExperience: getLocalizedContent(doctor.workExperience),
+        qualifications: getLocalizedContent(doctor.qualifications),
+        workingShifts: getLocalizedContent(doctor.workingShifts)
+    };
 
-    if (loading) return <p>Loading...</p>;
-    if (error) return <p>Error: {error}</p>;
-    if (!doctor) return <p>Doctor not found!</p>;
-
-
-    // Find current doctor index for prev/next navigation
-    const currentIndex = allDoctors.findIndex((doc) => doc.id === doctor.id);
-
-    // Calculate previous and next indices with wrapping
-    const prevIndex = (currentIndex - 1 + allDoctors.length) % allDoctors.length;
-    const nextIndex = (currentIndex + 1) % allDoctors.length;
-
-    const prevDoctor = allDoctors[prevIndex];
-    const nextDoctor = allDoctors[nextIndex];
+    // Find current doctor index safely
+    // const currentIndex = allDoctors.findIndex(doc => {
+    //     const slug = getSlugFromLink(doc?.link);
+    //     return slug === doctorId;
+    // });
+    
+    // // Circular Navigation Logic
+    // const prevDoctor = 
+    //     currentIndex > 0 ? 
+    //         allDoctors[currentIndex - 1] : 
+    //         allDoctors[allDoctors.length - 1]; // If first doctor, go to last
+    
+    // const nextDoctor = 
+    //     currentIndex < allDoctors.length - 1 ? 
+    //         allDoctors[currentIndex + 1] : 
+    //         allDoctors[0]; // If last doctor, go to first
 
     return (
         <>
@@ -135,9 +223,9 @@ const DoctorPage = () => {
                                     </div>
                                     <div className="col-sm-7 team-info">
                                         <div className="team-title" style={{ marginBottom: '0' }}>
-                                            <div style={{ fontSize: "30px" }}>{doctor.name}</div>
+                                            <div style={{ fontSize: "30px" }}>{localizedDoctor.name}</div>
                                             <div className="team-designation-wrap" style={{ marginBottom: '0' }}>
-                                                <span className="team-designation">{doctor.designation}</span>
+                                                <span className="team-designation">{localizedDoctor.designation}</span>
                                             </div>
                                         </div>
                                         <div
@@ -148,7 +236,7 @@ const DoctorPage = () => {
                                             {/* Overview */}
                                             <div className="e-con-inner">
                                                 {/* Overview sections*/}
-                                                {doctor.overview.sections.map((section, sectionIndex) => (
+                                                {localizedDoctor.overview?.sections?.map((section, sectionIndex) => (
                                                     <div className="section-description" key={sectionIndex} style={{ fontWeight: "600" }}>
                                                         {section.subtitle}
                                                         <div
@@ -217,7 +305,7 @@ const DoctorPage = () => {
                                                                                     <div className="section-title-wrapper">
                                                                                         <div className="title-wrap">
                                                                                             <h4 className="section-title">
-                                                                                                {applyFontFallback(doctor.workExperience.title)}
+                                                                                                {applyFontFallback(localizedDoctor.workExperience.title)}
                                                                                             </h4>
                                                                                         </div>
                                                                                         {/* .title-wrap */}
@@ -235,7 +323,7 @@ const DoctorPage = () => {
                                                                             >
                                                                                 <div className="elementor-widget-container">
                                                                                     <ul className="elementor-icon-list-items">
-                                                                                        {doctor.workExperience.items.map((detail, index) => {
+                                                                                        {localizedDoctor.workExperience.items.map((detail, index) => {
                                                                                             const processedContent = processContent(detail); // Check if it's a list or paragraph
 
                                                                                             return Array.isArray(processedContent) ? (
@@ -286,7 +374,7 @@ const DoctorPage = () => {
                                                                                     <div className="section-title-wrapper">
                                                                                         <div className="title-wrap">
                                                                                             <h4 className="section-title">
-                                                                                                {applyFontFallback(doctor.qualifications.title)}
+                                                                                                {applyFontFallback(localizedDoctor.qualifications.title)}
                                                                                             </h4>
                                                                                         </div>
                                                                                     </div>
@@ -295,7 +383,7 @@ const DoctorPage = () => {
                                                                             <div className="elementor-element elementor-element-653e731 elementor-widget__width-initial elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="653e731" data-element_type="widget" data-widget_type="icon-list.default">
                                                                                 <div className="elementor-widget-container">
                                                                                     <ul className="elementor-icon-list-items">
-                                                                                        {doctor.qualifications.items.map((detail, index) => {
+                                                                                        {localizedDoctor.qualifications.items.map((detail, index) => {
                                                                                             const processedContent = processContent(detail); // Check if it's a list or paragraph
 
                                                                                             if (Array.isArray(processedContent)) {
@@ -338,7 +426,7 @@ const DoctorPage = () => {
                                                                                     <div className="section-title-wrapper">
                                                                                         <div className="title-wrap">
                                                                                             <h4 className="section-title work-shift-title">
-                                                                                                {applyFontFallback(doctor.workingShifts.title)}
+                                                                                                {applyFontFallback(localizedDoctor.workingShifts.title)}
                                                                                             </h4>
                                                                                         </div>
                                                                                         {/* .title-wrap */}
@@ -381,10 +469,10 @@ const DoctorPage = () => {
                                                                                                                     </svg>
                                                                                                                 </div>
                                                                                                                 <h4 className="flip-box-title">
-                                                                                                                    {applyFontFallback(doctor.workingShifts.flipFront1)}
+                                                                                                                    {applyFontFallback(localizedDoctor.workingShifts.flipFront1)}
                                                                                                                 </h4>
                                                                                                                 <div className="flip-content">
-                                                                                                                    {doctor.workingShifts.flipFrontDesc1}
+                                                                                                                    {localizedDoctor.workingShifts.flipFrontDesc1}
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                             {/* .flip-front-inner */}
@@ -403,10 +491,10 @@ const DoctorPage = () => {
                                                                                                                     </svg>
                                                                                                                 </div>
                                                                                                                 <h4 className="flip-box-title">
-                                                                                                                    {applyFontFallback(doctor.workingShifts.flipBack1)}
+                                                                                                                    {applyFontFallback(localizedDoctor.workingShifts.flipBack1)}
                                                                                                                 </h4>
                                                                                                                 <div className="flip-content">
-                                                                                                                    {doctor.workingShifts.flipBackDesc1}
+                                                                                                                    {localizedDoctor.workingShifts.flipBackDesc1}
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                             {/* .flip-back-inner */}
@@ -445,10 +533,10 @@ const DoctorPage = () => {
                                                                                                                     </svg>
                                                                                                                 </div>
                                                                                                                 <h4 className="flip-box-title">
-                                                                                                                    {applyFontFallback(doctor.workingShifts.flipFront2)}
+                                                                                                                    {applyFontFallback(localizedDoctor.workingShifts.flipFront2)}
                                                                                                                 </h4>
                                                                                                                 <div className="flip-content">
-                                                                                                                    {doctor.workingShifts.flipFrontDesc2}
+                                                                                                                    {localizedDoctor.workingShifts.flipFrontDesc2}
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                             {/* .flip-front-inner */}
@@ -467,10 +555,10 @@ const DoctorPage = () => {
                                                                                                                     </svg>
                                                                                                                 </div>
                                                                                                                 <h4 className="flip-box-title">
-                                                                                                                    {applyFontFallback(doctor.workingShifts.flipBack2)}
+                                                                                                                    {applyFontFallback(localizedDoctor.workingShifts.flipBack2)}
                                                                                                                 </h4>
                                                                                                                 <div className="flip-content">
-                                                                                                                    {doctor.workingShifts.flipBackDesc2}
+                                                                                                                    {localizedDoctor.workingShifts.flipBackDesc2}
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                             {/* .flip-back-inner */}
@@ -495,24 +583,43 @@ const DoctorPage = () => {
                                         </div>
                                         {/* .team-content-wrap */}
                                         {/* Navigation Links */}
-                                        <div className="row" style={{ display: 'flex', justifyContent: 'space-between', margin: '20px 0' }}>
-                                            {prevDoctor && (
-                                                <Link
-                                                    to={`/${i18n.language}/doctor/${prevDoctor.id}`}
-                                                    className="btn btn-primary"
-                                                    style={{ margin: '10px' }}
-                                                >
-                                                    &larr; Previous Doctor
-                                                </Link>
+                                        {/* Navigation Links */}
+                                        <div className="custom-post-nav">
+                                            {prevDoctor && prevDoctor.link && (
+                                                <div className="prev-nav-link">
+                                                    <Link
+                                                        to={`/${i18n.language}/doctor/${getSlugFromLink(prevDoctor.link)}`}
+                                                        className="doc-nav-arrows"
+                                                    >
+                                                        <svg width="30" height="24" fill="#000000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400.004 400.004" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757 c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072 c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315 C400.004,190.438,392.251,182.686,382.688,182.686z"></path> </g> </g></svg>
+                                                        <div>{i18n.language === 'ar' ? prevDoctor.name_arabic : prevDoctor.name}</div>
+                                                    </Link>
+                                                </div>
                                             )}
-                                            {nextDoctor && (
+                                            {nextDoctor && nextDoctor.link && (
+                                                <div className="next-nav-link">
                                                 <Link
-                                                    to={`/${i18n.language}/doctor/${nextDoctor.id}`}
-                                                    className="btn btn-primary"
-                                                    style={{ margin: '10px', marginLeft: 'auto' }}
+                                                    to={`/${i18n.language}/doctor/${getSlugFromLink(nextDoctor.link)}`}
+                                                    className="doc-nav-arrows"
                                                 >
-                                                    Next Doctor &rarr;
+                                                    <div>{i18n.language === 'ar' ? nextDoctor.name_arabic : nextDoctor.name}</div>
+                                                    <svg width="30" height="24" fill="#5C4033" viewBox="0 -6.5 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                                        <g id="SVGRepo_iconCarrier">
+                                                            <title>right-arrow</title>
+                                                            <desc>Created with Sketch.</desc>
+                                                            <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                                <g id="ui-gambling-website-lined-icnos-casinoshunter" transform="translate(-1511.000000, -158.000000)" fill="#5C4033" fill-rule="nonzero">
+                                                                    <g id="1" transform="translate(1350.000000, 120.000000)">
+                                                                        <path d="M187.812138,38.5802109 L198.325224,49.0042713 L198.41312,49.0858421 C198.764883,49.4346574 198.96954,49.8946897 199,50.4382227 L198.998248,50.6209428 C198.97273,51.0514917 198.80819,51.4628128 198.48394,51.8313977 L198.36126,51.9580208 L187.812138,62.4197891 C187.031988,63.1934036 185.770571,63.1934036 184.990421,62.4197891 C184.205605,61.6415481 184.205605,60.3762573 184.990358,59.5980789 L192.274264,52.3739093 L162.99947,52.3746291 C161.897068,52.3746291 161,51.4850764 161,50.3835318 C161,49.2819872 161.897068,48.3924345 162.999445,48.3924345 L192.039203,48.3917152 L184.990421,41.4019837 C184.205605,40.6237427 184.205605,39.3584519 184.990421,38.5802109 C185.770571,37.8065964 187.031988,37.8065964 187.812138,38.5802109 Z" id="right-arrow"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
                                                 </Link>
+                                                </div>
                                             )}
                                         </div>
                                     </div>

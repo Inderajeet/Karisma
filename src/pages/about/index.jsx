@@ -12,19 +12,31 @@ const About = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/api/aboutuspage");
+        const response = await fetch("https://demo.karismamc.com/api/aboutuspage");
         const data = await response.json();
-
+  
         if (data.success) {
           setAboutData({
             deptName: data.data.dept_name,
             bannerImage: data.data.banner_image,
             bannerPosition: data.data.banner_position,
             home: data.data.home,
-            section1: JSON.parse(data.data.section1),
-            section2: JSON.parse(data.data.section2),
-            ceoMessage: data.data.ceo_message ? JSON.parse(data.data.ceo_message) : null,
-            ourStory: data.data.our_story ? JSON.parse(data.data.our_story) : null,
+            section1: {
+              ...data.data.section1,
+              image: data.data.section1_image // Add image to section1
+            },
+            section2: {
+              ...data.data.section2,
+              image: data.data.story_image // Add image to section2
+            },
+            ceoMessage: {
+              ...(data.data.ceo_message || {}),
+              ceoImg: data.data.ceo_image // Add CEO image
+            },
+            ourStory: {
+              ...(data.data.our_story || {}),
+              image: data.data.story_image // Add story image
+            }
           });
         }
       } catch (err) {
@@ -33,24 +45,24 @@ const About = () => {
         setLoading(false);
       }
     };
-
+  
     fetchData();
   }, []);
+  
 
   if (!ready || loading) {
-    return <div>Loading...</div>;
+    return <p style={{padding:"140px"}}></p>;
   }
 
   if (error) {
-    return <div>Error: {error}</div>;
+    return <p style={{padding:"140px"}}>Error:{error}</p>;
   }
 
   if (!aboutData) {
-    return <div>Error: About content is not available.</div>;
+    return <p style={{padding:"140px"}}></p>;
   }
 
   const { deptName, bannerImage, bannerPosition, home, section1, section2, ceoMessage, ourStory } = aboutData;
-
   return (
     <div>
       <CommonServiceBanner
@@ -58,12 +70,13 @@ const About = () => {
         bannerImage={bannerImage || ""}
         bannerPosition={bannerPosition}
         deptLink={deptName}
-        home={home}
+        home="Home"
       />
 
       {ourStory && (
        <div className="our-story-container">
-       <h2 className="title our-story-heading">{ourStory?.title}</h2>
+       {/* <h2 className="title our-story-heading">{ourStory?.title}</h2> */}
+       <h2 className="title our-story-heading">Our Story</h2>
      
        {/* Inject the API content */}
        <div
@@ -103,7 +116,8 @@ const About = () => {
                     <img src={ceoMessage.ceoImg} alt="CEO" />
                   </div>
                   <div className="ceo-text-container">
-                    <p className="title ceo-message-heading">{ceoMessage.title}</p>
+                    {/* <p className="title ceo-message-heading">{ceoMessage.title}</p> */}
+                    <p className="title ceo-message-heading">CEO Message</p>
                     <p className="ceo-message-tagline">{ceoMessage.ceoMessageTagline}</p>
                     {ceoMessage.ceoMessageContent?.map((para, i) => (
                       <p key={i} className="ceo-message-content" dangerouslySetInnerHTML={{ __html: para }} />

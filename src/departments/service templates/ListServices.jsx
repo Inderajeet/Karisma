@@ -6,13 +6,12 @@ import { useTranslation } from "react-i18next";
 export const applyFontFallback = (text) => {
   if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
 
-  return text.split(/\b/).map((word, index) => 
-      /^[A-Za-z0-9 ]+$/.test(word) // If word is English/number/space, keep normal font
-          ? word
-          : <span key={index} className="fallback-font">{word}</span> // Apply fallback only for non-English words
+  return text.split(/\b/).map((word, index) =>
+    /^[A-Za-z0-9 ]+$/.test(word) // If word is English/number/space, keep normal font
+      ? word
+      : <span key={index} className="fallback-font">{word}</span> // Apply fallback only for non-English words
   );
 };
-
 
 
 export default function ListServices({ services }) {
@@ -22,6 +21,8 @@ export default function ListServices({ services }) {
 
   return (
     <>
+      <div className="custsectionStyle customContainer" style={{ paddingTop: '1rem', paddingBottom: '0rem' }}>
+        <h2 className="title">{applyFontFallback('Related Services')}</h2></div>
       <div className="customContainer" style={{ paddingTop: "0px" }}>
         <div className="col-md-12 order-md-2">
           <div className="post-inner">

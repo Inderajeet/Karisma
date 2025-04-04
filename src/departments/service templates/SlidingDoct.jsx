@@ -7,7 +7,15 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { useTranslation } from "react-i18next";
 import "./slideDoctor.css";
+export const applyFontFallback = (text) => {
+    if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
 
+    return text.split(/\b/).map((word, index) =>
+        /^[A-Za-z0-9 ]+$/.test(word) // If word is English/number/space, keep normal font
+            ? word
+            : <span key={index} className="fallback-font">{word}</span> // Apply fallback only for non-English words
+    );
+};
 const SlidingDoct = ({ doctors, isRTL }) => {
     console.log("SlidingDoct Doctors Prop:", doctors);
     console.log("SlidingDoct isRTL Prop:", isRTL);
@@ -16,6 +24,8 @@ const SlidingDoct = ({ doctors, isRTL }) => {
 
     return (
         <>
+        <div className="custsectionStyle customContainer" style={{ paddingTop: '1rem', paddingBottom: '1rem' }}>
+            <h2 className="title">{applyFontFallback('Our Doctors')}</h2></div>
             <div
                 data-elementor-type="wp-page"
                 data-elementor-id={73397}
@@ -52,11 +62,7 @@ const SlidingDoct = ({ doctors, isRTL }) => {
                                                 autoplay={{
                                                     delay: 3000,
                                                     disableOnInteraction: false,
-                                                    reverseDirection: isRTL,
-                                                }}
-                                                dir={isRTL ? "rtl" : "ltr"}
-                                                style={{
-                                                    direction: isRTL ? "rtl" : "ltr",
+                                                    // reverseDirection: isRTL,
                                                 }}
                                                 breakpoints={{
                                                     0: { slidesPerView: 1 },

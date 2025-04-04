@@ -1,93 +1,90 @@
 import React from "react";
 import "../../custom_css/serviceTemplate.css";
 
-const renderFeature = (feature, index, level = 1) => {
-    let className = "content-featureItem divP";
+const ColorSection = ({ 
+  title, 
+  content = []
+}) => {
+  // Handle list items (keep your existing implementation)
+  const renderListItem = (item, index, level = 1) => {
+    if (typeof item === "string") {
+      if (item.includes(":")) {
+        const [key, value] = item.split(/:(.+)/);
+        return (
+          <li key={index} className={`content-featureItem level-${level}`}>
+            <strong>{key}:</strong> {value.trim()}
+          </li>
+        );
+      }
+      return <li key={index} className={`content-featureItem level-${level}`}>{item}</li>;
+    } 
+    else if (typeof item === "object" && item.title && Array.isArray(item.items)) {
+      const [key, value] = item.title.includes(":") 
+        ? item.title.split(/:(.+)/) 
+        : [item.title, ""];
 
-    if (level === 2 || level === 3) {
-        className = "custom-list-item divP";
-    }
-
-    if (typeof feature === "string") {
-        if (feature.includes(":")) {
-            const [key, value] = feature.split(/:(.+)/);
-            return (
-                <div key={index} className={className}>
-                    <strong>{key}</strong>: {value}
-                </div>
-            );
-        } else {
-            return (
-                <div key={index} className={className}>
-                    {feature}
-                </div>
-            );
-        }
-    } else if (typeof feature === "object" && feature.title && Array.isArray(feature.items)) {
-        if (feature.title.includes(":")) {
-            const [key, value] = feature.title.split(/:(.+)/);
-            return (
-                <div key={index} className={className}>
-                    <strong>{key}</strong>: {value}
-                    <ul style={{ marginLeft: "15px", paddingLeft: "10px" }}>
-                        {feature.items.map((item, subIndex) => (
-                            <li key={subIndex} style={{ listStyleType: "none" }}>
-                                {renderFeature(item, subIndex, level + 1)}
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-            );
-        } else {
-            return (
-                <div key={index} className={className}>
-                    <strong>{feature.title}</strong>
-                    <ul style={{ marginLeft: "15px", paddingLeft: "10px" }}>
-                        {feature.items.map((item, subIndex) => (
-                            <li key={subIndex} style={{ listStyleType: "none" }}>
-                                {renderFeature(item, subIndex, level + 1)}
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-            );
-        }
+      return (
+        <li key={index} className={`content-featureItem level-${level}`}>
+          {key && <strong>{key}:</strong>} {value.trim()}
+          <ul className="content-sublist">
+            {item.items.map((subItem, subIndex) => 
+              renderListItem(subItem, subIndex, level + 1)
+            )}
+          </ul>
+        </li>
+      );
     }
     return null;
-};
+  };
 
-export const applyFontFallback = (text) => {
-    if (!text || typeof text !== "string") return text; // Prevent errors on undefined/null values
-
+  // Font fallback (keep your existing implementation)
+  const applyFontFallback = (text) => {
+    if (!text || typeof text !== "string") return text;
     return text.split(/\b/).map((word, index) => 
-        /^[A-Za-z0-9 ]+$/.test(word) // If word is English/number/space, keep normal font
-            ? word
-            : <span key={index} className="fallback-font">{word}</span> // Apply fallback only for non-English words
+      /^[A-Za-z0-9 ]+$/.test(word)
+        ? word
+        : <span key={index} className="fallback-font">{word}</span>
     );
-};
+  };
 
+  return (
+    <div className="custsectionStyle customContainer" 
+         style={{ marginTop: '0px', marginBottom: '0px' }}>
+      
+      {/* Always show title */}
+      {title && (
+        <h2 className="title">{applyFontFallback(title)}</h2>
+      )}
 
-const ColorSection = ({ title, description, description2, features, heading, heading2 }) => {
-    return (
-        <div className="custsectionStyle customContainer" style={{ marginTop: "0px", marginBottom: "0px" }}>
-            {title && <h2 className="title">{applyFontFallback(title)}</h2>}
-
-            {heading && heading !== title && (
-                <p style={{ fontFamily: 'The Seasons', fontWeight: '600' }}>
-                    <strong>{heading}</strong>
-                </p>
-            )}
-            {description && <p>{description}</p>}
-            {heading2 && heading2 !== title && (
-                <p style={{ fontFamily: 'The Seasons', fontWeight: '600' }}>
-                    <strong>{heading2}</strong>
-                </p>
-            )}
-
-            {features && <div className="featuresContainer divP">{features.map((feature, index) => renderFeature(feature, index, 1))}</div>}
-            {description2 && <p>{description2}</p>}
-        </div>
-    );
+      {/* Render content in original order */}
+      {content.map((item, index) => {
+        switch (item.type) {
+          case 'heading':
+            return (
+              <p key={index} className="content-heading">
+                <strong>{item.text}</strong>
+              </p>
+            );
+          case 'paragraph':
+            return (
+              <p key={index} className="content-paragraph">
+                {item.text}
+              </p>
+            );
+          case 'list':
+            return (
+              <ul key={index} className="content-list">
+                {item.items.map((listItem, idx) => 
+                  renderListItem(listItem, idx)
+                )}
+              </ul>
+            );
+          default:
+            return null;
+        }
+      })}
+    </div>
+  );
 };
 
 export default ColorSection;

@@ -12,6 +12,8 @@ const MobileMenu = () => {
     const navigate = useNavigate();
     
     // State declarations
+    const [departmentsData, setDepartmentsData] = useState([]);
+
     const [data, setData] = useState({ styles: {}, images: {} });
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -25,29 +27,36 @@ const MobileMenu = () => {
     const [departments, setDepartments] = useState([]);
     const [logo, setLogo] = useState(null);
 
-    // Fetch departments
     useEffect(() => {
-        fetch("/api/departments/")
-            .then((res) => res.json())
-            .then((data) => {
-                if (data.success && data.departmentPage) {
-                    const deptMenu = data.departmentPage.slice(1).map((dept) => ({
-                        label: i18n.language === "ar" ? dept.title_arabic || dept.title : dept.title,
-                        link: `/departments/${dept.link}`,
-                        subMenu: (i18n.language === "ar" ? dept.listItems_arabic || dept.listItems : dept.listItems)?.map((item) => ({
-                            label: item,
-                            link: `/departments/${dept.link}/${item.replace(/\s+/g, "-").toLowerCase()}`
-                        }))
-                    }));
-                    setDepartments(deptMenu);
-                }
-            })
-            .catch((error) => {
-                console.error("Error fetching departments:", error);
-                setError(error);
-            });
-    }, [i18n.language]);
+        setLoading(true);
+        setError(null);
 
+        fetch("https://demo.karismamc.com/api/departments", {
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json'
+            }
+        })
+        .then((res) => {
+            if (!res.ok) {
+                throw new Error(`HTTP error! Status: ${res.status}`);
+            }
+            return res.json();
+        })
+        .then((data) => {
+            if (data && data.departmentPage && Array.isArray(data.departmentPage)) {
+                setDepartmentsData(data.departmentPage);
+            } else {
+                throw new Error("Invalid data format or no departments found");
+            }
+            setLoading(false);
+        })
+        .catch((err) => {
+            console.error("Error fetching department data:", err);
+            setError(err);
+            setLoading(false);
+        });
+    }, []);
     useEffect(() => {
         document.body.dir = i18n.dir();
     }, [i18n.language]);

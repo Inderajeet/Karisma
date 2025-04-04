@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import DynamicBanner from '../components/DynamicBanner';
 import { useTranslation } from 'react-i18next';
+import Accordion from '../components/Accordian';
 
 export default function Careers() {
   const { t, i18n } = useTranslation('career');
@@ -12,7 +13,7 @@ export default function Careers() {
     setLoading(true);
     setError(null);
 
-    fetch('/api/career')
+    fetch('https://demo.karismamc.com/api/careerpage')
       .then((res) => res.json())
       .then((data) => {
         if (data && data.success && data.career) {
@@ -30,15 +31,15 @@ export default function Careers() {
   }, []);
 
   if (loading) {
-    return <p>Loading career information...</p>;
+    return <p style={{padding:"140px"}}></p>;
   }
 
   if (error) {
-    return <p>Error: {error}</p>;
+    return <p style={{padding:"140px"}}>Error: {error}</p>;
   }
 
   if (!careerData) {
-    return <p>Career data not found.</p>;
+    return <p style={{padding:"140px"}}></p>;
   }
 
   return (
@@ -50,6 +51,7 @@ export default function Careers() {
         home={careerData.home}
       />
       <div style={{ margin: '10rem 0' }}></div>
+      {/* <Accordion></Accordion> */}
       <div
         className="line-container"
         style={{

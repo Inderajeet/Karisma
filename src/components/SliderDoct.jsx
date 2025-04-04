@@ -14,42 +14,42 @@ const SliderDoct = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-       // Set initial state
-       setLoading(true);
-       setError(null);
-       
-       console.log("Fetching doctors data from API...");
-       
-       // Use fetch with promise chain
-       fetch('/api/doctors', {
-         method: 'GET',
-         headers: {
-           'Accept': 'application/json',
-           'Content-Type': 'application/json'
-         }
-       })
-       .then(response => {
-         if (!response.ok) {
-           throw new Error(`HTTP error! Status: ${response.status}`);
-         }
-         return response.json();
-       })
-       .then(data => {
-         console.log("Doctors data received:", data);
-         if (data && data.doctors && Array.isArray(data.doctors)) {
-           setDoctors(data.doctors);
-         } else {
-           throw new Error("Invalid data format or no doctors found");
-         }
-         setLoading(false);
-       })
-       .catch(err => {
-         console.error("Failed to fetch doctors:", err);
-         setError(`Failed to fetch doctors: ${err.message}`);
-         setLoading(false);
-       });
-     }, []);
-   
+    // Set initial state
+    setLoading(true);
+    setError(null);
+
+    console.log("Fetching doctors data from API...");
+
+    // Use fetch with promise chain
+    fetch('https://demo.karismamc.com/api/doctors', {
+      method: 'GET',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      }
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.log("Doctors data received:", data);
+        if (data && data.doctors && Array.isArray(data.doctors)) {
+          setDoctors(data.doctors);
+        } else {
+          throw new Error("Invalid data format or no doctors found");
+        }
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error("Failed to fetch doctors:", err);
+        setError(`Failed to fetch doctors: ${err.message}`);
+        setLoading(false);
+      });
+  }, []);
+
   if (loading) return <p>Loading doctors...</p>;
   if (error) return <p>Error: {error}</p>;
 
@@ -98,8 +98,16 @@ const SliderDoct = () => {
                 <ul className="nav bottom-meta-list meta-left">
                   <li>
                     <div>
-                      <div className="homefont">
-                        {t('doctors.readMore')}
+                      <div
+                        href={doctor.link}
+                        className="homefont"
+                        style={{
+                          color: "#577065",
+                          fontWeight: "600",
+                          fontSize: "16px",
+                        }}
+                      >
+                        {doctor.readMore}
                       </div>
                     </div>
                   </li>
