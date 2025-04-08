@@ -27,53 +27,62 @@ const MobileMenu = () => {
     const [departments, setDepartments] = useState([]);
     const [logo, setLogo] = useState(null);
 
-    useEffect(() => {
-        setLoading(true);
-        setError(null);
-
-        fetch("https://demo.karismamc.com/api/departments", {
-            method: 'GET',
-            headers: {
-                'Accept': 'application/json'
-            }
-        })
-        .then((res) => {
-            if (!res.ok) {
-                throw new Error(`HTTP error! Status: ${res.status}`);
-            }
-            return res.json();
-        })
-        .then((data) => {
-            if (data && data.departmentPage && Array.isArray(data.departmentPage)) {
-                setDepartmentsData(data.departmentPage);
-            } else {
-                throw new Error("Invalid data format or no departments found");
-            }
-            setLoading(false);
-        })
-        .catch((err) => {
-            console.error("Error fetching department data:", err);
-            setError(err);
-            setLoading(false);
-        });
-    }, []);
-    useEffect(() => {
-        document.body.dir = i18n.dir();
-    }, [i18n.language]);
 
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const data = await fetchAllJson();
-                setData(data); // Dynamically load header data
+                setLoading(true);
+                setError(null);
+                
+                // Fetch both data and departments in parallel
+                const [jsonData, departmentsData] = await Promise.all([
+                    fetchAllJson(),
+                    fetch("https://demo.karismamc.com/api/departments", {
+                        method: 'GET',
+                        headers: {
+                            'Accept': 'application/json'
+                        }
+                    }).then(res => {
+                        if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
+                        return res.json();
+                    })
+                ]);
+
+                setData(jsonData);
+                
+                // Format departments data
+                if (departmentsData && departmentsData.departmentPage && Array.isArray(departmentsData.departmentPage)) {
+                    const formattedDepartments = departmentsData.departmentPage.slice(1).map(dept => ({
+                        label: i18n.language === 'ar' ? dept.title_arabic || dept.title : dept.title,
+                        link: `/${dept.link}`,
+                        subMenu: dept.listItems?.map(item => ({
+                            label: i18n.language === 'ar' ? item.service_name_arabic || item.service_name : item.service_name,
+                            link: `/${dept.link}#${item.service_name.toLowerCase().replace(/\s+/g, '-')}`
+                        })) || []
+                    }));
+                    setDepartments(formattedDepartments);
+                } else {
+                    throw new Error("Invalid departments data format");
+                }
+                
                 setLoading(false);
             } catch (err) {
-                setError(err.message);
+                console.error("Error fetching data:", err);
+                setError(err);
+                
+                // Fallback to default departments if available
+                const header = t("header", { returnObjects: true });
+                if (header?.departments) {
+                    setDepartments(header.departments);
+                }
+                
                 setLoading(false);
             }
         };
+
         fetchData();
-    }, []);
+    }, [i18n.language, t]);
+
     // scroll
     useEffect(() => {
         const handleScroll = () => {
@@ -131,18 +140,25 @@ const MobileMenu = () => {
             [index]: !prev[index],
         }));
     };
+    useEffect(() => {
+        console.log("Departments data updated:", departments);
+    }, [departments]);
     const updatedMenu = menuItems.map((menu) => {
         if (menu.link === "/departments") {
-            return { 
-                ...menu, 
-                subMenu: departments.length > 0 ? departments : menu.subMenu || [] 
+            return {
+                label: menu.label, // Keep the original label ("Departments")
+                link: menu.link,  // Keep the original link
+                subMenu: departments.map(dept => ({
+                    label: dept.label,
+                    link: dept.link,
+                    subMenu: dept.subMenu // Include the services submenu
+                }))
             };
         }
         return menu;
     });
 
-
-    if (loading) return <div>Loading...</div>;
+    if (loading) return <div></div>;
     if (error) return <div>Error: {error.message}</div>;
 
     const handleLinkClick = (item) => {

@@ -75,7 +75,7 @@ const MainMenu = () => {
   }, [i18n]);
 
   useEffect(() => {
-    fetch("https://demo.karismamc.com/api/departments/", {
+    fetch("https://demo.karismamc.com/api/departments", {
         method: 'GET',
         headers: {
             'Accept': 'application/json'
@@ -92,7 +92,7 @@ const MainMenu = () => {
         if (data.success && data.departmentPage) {
             const deptMenu = data.departmentPage.slice(1).map((dept) => ({
                 label: i18n.language === "ar" ? dept.title_arabic || dept.title : dept.title,
-                link: `/departments/${dept.link}`,
+                link: `/${dept.link}`,
                 subMenu: (i18n.language === "ar" ? dept.listItems_arabic : dept.listItems)?.map((item) => {
                     const label = i18n.language === "ar"
                         ? item.service_name_arabic || item.service_name
@@ -100,7 +100,7 @@ const MainMenu = () => {
 
                     return {
                         label,
-                        link: `/departments/${dept.link}/${label.replace(/\s+/g, "-").toLowerCase()}`
+                        link: `/${dept.link}/${label.replace(/\s+/g, "-").toLowerCase()}`
                     };
                 })
             }));

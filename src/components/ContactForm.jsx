@@ -127,7 +127,7 @@ export default function ContactForm() {
         setIsSubmitting(true);
         try {
             // 🔥 Updated to PHP API endpoint
-            const response = await fetch('http://frontend.karismamc.com/contact/contact_form.php', {
+            const response = await fetch('https://frontend.karismamc.com/contact/contact_form.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

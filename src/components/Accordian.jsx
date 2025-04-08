@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './accordian.css';
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa'; // Importing arrow icons
+import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 const Accordion = ({ title, content, onApply }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,12 +12,12 @@ const Accordion = ({ title, content, onApply }) => {
   return (
     <div className="accordion">
       <div className="accordion-header" onClick={toggleAccordion}>
-        <h3>{title}</h3>
-        <span>{isOpen ? <FaChevronUp /> : <FaChevronDown />}</span> {/* Toggle between up and down arrows */}
+        <h3 className='title'>{title}</h3>
+        <span>{isOpen ? <FaChevronUp /> : <FaChevronDown />}</span>
       </div>
       {isOpen && (
         <div className="accordion-content">
-          <p>{content}</p>
+          {content}
           <button className="apply-button third" onClick={onApply}>
             Apply Now
           </button>

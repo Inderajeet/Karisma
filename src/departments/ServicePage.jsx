@@ -3,39 +3,107 @@ import { useParams } from "react-router-dom";
 import ContentSection from "./service templates/ContentSection";
 import SlidingDoct from "./service templates/SlidingDoct";
 import CommonServiceBanner from "./CommonServiceBanner";
-import ImageContentNew from "./service templates/ImageContentNew";
+import ImageContent from "./service templates/ImageContent";
 import ColorSection from "./service templates/ColorSection";
 
-const parseSectionContent = (html) => {
-    if (!html) return { header: '', description: '', features: [] };
+const parseSectionContent = (html, sectionTitle = '') => {
+    if (!html) return { blocks: [{ title: sectionTitle, content: [] }] };
 
     const tempDiv = document.createElement("div");
     tempDiv.innerHTML = html;
 
     const result = {
-        header: '',
-        description: '',
-        features: []
+        blocks: [],
+        currentBlock: { title: sectionTitle, content: [] }
     };
 
+    // Process nodes
     Array.from(tempDiv.childNodes).forEach(node => {
-        if (node.nodeName === 'P') {
+        if (/^H[2-4]$/.test(node.nodeName)) {
+            // For headings in content (not first section)
+            if (result.currentBlock.content.length > 0 || result.currentBlock.title !== sectionTitle) {
+                result.blocks.push(result.currentBlock);
+            }
+            result.currentBlock = {
+                title: node.textContent.trim(),
+                content: []
+            };
+        }
+        else if (node.nodeName === 'BR') {
+            // For breaks between content blocks
+            if (result.currentBlock.content.length > 0 || result.currentBlock.title !== sectionTitle) {
+                result.blocks.push(result.currentBlock);
+            }
+            result.currentBlock = {
+                title: sectionTitle,
+                content: []
+            };
+        }
+        else if (node.nodeName === 'P') {
             const text = node.textContent.trim();
             if (text) {
-                if (node.querySelector('b') || node.querySelector('strong')) {
-                    result.header = text;
-                } else if (!result.description) {
-                    result.description = text;
+                // Special handling for bold text - split into heading and paragraph if needed
+                const boldElements = node.querySelectorAll('b, strong');
+                if (boldElements.length > 0) {
+                    // If the entire paragraph is bold, treat as heading
+                    if (node.textContent.trim() === boldElements[0].textContent.trim()) {
+                        result.currentBlock.content.push({
+                            type: 'heading',
+                            text: node.textContent.trim()
+                        });
+                    } else {
+                        // If only part is bold, split it
+                        let lastIndex = 0;
+                        boldElements.forEach(bold => {
+                            // Add text before bold as paragraph
+                            const beforeText = node.textContent.slice(lastIndex, bold.textContent.index).trim();
+                            if (beforeText) {
+                                result.currentBlock.content.push({
+                                    type: 'paragraph',
+                                    text: beforeText
+                                });
+                            }
+                            // Add bold text as heading
+                            result.currentBlock.content.push({
+                                type: 'heading',
+                                text: bold.textContent.trim()
+                            });
+                            lastIndex = bold.textContent.index + bold.textContent.length;
+                        });
+                        // Add remaining text after last bold
+                        const afterText = node.textContent.slice(lastIndex).trim();
+                        if (afterText) {
+                            result.currentBlock.content.push({
+                                type: 'paragraph',
+                                text: afterText
+                            });
+                        }
+                    }
+                } else {
+                    // Normal paragraph
+                    result.currentBlock.content.push({
+                        type: 'paragraph',
+                        text: text
+                    });
                 }
             }
         }
         else if (node.nodeName === 'UL') {
-            result.features = Array.from(node.querySelectorAll('li')).map(li => li.textContent);
+            result.currentBlock.content.push({
+                type: 'list',
+                items: Array.from(node.querySelectorAll('li')).map(li => li.textContent.trim())
+            });
         }
     });
 
+    // Add the last block
+    if (result.currentBlock.content.length > 0 || result.blocks.length === 0) {
+        result.blocks.push(result.currentBlock);
+    }
+
     return result;
 };
+
 
 const ServicePage = () => {
     const { deptName, serviceName } = useParams();
@@ -73,7 +141,7 @@ const ServicePage = () => {
             });
 
         // Fetch doctors
-        fetch('/api/doctors')
+        fetch('https://demo.karismamc.com/api/doctors')
             .then(res => res.json())
             .then(data => {
                 if (data?.doctors) {
@@ -82,7 +150,7 @@ const ServicePage = () => {
             });
     }, [deptName, serviceName]);
 
-    if (loading) return <p style={{ padding: "140px" }}>Loading...</p>;
+    if (loading) return <p style={{ padding: "140px" }}></p>;
     if (error) return <p style={{ padding: "140px" }}>Error: {error}</p>;
     if (!service) return <p style={{ padding: "140px" }}>Service not found!</p>;
 
@@ -90,39 +158,9 @@ const ServicePage = () => {
         doctor.department?.toLowerCase() === service.department?.toLowerCase()
     );
 
-    // First section handling for ImageContentNew
+    // First section handling for ImageContent
     const firstSection = service.servicesections?.[0];
-    const firstSectionContent = firstSection ? parseSectionContent(firstSection.section_description) : {};
-
-    const renderSection = (section, index) => {
-        const content = parseSectionContent(section.section_description);
-        const isColored = index % 2 !== 0;
-
-        return (
-            <div key={section.id || index} style={isColored ? {
-                backgroundColor: '#c4a98863',
-                padding: '1rem 1rem'
-            } : null}>
-                {isColored ? (
-                    <ColorSection
-                        title={section.section_title}
-                        heading={content.header}
-                        description={content.description}
-                        features={content.features}
-                    />
-                ) : (
-                    <div style={{ paddingTop: '1rem', paddingBottom: '1rem' }}>
-                    <ContentSection
-                        title={section.section_title}
-                        heading={content.header}
-                        description={content.description}
-                        features={content.features}
-                    />
-                    </div>
-                )}
-            </div>
-        );
-    };
+    const firstSectionContent = firstSection ? parseSectionContent(firstSection.section_description) : { content: [] };
 
     return (
         <>
@@ -134,22 +172,104 @@ const ServicePage = () => {
                 home="Home"
             />
 
-            {/* ImageContentNew with service_name as title and first section content */}
+            {/* First section with service name as title */}
             {firstSection && (
-                <ImageContentNew
-                    title={service.service_name}  // Service name as main title
-                    heading={firstSection.section_title}  // First section title as heading
-                    description={firstSectionContent.description}
-                    features={firstSectionContent.features}
-                    imageUrl={firstSection.section_image}
-                />
-            )}
+    <ImageContent
+        title={service.service_name}
+        imageUrl={firstSection.section_image}
+        imageAlt={service.service_name}
+        content={(() => {
+            const parsed = parseSectionContent(firstSection.section_description);
+            
+            // Transform content for first section specifically:
+            // 1. Section title becomes first heading
+            // 2. Bold paragraphs become headings
+            // 3. Normal paragraphs stay as paragraphs
+            const transformedContent = [
+                // Add section title as first heading
+                {
+                    type: 'heading',
+                    text: firstSection.section_title
+                },
+                // Process all other content
+                ...parsed.blocks.flatMap(block => 
+                    block.content.map(item => {
+                        // Convert any bold paragraphs to headings
+                        if (item.type === 'paragraph' && item.text.includes('<b>')) {
+                            return {
+                                type: 'heading',
+                                text: item.text.replace(/<\/?b>/g, '')
+                            };
+                        }
+                        return item;
+                    })
+                )
+            ];
+            
+            return transformedContent;
+        })()}
+    />
+)}
+            {service.servicesections?.slice(1).map((section, index, arr) => {
+                const parsedContent = parseSectionContent(section.section_description, section.section_title);
+                const hasImage = !!section.section_image;
+                const isColoredSection = index % 2 !== 0; // Alternate colors
 
-            {/* Render remaining sections alternately */}
-            {service.servicesections?.slice(1).map((section, index) =>
-                renderSection(section, index)
-            )}
+                if (hasImage) {
+                    return (
+                        <ImageContent
+                            key={section.id || index}
+                            title={section.section_title}
+                            content={parsedContent.blocks.flatMap(block => block.content)}
+                            imageUrl={section.section_image}
+                            imageAlt={section.section_title}
+                        />
+                    );
+                }
 
+                return (
+                    <React.Fragment key={section.id || index}>
+                        {parsedContent.blocks.map((block, blockIndex, blocks) => {
+                            const isFirstBlock = blockIndex === 0;
+                            const isLastBlock = blockIndex === blocks.length - 1;
+                            const hasMultipleBlocks = blocks.length > 1;
+
+                            let padding = '1rem';
+                            if (hasMultipleBlocks) {
+                                if (isFirstBlock) {
+                                    padding = '1rem 1rem 0 1rem';
+                                } else if (isLastBlock) {
+                                    padding = '0 1rem 1rem 1rem';
+                                } else {
+                                    padding = '0 1rem';
+                                }
+                            }
+
+                            return (
+                                <div
+                                    key={`${section.id}-${blockIndex}`}
+                                    style={{
+                                        backgroundColor: isColoredSection ? '#c4a98863' : 'transparent',
+                                        padding: padding
+                                    }}
+                                >
+                                    {isColoredSection ? (
+                                        <ColorSection
+                                            title={block.title}
+                                            content={block.content}
+                                        />
+                                    ) : (
+                                        <ContentSection
+                                            title={isFirstBlock ? section.section_title : block.title}
+                                            content={block.content}
+                                        />
+                                    )}
+                                </div>
+                            );
+                        })}
+                    </React.Fragment>
+                );
+            })}
             {filteredDoctors.length > 0 && (
                 <SlidingDoct doctors={filteredDoctors} />
             )}

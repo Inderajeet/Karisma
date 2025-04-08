@@ -8,12 +8,78 @@ const ImageContent = ({
   content = [],
   features = [] 
 }) => {
+  // Render feature/list item (same as ContentSection)
+  const renderFeature = (feature, index, level = 1) => {
+    let className = `content-featureItem divP level-${level}`;
+
+    if (level === 2 || level === 3) {
+      className = `custom-list-item divP level-${level}`;
+    }
+
+    if (typeof feature === "string") {
+      if (feature.includes(":")) {
+        const [key, value] = feature.split(/:(.+)/);
+        return (
+          <div key={index} className={className}>
+            <strong>{key}</strong>: {value}
+          </div>
+        );
+      } else {
+        return (
+          <div key={index} className={className}>
+            {feature}
+          </div>
+        );
+      }
+    } else if (typeof feature === "object" && feature.title && Array.isArray(feature.items)) {
+      if (feature.title.includes(":")) {
+        const [key, value] = feature.title.split(/:(.+)/);
+        return (
+          <div key={index} className={className}>
+            <strong>{key}</strong>: {value}
+            <ul style={{ marginLeft: "15px", paddingLeft: "10px" }}>
+              {feature.items.map((item, subIndex) => (
+                <li key={subIndex} style={{ listStyleType: "none" }}>
+                  {renderFeature(item, subIndex, level + 1)}
+                </li>
+              ))}
+            </ul>
+          </div>
+        );
+      } else {
+        return (
+          <div key={index} className={className}>
+            <strong>{feature.title}</strong>
+            <ul style={{ marginLeft: "15px", paddingLeft: "10px" }}>
+              {feature.items.map((item, subIndex) => (
+                <li key={subIndex} style={{ listStyleType: "none" }}>
+                  {renderFeature(item, subIndex, level + 1)}
+                </li>
+              ))}
+            </ul>
+          </div>
+        );
+      }
+    }
+    return null;
+  };
+
+  // Font fallback (same as ContentSection)
+  const applyFontFallback = (text) => {
+    if (!text || typeof text !== "string") return text;
+    return text.split(/\b/).map((word, index) => 
+      /^[A-Za-z0-9 ]+$/.test(word)
+        ? word
+        : <span key={index} className="fallback-font">{word}</span>
+    );
+  };
+
   // Helper function to render different content types
   const renderContentItem = (item, index) => {
     switch (item.type) {
       case 'heading':
         return (
-          <p key={index} className="content-heading">
+          <p key={index} className="content-heading" style={{ fontFamily: 'The Seasons', fontWeight: '600' }}>
             <strong>{item.text}</strong>
           </p>
         );
@@ -27,54 +93,14 @@ const ImageContent = ({
       
       case 'list':
         return (
-          <ul key={index} className="content-list">
-            {item.items.map((listItem, idx) => renderListItem(listItem, idx))}
-          </ul>
+          <div key={index} className="featuresContainer divP">
+            {item.items.map((feature, idx) => renderFeature(feature, idx, 1))}
+          </div>
         );
       
       default:
         return null;
     }
-  };
-
-  // Recursive function to handle nested lists
-  const renderListItem = (item, index) => {
-    if (typeof item === "string") {
-      if (item.includes(":")) {
-        const [key, value] = item.split(":");
-        return (
-          <li key={index} className="content-featureItem">
-            <strong>{key}:</strong> {value.trim()}
-          </li>
-        );
-      }
-      return <li key={index} className="content-featureItem">{item}</li>;
-    } else if (typeof item === "object" && item.title && Array.isArray(item.items)) {
-      const [key, value] = item.title.includes(":") 
-        ? item.title.split(":") 
-        : [item.title, ""];
-
-      return (
-        <li key={index} className="content-featureItem">
-          {key && <strong>{key}:</strong>} {value.trim()}
-          <ul className="content-sublist">
-            {item.items.map((subItem, subIndex) => renderListItem(subItem, subIndex))}
-          </ul>
-        </li>
-      );
-    }
-    return null;
-  };
-
-  // Font fallback for non-English characters
-  const applyFontFallback = (text) => {
-    if (!text || typeof text !== "string") return text;
-    
-    return text.split(/\b/).map((word, index) => 
-      /^[A-Za-z0-9 ]+$/.test(word)
-        ? word
-        : <span key={index} className="fallback-font">{word}</span>
-    );
   };
 
   // Handle image URL
@@ -122,9 +148,9 @@ const ImageContent = ({
             
             {/* Backward compatibility for features prop */}
             {features.length > 0 && content.length === 0 && (
-              <ul className="content-list">
-                {features.map((feature, index) => renderListItem(feature, index))}
-              </ul>
+              <div className="featuresContainer divP">
+                {features.map((feature, index) => renderFeature(feature, index, 1))}
+              </div>
             )}
           </div>
         </div>

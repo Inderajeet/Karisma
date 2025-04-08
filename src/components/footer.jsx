@@ -1,7 +1,8 @@
 import { fetchAllJson } from "../utils/fetchAllJson"; // Import the utility function
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { useDepartments } from "./useDepartments";  
 
 import i18n from "../i18n";
 
@@ -12,33 +13,70 @@ export default function Footer() {
 
   const logoAlt = "Karisma Logo";
   const logoStyle = { width: 115 };
+  const { departments, loading: deptLoading, error: deptError } = useDepartments(i18n, footers?.departments);
 
   const [jsonData, setJsonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const { lng } = useParams();
 
-  const [departments, setDepartments] = useState([]);
+  // const [departments, setDepartments] = useState([]);
 
   // Add this useEffect near your other useEffect hooks
   // For Departments API
-  useEffect(() => {
-    fetch('https://demo.karismamc.com/api/departments/')
-      .then(response => response.json())
-      .then(data => {
-        if (data && data.success && data.departmentPage && Array.isArray(data.departmentPage)) {
-          const formattedDepts = data.departmentPage.slice(1).map(dept => ({
-            name: i18n.language === 'ar' ? dept.title_arabic || dept.title : dept.title,
-            link: `/${dept.link}`
-          }));
-          setDepartments(formattedDepts);
-        }
-      })
-      .catch(err => {
-        console.error("Departments API error:", err);
-        setDepartments(footers.departments || []); // Fallback to JSON data
-      });
-  }, [i18n.language]); // Removed footers.departments from dependencies
+
+// Inside your component
+// const [lastFetchTime, setLastFetchTime] = useState(0);
+
+// const fetchDepartments = useCallback(async (retryCount = 0) => {
+//   try {
+//     const response = await fetch('https://demo.karismamc.com/api/departments', {
+//       method: 'GET',
+//       headers: {
+//         'Accept': 'application/json',
+//         'Content-Type': 'application/json'
+//       }
+//     });
+
+//     if (!response.ok) {
+//       if (response.status === 429 && retryCount < 3) {
+//         const delay = Math.pow(2, retryCount) * 1000;
+//         await new Promise(resolve => setTimeout(resolve, delay));
+//         return fetchDepartments(retryCount + 1);
+//       }
+//       throw new Error(`HTTP error! Status: ${response.status}`);
+//     }
+
+//     const data = await response.json();
+    
+//     if (data?.success && data.departmentPage) {
+//       const formattedDepts = data.departmentPage.slice(1).map(dept => ({
+//         name: i18n.language === 'ar' ? dept.title_arabic || dept.title : dept.title,
+//         link: `/${dept.link}`
+//       }));
+//       setDepartments(formattedDepts);
+//     } else {
+//       throw new Error("Invalid data format");
+//     }
+//   } catch (err) {
+//     console.error("Departments API error:", err);
+//     if (footers?.departments && departments.length === 0) {
+//       setDepartments(footers.departments);
+//     }
+//   }
+// }, [i18n.language, footers?.departments]);
+
+// useEffect(() => {
+//   const now = Date.now();
+//   const controller = new AbortController();
+
+//   if (now - lastFetchTime > 300000 || departments.length === 0) {
+//     fetchDepartments();
+//     setLastFetchTime(now);
+//   }
+
+//   return () => controller.abort();
+// }, [fetchDepartments, lastFetchTime, departments.length]);
 
   // For ContactPage API (Social Links)
   useEffect(() => {
@@ -155,7 +193,7 @@ export default function Footer() {
                             </Link>
                           </figure>
                           <p
-                            className="custom-footer-txt"
+                            className="custom-footer-txt" style={{fontSize: '16px'}}
                           >
                             {footers.description}
                           </p>
@@ -381,7 +419,6 @@ export default function Footer() {
                                     // fontSize: "16px",
                                   }}
                                   >
-                                  
                                     {dept.name}
                                   </Link>
                                 </li>
